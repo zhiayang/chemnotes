@@ -1,0 +1,178 @@
+% OrganicChem.tex
+% Copyright (c) 2014 - The Foreseeable Future, zhiayang@gmail.com
+
+% These lines tell TeXShop to typeset with xelatex, and to open
+% and save the source with Unicode encoding.
+
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=2.25cm, bottom=2.50cm]{geometry}
+\usepackage[ampersand]{easylist}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\usepackage{lmodern}
+\usepackage{fancyhdr}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{sectsty}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{dashrule}
+\usepackage{chemfig}
+\usepackage{graphicx}
+\usepackage{calc}
+\usepackage{tikz}
+\usepackage[version=4]{mhchem}
+
+\usetikzlibrary{arrows.meta}
+
+
+% Will Robertson's fontspec.sty can be used to simplify font choices.
+% To experiment, open /Applications/Font Book to examine the fonts
+% provided on Mac OS X, and change "Zapfino" to any of these choices.
+
+\usepackage{fontspec, xltxtra, xunicode}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Mapping=tex-text]{HelveticaNeue}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{HelveticaNeue}
+\setmonofont[Scale=MatchLowercase]{Menlo}
+
+\date{}
+\title{Organic Chemistry}
+\author{}
+
+
+
+
+% style settings
+
+\makeatletter
+   \def\@seccntformat#1{\protect\makebox[0pt][r]{\csname
+   the#1\endcsname\quad}}
+\makeatother
+
+
+\newfontfamily\HNRegular[
+	UprightFont		= HelveticaNeue,
+	ItalicFont		= HelveticaNeue-Italic,
+	BoldFont		= HelveticaNeue-Medium,
+	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue}
+
+
+\newfontfamily\HNLight[
+	UprightFont		= HelveticaNeue-Thin,
+	ItalicFont		= HelveticaNeue-LightItalic,
+	BoldFont		= HelveticaNeue-Light,
+	BoldItalicFont	= HelveticaNeue-LightItalic]{HelveticaNeue-Light}
+
+
+\newfontfamily\HNMedium[
+	UprightFont		= HelveticaNeue-Medium,
+	ItalicFont		= HelveticaNeue-MediumItalic,
+	BoldFont		= HelveticaNeue-Bold,
+	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue-Medium}
+
+
+
+
+\newlength\mylen
+\setlength\mylen{1.50cm}
+
+\titleformat{\section}
+  {\HNLight\fontsize{30pt}{36pt}\selectfont}
+  {\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
+  [{\makebox[0cm][l]{}}]
+
+\titleformat{\subsection}
+  {\HNLight\fontsize{20pt}{24pt}\selectfont\bfseries}
+  {\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
+  [{\makebox[0cm][l]{}}]
+
+
+\titleformat{\subsubsection}
+  {\HNLight\fontsize{17pt}{20pt}\selectfont\bfseries}
+  {\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}{0.0em}{}
+  [{\makebox[0cm][l]{}}]
+
+
+\titlespacing*{\section}{0cm}{0cm}{-1.5cm}
+\titlespacing*{\subsection}{0cm}{0.5cm}{-1.5cm}
+\titlespacing*{\subsubsection}{0cm}{0.5cm}{-1.4cm}
+
+
+
+% chemfig stuff
+\setdoublesep{1.25mm}		% spacing between lines in a double bond
+\setatomsep{12mm}			% fixed length of a bond
+\setbondoffset{1.0mm}		% margin
+\setbondstyle{line width=0.45mm}
+
+\renewcommand{\printatom}[1]{\HNRegular\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
+
+
+\input{Commands}
+\input{Preamble}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+
+
+\begin{document}
+
+
+\renewcommand{\headrulewidth}{0pt}
+
+
+% title page
+
+\begin{center}
+
+	\vspace*{1.0cm}
+	\hugetext{Organic Chemistry}
+	\vspace*{1.0cm}
+
+	\includegraphics[width=10cm]{images/title.png}
+	\vspace*{0.8cm}
+
+	\linespread{1.0}
+	\subtext{C\sbs{8}H\sbs{10}N\sbs{4}O\sbs{2}} \break \break
+	\subtext{1,3,7-trimethylpurine-2,6-dione}
+
+	\medskip
+	\subsubtext{\textit{or}}
+	\medskip
+
+	\subtext{Caffeine}
+	\vspace{1.0cm}
+
+	\subsubtext{Chapters 8 to 12}
+
+\end{center}
+
+% end title
+
+% reset
+
+\input{"Chapter 01 - Functional Groups"}
+\input{"Chapter 02 - Isomers"}
+\input{"Chapter 03 - Reaction Mechanisms"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,208 @@
+% Chapter01.tex
+% Copyright (c) 2014 - The Foreseeable Future, zhiayang@gmail.com
+
+\input{Preamble}
+
+\pagebreak
+\section{Isomers}
+\subsection{Overview}
+
+Isomers are molecules that share the same structural formula, yet exist in different forms. The two main
+forms of isomerism are structural isomerism and stereoisomerism. In both cases, the molecular formula of the
+compounds the same, while the chemical and physical properties may differ greatly.
+
+
+\subsection{Structural Isomerism}
+
+	\subsubsection{Chain Isomerism}
+
+		In chain isomerism, molecules have the same functional groups, except they are placed in different positions
+		along the carbon chain. Chain isomers typically have similar chemical properties, but different physical
+		properties (since the shape of the carbon chain can determine the strength of id-id interactions).
+
+		\diagram{
+			\chemfig{!{H3C}-[:30]-[:-30]-[:30]-[:-30]-[:30]!{OH}}\hspace{1cm}
+			\chemfig{!{H3C}-[:30]-[:-30](-[:270]!{CH3})-[:30]-[:-30]!{OH}}
+		}{Pentanol and 3-methylbutan-1-ol are chain isomers.}
+
+	% end subsubsection
+
+
+
+	\subsubsection{Positional Isomerism}
+		Positional isomers have the same arrangement their of carbon chains, and the same functional groups. However, said
+		functional groups are placed at different positions.
+
+
+		\diagram{
+			\chemfig{!{H3C}-[:-30](-[:270]!{OH})-[:30](-[:90]!{OH})-[:-30]-[:30]!{CH3}}\hspace{1cm}
+			\chemfig{!{H3C}-[:-30](-[:270]!{OH})-[:30]-[:-30](-[:270]!{OH})-[:30]!{CH3}}
+		}{Butan-2,3-ol and butan-2,4-ol are positional isomers.}
+
+	% end subsubsection
+
+
+
+
+	\subsubsection{Functional Group Isomerism}
+		This is somewhat a misnomer, since it is exactly the opposite of what it seems to intuit. Functional group isomers
+		share only their molecular formulas; the carbon chain, the functional groups, etc. are all different.
+
+
+		\diagram{
+			% note: this is drawn in this weird fashion (starting with the oxygen) because
+			% chemfig starts the molecule's baseline at the first atom.
+
+			\chemfig{!{O}=^[:90]-[:150]-[:210]!{H3C}}			\hspace{1cm}
+			\chemfig{!{H3C}-[:30](=[:90]!{O})-[:-30]!{CH3}}
+		}{Propanal and acetone are functional group isomers.}
+
+	% end subsubsection
+
+
+% end subsection
+
+\subsection{Stereoisomerism}
+
+	\subsubsection{Overview}
+	Stereoisomers of molecules have the same structure and functional groups, but those groups are arranged in a spatially
+	differing way. The main forms of stereoisomerism are cis/trans (or E/Z) isomerism, and optical isomersim.
+
+	Note that for certain cis/trans (E/Z) isomers, the trans (or E) variant can 'pack' better, resulting in a higher melting
+	point. This doesn't affect the boiling point, since the molecules are too far apart in the gaseous phase for this to matter.
+
+	Additionally, the presence of \textit{intramolecular} (within the same molecule) hydrogen bonds can also be a factor, since
+	it reduces the strength of \textit{intermolecular} hydrogen bonds. Other than these, the chemical and physical properties of
+	stereoisomers are mostly the same.
+
+	% end subsubsection
+
+	% this puts the "cis/trans isomerism" chapter on the next page, so as not to split the image.
+	\pagebreak
+
+	\subsubsection{Cis/Trans Isomerism}
+
+		Only alkenes can exhibit stereoisomerism, due to the C=C bond that restricts rotation along its axis. This is because of the
+		π-bonds that only bond at 180° intervals. At these positions, it forms the cis and trans isomers.
+
+		\diagram[1.2]{
+			\chemfig{C(-[:135]H)(-[:225]R1)=C(-[:45]R2)(-[:315]H)}		\hspace{1.5cm}
+			\chemfig{C(-[:135]H)(-[:225]R1)=C(-[:45]H)(-[:315]R2)}
+		}
+
+		The molecule on the left is the \textit{trans} isomer, while the one on the right is the \textit{cis} isomer. \textit{trans}
+		is from Latin, meaning \textit{other side}, while \textit{cis} obviously means \textit{same side}. In the former,
+		the larger groups are on opposite sides of the alkene double bond, while in the latter, the larger groups are on the same
+		side. Note that these \textit{groups} do not necessarily have to be functional groups –– they can be as large or as simple
+		as one wishes.
+
+		When naming cis/trans isomers, the qualifier \textit{cis} or \textit{trans} is placed before the stem name, like so:
+		\begin{bulletlist}
+			& cis-but-2-ene
+			& trans-but-2-ene
+		\end{bulletlist}
+
+		Note that cis/trans isomerism is not applicable to molecules where identical groups are attached to the any one carbon atom,
+		since there is a line of symmetry going along the plane of the double bond.
+
+
+		\diagram[1.2]{
+			\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]R1)(-[:315]R2)}
+		}
+
+
+	% end subsubsection
+
+
+	% again, this is to prevent hanging section titles with only a few lines of text before a page break.
+	\pagebreak
+
+	\subsubsection{E/Z Isomerism}
+
+		E/Z is thought of as the more comprehensive, general form of cis/trans. Consider the alkene below, with two variants
+		due to the lack of a plane of symmetry:
+
+		\diagram[1.2]{
+			\chemfig{C(-[:135]!{Cl})(-[:225]!{F})=C(-[:45]!{CH3})(-[:315]!{Br})}		\hspace{1.5cm}
+			\chemfig{C(-[:135]!{Cl})(-[:225]!{F})=C(-[:45]!{Br})(-[:315]!{CH3})}
+		}
+
+		It has 4 distinct substituents, and thus a cis/trans designation cannot be used. Behold, E/Z isomerism. At its core it
+		is simply another method of handling alkene isomers that works for more general forms of molecules.
+
+		It follows a scheme of priorities (Cahn-Ingold-Prelog, or CIP), which are determined as such:
+		\begin{romanlist}
+			& The group with the largest atomic mass \textit{directly attached} to the alkene's carbon has the highest priority.
+			& In the event of a tie, look at the atoms directly attached to \textit{that} offending atom. Use the previous
+			  rule, favouring higher priority atoms, to tiebreak. Double bonds are counted twice.
+			& Recursively evaluate the previous rule with attached atoms, to continue the tiebreaking process.
+		\end{romanlist}
+
+		The above scheme should be used to find the two highest-priority groups attached to the alkene, after which, if the two
+		groups are attached on the same side of the alkene, then the molecule is the \textit{Z} isomer, and it is known as the
+		\textit{E} isomer if the reverse is true.
+
+		E and Z come from the German \textit{entgegen} and \textit{zusammen}, \textit{opposite} and \textit{together}
+		respectively.
+
+	% end subsubsection
+
+
+	% again, prettify it.
+	\pagebreak
+	\subsubsection{Optical Isomerism}
+
+		Due to the 3-dimensional tetrahedral nature of a carbon atom, if there are 4 \textit{distinct} substituents, two
+		non-superimposable mirror images can exist, resulting from a lack of any plane of symmetry. Such carbons are called
+		\textit{chiral carbons}, and are the \textit{chiral centres} of the molecule. A molecule can have multiple chiral
+		centres.
+
+		Consider butan-2-ol below. Carbon 2, with the OH group, has 4 different groups attached to it. As such, it is a chiral carbon.
+
+		\diagram{
+			\chemfig{H-C(-[:90]H)(-[:270]H)-C(-[:90]H)(-[:270]!{OH})-C(-[:90]H)(-[:270]H)-C(-[:90]H)(-[:270]H)-H}
+		}
+
+		Indeed, it can take the form of 2 non-superimposable mirror images, that are differentiated by the adjacency of 2 of
+		the 4 groups bonded to the chiral carbon. As can be seen, these two mirror images cannot be rearranged into the other,
+		and are distinct –– these are called \textit{enantiomers}.
+
+		\diagram[1.2]{
+			\chemfig{C(-[:225]H)(-[:90]!{CH2CH3})(<:[:315]!{OH})(<[:350]!{CH3})}		\hspace{0.75cm}\vdashrule{3cm}\hspace{0.75cm}
+			\chemfig{C(-[:315]H)(-[:90]!{CH2CH3})(<:[:225]!{OH})(<[:190]!{CH3})}
+
+		}{The solid wedge indicates a bond coming out of the plane of the paper, while the
+			dashed wedge indicates a bond going into the plane.}
+
+
+		Optical isomers have identical physical properties, except for their treatment of plane-polarised light (this is
+		where the light wave is only oscillating along one plane). One of the isomers will rotate this light clockwise, while the
+		other will rotate it counterclockwise. The magnitude of both rotations are the same.
+
+		If equal amounts of each enantiomer are present in a solution, it is called a \textit{racemic mixture}, and the net
+		rotation of plane polarised light will be 0, for obvious reasons.
+
+		Enantiomers usually have identical chemical properties, except for certain interactions that require a certain spatial
+		orientation to work, such as proteins, that can only work with one of the optical isomers.
+
+	% end subsubsection
+
+
+% end subsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+% Chapter01.tex
+% Copyright (c) 2014 - The Foreseeable Future, zhiayang@gmail.com
+
+\input{Preamble}
+
+
+\section{Reaction Mechanisms}
+
+\subsection{Bond Breaking}
+	\subsubsection{Homolytic Fission}
+
+		Homolytic fission involves the splitting of a single bond, with an equal (\textit{homo}) distribution of the two electrons
+		of the aforementioned bond. This results in the formation of radicals, since now both atoms from the bond will have
+		unpaired electrons.
+
+		The movement of these single electrons is represented with single-hooked arrows. The arrow starts from the bond line, and points
+		towards the target atom receiving the electron.
+
+		\diagram{
+			\schemestart[0, 1.5, thick]
+			\chemfig{@{carb}C(-[@{bond}:0]@{hyd}H)(-[:90]H)(-[:180]H)(-[:270]H)}
+			\arrow{->}
+			\chemfig{\lewis{0.,C}(-[:90]H)(-[:180]H)(-[:270]H)} \hspace{0.5cm} \textbf{+} \hspace{0.5cm} \chemfig{\lewis{4.,H}}
+			\schemestop
+
+			% draw arrows
+			\chemmove{\draw[-{Stealth[left]}, line width=0.4mm, shorten <=1mm, shorten >=1mm](bond).. controls +(90:5mm) and +(120:8mm).. (hyd);}
+			\chemmove{\draw[-{Stealth[left]}, line width=0.4mm, shorten <=1mm, shorten >=1mm](bond).. controls +(270:5mm) and +(285:8mm).. (carb);}
+
+		}{The homolytic fission of \ce{CH4}, forming \ce{CH3} and \ce{H} radicals.}
+
+	% end subsubsection
+
+	\subsubsection{Heterolytic Fission}
+
+		As the name implies, heterolytic fission is the opposite; it distributes both electrons of the bond to a single atom, which
+		usually results in the formation of ions. The transfer here is represented using a full (double-hooked) arrow.
+
+
+		\diagram{
+			\schemestart[0, 1.5, thick]
+			% note: chlorine has to be coloured manually here
+			% because somewhere in chemfig it fucks up, you can't name a submolecule.
+			\chemfig{@{carb}C(-[@{bond}:0]@{chl}\color{OliveGreen}\chlorine)(-[:90]H)(-[:180]H)(-[:270]H)}
+			\arrow{->}
+			\chemfig{C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
+			\hspace{0.5cm} \textbf{+} \hspace{0.5cm}
+			\chemfig{\lewis{4:,\color{OliveGreen}\chlorine}}
+			\schemestop
+
+			% draw arrows
+			\chemmove{\draw[-{Stealth}, line width=0.4mm, shorten <=1mm, shorten >=1mm](bond).. controls +(90:5mm) and +(120:8mm).. (chl);}
+
+
+		}{The heterolytic fission of \ce{CH3\chlorine}, resulting in \ce{CH3+} and \ce{\chlorine-} ions}
+
+	% end subsubsection
+
+
+\subsection{Bond Forming}
+	\subsubsection{Single Electrons}
+
+		Bond forming is essentially the reverse of bond breaking, and hence the same notations apply –– single-hooked arrow for the
+		movement of single electrons, and double-hooked arrows for the movement of an electron pair.
+
+		In this case, two single electrons from each atom contribute to the new bond.
+
+
+		\diagram{
+			\schemestart[0, 1.5, thick]
+			\chemfig{@{carb}\lewis{1.,C}(-[:90]H)(-[:180]H)(-[:270]H)}
+			\hspace{0.5cm} \chemfig{@{plus}\textbf{+}} \hspace{0.5cm}
+			\chemfig{@{hyd}\lewis{5.,H}}
+			\arrow{->}
+			\chemfig{C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H)}
+			\schemestop
+
+			% draw arrows
+			\chemmove{\draw[-{Stealth[left]}, line width=0.4mm, shorten <=2mm, shorten >=1mm](carb).. controls +(45:5mm) and +(120:8mm).. (plus);}
+			\chemmove{\draw[-{Stealth[left]}, line width=0.4mm, shorten <=2mm, shorten >=1mm](hyd).. controls +(225:5mm) and +(285:8mm).. (plus);}
+
+		}{The formation of a bond between \ce{CH3} and \ce{H} radicals to form \ce{CH4}.}
+
+
+	% end subsubsection
+
+
+	\subsubsection{Electron Pairs}
+
+		Electron pairs usually come from negatively charged radicals or lone pars, although this is not a rule.
+		Both electrons come from a single source to form a bond, but this is \textit{not} a dative bond –– it is simply a normal
+		bond.
+
+		\diagram{
+			\schemestart[0, 1.5, thick]
+			\chemfig{@{carb}C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
+			\hspace{0.5cm} \chemfig{\textbf{+}} \hspace{0.5cm}
+			\chemfig{@{chl}\lewis{3:,\color{OliveGreen}\ce{\chlorine-}}}
+			\arrow{->}
+			\chemfig{C(-[:0]!{Cl})(-[:90]H)(-[:180]H)(-[:270]H)}
+			\schemestop
+
+			% draw arrows
+			\chemmove{\draw[-{Stealth}, line width=0.4mm, shorten <=3mm, shorten >=1mm](chl).. controls +(150:12mm) and +(45:12mm).. (carb);}
+
+		}{The formation of a bond between \ce{CH3} and \ce{\chlorine-} radicals, to form \ce{CH3\chlorine}.}
+
+	% end subsubsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% end subsection
+
+
+
+
+% end subsection
+

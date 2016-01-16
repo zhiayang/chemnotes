@@ -1,0 +1,89 @@
+% Commands.tex
+% Copyright (c) 2014 - The Foreseeable Future, zhiayang@gmail.com
+
+\newcommand	{\normtext}		{ \fontspec{HelveticaNeue}\fontsize{12pt}{14pt}\selectfont }
+
+\newcommand	{\hugetext}		[1]{ \fontspec{HelveticaNeue-Thin} \fontsize{50pt}{60pt}\selectfont #1 \normtext }
+\newcommand	{\titletext}	[1]{ \fontspec{HelveticaNeue-Light}\fontsize{40pt}{48pt}\selectfont #1 \normtext }
+\newcommand	{\subtext}		[1]{ \fontspec{HelveticaNeue-Light}\fontsize{23pt}{28pt}\selectfont #1 \normtext }
+\newcommand	{\subsubtext}	[1]{ \fontspec{HelveticaNeue-Light}\fontsize{17pt}{20pt}\selectfont #1 \normtext }
+
+\newcommand {\sbs}			[1]{\textsubscript{#1}}
+\newcommand {\sps}			[1]{\textsuperscript{#1}}
+\newcommand {\img}			[2]{\includegraphics[width=#1]{#2}}
+\newcommand {\imgdiagram}	[3]{\begin{figure}[ht]\begin{center}\includegraphics[width=#1]{#2}\linebreak
+									\fontsize{11pt}{13pt}\selectfont#3\normtext
+									\end{center}\end{figure}}
+
+\newcommand {\vdashrule}	[1]{\raisebox{{#1 / 2}}{\rotatebox{270}{\hdashrule[0mm]{#1}{0.75mm}{2mm}}}}
+
+\newcommand {\diagram}		[3][1.0]
+							{
+								\begin{figure}[ht]
+								\begin{center}
+								\bigskip
+								\scalebox{#1}{
+									\hbox{
+										\vspace{0.5cm}
+										{#2}
+									}
+								}
+								\end{center}
+								\begin{center}
+								\fontsize{11pt}{13pt}\selectfont{#3}
+								\normtext\end{center}\end{figure}
+							}
+
+
+
+% chem shortcuts
+\newcommand {\molecule}		[1]{\begin{center}\chemfig{#1}\end{center}}
+
+
+% text stuff
+\newcommand {\chlorine}		{C\textit{l}}
+\newcommand {\aluminium}	{A\textit{l}}
+
+% submolecules
+
+% atoms
+\definesubmol{O}			{{\color{Red}O}}
+\definesubmol{Al}			{A\textit{l}}
+
+% halogens
+\definesubmol{F}			{{\color{Tan!80!Black}F}}
+\definesubmol{Cl}			{{\color{OliveGreen}\chlorine}}
+\definesubmol{Br}			{{\color{Mahogany}Br}}
+\definesubmol{I}			{{\color{Sepia}I}}
+
+% groups
+\definesubmol{OH}			{{\color{Red}O}|{\color{Red}H}}				% hydroxide, red.
+\definesubmol{CH3}			{C|H\sbs{3}}								% methyl group
+\definesubmol{H3C}			{H\sbs{3}|C}								% methyl group, reversed (H3C)
+
+\definesubmol{CH2CH3}		{C|H\sbs{2}|C|H\sbs{3}}						% ch2ch3
+
+
+
+
+
+
+
+
+
+
+\newenvironment{bulletlist}
+{
+	\begin{easylist}[itemize]
+	\ListProperties(Space*=-1.0em, Space=-1.0em)
+}
+{\end{easylist}}
+
+
+\newenvironment{romanlist}
+{
+	\begin{easylist}[enumerate]
+	\ListProperties(Space*=-1.0em, Space=-1.0em, Numbers=r)
+}
+{\end{easylist}}
+
