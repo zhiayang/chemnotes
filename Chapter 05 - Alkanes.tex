@@ -1,4 +1,4 @@
-% Chapter01.tex
+% Chapter05 - Alkanes.tex
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
 \input{Preamble}
@@ -6,3 +6,237 @@
 \pagebreak
 \section{Alkanes}
 
+\subsection{Open Chain}
+
+	Open chain alkanes have the general formula of \ce{C\sbs{n}H\sbs{2n+2}}. They are called 'open-chain' because
+	the two endsof the chain are separate, in contrast with cycloalkanes.
+
+	Open chain alkanes can either be straight-chained or branch-chained. The terminology should be pretty much
+	self explanatory.
+
+	\diagram{
+
+		\chemfig{!{H3C}-[:330]-[:30]-[:330]-[:30]-[:330]-[:30]-[:330]!{CH3}}
+
+	}{Octane is an example of a straight-chain alkane.}
+
+
+	\diagram{
+
+		\chemfig{C(-[:0]!{CH3})(-[:90]!{CH3})(-[:180]!{H3C})(-[:270]!{CH3})}
+
+	}{2,2-dimethylpropane is an example of a branched alkane.}
+
+% end subsection
+
+\subsection{Cycloalkanes}
+
+	Cycloalkanes are alkanes where the carbon atoms at either end of the chain are bonded together, forming a closed loop.
+	They are essentially 'closed-chain' alkanes. They take the shape of regular polygons –– cyclopropane is just a triangle,
+	and cyclobutane is a square.
+
+	\diagram{
+
+		\chemfig{*5(-----)}		\hspace{15mm}
+		\chemfig{*6(------)}
+
+	}{Cyclopentane (left) and cyclohexane (right)}
+
+% end subsection
+
+
+
+\subsection{Physical Properties of Alkanes}
+	\subsubsection{Melting and Boiling Points}
+
+		The melting and boiling points of alkanes follow a simple pattern. Due to the fact that they rely solely on induced
+		dipole interactions for intermolecular bonding, both melting and boiling points increase with the length of the
+		carbon chain, and by extension M\sbs{r}. Note that small chains (eg. \ce{CH4}) have very low boiling points.
+
+		However, because branched alkanes have a smaller surface area for a given number of carbon atoms than straight-chained
+		alkanes, their melting and boiling points will be lower, due to a smaller area for polarisation.
+
+	% end subsubsection
+
+	\subsubsection{Density}
+
+		Most liquid alkanes, up to a certain point, are less dense than water. Additionally, since they are insoluble,
+		they form an immiscible layer above water.
+
+		As the number of carbon atoms increases, the strength of the intermolecular interactions will increase as well –– this
+		forces each molecule ever so slightly closer together, marginally increasing density.
+
+	% end subsubsection
+
+	\subsubsection{Solubility}
+
+		As described before, alkanes rely only on induced-dipole interactions for intermolecular bonding; they are insoluble in
+		polar solvents such as water. However, they are highly soluble in non-polar solvents like \ce{C\chlorine4}. In fact,
+		since solubility is dependent on the strength of solvent-solute bonds, larger alkanes will be more soluble in non-polar solvents.
+
+	% end subsubsection
+
+% end subsection
+
+\pagebreak
+\subsection{Free Radical Substitution of Alkanes}
+
+	\subsubsection{Mechanism of Reaction}
+
+		In the steps below, the free radical substitution of methane [\ce{CH4}\ by chlorine [\ce{\chlorine}] will be used. This applies
+		for any alkane, and a sufficiently reactive halogen (Usually either \ce{\chlorine} or \ce{Br}).
+
+		The observable change would be a decolourising of the halogen gas, as it is consumed. This is \textit{reddish-brown} for bromine,
+		and \textit{yellowish-green} for chlorine. Conditions for the reaction simply include the alkane and gaseous halogen gas,
+		as well as UV light.
+
+		\subsubtext{\vspace{10mm}\vbox{\textit{Stage I}\tabto{25mm}Initiation}}
+
+			The \ce{\chlorine}–\ce{\chlorine} bond is \textit{homolytically} broken to form 2 \ce{\chlorine} radicals.
+			The energy required to break this bond is provided by the UV light.
+
+			\diagram{
+				\schemestart[0, 1.5, thick]
+				\chemfig{@{cl1}{\color{OliveGreen}\chlorine}-[@{b}:0]@{cl2}{\color{OliveGreen}\chlorine}}
+				\arrow{->}
+				\chemfig{2 \lewis{0.,\color{OliveGreen}\chlorine}}
+				\schemestop
+
+				\chemmove{\draw[-{Stealth[left]},line width=0.4mm,shorten <=1mm,shorten >=1mm](b).. controls +(90:7mm) and +(90:7mm).. (cl2);}
+				\chemmove{\draw[-{Stealth[left]},line width=0.4mm,shorten <=1mm,shorten >=1mm](b).. controls +(270:7mm) and +(270:7mm).. (cl1);}
+			}
+
+		% end
+
+		\subsubtext{\vspace{10mm}\vbox{\textit{Stage II}\tabto{25mm}Propagation}}
+
+			The highly reactive \ce{\chlorine} radicals then react with the \ce{CH4} molecules, bonding with one of the
+			hydrogen atoms to form \ce{H\chlorine} and a carbocation radical, \ce{CH3}.
+
+			\diagram{
+				\schemestart[0, 1.0, thick]
+					\chemfig{\lewis{0.,\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{CH\sbs{4}}
+					\arrow{->}
+					\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{3mm} + \hspace{3mm} \chemfig{H\chlorine}
+				\schemestop
+			}
+
+			\vspace{-15mm}
+			\diagram{
+				\schemestart[0, 1.0, thick]
+					\chemfig{\ce{\chlorine2}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+					\arrow{->}
+					\chemfig{\ce{CH3\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
+				\schemestop
+			}
+
+			This newly-minted \ce{CH3} radical can react with a \ce{\chlorine2} molecule to form \ce{CH3Cl} and another
+			\ce{\chlorine} radical, thus recreating the consumed radical. As long as the supply of \ce{\chlorine2} gas has
+			not been exhausted, this reaction can continue, and no additional UV light is required to sustain it.
+
+		%end
+
+		\pagebreak
+		\subsubtext{\vspace{10mm}\vbox{\textit{Stage II}\tabto{25mm}Termination}}
+
+			In the termination stage, two radicals combine to form stable products, effectively terminating the chain reaction.
+
+			\diagram{
+				\schemestart[0, 1.0, thick]
+					\chemfig{\lewis{0.,\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
+					\arrow{->}
+					\chemfig{\ce{\chlorine2}}
+				\schemestop
+			}
+
+			\vspace{-15mm}
+			\diagram{
+				\schemestart[0, 1.0, thick]
+					\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+					\arrow{->}
+					\chemfig{\ce{CH3CH3}}
+				\schemestop
+			}
+
+			\vspace{-15mm}
+			\diagram{
+				\schemestart[0, 1.0, thick]
+					\chemfig{\lewis{0.,\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+					\arrow{->}
+					\chemfig{\ce{CH3\chlorine}}
+				\schemestop
+			}
+
+			Once all the radicals have been consumed in this manner, the reaction will stop, unless more UV light is provided (along
+			with more \ce{\chlorine2} gas).
+
+		%end
+
+	% end subsubsection
+
+
+	\subsubsection{Multi-substitution of Alkanes}
+
+		Free radical substitution of alkanes is usually not the preferred way to produce halogenoalkanes, due to the random
+		nature of the process and the possibility of multi-substitution, where more than one halogen atom has been substituted
+		onto the alkane.
+
+		If there are still \ce{\chlorine} radicals remaining, in the reaction chamber, \ce{CH3\chlorine} formed during the
+		termination stage can still react with it, forming a \ce{CH2\chlorine} radical, which can continue to react.
+
+		\diagram{
+			\schemestart[0, 1.0, thick]
+				\chemfig{\ce{CH3Cl}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
+				\arrow{->}
+				\chemfig{\lewis{4.,\ce{CH2\chlorine}}}
+			\schemestop
+		}
+
+		\vspace{-15mm}
+		\diagram{
+			\schemestart[0, 1.0, thick]
+				\chemfig{\lewis{0.,\ce{CH2\chlorine}}} \hspace{3mm} + \hspace{3mm} \chemfig{\ce{\chlorine2}}
+				\arrow{->}
+				\chemfig{\lewis{4.,\ce{CH2\chlorine2}}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
+			\schemestop
+		}
+
+		Indeed, this can continue \textit{ad-infinitum}, so until all the hydrogen atoms on the alkane have been substituted.
+		In the case of methane, this results in the formation of \ce{CH3\chlorine}, \ce{CH2\chlorine2}, \ce{CH\chlorine3} and
+		\ce{C\chlorine4}.
+
+		In fact, the will also be a small amount of alkanes with more than 1 carbon in the chain; this is due to the
+		possibility of two molecules of •\ce{CH2\chlorine} reacting, which then has its hydrogens further substituted.
+
+	% end subsubsection
+
+
+
+
+
+
+
+
+
+
+% end subsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% end section

@@ -1,4 +1,4 @@
-% Chapter01.tex
+% Chapter03 - Reaction Mechanisms.tex
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
 \input{Preamble}
@@ -20,7 +20,7 @@
 			\schemestart[0, 1.5, thick]
 			\chemfig{@{carb}C(-[@{bond}:0]@{hyd}H)(-[:90]H)(-[:180]H)(-[:270]H)}
 			\arrow{->}
-			\chemfig{\lewis{0.,C}(-[:90]H)(-[:180]H)(-[:270]H)} \hspace{0.5cm} \textbf{+} \hspace{0.5cm} \chemfig{\lewis{4.,H}}
+			\chemfig{\lewis{0.,C}(-[:90]H)(-[:180]H)(-[:270]H)} \hspace{5mm} + \hspace{5mm} \chemfig{\lewis{4.,H}}
 			\schemestop
 
 			% draw arrows
@@ -44,7 +44,7 @@
 			\chemfig{@{carb}C(-[@{bond}:0]@{chl}\color{OliveGreen}\chlorine)(-[:90]H)(-[:180]H)(-[:270]H)}
 			\arrow{->}
 			\chemfig{C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
-			\hspace{0.5cm} \textbf{+} \hspace{0.5cm}
+			\hspace{5mm} + \hspace{5mm}
 			\chemfig{\lewis{4:,\color{OliveGreen}\chlorine}}
 			\schemestop
 
@@ -69,7 +69,7 @@
 		\diagram{
 			\schemestart[0, 1.5, thick]
 			\chemfig{@{carb}\lewis{1.,C}(-[:90]H)(-[:180]H)(-[:270]H)}
-			\hspace{0.5cm} \chemfig{@{plus}\textbf{+}} \hspace{0.5cm}
+			\hspace{5mm} \chemfig{@{plus}+} \hspace{5mm}
 			\chemfig{@{hyd}\lewis{5.,H}}
 			\arrow{->}
 			\chemfig{C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H)}
@@ -94,7 +94,7 @@
 		\diagram{
 			\schemestart[0, 1.5, thick]
 			\chemfig{@{carb}C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
-			\hspace{0.5cm} \chemfig{\textbf{+}} \hspace{0.5cm}
+			\hspace{5mm} + \hspace{5mm}
 			\chemfig{@{chl}\lewis{3:,\color{OliveGreen}\ce{\chlorine-}}}
 			\arrow{->}
 			\chemfig{C(-[:0]!{Cl})(-[:90]H)(-[:180]H)(-[:270]H)}

@@ -19,12 +19,12 @@
 
 \newcommand {\diagram}		[3][1.2]
 							{
-								\begin{figure}[ht]
+								\begin{figure}[!h]
 								\begin{center}
 								\bigskip
 								\scalebox{#1}{
 									\hbox{
-										\vspace{0.5cm}
+										\vspace{5mm}
 										{#2}
 									}
 								}
@@ -32,6 +32,7 @@
 								\begin{center}
 								\fontsize{11pt}{13pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
+								\vspace{-5mm}
 							}
 
 

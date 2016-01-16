@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.13)  16 JAN 2016 22:00
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.13)  16 JAN 2016 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,6 +595,10 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count145
 \calc@Cskip=\skip78
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+Package: tabto 2013/03/25  v 1.3  Another tabbing mechanism
+\CurrentLineWidth=\dimen186
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2015/04/23 v4.01 for typesetting chemical formulae
 
@@ -630,12 +634,12 @@ L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
 \l__iow_current_word_int=\count155
 \l__iow_current_indentation_int=\count156
 L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
-\c_zero_dim=\dimen186
-\c_max_dim=\dimen187
-\l_tmpa_dim=\dimen188
-\l_tmpb_dim=\dimen189
-\g_tmpa_dim=\dimen190
-\g_tmpb_dim=\dimen191
+\c_zero_dim=\dimen187
+\c_max_dim=\dimen188
+\l_tmpa_dim=\dimen189
+\l_tmpb_dim=\dimen190
+\g_tmpa_dim=\dimen191
+\g_tmpb_dim=\dimen192
 \c_zero_skip=\skip79
 \c_max_skip=\skip80
 \l_tmpa_skip=\skip81
@@ -669,13 +673,13 @@ L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
 \g_tmpb_box=\box58
 L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
 \l__coffin_internal_box=\box59
-\l__coffin_internal_dim=\dimen192
-\l__coffin_offset_x_dim=\dimen193
-\l__coffin_offset_y_dim=\dimen194
-\l__coffin_x_dim=\dimen195
-\l__coffin_y_dim=\dimen196
-\l__coffin_x_prime_dim=\dimen197
-\l__coffin_y_prime_dim=\dimen198
+\l__coffin_internal_dim=\dimen193
+\l__coffin_offset_x_dim=\dimen194
+\l__coffin_offset_y_dim=\dimen195
+\l__coffin_x_dim=\dimen196
+\l__coffin_y_dim=\dimen197
+\l__coffin_x_prime_dim=\dimen198
+\l__coffin_y_prime_dim=\dimen199
 \c_empty_coffin=\box60
 \l__coffin_aligned_coffin=\box61
 \l__coffin_aligned_internal_coffin=\box62
@@ -684,27 +688,27 @@ L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
 \l__coffin_display_coffin=\box65
 \l__coffin_display_coord_coffin=\box66
 \l__coffin_display_pole_coffin=\box67
-\l__coffin_display_offset_dim=\dimen199
-\l__coffin_display_x_dim=\dimen200
-\l__coffin_display_y_dim=\dimen201
+\l__coffin_display_offset_dim=\dimen200
+\l__coffin_display_x_dim=\dimen201
+\l__coffin_display_y_dim=\dimen202
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3candidates 2015/03/01 v5544 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen202
-\l__box_bottom_dim=\dimen203
-\l__box_left_dim=\dimen204
-\l__box_right_dim=\dimen205
-\l__box_top_new_dim=\dimen206
-\l__box_bottom_new_dim=\dimen207
-\l__box_left_new_dim=\dimen208
-\l__box_right_new_dim=\dimen209
+\l__box_top_dim=\dimen203
+\l__box_bottom_dim=\dimen204
+\l__box_left_dim=\dimen205
+\l__box_right_dim=\dimen206
+\l__box_top_new_dim=\dimen207
+\l__box_bottom_new_dim=\dimen208
+\l__box_left_new_dim=\dimen209
+\l__box_right_new_dim=\dimen210
 \l__box_internal_box=\box68
-\l__coffin_bounding_shift_dim=\dimen210
-\l__coffin_left_corner_dim=\dimen211
-\l__coffin_right_corner_dim=\dimen212
-\l__coffin_bottom_corner_dim=\dimen213
-\l__coffin_top_corner_dim=\dimen214
-\l__coffin_scaled_total_height_dim=\dimen215
-\l__coffin_scaled_width_dim=\dimen216
+\l__coffin_bounding_shift_dim=\dimen211
+\l__coffin_left_corner_dim=\dimen212
+\l__coffin_right_corner_dim=\dimen213
+\l__coffin_bottom_corner_dim=\dimen214
+\l__coffin_top_corner_dim=\dimen215
+\l__coffin_scaled_total_height_dim=\dimen216
+\l__coffin_scaled_width_dim=\dimen217
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
 File: l3unicode-data.def 2015/03/01 v5544 L3 Unicode data
@@ -791,11 +795,11 @@ Package: amstext 2000/06/29 v2.01
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks35
-\ex@=\dimen217
+\ex@=\dimen218
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen218
+\pmbraise@=\dimen219
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -812,7 +816,7 @@ LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box69
 \strutbox@=\box70
-\big@size=\dimen219
+\big@size=\dimen220
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count215
@@ -825,12 +829,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \column@=\count220
 \maxfields@=\count221
 \andhelp@=\toks37
-\eqnshift@=\dimen220
-\alignsep@=\dimen221
-\tagshift@=\dimen222
-\tagwidth@=\dimen223
-\totwidth@=\dimen224
-\lineht@=\dimen225
+\eqnshift@=\dimen221
+\alignsep@=\dimen222
+\tagshift@=\dimen223
+\tagwidth@=\dimen224
+\totwidth@=\dimen225
+\lineht@=\dimen226
 \@envbody=\toks38
 \multlinegap=\skip86
 \multlinetaggap=\skip87
@@ -919,27 +923,27 @@ Variant \str_if_eq:VnTF already defined; not changing it on line 57
 \mhchem@minispace@tmp=\skip96
 \mhchem@minibackspace@tmp=\skip97
 \l__mhchem_option_version_int=\count230
-\mhchem@option@minusmathsidebearingleft=\dimen226
-\mhchem@option@minusmathsidebearingright=\dimen227
-\mhchem@option@minustextsidebearingleft=\dimen228
-\mhchem@option@minustextsidebearingright=\dimen229
+\mhchem@option@minusmathsidebearingleft=\dimen227
+\mhchem@option@minusmathsidebearingright=\dimen228
+\mhchem@option@minustextsidebearingleft=\dimen229
+\mhchem@option@minustextsidebearingright=\dimen230
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2013/12/13 v3.0.0 (rcs-revision 1.12)
-\pgfarrowinset=\dimen230
-\pgfarrowlength=\dimen231
-\pgfarrowwidth=\dimen232
-\pgfarrowlinewidth=\dimen233
+\pgfarrowinset=\dimen231
+\pgfarrowlength=\dimen232
+\pgfarrowwidth=\dimen233
+\pgfarrowlinewidth=\dimen256
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2015/03/14 v2.4c Font selection for XeLaTeX and LuaLaTeX
 \l_fontspec_script_int=\count231
 \l_fontspec_language_int=\count232
 \l_fontspec_strnum_int=\count233
-\l__fontspec_tmpa_dim=\dimen256
-\l__fontspec_tmpb_dim=\dimen257
-\l__fontspec_tmpc_dim=\dimen258
+\l__fontspec_tmpa_dim=\dimen257
+\l__fontspec_tmpb_dim=\dimen258
+\l__fontspec_tmpc_dim=\dimen259
 Variant \tl_gset:cV already defined; not changing it on line 71
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
@@ -1155,7 +1159,7 @@ ts
 . 
 . Defining command \textsupersubscript with sig. 'sO{l}mm' on line 143.
 .................................................
-\subsupersep=\dimen259
+\subsupersep=\dimen260
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
@@ -1521,27 +1525,27 @@ ercase].
 (./Commands.tex) (./Preamble.tex) (./OrganicChem.aux)
 \openout1 = `OrganicChem.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 124.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 124.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 125.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 125.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    ... okay on input line 125.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1578,12 +1582,12 @@ LaTeX Font Info:    ... okay on input line 124.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 124.
+LaTeX Info: Redefining \selectfont on input line 125.
  ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fontspec' on line 124.
+. Activating mapping `fontspec' on line 125.
 .................................................
 .................................................
 . fontspec info: "no-scripts"
@@ -1820,19 +1824,337 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 . Font HelveticaNeue does not contain any OpenType `Script' information.
 .................................................
 
-(./Chapter 05 - Alkanes.tex (./Preamble.tex) [1
+(./Chapter 01 - Functional Groups.tex (./Preamble.tex) [1
 
-]) (./Chapter 06 - Alkenes.tex
-(./Preamble.tex) [2]) (./Chapter 07 - Arenes.tex (./Preamble.tex) [3])
-(./Chapter 08 - Halogen Derivatives.tex (./Preamble.tex) [4]) [5]
-(./OrganicChem.aux) ) 
+]
+<use  "images/ch01/carboxylic-acid.png" > <use  "images/ch01/ester.png" >
+<use  "images/ch01/acyl-halide.png" > <use  "images/ch01/amide.png" >
+<use  "images/ch01/nitrile.png" > <use  "images/ch01/aldehyde.png" >
+<use  "images/ch01/ketone.png" > <use  "images/ch01/alcohol.png" >
+<use  "images/ch01/amine.png" > <use  "images/ch01/alkene.png" >
+<use  "images/ch01/ether.png" > <use  "images/ch01/alkyl-halide.png" >
+<use  "images/ch01/carboxylic-acid.png" > <use  "images/ch01/ester.png" >
+<use  "images/ch01/acyl-halide.png" > <use  "images/ch01/amide.png" >
+<use  "images/ch01/nitrile.png" > <use  "images/ch01/aldehyde.png" >
+<use  "images/ch01/ketone.png" > <use  "images/ch01/alcohol.png" >
+<use  "images/ch01/amine.png" > <use  "images/ch01/alkene.png" >
+<use  "images/ch01/ether.png" > <use  "images/ch01/alkyl-halide.png" >
+File: images/ch01/carboxylic-acid.png Graphic file (type QTm)
+
+<use  "images/ch01/carboxylic-acid.png" >
+File: images/ch01/ester.png Graphic file (type QTm)
+ <use  "images/ch01/ester.png" >
+File: images/ch01/acyl-halide.png Graphic file (type QTm)
+
+<use  "images/ch01/acyl-halide.png" >
+File: images/ch01/amide.png Graphic file (type QTm)
+ <use  "images/ch01/amide.png" >
+File: images/ch01/nitrile.png Graphic file (type QTm)
+
+<use  "images/ch01/nitrile.png" >
+File: images/ch01/aldehyde.png Graphic file (type QTm)
+ <use  "images/ch01/aldehyde.png" >
+File: images/ch01/ketone.png Graphic file (type QTm)
+
+<use  "images/ch01/ketone.png" >
+File: images/ch01/alcohol.png Graphic file (type QTm)
+ <use  "images/ch01/alcohol.png" >
+File: images/ch01/amine.png Graphic file (type QTm)
+
+<use  "images/ch01/amine.png" >
+File: images/ch01/alkene.png Graphic file (type QTm)
+ <use  "images/ch01/alkene.png" >
+File: images/ch01/ether.png Graphic file (type QTm)
+
+<use  "images/ch01/ether.png" >
+File: images/ch01/alkyl-halide.png Graphic file (type QTm)
+ <use  "images/ch01/alkyl-halide.png" >
+Underfull \vbox (badness 10000) detected at line 56
+ []
+
+[2]) (./Chapter 02 - Isomers.tex (./Preamble.tex) [3]
+Overfull \hbox (6.18933pt too wide) in paragraph at lines 26--26
+ [] 
+ []
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+[4]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [5]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [6]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [7]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+) (./Chapter 03 - Reaction Mechanisms.tex (./Preamble.tex)
+[8]
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <11> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.69997> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.5> on input line 30.
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [9]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [10]
+Overfull \hbox (5.80229pt too wide) in paragraph at lines 127--130
+\EU1/HelveticaNeue(0)/m/n/12 Nucleophiles are electron-rich species that donate
+ electron pairs to electrophiles.
+ []
+
+) (./Chapter 04 - Induction and Resonance.tex (./Preamble.tex) [11]
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [12]
+Overfull \hbox (10.36203pt too wide) in paragraph at lines 54--57
+\EU1/HelveticaNeue(0)/m/n/12 the resonance effect. In general, substituents tha
+t exhibit an electron-withdrawing
+ []
+
+
+Overfull \hbox (53.27628pt too wide) in paragraph at lines 69--69
+ [] 
+ []
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+[13]) (./Chapter 05 - Alkanes.tex (./Preamble.tex) [14]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [15] [16]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
+.................................................
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <11.89995> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8.5> on input line 93.
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+ [17]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+)
+(./Chapter 06 - Alkenes.tex (./Preamble.tex) [18]) (./Chapter 07 - Arenes.tex
+(./Preamble.tex) [19]) (./Chapter 08 - Halogen Derivatives.tex (./Preamble.tex)
+[20]) [21] (./OrganicChem.aux) ) 
 Here is how much of TeX's memory you used:
- 30300 strings out of 493706
- 618963 string characters out of 6145769
- 679395 words of memory out of 5000000
- 33124 multiletter control sequences out of 15000+600000
- 29157 words of font info for 110 fonts, out of 8000000 for 9000
+ 31137 strings out of 493706
+ 635733 string characters out of 6145769
+ 741599 words of memory out of 5000000
+ 33883 multiletter control sequences out of 15000+600000
+ 69525 words of font info for 188 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 62i,11n,102p,10353b,1288s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,25n,102p,10353b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on OrganicChem.pdf (5 pages).
+Output written on OrganicChem.pdf (21 pages).

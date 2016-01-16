@@ -5,7 +5,7 @@
 % and save the source with Unicode encoding.
 
 \documentclass[12pt]{article}
-\usepackage[a4paper, top=2.25cm, bottom=2.50cm]{geometry}
+\usepackage[a4paper, top=22.5mm, bottom=25.0mm]{geometry}
 \usepackage[ampersand]{easylist}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{graphicx}
@@ -23,6 +23,7 @@
 \usepackage{graphicx}
 \usepackage{calc}
 \usepackage{tikz}
+\usepackage{tabto}
 \usepackage[version=4]{mhchem}
 
 \usetikzlibrary{arrows.meta}
@@ -78,28 +79,28 @@
 
 
 \newlength\mylen
-\setlength\mylen{1.50cm}
+\setlength\mylen{15mm}
 
 \titleformat{\section}
   {\HNLight\fontsize{30pt}{36pt}\selectfont}
   {\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
-  [{\makebox[0cm][l]{}}]
+  [{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
   {\HNLight\fontsize{20pt}{24pt}\selectfont\bfseries}
   {\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
-  [{\makebox[0cm][l]{}}]
+  [{\makebox[0mm][l]{}}]
 
 
 \titleformat{\subsubsection}
   {\HNLight\fontsize{17pt}{20pt}\selectfont\bfseries}
   {\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}{0.0em}{}
-  [{\makebox[0cm][l]{}}]
+  [{\makebox[0mm][l]{}}]
 
 
-\titlespacing*{\section}{0cm}{0cm}{-1.5cm}
-\titlespacing*{\subsection}{0cm}{0.5cm}{-1.5cm}
-\titlespacing*{\subsubsection}{0cm}{0.5cm}{-1.4cm}
+\titlespacing*{\section}{0mm}{0mm}{-15mm}
+\titlespacing*{\subsection}{0mm}{5mm}{-15mm}
+\titlespacing*{\subsubsection}{0mm}{5mm}{-14mm}
 
 
 
@@ -131,17 +132,16 @@
 
 \begin{center}
 
-	\vspace*{1.0cm}
+	\vspace*{10mm}
 	\hugetext{Organic Chemistry}
-	\vspace*{1.0cm}
+	\vspace*{10mm}
 
-	% \includegraphics[width=10cm]{images/title.png}
 	\diagram[2.0]{
 
 		\chemfig{!{O}=[:30]C*6(-!{N}(-!{CH3})-(*5(-!{N}=-!{N}(-!{CH3})-))=-(=!{O})-!{N}(-!{CH3})-)}
 	}
 
-	\vspace*{0.8cm}
+	\vspace*{8mm}
 
 	\linespread{1.0}
 	\subtext{C\sbs{8}H\sbs{10}N\sbs{4}O\sbs{2}} \break \break
@@ -152,7 +152,7 @@
 	\medskip
 
 	\subtext{Caffeine}
-	\vspace{1.0cm}
+	\vspace{10mm}
 
 	\subsubtext{Chapters 8 to 12}
 
@@ -162,10 +162,10 @@
 
 % reset
 
-% \input{"Chapter 01 - Functional Groups"}
-% \input{"Chapter 02 - Isomers"}
-% \input{"Chapter 03 - Reaction Mechanisms"}
-% \input{"Chapter 04 - Induction and Resonance"}
+\input{"Chapter 01 - Functional Groups"}
+\input{"Chapter 02 - Isomers"}
+\input{"Chapter 03 - Reaction Mechanisms"}
+\input{"Chapter 04 - Induction and Resonance"}
 \input{"Chapter 05 - Alkanes"}
 \input{"Chapter 06 - Alkenes"}
 \input{"Chapter 07 - Arenes"}
