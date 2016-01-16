@@ -1,41 +1,137 @@
 % Chapter01.tex
-% Copyright (c) 2014 - The Foreseeable Future, zhiayang@gmail.com
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
 \input{Preamble}
 
+\pagebreak
+\section{Induction and Resonance}
 
-\section{ Functional Groups }
-\subsection{ Overview }
+\subsection{Inductive Effect}
 
-Functional groups are the main determinant of the chemical properties of a molecule. Molecules with the
-same functional group are of the same \textit{family} and similar \textit{chemical properties}.
+	The inductive effect occurs through covalent bonds, where there is a significant difference in the electronegativity of
+	participating atoms. Electrons are either withdrawn or donated through a σ-bond, due to the polarity of the molecule.
 
-Functional groups can be any size –– the ketone functional group is just an oxygen bonded to a carbon atom
-in any position, while the carboxylic acid functional group has a more complex structure.
+	\subsubsection{Withdrawal}
+
+		Below, \ce{\chlorine} is more electronegative than the carbon it is bonded to. As such, it
+		\textit{inductively withdraws} electrons through the σ-bond.
+
+		\diagram{
+			\chemfig{C(-[:0,,,,-Stealth]!{Cl})(-[:90]!{star})(-[:180]!{star})(-[:270]!{star})}
+
+		}{Note that the arrow represents a withdrawal of electrons, \textit{not} a dative bond.}
+
+	% end subsubsection
 
 
+	\subsubsection{Donation}
+
+		Alkyl groups, or groups with the general formula C\sbs{n}H\sbs{2n+1}, \textit{inductively donate} electrons. This behaviour
+		is due to hyperconjugation, which lowers the total energy of the system, through an interaction between electrons in a
+		σ-bond of the alkyl group, with a partially-filled or empty p-orbital in the adjacent atom.
+
+
+		\diagram[1.1]{
+			\chemfig{C(-[:0,,,,Stealth-]!{CH3})(-[:90]!{star})(-[:180]!{star})(-[:270]!{star})}
+
+		}{Again, the arrow \textit{does not} represent a dative bond.}
+
+	% end subsubsection
+
+
+
+% end subsection
 
 \pagebreak
+\subsection{Resonance Effect}
+
+	The resonance effect is the withdrawal or donation of electrons through the side-on overlap of \textit{unhybridised} p-orbitals.
+	Thus, the resonance effect can only occur when the substituent is bonded to an aromatic ring (π-system), or an alkene (C=C).
+
+
+	\subsubsection{Withdrawal}
+
+		In the case below, electrons flow from the double-bonds to the substituent, via the resonance effect. In general, substituents
+		that exhibit an electron-withdrawing resonance effect usually take the form of –Y=Z, where Z is more electronegative than Y.
+		Examples include carbonyls and nitriles.
+
+		\diagram{
+			\schemestart[0, 1.5, thick]
+			\chemfig{C(-[:180]H)(=_[@{b1}:270]@{oxy}{{\color{Red}O}})(-[@{b2}:0]C(-[:90]H)(=[@{b3}:0]C(-[:45]H)(-[:315]H)))}
+			\arrow{->}
+			\chemfig{C(-[:180]H)(-[:270]!{O}|\sps{-})(-[:0]C(-[:90]H)(=[:0]C|\sps{+}(-[:45]H)(-[:315]H)))}
+			\schemestop
+
+			% draw arrows
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b3).. controls +(90:8mm) and +(90:8mm).. (b2);}
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b1).. controls +(180:8mm) and +(180:8mm).. (oxy);}
+
+		}{Electrons move from the electron-rich double-bonds, which have unhybridised p-orbitals, to an adjacent atom.}
+
+	% end subsubection
+
+
+	\subsubsection{Donation}
+
+		On the other hand, groups can donate electrons through resonance, flowing from the substituent to a single-bond, forming
+		a double-bond. Substituents such as halogens (\ce{F}, \ce{\chlorine}, etc.), hydroxyls (–OH), and amines (–\ce{NH2})
+		are examples. They usually contain a lone pair of electrons that are free for donation.
+
+
+		\diagram{
+			\schemestart[0, 1.5, thick]
+			\chemfig{C(-[:225]H)(-[@{b1}:90]@{oh}\color{Red}\lewis{4:,O}|{\color{Red}H})(=[@{b2}:315]@{oxy}{\color{Red}O})}
+			\arrow{->}
+			\chemfig{C(-[:225]H)(=[:90,,,2]!{HO}|\sps{+})(-[:315]!{O}\sps{-})}
+			\schemestop
+
+			% draw arrows
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oh).. controls +(180:8mm) and +(180:8mm).. (b1);}
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b2).. controls +(45:8mm) and +(45:8mm).. (oxy);}
+
+		}{This example shows both resonant withdrawal and donation.}
+
+
+	% end subsubsection
+
+	\pagebreak
+	\subsubsection{Overall Effect}
+
+		Since it is possible for a substituent group to simultaneously withdraw and donate electrons through different mechanisms,
+		it can be difficult to determine whether the overall effect serves to withdraw or donate electrons.
+
+		Behold, the second ugly table.
+
+		\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
+		\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+
+			\hline				Substituent Group				&	Strength	&	Overall Effect	\\
+
+			\hline		Alkyl groups, eg. \ce{CH3}				&		Weak	&		Donating	\\
+			\hline		\ce{OH}, \ce{NH2}, \ce{OCH3}			&	Strong		&		Donating 	\\
+			\hline		\ce{\chlorine}, \ce{Br}					&	Normal		&	Withdrawing		\\
+			\hline		\ce{CHO}, \ce{NO2}, \ce{CN}, \ce{CO2H}	&	Strong		&	Withdrawing		\\
+			\hline
+
+		\end{tabu}
+		\end{table}\end{center}
+
+	% end subsubsection
+
+% end subsection
 
 
 
-\subsection{ Basic Functional Groups }
 
-Note that this table is ordered based on the \textit{priority} of the functional group, in terms of where it appears in
-an IUPAC-named chemical compound.
 
-\begin{center}
-\begin{table}[htbp]
-	\renewcommand{\arraystretch}{1.25}
-	\begin{tabu} to \textwidth {| X[c] | X[c] | X[c] | X[c] |}
-		\hline
-		Name				&		Prefix Form		&	Suffix Form		&	Structure \\ \hline
 
-		Carboxylic Acid		&		carboxy–*		&	*–oic acid		&	\includegraphics[width=10cm]{carboxylic_acid.png} \\ \hline
-		cell7 & cell8 & cell9 & foo \\ \hline
-		cell7 & cell8 & cell9 & foo \\ \hline
-		cell7 & cell8 & cell9 & foo \\ \hline
-	\end{tabu}
-\end{table}
-\end{center}
+
+
+
+
+
+
+
+
+
 

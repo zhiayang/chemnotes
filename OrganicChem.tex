@@ -1,5 +1,5 @@
 % OrganicChem.tex
-% Copyright (c) 2014 - The Foreseeable Future, zhiayang@gmail.com
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
 % These lines tell TeXShop to typeset with xelatex, and to open
 % and save the source with Unicode encoding.
@@ -135,7 +135,12 @@
 	\hugetext{Organic Chemistry}
 	\vspace*{1.0cm}
 
-	\includegraphics[width=10cm]{images/title.png}
+	% \includegraphics[width=10cm]{images/title.png}
+	\diagram[2.0]{
+
+		\chemfig{!{O}=[:30]C*6(-!{N}(-!{CH3})-(*5(-!{N}=-!{N}(-!{CH3})-))=-(=!{O})-!{N}(-!{CH3})-)}
+	}
+
 	\vspace*{0.8cm}
 
 	\linespread{1.0}
@@ -157,10 +162,14 @@
 
 % reset
 
-\input{"Chapter 01 - Functional Groups"}
-\input{"Chapter 02 - Isomers"}
-\input{"Chapter 03 - Reaction Mechanisms"}
-
+% \input{"Chapter 01 - Functional Groups"}
+% \input{"Chapter 02 - Isomers"}
+% \input{"Chapter 03 - Reaction Mechanisms"}
+% \input{"Chapter 04 - Induction and Resonance"}
+\input{"Chapter 05 - Alkanes"}
+\input{"Chapter 06 - Alkenes"}
+\input{"Chapter 07 - Arenes"}
+\input{"Chapter 08 - Halogen Derivatives"}
 
 
 

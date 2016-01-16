@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.13)  16 JAN 2016 20:41
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.13)  16 JAN 2016 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1676,9 +1676,52 @@ LaTeX Info: Redefining \selectfont on input line 124.
 . and font adjustment code:
 . 
 .................................................
-File: images/title.png Graphic file (type QTm)
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 143.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 143.
 
-<use  "images/title.png" >
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 143.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 143
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 143
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <13> on input line 143.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.09996> on input line 143.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.5> on input line 143.
+LaTeX Font Info:    Try loading font information for U+msa on input line 143.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 143.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1724,47 +1767,13 @@ File: images/title.png Graphic file (type QTm)
 . and font adjustment code:
 . 
 .................................................
-LaTeX Font Info:    Calculating math sizes for size <23> on input line 142.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 142.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 142.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 142
-.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 142
-.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+LaTeX Font Info:    Calculating math sizes for size <23> on input line 147.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <23> on input line 142.
+(Font)              <23> on input line 147.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <16.09993> on input line 142.
+(Font)              <16.09993> on input line 147.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.5> on input line 142.
-LaTeX Font Info:    Try loading font information for U+msa on input line 142.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 142.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+(Font)              <11.5> on input line 147.
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -1811,185 +1820,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 . Font HelveticaNeue does not contain any OpenType `Script' information.
 .................................................
 
-(./Chapter 01 - Functional Groups.tex (./Preamble.tex) [1
+(./Chapter 05 - Alkanes.tex (./Preamble.tex) [1
 
-]
-<use  "images/ch01/carboxylic-acid.png" > <use  "images/ch01/ester.png" >
-<use  "images/ch01/acyl-halide.png" > <use  "images/ch01/amide.png" >
-<use  "images/ch01/nitrile.png" > <use  "images/ch01/aldehyde.png" >
-<use  "images/ch01/ketone.png" > <use  "images/ch01/alcohol.png" >
-<use  "images/ch01/amine.png" > <use  "images/ch01/alkene.png" >
-<use  "images/ch01/ether.png" > <use  "images/ch01/alkyl-halide.png" >
-<use  "images/ch01/carboxylic-acid.png" > <use  "images/ch01/ester.png" >
-<use  "images/ch01/acyl-halide.png" > <use  "images/ch01/amide.png" >
-<use  "images/ch01/nitrile.png" > <use  "images/ch01/aldehyde.png" >
-<use  "images/ch01/ketone.png" > <use  "images/ch01/alcohol.png" >
-<use  "images/ch01/amine.png" > <use  "images/ch01/alkene.png" >
-<use  "images/ch01/ether.png" > <use  "images/ch01/alkyl-halide.png" >
-File: images/ch01/carboxylic-acid.png Graphic file (type QTm)
-
-<use  "images/ch01/carboxylic-acid.png" >
-File: images/ch01/ester.png Graphic file (type QTm)
- <use  "images/ch01/ester.png" >
-File: images/ch01/acyl-halide.png Graphic file (type QTm)
-
-<use  "images/ch01/acyl-halide.png" >
-File: images/ch01/amide.png Graphic file (type QTm)
- <use  "images/ch01/amide.png" >
-File: images/ch01/nitrile.png Graphic file (type QTm)
-
-<use  "images/ch01/nitrile.png" >
-File: images/ch01/aldehyde.png Graphic file (type QTm)
- <use  "images/ch01/aldehyde.png" >
-File: images/ch01/ketone.png Graphic file (type QTm)
-
-<use  "images/ch01/ketone.png" >
-File: images/ch01/alcohol.png Graphic file (type QTm)
- <use  "images/ch01/alcohol.png" >
-File: images/ch01/amine.png Graphic file (type QTm)
-
-<use  "images/ch01/amine.png" >
-File: images/ch01/alkene.png Graphic file (type QTm)
- <use  "images/ch01/alkene.png" >
-File: images/ch01/ether.png Graphic file (type QTm)
-
-<use  "images/ch01/ether.png" >
-File: images/ch01/alkyl-halide.png Graphic file (type QTm)
- <use  "images/ch01/alkyl-halide.png" >
-Underfull \vbox (badness 10000) detected at line 57
- []
-
-[2]) (./Chapter 02 - Isomers.tex (./Preamble.tex) [3]
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 26.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13> on input line 26.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.09996> on input line 26.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.5> on input line 26.
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
- [4]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
- [5]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
- [6]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
- [7]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-)
-(./Chapter 03 - Reaction Mechanisms.tex (./Preamble.tex) [8]
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 30.
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
- [9]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-) [10]
+]) (./Chapter 06 - Alkenes.tex
+(./Preamble.tex) [2]) (./Chapter 07 - Arenes.tex (./Preamble.tex) [3])
+(./Chapter 08 - Halogen Derivatives.tex (./Preamble.tex) [4]) [5]
 (./OrganicChem.aux) ) 
 Here is how much of TeX's memory you used:
- 30646 strings out of 493706
- 626045 string characters out of 6145769
- 724429 words of memory out of 5000000
- 33434 multiletter control sequences out of 15000+600000
- 53375 words of font info for 157 fonts, out of 8000000 for 9000
+ 30300 strings out of 493706
+ 618963 string characters out of 6145769
+ 679395 words of memory out of 5000000
+ 33124 multiletter control sequences out of 15000+600000
+ 29157 words of font info for 110 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 62i,21n,102p,10353b,1881s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,102p,10353b,1288s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on OrganicChem.pdf (10 pages).
+Output written on OrganicChem.pdf (5 pages).
