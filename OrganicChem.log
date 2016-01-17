@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.13)  17 JAN 2016 21:18
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.1.13)  17 JAN 2016 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2699,36 +2699,20 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
- [4]
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font HelveticaNeue does not contain any OpenType `Script' information.
-.................................................
 
-Overfull \hbox (3.08467pt too wide) in paragraph at lines 152--154
-[]\EU1/HelveticaNeue(2)/m/n/12 This is the fast step, as the bromide anion acts
- as a nucleophile, attacking the positively-
+Overfull \hbox (22.45654pt too wide) in paragraph at lines 128--128
+ [] 
  []
 
 .................................................
 . fontspec info: "no-scripts"
 . 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+[4]
+.................................................
+. fontspec info: "no-scripts"
+. 
 . Font HelveticaNeue-Light does not contain any OpenType `Script' information.
 .................................................
 .................................................
@@ -2741,7 +2725,11 @@ Overfull \hbox (3.08467pt too wide) in paragraph at lines 152--154
 . 
 . Font HelveticaNeue does not contain any OpenType `Script' information.
 .................................................
-[5]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
+.................................................
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -2752,23 +2740,85 @@ Overfull \hbox (3.08467pt too wide) in paragraph at lines 152--154
 . 
 . Font HelveticaNeue does not contain any OpenType `Script' information.
 .................................................
-LaTeX Font Info:    Calculating math sizes for size <17> on input line 248.
+ [5]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+
+Overfull \hbox (3.89714pt too wide) in paragraph at lines 231--231
+ [] 
+ []
+
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+[6]
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue-Light does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font HelveticaNeue does not contain any OpenType `Script' information.
+.................................................
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 327.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17> on input line 248.
+(Font)              <17> on input line 327.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.89995> on input line 248.
+(Font)              <11.89995> on input line 327.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.5> on input line 248.
-) (./Chapter 07 - Arenes.tex (./Preamble.tex) [6] [7])
-(./Chapter 08 - Halogen Derivatives.tex (./Preamble.tex) [8]) [9]
+(Font)              <8.5> on input line 327.
+) (./Chapter 07 - Arenes.tex (./Preamble.tex) [7] [8])
+(./Chapter 08 - Halogen Derivatives.tex (./Preamble.tex) [9]) [10]
 (./OrganicChem.aux) ) 
 Here is how much of TeX's memory you used:
- 37609 strings out of 493706
- 811765 string characters out of 6145769
- 862809 words of memory out of 5000000
- 40291 multiletter control sequences out of 15000+600000
- 175701 words of font info for 260 fonts, out of 8000000 for 9000
+ 37700 strings out of 493706
+ 813544 string characters out of 6145769
+ 875022 words of memory out of 5000000
+ 40381 multiletter control sequences out of 15000+600000
+ 175709 words of font info for 261 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 58i,16n,102p,10401b,1830s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,17n,102p,10401b,1831s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on OrganicChem.pdf (9 pages).
+Output written on OrganicChem.pdf (10 pages).

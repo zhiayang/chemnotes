@@ -112,11 +112,11 @@
 		\subsubtext{Step 1}
 
 		\diagram[1.0]{
-			\schemestart
+			\schemestart[0, 1.5, thick]
 			\chemfig{C(-[:135]H)(-[:225]H)=[@{b1}:0]C(-[:45]H)(-[:315]H)}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{\delp|@{hyd}H-[@{b2}:0]@{hal}{\color{OliveGreen}X}|\delm}
-			\arrow
+			\arrow{->[slow]}
 			\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C|$\oplus$(-[:45,,1]H)(-[:315,,1]H)}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{{{\color{OliveGreen}X}}\mch}
@@ -138,7 +138,7 @@
 		\subsubtext{Step 2}
 
 		\diagram[1.0]{
-			\schemestart
+			\schemestart[0, 1.5, thick]
 			\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)(-C|@{pl}$\oplus$(-[:45,,1]H)(-[:315,,1]H))}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{@{hal}\lewis{2:,\color{OliveGreen}X}|\mch}
@@ -149,7 +149,7 @@
 			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](hal) .. controls +(90:15mm) and +(35:15mm) .. (pl);}
 		}{Note that the electron pair arrow points to the plus charge on the carbon, \textit{not} the carbon atom itself.}
 
-		This is the fast step, as the bromide anion acts as a nucleophile, attacking the positively-charged carbocation.
+		This is the fast step; the bromide anion acts as a nucleophile, attacking the positively-charged carbocation.
 		Since this step involves the reaction of two oppositely-charged species, it is a fast step.
 
 
@@ -157,7 +157,7 @@
 		\subsubtext{Overall Reaction}
 
 		\diagram[1.0]{
-			\schemestart
+			\schemestart[0, 1.5, thick]
 			\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]H)(-[:315]H)}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{H-{{\color{OliveGreen}X}}}
@@ -196,11 +196,11 @@
 
 
 		\diagram[0.825]{
-			\schemestart
+			\schemestart[0, 1.5, thick]
 			\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:270]H)=[@{b1}:0]C(-[:45]H)(-[:315]H)}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{\delp|@{hyd}H-[@{b2}:0]@{hal}{\color{Mahogany}Br}|\delm}
-			\arrow
+			\arrow{->[slow]}
 			\chemfig{$\oplus$|C(-[:90,,2]H)(-[:270,,2]H)-C(-[:90]H)(-[:270]H)-C(-[:90]H)(-[:0]H)(-[:270]H)}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{!{Br}\mch}
@@ -215,12 +215,12 @@
 
 
 
-		\diagram[0.825]{
-			\schemestart
+		\diagram[0.80]{
+			\schemestart[0, 1.5, thick]
 			\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:270]H)=[@{b1}:0]C(-[:45]H)(-[:315]H)}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{\delp|@{hyd}H-[@{b2}:0]@{hal}{\color{Mahogany}Br}|\delm}
-			\arrow
+			\arrow{->[slow]}
 			\chemfig{C(-[:180]H)(-[:90]H)(-[:270]H)-\chemabove{C}{$\oplus$}(-[:270]H)-C(-[:90]H)(-[:0]H)(-[:270]H)}
 			\hspace{5mm} + \hspace{5mm}
 			\chemfig{!{Br}\mch}
@@ -228,7 +228,7 @@
 
 			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b1) .. controls +(90:20mm) and +(90:20mm) .. (hyd);}
 			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b2) .. controls +(270:8mm) and +(270:8mm) .. (hal);}
-		}{The hydrogen was added to the terminal carbon, in accordance with Markovnikov's rule.}
+		}{The hydrogen was added to the terminal carbon, following Markovnikov's rule.}
 
 		In this case, the carbon atom containing the positive charge has 2 electron-donating alkyl groups attached to it,
 		making this intermediate molecule more stable than the one above it.
@@ -240,6 +240,85 @@
 	% end subsubsection
 
 	\subsubsection{Electrophilic Addition of Halogens}
+
+		The electrophilic addition of halogens to alkanes does not involve Markovnikov's rule, since it is symmetrical.
+		As the non-polar halogen molecule approaches the high-electron-density π-bond, it is polarised, forming
+		\deltap and \deltam partial charges.
+
+		Note that the halogens used are usually either \ch{Br2} or \ch{\chlorine2}, since \ch{F2} is too reactive, and
+		\ch{I2} is too \textit{unreactive}.
+
+		The reaction mechanism involves the formation of a \textit{cyclic halonium ion} (bromonium or chloronium) –– the double
+		bond breaks, and each carbon forms a single bond with one positive halide ion (both carbons bond to the same atom).
+
+		\textbf{Conditions:} No UV Light, gaseous \ch{X2}.
+
+		\subsubtext{Step 1}
+
+		This initial step is the slow, rate-determining one. It involves breaking of the π-bond, as well as the \ch{X-X} bond.
+		Note that the resulting cyclic halonium ion is highly unstable, due to the inherent strain of having a
+		three-membered ring.
+
+		\diagram[0.90]{
+			\schemestart[0, 1.5, thick]
+			\chemfig{C(-[:135]H)(-[:225]H)=[@{b1}:0]C(-[:45]H)(-[:315]H)}
+			\hspace{5mm} + \hspace{5mm}
+			\chemfig{\delp|@{br1}{\color{OliveGreen}X}-[@{b2}:0]@{br2}{\color{OliveGreen}X}|\delm}
+			\arrow{->[slow]}
+			\chemfig{{\color{OliveGreen}X}\mch}
+			\hspace{5mm} + \hspace{5mm}
+			\chemfig{C?(-[:90]H)(-[:180]H)-C?(-[:90]H)(-[:0]H)(-[:240,,,1]{\color{OliveGreen}X}?|\pch)}
+			\schemestop
+
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b1) .. controls +(90:15mm) and +(90:15mm) .. (br1);}
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b2) .. controls +(270:8mm) and +(270:8mm) .. (br2);}
+		}
+
+
+
+		\subsubtext{Step 2}
+
+		In the second, fast step, the negatively-charged bromide ion from the first step attacks the overall
+		positively-charged cyclic bromonium ion, resulting in the final product. Note that the bromide ion attacks
+		one of the carbons attached to the positive bromide ion, breaking that bond. This is the fast step as it
+		involves the reaction of two oppositely-charged species.
+
+		\diagram[1.0]{
+			\schemestart[0, 1.5, thick]
+			\chemfig{C?(-[:90]H)(-[:180]H)-@{carb}C?(-[:90]H)(-[:0]H)(-[@{b1}:240,,,1]@{br}{\color{OliveGreen}X}?|\pch)}
+			\hspace{5mm} + \hspace{5mm}
+			\chemfig{@{br1}\lewis{5:,\color{OliveGreen}X}\mch}
+			\arrow{->[fast]}
+			\chemfig{C(-[:90]H)(-[:180]H)(-[:270]{{\color{OliveGreen}X}})-C(-[:90]H)(-[:0]H)(-[:270]{{\color{OliveGreen}X}})}
+			\schemestop
+
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=3mm,shorten >=1mm](br1) .. controls +(215:15mm) and +(315:15mm) .. (carb);}
+			\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b1) .. controls +(330:8mm) and +(350:8mm) .. (br);}
+		}
+
+		The observable change for this reaction would be the decolourisation of the respective halogen; \textit{\color{Mahogany}reddish-brown}
+		for bromine, and \textit{\color{YellowGreen}yellowish-green} for chlorine.
+
+
+		\subsubtext{Overall Reaction}
+
+		\diagram{
+			\schemestart
+			\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+			\hspace{5mm} + \hspace{5mm}
+			\chemfig{!{X}-!{X}}
+			\arrow
+			\chemfig{C(-[:270]!{X})(-[:90]H)(-[:180]H)-C(-[:270]!{X})(-[:90]H)(-[:0]H)}
+			\schemestop
+		}
+
+
+
+
+
+
+
+
 
 	% end subsubsection
 
