@@ -11,13 +11,29 @@
 \newcommand {\sbs}			[1]{\textsubscript{#1}}
 \newcommand {\sps}			[1]{\textsuperscript{#1}}
 \newcommand {\img}			[2]{\includegraphics[width=#1]{#2}}
-\newcommand {\imgdiagram}	[3]{\begin{figure}[ht]\begin{center}\includegraphics[width=#1]{#2}\linebreak
-									\fontsize{11pt}{13pt}\selectfont#3\normtext
+\newcommand {\imgdiagram}	[3]{\begin{figure}[!ht]\begin{center}\includegraphics[width=#1]{#2}\linebreak
+									\fontsize{11pt}{13pt}\selectfont{#3}\normtext
 									\end{center}\end{figure}}
+
+
+\newcommand {\includefigure}[3]
+							{
+								\begin{figure}[!ht]
+								\begin{center}
+								\hbox{
+									\vspace{5mm}
+									\includegraphics[width=#1]{#2}
+								}
+								\end{center}
+								\begin{center}
+								\fontsize{11pt}{13pt}\selectfont{#3}
+								\normtext\end{center}\end{figure}
+							}
+
 
 \newcommand {\vdashrule}	[1]{\raisebox{{#1 / 2}}{\rotatebox{270}{\hdashrule[0mm]{#1}{0.75mm}{2mm}}}}
 
-\newcommand {\diagram}		[3][1.2]
+\newcommand {\diagram}		[3][1.0]
 							{
 								\begin{figure}[!ht]
 								\begin{center}
@@ -45,15 +61,25 @@
 \newcommand {\chlorine}		{C\textit{l}}
 \newcommand {\aluminium}	{A\textit{l}}
 
-\newcommand {\deltap}		{δ\sps{+} }
-\newcommand {\deltam}		{δ\sps{-} }
+\newcommand {\deltap}		{\chemdelta\sps{+} }
+\newcommand {\deltam}		{\chemdelta\sps{-} }
 
-\newcommand {\sigmabond}	{σ}
+% small(er)
+\newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{+}\normtext }
+\newcommand {\smdeltam}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{-}\normtext }
+\newcommand {\smfplus}		{\fontsize{9pt}{11pt}\selectfont$\fplus$\normtext}
+\newcommand {\smfminus}		{\fontsize{9pt}{11pt}\selectfont$\fminus$\normtext}
+
 
 % submolecules
 
 % misc
 \definesubmol{star}			{{*}}
+\definesubmol{R}			{{\color{Aquamarine}R}}
+\definesubmol{R1}			{{\color{Aquamarine}R1}}
+\definesubmol{R2}			{{\color{Aquamarine}R2}}
+\definesubmol{R3}			{{\color{Aquamarine}R3}}
+\definesubmol{R4}			{{\color{Aquamarine}R4}}
 
 % atoms
 \definesubmol{O}			{{\color{Red}O}}

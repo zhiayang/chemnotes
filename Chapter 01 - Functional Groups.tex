@@ -1,10 +1,10 @@
 % Chapter01 - Functional Groups.tex
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
-\input{Preamble}
 
 \pagebreak
 \section{Functional Groups}
+
 \subsection{Overview}
 
 Functional groups are the main determinant of the chemical properties of a molecule. Molecules with the
@@ -19,38 +19,99 @@ in any position, while the carboxylic acid functional group has a more complex s
 Note that this table is ordered based on the \textit{priority} of the functional group, in terms of where it appears in
 an IUPAC-named chemical compound.
 
-\begin{center}
+\textit{R}, as used below, represents a substituent alkyl or aryl group, the former being an arbitrary carbon chain, and the
+latter being some aromatic ring derivative.
 
-\renewcommand{\arraystretch}{1.4}
-
+\begin{center}\renewcommand{\arraystretch}{1.4}
 \begin{longtabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] | X[c,m] |}
+
 	\hline
 
 Name			&	Prefix Form		&	Suffix Form		&	Structure \\
 \hline
-Carboxylic Acid	&	carboxy–*		&	*–oic acid		&	\raisebox{-\totalheight}[1mm]{\img{25mm}{images/ch01/carboxylic-acid.png}} \\
+Carboxylic Acid	&	carboxy–*		&	*–oic acid		&
+	\vspace{2mm}
+	\chemfig{!{O}=C(-[:315]!{OH})(-[:45]!{R})}
+	\vspace{2mm}	\\
+
+
 \hline
-Ester			&		–			&	*–oate			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/ester.png}} \\
+Ester			&		–			&	*–oate			&
+	\vspace{2mm}
+	\chemfig[][scale=0.9]{!{O}=C(-[:315]!{O}(-[:0]!{R}))(-[:45]!{R})}
+	\vspace{2mm}	\\
+
+
 \hline
-Acyl Halide		&	halocarbonyl–*	&	*–oyl halide	&	\raisebox{-\totalheight}[1mm]{\img{25mm}{images/ch01/acyl-halide.png}} \\
+Acyl Halide		&	halocarbonyl–*	&	*–oyl halide	&
+	\vspace{2mm}
+	\chemfig{!{O}=C(-[:315]!{X})(-[:45]!{R})}
+	\vspace{2mm}	\\
+
+
 \hline
-Amide			&	carbamoyl–*		&	*–amide			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/amide.png}} \\
+Amide			&	carbamoyl–*		&	*–amide			&
+	\vspace{2mm}
+	\chemfig[][scale=0.9]{!{O}=C(-[:315]!{R})(-[:45]!{N}(-[:0]!{star})(-[:135]!{star}))}
+	\vspace{2mm}	\\
+
+
 \hline
-Nitrile			&	cyano–*			&	*–nitrile		&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/nitrile.png}} \\
+Nitrile			&	cyano–*			&	*–nitrile		&
+	\vspace{10mm}	% extra padding
+	\chemfig{!{N}~C-!{R}}
+	\vspace{10mm}	\\
+
+
 \hline
-Aldehyde		&	formyl–*		&	*–al			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/aldehyde.png}} \\
+Aldehyde		&	formyl–*		&	*–al			&
+	\vspace{2mm}
+	\chemfig{!{O}=C(-[:315]H)(-[:45]!{R})}
+	\vspace{2mm}	\\
+
+
 \hline
-Ketone			&	oxo–*			&	*–one			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/ketone.png}} \\
+Ketone			&	oxo–*			&	*–one			&
+	\vspace{2mm}
+	\chemfig{!{O}=C(-[:315]!{R})(-[:45]!{R})}
+	\vspace{2mm}	\\
+
+
 \hline
-Alcohol			&	hydroxy–*		&	*–ol			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/alcohol.png}} \\
+Alcohol			&	hydroxy–*		&	*–ol			&
+	\vspace{2mm}
+	\chemfig{C(-[:0]!{OH})(-[:90]!{star})(-[:180]!{star})(-[:270]!{star})}
+	\vspace{2mm}	\\
+
+
 \hline
-Amine			&	amino–*			&	*–amine			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/amine.png}} \\
+Amine			&	amino–*			&	*–amine			&
+	\vspace{2mm}
+	\chemfig{!{R}-[:0]!{N}(-[:45]!{star})(-[:315]!{star})}
+	\vspace{2mm}	\\
+
+
 \hline
-Alkene			&	alkenyl–*		&	*–ene			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/alkene.png}} \\
+Alkene			&	alkenyl–*		&	*–ene			&
+	\vspace{2mm}
+	\chemfig{C(-[:135]!{star})(-[:225]!{star})=[:0]C(-[:45]!{star})(-[:315]!{star})}
+	\vspace{2mm}	\\
+
+
 \hline
-Ether			&	alkoxy–*		&		–			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/ether.png}} \\
+Ether			&	alkoxy–*		&		–			&
+	\vspace{10mm}	% extra padding again
+	\chemfig{!{O}(-[:330]!{R})(-[:210]!{R})}
+	\vspace{10mm}	\\
+
+
 \hline
-Alkyl Halide	&	halogen–*		&		–			&	\raisebox{-\totalheight}[1mm]{\img{30mm}{images/ch01/alkyl-halide.png}} \\
+Alkyl Halide	&	halogen–*		&		–			&
+	\vspace{2mm}
+	\chemfig{C(-[:0]!{X})(-[:90]!{star})(-[:180]!{star})(-[:270]!{star})}
+	\vspace{2mm}	\\
+
+
 \hline
 
 \end{longtabu}

@@ -1,7 +1,6 @@
 % Chapter05 - Alkanes.tex
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
-\input{Preamble}
 
 \pagebreak
 \section{Alkanes}
@@ -45,7 +44,7 @@
 % end subsection
 
 
-
+\pagebreak
 \subsection{Physical Properties}
 	\subsubsection{Melting and Boiling Points}
 
@@ -84,11 +83,12 @@
 	\subsubsection{Mechanism of Reaction}
 
 		In the steps below, the free radical substitution of methane (\ch{CH4}) by chlorine (\ch{\chlorine2}) will be used. This applies
-		for any alkane, and a sufficiently reactive halogen (Usually either \ch{\chlorine} or \ch{Br}).
+		for any alkane, and a sufficiently reactive halogen.
 
-		The observable change would be a decolourising of the halogen gas, as it is consumed. This is \textit{\color{Mahogany}reddish-brown}
-		for bromine, and \textit{\color{YellowGreen}yellowish-green} for chlorine. Conditions for the reaction simply include the alkane
-		and gaseous halogen gas, as well as UV light.
+		\vspace{1.5em}
+
+		\vbox{\textbf{Conditions:} \tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}
+		\vbox{\textbf{Observations:} \tabto{35mm}\textit{\color{Mahogany}reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
 
 		\subsubtext{\vspace{10mm}\vbox{\textit{Stage I}\tabto{25mm}Initiation}}
 
@@ -345,10 +345,10 @@
 
 		\hline
 		% row one: molecules
-		\molecule{C(-[:0]R1)(-[:90]H)(-[:180]H)(-[:270]H)}		\vspace{2mm}	&
-		\molecule{C(-[:0]R1)(-[:90]R2)(-[:180]H)(-[:270]H)}		\vspace{2mm}	&
-		\molecule{C(-[:0]R1)(-[:90]R2)(-[:180]R3)(-[:270]H)}	\vspace{2mm}	&
-		\molecule{C(-[:0]R1)(-[:90]R2)(-[:180]R3)(-[:270]R4)}	\vspace{2mm}	\\
+		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]H)(-[:180]H)(-[:270]H)}				\vspace{2mm}	&
+		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]!{R2})(-[:180]H)(-[:270]H)}			\vspace{2mm}	&
+		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]!{R2})(-[:180]!{R3})(-[:270]H)}		\vspace{2mm}	&
+		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]!{R2})(-[:180]!{R3})(-[:270]!{R4})}	\vspace{2mm}	\\
 
 		\hline
 		Primary (\SI{1}{\degree})		&

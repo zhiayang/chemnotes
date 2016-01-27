@@ -1,7 +1,6 @@
 % Chapter04 - Induction and Resonance.tex
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
-\input{Preamble}
 
 \pagebreak
 \section{Induction and Resonance}
@@ -9,12 +8,12 @@
 \subsection{Inductive Effect}
 
 	The inductive effect occurs through covalent bonds, where there is a significant difference in the electronegativity of
-	participating atoms. Electrons are either withdrawn or donated through a σ-bond, due to the polarity of the molecule.
+	participating atoms. Electrons are either withdrawn or donated through a \chemsigma-bond, due to the polarity of the molecule.
 
 	\subsubsection{Withdrawal}
 
 		Below, \ch{\chlorine} is more electronegative than the carbon it is bonded to. As such, it
-		\textit{inductively withdraws} electrons through the σ-bond.
+		\textit{inductively withdraws} electrons through the \chemsigma-bond.
 
 		\diagram{
 			\chemfig{C(-[:0,,,,-Stealth]!{Cl})(-[:90]!{star})(-[:180]!{star})(-[:270]!{star})}
@@ -28,7 +27,7 @@
 
 		Alkyl groups, or groups with the general formula \ch{C_nH_{2n+1}}, \textit{inductively donate} electrons. This behaviour
 		is due to hyperconjugation, which lowers the total energy of the system, through an interaction between electrons in a
-		σ-bond of the alkyl group, with a partially-filled or empty p-orbital in the adjacent atom.
+		\chemsigma-bond of the alkyl group, with a partially-filled or empty p-orbital in the adjacent atom.
 
 
 		\diagram[1.1]{
@@ -59,7 +58,7 @@
 			\schemestart[0, 1.5, thick]
 			\chemfig{C(-[:180]H)(=_[@{b1}:270]@{oxy}{{\color{Red}O}})(-[@{b2}:0]C(-[:90]H)(=[@{b3}:0]C(-[:45]H)(-[:315]H)))}
 			\arrow{->}
-			\chemfig{C(-[:180]H)(-[:270]!{O}|\sps{-})(-[:0]C(-[:90]H)(=[:0]C|\sps{+}(-[:45]H)(-[:315]H)))}
+			\chemfig{C(-[:180]H)(-[:270]!{O}|\sps{-})(-[:0]C(-[:90]H)(=[:0]C|\sps{+}(-[:45,,1]H)(-[:315,,1]H)))}
 			\schemestop
 
 			% draw arrows
