@@ -5,7 +5,7 @@
 
 # LATEX				= texfot lualatex
 LATEX				= lualatex
-FLAGS				= -interaction=nonstopmode -halt-on-error
+FLAGS				= --interaction=nonstopmode --halt-on-error --shell-escape
 
 
 FIGURESSRC			= $(shell find figures -iname "*.tex")
@@ -33,9 +33,9 @@ $(OUTPUT): $(SRC) $(FINALSRC) $(FIGURESPDF)
 # haha
 clena: clean
 clean:
-	@find source -name "*.aux" | xargs rm -f
-	@find source -name "*.log" | xargs rm -f
-	@find source -name "*.pdf" | xargs rm -f
+	@find . -name "*.aux" | xargs rm -f
+	@find . -name "*.log" | xargs rm -f
+	@find . -name "*.pdf" | xargs rm -f
 
 
 

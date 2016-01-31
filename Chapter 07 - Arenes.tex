@@ -4,3 +4,228 @@
 
 \pagebreak
 \section{Arenes}
+
+\subsection{Benzene}
+
+	Benzene is simplest possible aromatic compound, or arene. The first known and isolated arene compounds had pleasant smells,
+	such as benzaldehyde. Unfortunately, even though most known arenes now smell terrible and are carcinogenic, the name stuck.
+
+	\diagram[1.0]{
+		\chemfig{**6(------)}
+	}{The structural representation of benzene.}
+
+	The most common form of arene is the benzene ring, or phenyl functional group. Note that aromatic rings with other configurations
+	and structures can also form, such as with nitrogen.
+
+	Its basic structure consists of 6 carbon atoms, arranged in a hexagonal fashion. However, unlike cyclohexane, benzene is a flat,
+	planar molecule. All 6 carbon atoms are sp\sps{2} hybridised, forming the following structure:
+
+	\imgdiagram{120mm}{figures/ch07/benzene_delocalisation.png}
+
+	The trigonal structure of the sp\sps{2} hybrid orbitals dictates this structure, since the angle between each orbital is \ang{120},
+	which is the internal angle of a regular hexagon. Note that there is one \ch{H} atom bonded to each carbon, making the molecular
+	formula of benzene \ch{C6H6}.
+
+	The carbon atoms are bonded to each other through π-bonds with their unhybridised p-orbitals, while the bonds with the hydrogen
+	atoms (or other substituents if substituted) are done with the sp\sps{2} orbitals.
+
+	Furthermore, the 6 π-bond electrons are delocalised, and move freely within the ring. This increases the stability of the benzene
+	ring, which increases the amount of energy needed to modify it by fiddling with bonds.
+
+
+	\subsubsection{Physical Properties}
+
+		Since benzene is a regular hexagon, each \ch{C=C} bond is the same length. However, it shorter than a \ch{C-C} bond, but longer
+		than a \ch{C+C} bond.
+
+		Benzene is a volatile, flammable and carcinogenic. Don't drink it. Don't eat it. Don't touch it. It also happens to be colourless,
+		with a distinct "aromatic" odour.
+
+		As a non-polar molecule, it has relatively low melting and boiling points (\SI{5.5}{\celsius} and \SI{80.1}{\celsius}), as well as low
+		solubility in water. Of course, it is soluble in non-polar solvents, and in fact can be used as a solvent in its own right.
+
+	% end subsubsection
+
+
+	\subsubsection{Chemical Reactions}
+
+		Benzene undergoes substitution reactions rather than addition reactions, since adding atoms to the ring would destroy the
+		delocalised π-system of the ring, which is energetically unfavourable. Instead, the \ch{H} atoms on the ring are substituted.
+
+		The main mechanism for this is electrophilic substitution, as seen below.
+
+	% end subsubsection
+
+% end subsection
+
+
+% UN FUCK THE FORMATTING
+\pagebreak
+\subsection{Electrophilic Substitution}
+
+	The delocalised π-system of benzene has a very high electron density, and thus is a prime target for electrophiles, which
+	will substitute the \ch{H} atoms on the ring. Thus, the most common form of reaction involving benzenes is electrophilic
+	substitution, barring special conditions and requirements.
+
+
+	\vspace{1.0em}
+	\subsubtext{Step 1}
+
+	In the first, rate-determining step, the aromaticity of the benzene ring is partially and temporarily broken, disrupted by
+	the attacking electrophile.
+
+	\diagram[1.0]{
+		\schemestart[0,1.5,thick]
+			\chemfig{**6(---@{ring}---)}
+			\arrow{0}[,0]		% used for alignment
+			\hspace{5mm} + \hspace{5mm}
+			\chemfig{@{el}E}
+			\arrow(--.base west){->[slow]}
+			\chemfig[yshift=\the\dimexpr-1.5em\relax]{**[60,-240]6(----(-[:135]H)(-[:45]E)--)(-[:30,,,,draw=none]+)}
+		\schemestop
+
+		\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-4mm,shorten >=1mm](ring) .. controls +(40:8mm) and +(120:8mm) .. (el);}
+
+	}{Note that the '+' is drawn in the centre of the ring, not on any one carbon.}
+
+
+	Two electrons out of six from the delocalised π-system are used to form the bond between the electrophile, E, and the carbon.
+	Thus, there is a positive charge on the carbon; due to the delocalised nature of the π-system however, this positive charge is
+	delocalised across \textit{all 6 carbons}, making it much more stable than a simple carbocation.
+
+	However, the activation energy for this step is still large, and only strong electrophiles are able to attack the benzene ring without catalysts.
+
+
+	\vspace{1.0em}
+	\subsubtext{Step 2}
+
+	Next, a nucleophile (\chlewis{180}{Nu-} in this example) attacks the hydrogen attached to the hydrogen on the carbon atom,
+	restoring the aromaticity of the benzene ring. The new substituent is now in place, and the two electrons in the \ch{C-H}
+	bond are returned to the π-system.
+
+
+	\diagram[1.0]{
+		\schemestart[0, 1.5, thick]
+			\chemfig[yshift=-1.5em]{**[60,-240]6(----(-[@{bond}:135]@{hyd}H)(-[:45]E)--)(-[:30,,,,draw=none]@{pl}+)}
+			\arrow(.base east--){0}[,0]		% alignment purposes
+			\hspace{5mm} + \hspace{5mm}
+			\chemfig{@{nu}\lewis{2:,N}|u\mch}
+			\arrow(--.mid west){->[fast]}
+			\chemfig{\ch{HNu}}
+			\hspace{5mm} + \hspace{5mm}
+			\chemfig[yshift=-1.5em]{**6(----(-[:90]E)--)}
+		\schemestop
+
+		\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](nu) .. controls +(90:15mm) and +(45:15mm) .. (hyd);}
+		\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=1mm,shorten >=1mm](bond) .. controls +(225:8mm) and +(90:8mm) .. (pl);}
+	}
+
+
+	Note that the arenium ion (which is the partially delocalised benzene) has 5 sp\sps{2} carbons, and one sp\sps{3} carbon. This
+	results in a disruption of the planar structure of benzene –– it is restored once the substitution is completed.
+
+% end subsection
+
+\subsection{Nitration of Benzene}
+
+	The nitration of benzene involves the substitution of one of the \ch{H} atoms on the benzene with a nitro (\ch{-NO2}) group.
+	It has a number of specific requirements:
+
+	\vspace{1.5em}
+	\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3}, concentrated \ch{H2SO4} catalyst.
+								\tabto{35mm}\textit{Constant} temperature of \SI{50}{\celsius}.}
+
+	\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
+
+
+	\vspace{1.5em}
+	\subsubtext{\vbox{IV.\tabto{10mm}A New Electrophile}}
+
+	Since \ch{H2SO4} is a stronger acid than \ch{HNO3}, it donates a proton to \ch{HNO3}, forming \ch{H2O}, \ch{HSO4-}, and \ch{NO2+}, the
+	electrophile. Next, another molecule of \ch{H2SO4} then forms \ch{H+ \aq}, or \ch{H3O+}. The overall equation is as such:
+
+	\diagram{
+		\schemestart[0, 1.0, thick]
+			\ch{2 H2SO4} + \ch{HNO3}
+			\arrow
+			\ch{NO2+} + \ch{H3O+} + \ch{2 HSO4-}
+		\schemestop
+	}{The catalyst \ch{H2SO4} is restored in a later step.}
+
+
+	\vspace{2.0em}
+	\subsubtext{\vbox{V.\tabto{10mm}The π-Electrons Strike Back}}
+
+	Now that the electrophile \ch{NO2+} has been formed, it is attacked by the π-system. As with all electrophilic substitutions, this
+	involves the breaking of the aromatic system, and is the slow step. The mechanism follows the general mechanism outlined above.
+
+	\diagram[1.0]{
+		\schemestart[0, 1.5, thick]
+		\chemfig{**6(---@{ring}---)}
+		\arrow{0}[,0]		% used for alignment
+		\hspace{5mm} + \hspace{5mm}
+		\chemfig{@{el}\ch{NO2+}}
+		\arrow(--.base west){->[slow]}
+		\chemfig[yshift=\the\dimexpr-1.5em\relax]{**[60,-240]6(----(-[:135]H)(-[:45]\ch{NO2})--)(-[:30,,,,draw=none]+)}
+		\schemestop
+
+		\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-4mm,shorten >=1mm](ring) .. controls +(40:8mm) and +(120:8mm) .. (el);}
+	}
+
+
+
+
+	% \vspace{2.0em}
+	\pagebreak
+	\subsubtext{\vbox{VI.\tabto{10mm}Return of the Aromaticity}}
+
+	The \ch{HSO4-} intermediate acts as a nucleophile and attacks the \ch{H} atom bonded to the benzene intermediate. This
+	restores both the π-system of the benzene ring, as well as the catalyst, \ch{H2SO4}.
+
+
+	% TODO: fix alignment (more?)
+	\diagram[0.85]{
+		\schemestart[0, 1.5, thick]
+		\chemfig{!{S}(=[:180]!{O})(=[:270]!{O})(-[:90]@{oxy}\lewis{2:,\color{Red}O}|\mch)(-[:0]!{OH})}
+		\hspace{5mm} + \hspace{5mm}
+		\chemfig[yshift=-1.5em]{**[60,-240]6(----(-[@{bond}:135]@{hyd}H)(-[:45]\ch{NO2})--)(-[:30,,,,draw=none]@{plus}+)}
+		\arrow(.mid east--.mid west){->[fast]}
+		\chemfig[yshift=-1.5em]{**6(----(-[:90]\ch{NO2})--)}
+		\hspace{5mm} + \hspace{5mm}
+		\chemfig{!{S}(=[:180]!{O})(=[:270]!{O})(-[:90]!{OH})(-[:0]!{OH})}
+		\schemestop
+
+		\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oxy) .. controls +(90:15mm) and +(120:15mm) .. (hyd);}
+		\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=1mm,shorten >=1mm](bond) .. controls +(225:8mm) and +(90:8mm) .. (plus);}
+	}
+
+
+
+	\vspace{1.0em}
+	\subsubtext{\vbox{VII.\tabto{10mm}Overall Reaction}}
+
+	\diagram[1.0]{
+		\schemestart[0, 1.5, thick]
+		\chemfig{\ch{HNO3}}
+		\hspace{5mm} + \hspace{5mm}
+		\chemfig[yshift=-1.5em]{**6(------)}
+		\arrow(.base east--.base west){->[\ch{H2SO4}][\SI{50}{\celsius}]}
+		\chemfig[yshift=-1.5em]{**6(----(-[:90]\ch{NO2})--)}
+		\hspace{5mm} + \hspace{5mm}
+		\chemfig{\ch{H2O}}
+		\schemestop
+	}
+
+
+	\pagebreak
+	\subsection{Halogenation of Benzene}
+
+	\lipsum[2-4]
+
+
+
+% end section
+
+
+
+

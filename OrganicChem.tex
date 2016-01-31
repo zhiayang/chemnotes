@@ -31,9 +31,6 @@
 \usepackage{chemgreek}
 \usepackage{chemmacros}
 \usepackage{chemformula}
-\chemsetup{chemformula/radical-vshift=-0.35ex,chemformula/bond-style={line width=0.3mm},phases/pos=sub}
-
-\usetikzlibrary{arrows.meta}
 
 
 % Will Robertson's fontspec.sty can be used to simplify font choices.
@@ -42,7 +39,25 @@
 
 \usepackage{fontspec, xunicode, microtype}
 
-% \defaultfontfeatures{Mapping=tex-text}
+
+\usechemmodule{orbital}
+\chemsetup{
+	phases/pos		= sub
+}
+
+\setchemformula{
+	bond-style		= {line width=0.3mm},
+	radical-vshift	= -0.35ex
+}
+
+\usetikzlibrary{arrows.meta}
+
+
+% \usetikzlibrary{external}
+% \tikzset{external/system call={lualatex \tikzexternalcheckshellescape -shell-escape -halt-on-error -interaction=nonstopmode -jobname "\image" "\texsource"}}
+% \tikzexternalize[prefix=figures/]
+
+
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont[Ligatures=TeX]{HelveticaNeue}
 \setsansfont[Scale=MatchLowercase,Ligatures=TeX]{HelveticaNeue}
@@ -121,6 +136,14 @@
 	detect-all = true
 }
 
+\chemsetup[orbital]{
+	overlay,
+	p/scale = 1.5,
+	sp/scale = 1.5,
+	sp2/scale = 1.5,
+	sp3/scale = 1.5,
+	s/scale = 1.5
+}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{\baselineskip}
@@ -133,6 +156,8 @@
 \setatomsep{12mm}			% fixed length of a bond
 \setbondoffset{1.0mm}		% margin
 \setbondstyle{line width=0.45mm}
+
+\tikzset{every picture/.style={line width=0.4mm}}
 
 \input{Commands}
 
@@ -182,14 +207,14 @@
 
 % reset
 
-\input{"Chapter 01 - Functional Groups"}
-\input{"Chapter 02 - Isomers"}
-\input{"Chapter 03 - Reaction Mechanisms"}
-\input{"Chapter 04 - Induction and Resonance"}
-\input{"Chapter 05 - Alkanes"}
-\input{"Chapter 06 - Alkenes"}
+% \input{"Chapter 01 - Functional Groups"}
+% \input{"Chapter 02 - Isomers"}
+% \input{"Chapter 03 - Reaction Mechanisms"}
+% \input{"Chapter 04 - Induction and Resonance"}
+% \input{"Chapter 05 - Alkanes"}
+% \input{"Chapter 06 - Alkenes"}
 \input{"Chapter 07 - Arenes"}
-\input{"Chapter 08 - Halogen Derivatives"}
+% \input{"Chapter 08 - Halogen Derivatives"}
 
 
 
