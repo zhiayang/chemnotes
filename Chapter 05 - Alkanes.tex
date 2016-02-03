@@ -15,14 +15,14 @@
 
 	\diagram{
 
-		\chemfig{!{H3C}-[:330]-[:30]-[:330]-[:30]-[:330]-[:30]-[:330]!{CH3}}
+		\chemfig{!\molMeR-[:330]-[:30]-[:330]-[:30]-[:330]-[:30]-[:330]!\molMe}
 
 	}{Octane is an example of a straight-chain alkane.}
 
 
 	\diagram{
 
-		\chemfig{C(-[:0]!{CH3})(-[:90]!{CH3})(-[:180]!{H3C})(-[:270]!{CH3})}
+		\chemfig{C(-[:0]!\molMe)(-[:90]!\molMe)(-[:180]!\molMeR)(-[:270]!\molMe)}
 
 	}{2,2-dimethylpropane is an example of a branched alkane.}
 
@@ -87,8 +87,8 @@
 
 		\vspace{1.5em}
 
-		\vbox{\textbf{Conditions:} \tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}
-		\vbox{\textbf{Observations:} \tabto{35mm}\textit{\color{Mahogany}reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+		\vbox{\textbf{Conditions:} \tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}	% single line, not needed \vspace{0.5em}
+		\vbox{\textbf{Observations:} \tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
 
 		\subsubtext{\vspace{10mm}\vbox{\textit{Stage I}\tabto{25mm}Initiation}}
 
@@ -98,7 +98,7 @@
 			\diagram{
 				\schemestart[0, 1.5, thick]
 				\chemfig{@{cl1}{\color{OliveGreen}\chlorine}-[@{b}:0]@{cl2}{\color{OliveGreen}\chlorine}}
-				\arrow{->}
+				\arrow
 				\chemfig{2 \lewis{0.,\color{OliveGreen}\chlorine}}
 				\schemestop
 
@@ -115,18 +115,18 @@
 
 			\diagram{
 				\schemestart[0, 1.0, thick]
-					\chemfig{\lewis{0.,\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{CH\sbs{4}}
-					\arrow{->}
-					\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{3mm} + \hspace{3mm} \chemfig{H\chlorine}
+					\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{CH\sbs{4}}
+					\arrow
+					\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{H\chlorine}
 				\schemestop
 			}
 
 			\vspace{-15mm}
 			\diagram{
 				\schemestart[0, 1.0, thick]
-					\chemfig{\ch{\chlorine2}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{4.,CH\sbs{3}}}
-					\arrow{->}
-					\chemfig{\ch{CH3\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
+					\chemfig{\ch{\chlorine2}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+					\arrow
+					\chemfig{\ch{CH3\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
 				\schemestop
 			}
 
@@ -143,8 +143,8 @@
 
 			\diagram{
 				\schemestart[0, 1.0, thick]
-					\chemfig{\lewis{0.,\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
-					\arrow{->}
+					\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
+					\arrow
 					\chemfig{\ch{\chlorine2}}
 				\schemestop
 			}
@@ -152,8 +152,8 @@
 			\vspace{-15mm}
 			\diagram{
 				\schemestart[0, 1.0, thick]
-					\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{4.,CH\sbs{3}}}
-					\arrow{->}
+					\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+					\arrow
 					\chemfig{\ch{CH3CH3}}
 				\schemestop
 			}
@@ -161,8 +161,8 @@
 			\vspace{-15mm}
 			\diagram{
 				\schemestart[0, 1.0, thick]
-					\chemfig{\lewis{0.,\chlorine}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{4.,CH\sbs{3}}}
-					\arrow{->}
+					\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+					\arrow
 					\chemfig{\ch{CH3\chlorine}}
 				\schemestop
 			}
@@ -186,8 +186,8 @@
 
 		\diagram{
 			\schemestart[0, 1.0, thick]
-				\chemfig{\ch{CH3Cl}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
-				\arrow{->}
+				\chemfig{\ch{CH3Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
+				\arrow
 				\chemfig{\lewis{4.,\ch{CH2\chlorine}}}
 			\schemestop
 		}
@@ -195,9 +195,9 @@
 		\vspace{-15mm}
 		\diagram{
 			\schemestart[0, 1.0, thick]
-				\chemfig{\lewis{0.,\ch{CH2\chlorine}}} \hspace{3mm} + \hspace{3mm} \chemfig{\ch{\chlorine2}}
-				\arrow{->}
-				\chemfig{\lewis{4.,\ch{CH2\chlorine2}}} \hspace{3mm} + \hspace{3mm} \chemfig{\lewis{0.,\chlorine}}
+				\chemfig{\lewis{0.,\ch{CH2\chlorine}}} \hspace{2mm} + \hspace{2mm} \chemfig{\ch{\chlorine2}}
+				\arrow
+				\chemfig{\lewis{4.,\ch{CH2\chlorine2}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
 			\schemestop
 		}
 
@@ -227,7 +227,7 @@
 				\arrow[270]
 				\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-\lewis{2.,C}(-[:270]H)-C(-[:90]H)(-[:0]H)(-[:270]H)}
 				\arrow[270]
-				\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]!{Cl})(-[:270]H)-C(-[:90]H)(-[:0]H)(-[:270]H)}
+				\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]!\molCl)(-[:270]H)-C(-[:90]H)(-[:0]H)(-[:270]H)}
 			\schemestop
 
 			\hspace{30mm}
@@ -237,7 +237,7 @@
 				\arrow[270]
 				\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]H)(-[:270]H)-\lewis{0.,C}(-[:0,,,,draw=none]\vphantom{H})(-[:90]H)(-[:270]H)}
 				\arrow[270]
-				\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]H)(-[:270]H)-C(-[:0]!{Cl})(-[:90]H)(-[:270]H)}
+				\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]H)(-[:270]H)-C(-[:0]!\molCl)(-[:90]H)(-[:270]H)}
 			\schemestop
 
 
@@ -345,10 +345,10 @@
 
 		\hline
 		% row one: molecules
-		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]H)(-[:180]H)(-[:270]H)}				\vspace{2mm}	&
-		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]!{R2})(-[:180]H)(-[:270]H)}			\vspace{2mm}	&
-		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]!{R2})(-[:180]!{R3})(-[:270]H)}		\vspace{2mm}	&
-		\vspace{2mm}	\chemfig{C(-[:0]!{R1})(-[:90]!{R2})(-[:180]!{R3})(-[:270]!{R4})}	\vspace{2mm}	\\
+		\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]H)(-[:180]H)(-[:270]H)}				\vspace{2mm}	&
+		\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]!\molRtw)(-[:180]H)(-[:270]H)}			\vspace{2mm}	&
+		\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]!\molRtw)(-[:180]!\molRth)(-[:270]H)}		\vspace{2mm}	&
+		\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]!\molRtw)(-[:180]!\molRth)(-[:270]!\molRfr)}	\vspace{2mm}	\\
 
 		\hline
 		Primary (\SI{1}{\degree})		&
@@ -374,11 +374,11 @@
 	\diagram{
 		\schemestart[0, 1.0, thick]
 			\chemfig{C$_{x}$H$_{y}$}
-			\hspace{3mm} + \hspace{3mm}
+			\hspace{2mm} + \hspace{2mm}
 			\chemfig{$x + \frac{y}{4}$\ch{O2}}
 			\arrow
 			\chemfig{$x$\ch{CO2}}
-			\hspace{3mm} + \hspace{3mm}
+			\hspace{2mm} + \hspace{2mm}
 			\chemfig{$\frac{y}{2}$\ch{H2O}}
 		\schemestop
 	}

@@ -53,6 +53,11 @@
 
 
 
+
+
+
+
+
 % chem shortcuts
 \newcommand {\molecule}		[1]{\begin{center}\chemfig{#1}\end{center}}
 
@@ -61,8 +66,8 @@
 \newcommand {\chlorine}		{C\textit{l}}
 \newcommand {\aluminium}	{A\textit{l}}
 
-\newcommand {\deltap}		{\chemdelta\sps{+} }
-\newcommand {\deltam}		{\chemdelta\sps{-} }
+\newcommand {\deltap}		{\chemdelta\sps{+}}
+\newcommand {\deltam}		{\chemdelta\sps{-}}
 
 % small(er)
 \newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{+}\normtext }
@@ -74,38 +79,47 @@
 % submolecules
 
 % misc
-\definesubmol{star}			{{*}}
-\definesubmol{R}			{{\color{Aquamarine}R}}
-\definesubmol{R1}			{{\color{Aquamarine}R1}}
-\definesubmol{R2}			{{\color{Aquamarine}R2}}
-\definesubmol{R3}			{{\color{Aquamarine}R3}}
-\definesubmol{R4}			{{\color{Aquamarine}R4}}
+\definesubmol	\molStar	{{*}}
+\definesubmol	\molR		{{\color{Aquamarine}R}}
+\definesubmol	\molRon		{{\color{Aquamarine}R1}}
+\definesubmol	\molRtw		{{\color{Aquamarine}R2}}
+\definesubmol	\molRth		{{\color{Aquamarine}R3}}
+\definesubmol	\molRfr		{{\color{Aquamarine}R4}}
 
 % atoms
-\definesubmol{O}			{{\color{Red}O}}
-\definesubmol{N}			{{\color{RoyalBlue}N}}
-\definesubmol{S}			{{\color{Bittersweet}S}}
+\definesubmol	\molN		{{\color{RoyalBlue}N}}
+\definesubmol	\molO		{{\color{Red}O}}
+\definesubmol	\molS		{{\color{Bittersweet}S}}
 
-\definesubmol{Al}			{A\textit{l}}
+\definesubmol	\molAl		{A\textit{l}}
 
 % halogens
-\definesubmol{X}			{{\color{OliveGreen}X}} % placeholder
-\definesubmol{F}			{{\color{Tan!80!Black}F}}
-\definesubmol{Cl}			{{\color{OliveGreen}\chlorine}}
-\definesubmol{Br}			{{\color{Mahogany}Br}}
-\definesubmol{I}			{{\color{Sepia}I}}
+\definesubmol	\molX		{{\color{OliveGreen}X}} % placeholder
+\definesubmol	\molF		{{\color{Tan!80!Black}F}}
+\definesubmol	\molCl		{{\color{OliveGreen}\chlorine}}
+\definesubmol	\molBr		{{\color{Mahogany}Br}}
+\definesubmol	\molI		{{\color{Sepia}I}}
 
 % groups
-\definesubmol{OH}			{{\color{Red}O}|{\color{Red}H}}				% hydroxide, red.
-\definesubmol{HO}			{{\color{Red}H}|{\color{Red}O}}				% hydroxide, red.
-\definesubmol{CH3}			{C|H\sbs{3}}								% methyl group
-\definesubmol{H3C}			{H\sbs{3}|C}								% methyl group, reversed (H3C)
+\definesubmol	\molOH		{{\color{Red}O}|{\color{Red}H}}	% hydroxide, red.
+\definesubmol	\molHO		{{\color{Red}H}|{\color{Red}O}}	% hydroxide, red.
 
-\definesubmol{CH2CH3}		{C|H\sbs{2}|C|H\sbs{3}}						% ch2ch3
+\definesubmol	\molMe		{C|H\sbs{3}}
+\definesubmol	\molMeR		{H\sbs{3}|C}
 
 
-% benzene.
-\newcommand{\benzene}		[1]{\expandafter{**[,,line width=0.40mm]6}{(#1)}}
+\definesubmol	\molEthyl	{C|H\sbs{2}|C|H\sbs{3}}						% ch2ch3
+\definesubmol	\molNitro	{N|O\sbs{2}}
+
+
+
+% utils
+\definesubmol	\invisbond	{-[,0.3,,,draw=none]}
+\definesubmol	\molDeltap	{\chemdelta\sps{+}}
+\definesubmol	\molDeltam	{\chemdelta\sps{-}}
+
+
+
 
 
 

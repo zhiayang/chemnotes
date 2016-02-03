@@ -20,9 +20,9 @@ compounds the same, while the chemical and physical properties may differ greatl
 		along the carbon chain. Chain isomers typically have similar chemical properties, but different physical
 		properties (since the shape of the carbon chain can determine the strength of id-id interactions).
 
-		\diagram[1.1]{
-			\chemfig{!{H3C}-[:30]-[:-30]-[:30]-[:-30]-[:30]!{OH}}\hspace{10mm}
-			\chemfig{!{H3C}-[:30]-[:-30](-[:270]!{CH3})-[:30]-[:-30]!{OH}}
+		\diagram[1.0]{
+			\chemfig{!\molMeR-[:30]-[:-30]-[:30]-[:-30]-[:30]!\molOH}\hspace{10mm}
+			\chemfig{!\molMeR-[:30]-[:-30](-[:270]!\molMe)-[:30]-[:-30]!\molOH}
 		}{Pentanol and 3-methylbutan-1-ol are chain isomers.}
 
 	% end subsubsection
@@ -34,9 +34,9 @@ compounds the same, while the chemical and physical properties may differ greatl
 		functional groups are placed at different positions.
 
 
-		\diagram[1.1]{
-			\chemfig{!{H3C}-[:-30](-[:270]!{OH})-[:30](-[:90]!{OH})-[:-30]-[:30]!{CH3}}\hspace{10mm}
-			\chemfig{!{H3C}-[:-30](-[:270]!{OH})-[:30]-[:-30](-[:270]!{OH})-[:30]!{CH3}}
+		\diagram[1.0]{
+			\chemfig{!\molMeR-[:-30](-[:270]!\molOH)-[:30](-[:90]!\molOH)-[:-30]-[:30]!\molMe}\hspace{10mm}
+			\chemfig{!\molMeR-[:-30](-[:270]!\molOH)-[:30]-[:-30](-[:270]!\molOH)-[:30]!\molMe}
 		}{Butan-2,3-ol and butan-2,4-ol are positional isomers.}
 
 	% end subsubsection
@@ -49,12 +49,12 @@ compounds the same, while the chemical and physical properties may differ greatl
 		share only their molecular formulas; the carbon chain, the functional groups, etc. are all different.
 
 
-		\diagram[1.1]{
+		\diagram[1.0]{
 			% note: this is drawn in this weird fashion (starting with the oxygen) because
 			% chemfig starts the molecule's baseline at the first atom.
 
-			\chemfig{!{O}=^[:90]-[:150]-[:210]!{H3C}}			\hspace{10mm}
-			\chemfig{!{H3C}-[:30](=[:90]!{O})-[:-30]!{CH3}}
+			\chemfig{!\molO=^[:90]-[:150]-[:210]!\molMeR}			\hspace{10mm}
+			\chemfig{!\molMeR-[:30](=[:90]!\molO)-[:-30]!\molMe}
 		}{Propanal and acetone are functional group isomers.}
 
 	% end subsubsection
@@ -69,7 +69,7 @@ compounds the same, while the chemical and physical properties may differ greatl
 	differing way. The main forms of stereoisomerism are cis/trans (or E/Z) isomerism, and optical isomersim.
 
 	Note that for certain cis/trans (E/Z) isomers, the trans (or E) variant can 'pack' better, resulting in a higher melting
-	point. This doesn't affect the boiling point, since the molecules are too far apart in the gaseous phase for this to matter.
+	point. This doesn't affect the boiling point, since the molecules are too far apart in the gaseous phase for it to matter.
 
 	Additionally, the presence of \textit{intramolecular} (within the same molecule) hydrogen bonds can also be a factor, since
 	it reduces the strength of \textit{intermolecular} hydrogen bonds. Other than these, the chemical and physical properties of
@@ -86,8 +86,8 @@ compounds the same, while the chemical and physical properties may differ greatl
 		π-bonds that only bond at 180° intervals. At these positions, it forms the cis and trans isomers.
 
 		\diagram[1.2]{
-			\chemfig{C(-[:135]H)(-[:225]!{R1})=C(-[:45]!{R2})(-[:315]H)}		\hspace{15mm}
-			\chemfig{C(-[:135]H)(-[:225]!{R1})=C(-[:45]H)(-[:315]!{R2})}
+			\chemfig{C(-[:135]H)(-[:225]!\molRon)=C(-[:45]!\molRtw)(-[:315]H)}		\hspace{15mm}
+			\chemfig{C(-[:135]H)(-[:225]!\molRon)=C(-[:45]H)(-[:315]!\molRtw)}
 		}
 
 		The molecule on the left is the \textit{trans} isomer, while the one on the right is the \textit{cis} isomer. \textit{trans}
@@ -107,7 +107,7 @@ compounds the same, while the chemical and physical properties may differ greatl
 
 
 		\diagram[1.2]{
-			\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]!{R1})(-[:315]!{R2})}
+			\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]!\molRon)(-[:315]!\molRtw)}
 		}
 
 
@@ -123,8 +123,8 @@ compounds the same, while the chemical and physical properties may differ greatl
 		due to the lack of a plane of symmetry:
 
 		\diagram[1.2]{
-			\chemfig{C(-[:135]!{Cl})(-[:225]!{F})=C(-[:45]!{CH3})(-[:315]!{Br})}		\hspace{15mm}
-			\chemfig{C(-[:135]!{Cl})(-[:225]!{F})=C(-[:45]!{Br})(-[:315]!{CH3})}
+			\chemfig{C(-[:135]!\molCl)(-[:225]!\molF)=C(-[:45]!\molMe)(-[:315]!\molBr)}		\hspace{15mm}
+			\chemfig{C(-[:135]!\molCl)(-[:225]!\molF)=C(-[:45]!\molBr)(-[:315]!\molMe)}
 		}
 
 		It has 4 distinct substituents, and thus a cis/trans designation cannot be used. Behold, E/Z isomerism. At its core it
@@ -160,7 +160,7 @@ compounds the same, while the chemical and physical properties may differ greatl
 		Consider butan-2-ol below. Carbon 2, with the OH group, has 4 different groups attached to it. As such, it is a chiral carbon.
 
 		\diagram{
-			\chemfig{H-C(-[:90]H)(-[:270]H)-C(-[:90]H)(-[:270]!{OH})-C(-[:90]H)(-[:270]H)-C(-[:90]H)(-[:270]H)-H}
+			\chemfig{H-C(-[:90]H)(-[:270]H)-C(-[:90]H)(-[:270]!\molOH)-C(-[:90]H)(-[:270]H)-C(-[:90]H)(-[:270]H)-H}
 		}
 
 		Indeed, it can take the form of 2 non-superimposable mirror images, that are differentiated by the adjacency of 2 of
@@ -168,8 +168,8 @@ compounds the same, while the chemical and physical properties may differ greatl
 		and are distinct –– these are called \textit{enantiomers}.
 
 		\diagram[1.2]{
-			\chemfig{C(-[:225]H)(-[:90]!{CH2CH3})(<:[:315]!{OH})(<[:350]!{CH3})}		\hspace{7.5mm}\vdashrule{30mm}\hspace{7.5mm}
-			\chemfig{C(-[:315]H)(-[:90]!{CH2CH3})(<:[:225]!{OH})(<[:190]!{CH3})}
+			\chemfig{C(-[:225]H)(-[:90]!\molEthyl)(<:[:315]!\molOH)(<[:350]!\molMe)}		\hspace{7.5mm}\vdashrule{30mm}\hspace{7.5mm}
+			\chemfig{C(-[:315]H)(-[:90]!\molEthyl)(<:[:225]!\molOH)(<[:190]!\molMe)}
 
 		}{The solid wedge indicates a bond coming out of the plane of the paper, while the
 			dashed wedge indicates a bond going into the plane.}

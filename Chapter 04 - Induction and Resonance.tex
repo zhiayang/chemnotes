@@ -16,7 +16,7 @@
 		\textit{inductively withdraws} electrons through the \chemsigma-bond.
 
 		\diagram{
-			\chemfig{C(-[:0,,,,-Stealth]!{Cl})(-[:90]!{star})(-[:180]!{star})(-[:270]!{star})}
+			\chemfig{C(-[:0,,,,-Stealth]!\molCl)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}
 
 		}{Note that the arrow represents a withdrawal of electrons, \textit{not} a dative bond.}
 
@@ -30,8 +30,8 @@
 		\chemsigma-bond of the alkyl group, with a partially-filled or empty p-orbital in the adjacent atom.
 
 
-		\diagram[1.1]{
-			\chemfig{C(-[:0,,,,Stealth-]!{CH3})(-[:90]!{star})(-[:180]!{star})(-[:270]!{star})}
+		\diagram[1.0]{
+			\chemfig{C(-[:0,,,,Stealth-]!\molMe)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}
 
 		}{Again, the arrow \textit{does not} represent a dative bond.}
 
@@ -56,9 +56,9 @@
 
 		\diagram{
 			\schemestart[0, 1.5, thick]
-			\chemfig{C(-[:180]H)(=_[@{b1}:270]@{oxy}{{\color{Red}O}})(-[@{b2}:0]C(-[:90]H)(=[@{b3}:0]C(-[:45]H)(-[:315]H)))}
+			\chemfig{C(-[:180]H)(=[@{b1}:270]@{oxy}{{\color{Red}O}})(-[@{b2}:0]C(-[:90]H)(=[@{b3}:0]C(-[:45]H)(-[:315]H)))}
 			\arrow{->}
-			\chemfig{C(-[:180]H)(-[:270]!{O}|\sps{-})(-[:0]C(-[:90]H)(=[:0]C|\sps{+}(-[:45,,1]H)(-[:315,,1]H)))}
+			\chemfig{C(-[:180]H)(-[:270]!\molO|\sps{-})(-[:0]C(-[:90]H)(=[:0]C|\sps{+}(-[:45,,1]H)(-[:315,,1]H)))}
 			\schemestop
 
 			% draw arrows
@@ -81,7 +81,7 @@
 			\schemestart[0, 1.5, thick]
 			\chemfig{C(-[:225]H)(-[@{b1}:90]@{oh}\color{Red}\lewis{4:,O}|{\color{Red}H})(=[@{b2}:315]@{oxy}{\color{Red}O})}
 			\arrow{<->}
-			\chemfig{C(-[:225]H)(=[:90,,,2]!{HO}|\sps{+})(-[:315]!{O}\sps{-})}
+			\chemfig{C(-[:225]H)(=[:90,,,2]!\molHO|\sps{+})(-[:315]!\molO\sps{-})}
 			\schemestop
 
 			% draw arrows
@@ -101,15 +101,15 @@
 
 		Behold, the second ugly table.
 
-		\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
-		\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+		\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
+		\begin{tabu} to \textwidth {| X[-4,c,m] | X[c,m] | X[c,m] |}
 
-			\hline				Substituent Group				&	Strength	&	Overall Effect	\\
+			\hline				Substituent Group					&	Strength	&	Overall Effect	\\
 
-			\hline		Alkyl groups, eg. \ch{CH3}				&		Weak	&		Donating	\\
-			\hline		\ch{OH}, \ch{NH2}, \ch{OCH3}			&	Strong		&		Donating 	\\
-			\hline		\ch{\chlorine}, \ch{Br}					&	Normal		&	Withdrawing		\\
-			\hline		\ch{CHO}, \ch{NO2}, \ch{CN}, \ch{CO2H}	&	Strong		&	Withdrawing		\\
+			\hline		Alkyl/aryl groups (eg. \ch{-CH3})			&	Weak		&		Donating	\\
+			\hline		\ch{-OH}, \ch{-NH2}, \ch{-OCH3}				&	Strong		&		Donating 	\\
+			\hline		\ch{-\chlorine}, \ch{-Br}					&	Weak		&	Withdrawing		\\
+			\hline		\ch{-CHO}, \ch{-NO2}, \ch{-CN}, \ch{-CO2H}	&	Strong		&	Withdrawing		\\
 			\hline
 
 		\end{tabu}

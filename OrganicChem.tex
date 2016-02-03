@@ -24,6 +24,7 @@
 \usepackage{tikz}
 \usepackage{tabto}
 \usepackage{lipsum}
+\usepackage{setspace}
 
 % chem stuff
 \usepackage{chemfig}
@@ -40,7 +41,7 @@
 \usepackage{fontspec, xunicode, microtype}
 
 
-\usechemmodule{orbital}
+\usechemmodule{orbital,phases,redox}
 \chemsetup{
 	phases/pos		= sub
 }
@@ -50,12 +51,7 @@
 	radical-vshift	= -0.35ex
 }
 
-\usetikzlibrary{arrows.meta}
-
-
-% \usetikzlibrary{external}
-% \tikzset{external/system call={lualatex \tikzexternalcheckshellescape -shell-escape -halt-on-error -interaction=nonstopmode -jobname "\image" "\texsource"}}
-% \tikzexternalize[prefix=figures/]
+\usetikzlibrary{arrows.meta,calc}
 
 
 \defaultfontfeatures{Ligatures=TeX}
@@ -63,9 +59,6 @@
 \setsansfont[Scale=MatchLowercase,Ligatures=TeX]{HelveticaNeue}
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
-% \setmainfont[Mapping=tex-text]{HelveticaNeue}
-% \setsansfont[Scale=MatchLowercase,Mapping=tex-text]{HelveticaNeue}
-% \setmonofont[Scale=MatchLowercase]{Menlo}
 
 \date{}
 \title{Organic Chemistry}
@@ -108,8 +101,9 @@
 \newlength\mylen
 \setlength\mylen{15mm}
 
+\setstretch{1.05}
 \titleformat{\section}
-  {\HNLight\fontsize{30pt}{36pt}\selectfont}
+  {\HNLight\fontsize{35pt}{42pt}\selectfont}
   {\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
   [{\makebox[0mm][l]{}}]
 
@@ -125,9 +119,9 @@
   [{\makebox[0mm][l]{}}]
 
 
-\titlespacing*{\section}{0mm}{0mm}{-11mm}
-\titlespacing*{\subsection}{0mm}{5mm}{-11mm}
-\titlespacing*{\subsubsection}{0mm}{5mm}{-10.5mm}
+\titlespacing*{\section}{0mm}{0mm}{-4.5em}
+\titlespacing*{\subsection}{0mm}{5mm}{-3.5em}
+\titlespacing*{\subsubsection}{0mm}{5mm}{-3.5em}
 
 
 \renewcommand{\printatom}[1]{\HNRegular\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
@@ -183,7 +177,7 @@
 	\vspace*{10mm}
 
 	\diagram[2.0]{
-		\chemfig{!{O}=[:30]*6(-!{N}(-!{CH3})-(*5(-!{N}=-!{N}(-!{CH3})-))=-(=!{O})-!{N}(-!{H3C})-)}
+		\chemfig{!\molO=[:30]*6(-!\molN(-!\molMe)-(*5(-!\molN=-!\molN(-!\molMe)-))=-(=!\molO)-!\molN(-!\molMeR)-)}
 	}
 
 	\vspace*{8mm}

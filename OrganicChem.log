@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  31 JAN 2016 10:17
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  4 FEB 2016 04:11
  \write18 enabled.
 **./OrganicChem.tex
 (./OrganicChem.tex
@@ -586,6 +586,9 @@ Package: tabto 2013/03/25  v 1.3  Another tabbing mechanism
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count141
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/chemfig/chemfig.sty
 (/usr/local/texlive/2015/texmf-dist/tex/generic/chemfig/chemfig.tex
@@ -1835,7 +1838,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.070 seconds)
+luaotfload | main : initialization completed in 0.086 seconds)
 Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
 \l_fontspec_script_int=\count273
 \l_fontspec_language_int=\count274
@@ -2064,6 +2067,119 @@ ital' 2015/07/14 drawing orbital shapes
 . Defining command \orbital with sig. 'om' on line 570.
 .................................................
 )
+(chemmacros)    Loading module `redox'...
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/chemmacros/chemmacros.module.redo
+x.code.tex
+File: chemmacros.module.redox.code.tex 2016/01/23 v5.3a chemmacros module `redox
+' 2015/09/11 oxidation numbers, redox reactions
+(chemmacros)    Loading module `xfrac'...
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/chemmacros/chemmacros.module.xfra
+c.code.tex
+File: chemmacros.module.xfrac.code.tex 2016/01/23 v5.3a chemmacros module `xfrac
+' 2015/07/22 use xfrac package with chemmacros
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chemfrac with sig. 'O{text}mm' on line 45.
+.................................................
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip102
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+LaTeX Info: Redefining \boldsymbol on input line 39.
+\pmbraise@=\dimen348
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count281
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count282
+\leftroot@=\count283
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count284
+\DOTSCASE@=\count285
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box88
+\strutbox@=\box89
+\big@size=\dimen349
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count286
+\c@MaxMatrixCols=\count287
+\dotsspace@=\muskip19
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
+\tag@help=\toks42
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
+\andhelp@=\toks43
+\eqnshift@=\dimen350
+\alignsep@=\dimen351
+\tagshift@=\dimen352
+\tagwidth@=\dimen353
+\totwidth@=\dimen354
+\lineht@=\dimen355
+\@envbody=\toks44
+\multlinegap=\skip103
+\multlinetaggap=\skip104
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count293
+\l_MT_multwidth_dim=\dimen356
+\origjot=\skip105
+\l_MT_shortvdotswithinadjustabove_dim=\dimen357
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen358
+\l_MT_above_intertext_sep=\dimen359
+\l_MT_below_intertext_sep=\dimen360
+\l_MT_above_shortintertext_sep=\dimen361
+\l_MT_below_shortintertext_sep=\dimen362
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\l__chemmacros_ox_number_int=\count294
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ox with sig. 'sO{}>{\SplitArgument {1}{,}}m' on line 310.
+.................................................
+\l__chemmacros_redox_sep_dim=\dimen363
+\l__chemmacros_redox_sep_default_dim=\dimen364
+\l__chemmacros_redox_dist_dim=\dimen365
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \OX with sig. '>{\SplitArgument {1}{,}}m' on line 332.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \redox with sig. '>{\SplitArgument {1}{,}}r()ooG{}' on line
+. 425.
+.................................................
+)
 luaotfload | cache : Lookup cache loaded from /Users/zhiayang/Library/texlive/20
 15/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"(com
@@ -2071,7 +2187,7 @@ piling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/hel
 veticaneue-1.luc)(load luc: /Users/zhiayang/Library/texlive/2015/texmf-var/luate
 x-cache/generic/fonts/otf/helveticaneue-1.luc)
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-\g__fontspec_family_HelveticaNeue_int=\count281
+\g__fontspec_family_HelveticaNeue_int=\count295
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(8)"(com
 piling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/hel
@@ -2278,7 +2394,7 @@ luaotfload | aux : no font with id 29
 . 
 . Menlo scale = 0.9453710937499999.
 .................................................
-\g__fontspec_family_Menlo_int=\count282
+\g__fontspec_family_Menlo_int=\count296
 luaotfload | load : Lookup/name: "Menlo" -> "Menlo.ttc(0)"
 luaotfload | load : Lookup/name: "Menlo" -> "Menlo.ttc(3)"(compiling luc: /usr/l
 ocal/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/menlo-3.luc)(load luc
@@ -2461,7 +2577,7 @@ tf/helveticaneue-11.luc)(load luc: /Users/zhiayang/Library/texlive/2015/texmf-va
 r/luatex-cache/generic/fonts/otf/helveticaneue-11.luc)
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
-\g__fontspec_family_HelveticaNeue-Light_int=\count283
+\g__fontspec_family_HelveticaNeue-Light_int=\count297
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
@@ -2544,7 +2660,7 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
 10)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
 10)"
-\g__fontspec_family_HelveticaNeue-Medium_int=\count284
+\g__fontspec_family_HelveticaNeue-Medium_int=\count298
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
 10)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
@@ -2619,41 +2735,42 @@ luaotfload | aux : no font with id 34
 . and font adjustment code:
 . 
 .................................................
-\mylen=\skip102
- (./Commands.tex)
+\mylen=\skip106
+
+(./Commands.tex)
 Package translations Info: No language package found. I am going to use `english
-' as default language. on input line 171.
+' as default language. on input line 165.
  (./OrganicChem.aux)
 \openout1 = OrganicChem.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 171.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 165.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 171.
-LaTeX Font Info:    ... okay on input line 171.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 171.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 171.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 165.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 165.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    ... okay on input line 165.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2691,17 +2808,17 @@ LaTeX Font Info:    ... okay on input line 171.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen348
-\scratchbox=\box88
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen349
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count299
+\scratchdimen=\dimen366
+\scratchbox=\box90
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen367
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks47
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -2729,7 +2846,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 171.
+LaTeX Info: Redefining \selectfont on input line 165.
  ABD: EveryShipout initializing macros
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -2741,7 +2858,7 @@ File: siunitx-abbreviations.cfg 2016/01/19 v2.6p siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fontspec' on line 171.
+. Activating mapping `fontspec' on line 165.
 .................................................
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/translations/translations-basic-d
@@ -2749,7 +2866,7 @@ ictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tran
 slations-basic-dictionary')
 )
-LaTeX Info: Redefining \microtypecontext on input line 171.
+LaTeX Info: Redefining \microtypecontext on input line 165.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2763,8 +2880,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `HelveticaNeue' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathsf_int=\count291
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 171.
+\c__siunitx_mathsf_int=\count305
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 165.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2777,29 +2894,29 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 171.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 165.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 171.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 165.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 171.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 165.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 171.
+(Font)              <12> on input line 165.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 171.
+(Font)              <8> on input line 165.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 171.
-LaTeX Font Info:    Try loading font information for U+msa on input line 171.
+(Font)              <6> on input line 165.
+LaTeX Font Info:    Try loading font information for U+msa on input line 165.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2807,7 +2924,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 171.
+LaTeX Font Info:    Try loading font information for U+msb on input line 165.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2815,7 +2932,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 171.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 165.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmss.fd
@@ -2825,8 +2942,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count292
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 171.
+\c__siunitx_mathtt_int=\count306
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 165.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
@@ -2840,7 +2957,7 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
-\g__fontspec_family_HelveticaNeue-Thin_int=\count293
+\g__fontspec_family_HelveticaNeue-Thin_int=\count307
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
@@ -2972,13 +3089,13 @@ luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 188.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 182.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13> on input line 188.
+(Font)              <13> on input line 182.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.09996> on input line 188.
+(Font)              <9.09996> on input line 182.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.5> on input line 188.
+(Font)              <6.5> on input line 182.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
@@ -3046,13 +3163,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
-LaTeX Font Info:    Calculating math sizes for size <23> on input line 192.
+LaTeX Font Info:    Calculating math sizes for size <23> on input line 186.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <23> on input line 192.
+(Font)              <23> on input line 186.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <16.09993> on input line 192.
+(Font)              <16.09993> on input line 186.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.5> on input line 192.
+(Font)              <11.5> on input line 186.
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
@@ -3100,26 +3217,6 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-<figures/ch07/benzene_delocalisation.png, id=12, 380.8629pt x 155.01915pt>
-File: figures/ch07/benzene_delocalisation.png Graphic file (type png)
-
-<use figures/ch07/benzene_delocalisation.png>
-Package pdftex.def Info: figures/ch07/benzene_delocalisation.png used on input l
-ine 24.
-(pdftex.def)             Requested size: 341.43306pt x 138.97662pt.
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [2
-<./figures/ch07/benzene_delocalisation.png>]
-luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [3
-]
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
@@ -3129,39 +3226,14 @@ luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(3)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(0)" [4
-]
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-LaTeX Font Info:    Calculating math sizes for size <17> on input line 142.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 450.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17> on input line 142.
+(Font)              <11> on input line 450.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.89995> on input line 142.
+(Font)              <7.69997> on input line 450.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.5> on input line 142.
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 153.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 153.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 153.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 153.
+(Font)              <5.5> on input line 450.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
@@ -3173,45 +3245,27 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [5
-]
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [6
-]) [7] (./OrganicChem.aux))
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)") [
+2] (./OrganicChem.aux))
 
 Here is how much of LuaTeX's memory you used:
- 40598 strings out of 494897
- 100000,1144653 words of node,token memory allocated
- 407 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 63 glue_spec, 3 attribute_list
-, 1 write nodes
-   avail lists: 1:26,2:7979,3:2913,4:3280,5:78,6:1745,7:33,8:20,9:1460,10:163,11
-:3,12:3
- 42312 multiletter control sequences out of 65536+600000
- 223 fonts using 26056751 bytes
- 71i,18n,105p,868b,1894s stack positions out of 5000i,500n,10000p,200000b,100000s
-<./HelveticaNeue.2tvisk><./HelveticaNeue.FkDUZW>{/usr/local/texlive/2015/texmf-d
-ist/fonts/enc/dvips/lm/lm-mathsy.enc}<./HelveticaNeue.EU1GTl><./HelveticaNeue.Cg
-ZijU><./HelveticaNeue.FygMbM><</usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/lm/lmsy8.pfb>
-Output written on OrganicChem.pdf (7 pages, 299125 bytes).
+ 41770 strings out of 494897
+ 156307,1144653 words of node,token memory allocated
+ 468 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 66 glue_spec, 6 attrib
+ute_list, 1 write nodes
+   avail lists: 1:50,2:20548,3:7798,4:8420,5:71,6:1233,7:45,8:31,9:4542,10:91,11
+:9
+ 43520 multiletter control sequences out of 65536+600000
+ 189 fonts using 22981351 bytes
+ 71i,22n,117p,868b,2636s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<./Helvetic
+aNeue.CHM4T2><./HelveticaNeue.yb4aM3><./HelveticaNeue.V20r5t><./HelveticaNeue.0g
+mxGl><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex10.pfb>
+Output written on OrganicChem.pdf (2 pages, 55374 bytes).
 
-PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+PDF statistics: 47 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
