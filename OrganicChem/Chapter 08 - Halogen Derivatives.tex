@@ -1,0 +1,875 @@
+% Chapter 08 - Halogen Derivatives.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+
+
+\pagebreak
+\part{Halogen Derivatives}
+
+	\section{Halogenoalkanes (Alkyl Halides)}
+
+		Halogenoalkanes are simply alkanes, with one or more halogen atoms taking the place of a hydrogen atom. They are classified in a
+		similar way to alkanes and alcohols.
+
+		\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
+		\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+
+			\hline
+			% row one: molecules
+			\vspace{2mm}	\chemfig{C(-[:0]!\molX)(-[:90]H)(-[:180]!\molR)(-[:270]H)}				\vspace{2mm}	&
+			\vspace{2mm}	\chemfig{C(-[:0]!\molX)(-[:90]!\molR)(-[:180]!\molR)(-[:270]H)}			\vspace{2mm}	&
+			\vspace{2mm}	\chemfig{C(-[:0]!\molX)(-[:90]!\molR)(-[:180]!\molR)(-[:270]!\molR)}	\vspace{2mm}	\\
+
+			\hline
+			Primary (\SI{1}{\degree})		&
+			Secondary (\SI{2}{\degree})		&
+			Tertiary (\SI{3}{\degree})		\\
+			\hline
+
+		\end{tabu}
+		\end{table}\end{center}\vspace{-10mm}
+
+
+		\subsection{Physical Properties}
+
+			Halogenoalkanes are generally colourless like their alkane counterparts, and might have a sweetish smell.
+
+			Compared to their alkane counterparts, halogenoalkanes have a higher boiling point for the same carbon chain length,
+			mainly due to the increased size of the halogen atom. The primary method of intermolecular bonding is still via
+			instantaneous dipole-induced dipole interactions, which is strengthened by the larger electron cloud, and thus results in
+			a higher \textit{polarisability} of the molecule.
+
+			However, permanent-dipole interactions are still present, and contribute slightly to the increase in melting and boiling points.
+			This is of more significance for chloroalkanes, since \ch{\chlorine} is more negative than both \ch{Br} and \ch{I}, hence creating
+			a larger dipole moment.
+
+			When comparing between different halogens with otherwise identical carbon chains, the melting and boiling points increases as
+			the halogen atom's size increases –– the instantaneous dipole-induced dipole interaction plays a larger role in determining
+			that.
+
+		% end section
+
+	% end section
+
+	\pagebreak
+	\section{Halogenoarenes}
+
+		Halogenoarenes are simply molecules where the halogen atom is \textit{directly attached} to the benzene ring.
+
+		\diagram[1.0]{
+
+			\chemfig{**6(----(-[:90]!\molCl)--)}
+
+		}{Chlorobenzene is a halogenoarene.}
+
+	% end section
+
+
+
+	\section{Creation of Halogenated Molecules}
+
+		\subsection{Free Radical Substitution of Alkanes}
+
+			As covered above, alkanes can undergo free radical substitution, replacing one or more of their hydrogen atoms with halogen
+			atoms.
+
+			\vspace{1.5em}
+
+			\vbox{\textbf{Conditions:} \tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}	% single line, not needed \vspace{0.5em}
+			\vbox{\textbf{Observations:} \tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{!\molR(-[:0]!\molMe)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{X2}}
+					\arrow
+					\chemfig{\ch{HX}}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molR(-[:0]CH\sbs{2}X)}
+				\schemestop
+			}
+
+			However, this is usually a \textit{bad} way to prepare halogenoalkanes, due to the mix of products that will be formed, including
+			isomers and multisubstituted molecules. It is difficult (or nigh impossible) to control the extent or position of substitution,
+			but to decreases the chances of multisubstitution, the alkane should be used in excess, as a last resort.
+
+		% end section
+
+
+		\pagebreak
+		\subsection{Electrophilic Addition to Alkenes}
+
+			\subsubsection{Addition of \ch{X2}}
+
+				Halogen molecules (\ch{X2}) can be added to alkenes to form halogenoalkanes, as covered above. Naturally, this results in
+				having two halogen atoms in the molecule, or a \textit{dihalide}.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}No UV Light, gaseous \ch{X2}.}	% again, single line, no need for \vspace{0.5em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molX-!\molX}
+					\arrow
+					\chemfig{C(-[:270]!\molX)(-[:90]H)(-[:180]H)-C(-[:270]!\molX)(-[:90]H)(-[:0]H)}
+					\schemestop
+				}
+			% end subsubsection
+
+			% \vspace{1.0em}
+			\subsubsection{Addition of \ch{HX}}
+
+				Gaseous \ch{HX} can also be added, resulting in a monohalogenated molecule.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Gaseous HX (usually \ch{H\chlorine} or \ch{HBr}).}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-{{\color{OliveGreen}X}}}
+					\arrow
+					\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]{{\color{OliveGreen}X}})(-[:0]H)(-[:270]H)}
+					\schemestop
+				}
+			% end subsubsection
+		% end section
+
+		\pagebreak
+		\subsection{Substitution of \ch{OH} groups (Chloroalkanes)}
+
+			\subsubsection{Phosphorous Pentachloride (\ch{P\chlorine5})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine5}, room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{P\chlorine\sbs{5}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{PO\chlorine\sbs{3}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\chlorine}
+					\schemestop
+				}
+			% end subsubsection
+
+
+			\subsubsection{Phosphorous Trichloride (\ch{P\chlorine3})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine3}, room temperature.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{P\chlorine\sbs{3}}
+						\arrow
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\sbs{3}PO\sbs{3}}
+					\schemestop
+				}
+			% end subsubsection
+
+			\subsubsection{Thionyl Chloride (\ch{SO\chlorine2})}
+
+				This reaction is slightly preferred over the others, since both by-products (\ch{SO2} and \ch{H\chlorine}) are
+				gaseous, and would bubble out of the solution, leaving mainly the halogenoalkane in the reaction mixture.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Warm, liquid \ch{SO\chlorine2}.}\vspace{0.5em}
+				\vbox{\textbf{Observations:}\tabto{35mm}Formation of colourless, pungent \ch{SO2} gas, and
+											\tabto{35mm}white fumes of \ch{H\chlorine} gas.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{SO\chlorine\sbs{2}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{SO\sbs{2}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\chlorine}
+					\schemestop
+				}
+			% end subsubsection
+
+			\pagebreak
+			\subsubsection{Hydrogen Chloride (\ch{H\chlorine})}
+
+				Here, a distinction must be made between \textit{primary}, \textit{secondary}, and \textit{tertiary} alcohols;
+				tertiary alcohols will react fine with simply concentrated \ch{H\chlorine}.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{H\chlorine \aq} / gaseous \ch{H\chlorine} \textit{OR}
+											\tabto{35mm}Solid \ch{Na\chlorine}, concentrated \ch{H2SO4}, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H\chlorine}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+					\schemestop
+				}{\ch{H\chlorine} can be prepared \textit{in-situ} with \ch{Na\chlorine} and \ch{H2SO4}.}
+
+
+				For primary and secondary alcohols, anhydrous \ch{Zn\chlorine2} catalyst must be used, and the reaction mixture
+				must be heated. Apart from that, the reaction is similar.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{H\chlorine \aq} / gaseous \ch{H\chlorine}.
+											\tabto{35mm}Anhydrous \ch{Zn\chlorine2} catalyst, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H\chlorine}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+					\schemestop
+				}
+			% end subsubsection
+		% end section
+
+		\pagebreak
+		\subsection{Substitution of \ch{OH} groups (Bromoalkanes)}
+
+			\subsubsection{Hydrogen Bromide (\ch{HBr})}
+
+				Gaseous hydrogen bromide (\ch{HBr}) can be reacted with alcohols to give bromoalkanes.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Gaseous \ch{HBr}.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{HBr}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molBr}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+					\schemestop
+				}
+
+				\ch{HBr} can be prepared by reacting concentrated \ch{H2SO4} with solid \ch{NaBr}.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Solid \ch{NaBr}, concentrated \ch{H2SO4}, heat.}
+
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\ch{NaBr}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2SO4}
+						\arrow
+						\ch{HBr}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{NaHSO4}
+					\schemestop
+				}
+			% end subsubsection
+
+			\subsubsection{Phosphorous Tribromide (\ch{PBr3})}
+
+				\ch{PBr3} is typically prepared \textit{in-situ} by heating red phosphorous with liquid bromine. It then proceeds to
+				react with the alcohol, in a manner similar to that of \ch{P\chlorine3}.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Liquid \ch{PBr3}, \textit{OR}
+											\tabto{35mm}Liquid \ch{Br2}, {\color{Red}red} phosphorous, heat.}
+
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\ch{2 P}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{3 Br2}
+						\arrow
+						\ch{2 PBr3}
+					\schemestop
+				}{\textit{In-situ} formation of \ch{PBr3}.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{PBr\sbs{3}}
+						\arrow
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molBr}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\sbs{3}PO\sbs{3}}
+					\schemestop
+				}
+			% end subsubsection
+		% end section
+
+
+		\pagebreak
+		\subsection{Substitution of \ch{OH} groups (Iodoalkanes)}
+
+			\subsubsection{Phosphorous Triiodide (\ch{PI3})}
+
+				This reaction is identical to the reaction involving \ch{PBr3}, above.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Liquid \ch{PI3}, \textit{OR}
+											\tabto{35mm}Solid \ch{I2}, {\color{Red}red} phosphorous, heat.}
+
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\ch{2 P}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{3 I2}
+						\arrow
+						\ch{2 PI3}
+					\schemestop
+				}{\textit{In-situ} formation of \ch{PI3}.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{PI\sbs{3}}
+						\arrow
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molI}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\sbs{3}PO\sbs{3}}
+					\schemestop
+				}
+			% end subsubsection
+		% end section
+
+
+		\subsection{Electrophilic Substitution of Arenes}
+
+			Halogens can be substituted onto a benzene ring through the use of a catalyst, in an electrophilic substitution reaction.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} /
+										\ch{\aluminium} filings (for bromine),
+										\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
+													\ch{Fe} / \ch{\aluminium} filings (for chlorine)}\vspace{0.5em}
+
+			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} /
+										\textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
+										\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{\ch{X2}}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.5em]{**6(------)}
+				\arrow(.base east--.base west)
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molX)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\ch{HX}}
+				\schemestop
+			}
+		% end section
+	% end section
+
+	\pagebreak
+	\section{Halogenoalkane Reactions}
+
+		\subsection{Nucleophilic Substitution}
+
+			Due to the high relatively electronegativity of the halogen atom attached to the carbon atom, the carbon atom is
+			\textit{electron-deficient}, which makes it more susceptible to attacks from nucleophiles (\textit{electron-rich}), and
+			as such halogenoalkanes are fairly reactive.
+
+			There are two primary mechanisms of nucleophilic substitution –– single-step and two-step reactions. Generally, primary
+			halogenoalkanes (molecules with 1 or 0 alkyl groups attached to the halogen-containing carbon) react via a one-step
+			mechanism, while tertiary halogenoalkanes react via a two-step mechanism. Secondary halogenoalkanes can react via either
+			mechanism, depending on the specific molecule.
+
+			The primary differentiating factor is the size of the substituents on the central carbon –– larger groups will hinder
+			\sntwo substitution, forcing an \snone reaction.
+
+
+			\subsubsection{\sntwo Mechanism (one-step, bimolecular)}
+
+				The nucleophilic substitution of \ch{CH3CH2Br} by \ch{OH-} is a one-step reaction. Take note that \sntwo is a
+				\textit{one}-step reaction –– it is \sntwo because \textit{two} molecules are involved in the slow (only) step.
+
+
+				\diagram[0.95]{
+					\chemnameinit{\chemleft[
+						\chemfig{C(-[:90]H)(<[:290]!\molMe)(<:[:250]H)(-[:0,,,,dash pattern=on 1.2mm off 1.2mm]!\molBr)
+						(-[:180,,,,dash pattern=on 1.2mm off 1.2mm]!\molHO)}
+					\chemright]}
+
+					\schemestart[0, 1.0, thick]
+					\chemname{\chemfig{\mch @{oh}\lewis{0:,\color{Red}HO}}}{}
+					\hspace{5mm}
+					\chemname{\chemfig{@{carb}\chemabove{C}{\hspace{2mm}\smdeltap}(<[:270]!\molMe)(<:[:225]H)(-[:120]H)
+								(-[@{bond}:0]@{br}\chemabove{\color{Mahogany}Br}{\smdeltam})}}{}
+					\arrow(.mid east--.mid west)
+					\chemname{\chemleft[
+						\chemfig{C(-[:90]H)(<[:290]!\molMe)(<:[:250]H)(-[:0,,,,dash pattern=on 1.2mm off 1.2mm]!\molBr)
+						(-[:180,,,,dash pattern=on 1.2mm off 1.2mm]!\molHO)}
+					\chemright]}{transition state}
+					\arrow(.mid east--.mid west)
+					\chemname{\chemfig{C(<[:270]!\molMe)(<:[:315]H)(-[:60]H)(-[:180]!\molHO)}}{}
+					\hspace{5mm}
+					\chemname{\chemfig{\lewis{4:,\color{Mahogany}Br}\mch}}{}
+					\schemestop
+
+				    \chemmove{\node[xshift=3mm] at (c2.north east) {–};}
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oh) .. controls +(0:5mm) and +(150:15mm) .. (carb);}
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](bond) .. controls +(270:8mm) and +(270:8mm) .. (br);}
+				}
+
+
+				Due to the difference in electronegativity between the \ch{C} and \ch{Br} atoms, the \ch{C-Br} bond is polar. Thus,
+				nucleophiles will be attracted towards the partially-positive carbon atom. They attack from the side opposite the
+				leaving atom (\ch{Br} in this case) due to spatial constraints.
+
+				As the nucleophile attacks, it donates a lone pair to the carbon atom to stabilise it, forming a bond. At the same time, this
+				weakens the \ch{C-Br} bond, and it begins to break. At this stage, the \textit{transition state} is formed, which is an
+				unstable, activated complex where bond-breaking and bond-forming occur simultaneously –– this is a \textit{one-step} mechanism.
+
+
+				% rare: pagebreak here.
+				\pagebreak
+				Note that the chirality of the molecule will be \textit{inverted}, if it is chiral. Imagine the attacking nucleophile
+				'pushing' the other groups away from itself.
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{C(<[:270]!\molMe)(<:[:225]H)(-[:120,,,1]!\molEthyl)(-[@{bond}:0]!\molBr)}
+					\arrow(.mid east--.mid west)
+					\chemfig{C(<[:270]!\molMe)(<:[:315]H)(-[:60]!\molEthyl)(-[:180]!\molHO)}
+					\schemestop
+				}
+
+
+				Since this is a single-step reaction, there is one activation energy step, and the energy profile diagram looks like
+				this:
+
+				\diagram[1.0]{
+					\begin{endiagram}[scale=2.0,offset=2,x-label-text=\footnotesize reaction progress,y-label-text=\footnotesize energy]
+						\ENcurve[step=2]{2,4.5,0}
+						\ShowNiveaus[shift=-1.5,length=3.0,niveau=N1-1]
+						\ShowNiveaus[shift=1.5,length=3.0,niveau=N1-3]
+
+						\ShowEa[label]
+						\ShowGain[label,offset=-40mm]
+
+						\draw[above] (N1-1) ++ (1,0) node {\small\hspace{-50mm}\ch{OH-} + \ch{CH3CH2Br}};
+						\draw[above] (N1-3) ++ (1,0) node {\small\hspace{5mm}\ch{Br-} + \ch{CH3CH2OH}};
+
+						\draw[above] (N1-2) ++ (0,0) node {\small\chemname{\chemleft[
+							\chemfig[][scale=0.75]{C(-[:90]H)(<[:290]!\molMe)(<:[:250]H)(-[:0,,,,dash pattern=on 0.3mm off 0.3mm]!\molBr)
+							(-[:180,,,,dash pattern=on 0.3mm off 0.3mm]!\molHO)}\chemright]}{transition state}};
+
+					\end{endiagram}
+				}
+			% end subsubsection
+
+
+			\pagebreak
+			\subsubsection{\snone Mechanism (two-step, unimolecular)}
+
+				The \snone reaction is a \textit{two-step} reaction, because larger groups attached to the central carbon
+				often hinder the direct attack of nucleophiles, and thus require the formation of a carbocation. Only one molecule
+				is involved in the slow (first) step, hence it is a unimolecular reaction.
+
+				Again, the reaction hinges on the polar \ch{C-Br} bond, due to the differences in electronegativity.
+
+				\paragraph{Step 1}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{\chembelow{C}{\hspace{5mm}\smdeltap}(-[:90]!\molPropyl)(-[:180]!\molMe)(-[:270]!\molEthyl)
+						(-[@{bond}:0]@{br}\chembelow{\color{Mahogany}Br}{\hspace{5mm}\smdeltam})}
+					\arrow{<=>[slow]}
+					\chemfig{C|\pch(-[:90]!\molPropyl)(-[:180]!\molMe)(-[:270]!\molEthyl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molBr\mch}
+					\schemestop
+
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](bond) .. controls +(90:8mm) and +(90:8mm) .. (br);}
+				}
+
+				The \ch{C-Br} bond undergoes heterolytic fission, giving a carbocation intermediate, and a bromide ion. The reaction is more
+				feasible due to the 3 electron-donating alkyl groups that stabilise the positive charge on the carbocation intermediate, which
+				would not be possible in a primary alcohol.
+
+				\paragraph{Step 2}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{@{c}C|\pch(-[:90]!\molPropyl)(-[:180]!\molMe)(-[:270]!\molEthyl)}
+					\chemfig{@{oh}\lewis{4:,\color{Red}OH}\mch}
+					\arrow{->[fast]}
+					\chemfig{C(-[:90]!\molPropyl)(-[:180]!\molMe)(-[:270]!\molEthyl)(-[:0]!\molOH)}
+					\schemestop
+
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oh) .. controls +(180:5mm) and +(60:15mm) .. (c);}
+				}
+
+				The carbocation intermediate is now attacked by the \ch{OH-} ion, forming the product.
+
+				\pagebreak
+				Since the carbocation is trigonal planar (wrt. the central carbon), the nucleophile can attack from both sides of the
+				carbocation, with equal probability. Hence, if the product formed is chiral, the resulting solution will be a
+				\textit{racemic mixture}.
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{@{carb}\chemabove{C}{\hspace{-5mm}\smfplus}(-[:180]!\molMe)(<:[:30]!\molPropyl)(<[:330]!\molEthyl)}
+					\hspace{2mm}
+					\chemfig{@{oh}\lewis{4:,\color{Red}OH}\mch}
+					\arrow(main.east--top.west){->[50\%]}[30]
+					\chemfig{C(-[:90]!\molOH)(-[:210]!\molMe)(<:[:-15]!\molPropyl)(<[:315]!\molEthyl)}
+					\arrow(@main.east--bottom.west){->[][50\%]}[-30]
+					\chemfig{C(-[:270]!\molOH)(-[:150]!\molMe)(<:[:45]!\molPropyl)(<[:15]!\molEthyl)}
+					\schemestop
+
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm]($(oh) + (-0.5,0)$) .. controls
+				    	+(90:20mm) and +(90:20mm) .. (carb) node [pos=0.5,above,font=\footnotesize] {top face attack};}
+
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm]($(oh) + (-0.5,0)$) .. controls
+				    	+(270:20mm) and +(270:20mm) .. (carb) node [pos=0.5,below,font=\footnotesize] {bottom face attack};}
+				}
+
+
+				Since this is a two-step reaction, there are two activation energies that must be overcome, and isolatable intermediates
+				(the carbocation and bromide ion).
+
+
+				\diagram[1.0]{
+					\begin{endiagram}[scale=2.0,offset=2,x-label-text=\footnotesize reaction progress,y-label-text=\footnotesize energy]
+						\ENcurve[looseness=0.40,step=1.25]{1.5,5.0,2.5,4.0,0}
+						\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+						\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-5]
+
+						\ShowEa[label,from={(N1-3) to (N1-4)},label-side=left,label-pos=0.80,label=$E_{a1}$]
+						\ShowEa[label,from={(N1-1) to (N1-2)},label-pos=0.60,label=$E_{a2}$]
+
+						\ShowGain[label,offset=-25mm]
+
+						\draw[above] (N1-1) ++ (1,0) node {\small\hspace{-40mm}\ch{OH-} + \ch{R-Br}};
+						\draw[above] (N1-5) ++ (1,0) node {\small\hspace{5mm}\ch{Br-} + \ch{R-OH}};
+						\draw[below] (N1-3) ++ (1,0) node {\small\hspace{-15mm}\ch{R+} + \ch{Br-} + \ch{OH-}};
+
+						% \draw[above] (N1-2) ++ (0,0) node {\small\chemname{\chemleft[
+						% 	\chemfig[][scale=0.75]{C(-[:90]H)(<[:290]!\molMe)(<:[:250]H)(-[:0,,,,dash pattern=on 0.3mm off 0.3mm]!\molBr)
+						% 	(-[:180,,,,dash pattern=on 0.3mm off 0.3mm]!\molHO)}\chemright]}{transition state}};
+
+					\end{endiagram}
+				}
+			% end subsubsection
+
+			\pagebreak
+			\subsubsection{Formation of Alcohols}
+
+				The \ch{OH-} ion acts as a nucleophile, substituting the attached halogen atom.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Aqueous \ch{NaOH} or \ch{KOH}, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molX}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molOH\mch}
+						\arrow
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molX\mch}
+					\schemestop
+				}
+			% end subsubsection
+
+
+			\subsubsection{Formation of Amines}
+
+				This reaction forms a primary amine. Ethanolic \ch{NH3} is simply a solution of \ch{NH3} in ethanol. Also, the reaction
+				mixture must be heated in a sealed tube, to prevent the \ch{NH3} from escaping.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Ethanolic concentrated \ch{NH3}, heat in sealed tube.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molX}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{NH3}}
+						\arrow
+						\chemfig{!\molR-[:0]\ch{NH2}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{HX}}
+					\schemestop
+				}
+
+
+				However, this amine turns out to be a \textit{stronger} nucleophile than \ch{NH3},
+				which opens the possibility for multiply-substituted amines, forming secondary amines, tertiary amines, and even
+				quaternary ammonium salts.
+
+				\diagram[1.0]{
+					\schemestart[0,1.0,thick]
+						\ch{RX}\hspace{2mm} + \hspace{2mm}\ch{RNH2}\arrow\ch{R2NH}\hspace{2mm} + \hspace{2mm}\ch{HX}
+						\arrow(@c1.south east--.north east){0}[-90,.1]
+						\ch{RX}\hspace{2mm} + \hspace{2mm}\ch{R2NH}\arrow\ch{R3N}\hspace{2mm} + \hspace{2mm}\ch{HX}
+						\arrow(@c3.south east--.north east){0}[-90,.1]
+						\ch{RX}\hspace{2mm} + \hspace{2mm}\ch{R3N}\arrow\ch{R4N+ X-}
+					\schemestop
+				}
+
+				Thus, to prevent this from happening, \ch{NH3} should be used in excess, in essence 'crowding-out' the amines formed
+				from reacting further.
+
+
+
+			% end subsubsection
+
+			\pagebreak
+			\subsubsection{Formation of Nitriles}
+
+				In this reaction, the lone pair is donated not by the nitrogen atom, but by the \textit{carbon} atom. This reaction is
+				important, as it serves to increase the length of the carbon chain –– a \textit{step-up} reaction –– which is useful
+				in the synthesis of organic molecules.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Ethanolic \ch{KCN}, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molX}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{CN-}}
+						\arrow
+						\chemfig{!\molR-[:0]\ch{CN}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{X-}}
+					\schemestop
+				}
+
+				Indeed, the nitrile that is formed can be hydrolysed to form carboxylic acids.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Dilute \ch{H2SO4}, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]C~[:0]!\molN}
+						\arrow{->[dilute \ch{H2SO4}][heat]}
+						\chemfig{C(-[:180]!\molR)(=[:30]!\molO)(-[:330]!\molOH)}
+					\schemestop
+				}{If \ch{NaOH} is used instead of \ch{H2SO4}, a carboxylate salt is formed instead.}
+
+
+				Furthermore, it can also be reduced to form amines, either through the very strong reducing agent \ch{Li\aluminium H4}
+				(dissolved in dry, diethyl ether due to its high reactivity with water), the slightly weaker \ch{NaBrH4} dissolved in
+				methanol, or the traditional, copious application of \ch{H2} gas with a metal catalyst at high temperatures and pressures.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+											\tabto{35mm}\ch{NaBH4} in methanol, \textit{OR}
+											\tabto{35mm}\ch{H2 \gas}, \ch{Ni} catalyst, high temperature and pressure.}
+
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]C~[:0]!\molN}
+						\arrow{->[reduction]}
+						\chemfig{C(-[:180]!\molR)(-[:90]H)(-[:270]H)(-[:0]!\molN(-[:30]H)(-[:330]H))}
+					\schemestop
+				}{If \ch{NaOH} is used instead of \ch{H2SO4}, a carboxylate salt is formed instead.}
+
+
+
+			% end subsubsection
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Elimination}
+
+			\ch{OH-} behaves as a Brønsted-Lowry base, accepting, or in this case removing, an \ch{H+} ion from the halogenoalkane.
+			At the same time that this \ch{C-H} bond breaks, the \ch{C-X} bond in the adjacent carbon atom breaks, thus forming
+			\ch{HX}, and an alkene.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Ethanolic \ch{KOH} or \ch{NaOH}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(-[:90]H)(-[:270]@{x}{\color{OliveGreen}X})-C(-[:90]H)(-[:270]@{h}H)(-[:0]H)}
+					\arrow{->[\ch{OH-}][heat]}
+					\chemfig{C(-[:135]!\molR)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+				\schemestop
+
+				\chemmove{
+					\draw[-latex, red, thick]
+					(x.center) circle(4mm)
+					(h.center) circle(4mm);
+				}
+			}{The alkane can be of any length, the important bit happens here. The circled atoms are the ones forming the \ch{HX} molecule.}
+
+			Naturally, isomerism, either optical or cis/trans (E/Z), may occur, and a mix of products can be formed.
+
+			One might notice that these reaction conditions are similar to that for the nucleophilic substitution of alcohols. Indeed,
+			both reactions will occur at the same time, forming both alcohols and alkenes.
+
+			To favour one reaction over the other, there are a number of factors that can be controlled
+
+			\begin{bulletlist}
+				& Type of halogenoalkane (primary, secondary or tertiary)
+				& Temperature of reaction mixture
+				& Concentration of \ch{KOH} or \ch{NaOH}
+				& Solvent used (ethanol or water)
+			\end{bulletlist}
+
+			Primary halogenoalkanes tend to mainly favour nucleophilic substitution, while tertiary halogenoalkanes tend to favour the
+			elimination reaction –– secondary halogenoalkanes favour either reaction.
+
+			Furthermore, the higher the temperature of the mixture, the more likely it is that the elimination reaction will take place.
+			A higher concentration of \ch{NaOH} or \ch{KOH} will also increase the likelihood of the elimination reaction occurring.
+			Finally, using ethanol as a solvent for the hydroxide, versus water, will also favour elimination.
+
+		% end subsection
+	% end section
+
+
+	\pagebreak
+	\section{Halogenoarene Reactions}
+
+		Since the halogen atom is directly bonded to the benzene ring, its p-orbitals overlap in a parallel manner to the π-system of the
+		benzene ring, and thus get delocalised.
+
+		\imgdiagram{120mm}{../figures/organic/ch08/halogen_benzene_delocalistion.png}
+
+		This makes the bond stronger than a typical \ch{C-X} bond, and also reduces the effect of the electronegativity of the halogen atom.
+		Thus, it is less susceptible to nucleophile attacks, and is fairly unreactive. The high electron density also tends to repel the
+		electron-rich nucleophiles.
+
+
+		\subsection{Electrophilic Substitution}
+
+			Of course, being attached to a benzene ring, halogenoarenes can undergo electrophilic substitution –– this is really a reaction
+			of the benzene ring, not specific to the halogen.
+
+			However, it must be noted that since halogens are deactivating, the conditions for some reactions become slightly harsher;
+			nitration would require temperatures \textit{above} \SI{50}{\celsius}. Also, it is \textit{ortho/para}, or 2,4-directing.
+
+		% end subsection
+
+	% end section
+
+	\pagebreak
+	\section{Distinguishing Tests}
+
+		\subsection{Comparing Colour of Precipitate}
+			The primary means of determining the identity of the attached halogen is by looking at the colour of the precipitate formed, when
+			reacted with \ch{AgNO3} –– silver halides are insoluble.
+
+			\begin{numberedlist}
+				&	Aqueous \ch{NaOH} or \ch{KOH} is added with heat, to substitute the halogen with an \ch{OH-} group, forming the \ch{X-} ion.
+				&	Excess, dilute \ch{HNO3} is added to neutralise unreacted \ch{OH-}.
+				&	Aqueous \ch{AgNO3} is added, to form the \ch{AgX} precipitate.
+			\end{numberedlist}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Aqueous \ch{NaOH} or \ch{KOH}, dilute \ch{HNO3}, aqueous \ch{AgNO3}.}\vspace{0.5em}
+			\vbox{\textbf{Observations:}\tabto{35mm}Chlorine\tabto{60mm}White precipitate of \ch{Ag\chlorine}.
+										\tabto{35mm}Bromine	\tabto{60mm}Cream precipitate of \ch{AgBr}.
+										\tabto{35mm}Iodine	\tabto{60mm}Yellow precipitate of \ch{AgI}.}
+		% end subsection
+
+		\subsection{Comparing Rate of Formation of Precipitate}
+
+			The steps are identical to that above, but instead of comparing the colour, the rate of formation is measured instead. Since the
+			rate-determining step in nucleophilic substitution involves breaking the \ch{C-X} bond, the weaker this bond, the faster the
+			precipitate will form.
+
+			Hence, iodoalkanes will form the precipitate the fastest, followed by bromoalkanes, then chloroalkanes.
+
+		% end subsection
+	% end section
+
+
+	\pagebreak
+	\section{Chlorofluorocarbons (CFCs)}
+
+		CFCs were commonly used as refrigerants and aerosol propellants, due to their inert, odourless, and non-toxic properties.
+		Indeed, Teflon is a fluoroalkane, and is typically used to coat non-stick surfaces.
+
+		However, under the Montreal Protocol, the use of CFCs were banned due to their harmful effect on the ozone layer. Naturally, there
+		is the following equilibrium in the ozone layer:
+
+		\diagram[1.0]{
+			\schemestart[0,1.0,thick]
+				\ch{O}\hspace{2mm} + \hspace{2mm}\ch{O2}\arrow{<=>}\ch{O3}
+			\schemestop
+		}
+
+
+		Also, in the presence of UV light in the stratosphere, the previously inert chlorofluorocarbons undergo photodecomposition.
+
+		\diagram[1.0]{
+			\schemestart[0,1.0,thick]
+				\ch{CF3\chlorine}\arrow{<=>[uv]}\ch{\chlorine•}\hspace{2mm} + \hspace{2mm}\ch{•CF3}
+			\schemestop
+		}
+
+		When the ozone equilibrium is exposed to these chlorine radicals, they are disrupted, since the radicals can act as a
+		homogeneous catalyst, reforming afterwards.
+
+		\diagram[1.0]{
+			\schemestart[0,1.0,thick]
+				\ch{\chlorine•}\hspace{2mm} + \hspace{2mm}\ch{O3}\arrow\ch{\chlorine O•}\hspace{2mm} + \hspace{2mm}\ch{O2}
+				\arrow(@c1.south east--.north east){0}[-90,.1]
+				\ch{\chlorine O•}\hspace{2mm} + \hspace{2mm}\ch{O}\arrow\ch{\chlorine•}\hspace{2mm} + \hspace{2mm}\ch{O2}
+			\schemestop
+		}
+
+		Thus, the ozone molecules are destroyed, and depletes the free oxygen atoms required in the formation of ozone.
+
+	% end section
+
+
+
+
+
+
+
+% end section
+
+
+
+

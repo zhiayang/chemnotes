@@ -1,0 +1,71 @@
+% Physical.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+
+\documentclass[12pt]{article}
+
+\usepackage{studynotes}
+% % \usepackage{lua-visual-debug}
+
+\begin{document}
+\pagenumbering{gobble}
+
+
+% title page
+
+\begin{center}
+
+	\vspace*{10mm}
+	\hugetext{Physical Chemistry}
+	\vspace*{10mm}
+
+	\diagram[1.5]{
+
+		\begin{endiagram}[scale=1.5,offset=1.5,x-label-text=,y-label-text=]
+			\ENcurve[step=1.5]{0,4.5,2}
+			\ENcurve[step=1.5,tikz={red,dotted}]{0,3,2}
+
+			\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+			\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
+
+			\ShowEa[label,from={(N1-1) to (N1-2)}]
+			\ShowGain[label]
+
+			\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}X};
+			\draw[above] (N1-3) ++ (1,0) node {\small Y};
+
+		\end{endiagram}
+	}
+
+	\vspace*{8mm}
+
+	\linespread{1.0}
+	\subtext{∆G = ∆H - T×∆S} \break \break
+
+	\vspace{10mm}
+
+	\subsubtext{Chapters 5 to 7}
+
+\end{center}
+
+% end title
+
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+% reset
+
+\pagenumbering{arabic}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

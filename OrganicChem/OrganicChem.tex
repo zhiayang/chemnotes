@@ -1,0 +1,75 @@
+% OrganicChem.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+
+\documentclass[12pt]{article}
+
+\usepackage{studynotes}
+% % \usepackage{lua-visual-debug}
+
+\begin{document}
+\pagenumbering{gobble}
+
+
+% title page
+
+\begin{center}
+
+	\vspace*{10mm}
+	\hugetext{Organic Chemistry}
+	\vspace*{10mm}
+
+	\diagram[2.0]{
+		\chemfig{!\molO=[:30]*6(-!\molN(-!\molMe)-(*5(-!\molN=-!\molN(-!\molMe)-))=-(=!\molO)-!\molN(-!\molMeR)-)}
+	}
+
+	\vspace*{8mm}
+
+	\linespread{1.0}
+	\subtext{\ch{C8H10N4O2}} \break \break
+	\subtext{1,3,7-trimethylpurine-2,6-dione}
+
+	\medskip
+	\subsubtext{-}
+	\medskip
+
+	\subtext{Caffeine}
+	\vspace{10mm}
+
+	\subsubtext{Chapters 8 to 12}
+
+\end{center}
+
+% end title
+
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+% reset
+
+\pagenumbering{arabic}
+
+\input{"Chapter 01 - Functional Groups"}
+\input{"Chapter 02 - Isomers"}
+\input{"Chapter 03 - Reaction Mechanisms"}
+\input{"Chapter 04 - Induction and Resonance"}
+\input{"Chapter 05 - Alkanes"}
+\input{"Chapter 06 - Alkenes"}
+\input{"Chapter 07 - Arenes"}
+\input{"Chapter 08 - Halogen Derivatives"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

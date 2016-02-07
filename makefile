@@ -14,16 +14,29 @@ FIGURESPDF			= $(FIGURESSRC:.tex=.pdf)
 .DEFAULT_GOAL = all
 
 
-SRC					= $(shell find . -maxdepth 1 -iname "*.tex" -not -iname "OrganicChem.tex" | sed 's/ /\\ /g')
-FINALSRC			= ./OrganicChem.tex
-OUTPUT				= ./OrganicChem.pdf
+OSRC				= $(shell find OrganicChem -maxdepth 1 -iname "*.tex" -not -iname "OrganicChem.tex" | sed 's/ /\\ /g')
+FINALOSRC			= OrganicChem/OrganicChem.tex
+OOUTPUT				= OrganicChem.pdf
 
-.PHONY: clean all
+PSRC				= $(shell find PhysicalChem -maxdepth 1 -iname "*.tex" -not -iname "PhysicalChem.tex" | sed 's/ /\\ /g')
+FINALPSRC			= PhysicalChem/PhysicalChem.tex
+POUTPUT				= PhysicalChem.pdf
 
-all: $(OUTPUT)
+.PHONY: clean all organic physical
 
-$(OUTPUT): $(SRC) $(FINALSRC) $(FIGURESPDF)
-	@$(LATEX) $(FLAGS) $(FINALSRC)
+all: $(OOUTPUT) $(POUTPUT)
+
+organic: $(OOUTPUT)
+
+physical: $(POUTPUT)
+
+$(OOUTPUT): $(OSRC) $(FINALOSRC) $(FIGURESPDF)
+	@cd OrganicChem; $(LATEX) $(FLAGS) $(notdir $(FINALOSRC))
+	@mv OrganicChem/OrganicChem.pdf ./
+
+$(POUTPUT): $(PSRC) $(FINALPSRC) $(FIGURESPDF)
+	@cd PhysicalChem; $(LATEX) $(FLAGS) $(notdir $(FINALPSRC))
+	@mv PhysicalChem/PhysicalChem.pdf ./
 
 
 %.pdf: %.tex
@@ -36,6 +49,8 @@ clean:
 	@find . -name "*.aux" | xargs rm -f
 	@find . -name "*.log" | xargs rm -f
 	@find . -name "*.pdf" | xargs rm -f
+	@find . -name "*.toc" | xargs rm -f
+	@find . -name "*.out" | xargs rm -f
 
 
 
