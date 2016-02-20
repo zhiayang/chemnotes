@@ -1,0 +1,264 @@
+% Chapter 01 - Enthalpies.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+\pagebreak
+\part{Enthalpies}
+
+\section{Enthalpy Change}
+
+	Enthalpy refers to the total energy content of a given substance. When reacting two or more compounds together, the bonds within
+	must first be broken, before new bonds are formed. This process involves the transfer of energy, which is measured as the
+	\textit{enthalpy change}.
+
+	Enthalpy change, or \enth{}, measures the difference in energy content between the reactants and the products of a reaction.
+
+	For an exothermic reaction, the energy content of the products is less than that of the reactants. Since the most stable state
+	is that with the least amount of energy, exothermic reactions are said to be \textit{more energetically favoured} –– \enth{} < 0.
+	Heat is released into the surroundings, and generally, temperature increases.
+
+	\diagram[1.0]{
+		\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+			\ENcurve[step=1.5]{2,4.5,0}
+
+			\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+			\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
+
+			\ShowEa[label,label-side=left,label-pos=0.2]
+			\ShowGain[label,offset=-40mm]
+
+			\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
+			\draw[above] (N1-3) ++ (1,0) node {\small products};
+
+		\end{endiagram}
+	}
+
+	\pagebreak
+	Conversely, for an endothermic reaction, the reverse is true –– the energy content of the final products is greater than that
+	of the reactants. Thus, these reactions are somewhat \textit{less energetically favoured}, and less likely to happen.
+	\enth{} > 0, and heat is absorbed from the surroundings to feed the reaction.
+
+
+	\diagram[1.0]{
+		\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+			\ENcurve[step=1.5]{0,4.5,2}
+
+			\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+			\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
+
+			\ShowEa[label,label-side=left,label-pos=0.2]
+			\ShowGain[label,offset=0mm]
+
+			\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
+			\draw[above] (N1-3) ++ (1,0) node {\small products};
+
+		\end{endiagram}
+	}
+
+
+	\pagebreak
+	\subsection{Activation Energy}
+
+		Regardless of the enthalpy change of the reaction, some energy must always be input, and thus the activation energy, \ea, is
+		always positive. This is because bonds must always be broken, which requires energy input, before new bonds can be formed.
+
+		However, the \ea for endothermic reactions is generally much higher than that for exothermic reactions, since its reactants
+		are generally more stable.
+
+	% end subsection
+
+	\subsection{Thermochemical Equations}
+
+		A thermochemical equation is simply a normal, balanced chemical equation that has an enthalpy change of reaction associated with
+		it. State symbols must also be included, since a change in state necessitates a change in the enthalpy of the substance.
+
+		\txtdiagram{
+			\schemestart[0,1.0,thick]
+				\ch{H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 NaOH \stAq}
+				\arrow
+				\ch{Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
+			\schemestop
+		}{\enth{} = \SI{-114.2}{\kilo\joule\per\mole}}
+
+		Note that the enthalpy change is per mole \textit{of reaction}, not per mole of any one substance. Thus, if the above reaction
+		were to be rewritten using 1 mole of NaOH instead:
+
+		\txtdiagram{
+			\schemestart[0,1.0,thick]
+				\ch{\fracHalf H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
+				\arrow
+				\ch{\fracHalf Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
+			\schemestop
+		}{\enth{} = \SI{-57.1}{\kilo\joule\per\mole}}
+
+		The enthalpy change of the reaction is now half the previous value.
+	% end subsection
+
+
+	\pagebreak
+	\subsection{Bond Dissociation Energy}
+
+		Bond dissociation energy is the energy required to break \textit{1 mole} worth of \textit{covalent bonds} between two atoms in the
+		\textit{gaseous state}. Note that this value is always positive, since energy is required to break bonds. The larger the value,
+		the stronger the bond.
+
+		Bonds are complex beasts; breaking seemingly identical bonds successively will require differing amounts of energy. For instance, the
+		bond dissociation energy for the first \ch{C-H} bond in \ch{CH4} is \SI{425}{\kilo\joule\per\mole}, while that of the second \ch{C-H}
+		bond (in what is now \ch{CH3}) is \SI{470}{\kilo\joule\per\mole}.
+
+		Naturally, the bond dissociation energies can vary by significant amounts between different molecules –– the BDE for a \ch{C-H} bond
+		in \ch{CH4} is smaller than that of the \ch{C-H} bond in \ch{CH2=CH2}.
+
+	% end subsection
+
+	\subsection{Bond Energy}
+
+		Due to these problems, the \textit{bond energy} is more frequently used. It is simply the \textit{average} of the bond dissociation
+		energies of the particular bond, sampled from a large variety of molecules.
+
+		Thus, it is defined as the \textit{average energy} required to break \textit{1 mole} worth of \textit{covalent bonds} between two
+		atoms in the \textit{gaseous state}.
+
+		Furthermore, if the bond in question is between two atoms in a diatomic molecule in the gaseous state, then the bond energy and
+		the enthalpy change of atomisation (\enth{atom}, below) are related: The bond energy is twice the enthalpy change of atomisation.
+
+		\txtdiagram{
+			\schemestart[0,1.0,thick]
+				\ch{\fracHalf H-H \stG}
+				\arrow
+				\ch{H \stG}
+			\schemestop
+		}{\enth{atom} = \fracHalf BE(\ch{H-H})}
+
+		Indeed, since reactions at a fundamental level simply involve breaking and forming bonds, the enthalpy change of a given reaction
+		can be calculated (somewhat inaccurately, due to bond energy being an average) taking the difference between the energies of the
+		bonds formed, and that of the bonds broken.
+
+		\txtdiagram{
+			\schemestart[0,1.0,thick]
+				\enth{r} = \chemSigma{} BE(broken) - \chemSigma{} BE(formed)
+			\schemestop
+		}{}
+
+		Accounting for any required changes in state can be done by adding the enthalpy change of either fusion or vaporisation on either
+		side.
+
+	% end subsection
+
+
+
+
+
+
+	\pagebreak
+	\subsection{Standard Enthalpy Change}
+
+		For enthalpy change to have any meaning, it must be defined in terms of a set of standard conditions. In this case, the standard
+		enthalpy change, \enthStd{}, is defined as the enthalpy change at \textit{\SI{298}{\kelvin}}, and a pressure of \textit{\SI{1}{\atm}}.
+
+		An element or substance in its standard state has the least amount of energy, and is physically stable. Elements in their standard
+		states (\ch{C \stS}, \ch{Br2 \stL}, \ch{N2 \stG}, etc.) are assigned an enthalpy value of \textit{0}.
+
+		The unit of enthalpy change is usually \si{\kilo\joule\per\mole} (kilojoules per mole). This means that it is always determined
+		per mole of some substance; the greater the number of moles of substance reacting, the greater the total enthalpy change will be,
+		in \si{\kilo\joule}.
+
+	% end subsection
+
+	\pagebreak
+	\subsection{The Law of Hess}
+
+		Hess's Law of \textit{Constant Heat Summation} states that the enthalpy change of any given reaction is determined only by the
+		enthalpy change between the initial state and final state, regardless of the steps taken in between.
+
+		Therefore, whether the reactants reacted directly or through some convoluted pathway to get to the final state, the enthalpy
+		change will be the same. To make use of this, typically an energy cycle diagram is drawn, inserting whatever intermediate reaction
+		is required (with known enthalpies) to get to the final product.
+
+		\diagram[1.0]{
+			\schemestart[0,1.0,thick]
+				\ch{\fracHalf O2 \stG}\hspace{2mm} + \hspace{2mm}\ch{C \stS}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
+				\arrow(one--two){->[\enth{f} of \ch{CO}]}[0,2]
+				\ch{CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
+				\arrow(@one.south east--three.north west){->% note here: we need to manually set the parbox width, because latex is stupid.
+					[][*{0.east}\parbox{26mm}{\begin{center}\enth{c} of \ch{C}\\ \SI{-394}{\kilo\joule\per\mole}\end{center}}]}[-62.5,1.5]
+				\ch{CO2 \stG}
+				\arrow(@three.north east--@two.south west){->%
+					[][*{0.west}\parbox{26mm}{\begin{center}\enth{c} of \ch{CO}\\ \SI{-283}{\kilo\joule\per\mole}\end{center}}]}[,1.5]
+			\schemestop
+		}{Half a mole of \ch{O2} was added on both sides of the primary reaction to balance it.}
+
+		Note that the direction of the arrow can be manipulated \textit{at will}, simply by reversing the sign of the associated enthalpy
+		change. Indeed, extra reactants can be introduced too, as long as they are accounted for in all reactions.
+
+	% end subsection
+
+
+
+% end section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
