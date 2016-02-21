@@ -1,1 +1,446 @@
-/Users/zhiayang/Library/texmf/tex/latex/commonstuff/studynotes.sty
+% studynotes.cls
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{studynotes}[2013/01/13 Custom Package]
+
+
+\RequirePackage[a4paper, top=22.5mm, bottom=25.0mm, left=25mm, right=25mm]{geometry}
+\RequirePackage[ampersand]{easylist}
+\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage{tabu}
+\RequirePackage{calc}
+\RequirePackage{tikz}
+\RequirePackage{tabto}
+\RequirePackage{lipsum}
+\RequirePackage{amssymb}
+\RequirePackage{lmodern}
+\RequirePackage{sectsty}
+\RequirePackage{graphicx}
+\RequirePackage{ragged2e}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{dashrule}
+\RequirePackage{graphicx}
+\RequirePackage{setspace}
+\RequirePackage{longtable}
+\RequirePackage{etoolbox}
+\RequirePackage{tocloft}
+\RequirePackage{minibox}
+\RequirePackage{regexpatch}
+
+\RequirePackage[pdfencoding=auto,psdextra]{hyperref}
+\RequirePackage{bookmark}
+\RequirePackage{fontspec, xunicode, microtype}
+
+
+\RequirePackage{chemfig}
+\RequirePackage{siunitx}
+\RequirePackage{endiagram}
+\RequirePackage{chemgreek}
+\RequirePackage{chemmacros}
+\RequirePackage{chemformula}
+
+\ProcessOptions\relax
+
+
+
+
+\usechemmodule{orbital,redox}
+
+\setchemformula{
+	bond-style		= {line width=0.3mm},
+	radical-vshift	= -0.35ex
+}
+
+\usetikzlibrary{arrows.meta,calc,positioning}
+
+
+
+\date{}
+\title{Organic Chemistry}
+\author{}
+
+
+% style settings
+
+\makeatletter
+	\def\@seccntformat#1{\protect\makebox[0pt][r]{\csname
+	the#1\endcsname\quad}}
+\makeatother
+
+% curved chemfig arrow
+\makeatletter \definearrow1{s>}{%
+	\ifx\@empty#1\@empty
+		\expandafter\draw\expandafter[\CF@arrow@current@style,-CF](\CF@arrow@start@node)--(\CF@arrow@end@node);%
+	\else
+		\def\curvedarrow@style{shorten <=\CF@arrow@offset,shorten >=\CF@arrow@offset,}%
+		\CF@expadd@tocs\curvedarrow@style\CF@arrow@current@style
+		\expandafter\draw\expandafter[\curvedarrow@style,-CF](\CF@arrow@start@name)..controls#1..(\CF@arrow@end@name);
+	\fi
+	}
+\makeatother
+
+\makeatletter
+\patchcmd{\@part}% <cmd>
+  {\markboth{}{}}% <search>
+  {\partmark{#1}}% <replace>
+  {}{}% <success><failure>
+\makeatother
+
+
+
+\newfontfamily\HNRegular[
+	UprightFont		= HelveticaNeue,
+	ItalicFont		= HelveticaNeue-Italic,
+	BoldFont		= HelveticaNeue-Medium,
+	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue}
+
+
+\newfontfamily\HNLight[
+	UprightFont		= HelveticaNeue-Thin,
+	ItalicFont		= HelveticaNeue-LightItalic,
+	BoldFont		= HelveticaNeue-Light,
+	BoldItalicFont	= HelveticaNeue-LightItalic]{HelveticaNeue-Light}
+
+
+\newfontfamily\HNMedium[
+	UprightFont		= HelveticaNeue-Medium,
+	ItalicFont		= HelveticaNeue-MediumItalic,
+	BoldFont		= HelveticaNeue-Bold,
+	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue-Medium}
+
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[
+				Ligatures=TeX,
+				BoldFont={HelveticaNeue-Medium},
+				ItalicFont={HelveticaNeue-Italic},
+				BoldItalicFont={HelveticaNeue-MediumItalic}
+			]{HelveticaNeue}
+
+\setsansfont[
+				Scale=MatchLowercase,
+				Ligatures=TeX,
+				BoldFont={HelveticaNeue-Medium},
+				ItalicFont={HelveticaNeue-Italic},
+				BoldItalicFont={HelveticaNeue-MediumItalic}
+			]{HelveticaNeue}
+\setmonofont[Scale=MatchLowercase]{Menlo}
+
+
+
+
+\newlength\mylen
+\setlength\mylen{15mm}
+
+\setstretch{1.05}
+
+\titleformat{\part}
+ 	{\HNLight\fontsize{35pt}{42pt}\selectfont}
+ 	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thepart\hfill}}{0.0em}{}
+ 	[{\makebox[0mm][l]{}}]
+
+\titleformat{\section}
+ 	{\HNLight\fontsize{25pt}{30pt}\selectfont\bfseries}
+ 	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
+ 	[{\makebox[0mm][l]{}}]
+
+\titleformat{\subsection}
+ 	{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+ 	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
+ 	[{\makebox[0mm][l]{}}]
+
+\titleformat{\subsubsection}
+	{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
+	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}{0.0em}{}
+	[{\makebox[0mm][l]{}}]
+
+
+\titleformat{\paragraph}
+	{\HNRegular\fontsize{14pt}{17pt}\selectfont}
+	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}{0.0em}{}
+	[{\makebox[0mm][l]{}}]
+
+
+
+\titlespacing*{\part}{0mm}{-12mm}{-20mm}
+\titlespacing*{\section}{0mm}{5mm}{-18.5mm}
+\titlespacing*{\subsection}{0mm}{5mm}{-17mm}
+\titlespacing*{\subsubsection}{0mm}{5mm}{-15.5mm}
+\titlespacing*{\paragraph}{0mm}{0mm}{-13mm}
+
+\makeatletter
+	\@addtoreset{section}{part}
+\makeatother
+
+\renewcommand{\cftpartfont}{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+\renewcommand{\cftpartpagefont}{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+\renewcommand{\cftpartaftersnum}{.}
+\renewcommand{\cftsecaftersnum}{.}
+
+\renewcommand{\cftsecindent}{1.5em}
+\renewcommand{\cftsubsecindent}{3.5em}
+\renewcommand{\cftsubsubsecindent}{5.5em}
+
+\renewcommand{\cfttoctitlefont}{\hfill\HNLight\fontsize{35pt}{42pt}\selectfont}
+\renewcommand{\contentsname}{\hfill Contents\hfill}
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+\cftpagenumbersoff{part}
+
+% \renewcommand{\cftsecfont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
+% \renewcommand{\cftsecpagefont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
+
+
+\renewcommand{\printatom}[1]{\HNRegular\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
+
+\sisetup{
+	detect-all = true
+}
+
+\chemsetup[orbital]{
+	overlay,
+	p/scale = 1.5,
+	sp/scale = 1.5,
+	sp2/scale = 1.5,
+	sp3/scale = 1.5,
+	s/scale = 1.5
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}
+
+\setlist{nosep}
+
+
+% chemfig stuff
+\setdoublesep{1.25mm}		% spacing between lines in a double bond
+\setatomsep{12mm}			% fixed length of a bond
+\setbondoffset{1.0mm}		% margin
+\setbondstyle{line width=0.45mm}
+
+\tikzset{every picture/.style={line width=0.4mm}}
+
+% \input{Commands}
+
+\overfullrule=0.5mm
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\rfoot{\thepage}
+
+
+\DeclareSIUnit\atm{atm}
+
+
+
+% helper macros
+
+
+\newcommand	{\normtext}		{\HNRegular\fontsize{12pt}{14pt}\selectfont}
+
+\newcommand	{\hugetext}		[1]{\HNLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
+\newcommand	{\titletext}	[1]{\HNLight\fontsize{40pt}{48pt}\selectfont\textbf{#1}\normtext\ignorespaces}
+\newcommand	{\subtext}		[1]{\HNLight\fontsize{23pt}{28pt}\selectfont\textbf{#1}\normtext\ignorespaces}
+\newcommand	{\subsubtext}	[1]{\HNLight\fontsize{15pt}{20pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}
+
+\newcommand {\sbs}			[1]{\textsubscript{#1}}
+\newcommand {\sps}			[1]{\textsuperscript{#1}}
+\newcommand {\img}			[2]{\includegraphics[width=#1]{#2}}
+\newcommand {\imgdiagram}	[3]{\begin{figure}[!ht]\begin{center}\includegraphics[width=#1]{#2}\linebreak
+									\fontsize{11pt}{13pt}\selectfont{#3}\normtext
+									\end{center}\end{figure}}
+
+\newcommand	{\boit}			[1]{\textbf{\textit{#1}}}
+
+\newcommand {\includefigure}[3]
+							{
+								\begin{figure}[!ht]
+								\begin{center}
+								\hbox{
+									\vspace{5mm}
+									\includegraphics[width=#1]{#2}
+								}
+								\end{center}
+								\begin{center}
+								\fontsize{11pt}{13pt}\selectfont{#3}
+								\normtext\end{center}\end{figure}
+							}
+
+
+\newcommand {\vdashrule}	[1]{\raisebox{{#1 / 2}}{\rotatebox{270}{\hdashrule[0mm]{#1}{0.75mm}{2mm}}}}
+
+
+\newcommand	{\diagram}		[3][1.0]
+							{
+								\begin{figure}[!ht]
+								\begin{center}
+								\bigskip
+								\scalebox{#1}{
+									\hbox{
+										\vspace{5mm}
+										\hspace{-7.5mm}
+										{#2}
+										\hspace{-7.5mm}
+									}
+								}
+								\end{center}
+								\begin{center}
+								\fontsize{11pt}{13pt}\selectfont{#3}
+								\normtext\end{center}\end{figure}
+								\vspace{-5mm}
+							}
+
+
+
+\newcommand	{\txtdiagram}	[3]
+							{
+								\begin{figure}[!ht]
+								\begin{center}
+								\bigskip
+								% \hbox{
+									\vspace{2mm}
+									\hspace{-7.5mm}
+									\fontsize{14pt}{17pt}\selectfont
+									{#1}
+									\hspace{-7.5mm}
+									\\
+									\vspace{2mm}
+									\hspace{-7.5mm}
+									{#2}
+									\hspace{-7.5mm}
+								% }
+								\end{center}
+								\begin{center}
+								\fontsize{11pt}{13pt}\selectfont{#3}
+								\normtext\end{center}\end{figure}
+								\vspace{-8mm}
+							}
+
+
+
+
+
+
+% chem shortcuts
+\newcommand {\molecule}		[1]{\begin{center}\chemfig{#1}\end{center}}
+
+
+% text stuff
+\newcommand {\chlorine}		{C\textit{l}}
+\newcommand {\aluminium}	{A\textit{l}}
+
+\newcommand {\deltap}		{\chemdelta\sps{+}}
+\newcommand {\deltam}		{\chemdelta\sps{-}}
+
+\newcommand {\snone}		{S\sbs{N}1 }
+\newcommand {\sntwo}		{S\sbs{N}2 }
+
+% small(er)
+\newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{+}\normtext }
+\newcommand {\smdeltam}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{-}\normtext }
+\newcommand {\smfplus}		{\fontsize{9pt}{11pt}\selectfont$\fplus$\normtext}
+\newcommand {\smfminus}		{\fontsize{9pt}{11pt}\selectfont$\fminus$\normtext}
+
+
+% physical chem stuff
+\newcommand	{\Menth}		[1]{∆H\sbs{#1}}
+\newcommand	{\enth}			[1]{$\Delta H_{#1}$}
+
+\newcommand	{\MenthStd}		[1]{∆H\sps{\standardstate}\sbs{#1}}
+\newcommand	{\enthStd}		[1]{$\Delta H^{\standardstate}_{#1}$}
+
+
+
+\newcommand {\Mea}			{E\sbs{a} }
+\newcommand {\ea}			{$E_{a}$ }
+
+
+\newcommand	{\stG}		{ \sbs{(g)}}
+\newcommand	{\stL}		{ \sbs{(\textit{l})}}
+\newcommand	{\stS}		{ \sbs{(s)}}
+\newcommand	{\stAq}		{ \sbs{(aq)}}
+
+\newcommand	{\fracHalf}	{ ½ }
+
+
+
+
+% submolecules
+
+% misc
+\definesubmol	\molStar	{{*}}
+\definesubmol	\molR		{{\color{Aquamarine}R}}
+\definesubmol	\molRon		{{\color{Aquamarine}R1}}
+\definesubmol	\molRtw		{{\color{Aquamarine}R2}}
+\definesubmol	\molRth		{{\color{Aquamarine}R3}}
+\definesubmol	\molRfr		{{\color{Aquamarine}R4}}
+
+% atoms
+\definesubmol	\molN		{{\color{RoyalBlue}N}}
+\definesubmol	\molO		{{\color{Red}O}}
+\definesubmol	\molS		{{\color{Bittersweet}S}}
+
+\definesubmol	\molAl		{A\textit{l}}
+
+% halogens
+\definesubmol	\molX		{{\color{OliveGreen}X}} % placeholder
+\definesubmol	\molF		{{\color{Tan!80!Black}F}}
+\definesubmol	\molCl		{{\color{OliveGreen}\chlorine}}
+\definesubmol	\molBr		{{\color{Mahogany}Br}}
+\definesubmol	\molI		{{\color{Sepia}I}}
+
+% groups
+\definesubmol	\molOH		{{\color{Red}O}|{\color{Red}H}}	% hydroxide, red.
+\definesubmol	\molHO		{{\color{Red}H}|{\color{Red}O}}	% hydroxide, red.
+
+\definesubmol	\molMe		{C|H\sbs{3}}
+\definesubmol	\molMeR		{H\sbs{3}|C}
+
+
+\definesubmol	\molEthyl	{C|H\sbs{2}|C|H\sbs{3}}				% ch2ch3
+\definesubmol	\molPropyl	{C|H\sbs{2}|C|H\sbs{2}|C|H\sbs{3}}	% ch2ch2ch3
+\definesubmol	\molNitro	{N|O\sbs{2}}
+
+
+
+% utils
+\definesubmol	\invisbond	{-[,0.3,,,draw=none]}
+\definesubmol	\molDeltap	{\chemdelta\sps{+}}
+\definesubmol	\molDeltam	{\chemdelta\sps{-}}
+
+
+
+
+
+
+
+
+\newenvironment{bulletlist}
+{
+	\begin{easylist}[itemize]
+	\ListProperties(Space*=-1.0em, Space=-1.0em)
+}
+{\end{easylist}}
+
+
+\newenvironment{romanlist}
+{
+	\begin{easylist}[enumerate]
+	\ListProperties(Space*=-1.0em, Space=-1.0em, Numbers=r)
+}
+{\end{easylist}}
+
+\newenvironment{numberedlist}
+{
+	\begin{easylist}[enumerate]
+	\ListProperties(Space*=-1.0em, Space=-1.0em, Numbers=a)
+}
+{\end{easylist}}
+
+
+
+\endinput
