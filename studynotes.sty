@@ -20,7 +20,6 @@
 \RequirePackage{graphicx}
 \RequirePackage{ragged2e}
 \RequirePackage{fancyhdr}
-\RequirePackage{titlesec}
 \RequirePackage{enumitem}
 \RequirePackage{dashrule}
 \RequirePackage{graphicx}
@@ -30,6 +29,8 @@
 \RequirePackage{tocloft}
 \RequirePackage{minibox}
 \RequirePackage{regexpatch}
+
+\RequirePackage[newparttoc]{titlesec}
 
 \RequirePackage[pdfencoding=auto,plainpages=false,pdfpagelabels,psdextra]{hyperref}
 \RequirePackage{bookmark}
@@ -69,6 +70,8 @@
 	\def\@seccntformat#1{\protect\makebox[0pt][r]{\csname
 	the#1\endcsname\quad}}
 \makeatother
+
+
 
 % curved chemfig arrow
 \makeatletter \definearrow1{s>}{%
@@ -136,20 +139,20 @@
 
 \setstretch{1.05}
 
-\titleformat{\part}
- 	{\HNLight\fontsize{35pt}{42pt}\selectfont}
- 	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thepart\hfill}}{0.0em}{}
- 	[{\makebox[0mm][l]{}}]
+\titleformat{\part}[hang]
+	{\HNLight\fontsize{35pt}{42pt}\selectfont}
+	{\llap{\hspace*{-\mylen}\normalfont\fontsize{20pt}{24pt}\selectfont\thepart\hfill}}{0.0em}{}
+	[{\makebox[0mm][l]{}}]
 
 \titleformat{\section}
- 	{\HNLight\fontsize{25pt}{30pt}\selectfont\bfseries}
- 	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
- 	[{\makebox[0mm][l]{}}]
+	{\HNLight\fontsize{25pt}{30pt}\selectfont\bfseries}
+	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
+	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
- 	{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
- 	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
- 	[{\makebox[0mm][l]{}}]
+	{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
+	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsubsection}
 	{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
@@ -175,17 +178,22 @@
 \makeatother
 
 \renewcommand{\cftpartfont}{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
-\renewcommand{\cftpartpagefont}{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
 \renewcommand{\cftpartaftersnum}{.}
 \renewcommand{\cftsecaftersnum}{.}
 
-\renewcommand{\cftsecindent}{1.5em}
-\renewcommand{\cftsubsecindent}{3.5em}
-\renewcommand{\cftsubsubsecindent}{5.5em}
+\setlength{\cftpartnumwidth}{14mm}
+
+\renewcommand{\cftpartindent}{-1.0em}
+\renewcommand{\cftsecindent}{2.5em}
+\renewcommand{\cftsubsecindent}{4.0em}
+\renewcommand{\cftsubsubsecindent}{6.35em}
 
 \renewcommand{\cfttoctitlefont}{\hfill\HNLight\fontsize{35pt}{42pt}\selectfont}
 \renewcommand{\contentsname}{\hfill Contents\hfill}
 \renewcommand{\cftaftertoctitle}{\hfill}
+
+\renewcommand{\cftdot}{·}
+
 
 \cftpagenumbersoff{part}
 

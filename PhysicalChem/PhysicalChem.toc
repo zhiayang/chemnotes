@@ -1,4 +1,4 @@
-\contentsline {part}{I\hspace {1em}Gibbs Free Energy and Entropy}{1}{part.1}
+\contentsline {part}{\numberline {I}Gibbs Free Energy and Entropy}{1}{part.1}
 \contentsline {section}{\numberline {1}Entropy and Spontaneity}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1}Change in Entropy ($\Delta S${})}{1}{subsection.1.1.1}
 \contentsline {subsubsection}{\numberline {1.1.1}Change in Temperature}{2}{subsubsection.1.1.1.1}

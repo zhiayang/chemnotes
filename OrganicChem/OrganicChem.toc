@@ -1,7 +1,7 @@
-\contentsline {part}{I\hspace {1em}Functional Groups}{1}{part.1}
+\contentsline {part}{\numberline {I}Functional Groups}{1}{part.1}
 \contentsline {section}{\numberline {1}Overview}{1}{section.1.1}
 \contentsline {section}{\numberline {2}Basic Functional Groups}{1}{section.1.2}
-\contentsline {part}{II\hspace {1em}Isomers}{3}{part.2}
+\contentsline {part}{\numberline {II}Isomers}{3}{part.2}
 \contentsline {section}{\numberline {1}Overview}{3}{section.2.1}
 \contentsline {section}{\numberline {2}Structural Isomerism}{3}{section.2.2}
 \contentsline {subsection}{\numberline {2.1}Chain Isomerism}{3}{subsection.2.2.1}
@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {3.1}Cis/Trans Isomerism}{5}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {3.2}E/Z Isomerism}{6}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {3.3}Optical Isomerism}{7}{subsection.2.3.3}
-\contentsline {part}{III\hspace {1em}Reaction Mechanisms}{8}{part.3}
+\contentsline {part}{\numberline {III}Reaction Mechanisms}{8}{part.3}
 \contentsline {section}{\numberline {1}Bond Breaking}{8}{section.3.1}
 \contentsline {subsection}{\numberline {1.1}Homolytic Fission}{8}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {1.2}Heterolytic Fission}{8}{subsection.3.1.2}
@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {3}Electrophiles and Nucleophiles}{10}{section.3.3}
 \contentsline {subsection}{\numberline {3.1}Electrophiles}{10}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.2}Nucleophiles}{10}{subsection.3.3.2}
-\contentsline {part}{IV\hspace {1em}Induction and Resonance}{11}{part.4}
+\contentsline {part}{\numberline {IV}Induction and Resonance}{11}{part.4}
 \contentsline {section}{\numberline {1}Inductive Effect}{11}{section.4.1}
 \contentsline {subsection}{\numberline {1.1}Withdrawal}{11}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {1.2}Donation}{11}{subsection.4.1.2}
@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {2.2}Donation}{12}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {2.3}Overall Effect}{13}{subsection.4.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Caveats}{13}{subsubsection.4.2.3.1}
-\contentsline {part}{V\hspace {1em}Alkanes}{14}{part.5}
+\contentsline {part}{\numberline {V}Alkanes}{14}{part.5}
 \contentsline {section}{\numberline {1}Open Chain}{14}{section.5.1}
 \contentsline {section}{\numberline {2}Cycloalkanes}{14}{section.5.2}
 \contentsline {section}{\numberline {3}Physical Properties}{15}{section.5.3}
@@ -45,7 +45,7 @@
 \contentsline {subsubsection}{\numberline {4.1.4}Free Radical Substitution Reactivity}{19}{subsubsection.5.4.1.4}
 \contentsline {subsection}{\numberline {4.2}Combustion of Alkanes}{20}{subsection.5.4.2}
 \contentsline {section}{\numberline {5}Classification of Carbons}{20}{section.5.5}
-\contentsline {part}{VI\hspace {1em}Alkenes}{21}{part.6}
+\contentsline {part}{\numberline {VI}Alkenes}{21}{part.6}
 \contentsline {section}{\numberline {1}Open Chain}{21}{section.6.1}
 \contentsline {section}{\numberline {2}Cycloalkenes}{21}{section.6.2}
 \contentsline {section}{\numberline {3}Physical Properties}{21}{section.6.3}
@@ -81,7 +81,7 @@
 \contentsline {subsection}{\numberline {5.4}Oxidative Cleavage (Strong Oxidation) of Alkenes}{33}{subsection.6.5.4}
 \contentsline {subsubsection}{\numberline {5.4.1}Further Oxidation of Ethanedioic Acid}{34}{subsubsection.6.5.4.1}
 \contentsline {subsubsection}{\numberline {5.4.2}Uses of Oxidative Cleavage}{34}{subsubsection.6.5.4.2}
-\contentsline {part}{VII\hspace {1em}Arenes}{35}{part.7}
+\contentsline {part}{\numberline {VII}Arenes}{35}{part.7}
 \contentsline {section}{\numberline {1}Benzene}{35}{section.7.1}
 \contentsline {subsection}{\numberline {1.1}Physical Properties}{36}{subsection.7.1.1}
 \contentsline {section}{\numberline {2}Arene Reactions}{37}{section.7.2}
@@ -108,7 +108,7 @@
 \contentsline {subsubsection}{\numberline {3.4.2}Nitration}{45}{subsubsection.7.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.3}Free Radical Substitution}{46}{subsubsection.7.3.4.3}
 \contentsline {subsubsection}{\numberline {3.4.4}Side-chain Oxidation}{46}{subsubsection.7.3.4.4}
-\contentsline {part}{VIII\hspace {1em}Halogen Derivatives}{48}{part.8}
+\contentsline {part}{\numberline {VIII}Halogen Derivatives}{48}{part.8}
 \contentsline {section}{\numberline {1}Halogenoalkanes (Alkyl Halides)}{48}{section.8.1}
 \contentsline {subsection}{\numberline {1.1}Physical Properties}{48}{subsection.8.1.1}
 \contentsline {section}{\numberline {2}Halogenoarenes}{49}{section.8.2}
@@ -144,7 +144,7 @@
 \contentsline {subsection}{\numberline {6.1}Comparing Colour of Precipitate}{63}{subsection.8.6.1}
 \contentsline {subsection}{\numberline {6.2}Comparing Rate of Formation of Precipitate}{63}{subsection.8.6.2}
 \contentsline {section}{\numberline {7}Chlorofluorocarbons (CFCs)}{64}{section.8.7}
-\contentsline {part}{IX\hspace {1em}Alcohols}{65}{part.9}
+\contentsline {part}{\numberline {IX}Alcohols}{65}{part.9}
 \contentsline {section}{\numberline {1}Aliphatic Alcohols}{65}{section.9.1}
 \contentsline {subsection}{\numberline {1.1}Physical Properties}{65}{subsection.9.1.1}
 \contentsline {section}{\numberline {2}Phenols}{66}{section.9.2}
@@ -172,4 +172,4 @@
 \contentsline {subsection}{\numberline {4.8}Oxidation of Secondary Alcohols}{76}{subsection.9.4.8}
 \contentsline {subsection}{\numberline {4.9}Oxidation of Tertiary Alcohols}{76}{subsection.9.4.9}
 \contentsline {subsection}{\numberline {4.10}Tri-iodomethane (Iodoform) Formation}{77}{subsection.9.4.10}
-\contentsline {part}{X\hspace {1em}Phenols}{78}{part.10}
+\contentsline {part}{\numberline {X}Phenols}{78}{part.10}

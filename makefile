@@ -27,14 +27,13 @@ POUTPUT				= PhysicalChem.pdf
 all: $(OOUTPUT) $(POUTPUT)
 
 organic: $(OOUTPUT)
-
 physical: $(POUTPUT)
 
-$(OOUTPUT): $(OSRC) $(FINALOSRC) $(FIGURESPDF)
+$(OOUTPUT): $(OSRC) $(FINALOSRC) studynotes.sty OrganicChem/OrganicChem.toc
 	@cd OrganicChem; $(LATEX) $(FLAGS) $(notdir $(FINALOSRC))
 	@mv OrganicChem/OrganicChem.pdf ./
 
-$(POUTPUT): $(PSRC) $(FINALPSRC) $(FIGURESPDF)
+$(POUTPUT): $(PSRC) $(FINALPSRC) studynotes.sty PhysicalChem/PhysicalChem.toc
 	@cd PhysicalChem; $(LATEX) $(FLAGS) $(notdir $(FINALPSRC))
 	@mv PhysicalChem/PhysicalChem.pdf ./
 
