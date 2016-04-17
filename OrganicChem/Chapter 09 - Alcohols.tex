@@ -1,0 +1,627 @@
+% Chapter 09 - Alcohols.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+
+\pagebreak
+\part{Alcohols}
+\hypertarget{ChapterAlcohols}{}
+
+	\section{Aliphatic Alcohols}
+		Aliphatic alcohols generally have the formula \ch{R-OH} –– the \ch{OH} group dictates the reactions of the alcohol. In a way they
+		are basically carbon chains with one or more \ch{OH} groups replacing a hydrogen atom. Indeed, they are classified similarly to
+		halogenoalkanes in this respect:
+
+		\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
+		\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+
+			\hline
+			% row one: molecules
+			\vspace{2mm}	\chemfig{C(-[:0]!\molOH)(-[:90]H)(-[:180]!\molR)(-[:270]H)}				\vspace{2mm}	&
+			\vspace{2mm}	\chemfig{C(-[:0]!\molOH)(-[:90]!\molR)(-[:180]!\molR)(-[:270]H)}		\vspace{2mm}	&
+			\vspace{2mm}	\chemfig{C(-[:0]!\molOH)(-[:90]!\molR)(-[:180]!\molR)(-[:270]!\molR)}	\vspace{2mm}	\\
+
+			\hline
+			Primary (\SI{1}{\degree})		&
+			Secondary (\SI{2}{\degree})		&
+			Tertiary (\SI{3}{\degree})		\\
+			\hline
+
+		\end{tabu}
+		\end{table}\end{center}\vspace{-10mm}
+
+		Methanol, \ch{CH3OH}, is classified as a primary alcohol.
+
+		As a sidenote, progression beyond this point requires basic understanding of acid-base equilibrium concepts, such as \Ka constants
+		and acid/base conjugation.
+
+		\subsection{Physical Properties}
+
+			Compared to an alkane of a similar length, alcohols generally have much higher melting and boiling points. This is due to
+			the formation of intermolecular hydrogen bonds (note that hydrogen bonds are a special kind of permanent dipole interaction),
+			due to the difference in electronegativity in the \ch{O} and \ch{H} atoms. However, like other aliphatic carbon chains in
+			general, instantaneous dipole-induced dipole (id-id) interactions are still present.
+
+			Alcohols are also much more soluble in water and other polar solvents than alkanes, due again to their ability to form hydrogen
+			bonds, this time resulting in favourable solvent-solute interactions that enable dissolution. They also retain their
+			solubility in non-polar solvents due to the carbon backbone.
+
+	% end section
+
+	\pagebreak
+	\section{Phenols}
+
+		Phenols are benzene rings with one or more \ch{OH} groups directly bonded to the ring itself. They have markedly different properties
+		from normal alcohols, and are covered in the \hyperlink{Chapter_Phenols}{\boit{following chapter}}.
+
+		\diagram[1.0]{
+			\chemfig{**6(----(-[:90]!\molOH)--)}
+		}{Phenol in all its glory.}
+
+	% end section
+
+
+	\section{Creation of Alcohols}
+
+		Alcohols are versatile and crucial in organic synthesis, in that they can be transformed to and from a wide variety of other
+		compounds and functional groups.
+
+		\subsection{Electrophilic Addition (Hydration) of Alkenes}
+
+			As previously mentioned, alkenes can undergo electrophilic addition with steam or water, forming a mono-alcohol.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\SI{300}{\celsius}, at \SI{70}{atm}, \ch{H3PO4} catalyst, \textit{OR}
+										\tabto{35mm}Concentrated \ch{H2SO4}, \ch{H2O}, warming.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{C(-[:135]H)(-[:225]!\molMeR)=[:0]C(-[:45]H)(-[:315]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\water}
+				\arrow
+				\chemfig{C(-[:270]!\molMe)(-[:180]H)(-[:90]!\molOH)-C(-[:90]H)(-[:0]H)(-[:270]H)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Nucleophilic Substitution of Halogenoalkanes}
+
+			Alkyl halides can undergo nucleophilic substitution to create alcohols as well –– the \ch{OH-} ion acts as the
+			nucleophile here, attacking the partial-positively charged \ch{C} atom attached to the halogen.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Aqueous \ch{NaOH} or \ch{KOH}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{!\molR-[:0]!\molX}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molOH\mch}
+					\arrow
+					\chemfig{!\molR-[:0]!\molOH}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molX\mch}
+				\schemestop
+			}
+		% end subsection
+
+
+		\subsection{Reduction of Aldehydes and Ketones}
+
+			Carbonyl compounds (covered \hyperlink{ChapterAldehydesAndKetones}{\boit{later}}) can be reduced, forming either primary or secondary
+			alcohols. Tertiary alcohols cannot be created through this method.
+
+			All 3 common reducing agents can be used.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+  										\tabto{35mm}\ch{NaBH4} in methanol, \textit{OR}
+  										\tabto{35mm}\ch{H2 \stG}, \ch{Ni} catalyst, high temperature and pressure.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(=[:90]!\molO)(-[:210]!\molR)(-[:330]H)}
+					\arrow
+					\chemfig{C(-[:0]!\molOH)(-[:90]H)(-[:270]H)(-[:180]!\molR)}
+				\schemestop
+			}{Aldehydes (above) are reduced to primary alcohols, while ketones (below) are reduced to secondary alcohols.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(=[:90]!\molO)(-[:210]!\molRon)(-[:330]!\molRtw)}
+					\arrow
+					\chemfig{C(-[:0]!\molOH)(-[:90]!\molRon)(-[:270]!\molRtw)(-[:180]H)}
+				\schemestop
+			}
+
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Reduction of Carboxylic Acids}
+
+			Carboxylic acids, also covered \hyperlink{ChapterCarboxylicAcids}{\boit{later}}, can also be reduced, forming primary alcohols.
+			This reduction requires a strong reducing agent, so only \ch{Li\aluminium H4} can be used. See the
+			\hyperlink{AppendixReducingAgents}{\boit{appendix}} for a list of reducing agents and their applicable uses.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether).}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+					\arrow
+					\chemfig{C(-[:0]!\molOH)(-[:90]H)(-[:270]H)(-[:180]!\molR)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Hydrolysis of Esters}
+
+			Finally, esters can be hydrolysed to form an alcohol as one of its products. Note that this hydrolysis is preferably conducted
+			in an alkaline medium, since the reaction is slow and reversible in an acidic medium, but fast and irreversible under
+			alkaline conditions. All that is required is a dilute acid to protonate the carboxylate salt after.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4}, heat under reflux, \textit{OR}
+										\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRon)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+					\arrow{<=>[dil. \ch{H2SO4}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:30]!\molO)(-[:330]!\molOH)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRon-[:0]!\molOH}
+				\schemestop
+			}{A carboxylic acid is also formed, but for our purposes the alcohol is the main product.}
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molR)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+					\arrow{->[dil. \ch{NaOH}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:30]!\molO)(-[:330]!\molO\mch Na\pch)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRon-[:0]!\molOH}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+	\pagebreak
+	\section{Alcohol Reactions}
+
+		\subsection{Acidity of Alcohols}
+
+			Firstly, alcohols do have some weak acidic properties, as the \ch{OH} group is able to allow \ch{H+} to dissociate, albeit
+			only slightly. This effect is so weak that alcohols react with neither bases (eg. \ch{NaOH}) nor turn blue litmus paper red.
+
+			The \ch{H+} ion dissociates to a smaller extent than water, due to the presence of electron-donating alkyl groups that are
+			not present in water (water only has \ch{H} atoms bonded to the oxygen). These alkyl groups \textit{intensify} the negative
+			charge on the alkoxide ion, destabilising it. Thus, the \ch{H+} ion is unlikely to dissociate, as things like to remain stable.
+
+			\subsubsection{Effect of Substituents}
+
+				In a manner somewhat similar to arenes, substituents along the alcohol's carbon chain can have an effect on its acidity.
+				Of course, groups closer to the \ch{OH} itself (better yet, attached to the same carbon atom) have a greater effect. Note
+				that the length of the alkyl group (or the carbon chain) of the alcohol does not have a significant impact on its acidity.
+
+				Electron withdrawing groups will \textit{disperse} the negative charge on the alkoxide anion, thus resulting in a higher
+				likelihood for the \ch{H+} ion to dissociate, meaning a higher acidity (and thus higher \Ka). Conversely, electron-donating
+				groups (basically alkyl groups) \textit{intensify} the negative charge, destabilising the anion and decreasing acidity.
+
+				Note that the classification of electron-donating/withdrawing groups is different from that of arenes, as the carbon
+				attached to the alcohol is sp\sps{3} hybridised. Refer to \hyperlink{CaveatResonanceTable}{\boit{this explanation}} for an
+				elaboration.
+
+			% end subsection
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Reaction with Metals}
+
+			In a manner similar to acids, alcohols can react with \textit{reactive} metals to form ionic salts. However, these reactions
+			will be slower than that of mineral acids or even carboxylic acids.
+
+			The \ch{O-H} bond is broken, and the \ch{H} atom is replaced with the metal cation.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Solid metal (eg. \ch{Na}, \ch{K}, etc.), room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Slow effervescence of \ch{H2} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					2 \chemfig{!\molR-[:0]!\molOH}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{2 Na \stS}
+					\arrow
+					2 \chemfig{!\molR-[:0]!\molO\mch Na\pch}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2 \stG}
+				\schemestop
+			}
+
+		% end subsection
+
+		\subsection{Esterification (Nucleophilic Acyl Substitution)}
+
+			\subsubsection{Carboxylic Acids}
+
+				While this is more a property of carboxylic acids than alcohols, alcohols are still a main reagent, and so it is included here.
+				These are condensation reactions, since \ch{H2O} or \ch{H\chlorine} is removed and the carbon chains joined.
+
+				There are two main methods of creating esters, one of which is vastly more effective than the other. But first, the ineffective
+				method. Carboxylic acids and alcohols can react together in a slow and reversible reaction, with the use of heat and a
+				catalytic dehydrating agent –– a few drops of concentrated \ch{H2SO4} is often used.
+
+				An additional limitation of this method is that phenols cannot be used to esterify, as it is too weak a nucleophile to
+				perform the necessary substitution of the \ch{OH} on the carboxylic acid.
+
+				To note, the \ch{C-O} bond in the carboxylic acid is broken, while only the \ch{O-H} bond in the alcohol is broken.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Carboxylic acid and alcohol,
+											\tabto{35mm}Several drops of concentrated \ch{H2SO4}, heated under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{oh}{\color{Red}O}|{\color{Red}H})}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+						\arrow{<=>[conc. \ch{H2SO4}][reflux]}
+						\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+
+					% circle the groups
+					\chemmove{
+						\draw[-latex, red, thick]
+						(oh.east) circle(5mm)
+						(hyd.center) circle(4mm);
+					}
+				}{Note that it is the circled groups that form the water that is removed –– this is important.}
+
+			% end subsubsection
+
+			\subsubsection{Acyl Chlorides}
+
+				Alternatively, acyl chlorides (which are themselves derivatives of carboxylic acids) can be used instead. This reaction
+				is far superior, allowing for the esterification with phenols (which carboxylic acids cannot do).
+
+				It is also conducted at room temperature and is an irreversible reaction requiring no catalysts, due to the high
+				reactivity of the acyl chloride.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Acyl chloride and alcohol,
+											\tabto{35mm}Room temperature.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{cl}\color{OliveGreen}\chlorine)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+						\arrow
+						\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H\chlorine}
+					\schemestop
+
+					% circle the groups
+					\chemmove{
+						\draw[-latex, red, thick]
+						(cl.center) circle(4mm)
+						(hyd.center) circle(4mm);
+					}
+				}{Again, note that it is the circled groups that form the water that is removed –– this is important.}
+
+
+			% end subsubsection
+
+
+		% end subsection
+
+
+		\subsection{Nucleophilic Substitution with Halogens}
+
+			Alcohols can undergo nucleophilic substitution, where the \ch{OH} group is substituted by a halogen atom. However, this
+			has been covered in a previous chapter, under the \hyperlink{NSubAlcohols}{\boit{formation of halogenoalkanes}}, and will not
+			be reproduced here for brevity.
+
+			(click the bolded bit, this PDF has links!)
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Dehydration (Elimination of Water)}
+
+			Alcohols can undergo dehydration, where an \ch{OH} group combines with the \ch{H} atom on a \textit{neighbouring} carbon, forming
+			water and an alkene, under the right conditions.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Excess concentrated \ch{H2SO4}, \SI{170}{\celsius}, \textit{OR}
+										\tabto{35mm}\ch{\aluminium2O3}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:90]H)(-[:270]@{hyd}H)(-[:180]H)-[:0]C(-[:90]H)(-[:0]H)(-[:270]@{oh}{\color{Red}O}|{\color{Red}H})}
+					\arrow
+					\chemfig{C(-[:135]H)(-[:225]H)=[:0]C(-[:45]H)(-[:315]H)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+
+				% circle the groups
+				\chemmove{
+					\draw[-latex, red, thick]
+					(hyd.center) circle(4mm)
+					(oh.east) circle(5mm);
+				}
+			}{Note that it is the circled groups that form the water that is removed.}
+
+			Naturally, this reaction cannot take place when there is no hydrogen atom on any adjacent carbon atom.
+
+			\subsubsection{Zaitsev's Rule}
+
+				It is obvious that in certain cases, there will be ambiguity regarding which hydrogen atom is removed together with the \ch{OH}
+				group. This is resolved with the Rule of Zaitsev, which states that the major product will be the alkene with more alkyl
+				substituents on the double-bonded carbons.
+
+				For example:
+
+				\diagram[0.75]{
+					\chemnameinit{\chemfig{C(-[:90]H)(-[:270]H)}}
+
+					\schemestart[0,1.5,thick]
+						\chemname{\chemfig{C(-[:90]!\molMe)(-[:270]@{hyd1}H)(-[:180]!\molMe)
+							-[:0]C(-[:90]H)(-[:270]@{oh}{\color{Red}O}|{\color{Red}H})-[:0]C(-[:90]H)(-[:0]H)(-[:270]@{hyd2}H)}}{}
+						\arrow{->[][- \ch{H2O}]}
+						\chemname{\chemfig{C(-[:135]!\molMe)(-[:225]!\molMe)=[:0]C(-[:45]H)(-[:315]!\molMe)}}{(major)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemname{\chemfig{C(-[:90]!\molMe)(-[:180]H)(-[:270]!\molMe)-[:0]C(-[:90]H)=[:0]C(-[:45]H)(-[:315]H)}}{(minor)}
+					\schemestop
+
+					% circle the groups
+					\chemmove{
+						\draw[-latex, red, thick]
+						(hyd1.center) circle(4mm)
+						(hyd2.center) circle(4mm)
+						(oh.east) circle(5mm);
+					}
+				}
+
+			% end subsubsection
+
+			\pagebreak
+			\subsubsection{Elimination of Water in Gem-diols}
+
+				Gem-diols, or carbons with two \ch{OH} groups attached at once, will generally spontaneously eliminate \ch{H2O} to form a
+				ketone or aldehyde. The reason for this reaction is generally understood to be the much higher stability of the resulting
+				carbonyl.
+
+				Strongly electron-withdrawing substituents can result in the preference of the gem-diol, since the resulting carbonyl
+				would be destabilised due to the very large partial-positive charge on the central carbon (with 2 or 3 electron-withdrawing groups).
+
+				In general however, water is eliminated.
+
+
+				\diagram[1.0]{
+
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]!\molRon)(-[:180]!\molRtw)(-[:0]@{oh1}{\color{Red}O}|{\color{Red}H})(
+							-[:270]@{oh2}{\color{Red}O}|{\color{Red}H})}
+						\arrow
+						\chemfig{C(-[:210]!\molRon)(-[:330]!\molRtw)(=[:90]!\molO)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+
+					% circle the groups
+					\chemmove{
+						\draw[-latex, red, thick]
+						(oh1.east) circle(5mm)
+						(oh2.east) circle(5mm);
+					}
+				}
+			% end subsubsection
+		% end subsection
+
+		\pagebreak
+		\subsection{Combustion}
+
+			Alcohols such as ethanol can be burned as fuel, reacting with oxygen in the air to form \ch{CO2} and \ch{H2O}.
+
+			\diagram[1.0]{
+				\schemestart[0,1.0,thick]
+					\ch{CH3CH2OH \stL}\hspace{2mm} + \hspace{2mm}\ch{3 O2 \stG}
+					\arrow
+					\ch{2 CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{3 H2O \stL}
+				\schemestop
+			}
+
+		% end subsection
+
+		\subsection{Oxidation of Primary Alcohols}
+
+			Here again, a distinction must be made between primary, secondary and tertiary alcohols. For primary alcohols, there
+			are two stages of oxidation –– first to an aldehyde, then further oxidation to a carboxylic acid.
+
+			\subsubsection{Controlled Oxidation to Aldehydes}
+
+				The \textit{controlled} part of this reaction lies in the immediate distillation of the aldehyde that is formed, using
+				a fractionating column. Since aldehydes lack hydrogen bonding, they have a lower boiling point than their parent alcohol,
+				and can be distilled away before they are further oxidised.
+
+				Note that, in this case, the \textit{only} suitable oxidising agent is \ch{Cr2O7^2-}, as the alternative, \ch{MnO4-}, is
+				too strong and will immediately oxidise the alcohol to a carboxylic acid. (note: this may be desired under some circumstances)
+
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4},
+											\tabto{35mm}heat with immediate distillation.}
+				\vspace{0.5em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \textit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed).}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+						\arrow
+						\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+				}
+
+			% end subsubsection
+
+
+			\pagebreak
+			\subsubsection{Complete Oxidation to Carboxylic Acids}
+
+				When the aldehyde is not distilled immediately and instead left to interact with the remaining oxidising agent, it will
+				be further oxidised to a carboxylic acid. Alternatively, the strong oxidising agent \ch{KMnO4} can be used to immediately
+				create a carboxylic acid.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+											\tabto{35mm}heat under reflux.}
+				\vspace{0.5em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \textit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed), \textit{OR}
+											\tabto{35mm}\textit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+						\arrow
+						\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+				}
+
+
+				Note that, with \ch{KMnO4}, two special carboxylic acids can be \textit{even further oxidised} to give \ch{CO2} and \ch{H2O};
+				they are ethanedioic acid and methanoic acid.
+
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:180]H)(=[:45]!\molO)(-[:315]!\molOH)}
+						\arrow
+						\ch{CO2}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+						\arrow(@c1.south east--.north east){0}[-90,.25]
+						\chemfig{C(-[:135]!\molHO)(=[:225]!\molO)-C(=[:45]!\molO)(-[:315]!\molOH)}
+						\arrow
+						\ch{2 CO2}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Oxidation of Secondary Alcohols}
+
+			Unlike primary alcohols, secondary alcohols only have a single stage of oxidation, and thus either \ch{K2Cr2O7} or \ch{KMnO4} can be
+			used. Secondary alcohols are oxidised to ketones, which cannot be further oxidised.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+										\tabto{35mm}heat under reflux.}
+			\vspace{0.5em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \textit{\color{LimeGreen}green}
+													(\ch{Cr^3+} formed), \textit{OR}
+										\tabto{35mm}\textit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:90]!\molR)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+					\arrow
+					\chemfig{C(=[:90]!\molO)(-[:210]!\molR)(-[:330]!\molR)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+		% end subsection
+
+		\subsection{Oxidation of Tertiary Alcohols}
+
+			This is really a pointless section, because tertiary alcohols cannot be oxidised under normal conditions. They do not have a hydrogen
+			atom on the central carbon, thus preventing the addition of oxygen atoms.
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Tri-iodomethane (Iodoform) Formation}
+
+			This reaction is useful both in determining the structure of a given compound, and in reducing the length of the carbon chain by
+			forming a carboxylate ion.
+
+			It can only occur in the presence of a specific arrangement of groups, which allows for the fingerprinting of a compound. Note that
+			this is actually a redox reaction, as the alcohol is oxidised and the iodine is reduced to \ch{I-}.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{I2 \stAq}, \ch{NaOH \stAq}, warmed.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Dandelion}Yellow} precipitate of \ch{CHI3} is formed.}
+
+			\diagram[1.0]{
+				\schemestart[0,2.0,thick]
+					\chemfig{C(-[:90]H)(-[:270]!\molMe)(-[:180]!\molR)(-[:0]!\molOH)}
+					\arrow{->[\ch{I2 \stAq}, \ch{NaOH \stAq}][warm]}
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO\mch Na\pch)}
+				\schemestop
+			}{The group to the right of the R group is the necessary structure for a positive reaction.}
+
+			Note that ethanol, where the R group is simply a hydrogen atom, is the only primary alcohol to have a reaction, since there will
+			be no \ch{CH3} group on any other primary alcohol.
+
+		% end subsection
+
+	% end section
+
+%end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

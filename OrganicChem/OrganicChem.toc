@@ -29,6 +29,7 @@
 \contentsline {subsection}{\numberline {2.1}Withdrawal}{12}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {2.2}Donation}{12}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {2.3}Overall Effect}{13}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Caveats}{13}{subsubsection.4.2.3.1}
 \contentsline {part}{V\hspace {1em}Alkanes}{14}{part.5}
 \contentsline {section}{\numberline {1}Open Chain}{14}{section.5.1}
 \contentsline {section}{\numberline {2}Cycloalkanes}{14}{section.5.2}
@@ -99,7 +100,7 @@
 \contentsline {subsection}{\numberline {3.1}Effect of Reactivity}{42}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {3.2}Effect on Positions of Further Substituents}{42}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {3.3}Directing Mechanism}{43}{subsection.7.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Electron-withdrawing Groups}{43}{subsubsection.7.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1}Electron-withdrawing Groups}{44}{subsubsection.7.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Electron-donating Groups}{44}{subsubsection.7.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3}Halogen Substituents}{44}{subsubsection.7.3.3.3}
 \contentsline {subsection}{\numberline {3.4}Alkylbenzene Reactions}{45}{subsection.7.3.4}
@@ -116,15 +117,15 @@
 \contentsline {subsection}{\numberline {3.2}Electrophilic Addition to Alkenes}{50}{subsection.8.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Addition of \ch {X2}}{50}{subsubsection.8.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Addition of \ch {HX}}{50}{subsubsection.8.3.2.2}
-\contentsline {subsection}{\numberline {3.3}Substitution of \ch {OH} groups (Chloroalkanes)}{51}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {3.3}Nucleophilic Substitution of \ch {OH} groups (Chlorine)}{51}{subsection.8.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Phosphorous Pentachloride (\ch {PC\textit {l}5})}{51}{subsubsection.8.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Phosphorous Trichloride (\ch {PC\textit {l}3})}{51}{subsubsection.8.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3}Thionyl Chloride (\ch {SOC\textit {l}2})}{51}{subsubsection.8.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.4}Hydrogen Chloride (\ch {HC\textit {l}})}{52}{subsubsection.8.3.3.4}
-\contentsline {subsection}{\numberline {3.4}Substitution of \ch {OH} groups (Bromoalkanes)}{53}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {3.4}Nucleophilic Substitution of \ch {OH} groups (Bromine)}{53}{subsection.8.3.4}
 \contentsline {subsubsection}{\numberline {3.4.1}Hydrogen Bromide (\ch {HBr})}{53}{subsubsection.8.3.4.1}
 \contentsline {subsubsection}{\numberline {3.4.2}Phosphorous Tribromide (\ch {PBr3})}{53}{subsubsection.8.3.4.2}
-\contentsline {subsection}{\numberline {3.5}Substitution of \ch {OH} groups (Iodoalkanes)}{54}{subsection.8.3.5}
+\contentsline {subsection}{\numberline {3.5}Nucleophilic Substitution of \ch {OH} groups (Iodine)}{54}{subsection.8.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Phosphorous Triiodide (\ch {PI3})}{54}{subsubsection.8.3.5.1}
 \contentsline {subsection}{\numberline {3.6}Electrophilic Substitution of Arenes}{54}{subsection.8.3.6}
 \contentsline {section}{\numberline {4}Halogenoalkane Reactions}{55}{section.8.4}
@@ -143,3 +144,32 @@
 \contentsline {subsection}{\numberline {6.1}Comparing Colour of Precipitate}{63}{subsection.8.6.1}
 \contentsline {subsection}{\numberline {6.2}Comparing Rate of Formation of Precipitate}{63}{subsection.8.6.2}
 \contentsline {section}{\numberline {7}Chlorofluorocarbons (CFCs)}{64}{section.8.7}
+\contentsline {part}{IX\hspace {1em}Alcohols}{65}{part.9}
+\contentsline {section}{\numberline {1}Aliphatic Alcohols}{65}{section.9.1}
+\contentsline {subsection}{\numberline {1.1}Physical Properties}{65}{subsection.9.1.1}
+\contentsline {section}{\numberline {2}Phenols}{66}{section.9.2}
+\contentsline {section}{\numberline {3}Creation of Alcohols}{66}{section.9.3}
+\contentsline {subsection}{\numberline {3.1}Electrophilic Addition (Hydration) of Alkenes}{66}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {3.2}Nucleophilic Substitution of Halogenoalkanes}{67}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {3.3}Reduction of Aldehydes and Ketones}{67}{subsection.9.3.3}
+\contentsline {subsection}{\numberline {3.4}Reduction of Carboxylic Acids}{68}{subsection.9.3.4}
+\contentsline {subsection}{\numberline {3.5}Hydrolysis of Esters}{68}{subsection.9.3.5}
+\contentsline {section}{\numberline {4}Alcohol Reactions}{69}{section.9.4}
+\contentsline {subsection}{\numberline {4.1}Acidity of Alcohols}{69}{subsection.9.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Effect of Substituents}{69}{subsubsection.9.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Reaction with Metals}{70}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {4.3}Esterification (Nucleophilic Acyl Substitution)}{70}{subsection.9.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Carboxylic Acids}{70}{subsubsection.9.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Acyl Chlorides}{71}{subsubsection.9.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Nucleophilic Substitution with Halogens}{71}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {4.5}Dehydration (Elimination of Water)}{72}{subsection.9.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Zaitsev's Rule}{72}{subsubsection.9.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Elimination of Water in Gem-diols}{73}{subsubsection.9.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Combustion}{74}{subsection.9.4.6}
+\contentsline {subsection}{\numberline {4.7}Oxidation of Primary Alcohols}{74}{subsection.9.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Controlled Oxidation to Aldehydes}{74}{subsubsection.9.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Complete Oxidation to Carboxylic Acids}{75}{subsubsection.9.4.7.2}
+\contentsline {subsection}{\numberline {4.8}Oxidation of Secondary Alcohols}{76}{subsection.9.4.8}
+\contentsline {subsection}{\numberline {4.9}Oxidation of Tertiary Alcohols}{76}{subsection.9.4.9}
+\contentsline {subsection}{\numberline {4.10}Tri-iodomethane (Iodoform) Formation}{77}{subsection.9.4.10}
+\contentsline {part}{X\hspace {1em}Phenols}{78}{part.10}

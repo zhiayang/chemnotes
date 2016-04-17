@@ -519,10 +519,58 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "PhysicalChem/PhysicalChem.tex",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
+			"settings":
+			{
+				"buffer_size": 7231,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "OrganicChem/Chapter 07 - Arenes.tex",
+			"settings":
+			{
+				"buffer_size": 28121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "studynotes.sty",
+			"settings":
+			{
+				"buffer_size": 11197,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Capri.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -536,10 +584,6 @@
 				"Snippet: Copyright Header"
 			],
 			[
-				"c",
-				"Snippet: Copyright Header"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
 			],
@@ -548,8 +592,20 @@
 				"Package Control: Remove Package"
 			],
 			[
+				"reomve",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"instal",
 				"Package Control: Install Package"
+			],
+			[
+				"c",
+				"Snippet: Copyright Header"
 			],
 			[
 				"enble",
@@ -700,10 +756,6 @@
 				"Package Control: Enable Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"pack",
 				"Package Control: Install Package"
 			],
@@ -847,10 +899,48 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/zhiayang/Documents/Chem Notes"
+		"/Users/zhiayang/Documents/Chem Notes",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem"
 	],
 	"file_history":
 	[
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
+		"/Users/zhiayang/Documents/Chem Notes/makefile",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 07 - Arenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 06 - Alkenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 08 - Halogen Derivatives.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Commands.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 08 - Halogen Derivatives.tex",
+		"/Users/zhiayang/Documents/Chem Notes/studynotes.sty",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 07 - Arenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 04 - Induction and Resonance.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 05 - Alkanes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 06 - Alkenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 02 - Isomers.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem.toc",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 03 - Reaction Mechanisms.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 01 - Functional Groups.tex",
+		"/Users/zhiayang/Documents/Chem Notes/chemnotes.sublime-project",
+		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem.aux",
+		"/Users/zhiayang/Documents/Chem Notes/figures/OrganicChem-figure0.log",
+		"/Users/zhiayang/Documents/Chem Notes/figure.log",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 01 - Functional Groups.log",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/chems/data.json",
+		"/Users/zhiayang/Documents/Chem Notes/figures/ch02/addition-of-hx-to-unsymmetrical-alkenes-1.tex",
+		"/Users/zhiayang/Documents/Chem Notes/mkaefile",
+		"/Users/zhiayang/Documents/Chem Notes/Preamble.tex",
+		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zhiayang/Documents/Chem Notes/tmp.tex",
+		"/Users/zhiayang/Documents/Chem Notes/Chapter 01 - Functional Groups/Chapter01.tex",
+		"/Users/zhiayang/Documents/Chem Notes/XeTeX-2.tex",
+		"/Users/zhiayang/Documents/Chem Notes/XeTeX-2.log",
 		"/Applications/TeX/LuaTeX-and-XeTeX/XeTeX-1.tex",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/TopLevel.cpp",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Variables.cpp",
@@ -942,47 +1032,11 @@
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/Parser/Parser-old.cpp",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Translator.cpp",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/TypeParameter.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Instruction.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/StructType.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/executiontarget.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/ExecutionTarget.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Types/ClassCodegen.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/FunctionDecls.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/CodegenUtils.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-old/flax-old.sublime-project",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/IRBuilder.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/irbuilder.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/instruction.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/BinaryOps.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Variables.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/TypeUtils.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/StructMemberAccess.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/StructCodegen.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Value.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/ClassCodegen.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/block.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TopLevel.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/TypeAliases.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/Tuples.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/Extensions.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/Enumerations.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/Functions.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/PointerType.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/ArrayType.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/PrimitiveType.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Literals.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/GlobalValue.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/GlobalConstructors.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Parser/Lexer.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Parser/Parser.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/FunctionCalls.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Alloc.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Errors.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/js/init.js"
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Instruction.cpp"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -1035,134 +1089,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"generateDependencies",
-			"findc",
-			"findcycl",
-			"topLevelNamespace",
-			"decon",
-			"user",
-			"alts",
-			"tcn.h",
-			"parsetype",
-			"parsefuncdecl",
-			"BracedBlock",
-			"Copyright (c) 2014 - 2015, zhiayang@gmail.com",
-			"2015",
-			"TCInstance *ti",
-			"virtual fir::Type* doTypecheck(TCInstance* ti) override;",
-			"override",
-			"addDependency",
-			"addModuleDependency",
-			"findDependenciesOf",
-			"depnode",
-			"sysroot",
-			"unwrap",
-			"unwrapPointerType",
-			"fromllvm",
-			"pin",
-			"__error_gen",
-			"doCodegen",
-			"operatorto",
-			"codegeninstance;",
-			"codegeninstance",
-			"printast",
-			"pritnast",
-			"name",
-			"getinteger",
-			"vardecl",
-			"->type",
-			"Ast::",
-			"typeinfo.h",
-			"StructBase;",
-			"structbase",
-			"parseunary",
-			"parsestatic",
-			"Root*",
-			"tokens",
-			"Ast::",
-			"parsepostfix",
-			"parseidexpr",
-			"parserhs",
-			"parsenumber",
-			"parseif",
-			"pin",
-			"getargumenttypes",
-			"vector",
-			"getLP64",
-			"ret",
-			"param:",
-			"param",
-			"::resolvefunction",
-			"resolvefunction",
-			"isduplicatefunc",
-			"computedpropert",
-			"\"self\"",
-			"::getexprt",
-			"dupe:",
-			"Ast::ArithmeticOp",
-			"enum class ArithmeticOp",
-			"->codegen\\((.+), (.+), (.+)",
-			"codegen\\((.+), (.+), (.+)",
-			"codegen\\((.+),",
-			"\"ast.h\"",
-			"ValPtr_t",
-			"BreakCodegen",
-			"VarArg",
-			"created",
-			"zerobloc",
-			"\"-> \"",
-			"\"->\"",
-			"\"-> \"",
-			"\" -> \"",
-			"\"->\"",
-			"!ret",
-			"infertype",
-			"self type",
-			"lgsptr",
-			"iceassert(this->infer",
-			"getType\\([^)]",
-			"getType\\([!)]",
-			"getType([!)]",
-			"getType(",
-			"dovariable",
-			"getbinaryopin",
-			"createbinary",
-			"currentopprec",
-			"parserhs",
-			"addInstruction",
-			"createbina",
-			"shiftleft",
-			"getcuropprec",
-			"getopprec",
-			"caret",
-			"shiftleft",
-			"rangle",
-			"parsetype",
-			"instantiatedGenericTypes",
-			"instantiated",
-			"parsestruct",
-			"structbase",
-			"createGlobalV",
-			"createGlobal",
-			"::autocast",
-			"addGlobalConstructedValue",
-			"192",
-			"valueKind",
-			"autocasttype",
-			"- 1",
-			"iceassert(!",
-			"<code>int</code> is",
-			"int is",
+			"-4em",
+			"∆S",
+			"> 0",
+			"—–",
+			"numberedlist",
+			"list",
+			"image",
+			"\\frac",
+			"proportional",
+			"proportionate",
+			"enth{c",
+			"fracHalf",
+			"pagebreak",
+			"--",
+			" – ",
+			"\\enth{}",
+			"20mm",
+			"1 mole",
 			"only",
-			"int only",
-			"autocasttype",
-			"::Do",
-			"TType::To",
-			"::To",
-			"to",
-			"\"do\"",
-			".\"",
-			"h3"
+			"\\SI{30",
+			"30}",
+			"both sides",
+			"nh",
+			"CN",
+			"boit",
+			"textit",
+			"HelveticaNeue",
+			"1/2",
+			"\\gas",
+			"\\sld",
+			"\\lqd",
+			"\\aq",
+			"[0,1.5",
+			"en",
+			"end",
+			"OrganicChem",
+			"preamble",
+			"usepackage",
+			"headrulewidth",
+			"fancy",
+			"romanlist",
+			"easylist",
+			"greenyellow",
+			"yellow",
+			"a \\ch{H",
+			"a H",
+			"an \\ch{H+",
+			"a \\ch{H+",
+			"OR",
+			"chemabove",
+			"chembelow",
+			"chemnameinit",
+			"\\end{center}\\vspace{-15mm}",
+			"\\end{center}\\vspace{-10mm}",
+			"\\end{center}\\vspace{-5mm}",
+			"\\end{tabu}",
+			"reactions",
+			"% end paragraph",
+			"\\paragraph",
+			"paragraph",
+			"subsubsection",
+			"subsection",
+			"% end subsection",
+			"\\subsection",
+			"% end subsubsection",
+			"\\subsubsection",
+			"reddish",
+			"white fumes",
+			", or",
+			"brown",
+			"\\\\vspace\\{1.0em\\}\\n(\\s+)\\\\paragraph",
+			"\\\\vspace\\{1.0em\\}\\n (\\s+)\\paragraph",
+			"\\\\vspace\\{1.0em\\}\\n($s+)\\paragraph",
+			"\\\\vspace\\{1.0em\\}\\n(\\s+)\\paragraph",
+			"\\\\vspace\\{1.0em\\}\\n",
+			"\\\\vspace{1.0em}\\n",
+			"\\vspace{1.0em}\\n",
+			"\\vspace{1.0em}",
+			"\\paragraph",
+			"subsubt",
+			"vspace",
+			"normtext",
+			"step 1",
+			"paragraph",
+			"\\subsubtext{",
+			"subsubtext",
+			"\\schemestart",
+			"paragraph",
+			"Chapter0",
+			"primary",
+			"subsubtext",
+			"\\mol",
+			"brown",
+			"purple",
+			"5mm",
+			"hspace{",
+			"hspace{3mm}",
+			"\\aq",
+			"\\phantom{X}",
+			"\\phantom{R}",
+			"X",
+			"\\molX",
+			"chemname",
+			"\\text{-}",
+			"\\mch",
+			"\\mch|{\\color{Red}O}",
+			"!\\molO|\\mch",
+			"deltap",
+			"!{",
+			"\\ch{NO2}",
+			"\\mch",
+			"!{",
+			"!{Br}",
+			"!{S}",
+			"!{N}",
+			"!{R}",
+			"!{CH3}",
+			"!{OH}",
+			"!{O}",
+			"yellow",
+			"!{",
+			"!{O}",
+			"!{Br}",
+			"!{R}",
+			"!{HO}",
+			"!{OH}",
+			"!{H3C}",
+			"!{CH3}"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1170,6 +1224,64 @@
 		"regex": false,
 		"replace_history":
 		[
+			"boit",
+			"\\end{center}\\vspace{-10mm}",
+			"\\end{center}\\vspace{-15mm}",
+			"% end subsubsection",
+			"\\subsubsection",
+			"% end section",
+			"\\section",
+			"% end subsection",
+			"\\subsection",
+			"% \\\\vspace{1.0em}\\n$1\\\\paragraph",
+			"%\\\\vspace{1.0em}\\n$1\\\\paragraph",
+			"%\\\\vspace{1.0em}\\n\\paragraph",
+			"%\\vspace{1.0em}\\n\\paragraph",
+			"\\paragraph{",
+			"Chapter 0",
+			"!\\mol",
+			"!\\molBr",
+			"!\\molS",
+			"!\\molN",
+			"!\\molR",
+			"!\\molMe",
+			"!\\molOH",
+			"!\\molO",
+			"!\\molBr",
+			"!\\molR",
+			"!\\molHO",
+			"!\\molOH",
+			"!\\molMeR",
+			"!\\molMe",
+			"!\\molX",
+			"!\\molRfr",
+			"!\\molRth",
+			"!\\molRtw",
+			"!\\molRon",
+			"!\\molCl",
+			"!\\molMeR",
+			"!\\molMe",
+			"!\\molCl",
+			"!\\molStar",
+			"!\\molBr",
+			"!\\molCl",
+			"!\\molRfr",
+			"!\\molRth",
+			"!\\molRtw",
+			"!\\molRon",
+			"!\\molO",
+			"!\\molHO",
+			"!\\molOH",
+			"!\\molMe",
+			"\\molMe",
+			"!\\molMeR",
+			"\\molMeR",
+			"!\\molMethyl",
+			"\\molMethyl",
+			"2mm",
+			"\\ch{",
+			"\\hspace{3mm}",
+			"2016",
 			"Copyright (c) 2014 - 2016, zhiayang@gmail.com",
 			"TCInstance* ti",
 			"RootAst*",
@@ -1239,65 +1351,7 @@
 			"ma",
 			"",
 			"builder",
-			"module",
-			"members",
-			"->right",
-			"->left",
-			"",
-			"str",
-			"this->recalculateStringLength();",
-			"initString",
-			"setString",
-			"appendString",
-			"length()",
-			"string",
-			"utf8",
-			"ssize_t i",
-			"TypeKind",
-			"flax",
-			"Flax",
-			"flax",
-			"exit(-1)",
-			"iceAssert(",
-			"Typeof",
-			"ExprKind",
-			"flax",
-			".",
-			"TokenList",
-			"lhsPtr, llvm::Value* rhs)",
-			"lhsPtr = 0, llvm::Value* rhs = 0)",
-			"grow",
-			"$1(",
-			"",
-			"lang-swift",
-			"swift",
-			"codegen(CodegenInstance* cgi, llvm::Value* lhsPtr)",
-			"codegen(Codegen::CodegenInstance* cgi, llvm::Value* lhsPtr)",
-			"llvm::Value* lhsPtr = 0",
-			"flax::Type",
-			"s_ptr",
-			"std::deque<Token>",
-			"parseFuncCall",
-			"this",
-			"bo",
-			"block",
-			"BracedBlock",
-			"h2",
-			"parserWarn(",
-			"parserError(",
-			"virtual Result_t",
-			"ValPtr_t",
-			".1s",
-			"isdigit",
-			"####",
-			"codegen(cgi)",
-			"codegen(Codegen::CodegenInstance* cgi)",
-			"projDir",
-			"sb->writeptr",
-			"sb->buffersize",
-			"sb",
-			"$(CXX_)",
-			"->size("
+			"module"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1308,8 +1362,126 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "PhysicalChem/PhysicalChem.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1007,
+								1007
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 355.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6133,
+								6133
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"spell_check": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1686.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "OrganicChem/Chapter 07 - Arenes.tex",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 28121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18478,
+								18478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6036.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "studynotes.sty",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9480,
+								9480
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4847.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1372,11 +1544,11 @@
 	{
 		"height": 98.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Makefile Improved/Make.sublime-build",
 	"project": "chemnotes.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1564,7 +1736,7 @@
 		[
 			[
 				"",
-				"~/Desktop/Stuff/Orion Industries/corevm/corevm.sublime-project"
+				"~/Desktop/Stuff/Orion Industries/flax/flax.sublime-project"
 			],
 			[
 				"web",
@@ -1579,8 +1751,8 @@
 	},
 	"select_symbol":
 	{
-		"height": 63.0,
-		"last_filter": "frombui",
+		"height": 233.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1762,7 +1934,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 196.0,
+	"side_bar_width": 188.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

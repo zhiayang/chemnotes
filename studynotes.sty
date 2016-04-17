@@ -31,7 +31,7 @@
 \RequirePackage{minibox}
 \RequirePackage{regexpatch}
 
-\RequirePackage[pdfencoding=auto,psdextra]{hyperref}
+\RequirePackage[pdfencoding=auto,plainpages=false,pdfpagelabels,psdextra]{hyperref}
 \RequirePackage{bookmark}
 \RequirePackage{fontspec, xunicode, microtype}
 
@@ -60,7 +60,6 @@
 
 
 \date{}
-\title{Organic Chemistry}
 \author{}
 
 
@@ -353,16 +352,16 @@
 \newcommand	{\MenthStd}		[1]{∆H\sps{\standardstate}\sbs{#1}}
 \newcommand	{\enthStd}		[1]{$\Delta H^{\standardstate}_{#1}$}
 
-
-
 \newcommand {\Mea}			{E\sbs{a} }
 \newcommand {\ea}			{$E_{a}$ }
 
+\newcommand	{\entr}			{$\Delta S$}
+\newcommand {\gibb}			{$\Delta G$}
 
-\newcommand	{\stG}		{ \sbs{(g)}}
-\newcommand	{\stL}		{ \sbs{(\textit{l})}}
-\newcommand	{\stS}		{ \sbs{(s)}}
-\newcommand	{\stAq}		{ \sbs{(aq)}}
+\newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
+\newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\textit{l})\normtext}
+\newcommand	{\stS}			{ \fontsize{0.80em}{1.0em}\selectfont(s)\normtext}
+\newcommand	{\stAq}			{ \fontsize{0.80em}{1.0em}\selectfont(aq)\normtext}
 
 \newcommand	{\fracHalf}	{ ½ }
 

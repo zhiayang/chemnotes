@@ -1,8 +1,10 @@
-\contentsline {part}{I\hspace {1em}Enthalpies}{1}{part.1}
-\contentsline {section}{\numberline {1}Enthalpy Change}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1}Activation Energy}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.2}Thermochemical Equations}{3}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.3}Bond Dissociation Energy}{4}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.4}Bond Energy}{4}{subsection.1.1.4}
-\contentsline {subsection}{\numberline {1.5}Standard Enthalpy Change}{5}{subsection.1.1.5}
-\contentsline {subsection}{\numberline {1.6}The Law of Hess}{6}{subsection.1.1.6}
+\contentsline {part}{I\hspace {1em}Gibbs Free Energy and Entropy}{1}{part.1}
+\contentsline {section}{\numberline {1}Entropy and Spontaneity}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1}Change in Entropy ($\Delta S${})}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Change in Temperature}{2}{subsubsection.1.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Change in Number of Gas Particles}{2}{subsubsection.1.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Change in Phase}{3}{subsubsection.1.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}Change in Volume}{3}{subsubsection.1.1.1.4}
+\contentsline {subsubsection}{\numberline {1.1.5}Dissolution of Ionic Solids}{4}{subsubsection.1.1.1.5}
+\contentsline {subsection}{\numberline {1.2}Gibbs Free Energy}{4}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Effect of Gibbs Free Energy}{5}{subsubsection.1.1.2.1}

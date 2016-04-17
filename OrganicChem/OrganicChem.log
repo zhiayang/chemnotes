@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  20 FEB 2016 20:51
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  17 APR 2016 22:26
  \write18 enabled.
 **OrganicChem.tex
 (./OrganicChem.tex
@@ -754,7 +754,340 @@ Package: minibox 2013/06/21 v0.2a Another type of box.
 \l_minibox_rule_dim=\dimen272
 \l_minibox_pad_dim=\dimen273
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/regexpatch/regexpatch.sty
+Package: regexpatch 2015/05/20 v0.2a Extending etoolbox patching commands
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count168
+\l__xparse_m_args_int=\count169
+\l__xparse_mandatory_args_int=\count170
+\l__xparse_processor_int=\count171
+\l__xparse_v_nesting_int=\count172
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty
+Package: l3regex 2016/01/19 v6377 L3 Experimental regular expressions
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.s
+ty
+Package: l3tl-build 2016/01/19 v6377 L3 Experimental token list construction
+\l__tl_build_start_index_int=\count173
+\l__tl_build_index_int=\count174
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysi
+s.sty
+Package: l3tl-analysis 2015/11/09 v6244 L3 Experimental token lists analysis
+\l__tl_analysis_normal_int=\count175
+\l__tl_analysis_index_int=\count176
+\l__tl_analysis_nesting_int=\count177
+\l__tl_analysis_type_int=\count178
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
+Package: l3flag 2016/01/19 v6377 L3 Experimental flags
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3str-conver
+t.sty
+Package: l3str-convert 2015/09/26 v6106 L3 Experimental string encoding conversi
+ons
+\l__str_internal_int=\count179
+)
+\l__regex_internal_a_int=\count180
+\l__regex_internal_b_int=\count181
+\l__regex_internal_c_int=\count182
+\l__regex_balance_int=\count183
+\l__regex_group_level_int=\count184
+\l__regex_mode_int=\count185
+\l__regex_catcodes_int=\count186
+\l__regex_default_catcodes_int=\count187
+\c__regex_catcode_L_int=\count188
+\c__regex_catcode_O_int=\count189
+\c__regex_catcode_A_int=\count190
+\c__regex_all_catcodes_int=\count191
+\l__regex_show_lines_int=\count192
+\l__regex_min_state_int=\count193
+\l__regex_max_state_int=\count194
+\l__regex_left_state_int=\count195
+\l__regex_right_state_int=\count196
+\l__regex_capturing_group_int=\count197
+\l__regex_min_pos_int=\count198
+\l__regex_max_pos_int=\count199
+\l__regex_current_pos_int=\count266
+\l__regex_start_pos_int=\count267
+\l__regex_success_pos_int=\count268
+\l__regex_current_char_int=\count269
+\l__regex_current_catcode_int=\count270
+\l__regex_last_char_int=\count271
+\l__regex_case_changed_char_int=\count272
+\l__regex_current_state_int=\count273
+\l__regex_step_int=\count274
+\l__regex_min_active_int=\count275
+\l__regex_max_active_int=\count276
+\l__regex_replacement_csnames_int=\count277
+\l__regex_match_count_int=\count278
+\l__regex_submatch_int=\count279
+\l__regex_zeroth_submatch_int=\count280
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowcmd with sig. 's+m' on line 374.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretocmd with sig. '+m+m+m+m' on line 376.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptocmd with sig. '+m+m+m+m' on line 378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchcmd with sig. 's+m+m+m+m+m' on line 384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchcmd with sig. 's+m+m+m+m+m' on line 390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibmacro with sig. 's+m' on line 403.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibmacro with sig. '+m+m+m+m' on line 408.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibmacro with sig. '+m+m+m+m' on line 413.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibmacro with sig. 's+m+m+m+m+m' on line 425.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchbibmacro with sig. 's+m+m+m+m+m' on line 437.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibdriver with sig. 's+m' on line 450.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibdriver with sig. '+m+m+m+m' on line 452.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibdriver with sig. '+m+m+m+m' on line 454.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibdriver with sig. 's+m+m+m+m+m' on line 460.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchbibdriver with sig. 's+m+m+m+m+m' on line 466.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowfieldformat with sig. 'sO{*}+m' on line 479.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretofieldformat with sig. 'sO{*}+m+m+m+m' on line 491.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptofieldformat with sig. 'sO{*}+m+m+m+m' on line 503.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchfieldformat with sig. 'sO{*}+m+m+m+m+m' on line 515.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchfieldformat with sig. 'sO{*}+m+m+m+m+m' on line
+. 527.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshownameformat with sig. 'sO{*}+m' on line 541.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretonameformat with sig. 'sO{*}+m+m+m+m' on line 553.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptonameformat with sig. 'sO{*}+m+m+m+m' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchnameformat with sig. 'sO{*}+m+m+m+m+m' on line 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchnameformat with sig. 'sO{*}+m+m+m+m+m' on line
+. 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowlistformat with sig. 'sO{*}+m' on line 603.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretolistformat with sig. 'sO{*}+m+m+m+m' on line 615.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptolistformat with sig. 'sO{*}+m+m+m+m' on line 627.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchlistformat with sig. 'sO{*}+m+m+m+m+m' on line 639.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchlistformat with sig. 'sO{*}+m+m+m+m+m' on line
+. 651.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexfieldformat with sig. 'sO{*}+m' on line 665.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexfieldformat with sig. 'sO{*}+m+m+m+m' on line
+. 677.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexfieldformat with sig. 'sO{*}+m+m+m+m' on line
+. 689.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexfieldformat with sig. 'sO{*}+m+m+m+m+m' on line
+. 701.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchindexfieldformat with sig. 'sO{*}+m+m+m+m+m' on
+. line 713.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexnameformat with sig. 'sO{*}+m' on line 727.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexnameformat with sig. 'sO{*}+m+m+m+m' on line
+. 739.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexnameformat with sig. 'sO{*}+m+m+m+m' on line
+. 751.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexnameformat with sig. 'sO{*}+m+m+m+m+m' on line
+. 763.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchindexnameformat with sig. 'sO{*}+m+m+m+m+m' on
+. line 775.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexlistformat with sig. 'sO{*}+m' on line 789.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexlistformat with sig. 'sO{*}+m+m+m+m' on line
+. 801.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexlistformat with sig. 'sO{*}+m+m+m+m' on line
+. 813.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexlistformat with sig. 'sO{*}+m+m+m+m+m' on line
+. 825.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \regexpatchindexlistformat with sig. 'sO{*}+m+m+m+m+m' on
+. line 837.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \checkpatchable with sig. '+m' on line 844.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchoptarg with sig. '+m+m' on line 873.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tracingxpatches with sig. 'O{1}' on line 879.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchparametertext with sig. '+m+m+m+m+m' on line 892.
+.................................................
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -804,13 +1137,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen274
-\Hy@linkcounter=\count168
-\Hy@pagecounter=\count169
+\Hy@linkcounter=\count281
+\Hy@pagecounter=\count282
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count170
+\Hy@SavedSpaceFactor=\count283
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -824,6 +1157,8 @@ File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO)
 
 )
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
 Package hyperref Info: Option `psdextra' set `true' on input line 4319.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/psdextra.def
@@ -836,7 +1171,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count171
+\c@Hy@tempcnt=\count284
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -844,7 +1179,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen275
-\Fld@menulength=\count172
+\Fld@menulength=\count285
 \Field@Width=\dimen276
 \Fld@charsize=\dimen277
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -856,17 +1191,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count173
-\c@Item=\count174
-\c@Hfootnote=\count175
+\Hy@abspage=\count286
+\c@Item=\count287
+\c@Hfootnote=\count288
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count176
-\c@bookmark@seq@number=\count177
+\Fld@listcount=\count289
+\c@bookmark@seq@number=\count290
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -880,19 +1215,11 @@ Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
-\BKM@id=\count178
+\BKM@id=\count291
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2015/09/24 v2.4e Font selection for XeLaTeX and LuaLaTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count179
-\l__xparse_m_args_int=\count180
-\l__xparse_mandatory_args_int=\count181
-\l__xparse_processor_int=\count182
-\l__xparse_v_nesting_int=\count183
-)
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
 Package: luaotfload 2015/12/09 v2.6 OpenType layout system
 Lua module: luaotfload-main 2015/12/09 2.60001 OpenType layout system.
@@ -926,11 +1253,11 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.115 seconds)
+luaotfload | main : initialization completed in 0.089 seconds)
 Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
-\l_fontspec_script_int=\count184
-\l_fontspec_language_int=\count185
-\l_fontspec_strnum_int=\count186
+\l_fontspec_script_int=\count292
+\l_fontspec_language_int=\count293
+\l_fontspec_strnum_int=\count294
 \l__fontspec_tmpa_dim=\dimen278
 \l__fontspec_tmpb_dim=\dimen279
 \l__fontspec_tmpc_dim=\dimen280
@@ -995,7 +1322,7 @@ File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/ot
 f/lmsans10-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2015/texmf-var
 /luatex-cache/generic/fonts/otf/lmsans10-regular.luc))
-\tipaTiiicode=\count187
+\tipaTiiicode=\count295
 \tipasavetokens=\toks36
 \tipachecktokens=\toks37
 )
@@ -1104,7 +1431,7 @@ f/lmsans10-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2015/texmf-var
 . 
 . Defining command \DeclareFontsExtensions with sig. 'm' on line 322.
 .................................................
-\l__fontspec_tmp_int=\count188
+\l__fontspec_tmp_int=\count296
 LaTeX Info: Redefining \itshape on input line 2151.
 LaTeX Info: Redefining \slshape on input line 2156.
 LaTeX Info: Redefining \scshape on input line 2161.
@@ -1114,11 +1441,11 @@ LaTeX Info: Redefining \upshape on input line 2166.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks38
-\MT@count=\count189
+\MT@count=\count297
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen281
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count190
+\MT@listname@count=\count298
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2013/05/23 v2.5a Definitions specific to luatex (RS)
@@ -1128,7 +1455,7 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 
 (/usr/local/texlive/2015/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count191
+\@catcodetablestackcnt=\count299
 )
 \CatcodeTableOther=\catcodetable6
 \CatcodeTableExpl=\catcodetable7
@@ -1153,17 +1480,17 @@ File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 \pgfarrowwidth=\dimen284
 \pgfarrowlinewidth=\dimen285
 )
-\CF@cnt@atomingroup=\count192
-\CF@cnt@groupnumber=\count193
-\CF@cnt@atomnumber=\count194
-\CF@cnt@cycle=\count195
+\CF@cnt@atomingroup=\count300
+\CF@cnt@groupnumber=\count301
+\CF@cnt@atomnumber=\count302
+\CF@cnt@cycle=\count303
 \CF@dim=\dimen286
 \CF@lewis@box=\box65
 \CF@box@boxa=\box66
 \CF@box@boxb=\box67
 \CF@stuff@box=\box68
 \CF@unused=\write4
-\CF@compound@cnt=\count196
+\CF@compound@cnt=\count304
 \CF@arrow@size=\dimen287
 )
 Package: chemfig 2015/12/01 v1.2d Draw molecule with an easy syntax
@@ -1184,27 +1511,27 @@ Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box69
 \l__siunitx_tmp_dim=\dimen289
-\l__siunitx_tmp_int=\count197
-\l__siunitx_number_mantissa_length_int=\count198
-\l__siunitx_number_uncert_length_int=\count199
-\l__siunitx_round_int=\count266
-\l__siunitx_process_decimal_int=\count267
-\l__siunitx_process_uncertainty_int=\count268
-\l__siunitx_process_fixed_int=\count269
-\l__siunitx_process_integer_min_int=\count270
-\l__siunitx_process_precision_int=\count271
-\l__siunitx_group_min_int=\count272
+\l__siunitx_tmp_int=\count305
+\l__siunitx_number_mantissa_length_int=\count306
+\l__siunitx_number_uncert_length_int=\count307
+\l__siunitx_round_int=\count308
+\l__siunitx_process_decimal_int=\count309
+\l__siunitx_process_uncertainty_int=\count310
+\l__siunitx_process_fixed_int=\count311
+\l__siunitx_process_integer_min_int=\count312
+\l__siunitx_process_precision_int=\count313
+\l__siunitx_group_min_int=\count314
 \l__siunitx_angle_marker_box=\box70
 \l__siunitx_angle_unit_box=\box71
 \l__siunitx_angle_marker_dim=\dimen290
 \l__siunitx_angle_unit_dim=\dimen291
-\l__siunitx_unit_int=\count273
-\l__siunitx_unit_denominator_int=\count274
-\l__siunitx_unit_numerator_int=\count275
-\l__siunitx_unit_prefix_int=\count276
-\l__siunitx_unit_prefix_base_int=\count277
-\l__siunitx_unit_prefix_gram_int=\count278
-\l__siunitx_number_product_int=\count279
+\l__siunitx_unit_int=\count315
+\l__siunitx_unit_denominator_int=\count316
+\l__siunitx_unit_numerator_int=\count317
+\l__siunitx_unit_prefix_int=\count318
+\l__siunitx_unit_prefix_base_int=\count319
+\l__siunitx_unit_prefix_gram_int=\count320
+\l__siunitx_number_product_int=\count321
 \c__siunitx_one_fill_skip=\skip118
 \l__siunitx_table_unit_align_skip=\skip119
 \l__siunitx_table_exponent_dim=\dimen292
@@ -1355,16 +1682,16 @@ Package: endiagram 2014/06/28 v0.1d Easy creation of potential energy curve diag
 rams
 \l__endiagram_tmpa_dim=\dimen301
 \g__Endiagram_tmpa_dim=\dimen302
-\l__endiagram_points_int=\count280
-\g__endiagram_curve_int=\count281
-\g__endiagram_points_max_int=\count282
-\l__endiagram_points_counter_int=\count283
+\l__endiagram_points_int=\count322
+\g__endiagram_curve_int=\count323
+\g__endiagram_points_max_int=\count324
+\l__endiagram_points_counter_int=\count325
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \ENcurve with sig. 'om' on line 318.
 .................................................
-\l__endiagram_niveau_counter_int=\count284
+\l__endiagram_niveau_counter_int=\count326
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1375,8 +1702,8 @@ rams
 . 
 . Defining command \ShowGain with sig. 'o' on line 569.
 .................................................
-\g__endiagram_ea_int=\count285
-\l__endiagram_ea_count_int=\count286
+\g__endiagram_ea_int=\count327
+\l__endiagram_ea_count_int=\count328
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1406,8 +1733,8 @@ rams
 (/usr/local/texlive/2015/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2016/01/07 v1.0d interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count287
-\g__chemgreek_tmpa_int=\count288
+\l__chemgreek_tmpa_int=\count329
+\g__chemgreek_tmpa_int=\count330
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1484,9 +1811,9 @@ istry documents (CN)
 \l__chemmacros_tmpa_dim=\dimen303
 \l__chemmacros_tmpb_dim=\dimen304
 \l__chemmacros_tmpc_dim=\dimen305
-\l__chemmacros_tmpa_int=\count289
-\l__chemmacros_tmpb_int=\count290
-\l__chemmacros_tmpc_int=\count291
+\l__chemmacros_tmpa_int=\count331
+\l__chemmacros_tmpb_int=\count332
+\l__chemmacros_tmpc_int=\count333
 \l__chemmacros_tmpa_box=\box76
 \l__chemmacros_tmpb_box=\box77
 \l__chemmacros_tmpc_box=\box78
@@ -1556,9 +1883,9 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks40
 \pgfopts@list@add@b@toks=\toks41
 )
-\c@cnltx@tmpa=\count292
-\c@cnltx@tmpb=\count293
-\c@cnltx@tmpc=\count294
+\c@cnltx@tmpa=\count334
+\c@cnltx@tmpb=\count335
+\c@cnltx@tmpc=\count336
 \cnltx@tmpa@length=\skip122
 \cnltx@tmpb@length=\skip123
 \cnltx@tmpc@length=\skip124
@@ -1828,7 +2155,7 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen310
 \pgfdecoratedinputsegmentremainingdistance=\dimen311
 \pgf@decorate@distancetomove=\dimen312
-\pgf@decorate@repeatstate=\count295
+\pgf@decorate@repeatstate=\count337
 \pgfdecorationsegmentamplitude=\dimen313
 \pgfdecorationsegmentlength=\dimen314
 )
@@ -2016,7 +2343,7 @@ y
 Package: xtemplate 2016/01/19 v6377 L3 Experimental prototype document functions
 
 \l__xtemplate_tmp_dim=\dimen320
-\l__xtemplate_tmp_int=\count296
+\l__xtemplate_tmp_int=\count338
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip125
 )
@@ -2053,8 +2380,8 @@ Package: chemformula 2016/01/07 v4.14a typeset chemical compounds and reactions
 (CN)
 \l__chemformula_tmpa_dim=\dimen326
 \l__chemformula_tmpb_dim=\dimen327
-\l__chemformula_tmpa_int=\count297
-\l__chemformula_tmpb_int=\count298
+\l__chemformula_tmpa_int=\count339
+\l__chemformula_tmpb_int=\count340
 \l__chemformula_tmpa_box=\box82
 \l__chemformula_tmpb_box=\box83
 \l__chemformula_arrow_length_dim=\dimen328
@@ -2087,8 +2414,8 @@ Package: chemformula 2016/01/07 v4.14a typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen355
 \l__chemformula_stoich_space_skip=\skip129
 \l__chemformula_math_space_skip=\skip130
-\l__chemformula_count_tokens_int=\count299
-\g__chemformula_lewis_int=\count300
+\l__chemformula_count_tokens_int=\count341
+\g__chemformula_lewis_int=\count342
 \l__chemformula_arrow_arg_i_box=\box84
 \l__chemformula_arrow_arg_ii_box=\box85
 \l__chemformula_superscript_box=\box86
@@ -2311,13 +2638,13 @@ LaTeX Info: Redefining \boldsymbol on input line 39.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count301
+\inf@bad=\count343
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count302
-\leftroot@=\count303
+\uproot@=\count344
+\leftroot@=\count345
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count304
-\DOTSCASE@=\count305
+\classnum@=\count346
+\DOTSCASE@=\count347
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -2326,15 +2653,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen357
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count306
-\c@MaxMatrixCols=\count307
+\macc@depth=\count348
+\c@MaxMatrixCols=\count349
 \dotsspace@=\muskip20
-\c@parentequation=\count308
-\dspbrk@lvl=\count309
+\c@parentequation=\count350
+\dspbrk@lvl=\count351
 \tag@help=\toks42
-\row@=\count310
-\column@=\count311
-\maxfields@=\count312
+\row@=\count352
+\column@=\count353
+\maxfields@=\count354
 \andhelp@=\toks43
 \eqnshift@=\dimen358
 \alignsep@=\dimen359
@@ -2353,7 +2680,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count313
+\g_MT_multlinerow_int=\count355
 \l_MT_multwidth_dim=\dimen364
 \origjot=\skip137
 \l_MT_shortvdotswithinadjustabove_dim=\dimen365
@@ -2366,7 +2693,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count314
+\l__chemmacros_ox_number_int=\count356
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2398,7 +2725,7 @@ piling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/hel
 veticaneue-1.luc)(load luc: /Users/zhiayang/Library/texlive/2015/texmf-var/luate
 x-cache/generic/fonts/otf/helveticaneue-1.luc)
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-\g__fontspec_family_HelveticaNeue_int=\count315
+\g__fontspec_family_HelveticaNeue_int=\count357
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | aux : font no 22 (HelveticaNeue) does not define feature smcp for s
@@ -2481,7 +2808,7 @@ tf/helveticaneue-11.luc)(load luc: /Users/zhiayang/Library/texlive/2015/texmf-va
 r/luatex-cache/generic/fonts/otf/helveticaneue-11.luc)
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
-\g__fontspec_family_HelveticaNeue-Light_int=\count316
+\g__fontspec_family_HelveticaNeue-Light_int=\count358
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
@@ -2560,7 +2887,7 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
 10)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
 10)"
-\g__fontspec_family_HelveticaNeue-Medium_int=\count317
+\g__fontspec_family_HelveticaNeue-Medium_int=\count359
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
 10)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
@@ -2832,7 +3159,7 @@ luaotfload | aux : no font with id 33
 . 
 . Menlo scale = 0.9453710937499999.
 .................................................
-\g__fontspec_family_Menlo_int=\count318
+\g__fontspec_family_Menlo_int=\count360
 luaotfload | load : Lookup/name: "Menlo" -> "Menlo.ttc(0)"
 luaotfload | load : Lookup/name: "Menlo" -> "Menlo.ttc(3)"(compiling luc: /usr/l
 ocal/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/menlo-3.luc)(load luc
@@ -2936,41 +3263,41 @@ se].
 \mylen=\skip138
 )
 Package translations Info: No language package found. I am going to use `english
-' as default language. on input line 9.
+' as default language. on input line 11.
 
 (./OrganicChem.aux)
 \openout1 = OrganicChem.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 11.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 11.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 11.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -3008,16 +3335,16 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count319
+\scratchcounter=\count361
 \scratchdimen=\dimen374
 \scratchbox=\box90
-\nofMPsegments=\count320
-\nofMParguments=\count321
+\nofMPsegments=\count362
+\nofMParguments=\count363
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count322
+\MPscratchCnt=\count364
 \MPscratchDim=\dimen375
-\MPnumerator=\count323
-\makeMPintoPDFobject=\count324
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
 \everyMPtoPDFconversion=\toks47
 ) ABD: EveryShipout initializing macros
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -3035,9 +3362,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 9.
+LaTeX Info: Redefining \selectfont on input line 11.
 \AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring OFF on input line 9.
+Package hyperref Info: Link coloring OFF on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -3045,12 +3372,12 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count325
+\c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
-LaTeX Info: Redefining \microtypecontext on input line 9.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \microtypecontext on input line 11.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -3075,7 +3402,7 @@ File: siunitx-abbreviations.cfg 2016/01/19 v2.6p siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fontspec' on line 9.
+. Activating mapping `fontspec' on line 11.
 .................................................
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/translations/translations-basic-d
@@ -3083,8 +3410,8 @@ ictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tran
 slations-basic-dictionary')
 )
-\c__siunitx_mathsf_int=\count326
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 9.
+\c__siunitx_mathsf_int=\count368
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -3097,27 +3424,27 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 9.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 11.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 9.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 9.
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+(Font)              <6> on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -3125,7 +3452,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -3133,7 +3460,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -3142,8 +3469,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count327
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 9.
+\c__siunitx_mathtt_int=\count369
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -3152,6 +3479,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package hyperref Info: Option `pageanchor' set `false' on input line 16.
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 Package microtype Info: Loading generic settings for font family
@@ -3164,13 +3492,13 @@ luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 24.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13> on input line 24.
+(Font)              <13> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.09996> on input line 24.
+(Font)              <9.09996> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.5> on input line 24.
+(Font)              <6.5> on input line 27.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
@@ -3178,13 +3506,13 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
-LaTeX Font Info:    Calculating math sizes for size <23> on input line 28.
+LaTeX Font Info:    Calculating math sizes for size <23> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <23> on input line 28.
+(Font)              <23> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <16.09993> on input line 28.
+(Font)              <16.09993> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.5> on input line 28.
+(Font)              <11.5> on input line 31.
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
@@ -3209,43 +3537,25 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
-10)"LuaTeX warning (ext4): destination with the same identifier (name{page.}) ha
-s been already used, duplicate ignored
-<to be read again> 
-\relax 
-l.31 ...e {2.3}Overall Effect}{13}{subsection.4.2.3}
-                                                   [2]
+10)" [2]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"LuaT
-eX warning (ext4): destination with the same identifier (name{page.}) has been a
-lready used, duplicate ignored
-<to be read again> 
-\relax 
-l.80 ...Oxidation) of Alkenes}{33}{subsection.6.5.4}
-                                                   [3]
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [3
+]
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
-3)"LuaTeX warning (ext4): destination with the same identifier (name{page.}) has
- been already used, duplicate ignored
-<to be read again> 
-\relax 
-l.124 ...roups (Bromoalkanes)}{53}{subsection.8.3.4}
-                                                   [4])
+3)" [4] [5])
 \tf@toc=\write5
 
 \openout5 = OrganicChem.toc
-LuaTeX warning (ext4): destination with the same identifier (name{page.}) has be
-en already used, duplicate ignored
-<to be read again> 
-\relax 
-l.48 
-    [5] ("./Chapter 01 - Functional Groups.tex"
+ [6]
+Package hyperref Info: Option `pageanchor' set `true' on input line 52.
+ ("./Chapter 01 - Functional Groups.tex"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-Underfull \vbox (badness 10000) detected at line 118
+Underfull \vbox (badness 10000) detected at line 119
  []
 
 [1]) ("./Chapter 02 - Isomers.tex" [2]
@@ -3254,35 +3564,37 @@ luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [3
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
 3)" [6])
 ("./Chapter 03 - Reaction Mechanisms.tex" [7]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 29.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 29.
+(Font)              <11> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 29.
+(Font)              <7.69997> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 29.
+(Font)              <5.5> on input line 30.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
 3)" [8]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [9
 ])
-("./Chapter 04 - Induction and Resonance.tex" [10] [11] [12])
-("./Chapter 05 - Alkanes.tex" [13] [14] [15]
+("./Chapter 04 - Induction and Resonance.tex" [10] [11] [12]
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
+dfont(13)")
+("./Chapter 05 - Alkanes.tex" [13] [14] [15]
 luaotfload | load : Lookup/name: "HelveticaNeue-LightItalic" -> "HelveticaNeue.d
 font(9)"
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 93.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <15> on input line 93.
+(Font)              <15> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.49995> on input line 93.
+(Font)              <10.49995> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.5> on input line 93.
+(Font)              <7.5> on input line 95.
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
 3)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
@@ -3293,7 +3605,7 @@ luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [1
 ("./Chapter 06 - Alkenes.tex" [20] [21]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 62.
+(Font)              <9> on input line 64.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [2
 2]
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
@@ -3301,35 +3613,35 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 124.
+(Font)              <10> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 124.
+(Font)              <7> on input line 126.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [2
 3] [24] [25] [26] [27]
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 339.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 341.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18> on input line 339.
+(Font)              <18> on input line 341.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12.59995> on input line 339.
+(Font)              <12.59995> on input line 341.
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)" [28]
+)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [2
+8]
 [29] [30] [31] [32] [33]) ("./Chapter 07 - Arenes.tex" [34]
-<../figures/organic/ch07/benzene_delocalisation.png, id=444, 380.8629pt x 155.0
+<../figures/organic/ch07/benzene_delocalisation.png, id=518, 380.8629pt x 155.0
 1915pt>
 File: ../figures/organic/ch07/benzene_delocalisation.png Graphic file (type png)
 
  <use ../figures/organic/ch07/benzene_delocalisation.png>
 Package pdftex.def Info: ../figures/organic/ch07/benzene_delocalisation.png used
- on input line 23.
+ on input line 25.
 (pdftex.def)             Requested size: 341.43306pt x 138.97662pt.
  [35<../figures/organic/ch07/benzene_delocalisation.png>] [36] [37] [38] [39]
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
 3)" [40] [41]
-luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
-dfont(13)"
 luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
 dfont(13)"
 [42] [43] [44] [45] [46]) ("./Chapter 08 - Halogen Derivatives.tex" [47]
@@ -3338,57 +3650,72 @@ luaotfload | load : Lookup/name: "HelveticaNeue-LightItalic" -> "HelveticaNeue.d
 font(9)" [51] [52] [53] [54]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 419.
+(hyperref)                removing `\textsubscript' on input line 422.
 
 [55]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 498.
+(Font)              <10.95> on input line 501.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [5
 6]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 501.
+(hyperref)                removing `\textsubscript' on input line 504.
 
 [57] [58] [59] [60] [61]
-<../figures/organic/ch08/halogen_benzene_delocalistion.png, id=570, 862.22125pt
+<../figures/organic/ch08/halogen_benzene_delocalistion.png, id=646, 862.22125pt
  x 219.82124pt>
 File: ../figures/organic/ch08/halogen_benzene_delocalistion.png Graphic file (ty
 pe png)
 
 <use ../figures/organic/ch08/halogen_benzene_delocalistion.png>
 Package pdftex.def Info: ../figures/organic/ch08/halogen_benzene_delocalistion.p
-ng used on input line 776.
+ng used on input line 787.
 (pdftex.def)             Requested size: 341.43306pt x 87.04477pt.
- [62<../figures/organic/ch08/halogen_benzene_delocalistion.png>] [63]) [64]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
- (./OrganicChem.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 75.
+ [62<../figures/organic/ch08/halogen_benzene_delocalistion.png>] [63])
+("./Chapter 09 - Alcohols.tex" [64] [65] [66] [67] [68] [69]
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [7
+0] [71] [72]
+[73]
+luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
+3)" [74] [75] [76]) ("./Chapter 10 - Phenols.tex" [77]) [78]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(./OrganicChem.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 82.
 )
 
 Here is how much of LuaTeX's memory you used:
- 52749 strings out of 494897
- 195410,1373583 words of node,token memory allocated
- 857 words of node memory still in use:
+ 54204 strings out of 494897
+ 244239,1648299 words of node,token memory allocated
+ 914 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 2 glue, 1 kern, 6 attribute, 93 glue_spec, 6 attrib
-ute_list, 1 write nodes
-   avail lists: 1:501,2:27771,3:8628,4:6179,5:668,6:1970,7:507,8:314,9:3168,10:2
-53,11:144,12:128
- 54203 multiletter control sequences out of 65536+600000
- 314 fonts using 36252671 bytes
+ute_list, 1 action, 1 write nodes
+   avail lists: 1:569,2:32134,3:10227,4:8460,5:813,6:2012,7:545,8:366,9:4584,10:
+308,11:166,12:167
+ 55542 multiletter control sequences out of 65536+600000
+ 317 fonts using 37269119 bytes
  78i,24n,117p,830b,2738s stack positions out of 5000i,500n,10000p,200000b,100000s
+LuaTeX warning (dest): name{AppendixReducingAgents} has been referenced but does
+ not exist, replaced by a fixed one
+
+LuaTeX warning (dest): name{ChapterCarboxylicAcids} has been referenced but does
+ not exist, replaced by a fixed one
+
+LuaTeX warning (dest): name{ChapterAldehydesAndKetones} has been referenced but 
+does not exist, replaced by a fixed one
+
+LuaTeX warning (dest): name{Chapter_Phenols} has been referenced but does not ex
+ist, replaced by a fixed one
+
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local
 /texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/texmf-dist/f
-onts/enc/dvips/lm/lm-mathsy.enc}<./HelveticaNeue.vrNCdH><./HelveticaNeue.UWZga8>
-<./HelveticaNeue.CVT1Gt><./HelveticaNeue.zrFQoV><./HelveticaNeue.Pn6nbv><./Helve
-ticaNeue.jB8J0W><./HelveticaNeue.I6bNZ1><</usr/local/texlive/2015/texmf-dist/fon
+onts/enc/dvips/lm/lm-mathsy.enc}<./HelveticaNeue.cxZ5b8><./HelveticaNeue.WfwBTs>
+<./HelveticaNeue.WKy41A><./HelveticaNeue.YtYU1R><./HelveticaNeue.Lm6W89><./Helve
+ticaNeue.oee1I5><./HelveticaNeue.boik81><</usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/lm/lmbsy10.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/
 public/lm/lmex10.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/
 lmmi12.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb>
@@ -3399,10 +3726,10 @@ ist/fonts/type1/public/lm/lmr8.pfb><</usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/lm/lmr9.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
 m/lmsy8.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
 >
-Output written on OrganicChem.pdf (69 pages, 747840 bytes).
+Output written on OrganicChem.pdf (84 pages, 798568 bytes).
 
-PDF statistics: 1050 PDF objects out of 1200 (max. 8388607)
- 934 compressed objects within 10 object streams
- 212 named destinations out of 1000 (max. 131072)
- 1000 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 1295 PDF objects out of 1440 (max. 8388607)
+ 1162 compressed objects within 12 object streams
+ 271 named destinations out of 1000 (max. 131072)
+ 1240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
