@@ -1,29 +1,58 @@
-\contentsline {part}{\numberline {I}Aldehydes and Ketones}{1}{part.1}
-\contentsline {section}{\numberline {1}Structure}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1}Ketones}{1}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.2}Aldehydes}{1}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.3}Hybridisation}{2}{subsection.1.1.3}
-\contentsline {section}{\numberline {2}Physical Properties}{2}{section.1.2}
-\contentsline {section}{\numberline {3}Creation of Aldehydes and Ketones}{3}{section.1.3}
-\contentsline {subsection}{\numberline {3.1}Oxidation of Alcohols}{3}{subsection.1.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Oxidation of Primary Alcohols}{3}{subsubsection.1.3.1.1}
-\contentsline {subsection}{\numberline {3.2}Oxidation of Secondary Alcohols}{3}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {3.3}Oxidative Cleavage of Alkenes}{4}{subsection.1.3.3}
-\contentsline {section}{\numberline {4}Aldehyde and Ketone Reactions}{4}{section.1.4}
-\contentsline {subsection}{\numberline {4.1}Nucleophilic Addition}{4}{subsection.1.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Mechanism of Nucleophilic Addition}{5}{subsubsection.1.4.1.1}
-\contentsline {paragraph}{Step 1}{5}{paragraph*.1}
+\contentsline {part}{\numberline {I}Alkenes}{1}{part.1}
+\contentsline {section}{\numberline {1}Open Chain}{1}{section.1.1}
+\contentsline {section}{\numberline {2}Cycloalkenes}{1}{section.1.2}
+\contentsline {section}{\numberline {3}Physical Properties}{1}{section.1.3}
+\contentsline {section}{\numberline {4}Stability of Carbocations}{2}{section.1.4}
+\contentsline {subsection}{\numberline {4.1}Structure}{2}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {4.2}Stability}{2}{subsection.1.4.2}
+\contentsline {section}{\numberline {5}Creation of Alkenes}{3}{section.1.5}
+\contentsline {subsection}{\numberline {5.1}Elimination of Hydrogen Halide}{3}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {5.2}Dehydration (Elimination of Water)}{3}{subsection.1.5.2}
+\contentsline {section}{\numberline {6}Alkene Reactions}{4}{section.1.6}
+\contentsline {subsection}{\numberline {6.1}Electrophilic Addition}{4}{subsection.1.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Electrophilic Addition of Hydrogen Halides}{4}{subsubsection.1.6.1.1}
+\contentsline {paragraph}{Step 1}{4}{paragraph*.1}
 \contentsline {paragraph}{Step 2}{5}{paragraph*.2}
 \contentsline {paragraph}{Overall Reaction}{5}{paragraph*.3}
-\contentsline {subsubsection}{\numberline {4.1.2}Stereoisomerism of Product}{6}{subsubsection.1.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}Formation of Nitriles (Cyanohydrins)}{6}{subsubsection.1.4.1.3}
-\contentsline {subsection}{\numberline {4.2}Condensation}{7}{subsection.1.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Distinguishing test with 2,4-DNPH}{7}{subsubsection.1.4.2.1}
-\contentsline {subsection}{\numberline {4.3}Reduction}{8}{subsection.1.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Reduction of Aldehydes}{8}{subsubsection.1.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Reduction of Ketones}{8}{subsubsection.1.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Oxidation}{9}{subsection.1.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Oxidation of Aldehydes to Carboxylic Acids}{9}{subsubsection.1.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Tollens' Reagent}{9}{subsubsection.1.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Fehling's Solution}{10}{subsubsection.1.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}Tri-iodomethane (Iodoform) Formation}{10}{subsubsection.1.4.4.4}
+\contentsline {subsubsection}{\numberline {6.1.2}Markovnikov's Rule}{5}{subsubsection.1.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Addition of \ch {H-X} to Unsymmetrical Alkenes}{6}{subsubsection.1.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Electrophilic Addition of Halogens}{7}{subsubsection.1.6.1.4}
+\contentsline {paragraph}{Step 1}{7}{paragraph*.4}
+\contentsline {paragraph}{Step 2}{7}{paragraph*.5}
+\contentsline {paragraph}{Overall Reaction}{8}{paragraph*.6}
+\contentsline {subsubsection}{\numberline {6.1.5}Electrophilic Addition of Aqueous \ch {Br2}}{9}{subsubsection.1.6.1.5}
+\contentsline {paragraph}{Step 1}{9}{paragraph*.7}
+\contentsline {paragraph}{Step 2}{9}{paragraph*.8}
+\contentsline {paragraph}{Overall Reaction}{9}{paragraph*.9}
+\contentsline {subsubsection}{\numberline {6.1.6}Electrophilic Addition of Steam (Hydration)}{10}{subsubsection.1.6.1.6}
+\contentsline {paragraph}{Step 0}{10}{paragraph*.10}
+\contentsline {paragraph}{Step 1}{10}{paragraph*.11}
+\contentsline {paragraph}{Step 2}{11}{paragraph*.12}
+\contentsline {paragraph}{Step 3}{11}{paragraph*.13}
+\contentsline {paragraph}{Overall Reaction}{11}{paragraph*.14}
+\contentsline {subsection}{\numberline {6.2}Hydrogenation of Alkenes}{12}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {6.3}Mild Oxidation of Alkenes}{13}{subsection.1.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Acidic Medium}{13}{subsubsection.1.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Alkaline Medium}{13}{subsubsection.1.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Oxidative Cleavage (Strong Oxidation) of Alkenes}{14}{subsection.1.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Further Oxidation of Ethanedioic Acid}{15}{subsubsection.1.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Uses of Oxidative Cleavage}{15}{subsubsection.1.6.4.2}
+\contentsline {part}{\numberline {A}List of Reaction Mechanisms}{17}{part.1}
+\contentsline {section}{\numberline {1}Electrophilic Addition}{17}{section.1.1}
+\contentsline {subsection}{\numberline {1.1}Markovnikov's Rule}{17}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Electrophilic Addition of HX}{18}{subsection.1.1.2}
+\contentsline {paragraph}{Step 1}{18}{paragraph*.15}
+\contentsline {paragraph}{Step 2}{18}{paragraph*.16}
+\contentsline {paragraph}{Overall Reaction}{18}{paragraph*.17}
+\contentsline {subsection}{\numberline {1.3}Electrophilic Addition of \ch {X2}}{19}{subsection.1.1.3}
+\contentsline {paragraph}{Step 1}{19}{paragraph*.18}
+\contentsline {paragraph}{Step 2}{19}{paragraph*.19}
+\contentsline {paragraph}{Overall Reaction}{19}{paragraph*.20}
+\contentsline {subsection}{\numberline {1.4}Electrophilic Addition of Aqueous \ch {X2}}{20}{subsection.1.1.4}
+\contentsline {paragraph}{Step 1}{20}{paragraph*.21}
+\contentsline {paragraph}{Step 2}{20}{paragraph*.22}
+\contentsline {paragraph}{Overall Reaction}{20}{paragraph*.23}
+\contentsline {section}{\numberline {2}Electrophilic Substitution}{21}{section.1.2}
+\contentsline {section}{\numberline {3}Nucleophilic Addition}{21}{section.1.3}
+\contentsline {section}{\numberline {4}Nucleophilic Substitution (S\textsubscript {N}1)}{21}{section.1.4}
+\contentsline {section}{\numberline {5}Nucleophilic Substitution (S\textsubscript {N}2)}{21}{section.1.5}

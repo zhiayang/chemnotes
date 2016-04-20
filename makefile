@@ -29,11 +29,11 @@ all: $(OOUTPUT) $(POUTPUT)
 organic: $(OOUTPUT)
 physical: $(POUTPUT)
 
-$(OOUTPUT): $(OSRC) $(FINALOSRC) studynotes.sty OrganicChem/OrganicChem.toc
+$(OOUTPUT): $(OSRC) $(FINALOSRC) studynotes.sty
 	@cd OrganicChem; $(LATEX) $(FLAGS) $(notdir $(FINALOSRC))
 	@mv OrganicChem/OrganicChem.pdf ./
 
-$(POUTPUT): $(PSRC) $(FINALPSRC) studynotes.sty PhysicalChem/PhysicalChem.toc
+$(POUTPUT): $(PSRC) $(FINALPSRC) studynotes.sty
 	@cd PhysicalChem; $(LATEX) $(FLAGS) $(notdir $(FINALPSRC))
 	@mv PhysicalChem/PhysicalChem.pdf ./
 

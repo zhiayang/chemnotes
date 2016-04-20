@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  20 APR 2016 19:39
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  20 APR 2016 20:43
  \write18 enabled.
 **OrganicChem.tex
 (./OrganicChem.tex
@@ -1253,7 +1253,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.083 seconds)
+luaotfload | main : initialization completed in 0.117 seconds)
 Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
 \l_fontspec_script_int=\count292
 \l_fontspec_language_int=\count293
@@ -3537,53 +3537,155 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
-10)")
+10)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
+10)" [2])
 \tf@toc=\write5
 
 \openout5 = OrganicChem.toc
- [2]
+ [3]
 Package hyperref Info: Option `pageanchor' set `true' on input line 52.
- ("./Chapter 11 - Aldehydes and Ketones.tex"
+ ("./Chapter 06 - Alkenes.tex"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 20.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <11> on input line 20.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.69997> on input line 20.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.5> on input line 20.
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [1
+]
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 64.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 64.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
-3)" [1]
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-[2]
+3)" [2]
+luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
+dfont(13)" [3]
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
-dfont(13)" [3] [4]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 185.
+(Font)              <10> on input line 180.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 185.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 185.
+(Font)              <7> on input line 180.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [5
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [4
 ]
+luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
+3)"
+[5] [6] [7] [8]
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 398.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <18> on input line 398.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12.59995> on input line 398.
+luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
+)"
+luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
+)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [6
-] [7] [8] [9]) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [9
+] [10] [11] [12] [13] [14]) [15]
+luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
+3)" [16]
+("./Addendum A - List of Reaction Mechanisms.tex"LuaTeX warning (ext4): destinat
+ion with the same identifier (name{part.1}) has been already used, duplicate ign
+ored
+<to be read again> 
+\relax 
+l.7 \part{List of Reaction Mechanisms}
+                                    LuaTeX warning (ext4): destination with the 
+same identifier (name{section.1.1}) has been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.9 	\section{Electrophilic Addition}
+                                   
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [1
+7]
+luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
+10)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [1
+8]
+LaTeX Font Info:    Calculating math sizes for size <21> on input line 104.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <21> on input line 104.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.69994> on input line 104.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.5> on input line 104.
+luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
+)"
+luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
+)"
+luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
+dfont(13)" [19]LuaTeX warning (ext4): destination with the same identifier (name
+{section.1.2}) has been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.253 	\section{Electrophilic Substitution}
+                                         LuaTeX warning (ext4): destination with
+ the same identifier (name{section.1.3}) has been already used, duplicate ignore
+d
+<to be read again> 
+\relax 
+l.258 	\section{Nucleophilic Addition}
+                                    LuaTeX warning (ext4): destination with the 
+same identifier (name{section.1.4}) has been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.263 	\section{Nucleophilic Substitution (\snone)}
+                                                 
+LaTeX Font Info:    Calculating math sizes for size <25> on input line 263.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <25> on input line 263.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.49992> on input line 263.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12.5> on input line 263.
+luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
+)"
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\textsubscript' on input line 263.
+
+LuaTeX warning (ext4): destination with the same identifier (name{section.1.5}) 
+has been already used, duplicate ignored
+<to be read again> 
+\relax 
+l.268 	\section{Nucleophilic Substitution (\sntwo)}
+                                                 
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\textsubscript' on input line 268.
+
+) [20] [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
  (./OrganicChem.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 97.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -3591,34 +3693,33 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51447 strings out of 494897
- 125048,1373583 words of node,token memory allocated
- 603 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 94 glue_spec, 6 attrib
+ 52094 strings out of 494897
+ 125023,1373583 words of node,token memory allocated
+ 654 words of node memory still in use:
+   7 hlist, 2 vlist, 3 rule, 2 glue, 1 kern, 7 attribute, 94 glue_spec, 7 attrib
 ute_list, 1 write nodes
-   avail lists: 1:74,2:8953,3:3433,4:3789,5:197,6:1566,7:58,8:67,9:1838,10:165,1
-1:25,12:26
- 53206 multiletter control sequences out of 65536+600000
- 198 fonts using 25140039 bytes
- 78i,18n,107p,800b,2422s stack positions out of 5000i,500n,10000p,200000b,100000s
-LuaTeX warning (dest): name{CompleteOxidationOfPrimaryAlcohols} has been referen
-ced but does not exist, replaced by a fixed one
+   avail lists: 1:148,2:13298,3:4238,4:4297,5:211,6:1801,7:109,8:148,9:2071,10:2
+01,11:53,12:56
+ 53663 multiletter control sequences out of 65536+600000
+ 336 fonts using 37990551 bytes
+ 78i,24n,107p,800b,2460s stack positions out of 5000i,500n,10000p,200000b,100000s
+LuaTeX warning (dest): name{AlcoholDehydration} has been referenced but does not
+ exist, replaced by a fixed one
 
-LuaTeX warning (dest): name{NitrileUses} has been referenced but does not exist,
- replaced by a fixed one
+LuaTeX warning (dest): name{HydrogenHalideElimination} has been referenced but d
+oes not exist, replaced by a fixed one
 
-LuaTeX warning (dest): name{OxidativeCleavageOfAlkenes} has been referenced but 
-does not exist, replaced by a fixed one
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local
+/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<./HelveticaNeue.8QITN
+J><./HelveticaNeue.jZCcim><./HelveticaNeue.f6BXRe><./HelveticaNeue.WHlLoD><./Hel
+veticaNeue.PSn5s6><./HelveticaNeue.go86PG><</usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/lm/lmmi6.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/lm/lmsy8.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/l
+msy9.pfb>
+Output written on OrganicChem.pdf (24 pages, 154740 bytes).
 
-LuaTeX warning (dest): name{OxidationOfPrimaryAlcohols} has been referenced but 
-does not exist, replaced by a fixed one
-
-<./HelveticaNeue.5dGwGx><./HelveticaNeue.4EytDp><./HelveticaNeue.HLQ2yZ><./Helve
-ticaNeue.OTFKI9><./HelveticaNeue.cVByJX><./HelveticaNeue.EInv06>
-Output written on OrganicChem.pdf (12 pages, 105389 bytes).
-
-PDF statistics: 254 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 131072)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 373 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 131072)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
