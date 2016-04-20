@@ -55,73 +55,10 @@
 		Benzene undergoes substitution reactions rather than addition reactions, since adding atoms to the ring would destroy the
 		delocalised π-system of the ring, which is energetically unfavourable. Instead, the \ch{H} atoms on the ring are substituted.
 
-		The main mechanism for this is electrophilic substitution, as seen below.
-
-		\subsection{Electrophilic Substitution}
-
-			The delocalised π-system of benzene has a very high electron density, and thus is a prime target for electrophiles, which
-			will substitute the \ch{H} atoms on the ring. Thus, the most common form of reaction involving benzenes is electrophilic
-			substitution, barring special conditions and requirements.
-
-			\paragraph{Step 1}
-
-			In the first, rate-determining step, the aromaticity of the benzene ring is partially and temporarily broken, disrupted by
-			the attacking electrophile.
-
-			\diagram[1.0]{
-				\schemestart[0, 1.5, thick]
-					\chemfig{**6(---@{ring}---)}
-					\arrow{0}[,0]		% used for alignment
-					\hspace{5mm} + \hspace{5mm}
-					\chemfig{@{el}E}
-					\arrow(--.base west){->[slow]}
-					\chemfig[yshift=\the\dimexpr-1.5em\relax]{**[60,-240]6(----(-[:135]H)(-[:45]E)--)(-[:30,,,,draw=none]+)}
-				\schemestop
-
-				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-4mm,shorten >=1mm](ring) .. controls +(40:8mm) and +(120:8mm) .. (el);}
-
-			}{Note that the '+' is drawn in the centre of the ring, not on any one carbon.}
+		The main mechanism for this is electrophilic substitution, the details of which can be found in the
+		\hyperlink{AddendumElectrophilicSubstitution}{\boit{addendum}}.
 
 
-
-			Two electrons out of six from the delocalised π-system are used to form the bond between the electrophile, E, and the carbon.
-			Thus, there is a positive charge on the carbon; due to the delocalised nature of the π-system however, this positive charge is
-			delocalised across \textit{all 6 carbons}, making it much more stable than a simple carbocation.
-
-			However, the activation energy for this step is still large, and only strong electrophiles are able to attack the benzene ring without catalysts.
-
-
-			\pagebreak
-			\paragraph{Step 2}
-
-			Next, a nucleophile (\chlewis{180}{Nu-} in this example) attacks the hydrogen attached to the hydrogen on the carbon atom,
-			restoring the aromaticity of the benzene ring. The new substituent is now in place, and the two electrons in the \ch{C-H}
-			bond are returned to the π-system.
-
-
-			\diagram[1.0]{
-				\schemestart[0, 1.5, thick]
-					\chemfig[yshift=-1.5em]{**[60,-240]6(----(-[@{bond}:135]@{hyd}H)(-[:45]E)--)(-[:30,,,,draw=none]@{pl}+)}
-					\arrow(.base east--){0}[,0]		% alignment purposes
-					\hspace{5mm} + \hspace{5mm}
-					\chemfig{@{nu}\lewis{2:,N}|u\mch}
-					\arrow(--.mid west){->[fast]}
-					\chemfig{\ch{HNu}}
-					\hspace{5mm} + \hspace{5mm}
-					\chemfig[yshift=-1.5em]{**6(----(-[:90]E)--)}
-				\schemestop
-
-				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](nu) .. controls +(90:15mm) and +(45:15mm) .. (hyd);}
-				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=1mm,shorten >=1mm](bond) .. controls +(225:8mm) and +(90:8mm) .. (pl);}
-			}
-
-
-			Note that the arenium ion (which is the partially delocalised benzene) has 5 \sptwo carbons, and one \spthree carbon. This
-			results in a disruption of the planar structure of benzene –– it is restored once the substitution is completed.
-
-		% end subsection
-
-		% \pagebreak
 		\subsection{Nitration of Benzene}
 
 			The nitration of benzene involves the substitution of one of the \ch{H} atoms on the benzene with a nitro (\ch{-NO2}) group.
@@ -449,7 +386,7 @@
 					% third molecule
 					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](db4) .. controls +(180:10mm) and +(225:10mm) .. (b3);}
 
-				}{The \deltap positions represent areas of low electron density.}
+				}{The \deltap{} positions represent areas of low electron density.}
 
 			% end subsubsection
 
@@ -493,7 +430,7 @@
 					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=-3mm](db3) .. controls +(180:6mm) and +(150:6mm) .. (l4);}
 					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-0mm,shorten >=1mm](l5) .. controls +(270:6mm) and +(225:6mm) .. (b3);}
 
-				}{The \deltam positions represent areas of high electron density.}
+				}{The \deltam{} positions represent areas of high electron density.}
 
 			% end subsubsection
 
