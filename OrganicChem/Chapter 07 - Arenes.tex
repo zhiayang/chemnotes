@@ -3,8 +3,8 @@
 
 
 \pagebreak
-\part{Arenes}
 \hypertarget{ChapterArenes}{}
+\part{Arenes}
 
 	\section{Benzene}
 
@@ -19,16 +19,16 @@
 		and structures can also form, such as with nitrogen.
 
 		Its basic structure consists of 6 carbon atoms, arranged in a hexagonal fashion. However, unlike cyclohexane, benzene is a flat,
-		planar molecule. All 6 carbon atoms are sp\sps{2} hybridised, forming the following structure:
+		planar molecule. All 6 carbon atoms are \sptwo hybridised, forming the following structure:
 
 		\imgdiagram{120mm}{../figures/organic/ch07/benzene_delocalisation.png}
 
-		The trigonal structure of the sp\sps{2} hybrid orbitals dictates this structure, since the angle between each orbital is \ang{120},
+		The trigonal structure of the \sptwo hybrid orbitals dictates this structure, since the angle between each orbital is \ang{120},
 		which is the internal angle of a regular hexagon. Note that there is one \ch{H} atom bonded to each carbon, making the molecular
 		formula of benzene \ch{C6H6}.
 
 		The carbon atoms are bonded to each other through π-bonds with their unhybridised p-orbitals, while the bonds with the hydrogen
-		atoms (or other substituents if substituted) are done with the sp\sps{2} orbitals.
+		atoms (or other substituents if substituted) are done with the \sptwo orbitals.
 
 		Furthermore, the 6 π-bond electrons are delocalised, and move freely within the ring. This increases the stability of the benzene
 		ring, which increases the amount of energy needed to modify it by fiddling with bonds.
@@ -63,14 +63,13 @@
 			will substitute the \ch{H} atoms on the ring. Thus, the most common form of reaction involving benzenes is electrophilic
 			substitution, barring special conditions and requirements.
 
-			% \vspace{1.0em}
 			\paragraph{Step 1}
 
 			In the first, rate-determining step, the aromaticity of the benzene ring is partially and temporarily broken, disrupted by
 			the attacking electrophile.
 
 			\diagram[1.0]{
-				\schemestart[0,1.5,thick]
+				\schemestart[0, 1.5, thick]
 					\chemfig{**6(---@{ring}---)}
 					\arrow{0}[,0]		% used for alignment
 					\hspace{5mm} + \hspace{5mm}
@@ -117,7 +116,7 @@
 			}
 
 
-			Note that the arenium ion (which is the partially delocalised benzene) has 5 sp\sps{2} carbons, and one sp\sps{3} carbon. This
+			Note that the arenium ion (which is the partially delocalised benzene) has 5 \sptwo carbons, and one \spthree carbon. This
 			results in a disruption of the planar structure of benzene –– it is restored once the substitution is completed.
 
 		% end subsection
@@ -130,9 +129,9 @@
 
 			\vspace{1.5em}
 			\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3}, concentrated \ch{H2SO4} catalyst.
-										\tabto{35mm}\textit{Constant} temperature of \SI{50}{\celsius}.}\vspace{0.5em}
-
-			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
+										\tabto{35mm}\textit{Constant} temperature of \SI{50}{\celsius}.}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
 
 
 			\vspace{1.0em}
@@ -202,7 +201,7 @@
 			\subsubtext{\vbox{VII.\tabto{10mm}Overall Reaction}}
 
 			\diagram[1.0]{
-				\schemestart[0, 1.5, thick]
+				\schemestart[0, 2.0, thick]
 				\chemfig{\ch{HNO3}}
 				\hspace{5mm} + \hspace{5mm}
 				\chemfig[yshift=-1.5em]{**6(------)}
@@ -221,15 +220,16 @@
 				with bromine and chlorine respectively), and a warm environment.
 
 				Aluminium-based analogues of these catalysts (\ch{\aluminium Br3}, \ch{\aluminium\chlorine3}) can also be used, as can pure
-				filings of the metal, in which case the catalyst will be generated \textit{in-situ} (\ch{2 Fe \stS + 3 Br2 \stL -> 2 FeBr3}).
+				filings of the metal, in which case the catalyst will be generated \textit{in-situ} (\ch{2 Fe \stS} + \ch{3 Br2 \stL} -> \ch{2 FeBr3}).
 
 
 				\vspace{1.5em}
 				\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
 											\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
-														\ch{Fe} / \ch{\aluminium} filings (for chlorine)}\vspace{0.5em}
+														\ch{Fe} / \ch{\aluminium} filings (for chlorine)}
 
-				\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
 											\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
 
 
@@ -250,11 +250,10 @@
 
 				\subsubsection{Reaction Mechanism}
 
-					% \vspace{1.0em}
 					\paragraph{Generation of Electrophile}
 
-					The reaction below uses Iron (III) chlorine (\ch{Fe\chlorine3}) as an example, adding \ch{\chlorine} to benzene, and this reaction
-					mechanism applies to aluminium-based catalysts as well.
+					The reaction below uses Iron (III) chlorine (\ch{Fe\chlorine3}) as an example, adding \ch{\chlorine} to benzene,
+					and this reaction mechanism applies to aluminium-based catalysts as well.
 
 					\diagram{
 						\schemestart[0, 1.0, thick]
@@ -262,10 +261,11 @@
 							\arrow
 							\ch{Br+} \hspace{2mm} + \hspace{2mm} \ch{FeBr4-}
 						\schemestop
-					}{The catalyst is \ch{FeBr4-} –– the \textit{electrophile} is \ch{Br+}}
+					}{The catalyst is \ch{FeBr4-}, and the \textit{electrophile} is \ch{Br+}}
 
 
 					\pagebreak
+
 					\paragraph{Formation of Benzene Intermediate}
 
 					Again, this mechanism is similar in nature to electrophilic substitution in general. Now, the electrophile (\ch{Br+}) attacks
@@ -285,7 +285,6 @@
 					}
 
 
-					% \vspace{1.0em}
 					\paragraph{Restoration of π-system and Aromaticity}
 
 					In the final step, the \ch{FeBr4-} acts as a nucleophile, attacking the \ch{H} atom attached to the benzene intermediate. This
@@ -311,7 +310,6 @@
 
 
 
-					% \vspace{1.0em}
 					\paragraph{Overall Reaction}
 
 					\diagram[1.0]{
@@ -562,10 +560,10 @@
 				\vspace{1.5em}
 
 				\vbox{\textbf{Conditions:} \tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}	% single line, not needed \vspace{0.5em}
-				\vbox{\textbf{Observations:} \tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+				\vbox{\textbf{Observations:} \tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
 
 				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
+					\schemestart[0, 2.0, thick]
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molMe)--)}
 					\hspace{2mm} + \hspace{2mm}
 					\chemfig{\ch{\chlorine2}}
@@ -588,13 +586,15 @@
 
 				\vspace{1.5em}
 
-				\vbox{\textbf{Conditions:}\tabto{35mm}Heat, \ch{KMnO4}, dilute acid or alkali.}\vspace{0.5em}
-				\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Plum}Purple} \ch{KMnO4} decolourises (\textit{acid}), or
-											\tabto{35mm}forms \textit{\color{Brown}brown} precipitate of \ch{MnO2} (\textit{alkali}).}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Heat, \ch{KMnO4}, dilute acid or alkali.}
+
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Plum}Purple} \ch{KMnO4} decolourises (\textit{acid}), or
+											\tabto{35mm}forms \boit{\color{Brown}brown} precipitate of \ch{MnO2} (\textit{alkali}).}
 
 
 				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
+					\schemestart[0, 2.0, thick]
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molMe)--)}
 					\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{H+}][heat]}
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}
@@ -607,7 +607,7 @@
 
 
 				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
+					\schemestart[0, 2.0, thick]
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molMe)--)}
 					\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{OH-}][heat]}
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}
@@ -620,7 +620,7 @@
 				in addition to benzoic acid.
 
 				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
+					\schemestart[0, 2.0, thick]
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molMe)--)}
 					\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{H+}][heat]}
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}
@@ -632,7 +632,7 @@
 				If the chain is 3 or longer, then the rest of the chain (apart from the first) will be oxidised to form a carboxylic acid.
 
 				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
+					\schemestart[0, 2.0, thick]
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]\ch{C}|\ch{H2}-[:0]!\molR)--)}
 					\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{H+}][heat]}
 					\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}

@@ -3,8 +3,8 @@
 
 
 \pagebreak
-\part{Alkanes}
 \hypertarget{ChapterAlkanes}{}
+\part{Alkanes}
 
 	\section{Open Chain}
 
@@ -89,8 +89,8 @@
 
 			\vspace{1.5em}
 
-			\vbox{\textbf{Conditions:} \tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}	% single line, not needed \vspace{0.5em}
-			\vbox{\textbf{Observations:} \tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}	% single line, not needed \vspace{0.5em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
 
 			\subsubtext{\vbox{\textit{Stage I}\tabto{25mm}Initiation}}
 
@@ -120,12 +120,7 @@
 						\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{CH\sbs{4}}
 						\arrow
 						\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{H\chlorine}
-					\schemestop
-				}
-
-				\vspace{-15mm}
-				\diagram{
-					\schemestart[0, 1.0, thick]
+						\arrow(@c1.south east--.north east){0}[-90,.1]
 						\chemfig{\ch{\chlorine2}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
 						\arrow
 						\chemfig{\ch{CH3\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
@@ -148,21 +143,11 @@
 						\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
 						\arrow
 						\chemfig{\ch{\chlorine2}}
-					\schemestop
-				}
-
-				\vspace{-15mm}
-				\diagram{
-					\schemestart[0, 1.0, thick]
+						\arrow(@c1.south east--.north east){0}[-90,.1]
 						\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
 						\arrow
 						\chemfig{\ch{CH3CH3}}
-					\schemestop
-				}
-
-				\vspace{-15mm}
-				\diagram{
-					\schemestart[0, 1.0, thick]
+						\arrow(@c3.south east--.north east){0}[-90,.1]
 						\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
 						\arrow
 						\chemfig{\ch{CH3\chlorine}}
@@ -191,12 +176,7 @@
 					\chemfig{\ch{CH3Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
 					\arrow
 					\chemfig{\lewis{4.,\ch{CH2\chlorine}}}
-				\schemestop
-			}
-
-			\vspace{-15mm}
-			\diagram{
-				\schemestart[0, 1.0, thick]
+					\arrow(@c1.south east--.north east){0}[-90,.1]
 					\chemfig{\lewis{0.,\ch{CH2\chlorine}}} \hspace{2mm} + \hspace{2mm} \chemfig{\ch{\chlorine2}}
 					\arrow
 					\chemfig{\lewis{4.,\ch{CH2\chlorine2}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}

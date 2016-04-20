@@ -244,6 +244,23 @@
 
 
 
+\newcommand\setpolymerdelim[2]{\def\delimleft{#1}\def\delimright{#2}}
+\def\makebraces[#1,#2]#3#4#5{%
+	\edef\delimhalfdim{\the\dimexpr(#1+#2)/2}%
+	\edef\delimvshift{\the\dimexpr(#1-#2)/2}%
+	\chemmove{%
+		\node[at=(#4),yshift=(\delimvshift)]
+			{$\left\delimleft\vrule height\delimhalfdim depth\delimhalfdim
+			width0pt\right.$};%
+		\node[at=(#5),yshift=(\delimvshift)]
+			{$\left.\vrule height\delimhalfdim depth\delimhalfdim
+			width0pt\right\delimright_{\rlap{$\displaystyle#3$}}$};}}
+
+\setpolymerdelim()
+
+
+
+
 % helper macros
 
 
@@ -346,6 +363,10 @@
 \newcommand {\snone}		{S\sbs{N}1 }
 \newcommand {\sntwo}		{S\sbs{N}2 }
 
+\newcommand {\spone}		{sp\sps{1}}
+\newcommand {\sptwo}		{sp\sps{2}}
+\newcommand {\spthree}		{sp\sps{3}}
+
 % small(er)
 \newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{+}\normtext }
 \newcommand {\smdeltam}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{-}\normtext }
@@ -407,10 +428,12 @@
 \definesubmol	\molMe		{C|H\sbs{3}}
 \definesubmol	\molMeR		{H\sbs{3}|C}
 
+\definesubmol	\molCN		{C|{\color{RoyalBlue}N}}
 
 \definesubmol	\molEthyl	{C|H\sbs{2}|C|H\sbs{3}}				% ch2ch3
 \definesubmol	\molPropyl	{C|H\sbs{2}|C|H\sbs{2}|C|H\sbs{3}}	% ch2ch2ch3
 \definesubmol	\molNitro	{N|O\sbs{2}}
+\definesubmol	\molNitroR	{O\sbs{2}|N}
 
 
 

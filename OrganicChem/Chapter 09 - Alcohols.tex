@@ -4,8 +4,8 @@
 
 
 \pagebreak
-\part{Alcohols}
 \hypertarget{ChapterAlcohols}{}
+\part{Alcohols}
 
 	\section{Aliphatic Alcohols}
 		Aliphatic alcohols generally have the formula \ch{R-OH} –– the \ch{OH} group dictates the reactions of the alcohol. In a way they
@@ -52,7 +52,7 @@
 	\section{Phenols}
 
 		Phenols are benzene rings with one or more \ch{OH} groups directly bonded to the ring itself. They have markedly different properties
-		from normal alcohols, and are covered in the \hyperlink{Chapter_Phenols}{\boit{following chapter}}.
+		from normal alcohols, and are covered in the \hyperlink{ChapterPhenols}{\boit{following chapter}}.
 
 		\diagram[1.0]{
 			\chemfig{**6(----(-[:90]!\molOH)--)}
@@ -176,7 +176,7 @@
 										\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
 
 			\diagram[1.0]{
-				\schemestart[0,1.5,thick]
+				\schemestart[0, 2.0, thick]
 					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRon)}
 					\hspace{2mm} + \hspace{2mm}
 					\chemfig{\ch{H2O}}
@@ -187,7 +187,7 @@
 				\schemestop
 			}{A carboxylic acid is also formed, but for our purposes the alcohol is the main product.}
 			\diagram[1.0]{
-				\schemestart[0,1.5,thick]
+				\schemestart[0, 2.0, thick]
 					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molR)}
 					\hspace{2mm} + \hspace{2mm}
 					\chemfig{\ch{H2O}}
@@ -216,16 +216,16 @@
 
 			\subsubsection{Effect of Substituents}
 
-				In a manner somewhat similar to arenes, substituents along the alcohol's carbon chain can have an effect on its acidity.
-				Of course, groups closer to the \ch{OH} itself (better yet, attached to the same carbon atom) have a greater effect. Note
-				that the length of the alkyl group (or the carbon chain) of the alcohol does not have a significant impact on its acidity.
+				Substituents along the alcohol's carbon chain can have an effect on its acidity. Of course, groups closer to the \ch{OH}
+				itself (better yet, attached to the same carbon atom) have a greater effect. Note that the length of the alkyl group
+				(or the carbon chain) of the alcohol does not have a significant impact on its acidity.
 
 				Electron withdrawing groups will \textit{disperse} the negative charge on the alkoxide anion, thus resulting in a higher
 				likelihood for the \ch{H+} ion to dissociate, meaning a higher acidity (and thus higher \Ka). Conversely, electron-donating
 				groups (basically alkyl groups) \textit{intensify} the negative charge, destabilising the anion and decreasing acidity.
 
 				Note that the classification of electron-donating/withdrawing groups is different from that of arenes, as the carbon
-				attached to the alcohol is sp\sps{3} hybridised. Refer to \hyperlink{CaveatResonanceTable}{\boit{this explanation}} for an
+				attached to the alcohol is \spthree hybridised. Refer to \hyperlink{CaveatResonanceTable}{\boit{this explanation}} for an
 				elaboration.
 
 			% end subsection
@@ -233,29 +233,39 @@
 		% end subsection
 
 		\pagebreak
-		\subsection{Reaction with Metals}
+		\subsection{Reactions as an Acid}
 
-			In a manner similar to acids, alcohols can react with \textit{reactive} metals to form ionic salts. However, these reactions
-			will be slower than that of mineral acids or even carboxylic acids.
+			\subsubsection{Reaction with Metals}
+				In a manner similar to acids, alcohols can react with \textit{reactive} metals to form ionic salts. However, these reactions
+				will be slower than that of mineral acids or even carboxylic acids.
 
-			The \ch{O-H} bond is broken, and the \ch{H} atom is replaced with the metal cation.
+				The \ch{O-H} bond is broken, and the \ch{H} atom is replaced with the metal cation.
 
 
-			\vspace{1.5em}
-			\vbox{\textbf{Conditions:}\tabto{35mm}Solid metal (eg. \ch{Na}, \ch{K}, etc.), room temperature.}
-			\vbox{\textbf{Observations:}\tabto{35mm}Slow effervescence of \ch{H2} gas.}
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid metal (eg. \ch{Na}, \ch{K}, etc.), room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}Slow effervescence of \ch{H2} gas.}
 
-			\diagram[1.0]{
-				\schemestart[0,1.5,thick]
-					2 \chemfig{!\molR-[:0]!\molOH}
-					\hspace{2mm} + \hspace{2mm}
-					\ch{2 Na \stS}
-					\arrow
-					2 \chemfig{!\molR-[:0]!\molO\mch Na\pch}
-					\hspace{2mm} + \hspace{2mm}
-					\ch{H2 \stG}
-				\schemestop
-			}
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						2 \chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{2 Na \stS}
+						\arrow
+						2 \chemfig{!\molR-[:0]!\molO\mch Na\pch}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2 \stG}
+					\schemestop
+				}
+
+			% end subsubsection
+
+			\subsubsection{Reaction with Bases and Carbonates}
+
+				Alcohols are far too weak of an acid to react react with carbonates (\ch{CO3^2-}) to form \ch{CO2}, and also do not
+				react with bases (eg. \ch{NaOH}) either.
+
+			% end subsubsection
 
 		% end subsection
 
@@ -280,7 +290,7 @@
 											\tabto{35mm}Several drops of concentrated \ch{H2SO4}, heated under reflux.}
 
 				\diagram[1.0]{
-					\schemestart[0,1.5,thick]
+					\schemestart[0, 2.0, thick]
 						\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{oh}{\color{Red}O}|{\color{Red}H})}
 						\hspace{2mm} + \hspace{2mm}
 						\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
@@ -313,7 +323,7 @@
 											\tabto{35mm}Room temperature.}
 
 				\diagram[1.0]{
-					\schemestart[0,1.5,thick]
+					\schemestart[0, 1.5, thick]
 						\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{cl}\color{OliveGreen}\chlorine)}
 						\hspace{2mm} + \hspace{2mm}
 						\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
@@ -389,7 +399,7 @@
 				\diagram[0.75]{
 					\chemnameinit{\chemfig{C(-[:90]H)(-[:270]H)}}
 
-					\schemestart[0,1.5,thick]
+					\schemestart[0, 2.0, thick]
 						\chemname{\chemfig{C(-[:90]!\molMe)(-[:270]@{hyd1}H)(-[:180]!\molMe)
 							-[:0]C(-[:90]H)(-[:270]@{oh}{\color{Red}O}|{\color{Red}H})-[:0]C(-[:90]H)(-[:0]H)(-[:270]@{hyd2}H)}}{}
 						\arrow{->[][- \ch{H2O}]}
@@ -463,6 +473,7 @@
 			Here again, a distinction must be made between primary, secondary and tertiary alcohols. For primary alcohols, there
 			are two stages of oxidation –– first to an aldehyde, then further oxidation to a carboxylic acid.
 
+			\hypertarget{OxidationOfPrimaryAlcohols}{}
 			\subsubsection{Controlled Oxidation to Aldehydes}
 
 				The \textit{controlled} part of this reaction lies in the immediate distillation of the aldehyde that is formed, using
@@ -476,8 +487,8 @@
 				\vspace{1.5em}
 				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4},
 											\tabto{35mm}heat with immediate distillation.}
-				\vspace{0.5em}
-				\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \textit{\color{LimeGreen}green}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
 														(\ch{Cr^3+} formed).}
 
 				\diagram[1.0]{
@@ -485,8 +496,6 @@
 						\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
 						\arrow
 						\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
-						\hspace{2mm} + \hspace{2mm}
-						\ch{H2O}
 					\schemestop
 				}
 
@@ -494,6 +503,7 @@
 
 
 			\pagebreak
+			\hypertarget{CompleteOxidationOfPrimaryAlcohols}{}
 			\subsubsection{Complete Oxidation to Carboxylic Acids}
 
 				When the aldehyde is not distilled immediately and instead left to interact with the remaining oxidising agent, it will
@@ -503,20 +513,27 @@
 				\vspace{1.5em}
 				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
 											\tabto{35mm}heat under reflux.}
-				\vspace{0.5em}
-				\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \textit{\color{LimeGreen}green}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
 														(\ch{Cr^3+} formed), \textit{OR}
-											\tabto{35mm}\textit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+											\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
 
 				\diagram[1.0]{
-					\schemestart[0,1.5,thick]
+					\schemestart[0, 1.5, thick]
 						\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
 						\arrow
 						\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
-						\hspace{2mm} + \hspace{2mm}
-						\ch{H2O}
 					\schemestop
 				}
+
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+						\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
+						\arrow
+						\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+					\schemestop
+				}{It is also possible to start with aldehydes, and oxidise them to carboxylic acids.}
 
 
 				Note that, with \ch{KMnO4}, two special carboxylic acids can be \textit{even further oxidised} to give \ch{CO2} and \ch{H2O};
@@ -552,18 +569,16 @@
 			\vspace{1.5em}
 			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
 										\tabto{35mm}heat under reflux.}
-			\vspace{0.5em}
-			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \textit{\color{LimeGreen}green}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
 													(\ch{Cr^3+} formed), \textit{OR}
-										\tabto{35mm}\textit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+										\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
 
 			\diagram[1.0]{
 				\schemestart[0,1.5,thick]
 					\chemfig{C(-[:90]!\molR)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
 					\arrow
 					\chemfig{C(=[:90]!\molO)(-[:210]!\molR)(-[:330]!\molR)}
-					\hspace{2mm} + \hspace{2mm}
-					\ch{H2O}
 				\schemestop
 			}
 
@@ -588,13 +603,13 @@
 
 			\vspace{1.5em}
 			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{I2 \stAq}, \ch{NaOH \stAq}, warmed.}
-			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Dandelion}Yellow} precipitate of \ch{CHI3} is formed.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} precipitate of \ch{CHI3} is formed.}
 
 			\diagram[1.0]{
-				\schemestart[0,2.0,thick]
+				\schemestart[0, 2.0, thick]
 					\chemfig{C(-[:90]H)(-[:270]!\molMe)(-[:180]!\molR)(-[:0]!\molOH)}
 					\arrow{->[\ch{I2 \stAq}, \ch{NaOH \stAq}][warm]}
-					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO\mch Na\pch)}
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO\mch)}
 				\schemestop
 			}{The group to the right of the R group is the necessary structure for a positive reaction.}
 

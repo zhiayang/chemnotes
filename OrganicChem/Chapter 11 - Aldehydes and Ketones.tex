@@ -1,0 +1,566 @@
+% Chapter 11 - Aldehydes and Ketones.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+\pagebreak
+\hypertarget{ChapterAldehydesAndKetones}{}
+\part{Aldehydes and Ketones}
+
+	\section{Structure}
+
+		Aldehydes and ketones have a very similar structure, both revolving around the carbonyl-bearing central carbon atom, with an
+		oxygen atom double-bonded to it.
+
+		\subsection{Ketones}
+
+			Ketones are the more general form of carbonyls. There exists a central carbon atom, with one oxygen atom double-bonded to it, and
+			two alkyl groups on either side. For ketones specifically, R in this case \textit{cannot} be a hydrogen atom.
+
+			\diagram[1.0]{
+				\chemfig{C(-[:210]!\molR)(-[:330]!\molR)=[:90]!\molO}
+			}{The structure of a ketone.}
+
+		% end subsection
+
+		\subsection{Aldehydes}
+
+			Aldehydes are ketones where one or both of the R groups on the central carbon are instead replaced with hydrogen atoms. Methanal,
+			where both are hydrogen atoms, is the simplest aldehyde and the only case (duh) where there are two hydrogens.
+
+			\diagram[1.0]{
+				\chemfig{C(-[:210]H)(-[:330]!\molR)=[:90]!\molO}
+			}{The structure of an aldehyde}
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Hybridisation}
+
+			The central carbon in both aldehydes and ketones is \sptwo hybridised, resulting in a planar construction with a bond angle
+			of \SI{120}{\degree}. As such, the unhybridised p-orbital of the carbon atom is able to overlap with the p-orbital the neighbouring
+			oxygen atom, forming a π-bond.
+
+			Furthermore, the high electronegativity of the oxygen atom results in it having a partial negative charge, \deltam, while the
+			carbon atom has a partial positive charge, \deltap. It is this polarisation and permanent dipole that lends aldehydes and ketones
+			their chemical and physical properties.
+
+		% end subsection
+
+	% end section
+
+	\section{Physical Properties}
+
+		Both aldehydes and ketones can form intermolecular permanent dipole interactions, thus resulting in stronger electrostatic forces
+		of attraction, and thus higher melting and boiling points than their alkane counterparts.
+
+		However, the lack of an \ch{H} atom attached to the \ch{O} atom means that there is no possibility for intermolecular hydrogen
+		bonds to be formed. Thus, aldehydes and ketones have lower melting and boiling points than their alcohol and carboxylic acid
+		counterparts.
+
+		Furthermore, due to the existence of both a polar and non-polar region, carbonyls are soluble in both polar solvents, like water,
+		and non-polar solvents, like \ch{C\chlorine4}. Their solubility in the former is due to their ability to form favourable
+		solvent-solute interactions in the form of hydrogen bonds, between the partial negatively-charged \ch{O} atom and the partial
+		positively-charged hydrogen atom in \ch{H2O}.
+
+		Beyond 5 carbons however, the bulkiness of the alkyl chain prevents further solubility of both aldehydes and ketones.
+
+	% end section
+
+	\pagebreak
+	\section{Creation of Aldehydes and Ketones}
+
+		\subsection{Oxidation of Alcohols}
+
+			\subsubsection{Oxidation of Primary Alcohols}
+
+				The details on the mechanics of this reaction can be found \hyperlink{OxidationOfPrimaryAlcohols}{here}, including
+				the use of \ch{K2Cr2O7} instead of \ch{KMnO4}.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4},
+											\tabto{35mm}heat with immediate distillation.}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed).}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+						\arrow
+						\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+				}
+
+			% end subsubsection
+
+			\subsection{Oxidation of Secondary Alcohols}
+
+				Secondary alcohols can be oxidised to ketones directly, using either \ch{K2Cr2O7} or \ch{KMnO4}.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+											\tabto{35mm}heat under reflux.}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed), \textit{OR}
+											\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]!\molR)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+						\arrow
+						\chemfig{C(=[:90]!\molO)(-[:210]!\molR)(-[:330]!\molR)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+				}
+
+			% end subsection
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Oxidative Cleavage of Alkenes}
+
+			Certain alkenes can undergo strong oxidation, cleaving the double bond. The details are elaborated on
+			\hyperlink{OxidativeCleavageOfAlkenes}{\boit{here}}, but only one kind of alkene can form a ketone, where the carbon
+			atom has two alkyl groups substituted, and no hydrogens.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{KMnO4}, dilute \ch{H2SO4}, heat.}	% \vspace{0.5em}
+			\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming colourless \ch{Mn^2+}.}
+
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:135]!\molMe)(-[:225]!\molMe)=[:0]C(-[:45]!\molMe)(-[:315]!\molMe)}
+					\arrow{->[\ch{MnO4-}][heat]}
+					\chemfig{C(-[:120]!\molMe)(-[:240]!\molMe)=[:0]!\molO}
+				\schemestop
+			}
+
+			Note that alkenes with one hydrogen substituent and one alkyl substituent \textit{will not} form aldehydes, since the hydrogen
+			atom will be oxidised, and instead give a carboxylic acid.
+
+		% end subsection
+
+	% end section
+
+	\section{Aldehyde and Ketone Reactions}
+
+		\subsection{Nucleophilic Addition}
+
+			Due to the electronegativity of the oxygen atom, the electron density is drawn towards it. Thus, the carbon atom is able
+			to be attacked by electrophiles due to its partial positive charge.
+
+			Note that aldehydes will be more reactive than ketones in nucleophilic addition, since they only have one electron-donating
+			alkyl group on the central carbon, whereas ketones have two alkyl groups that are able to inductively donate electrons to
+			stabilise the positive charge, slightly reducing reactivity.
+
+			\pagebreak
+			\subsubsection{Mechanism of Nucleophilic Addition}
+
+				The mechanism is a two-step mechanism with the slow step as the first step. Here, the nucleophilic addition of \ch{CN} to
+				a carbonyl will be illustrated.
+
+				\paragraph{Step 1}
+
+				Here, the central carbon is attacked by the nucleophile. This also serves to repel the electrons in the π-bond towards the
+				electronegative \ch{O} atom, forming a stable alkoxide anion.
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{@{carb}\chemabove{C}{\smdeltap}(-[:120]!\molR)(-[:240]!\molR)(=[@{bond}:0]@{oxy}\chemabove{\color{Red}O}{\smdeltam})}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{@{cn}\lewis{6:,C}|{\color{RoyalBlue}N}\mch}
+						\arrow{->[slow]}
+						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molO\mch)(-[:270]!\molCN)}
+					\schemestop
+
+					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](cn) .. controls +(270:20mm) and +(270:20mm) .. (carb);}
+					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](bond) .. controls +(270:8mm) and +(270:8mm) .. (oxy);}
+				}
+
+
+				\paragraph{Step 2}
+
+				Now, the alkoxide ion attacks an undissociated \ch{HCN} molecule, protonating itself and regenerating the \ch{CN-} nucleophile.
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]@{oxy}\lewis{2:,\color{Red}O}|\mch)(-[:270]!\molCN)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{@{hyd}H-[@{bond}:0]@{carb}C|{\color{RoyalBlue}N}}
+						\arrow{->[fast]}
+						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{!\molCN\mch}
+					\schemestop
+
+
+					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oxy) .. controls +(90:15mm) and +(90:15mm) .. (hyd);}
+					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](bond) .. controls +(270:8mm) and +(270:8mm) .. (carb);}
+				}
+
+				\paragraph{Overall Reaction}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]!\molO)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{H-!\molCN}
+						\arrow
+						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
+					\schemestop
+				}
+
+			%end subsubsection
+
+
+			\pagebreak
+			\subsubsection{Stereoisomerism of Product}
+
+				Since the carbonyl is trigonal planar, the nucleophile can attack from either the top or bottom side, with equal probability.
+				Hence, if the product formed is chiral, the resulting solution will be a \textit{racemic mixture}.
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{@{carb}\chemabove{C}{\hspace{7mm}\smdeltap}(=[:0]\chemabove{\color{Red}O}{\hspace{5mm}\smdeltam})(<:[:120]!\molPropyl)(<[:240]!\molEthyl)}
+					\hspace{5mm}
+					\chemfig{@{cn}\lewis{4:,C\color{RoyalBlue}N}\mch}
+					\arrow(main.east--top.west){->[50\%]}[30]
+					\chemfig{C(-[:90]!\molCN)(-[:210]!\molOH)(<:[:-15]!\molPropyl)(<[:315]!\molEthyl)}
+					\arrow(@main.east--bottom.west){->[][50\%]}[-30]
+					\chemfig{C(-[:270]!\molCN)(-[:150]!\molOH)(<:[:45]!\molPropyl)(<[:15]!\molEthyl)}
+					\schemestop
+
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm]($(cn) + (-0.5,0)$) .. controls
+				    	+(90:20mm) and +(90:20mm) .. (carb) node [pos=0.5,above,font=\footnotesize] {top face attack};}
+
+				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm]($(cn) + (-0.5,0)$) .. controls
+				    	+(270:20mm) and +(270:20mm) .. (carb) node [pos=0.5,below,font=\footnotesize] {bottom face attack};}
+				}
+
+
+			% end subsubsection
+
+			\subsubsection{Formation of Nitriles (Cyanohydrins)}
+
+				The nucleophilic addition of \ch{CN} to a carbonyl is perhaps one of the more common forms of nucleophilic addition.
+				Since \ch{HCN} is a toxic gas, it is typically generated \textit{in-situ} by reacting \ch{KCN} with dilute \ch{H2SO4}.
+
+				\diagram[1.0]{
+					\schemestart[0,1.0,thick]
+					\chemfig{\ch{2 KCN}} \hspace{2mm} + \hspace{2mm} \chemfig{\ch{H2SO4}}
+					\arrow
+					\chemfig{\ch{K2SO4}} \hspace{2mm} + \hspace{2mm} \chemfig{\ch{2 HCN}}
+					\schemestop
+				}
+
+				\vspace{-5mm}
+
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{HCN}, trace \ch{KCN \stAq}.}
+
+				\diagram[1.0]{
+					\schemestart[0,2.0,thick]
+						\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]!\molO)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{H-!\molCN}
+						\arrow{->[trace \ch{KCN \stAq}][cold]}
+						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
+					\schemestop
+				}
+
+				Even though the stated reactant of the reaction above is indeed \ch{HCN}, simply using pure \ch{HCN} will result in a dismal
+				rate of reaction –– \ch{HCN} is a weak acid, and as such only partially dissociates in water to give \ch{CN-} ions, which is
+				the actual electrophile.
+
+				Thus, a trace amount of \ch{KCN} is added, which, as a salt, will completely dissociate in water to give \ch{CN-} ions,
+				increasing the rate of reaction. Since \ch{CN-} is regenerated at the end of the reaction, the \ch{KCN} added actually
+				acts as a catalyst.
+
+
+
+				The resulting nitrile can be used to create carboxylic acids through hydrolysis, as well as amines through
+				reduction. The details can be found \hyperlink{NitrileUses}{\boit{here}}.
+
+			% end subsubsection
+
+		% end subsection
+
+		\subsection{Condensation}
+
+			Primary amines, which have a nucleophilic nitrogen atom with two attached hydrogen atoms, can undergo an elimination
+			reaction with both aldehydes and ketones, with the removal of \ch{H2O}.
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]@{oxy}{\color{Red}O})}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{N(-[:120]@{h1}H)(-[:240]@{h2}H)-!\molRon}
+					\arrow
+					\chemfig{C(-[:120]!\molR)(-[:240]!\molR)=[:0]!\molN-[:0]!\molRon}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{\ch{H2O}}
+				\schemestop
+
+				\chemmove{
+					\draw[-latex, red, thick]
+					(oxy.center) circle(4mm)
+					(h1.center) circle(4mm)
+					(h2.center) circle(4mm);
+				}
+			}{The circled atoms form the water that is eventually eliminated.}
+
+			\subsubsection{Distinguishing test with 2,4-DNPH}
+
+				One of the more useful reactions involving this mechanism is the distinguishing test with 2,4-dinitrophenylhydrazine, which
+				is a relatively large molecule with a distinct orange precipitate. This allows for the verification of the presence of
+				an aldehyde or a ketone –– both aliphatic and aromatic carbonyls will have a positive result.
+
+				The molecule is somewhat complex, but reading it right-to-left is sufficient to deduce its structure –– hydrazine is the parent
+				structure, and it has a substituent of 2,4-dinitrophenyl.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}2,4-DNPH, room temperature.}	% \vspace{0.5em}
+				\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{BurntOrange}Orange}} precipitate forms with a carbonyl.}
+
+				\diagram[0.65]{
+					\schemestart[0, 1.5, thick]
+						\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]!\molO)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molN(-[:120]H)(-[:240]H)-[:0]!\molN(-[:270]H)(-[:0]**6(-(-[:240]!\molNitro)--(-[:0]!\molNitro)---))}
+						\arrow(.base east--.base west)
+						\chemfig{C(-[:120]!\molR)(-[:240]!\molR)=[:0]!\molN-[:0]!\molN(-[:270]H)(-[:0]**6(-(-[:240]!\molNitro)--(-[:0]!\molNitro)---))}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Reduction}
+
+			In what is basically the reverse of the oxidation of alcohols, aldehydes can be reduced into primary alcohols, and
+			ketones can be reduced into secondary alcohols.
+
+			Clearly, tertiary alcohols cannot be formed like this.
+
+			\subsubsection{Reduction of Aldehydes}
+
+				Aldehydes are reduced to primary alcohols. Any of the three reducing agents can be used.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+	  										\tabto{35mm}\ch{NaBH4} in methanol, \textit{OR}
+	  										\tabto{35mm}\ch{H2 \stG}, \ch{Ni} catalyst, high temperature and pressure.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(=[:90]!\molO)(-[:210]!\molR)(-[:330]H)}
+						\arrow
+						\chemfig{C(-[:0]!\molOH)(-[:90]H)(-[:270]H)(-[:180]!\molR)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+			\subsubsection{Reduction of Ketones}
+
+				Ketones are reduced to secondary alcohols. Any of the three reducing agents can be used.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+	  										\tabto{35mm}\ch{NaBH4} in methanol, \textit{OR}
+	  										\tabto{35mm}\ch{H2 \stG}, \ch{Ni} catalyst, high temperature and pressure.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(=[:90]!\molO)(-[:210]!\molRon)(-[:330]!\molRtw)}
+						\arrow
+						\chemfig{C(-[:0]!\molOH)(-[:90]!\molRon)(-[:270]!\molRtw)(-[:180]H)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+		\subsection{Oxidation}
+
+			\subsubsection{Oxidation of Aldehydes to Carboxylic Acids}
+
+				As briefly covered in the chapter on \hyperlink{CompleteOxidationOfPrimaryAlcohols}{\boit{alcohols}}, aldehydes can be
+				further oxidised into carboxylic acids.
+
+				Also, two special carboxylic acids can be further oxidised, and they are covered above.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+											\tabto{35mm}heat under reflux.}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed), \textit{OR}
+											\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+						\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
+						\arrow
+						\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+					\schemestop
+				}
+
+				This reaction can also be used to distinguish aldehydes from ketones, as ketones will \textit{not} undergo further oxidation
+				due to their lack of a hydrogen atom on the central carbon.
+
+
+			\subsubsection{Tollens' Reagent}
+
+				Tollens' Reagent, or the \textit{silver mirror test}, can also be used to distinguish aldehydes and ketones. Only aldehydes,
+				both aliphatic and aromatic, can react reduce the silver complex to silver metal, while ketones cannot –– this is due to the
+				fact that ketones cannot be oxidised.
+
+				A positive test results in the depositing of silver metal on the surface of the reaction vessel, hence the silver mirror.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Tollens' Reagent, heat.}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Gray}Silver} metal coats the reaction vessel.}
+
+				\diagram[0.80]{
+					\schemestart[0,1.5,thick]
+						\ch{2 [Ag(NH3)2]+}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{2 OH-}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{C(-[:210]!\molR)(-[:330]H)(=[:90]!\molO)}
+						\arrow(.mid east--.mid west){->[heat]}
+						\chemfig{C(-[:210]!\molR)(-[:330]!\molO\mch)(=[:90]!\molO)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{2 Ag}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{4 NH3}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{2 H2O}
+					\schemestop
+				}
+
+
+			% end subsubection
+
+
+			\subsubsection{Fehling's Solution}
+
+				Fehling's Solution, like Tollens' Reagent, relies on the oxidation of the aldehyde, and hence the reduction of itself. In
+				this case, \ch{Cu^2+} is reduced to \ch{Cu+} in the form of \ch{Cu2O}, which gives a distinct, brick-red precipitate.
+
+				Fehling's Solution is used to distinguish between aliphatic and aromatic aldehydes. Again, since ketones cannot be oxidised,
+				they do not give a positive test for Fehling's Solution.
+
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Fehling's Solution, heat.}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{OrangeRed}Brick-red}, or \boit{\color{Mahogany}reddish-brown} precipitate is formed.}
+
+				\diagram[0.80]{
+					\schemestart[0,1.5,thick]
+						\ch{2 Cu^2+}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{5 OH-}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{C(-[:210]!\molR)(-[:330]H)(=[:90]!\molO)}
+						\arrow(.mid east--.mid west){->[heat]}
+						\chemfig{C(-[:210]!\molR)(-[:330]!\molO\mch)(=[:90]!\molO)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{Cu2O}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{3 H2O}
+					\schemestop
+				}{The aldehyde here cannot be aromatic (aka the R group is a benzene ring). Only normal alkyl-based aldehydes will work.}
+
+
+			% end subsubsection
+
+
+			\subsubsection{Tri-iodomethane (Iodoform) Formation}
+
+				Similar to alcohols, ketones and aldehydes can be oxidised by aqueous iodine to give the distinct yellow precipitate, which
+				is useful as a fingerprinting, structural test.
+
+				Due to the requirements of having a \ch{CH3} group, ethanal is the only aldehyde that gives a positive result for this test,
+				since the R group will be a hydrogen atom. Otherwise, only terminal ketones will test positive.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{I2 \stAq}, \ch{NaOH \stAq}, warmed.}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} precipitate of \ch{CHI3} is formed.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{C(-[:210]!\molR)(-[:330]!\molMe)(=[:90]!\molO)}
+						\arrow{->[\ch{I2 \stAq}, \ch{NaOH \stAq}][warm]}
+						\chemfig{C(-[:210]!\molR)(-[:330]!\molO\mch)(=[:90]!\molO)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+	% end section
+
+% end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

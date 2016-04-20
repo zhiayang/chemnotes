@@ -4,7 +4,245 @@
 
 
 \pagebreak
-\part{Phenols}
 \hypertarget{ChapterPhenols}{}
+\part{Phenols}
+
+	\section{Structure}
+
+		Phenols are basically benzene rings with an \ch{OH} group substituted on the ring. However, their chemical behaviour is quite
+		different from that of regular aliphatic alcohols –– hence this separation of topic.
+
+		\diagram[1.0]{
+			\chemfig{**6(----(-[:90]!\molOH)--)}
+		}{The structure of phenol.}
+
+
+		\subsection{Physical Properties}
+
+			Most phenols are solids at room temperature, due to the existence of hydrogen bonds facilitated by the \ch{OH} group. As such,
+			their melting points are much higher than simple benzene rings.
+
+			Phenols are moderately soluble in water compared to benzenes, due to the ability to form favourable solvent-solute interactions,
+			again due to the hydrogen bonding provided by the \ch{OH} group. This is despite the large hydrophobic benzene ring.
+
+	% end section
+
+
+	\section{Phenol Reactions}
+
+		\subsection{Acidity of Phenols}
+
+			Phenols are far more acidic than alcohols, due to the ability for the π-electron cloud of the benzene ring to delocalise the
+			negative charge on the oxygen atom after \ch{H+} dissociates. Thus, the conjugate base of phenol is much more stable than
+			that of alcohols, and so the \ch{H+} ion will be more likely to dissociate, increasing acidity.
+
+			\subsubsection{Effect of Substituents}
+
+				Similar to regular alcohols, electron-withdrawing substituents attached to the benzene ring can delocalise the negative
+				charge of the phenoxide, increasing its stability and hence acidity.
+
+				Conversely, electron-donating groups (mainly through resonance) attached to the benzene ring have the opposite effect,
+				intensifying the negative charge and further destabilising the phenoxide ion. Thus, acidity is reduced in this case.
+
+			% end subsection
+
+		% end subsection
+
+
+		\subsection{Reactions as an Acid}
+
+			\subsubsection{Reaction with Metals}
+				In a manner similar to acids and alcohols, phenols can react with \textit{reactive} metals to form ionic salts.
+
+				The \ch{O-H} bond is broken, and the \ch{H} atom is replaced with the metal cation.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid metal (eg. \ch{Na}, \ch{K}, etc.), room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}Slow effervescence of \ch{H2} gas.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\ch{Na \stS}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molOH)--)}
+						\arrow(.base east--.base west)
+						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molO|\mch Na\pch)--)}
+						\hspace{5mm} + \hspace{5mm}
+						\ch{\fracHalf H2 \stG}
+					\schemestop
+				}
+
+			% end subsubsection
+
+			\pagebreak
+			\subsubsection{Reaction with Bases}
+
+				Unlike alcohols, phenols are strong enough to react with bases, also forming ionic salts in a similar manner.
+
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Aqueous base (eg. \ch{NaOH}, \ch{KOH}, etc.), room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}Phenol dissolves.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{\ch{NaOH \stAq}}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molOH)--)}
+						\arrow(.base east--.base west)
+						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molO|\mch Na\pch)--)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{\ch{H2O \stG}}
+					\schemestop
+				}
+
+
+			% end subsubsection
+
+		% end subsection
+
+
+		\subsection{Oxidation of Phenols}
+
+			Another trick –– the carbon atom attached to the \ch{OH} group has no hydrogen atom, and so phenols \textit{cannot} be
+			oxidised.
+
+		% end subsection
+
+		\subsection{Electrophilic Substitution of Phenols}
+
+			Phenols can undergo electrophilic substitution on the other, non \ch{OH}-substituted positions. This is more a characteristic
+			of the underlying benzene ring than it is of the \ch{OH} group, however.
+
+			Still, the \ch{OH} group is electron-donating via the resonance effect (due to the overlap of the p-orbital of the \ch{O} atom
+			with the π-electron cloud of the benzene ring), and as such is an \textit{activating} substituent. Thus, the electron density
+			in the ring is increased, and it undergoes electrophilic substitution reactions with greater ease.
+
+			Note that the \ch{OH} group is \textit{ortho/para}, or 2,4-directing.
+
+			\pagebreak
+			\subsubsection{Halogenation of Phenols}
+
+				Due to the activating nature of the \ch{OH} group, it facilitate electrophilic substitution of hydrogens on the benzene ring
+				without the use of a catalyst (eg. anhydrous \ch{FeBr3} like for normal benzene), and at room temperature as well.
+
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Br2 \stAq} / \ch{\chlorine 2 \stAq}, room temperature.}
+
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} \ch{Br2 \stAq} / \boit{\color{Goldenrod}pale yellow} \ch{\chlorine2 \stAq} decolourises,			\tabto{35mm}white precipitate is formed.}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{Br})---(-[:90]!\molOH)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{X2 \stAq}
+					\arrow
+					\ch{HX}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.15em]
+					{**6(-(-[:270]!\molX)--(-[:30]!\molX)-(-[:90]!\molOH)-(-[:150]!\molX)-)}
+					\schemestop
+				}
+
+
+				Alternatively, to prevent tri-substitution, methods can be employed to reduce the electrophilic reactivity of bromine, including
+				using a non-polar inert solvent to prevent instantaneous dipole moments (or induced dipole moments in fact), and reducing
+				the temperature.
+
+
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Br2 \stL} / \ch{\chlorine 2 \stG} in inert, non-polar solvent (eg. \ch{C\chlorine 4}), room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+
+				\diagram[0.9]{
+					\schemestart[0, 1.5, thick]
+					\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{Br})---(-[:90]!\molOH)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{Br2 \stL}
+					\arrow
+					\ch{HX}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{X})--(-[:30]!\molX)-(-[:90]!\molOH)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.15em]{**6(-(-[:270]!\molX)---(-[:90]!\molOH)--)}
+					\schemestop
+				}
+
+
+
+			% end subsubsection
+
+			\pagebreak
+
+			\subsubsection{Nitration of Phenols}
+
+				Similar to benzene, phenols can also be nitrated, but this time without requiring concentrated \ch{H2SO4} as a catalyst.
+				The degree of substitution can be controlled using the concentration of \ch{HNO3} used.
+
+				Concentrated \ch{HNO3} can be used to achieve tri-substitution, 'moderately concentrated' for di-substitution, and
+				dilute \ch{HNO3} for mono-substitution.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{HNO3 \stAq}, room temperature.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+					\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{!\molNitro})---(-[:90]!\molOH)--)}
+					\arrow{->[dil. \ch{HNO3}]}
+					\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{!\molNitro})--(-[:30]!\molNitro)-(-[:90]!\molOH)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.15em]{**6(-(-[:270]!\molNitro)---(-[:90]!\molOH)--)}
+					\schemestop
+				}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3 \stAq}, room temperature.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+					\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{!\molNitro})---(-[:90]!\molOH)--)}
+					\arrow{->[conc. \ch{HNO3}]}
+					\chemfig[yshift=-1.15em]{**6(-(-[:270]!\molNitro)--(-[:30]!\molNitro)-(-[:90]!\molOH)-(-[:150]!\molNitro)-)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+			\pagebreak
+			\subsubsection{Formation of Complex with \ch{Fe\chlorine3}}
+
+				Phenol can form a complex with neutral \ch{Fe\chlorine3 \stAq}, forming a violet complex. This reaction is mainly
+				used as a distinguishing test for the presence of phenol, due to the very obvious colour.
+
+				However, the violet only applies to unsubstituted phenol –– the colour might change slightly if the phenol is
+				indeed substituted.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Neutral \ch{Fe\chlorine3 \stAq}, room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Violet}Violet} complex formed.}
+
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+					6 \hspace{2mm} \arrow{0}[,0]
+					\chemfig{[:270]**6(----(-[:0]!\molOH)--)}
+					\arrow{->[neutral \ch{Fe3+ \stAq}]}
+					\chemleft[
+					\chemfig{[:270]**6(-(-[:180,0.3,,,draw=none]@{left}\phantom{X})---(-[:0]{\color{Red}O}(-[@{right,0.25}:0,1.5,,,-Stealth]Fe))--)}
+					\chemright]
+					\schemestop
+
+					\chemmove{\node[xshift=3mm] at (c3.north east) {3–};}
+					\makebraces[2.5em, 2.5em]{6}{left}{right}
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+	% end section
 
 % end part

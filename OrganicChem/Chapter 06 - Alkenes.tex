@@ -3,8 +3,8 @@
 
 
 \pagebreak
-\part{Alkenes}
 \hypertarget{ChapterAlkenes}{}
+\part{Alkenes}
 
 	\section{Open Chain}
 
@@ -55,7 +55,7 @@
 
 		\subsection{Structure}
 
-			One of the important intermediate products are carbocations, which are alkyl groups with an sp\sps{2} hybridised
+			One of the important intermediate products are carbocations, which are alkyl groups with an \sptwo hybridised
 			central carbon atom, and carries a positive charge on that atom.
 
 			\diagram{
@@ -87,6 +87,61 @@
 		% end subsection
 
 	\pagebreak
+	\section{Creation of Alkenes}
+
+		There are two methods of creating alkenes that are covered here, both of which involve elimination reactions, where a small
+		molecule is \textit{eliminated} along an alkane, and a double bond formed in its place.
+
+		For brevity, only the conditions and overall reaction will be covered.
+
+		\subsection{Elimination of Hydrogen Halide}
+
+			The main section that elaborates on this reaction can be found \hyperlink{HydrogenHalideElimination}{\boit{here}}, in the
+			chapter on halogenoalkanes.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Ethanolic \ch{KOH} or \ch{NaOH}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]H)(-[:90]H)(-[:270]!\molX)-C(-[:90]H)(-[:270]H)(-[:0]H)}
+					\arrow{->[\ch{OH-}][heat]}
+					\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Dehydration (Elimination of Water)}
+
+			Detail on this reaction, including the handling of isomers via Zaitsev's rule, can be found
+			\hyperlink{AlcoholDehydration}{\boit{here}}, in the chapter on alcohols.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Excess concentrated \ch{H2SO4}, \SI{170}{\celsius}, \textit{OR}
+										\tabto{35mm}\ch{\aluminium2O3}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:90]H)(-[:270]H)(-[:180]H)-[:0]C(-[:90]H)(-[:0]H)(-[:270]!\molOH)}
+					\arrow
+					\chemfig{C(-[:135]H)(-[:225]H)=[:0]C(-[:45]H)(-[:315]H)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+
+		% end subsection
+
+	% end section
+
+	\pagebreak
 	\section{Alkene Reactions}
 
 	\subsection{Electrophilic Addition}
@@ -106,7 +161,6 @@
 			\vspace{1.5em}
 			\vbox{\textbf{Conditions:}\tabto{35mm}Gaseous HX (usually \ch{H\chlorine} or \ch{HBr}).}
 
-			% % \vspace{1.0em}
 			\paragraph{Step 1}
 
 			\diagram[0.95]{
@@ -152,7 +206,6 @@
 			Since this step involves the reaction of two oppositely-charged species, it is a fast step.
 
 
-			% % \vspace{1.0em}
 			\paragraph{Overall Reaction}
 
 			\diagram[1.0]{
@@ -264,10 +317,9 @@
 
 			\vspace{1.5em}
 
-			\vbox{\textbf{Conditions:}\tabto{35mm}No UV Light, gaseous \ch{X2}.}	% again, single line, no need for \vspace{0.5em}
-			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Mahogany}Reddish-brown} \ch{Br2} / \textit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}No UV Light, gaseous \ch{X2}.}	% again, single line, no need for \vspace{0.5em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
 
-			% \vspace{1.0em}
 			\paragraph{Step 1}
 
 			This initial step is the slow, rate-determining one. It involves breaking of the π-bond, as well as the \ch{X-X} bond.
@@ -290,7 +342,6 @@
 			}
 
 
-			% \vspace{1.0em}
 			\paragraph{Step 2}
 
 			In the second, fast step, the negatively-charged bromide ion from the first step attacks the overall
@@ -311,7 +362,6 @@
 				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b1) .. controls +(330:8mm) and +(350:8mm) .. (x);}
 			}
 
-			% \vspace{1.0em}
 			\pagebreak
 			\paragraph{Overall Reaction}
 
@@ -342,18 +392,17 @@
 
 			The mechanics of this reaction are basically the same as that of the electrophilic addition of \ch{Br2}.
 			The conditions and observations are fairly similar as well, except for the colour change –– aqueous
-			\ch{Br2} is \textit{\color{Dandelion}yellow}, not reddish-brown.
+			\ch{Br2} is \boit{\color{Dandelion}yellow}, not reddish-brown.
 
 			Also, since the \ch{Br} atoms are not both added across the double bond in a symmetrical manner,
 			Markovnikov's Rule applies –– the OH group will preferentially attack the carbon that has more stabilising alkyl groups.
 
 			\vspace{1.5em}
-			\vbox{\textbf{Conditions:}\tabto{35mm}No UV Light, aqueous \ch{Br2}.}	% again, single line, no need for \vspace{0.5em}
-			\vbox{\textbf{Observations:}\tabto{35mm}\textit{\color{Dandelion}Yellow} \ch{Br2 \stAq} decolourises.}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}No UV Light, aqueous \ch{Br2}.}	% again, single line, no need for \vspace{0.5em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} \ch{Br2 \stAq} decolourises.}
 
 
 
-			% \vspace{1.0em}
 			\paragraph{Step 1}
 			\diagram[0.90]{
 				\schemestart[0, 1.5, thick]
@@ -372,7 +421,6 @@
 
 
 
-			% % \vspace{1.0em}
 			\paragraph{Step 2}
 
 			Once the cyclic bromonium ion is formed however, it is susceptible to attack from
@@ -397,7 +445,6 @@
 
 
 
-			% % \vspace{1.0em}
 			\paragraph{Overall Reaction}
 
 			\diagram[0.75]{
@@ -438,7 +485,6 @@
 
 
 
-			% % \vspace{1.0em}
 			\paragraph{Step 0}
 
 			The first step is to form \ch{H3O+ \stAq}. Simply put, it is aqueous \ch{H+}.
@@ -456,7 +502,6 @@
 			}
 
 
-			% % \vspace{1.0em}
 			\paragraph{Step 1}
 
 			The electron-rich double-bond (\ch{C=C}) is then attacked by one of the \ch{H} atoms on the \ch{H3O+}, acting as an
@@ -502,7 +547,6 @@
 				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=3mm](oxy) .. controls +(45:12mm) and +(110:12mm) .. (carb);}
 			}
 
-			% \vspace{1.0em}
 			\paragraph{Step 3}
 
 			The acid catalyst is regenerated as a lone pair on another water molecule's \ch{O} atom attacks the extra \ch{H} of the \ch{OH} group.
@@ -523,7 +567,6 @@
 				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](o2) .. controls +(135:25mm) and +(45:15mm) .. (hyd);}
 			}
 
-			% \vspace{1.0em}
 			\paragraph{Overall Reaction}
 
 
@@ -584,8 +627,8 @@
 		agent, \ch{MnO4-}, is reduced, forming \ch{Mn2+}.
 
 		\vspace{1.5em}
-		\vbox{\textbf{Conditions:}\tabto{35mm}Cold \ch{KMnO4}, acid (\ch{H2SO4}).}	% again, single line, no need for \vspace{0.5em}
-		\vbox{\textbf{Observations:}\tabto{35mm}{\textit{\color{Plum}Purple}} \ch{KMnO4} decolourises.}
+		\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{KMnO4}, acid (\ch{H2SO4}).}	% again, single line, no need for \vspace{0.5em}
+		\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises.}
 
 
 		\diagram[0.9]{
@@ -609,9 +652,9 @@
 		\ch{MnO2}.
 
 		\vspace{1.5em}
-		\vbox{\textbf{Conditions:}\tabto{35mm}Cold \ch{KMnO4}, aqueous base (\ch{NaOH}).}	% \vspace{0.5em}
-		\vbox{\textbf{Observations:}\tabto{35mm}{\textit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming
-			a {\textit{\color{Brown}brown}} precipitate of \ch{MnO2}.}
+		\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{KMnO4}, aqueous base (\ch{NaOH}).}	% \vspace{0.5em}
+		\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming
+			a {\boit{\color{Brown}brown}} precipitate of \ch{MnO2}.}
 
 
 		\diagram[0.9]{
@@ -630,6 +673,7 @@
 
 
 	\pagebreak
+	\hypertarget{OxidativeCleavageOfAlkenes}{}
 	\subsection{Oxidative Cleavage (Strong Oxidation) of Alkenes}
 
 		When the \ch{KMnO4} solution containing an alkene is heated, \textit{strong oxidation} will take place. The double bond is
@@ -638,6 +682,10 @@
 
 		Furthermore, only a strong oxidising agent like \ch{MnO4-} can be used. The difference between mild and strong oxidation also
 		depends \textit{only} on the temperature of the reacting solution. Only heated solutions will result in oxidative cleavage.
+
+		\vspace{1.5em}
+		\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{KMnO4}, dilute \ch{H2SO4}, heat.}	% \vspace{0.5em}
+		\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming colourless \ch{Mn^2+}.}
 
 		\vspace{1.0em}
 
