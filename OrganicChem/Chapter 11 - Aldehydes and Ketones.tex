@@ -148,103 +148,25 @@
 
 	% end section
 
+	\pagebreak
 	\section{Aldehyde and Ketone Reactions}
 
 		\subsection{Nucleophilic Addition}
 
-			Due to the electronegativity of the oxygen atom, the electron density is drawn towards it. Thus, the carbon atom is able
-			to be attacked by electrophiles due to its partial positive charge.
-
-			Note that aldehydes will be more reactive than ketones in nucleophilic addition, since they only have one electron-donating
-			alkyl group on the central carbon, whereas ketones have two alkyl groups that are able to inductively donate electrons to
-			stabilise the positive charge, slightly reducing reactivity.
-
-			\pagebreak
-			\subsubsection{Mechanism of Nucleophilic Addition}
-
-				The mechanism is a two-step mechanism with the slow step as the first step. Here, the nucleophilic addition of \ch{CN} to
-				a carbonyl will be illustrated.
-
-				\paragraph{Step 1}
-
-				Here, the central carbon is attacked by the nucleophile. This also serves to repel the electrons in the π-bond towards the
-				electronegative \ch{O} atom, forming a stable alkoxide anion.
-
-				\diagram[1.0]{
-					\schemestart[0,1.5,thick]
-						\chemfig{@{carb}\chemabove{C}{\smdeltap}(-[:120]!\molR)(-[:240]!\molR)(=[@{bond}:0]@{oxy}\chemabove{\color{Red}O}{\smdeltam})}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{@{cn}\lewis{6:,C}|{\color{RoyalBlue}N}\mch}
-						\arrow{->[slow]}
-						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molO\mch)(-[:270]!\molCN)}
-					\schemestop
-
-					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](cn) .. controls +(270:20mm) and +(270:20mm) .. (carb);}
-					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](bond) .. controls +(270:8mm) and +(270:8mm) .. (oxy);}
-				}
+			Like all other mechanisms, the reaction mechanism for this can be found in
+			\hyperlink{AppendixNucleophilicAddition}{\boit{the appendix}}. Note that the trigonal-planar nature of the carbonyl makes it
+			open to attack from both sides, which can result in stereoisomers and chirality.
 
 
-				\paragraph{Step 2}
-
-				Now, the alkoxide ion attacks an undissociated \ch{HCN} molecule, protonating itself and regenerating the \ch{CN-} nucleophile.
-
-				\diagram[1.0]{
-					\schemestart[0,1.5,thick]
-						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]@{oxy}\lewis{2:,\color{Red}O}|\mch)(-[:270]!\molCN)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{@{hyd}H-[@{bond}:0]@{carb}C|{\color{RoyalBlue}N}}
-						\arrow{->[fast]}
-						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{!\molCN\mch}
-					\schemestop
-
-
-					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oxy) .. controls +(90:15mm) and +(90:15mm) .. (hyd);}
-					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](bond) .. controls +(270:8mm) and +(270:8mm) .. (carb);}
-				}
-
-				\paragraph{Overall Reaction}
-
-				\diagram[1.0]{
-					\schemestart[0,1.5,thick]
-						\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]!\molO)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{H-!\molCN}
-						\arrow
-						\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
-					\schemestop
-				}
-
-			%end subsubsection
-
-
-			\pagebreak
-			\subsubsection{Stereoisomerism of Product}
-
-				Since the carbonyl is trigonal planar, the nucleophile can attack from either the top or bottom side, with equal probability.
-				Hence, if the product formed is chiral, the resulting solution will be a \textit{racemic mixture}.
-
-				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
-					\chemfig{@{carb}\chemabove{C}{\hspace{7mm}\smdeltap}(=[:0]\chemabove{\color{Red}O}{\hspace{5mm}\smdeltam})(<:[:120]!\molPropyl)(<[:240]!\molEthyl)}
-					\hspace{5mm}
-					\chemfig{@{cn}\lewis{4:,C\color{RoyalBlue}N}\mch}
-					\arrow(main.east--top.west){->[50\%]}[30]
-					\chemfig{C(-[:90]!\molCN)(-[:210]!\molOH)(<:[:-15]!\molPropyl)(<[:315]!\molEthyl)}
-					\arrow(@main.east--bottom.west){->[][50\%]}[-30]
-					\chemfig{C(-[:270]!\molCN)(-[:150]!\molOH)(<:[:45]!\molPropyl)(<[:15]!\molEthyl)}
-					\schemestop
-
-				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm]($(cn) + (-0.5,0)$) .. controls
-				    	+(90:20mm) and +(90:20mm) .. (carb) node [pos=0.5,above,font=\footnotesize] {top face attack};}
-
-				    \chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm]($(cn) + (-0.5,0)$) .. controls
-				    	+(270:20mm) and +(270:20mm) .. (carb) node [pos=0.5,below,font=\footnotesize] {bottom face attack};}
-				}
-
-
-			% end subsubsection
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]!\molO)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molCN}
+					\arrow
+					\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
+				\schemestop
+			}{This is the basic scheme for nucleophilic addition.}
 
 			\subsubsection{Formation of Nitriles (Cyanohydrins)}
 

@@ -41,6 +41,9 @@ $(POUTPUT): $(PSRC) $(FINALPSRC) studynotes.sty
 %.pdf: %.tex
 	@cd $(dir $@); $(LATEX) $(FLAGS) $(notdir $<)
 
+%.toc: %.tex
+
+
 
 # haha
 clena: clean

@@ -57,32 +57,52 @@
 
 % \input{"Chapter 01 - Functional Groups"}
 % \input{"Chapter 02 - Isomers"}
-% \input{"Chapter 03 - Reaction Mechanisms"}
+\input{"Chapter 03 - Reaction Mechanisms"}
 % \input{"Chapter 04 - Induction and Resonance"}
 % \input{"Chapter 05 - Alkanes"}
 % \input{"Chapter 06 - Alkenes"}
-\input{"Chapter 07 - Arenes"}
+% \input{"Chapter 07 - Arenes"}
 % \input{"Chapter 08 - Halogen Derivatives"}
 % \input{"Chapter 09 - Alcohols"}
 % \input{"Chapter 10 - Phenols"}
 % \input{"Chapter 11 - Aldehydes and Ketones"}
+% \input{"Chapter 12 - Carboxylic Acids"}
 
 
-\renewcommand\thepart{\Alph{part}}
+
+
+
+
+
+
+
+
+
+
 
 
 \pagebreak
-\vspace*{50mm}
-\begin{center}\hugetext{Addendums}\end{center}
+
+\vspace*{65mm}
+\begin{center}\hugetext{Appendices}\end{center}
 \normtext
 
 Herein lie things that \textit{must} be known, but for brevity are excluded from the main text.
+
+% disable page numbers for this "cover" page.
+\thispagestyle{empty}
 \pagebreak
 
 
-\setcounter{part}{0}
-\input{"Addendum A - List of Reaction Mechanisms"}
 
+
+
+\setcounter{part}{0}
+\renewcommand\thepart{\Alph{part}}
+\renewcommand\theHpart{appendix.\thepart}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\input{"Appendix A - List of Reaction Mechanisms"}
 
 
 

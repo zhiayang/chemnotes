@@ -50,13 +50,14 @@
 
 
 	\pagebreak
+	\hypertarget{AreneReactions}{}
 	\section{Arene Reactions}
 
 		Benzene undergoes substitution reactions rather than addition reactions, since adding atoms to the ring would destroy the
 		delocalised π-system of the ring, which is energetically unfavourable. Instead, the \ch{H} atoms on the ring are substituted.
 
-		The main mechanism for this is electrophilic substitution, the details of which can be found in the
-		\hyperlink{AddendumElectrophilicSubstitution}{\boit{addendum}}.
+		The main mechanism for this is electrophilic substitution, the details of which can be found in
+		\hyperlink{AppendixElectrophilicSubstitution}{\boit{the appendix}}.
 
 
 		\subsection{Nitration of Benzene}
@@ -69,73 +70,6 @@
 										\tabto{35mm}\textit{Constant} temperature of \SI{50}{\celsius}.}
 			\vspace{0.75em}
 			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
-
-
-			\vspace{1.0em}
-			\subsubtext{\vbox{IV.\tabto{10mm}A New Electrophile}}
-
-			Since \ch{H2SO4} is a stronger acid than \ch{HNO3}, it donates a proton to \ch{HNO3}, forming \ch{H2O}, \ch{HSO4-}, and \ch{NO2+}, the
-			electrophile. Next, another molecule of \ch{H2SO4} then forms \ch{H+ \stAq}, or \ch{H3O+}. The overall equation is as such:
-
-			\diagram{
-				\schemestart[0, 1.0, thick]
-					\ch{2 H2SO4} \hspace{2mm} + \hspace{2mm} \ch{HNO3}
-					\arrow
-					\ch{NO2+} \hspace{2mm} + \hspace{2mm} \ch{H3O+} \hspace{2mm} + \hspace{2mm} \ch{2 HSO4-}
-				\schemestop
-			}{The catalyst \ch{H2SO4} is restored in a later step.}
-
-
-			% \vspace{2.0em}
-			\pagebreak
-			\subsubtext{\vbox{V.\tabto{10mm}The π-Electrons Strike Back}}
-
-			Now that the electrophile \ch{NO2+} has been formed, it is attacked by the π-system. As with all electrophilic substitutions, this
-			involves the breaking of the aromatic system, and is the slow step. The mechanism follows the general mechanism outlined above.
-
-			\diagram[1.0]{
-				\schemestart[0, 1.5, thick]
-				\chemfig{**6(---@{ring}---)}
-				\arrow{0}[,0]		% used for alignment
-				\hspace{5mm} + \hspace{5mm}
-				\chemfig{@{el}\ch{NO2+}}
-				\arrow(--.base west){->[slow]}
-				\chemfig[yshift=\the\dimexpr-1.5em\relax]{**[60,-240]6(----(-[:135]H)(-[:45]!\molNitro)--)(-[:30,,,,draw=none]+)}
-				\schemestop
-
-				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-4mm,shorten >=1mm](ring) .. controls +(40:8mm) and +(120:8mm) .. (el);}
-			}
-
-
-
-
-			\vspace{1.0em}
-			\subsubtext{\vbox{VI.\tabto{10mm}Return of the Aromaticity}}
-
-			The \ch{HSO4-} intermediate acts as a nucleophile and attacks the \ch{H} atom bonded to the benzene intermediate. This
-			restores both the π-system of the benzene ring, as well as the catalyst, \ch{H2SO4}.
-
-
-			% TODO: fix alignment (more?)
-			\diagram[0.85]{
-				\schemestart[0, 1.5, thick]
-				\chemfig{!\molS(=[:180]!\molO)(=[:270]!\molO)(-[:90]@{oxy}\lewis{2:,\color{Red}O}|\mch)(-[:0]!\molOH)}
-				\hspace{5mm} + \hspace{5mm}
-				\chemfig[yshift=-1.5em]{**[60,-240]6(----(-[@{bond}:135]@{hyd}H)(-[:45]!\molNitro)--)(-[:30,,,,draw=none]@{plus}+)}
-				\arrow(.mid east--.mid west){->[fast]}
-				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molNitro)--)}
-				\hspace{5mm} + \hspace{5mm}
-				\chemfig{!\molS(=[:180]!\molO)(=[:270]!\molO)(-[:90]!\molOH)(-[:0]!\molOH)}
-				\schemestop
-
-				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oxy) .. controls +(90:15mm) and +(120:15mm) .. (hyd);}
-				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=1mm,shorten >=1mm](bond) .. controls +(225:8mm) and +(90:8mm) .. (plus);}
-			}
-
-
-
-			\vspace{1.0em}
-			\subsubtext{\vbox{VII.\tabto{10mm}Overall Reaction}}
 
 			\diagram[1.0]{
 				\schemestart[0, 2.0, thick]
@@ -159,6 +93,7 @@
 				Aluminium-based analogues of these catalysts (\ch{\aluminium Br3}, \ch{\aluminium\chlorine3}) can also be used, as can pure
 				filings of the metal, in which case the catalyst will be generated \textit{in-situ} (\ch{2 Fe \stS} + \ch{3 Br2 \stL} -> \ch{2 FeBr3}).
 
+				The in-depth explanation about the need for an anhydrous catalyst can be found \hyperlink{BenzeneHalogenationCatalyst}{\boit{here}}.
 
 				\vspace{1.5em}
 				\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
@@ -169,99 +104,17 @@
 				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
 											\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
 
-
-				\subsubsection{Conditions for Reaction}
-
-					Lewis acid catalysts must be used, since the \ch{Br-Br} and \ch{\chlorine-\chlorine} are only instantaneously polar (instantaneous
-					dipole moments). As such, they are nowhere near strong enough to attack the benzene system on their own.
-
-					Indeed, this can be used to distinguish between alkenes and benzenes, since the former does not require a catalyst for addition
-					of halogens.
-
-					Furthermore, the entire reaction must be conducted in the absence of water; the reaction mechanism for the lewis-acid catalyst
-					involves accepting a lone pair, the lone pair on water can, and will, in sufficient concentrations, destroy the catalyst.
-
-				% end subsubsection
-
-
-
-				\subsubsection{Reaction Mechanism}
-
-					\paragraph{Generation of Electrophile}
-
-					The reaction below uses Iron (III) chlorine (\ch{Fe\chlorine3}) as an example, adding \ch{\chlorine} to benzene,
-					and this reaction mechanism applies to aluminium-based catalysts as well.
-
-					\diagram{
-						\schemestart[0, 1.0, thick]
-							\ch{FeBr3} \hspace{2mm} + \hspace{2mm} \ch{Br2}
-							\arrow
-							\ch{Br+} \hspace{2mm} + \hspace{2mm} \ch{FeBr4-}
-						\schemestop
-					}{The catalyst is \ch{FeBr4-}, and the \textit{electrophile} is \ch{Br+}}
-
-
-					\pagebreak
-
-					\paragraph{Formation of Benzene Intermediate}
-
-					Again, this mechanism is similar in nature to electrophilic substitution in general. Now, the electrophile (\ch{Br+}) attacks
-					the π-system, forming the arenium ion.
-
-					\diagram[1.0]{
-						\schemestart[0, 1.5, thick]
-						\chemfig{**6(---@{ring}---)}
-						\arrow{0}[,0]		% used for alignment
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{@{el}!\molBr}
-						\arrow(--.base west){->[slow]}
-						\chemfig[yshift=\the\dimexpr-1.5em\relax]{**[60,-240]6(----(-[:135]H)(-[:45]!\molBr)--)(-[:30,,,,draw=none]+)}
-						\schemestop
-
-						\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-4mm,shorten >=3mm](ring) .. controls +(40:8mm) and +(120:8mm) .. (el);}
-					}
-
-
-					\paragraph{Restoration of π-system and Aromaticity}
-
-					In the final step, the \ch{FeBr4-} acts as a nucleophile, attacking the \ch{H} atom attached to the benzene intermediate. This
-					regenerates the catalyst \ch{FeBr3}, and also forms \ch{HBr}.
-
-
-					\diagram[0.85]{
-						\schemestart[0, 1.5, thick]
-						\chemfig{Fe(-[:180]!\molBr)(-[:0]!\molBr)(-[:90]@{brom}\lewis{2:,\color{Mahogany}Br}|\mch)(-[:270]!\molBr)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig[yshift=-1.5em]{**[60,-240]6(----(-[@{bond}:135]@{hyd}H)(-[:45]!\molBr)--)(-[:30,,,,draw=none]@{plus}+)}
-						\arrow(.mid east--.mid west){->[fast]}
-						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{\ch{FeBr3}}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{\ch{HBr}}
-						\schemestop
-
-						\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](brom) .. controls +(90:15mm) and +(120:15mm) .. (hyd);}
-						\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=1mm,shorten >=1mm](bond) .. controls +(225:8mm) and +(90:8mm) .. (plus);}
-					}
-
-
-
-					\paragraph{Overall Reaction}
-
-					\diagram[1.0]{
-						\schemestart[0, 1.5, thick]
-						\chemfig{\ch{Br2}}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig[yshift=-1.5em]{**6(------)}
-						\arrow(.base east--.base west)
-						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{\ch{HBr}}
-						\schemestop
-					}
-
-				% end subsubsection
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{\ch{Br2}}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.5em]{**6(------)}
+					\arrow(.base east--.base west)
+					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{\ch{HBr}}
+					\schemestop
+				}
 
 			% end subsection
 
@@ -489,10 +342,8 @@
 			\pagebreak
 			\subsubsection{Free Radical Substitution}
 
-				In the absence of Lewis-acid catalysts, halogens will not react with the benzene ring, due to the high unfavourability of
-				that reaction. However, remember that reactants can, and will, react with \textit{any} functional group on the molecule. In
-				this case, the halogens will react with the alkyl side-chain of the alkylbenzene. The conditions are identical to that of
-				regular free radical substitution.
+				In the absence of Lewis-acid catalysts, halogens will not react with the benzene ring. In this case, the halogens will
+				react with the side-chain of the alkylbenzene, with UV light.
 
 				\vspace{1.5em}
 
