@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  21 APR 2016 17:57
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.1.30)  23 APR 2016 22:08
  \write18 enabled.
 **OrganicChem.tex
 (./OrganicChem.tex
@@ -1253,7 +1253,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.086 seconds)
+luaotfload | main : initialization completed in 0.085 seconds)
 Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
 \l_fontspec_script_int=\count292
 \l_fontspec_language_int=\count293
@@ -3260,7 +3260,7 @@ se].
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
 .................................................
-\mylen=\skip138
+\titleNumberInsetLength=\skip138
 )
 Package translations Info: No language package found. I am going to use `english
 ' as default language. on input line 11.
@@ -3518,9 +3518,11 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
+)"
+luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
+)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
-10)"
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
 File: se-pdfdoc.def 2011/12/02 v1.10 stringenc: PDFDocEncoding
 )
@@ -3535,15 +3537,13 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
 luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
-10)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)")
+10)")
 \tf@toc=\write5
 
 \openout5 = OrganicChem.toc
  [2]
 Package hyperref Info: Option `pageanchor' set `true' on input line 52.
- ("./Chapter 03 - Reaction Mechanisms.tex"
+ ("./Chapter 12 - Carboxylic Acids.tex"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
@@ -3552,119 +3552,86 @@ luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
 )"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [1
+]
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
 3)"
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 30.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 47.
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
-3)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
-3)" [1]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [2
-])
-[3]
-luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
-3)" [4] ("./Appendix A - List of Reaction Mechanisms.tex"
+]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
+dfont(13)" [3]
+luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
+)"
+luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
+)"
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+[4]
 luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [5
 ]
-luaotfload | load : Lookup/name: "HelveticaNeue-Thin" -> "HelveticaNeue.dfont(11
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 54.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 54.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 54.
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 54.
- [6]
-luaotfload | load : Lookup/name: "HelveticaNeue-Medium" -> "HelveticaNeue.dfont(
-10)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [7
-]
-LaTeX Font Info:    Calculating math sizes for size <21> on input line 161.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <21> on input line 161.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.69994> on input line 161.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.5> on input line 161.
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-Light" -> "HelveticaNeue.dfont(4
-)"
-luaotfload | load : Lookup/name: "HelveticaNeue-MediumItalic" -> "HelveticaNeue.
-dfont(13)" [8]
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
-[9] [10] [11] [12] [13] [14] [15]
 luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
-3)" [16] [17] [18] [19] [20]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 923.
-
-[21]
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)"
+3)" [6] [7] [8]
+luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
+3)"
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 373.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 1006.
-luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [2
-2]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 1009.
-
-[23]) [24]
+(Font)              <14> on input line 373.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.79996> on input line 373.
+luaotfload | load : Lookup/name: "HelveticaNeue" -> "HelveticaNeue.dfont(1)" [9
+] [10]) [11]
+luaotfload | load : Lookup/name: "HelveticaNeue-Italic" -> "HelveticaNeue.dfont(
+3)" [12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./OrganicChem.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 117.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 52575 strings out of 494897
- 125023,1373583 words of node,token memory allocated
- 653 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 94 glue_spec, 6 attrib
-ute_list, 1 write nodes
-   avail lists: 1:152,2:13751,3:4180,4:4103,5:237,6:1539,7:126,8:153,9:1982,10:1
-53,11:44,12:50
- 54178 multiletter control sequences out of 65536+600000
- 291 fonts using 34553543 bytes
- 78i,24n,107p,800b,2422s stack positions out of 5000i,500n,10000p,200000b,100000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local
-/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/texmf-dist/f
-onts/enc/dvips/lm/lm-mathsy.enc}<./HelveticaNeue.k8gzpa><./HelveticaNeue.6DOUK1>
-<./HelveticaNeue.Hk5P6D><./HelveticaNeue.BdJHj8><./HelveticaNeue.VHVimG><./Helve
-ticaNeue.RKbR5u><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex1
-0.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><</u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><</usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><</usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/lm/lmr12.pfb><</usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/lm/lmr8.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/lm/lmsy8.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/l
-msy9.pfb>
-Output written on OrganicChem.pdf (26 pages, 215022 bytes).
+ 51380 strings out of 494897
+ 125042,1373583 words of node,token memory allocated
+ 609 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 7 attribute, 94 glue_spec, 7 attrib
+ute_list, 2 write nodes
+   avail lists: 1:67,2:7754,3:2311,4:2544,5:217,6:1854,7:62,8:56,9:1153,10:178,1
+1:32,12:17
+ 53115 multiletter control sequences out of 65536+600000
+ 219 fonts using 26764519 bytes
+ 78i,17n,107p,800b,2422s stack positions out of 5000i,500n,10000p,200000b,100000s
+LuaTeX warning (dest): name{AppendixReducingAgents} has been referenced but does
+ not exist, replaced by a fixed one
 
-PDF statistics: 372 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 131072)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+LuaTeX warning (dest): name{EsterificationCarboxylicAcids} has been referenced b
+ut does not exist, replaced by a fixed one
+
+LuaTeX warning (dest): name{OxidativeCleavageOfAlkenes} has been referenced but 
+does not exist, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/tex
+live/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<./HelveticaNeue.MSX4D6><./HelveticaN
+eue.7ItPID><./HelveticaNeue.Uyr3LU><./HelveticaNeue.gRCKmg><./HelveticaNeue.1IWj
+3a><./HelveticaNeue.XXh2M2><</usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/lm/lmmi12.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on OrganicChem.pdf (14 pages, 127680 bytes).
+
+PDF statistics: 266 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 131072)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

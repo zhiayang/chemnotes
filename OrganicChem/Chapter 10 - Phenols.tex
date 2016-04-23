@@ -19,8 +19,13 @@
 
 		\subsection{Physical Properties}
 
+			\paragraph{Melting and Boiling Points}
+
 			Most phenols are solids at room temperature, due to the existence of hydrogen bonds facilitated by the \ch{OH} group. As such,
 			their melting points are much higher than simple benzene rings.
+
+
+			\paragraph{Solubility}
 
 			Phenols are moderately soluble in water compared to benzenes, due to the ability to form favourable solvent-solute interactions,
 			again due to the hydrogen bonding provided by the \ch{OH} group. This is despite the large hydrophobic benzene ring.
@@ -50,6 +55,8 @@
 
 
 		\subsection{Reactions as an Acid}
+
+			While phenols can react with bases and metals, they are still too weak of an acid to react with carbonates.
 
 			\subsubsection{Reaction with Metals}
 				In a manner similar to acids and alcohols, phenols can react with \textit{reactive} metals to form ionic salts.
@@ -108,6 +115,7 @@
 			oxidised.
 
 		% end subsection
+
 
 		\subsection{Electrophilic Substitution of Phenols}
 
@@ -209,37 +217,69 @@
 					\schemestop
 				}
 
-			% end subsubsection
-
-			\pagebreak
-			\subsubsection{Formation of Complex with \ch{Fe\chlorine3}}
-
-				Phenol can form a complex with neutral \ch{Fe\chlorine3 \stAq}, forming a violet complex. This reaction is mainly
-				used as a distinguishing test for the presence of phenol, due to the very obvious colour.
-
-				However, the violet only applies to unsubstituted phenol –– the colour might change slightly if the phenol is
-				indeed substituted.
-
-				\vspace{1.5em}
-				\vbox{\textbf{Conditions:}	\tabto{35mm}Neutral \ch{Fe\chlorine3 \stAq}, room temperature.}
-				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Violet}Violet} complex formed.}
-
-
-				\diagram[1.0]{
-					\schemestart[0, 2.0, thick]
-					6 \hspace{2mm} \arrow{0}[,0]
-					\chemfig{[:270]**6(----(-[:0]!\molOH)--)}
-					\arrow{->[neutral \ch{Fe3+ \stAq}]}
-					\chemleft[
-					\chemfig{[:270]**6(-(-[:180,0.3,,,draw=none]@{left}\phantom{X})---(-[:0]{\color{Red}O}(-[@{right,0.25}:0,1.5,,,-Stealth]Fe))--)}
-					\chemright]
-					\schemestop
-
-					\chemmove{\node[xshift=3mm] at (c3.north east) {3–};}
-					\makebraces[2.5em, 2.5em]{6}{left}{right}
-				}
 
 			% end subsubsection
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Formation of Complex with \ch{Fe\chlorine3}}
+
+			Phenol can form a complex with neutral \ch{Fe\chlorine3 \stAq}, forming a violet complex. This reaction is mainly
+			used as a distinguishing test for the presence of phenol, due to the very obvious colour.
+
+			However, the violet only applies to unsubstituted phenol –– the colour might change slightly if the phenol is
+			indeed substituted.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Neutral \ch{Fe\chlorine3 \stAq}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Violet}Violet} complex formed.}
+
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				6 \hspace{2mm} \arrow{0}[,0]
+				\chemfig{[:270]**6(----(-[:0]!\molOH)--)}
+				\arrow{->[neutral \ch{Fe^3+ \stAq}]}
+				\chemleft[
+				\chemfig{[:270]**6(-(-[:180,0.3,,,draw=none]@{left}\phantom{X})---(-[:0]{\color{Red}O}(-[@{right,0.25}:0,1.5,,,-Stealth]Fe))--)}
+				\chemright]
+				\schemestop
+
+				\chemmove{\node[xshift=3mm] at (c3.north east) {3–};}
+				\makebraces[2.5em, 2.5em]{6}{left}{right}
+			}
+
+		% end subsection
+
+
+
+		\subsection{Esterification (Nucleophilic Acyl Substitution)}
+
+			Similar to how alcohols can undergo esterification with carboxylic acids, phenols too can esterify, but only with acyl
+			chlorides. This is because carboxylic acids are too unreactive, and phenols are too poor of a nucleophile to react with any
+			significant yield.
+
+			The poor nucleophile character is caused by the delocalisation of the lone pair on the \ch{O} atom into the π-system. Thus,
+			it is possible to increase the effectiveness of this reaction by deprotonating the phenol, exposing a negatively charged oxygen
+			atom. Note that this is still insufficient to enable a reaction with carboxylic acids.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Acyl chloride, \ch{NaOH \stAq}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[0.9]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.15em]{**6(----(-[:90]!\molOH)--)}
+					\arrow(.base east--.base west)
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO-[:0]**6(------))}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
 
 		% end subsection
 

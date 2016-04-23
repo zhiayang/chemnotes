@@ -6,7 +6,7 @@
 \ProvidesPackage{studynotes}[2013/01/13 Custom Package]
 
 
-\RequirePackage[a4paper, top=22.5mm, bottom=25.0mm, left=25mm, right=25mm]{geometry}
+\RequirePackage[a4paper, top=22.5mm, bottom=25.0mm, left=25.0mm, right=25.0mm]{geometry}
 \RequirePackage[ampersand]{easylist}
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{tabu}
@@ -132,35 +132,35 @@
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
 
-\newlength\mylen
-\setlength\mylen{15mm}
+\newlength\titleNumberInsetLength
+\setlength\titleNumberInsetLength{12.5mm}
 
 \setstretch{1.05}
 
 \titleformat{\part}[hang]
 	{\HNLight\fontsize{35pt}{42pt}\selectfont}
-	{\llap{\hspace*{-\mylen}\normalfont\fontsize{20pt}{24pt}\selectfont\thepart\hfill}}{0.0em}{}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{20pt}{24pt}\selectfont\thepart\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\section}
 	{\HNLight\fontsize{25pt}{30pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
 	{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsubsection}
 	{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}{0.0em}{}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 
 \titleformat{\paragraph}
 	{\HNRegular\fontsize{14pt}{17pt}\selectfont}
-	{\llap{\hspace*{-\mylen}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}{0.0em}{}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 
@@ -267,7 +267,7 @@
 \newcommand	{\hugetext}		[1]{\HNLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
 \newcommand	{\titletext}	[1]{\HNLight\fontsize{40pt}{48pt}\selectfont\textbf{#1}\normtext\ignorespaces}
 \newcommand	{\subtext}		[1]{\HNLight\fontsize{23pt}{28pt}\selectfont\textbf{#1}\normtext\ignorespaces}
-\newcommand	{\subsubtext}	[1]{\HNRegular\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}
+\newcommand	{\subsubtext}	[1]{\HNLight\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}
 
 \newcommand {\sbs}			[1]{\textsubscript{#1}}
 \newcommand {\sps}			[1]{\textsuperscript{#1}}
@@ -361,9 +361,9 @@
 \newcommand {\snone}		{S\sbs{N}1}
 \newcommand {\sntwo}		{S\sbs{N}2}
 
-\newcommand {\spone}		{sp\sps{1}}
-\newcommand {\sptwo}		{sp\sps{2}}
-\newcommand {\spthree}		{sp\sps{3}}
+\newcommand {\spone}		{sp\sps{1} }
+\newcommand {\sptwo}		{sp\sps{2} }
+\newcommand {\spthree}		{sp\sps{3} }
 
 % small(er)
 \newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{+}\normtext }
@@ -427,6 +427,7 @@
 \definesubmol	\molMeR		{H\sbs{3}|C}
 
 \definesubmol	\molCN		{C|{\color{RoyalBlue}N}}
+\definesubmol	\molAmine	{N|H\sbs{2}}
 
 \definesubmol	\molEthyl	{C|H\sbs{2}|C|H\sbs{3}}				% ch2ch3
 \definesubmol	\molPropyl	{C|H\sbs{2}|C|H\sbs{2}|C|H\sbs{3}}	% ch2ch2ch3

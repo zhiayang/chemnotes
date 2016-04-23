@@ -1,0 +1,544 @@
+% Chapter 12 - Carboxylic Acids.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+
+\pagebreak
+\hypertarget{ChapterCarboxylicAcids}{}
+\part{Carboxylic Acids}
+
+	\section{Structure}
+
+		The structure of carboxylic acids is kind of an extension of a ketone or aldehyde –– it features an oxygen atom double-bonded
+		to a carbon atom, with an R group and an \ch{OH} group attached as well.
+
+		\diagram[1.0]{
+			\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+		}{The general structure of a carboxylic acid.}
+
+		The central carbon is \sptwo hybridised, so the bond angle between all three groups is \SI{120}{\degree}.
+
+	% end section
+
+	\section{Physical Properties}
+
+		\paragraph{Melting and Boiling Points}
+
+		Compared to both alkanes, carboxylic acids naturally have higher melting and boiling points. This is mostly due to the large permanent
+		dipole moment, caused by the existence of two electron-withdrawing groups (the \ch{C=O} and \ch{C-OH}), creating a large partial-positive
+		charge (\deltap) on the carbon atom. Thus, hydrogen bonds can form; these bonds are stronger than that in alcohols, because the dipole
+		moment is greater.
+
+		Their melting and boiling points are also higher than that of aldehydes and ketones, since carbonyls lack the \ch{O-H} partial charge
+		disparity to form hydrogen bonds, and rely solely on permanent dipole interactions.
+
+		Note that hydrogen bonds between carboxylic acid molecules typically form between the \ch{H} on the \ch{OH} group, and the \ch{O} atom
+		double-bonded to the central carbon.
+
+		% i hate mid-paragraph breaks, but there is no choice.
+		\pagebreak
+		Furthermore, in both the liquid and gaseous state, two carboxylic acid molecules can \textit{dimerise}, forming double-bonds between
+		each other and effectively increasing molecular mass, which also increases id-id interaction strength.
+
+		% fuck it, we have to draw it as one molecule.
+		\diagram[1.0]{
+			\chemfig{C(-[:180]!\molR)(=[:60]\lewis{0:2:,\color{Red}O}-#(3mm)[:0,2.0,,,blue,dashed]\chemabove{H}{\hspace{1mm}\smdeltap}-\chemabove{\color{Red}O}{\hspace{1mm}\smdeltam}-[:300]C(-[:0]!\molR)(=[:240]\lewis{4:6:,\color{Red}O}-#(3mm)[:180,2.0,,,blue,dashed]\chemabove{H}{\hspace{1mm}\smdeltap}?))(-[:300]\chemabove{\color{Red}O}{\hspace{1mm}\smdeltam}?)}
+
+		}{An illustration of two carboxylic acids dimerising.}
+
+
+
+		\paragraph{Solubility}
+
+		Carboxylic acids are fairly soluble in non-polar solvents, as they exist as the dimerised form shown above. This means that carboxylic acids
+		are not acidic in a non-polar solvent, as they do not dissociate.
+
+		In water, the molecules do not dimerise; instead, they form hydrogen bonds with the water, dissociating into \ch{R-CO2-} and \ch{H+} ions.
+		This tends to increase the solubility due to the formation of favourable solvent-solute interactions.
+
+		However, with carbon chains longer than 5 atoms, solubility decreases due to the bulky alkyl chain.
+
+	% end section
+
+
+	\pagebreak
+	\section{Creation of Carboxylic Acids}
+
+		Carboxylic acids can be created in various ways, but one of the most common ways is through oxidation. Essentially, carboxylic acids
+		are at the 'highest' oxidation state, followed by aldehydes and ketones, then alcohols.
+
+		\subsection{Oxidation of Primary Alcohols}
+
+			When the aldehydes can be oxidised to carboxylic acids. Alternatively, the strong oxidising agent \ch{KMnO4} can be used to
+			immediately create a carboxylic acid from a primary alcohol.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+										\tabto{35mm}heat under reflux.}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+													(\ch{Cr^3+} formed), \textit{OR}
+										\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+				\schemestop
+			}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+				\schemestop
+			}{It is also possible to start with aldehydes, and oxidise them to carboxylic acids.}
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Side-chain Oxidation of Alkylbenzenes}
+
+			As noted in the chapter on arenes, benzene rings with an alkyl chain can undergo side-chain oxidation to form benzoic acid.
+
+			Again, note that the carbon attached to the benzene ring \textit{cannot} be tertiary, ie. it must have at least one hydrogen atom.
+
+
+			\vspace{1.5em}
+
+			\vbox{\textbf{Conditions:}\tabto{35mm}Heat, \ch{KMnO4}, dilute acid or alkali.}
+
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Plum}Purple} \ch{KMnO4} decolourises (\textit{acid}), or
+										\tabto{35mm}forms \boit{\color{Brown}brown} precipitate of \ch{MnO2} (\textit{alkali}).}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molMe)--)}
+				\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{H+}][heat]}
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Hydrolysis of Nitriles}
+
+			As covered in previous chapters, nitriles, \ch{-C+N}, can be hydrolysed to give carboxylic acids.
+
+			\subsubsection{Acid Hydrolysis}
+
+				The more straightforward method is acid hydrolysis –– in this case, a carboxylic acid is immediately produced.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4} or \ch{H\chlorine}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{!\molR-[:0]C~[:0]!\molN}
+						\arrow{->[dil. \ch{H2SO4}][heat with reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\schemestop
+				}
+			% end subsubsection
+
+
+			\subsubsection{Alkaline Hydrolysis}
+
+				The alternative is to conduct the hydrolysis in an alkaline medium using \ch{NaOH}, which gives a carboxylate salt.
+				This salt can be acidified using a dilute acid (I mean, why not start with an acid?) to yield the carboxylic acid.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{!\molR-[:0]C~[:0]!\molN}
+						\arrow{->[dil. \ch{NaOH}][heat with reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+						\arrow(@c1.south east--.north east){0}[-90,.75]
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+						\arrow{->[dil. \ch{H2SO4}]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\schemestop
+				}{The carboxylate salt can be acidified.}
+
+
+			% end subsubsection
+
+		% end subsection
+
+
+		\subsection{Oxidative Cleavage of Alkenes}
+
+			Alkenes can undergo strong oxidation, cleaving the double bond. The details are elaborated on
+			\hyperlink{OxidativeCleavageOfAlkenes}{\boit{here}}, but only one kind of alkene can form a carboxylic, where the carbon
+			atom has one alkyl group and one hydrogen atom.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{KMnO4}, dilute \ch{H2SO4}, heat.}	% \vspace{0.5em}
+			\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming colourless \ch{Mn^2+}.}
+
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:120]!\molMe)(-[:240]H)=[:0]C(-[:60]H)(-[:300]!\molMe)}
+					\arrow{->[\ch{MnO4-}, \ch{H+}][heat]}
+					\chemfig{2}\hspace{2mm}\chemfig{C(-[:180]!\molMe)(=[:60]!\molO)(-[:300]!\molOH)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Hydrolysis of Esters}
+
+			Finally, esters can be hydrolysed to form a carboxylic acid as one of its products. Note that this hydrolysis is preferably
+			conducted in an alkaline medium, since the reaction is slow and reversible in an acidic medium, but fast and irreversible under
+			alkaline conditions. All that is required is a dilute acid to protonate the carboxylate salt after.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4}, heat under reflux, \textit{OR}
+										\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRon)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+					\arrow{<=>[dil. \ch{H2SO4}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRon-[:0]!\molOH}
+				\schemestop
+			}{An alcohol is also formed, but for our purposes the carboxylic acid is the main product.}
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molR)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+					\arrow{->[dil. \ch{NaOH}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRon-[:0]!\molOH}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Hydrolysis of Acyl Chlorides}
+
+			Acyl chlorides, which are a derivative of carboxylic acids where the \ch{OH} group is replaced by a \ch{\chlorine} atom, can
+			be hydrolysed to form a carboxylic acid, and \ch{H\chlorine}.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}\ch{H2O}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{H2O}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Hydrolysis of Amides}
+
+			Amides can be hydrolysed with either acids or bases to give a carboxylic acid, and an amine. If the original amide is unsubstituted,
+			then the result will be \ch{NH3}, or, in an acidic medium, \ch{NH4+}. The products illustrated below can have \ch{R} be an alkyl
+			substituent or a hydrogen atom.
+
+			Note that the formation of \ch{NH4+} is due to the fact that \ch{NH3} is a base, and will react with \ch{H+} ions in the acidic
+			medium.
+
+			\subsubsection{Acid Hydrolysis}
+
+				The hydrolysis of an amide in an acidic medium yields the carboxylic acid directly.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4} or \ch{H\chlorine}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]N|R\sbs{2})}
+						\arrow{->[dil. \ch{H2SO4}][heat with reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+						\hspace{5mm} + \hspace{5mm}
+						\ch{NH2R2+}
+					\schemestop
+				}
+			% end subsubsection
+
+
+			\subsubsection{Alkaline Hydrolysis}
+
+				The alternative is to conduct the hydrolysis in an alkaline medium using \ch{NaOH}, which gives a carboxylate salt.
+				This salt can be acidified using a dilute acid to yield the carboxylic acid.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]N|R\sbs{2})}
+						\arrow{->[dil. \ch{H2SO4}][heat with reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+						\hspace{5mm} + \hspace{5mm}
+						\ch{NHR2}
+					\schemestop
+				}{The carboxylate salt can be acidified later.}
+
+
+			% end subsubsection
+		% end subsection
+	% end section
+
+
+	\section{Carboxylic Acid Reactions}
+
+		\subsection{Acidity of Carboxylic Acids}
+
+			Carboxylic acids are far more acidic than either alcohols or phenols, since the conjugate base (carboxylate anion) is greatly
+			stabilised due to the delocalisation of the negative charge across the two electronegative oxygen atoms.
+
+			\diagram[1.0]{
+				% here's the deal: we draw the carboxylic acid as normal.
+				% then, we draw a benzene ring attached to the carbon.
+				% it is attached with a negative bond length to bring the circle closer to the carbon
+				% the circle is cut off "**[130,230,dashed]6" to certain angles
+				% none of the benzene ring bonds are actually drawn (hence 6(), without ------ inside)
+				% a bond is drawn from the first position to the centre (using bond angle = :0), for the plus.
+				% this is stupid.
+
+				\chemfig{C(-[:60]!\molO)(-[:300]!\molO)(-[:180]!\molR)(
+					-[:0,-0.10,,,draw=none](**[130,230,dashed]6([,,,,draw=none](-[:-5,0.60,,,draw=none]\fscrm))))}
+
+			}{An illustration of this delocalisation.}
+
+			This delocalisation immensely increases the stability of the anion, thus carboxylic acid is a much stronger acid, with a \pKa of
+			\num{4.75}, in contrast with that of ethanol and phenol, which are \num{15.9} and \ch{9.95} respectively.
+
+			\subsubsection{Effect of Substituents}
+
+				In a similar vein to alcohols and phenols, substituents along the carbon chain can act to disperse or intensify the negative
+				charge on the anion, modifying its stability and hence the acidity of the group. Naturally, groups closer to the central
+				carbon have a greater effect than groups further away.
+
+				Electronegative groups and atoms, such as \ch{\chlorine} or \ch{-NO2}, pull electron density away from the carboxyl carbon,
+				dispersing the negative charge and stabilising the anion, hence increasing acidity.
+
+				Conversely, electron-donating groups, most notably alkyl chains, have the opposite effect, intensifying the negative charge
+				and thus destabilising the anion and decreasing acidity. Note that the length of the alkyl chain does not have any significant
+				impact on the acidity.
+
+			% end subsection
+
+		% end subsection
+
+		\subsection{Reactions as an Acid}
+
+			For all intents and purposes, carboxylic acid functions like a weak mineral acid, and can do all the things they can do;
+			neutralise bases, react with metals, and liberate \ch{CO2} gas from carbonates (\ch{CO3^2-}) and hydrogencarbonates (\ch{HCO3-}).
+
+			The reactions will not be discussed in detail here, since they're basically normal acid-base reactions.
+
+		% end subsection
+
+		\subsection{Nucleophilic Acyl Substitution}
+
+			\subsubsection{Formation of Acyl Chlorides}
+
+				The carboxyl carbon undergoes a nucleophilic substitution, replacing the \ch{OH} group with a \ch{\chlorine} group, forming
+				an acyl chloride.
+
+				Similar to alcohols, either \ch{P\chlorine5}, \ch{P\chlorine3}, or \ch{SO\chlorine2} can be used. However, \ch{H\chlorine} will
+				not work to substitute the \ch{OH} group on a carboxylic acid, unlike an alcohol.
+
+
+				\paragraph{Phosphorous Pentachloride (\ch{P\chlorine5})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine5}, room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{P\chlorine\sbs{5}}
+						\arrow
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{PO\chlorine\sbs{3}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\chlorine}
+					\schemestop
+				}
+
+
+				\paragraph{Phosphorous Trichloride (\ch{P\chlorine3})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine3}, room temperature.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{3}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{P\chlorine\sbs{3}}
+						\arrow
+						\chemfig{3}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\sbs{3}PO\sbs{3}}
+					\schemestop
+				}
+
+				\pagebreak
+				\paragraph{Thionyl Chloride (\ch{SO\chlorine2})}
+
+				This reaction is slightly preferred over the others, since both by-products (\ch{SO2} and \ch{H\chlorine}) are
+				gaseous, and would bubble out of the solution, leaving mainly the halogenoalkane in the reaction mixture.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Warm, liquid \ch{SO\chlorine2}.}
+
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}Formation of colourless, pungent \ch{SO2} gas,
+											\tabto{35mm}white fumes of \ch{H\chlorine} gas.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+						\hspace{5mm} + \hspace{5mm}
+						\chemfig{SO\chlorine\sbs{2}}
+						\arrow
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{SO\sbs{2}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\chlorine}
+					\schemestop
+				}
+
+			% end subsubsection
+
+
+			\subsubsection{Esterification}
+
+				As discussed \hyperlink{EsterificationCarboxylicAcids}{\boit{previously}}, carboxylic acids can undergo esterification
+				with alcohols, using concentrated \ch{H2SO4} as a catalyst and dehydrating agent.
+
+				Note that this is \textit{not} the preferred method of creating esters, due to the need for heating and catalysis, and the fact
+				that phenols cannot be used.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Carboxylic acid and alcohol,
+											\tabto{35mm}Several drops of concentrated \ch{H2SO4}, heated under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{oh}{\color{Red}O}|{\color{Red}H})}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+						\arrow{<=>[conc. \ch{H2SO4}][reflux]}
+						\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+
+					% circle the groups
+					\chemmove{
+						\draw[-latex, red, thick]
+						(oh.east) circle(5mm)
+						(hyd.center) circle(4mm);
+					}
+				}{Note that it is the circled groups that form the water.}
+
+
+			% end subsubsection
+
+		% end subsection
+
+		\pagebreak
+		\subsection{Reduction}
+
+			Carboxylic acids can also be reduced to create alcohols. This reduction requires a strong reducing agent, so only
+			\ch{Li\aluminium H4} can be used. See the \hyperlink{AppendixReducingAgents}{\boit{appendix}} for a list of reducing agents
+			and their applicable uses.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether).}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+					\arrow
+					\chemfig{C(-[:0]!\molOH)(-[:90]H)(-[:270]H)(-[:180]!\molR)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Oxidation}
+
+			With the strong oxidising agent \ch{KMnO4}, two special carboxylic acids can be \textit{even further oxidised} to give \ch{CO2}
+			and \ch{H2O}; they are ethanedioic acid and methanoic acid.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{KMnO4} with dilute \ch{H2SO4},
+										\tabto{35mm}heat under reflux.}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed).}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]H)(=[:45]!\molO)(-[:315]!\molOH)}
+					\arrow
+					\ch{CO2}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+					\arrow(@c1.south east--.north east){0}[-90,.25]
+					\chemfig{C(-[:135]!\molHO)(=[:225]!\molO)-C(=[:45]!\molO)(-[:315]!\molOH)}
+					\arrow
+					\ch{2 CO2}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+
+
+
+% end part
+
+
+
+
+
+
