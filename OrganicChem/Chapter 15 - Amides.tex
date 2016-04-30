@@ -1,0 +1,208 @@
+% Chapter 15 - Amides.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+
+
+\pagebreak
+\hypertarget{ChapterAmides}{}
+\part{Amides}
+
+	\section{Structure}
+
+		Amides are also a carboxylic acid derivative, this time where the \ch{OH} group has been replaced with an \ch{NH2} group that
+		may or may not be substituted.
+
+		Naturally, amides can also be classified into primary, secondary and tertiary amides.
+
+		\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
+		\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+
+			\hline
+			% row one: molecules
+			\vspace{2mm}\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molN(-[:0]H)(-[:240]H))}			\vspace{2mm}	&
+			\vspace{2mm}\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molN(-[:0]H)(-[:240]!\molR))}		\vspace{2mm}	&
+			\vspace{2mm}\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molN(-[:0]!\molR)(-[:240]!\molR))}	\vspace{2mm}	\\
+
+			\hline
+			\vspace{2mm}Primary (\SI{1}{\degree})		\vspace{2mm} &
+			\vspace{2mm}Secondary (\SI{2}{\degree})		\vspace{2mm} &
+			\vspace{2mm}Tertiary (\SI{3}{\degree})		\vspace{2mm} \\
+			\hline
+
+		\end{tabu}
+		\end{table}\end{center}\vspace{-10mm}
+
+	% end section
+
+
+
+	\section{Physical Properties}
+
+		\paragraph{Melting and Boiling Points}
+
+		Amides are generally crystalline solids at room temperature, owing to their ability to form hydrogen bonds. The electronegative
+		nitrogen atom has two hydrogen atoms (in unsubstituted amides), allowing two hydrogen bonds per molecule. Thus, they have
+		higher melting and boiling points than carboxylic acids.
+
+
+		\paragraph{Solubility}
+
+		Amides are generally quite soluble in water, again due to the ability to form hydrogen bonds with the water molecules. However,
+		the presence of long alkyl chains can hinder the formation of these bonds, leading to decreased solubility at higher carbon lengths.
+
+	% end section
+
+
+
+	\pagebreak
+	\section{Creation of Amides}
+
+		\subsection{From Acyl Chlorides}
+
+			Amides are generally created by reacting an acyl chloride with ammonia or an amide, replacing the \ch{\chlorine} group. The amine is
+			used in excess to compensate for the reaction with \ch{H\chlorine} produced during the reaction.
+
+			Furthermore, carboxylic acids cannot be used to create amides, since they will react in an acid-base reaction with the amine instead.
+			Tertiary amines also cannot be used since they do not have a hydrogen atom to replace.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Acyl chloride, amine of choice in excess, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molN(-[:180]H)(-[:60]!\molRon)(-[:300]!\molRtw)}
+					\arrow(.mid east--.mid west)
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molN(-[:0]!\molRon)(-[:240]!\molRtw))}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+	\pagebreak
+	\section{Amide Reactions}
+
+		\subsection{General Reactivity}
+
+			Amides are generally unreactive compared to amides and carboxylic acids. This is due to the delocalisation of the lone pair
+			on nitrogen across the carboxyl group; the carbon is \sptwo hybridised, allowing for p-orbital overlaps between the nitrogen,
+			carbon and oxygen atoms.
+
+			There is reduced electron density on the nitrogen atom, and thus amides are neutral in solution since the lone pair is unavailable
+			to accept a proton to act as a Brønsted base.
+
+			\diagram[1.0]{
+				% here's the deal: we draw the carboxylic acid as normal.
+				% then, we draw a benzene ring attached to the carbon.
+				% it is attached with a negative bond length to bring the circle closer to the carbon
+				% the circle is cut off "**[130,230,dashed]6" to certain angles
+				% none of the benzene ring bonds are actually drawn (hence 6(), without ------ inside)
+				% a bond is drawn from the first position to the centre (using bond angle = :0), for the plus.
+				% this is stupid.
+
+				\chemfig{C(-[:60]!\molO)(-[:300]!\molAmine)(-[:180]!\molR)(
+					-[:0,-0.10,,,draw=none](**[130,230,dashed]6([,,,,draw=none](-[:-5,0.60,,,draw=none]\fscrm))))}
+
+			}{The delocalisation of the lone pair across the entire carboxyl group.}
+
+		% end subsection
+
+
+
+		\subsection{Hydrolysis}
+
+			Amides can be hydrolysed with either acids or bases to give a carboxylic acid, and an amine. If the original amide is unsubstituted,
+			then the result will be \ch{NH3}, or, in an acidic medium, \ch{NH4+}. The products illustrated below can have \ch{R} be an alkyl
+			substituent or a hydrogen atom.
+
+			Note that the formation of \ch{NH4+} is due to the fact that \ch{NH3} is a base, and will react with \ch{H+} ions in the acidic
+			medium.
+
+			\subsubsection{Acid Hydrolysis}
+
+				The hydrolysis of an amide in an acidic medium yields the carboxylic acid directly.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4} or \ch{H\chlorine}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]N|R\sbs{2})}
+						\arrow{->[dil. \ch{H2SO4}][heat with reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+						\hspace{5mm} + \hspace{5mm}
+						\ch{NH2R2+}
+					\schemestop
+				}
+			% end subsubsection
+
+
+			\subsubsection{Alkaline Hydrolysis}
+
+				The alternative is to conduct the hydrolysis in an alkaline medium using \ch{NaOH}, which gives a carboxylate salt.
+				This salt can be acidified using a dilute acid to yield the carboxylic acid.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]N|R\sbs{2})}
+						\arrow{->[dil. \ch{H2SO4}][heat with reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+						\hspace{5mm} + \hspace{5mm}
+						\ch{NHR2}
+					\schemestop
+				}{The carboxylate salt can be acidified later.}
+
+			% end subsubsection
+
+		% end subsection
+
+
+
+
+
+
+	% end section
+
+
+% end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

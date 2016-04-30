@@ -1,29 +1,34 @@
-\contentsline {part}{\numberline {I}Carboxylic Acids}{1}{part.1}
-\contentsline {section}{\numberline {1}Structure}{1}{section.1.1}
-\contentsline {section}{\numberline {2}Physical Properties}{1}{section.1.2}
-\contentsline {paragraph}{Melting and Boiling Points}{1}{paragraph*.1}
-\contentsline {paragraph}{Solubility}{2}{paragraph*.2}
-\contentsline {section}{\numberline {3}Creation of Carboxylic Acids}{3}{section.1.3}
-\contentsline {subsection}{\numberline {3.1}Oxidation of Primary Alcohols}{3}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {3.2}Side-chain Oxidation of Alkylbenzenes}{4}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {3.3}Hydrolysis of Nitriles}{4}{subsection.1.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Acid Hydrolysis}{4}{subsubsection.1.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Alkaline Hydrolysis}{5}{subsubsection.1.3.3.2}
-\contentsline {subsection}{\numberline {3.4}Oxidative Cleavage of Alkenes}{5}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {3.5}Hydrolysis of Esters}{6}{subsection.1.3.5}
-\contentsline {subsection}{\numberline {3.6}Hydrolysis of Acyl Chlorides}{6}{subsection.1.3.6}
-\contentsline {subsection}{\numberline {3.7}Hydrolysis of Amides}{7}{subsection.1.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Acid Hydrolysis}{7}{subsubsection.1.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Alkaline Hydrolysis}{7}{subsubsection.1.3.7.2}
-\contentsline {section}{\numberline {4}Carboxylic Acid Reactions}{8}{section.1.4}
-\contentsline {subsection}{\numberline {4.1}Acidity of Carboxylic Acids}{8}{subsection.1.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Effect of Substituents}{8}{subsubsection.1.4.1.1}
-\contentsline {subsection}{\numberline {4.2}Reactions as an Acid}{8}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {4.3}Nucleophilic Acyl Substitution}{9}{subsection.1.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Formation of Acyl Chlorides}{9}{subsubsection.1.4.3.1}
-\contentsline {paragraph}{Phosphorous Pentachloride (\ch {PC\textit {l}5})}{9}{paragraph*.3}
-\contentsline {paragraph}{Phosphorous Trichloride (\ch {PC\textit {l}3})}{9}{paragraph*.4}
-\contentsline {paragraph}{Thionyl Chloride (\ch {SOC\textit {l}2})}{10}{paragraph*.5}
-\contentsline {subsubsection}{\numberline {4.3.2}Esterification}{10}{subsubsection.1.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Reduction}{11}{subsection.1.4.4}
-\contentsline {subsection}{\numberline {4.5}Oxidation}{11}{subsection.1.4.5}
+\contentsline {part}{\numberline {I}Isomers}{1}{part.1}
+\contentsline {section}{\numberline {1}Overview}{1}{section.1.1}
+\contentsline {section}{\numberline {2}Structural Isomerism}{1}{section.1.2}
+\contentsline {subsection}{\numberline {2.1}Chain Isomerism}{1}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {2.2}Positional Isomerism}{1}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.3}Functional Group Isomerism}{2}{subsection.1.2.3}
+\contentsline {section}{\numberline {3}Stereoisomerism}{2}{section.1.3}
+\contentsline {subsection}{\numberline {3.1}Cis/Trans Isomerism}{3}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {3.2}E/Z Isomerism}{4}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {3.3}Optical Isomerism}{5}{subsection.1.3.3}
+\contentsline {part}{\numberline {II}Alkenes}{6}{part.2}
+\contentsline {section}{\numberline {1}Open Chain}{6}{section.2.1}
+\contentsline {section}{\numberline {2}Cycloalkenes}{6}{section.2.2}
+\contentsline {section}{\numberline {3}Physical Properties}{6}{section.2.3}
+\contentsline {section}{\numberline {4}Stability of Carbocations}{7}{section.2.4}
+\contentsline {subsection}{\numberline {4.1}Structure}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {4.2}Stability}{7}{subsection.2.4.2}
+\contentsline {section}{\numberline {5}Creation of Alkenes}{8}{section.2.5}
+\contentsline {subsection}{\numberline {5.1}Elimination of Hydrogen Halide}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {5.2}Dehydration (Elimination of Water)}{8}{subsection.2.5.2}
+\contentsline {section}{\numberline {6}Alkene Reactions}{9}{section.2.6}
+\contentsline {subsection}{\numberline {6.1}Electrophilic Addition}{9}{subsection.2.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Electrophilic Addition of Hydrogen Halides}{9}{subsubsection.2.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Markovnikov's Rule}{9}{subsubsection.2.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Electrophilic Addition of Halogens}{10}{subsubsection.2.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Electrophilic Addition of Aqueous \ch {Br2}}{10}{subsubsection.2.6.1.4}
+\contentsline {subsubsection}{\numberline {6.1.5}Electrophilic Addition of Steam (Hydration)}{11}{subsubsection.2.6.1.5}
+\contentsline {subsection}{\numberline {6.2}Reduction of Alkenes (Hydrogenation)}{11}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {6.3}Mild Oxidation of Alkenes}{12}{subsection.2.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Acidic Medium}{12}{subsubsection.2.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Alkaline Medium}{12}{subsubsection.2.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Oxidative Cleavage (Strong Oxidation) of Alkenes}{13}{subsection.2.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Further Oxidation of Ethanedioic Acid}{14}{subsubsection.2.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Uses of Oxidative Cleavage}{14}{subsubsection.2.6.4.2}

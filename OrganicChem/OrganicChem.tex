@@ -1,12 +1,14 @@
 % OrganicChem.tex
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 
 \usepackage{studynotes}
 % % \usepackage{lua-visual-debug}
 
 \title{Organic Chemistry}
+
+
 
 \begin{document}
 \pagenumbering{gobble}
@@ -31,21 +33,29 @@
 	\subtext{\ch{C8H10N4O2}} \break \break
 	\subtext{1,3,7-trimethylpurine-2,6-dione}
 
-	\medskip
-	\subsubtext{-}
-	\medskip
+	\vspace{5mm}
+	\subtext{-}
+	\vspace{5mm}
 
 	\subtext{Caffeine}
 	\vspace{10mm}
 
-	\subsubtext{Chapters 8 to 12, 15 to 18}
+	Chapters 8 to 12, 15 to 18
 
 \end{center}
 
 % end title
 
+\fancyhead{}
+\afterpage{\blankpage}
+
 
 \pagebreak
+
+\pagenumbering{roman}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
 \tableofcontents
 \pagebreak
 
@@ -54,22 +64,29 @@
 % reset
 
 \pagenumbering{arabic}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+
+\fancyhead[R]{Chapter \arabic{part} - \parttitle}
 
 % \input{"Chapter 01 - Functional Groups"}
-% \input{"Chapter 02 - Isomers"}
+\input{"Chapter 02 - Isomers"}
 % \input{"Chapter 03 - Reaction Mechanisms"}
 % \input{"Chapter 04 - Induction and Resonance"}
 % \input{"Chapter 05 - Alkanes"}
-% \input{"Chapter 06 - Alkenes"}
+\input{"Chapter 06 - Alkenes"}
 % \input{"Chapter 07 - Arenes"}
 % \input{"Chapter 08 - Halogen Derivatives"}
 % \input{"Chapter 09 - Alcohols"}
 % \input{"Chapter 10 - Phenols"}
 % \input{"Chapter 11 - Aldehydes and Ketones"}
-\input{"Chapter 12 - Carboxylic Acids"}
-
-
-
+% \input{"Chapter 12 - Carboxylic Acids"}
+% \input{"Chapter 13 - Acyl Chlorides"}
+% \input{"Chapter 14 - Esters"}
+% \input{"Chapter 15 - Amides"}
+% \input{"Chapter 16 - Amines"}
+% \input{"Chapter 17 - Amino Acids"}
+% \input{"Chapter 18 - Proteins"}
 
 
 
@@ -102,10 +119,24 @@ Herein lie things that \textit{must} be known, but for brevity are excluded from
 \renewcommand\theHpart{appendix.\thepart}
 
 \addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
-% \input{"Appendix A - List of Reaction Mechanisms"}
+\addtocontents{toc}{\protect\newpage}
 
 
+% change the header style
+\fancyhead[R]{Appendix \Alph{part} - \parttitle}
 
+
+\addtocontents{toc}{\protect\newpage}
+% \input{"Appendix A - Reaction Mechanisms"}
+
+\addtocontents{toc}{\protect\newpage}
+% \input{"Appendix B - List of Reactions"}
+
+\addtocontents{toc}{\protect\newpage}
+% \input{"Appendix C - Summary Tables"}
+
+% \addtocontents{toc}{\protect\newpage}
+% \input{"Appendix D - Distinguishing Tests"}
 
 
 

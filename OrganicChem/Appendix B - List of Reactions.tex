@@ -1,0 +1,1765 @@
+% Appendix B - List of Reactions.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+
+\pagebreak
+\hypertarget{AppendixListOfReactions}{}
+\part{Grand List of Reactions}
+
+	\section{Alkanes}
+
+		\subsection{Free Radical Substitution}
+
+			Multisubstitution and isomerism of products is possible.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(-[:0]H)(-[:90]H)(-[:270]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molX-!\molX}
+					\arrow{->[UV Light]}
+					\chemfig{C(-[:180]!\molR)(-[:0]!\molX)(-[:90]H)(-[:270]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Combustion}
+
+			This generally applies to hydrocarbons.
+
+			\diagram{
+				\schemestart[0, 1.0, thick]
+					\chemfig{C$_{x}$H$_{y}$}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{$x + \frac{y}{4}$ \ch{O2}}
+					\arrow
+					\chemfig{$x$ \ch{CO2}}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{$\frac{y}{2}$ \ch{H2O}}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+	\pagebreak
+	\section{Alkenes}
+
+		\subsection{Electrophilic Addition of \ch{X2}}
+
+			\vspace{1.5em}
+
+			\vbox{\textbf{Conditions:}	\tabto{35mm}No UV Light, gaseous \ch{X2}.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{!\molX-!\molX}
+				\arrow
+				\chemfig{C(-[:270]!\molX)(-[:90]H)(-[:180]H)-C(-[:270]!\molX)(-[:90]H)(-[:0]H)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Electrophilic Addition of \ch{HX}}
+
+			Note that Markovnikov's Rule applies.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Gaseous HX (usually \ch{H\chlorine} or \ch{HBr}).}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{C(-[:135]H)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{H-{{\color{OliveGreen}X}}}
+				\arrow
+				\chemfig{C(-[:90]H)(-[:180]H)(-[:270]H)-C(-[:90]{{\color{OliveGreen}X}})(-[:0]H)(-[:270]H)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Electrophilic Addition of Aqueous \ch{Br2}}
+
+			Note that Markovnikov's Rule applies.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}No UV Light, aqueous \ch{Br2}.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} \ch{Br2 \stAq} decolourises.}
+
+
+			\diagram[0.75]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{C(-[:135]H)(-[:225]H)=[@{b1}:0]C(-[:45]H)(-[:315]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemname{\chemfig{!\molBr-!\molBr}}{(aq)}
+				\arrow
+				\chemname{\chemfig{C(-[:180]H)(-[:90]H)(-[:270]!\molOH)-C(-[:90]H)(-[:0]H)(-[:270]!\molBr)}}{(major)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemname{\chemfig{C(-[:180]H)(-[:90]H)(-[:270]!\molBr)-C(-[:90]H)(-[:0]H)(-[:270]!\molBr)}}{(minor)}
+				\schemestop
+
+			}
+
+		% end subsection
+
+
+
+		\subsection{Electrophilic Addition of Steam (Hydration)}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\SI{300}{\celsius}, at \SI{70}{atm}, \ch{H3PO4} catalyst, \textit{OR}
+										\tabto{35mm}Concentrated \ch{H2SO4}, \ch{H2O}, warming.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{C(-[:135]H)(-[:225]!\molMeR)=[:0]C(-[:45]H)(-[:315]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\water}
+				\arrow
+				\chemfig{C(-[:270]!\molMe)(-[:180]H)(-[:90]!\molOH)-C(-[:90]H)(-[:0]H)(-[:270]H)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Reduction (Hydrogenation)}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}High temperature and pressure, \ch{Ni}, \ch{Pd} or \ch{Pt} catalyst.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig{C(-[:135]H)(-[:225]H)=[:0]C(-[:45]H)(-[:315]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\ch{H2}}
+				\arrow{->[Ni, Pd, Pt][high T \& P]}
+				\chemfig{C(-[:270]H)(-[:180]H)(-[:90]H)-C(-[:90]H)(-[:0]H)(-[:270]H)}
+				\schemestop
+			}
+
+
+		% end subsection
+
+
+
+		\subsection{Mild Oxidation}
+
+			\subsubsection{Acidic Medium}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{KMnO4}, acid (\ch{H2SO4}).}
+				\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming \ch{Mn^2+}.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:135]H)(-[:225]H)=[:0]C(-[:45]H)(-[:315]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{\ch{H2O}}
+					\arrow{->[\ch{KMnO4}, \ch{H+}][cold]}
+					\chemfig{C(-[:270]!\molOH)(-[:180]H)(-[:90]H)-C(-[:90]H)(-[:0]H)(-[:270]!\molOH)}
+					\schemestop
+				}
+
+
+			% end subsubsection
+
+			\pagebreak
+			\subsubsection{Alkaline Medium}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{KMnO4}, aqueous base (\ch{NaOH}).}
+				\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming
+					a {\boit{\color{Brown}brown}} precipitate of \ch{MnO2}.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:135]H)(-[:225]H)=[:0]C(-[:45]H)(-[:315]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{\ch{H2O}}
+					\arrow{->[\ch{KMnO4}, \ch{OH-}][cold]}
+					\chemfig{C(-[:270]!\molOH)(-[:180]H)(-[:90]H)-C(-[:90]H)(-[:0]H)(-[:270]!\molOH)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+
+		\subsection{Strong Oxidation (Oxidative Cleavage)}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{KMnO4}, dilute \ch{H2SO4}, heat.}
+			\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{Plum}Purple}} \ch{KMnO4} decolourises, forming \ch{Mn^2+}.}
+
+			\vspace{1.0em}
+
+			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.0}
+			\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+
+				\hline
+				% headings
+				Substituents	&		Structure												&	Product			\\		\hline
+					0			&		\vspace{2mm}\chemfig{C(-[:135]H)(-[:225]H)=[:0]}			\vspace{2mm}
+								&		\vspace{2mm}\ch{CO2} + \ch{H2O}								\vspace{2mm}	\\		\hline
+
+
+					1
+								&		\vspace{2mm}\chemfig{C(-[:135]H)(-[:225]!\molR)=[:0]}			\vspace{2mm}
+								&		\vspace{2mm}\chemfig{C(-[:135]!\molHO)(-[:225]!\molR)=[:0]!\molO}	\vspace{2mm}	\\		\hline
+
+					2
+								&		\vspace{2mm}\chemfig{C(-[:135]!\molR)(-[:225]!\molR)=[:0]}		\vspace{2mm}
+								&		\vspace{2mm}\chemfig{C(-[:135]!\molR)(-[:225]!\molR)=[:0]!\molO}	\vspace{2mm}	\\		\hline
+
+
+
+			\end{tabu}
+			\end{table}\end{center}\vspace{-10mm}
+
+		% end subsection
+
+	% end section
+
+
+
+
+	\pagebreak
+	\section{Arenes}
+
+		\subsection{Electrophilic Substitution of \ch{NO2} (Nitration)}
+
+			The \ch{NO2} substituent is 3-directing.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3}, concentrated \ch{H2SO4} catalyst.
+										\tabto{35mm}\textit{Constant} temperature of \SI{50}{\celsius}.}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig{\ch{HNO3}}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.5em]{**6(------)}
+				\arrow(.base east--.base west){->[\ch{H2SO4}][\SI{50}{\celsius}]}
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molNitro)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\ch{H2O}}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Electrophilic Substitution of Halogens}
+
+			The halogen substituent is 2,4-directing.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
+										\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
+													\ch{Fe} / \ch{\aluminium} filings (for chlorine)}
+
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
+										\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{\ch{Br2}}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.5em]{**6(------)}
+				\arrow(.base east--.base west)
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\ch{HBr}}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Side-chain Oxidation of Alkylbenzenes}
+
+			\vspace{1.5em}
+
+			\vbox{\textbf{Conditions:}\tabto{35mm}Heat, \ch{KMnO4}, dilute acid or alkali.}
+
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Plum}Purple} \ch{KMnO4} decolourises, forming \ch{Mn^2+} (\textit{acid}), or
+										\tabto{35mm}forms \boit{\color{Brown}brown} precipitate of \ch{MnO2} (\textit{alkali}).}
+
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molMe)--)}
+				\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{H+}][heat]}
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}
+				\schemestop
+			}
+
+
+			If the alkyl chain is 2-long, (ie. ethylbenzene), then \ch{CO2} will be formed from the oxidation of the second carbon,
+			in addition to benzoic acid.
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molEthyl)--)}
+				\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{H+}][heat]}
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}
+				\hspace{2mm} + \hspace{2mm}
+				\chemfig{\ch{CO2}}
+				\schemestop
+			}
+
+
+			If the chain is 3 or longer, then the rest of the chain (apart from the first) will be oxidised to form a carboxylic acid.
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]\ch{C}|\ch{H2}-[:0]!\molR)--)}
+				\arrow(.base east--.base west){->[\ch{KMnO4}, \ch{H+}][heat]}
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]C(=[:150]!\molO)(-[:30]!\molOH))--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{!\molR-[:0]C(=[:60]!\molO)(-[:300]!\molOH)}
+				\schemestop
+			}
+
+
+
+		% end subsection
+
+	% end section
+
+
+
+	\pagebreak
+	\section{Nitriles}
+
+		\subsection{Acid Hydrolysis}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4} or \ch{H\chlorine}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{!\molR-[:0]C~[:0]!\molN}
+					\arrow{->[dil. \ch{H2SO4}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:30]!\molO)(-[:330]!\molOH)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Alkaline Hydrolysis}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{NaOH}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{!\molR-[:0]C~[:0]!\molN}
+					\arrow{->[dil. \ch{NaOH}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:30]!\molO)(-[:330]!\molO\mch Na\pch)}
+				\schemestop
+			}
+		% end subsection
+
+
+
+		\subsection{Reduction to Amines}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+										\tabto{35mm}\ch{H2 \stG}, \ch{Ni} catalyst, high temperature and pressure.}
+
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{!\molR-[:0]C~[:0]!\molN}
+					\arrow{->[reduction][{[}H{]}]}
+					\chemfig{C(-[:180]!\molR)(-[:90]H)(-[:270]H)(-[:0]!\molN(-[:30]H)(-[:330]H))}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+	\pagebreak
+	\section{Alkyl Halides}
+
+		\subsection{Nucleophilic Substitution of \ch{OH}}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Aqueous \ch{NaOH} or \ch{KOH}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{!\molR-[:0]!\molX}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molOH\mch}
+					\arrow
+					\chemfig{!\molR-[:0]!\molOH}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molX\mch}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Nucleophilic Substitution of \ch{NH2}}
+
+			Note that multisubstitution is possible, hence the use of excess \ch{NH3}.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Ethanolic concentrated \ch{NH3}, heat in sealed tube.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{!\molR-[:0]!\molX}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{NH3}}
+					\arrow
+					\chemfig{!\molR-[:0]\ch{NH2}}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{HX}}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Nucleophilic Substitution of \ch{CN}}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Ethanolic \ch{KCN}, heat with reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{!\molR-[:0]!\molX}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{CN-}}
+					\arrow
+					\chemfig{!\molR-[:0]\ch{CN}}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{X-}}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Elimination of \ch{HX}}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Ethanolic \ch{KOH} or \ch{NaOH}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]!\molR)(-[:90]H)(-[:270]@{x}{\color{OliveGreen}X})-C(-[:90]H)(-[:270]@{h}H)(-[:0]H)}
+					\arrow{->[\ch{OH-}][heat]}
+					\chemfig{C(-[:135]!\molR)(-[:225]H)=C(-[:45]H)(-[:315]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+	\pagebreak
+	\section{Alcohols}
+
+		\subsection{Nucleophilic Acyl Substitution (Esterification)}
+
+			\subsubsection{With Carboxylic Acids}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Carboxylic acid and alcohol,
+											\tabto{35mm}Several drops of concentrated \ch{H2SO4}, heated under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{oh}{\color{Red}O}|{\color{Red}H})}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+						\arrow{<=>[conc. \ch{H2SO4}][reflux]}
+						\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2O}
+					\schemestop
+				}
+
+			% end subsubsection
+
+
+			\subsubsection{With Acyl Chlorides}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Acyl chloride and alcohol,
+											\tabto{35mm}Room temperature.}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+						\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{cl}\color{OliveGreen}\chlorine)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+						\arrow
+						\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H\chlorine}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Nucleophilic Substitution of Halogens}
+
+			\subsubsection{Chlorine (\ch{\chlorine2} Substitution)}
+
+				\paragraph{Phosphorus Pentachloride (\ch{P\chlorine5})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine5}, room temperature.}
+				\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{P\chlorine\sbs{5}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{PO\chlorine\sbs{3}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\chlorine}
+					\schemestop
+				}
+
+
+
+
+				\paragraph{Phosphorus Trichloride (\ch{P\chlorine3})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine3}, room temperature.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{P\chlorine\sbs{3}}
+						\arrow
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\sbs{3}PO\sbs{3}}
+					\schemestop
+				}
+
+
+
+
+				\paragraph{Thionyl Chloride (\ch{SO\chlorine2})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}\tabto{35mm}Warm, liquid \ch{SO\chlorine2}.}
+
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}Formation of colourless, pungent \ch{SO2} gas,
+											\tabto{35mm}white fumes of \ch{H\chlorine} gas.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{SO\chlorine\sbs{2}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{SO\sbs{2}}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\chlorine}
+					\schemestop
+				}
+
+
+
+
+				\paragraph{\ch{H\chlorine} with Tertiary Alcohols}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{H\chlorine \stAq} / gaseous \ch{H\chlorine}, \textit{OR}
+											\tabto{35mm}Solid \ch{Na\chlorine}, concentrated \ch{H2SO4}, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H\chlorine}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+					\schemestop
+				}{\ch{H\chlorine} can be prepared \textit{in-situ} with \ch{Na\chlorine} and \ch{H2SO4}.}
+
+
+
+
+				\pagebreak
+				\paragraph{\ch{H\chlorine} with Primary and Secondary Alcohols}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{H\chlorine \stAq} / gaseous \ch{H\chlorine}.
+											\tabto{35mm}Anhydrous \ch{Zn\chlorine2} catalyst, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H\chlorine}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molCl}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+					\schemestop
+				}
+
+
+			% end subsubsection
+
+
+
+			\subsubsection{Bromine (\ch{Br2} Substitution)}
+
+
+				\paragraph{Hydrogen Bromide (\ch{HBr})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Gaseous \ch{HBr}.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{HBr}}
+						\arrow
+						\chemfig{!\molR-[:0]!\molBr}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+					\schemestop
+				}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Solid \ch{NaBr}, concentrated \ch{H2SO4}, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\ch{NaBr}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{H2SO4}
+						\arrow
+						\ch{HBr}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{NaHSO4}
+					\schemestop
+				}{Creation of \ch{HBr}.}
+
+
+
+
+				\paragraph{Phosphorous Tribromide (\ch{PBr3})}
+
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Liquid \ch{PBr3}, \textit{OR}
+											\tabto{35mm}Liquid \ch{Br2}, {\color{Red}red} phosphorous, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{PBr\sbs{3}}
+						\arrow
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molBr}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\sbs{3}PO\sbs{3}}
+					\schemestop
+				}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\ch{2 P}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{3 Br2}
+						\arrow
+						\ch{2 PBr3}
+					\schemestop
+				}{\textit{In-situ} formation of \ch{PBr3}.}
+
+
+			% end subsubsection
+
+
+
+			\pagebreak
+			\subsubsection{Iodine (\ch{I2} Substitution)}
+
+				\paragraph{Phosphorous Triiodide (\ch{PI3})}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Liquid \ch{PI3}, \textit{OR}
+											\tabto{35mm}Solid \ch{I2}, {\color{Red}red} phosphorous, heat.}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molOH}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{PI\sbs{3}}
+						\arrow
+						\chemfig{3}
+						\chemfig{!\molR-[:0]!\molI}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{H\sbs{3}PO\sbs{3}}
+					\schemestop
+				}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\ch{2 P}
+						\hspace{2mm} + \hspace{2mm}
+						\ch{3 I2}
+						\arrow
+						\ch{2 PI3}
+					\schemestop
+				}{\textit{In-situ} formation of \ch{PI3}.}
+
+
+			% end subsubsection
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Oxidation}
+
+			\subsubsection{Controlled Oxidation of Primary Alcohols}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4},
+											\tabto{35mm}heat with immediate distillation.}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed).}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+						\arrow
+						\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+
+			\subsubsection{Complete Oxidation of Primary Alcohols}
+
+				Oxidising aldehydes gives the same result.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+											\tabto{35mm}heat under reflux.}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed), \textit{OR}
+											\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed).}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+						\chemfig{C(-[:90]H)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+						\arrow
+						\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+
+			\pagebreak
+			\subsubsection{Oxidation of Secondary Alcohols}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+											\tabto{35mm}heat under reflux.}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+														(\ch{Cr^3+} formed), \textit{OR}
+											\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+
+				\diagram[1.0]{
+					\schemestart[0,1.5,thick]
+						\chemfig{C(-[:90]!\molR)(-[:270]H)(-[:180]!\molR)(-[:0]!\molOH)}
+						\arrow
+						\chemfig{C(=[:90]!\molO)(-[:210]!\molR)(-[:330]!\molR)}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+
+
+
+		\subsection{Dehydration (Elimination of \ch{H2O})}
+
+			Note that Zaitsev's Rule applies.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Excess concentrated \ch{H2SO4}, \SI{170}{\celsius}, \textit{OR}
+										\tabto{35mm}\ch{\aluminium2O3}, heat.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:90]H)(-[:270]@{hyd}H)(-[:180]H)-[:0]C(-[:90]H)(-[:0]H)(-[:270]@{oh}{\color{Red}O}|{\color{Red}H})}
+					\arrow
+					\chemfig{C(-[:135]H)(-[:225]H)=[:0]C(-[:45]H)(-[:315]H)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+
+		% end subsection
+
+
+
+		\subsection{Tri-iodomethane Formation}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{I2 \stAq}, \ch{NaOH \stAq}, warmed.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} precipitate of \ch{CHI3} is formed.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:90]H)(-[:270]!\molMe)(-[:180]!\molR)(-[:0]!\molOH)}
+					\arrow{->[\ch{I2 \stAq}, \ch{NaOH \stAq}][warm]}
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO\mch)}
+				\schemestop
+			}
+
+
+		% end subsection
+
+	% end section
+
+
+
+
+	\pagebreak
+	\section{Phenols}
+
+		\subsection{Electrophilic Substitution of \ch{NO2} (Nitration)}
+
+			Concentrated \ch{HNO3} can be used to achieve tri-substitution, `moderately concentrated' for di-substitution, and
+			dilute \ch{HNO3} for mono-substitution.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{HNO3 \stAq}, room temperature.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{!\molNitro})---(-[:90]!\molOH)--)}
+				\arrow{->[dil. \ch{HNO3}]}
+				\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{!\molNitro})--(-[:30]!\molNitro)-(-[:90]!\molOH)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.15em]{**6(-(-[:270]!\molNitro)---(-[:90]!\molOH)--)}
+				\schemestop
+			}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3 \stAq}, room temperature.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{!\molNitro})---(-[:90]!\molOH)--)}
+				\arrow{->[conc. \ch{HNO3}]}
+				\chemfig[yshift=-1.15em]{**6(-(-[:270]!\molNitro)--(-[:30]!\molNitro)-(-[:90]!\molOH)-(-[:150]!\molNitro)-)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Electrophilic Substitution of Halogens}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Br2 \stAq} / \ch{\chlorine 2 \stAq}, room temperature.}
+
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} \ch{Br2 \stAq} / \boit{\color{Goldenrod}pale yellow} \ch{\chlorine2 \stAq} decolourises,			\tabto{35mm}white precipitate is formed.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{Br})---(-[:90]!\molOH)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\ch{X2 \stAq}
+				\arrow
+				\ch{HX}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.15em]
+				{**6(-(-[:270]!\molX)--(-[:30]!\molX)-(-[:90]!\molOH)-(-[:150]!\molX)-)}
+				\schemestop
+			}
+
+
+
+			Liquid \ch{Br2} in a non-polar solvent at low temperatures can be used for mono-substitution.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Br2 \stL} / \ch{\chlorine 2 \stG} in inert, non-polar solvent (eg. \ch{C\chlorine 4}), room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+
+			\diagram[0.9]{
+				\schemestart[0, 1.5, thick]
+				\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{Br})---(-[:90]!\molOH)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\ch{Br2 \stL}
+				\arrow
+				\ch{HX}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.15em]{**6(-(-[:270,,,,draw=none]\phantom{X})--(-[:30]!\molX)-(-[:90]!\molOH)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.15em]{**6(-(-[:270]!\molX)---(-[:90]!\molOH)--)}
+				\schemestop
+			}
+
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{\ch{Fe\chlorine3} Complex Formation}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Neutral \ch{Fe\chlorine3 \stAq}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Violet}Violet} complex formed.}
+
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				6 \hspace{2mm} \arrow{0}[,0]
+				\chemfig{[:270]**6(----(-[:0]!\molOH)--)}
+				\arrow{->[neutral \ch{Fe^3+ \stAq}]}
+				\chemleft[
+				\chemfig{[:270]**6(-(-[:180,0.3,,,draw=none]@{left}\phantom{X})---(-[:0]{\color{Red}O}(-[@{right,0.25}:0,1.5,,,-Stealth]Fe))--)}
+				\chemright]
+				\schemestop
+
+				\chemmove{\node[xshift=3mm] at (c3.north east) {3–};}
+				\makebraces[2.5em, 2.5em]{6}{left}{right}
+			}
+
+		% end subsection
+
+
+
+		\subsection{Nucleophilic Acyl Substitution (Esterification)}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Acyl chloride, \ch{NaOH \stAq}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[0.9]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.15em]{**6(----(-[:90]!\molO\mch)--)}
+					\arrow(.base east--.base west)
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO-[:0]**6(------))}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+	\pagebreak
+	\section{Aldehydes}
+
+		\subsection{Nucleophilic Addition of \ch{CN}}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{HCN}, trace \ch{KCN \stAq}.}
+
+			\diagram[1.0]{
+				\schemestart[0,2.0,thick]
+					\chemfig{C(-[:120]H)(-[:240]!\molR)(=[:0]!\molO)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molCN}
+					\arrow{->[trace \ch{KCN \stAq}][cold]}
+					\chemfig{C(-[:90]H)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Condensation with 2,4-DNPH}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}2,4-DNPH, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{BurntOrange}Orange}} precipitate forms with a carbonyl.}
+
+			\diagram[0.65]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:120]H)(-[:240]!\molR)(=[:0]!\molO)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molN(-[:120]H)(-[:240]H)-[:0]!\molN(-[:270]H)(-[:0]**6(-(-[:240]!\molNitro)--(-[:0]!\molNitro)---))}
+					\arrow(.base east--.base west)
+					\chemfig{C(-[:120]H)(-[:240]!\molR)=[:0]!\molN-[:0]!\molN(-[:270]H)(-[:0]**6(-(-[:240]!\molNitro)--(-[:0]!\molNitro)---))}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+				\schemestop
+			}
+		% end subsection
+
+
+
+		\subsection{Reduction}
+
+			Aldehydes are reduced to primary alcohols.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+  										\tabto{35mm}\ch{NaBH4} in methanol, \textit{OR}
+  										\tabto{35mm}\ch{H2 \stG}, \ch{Ni} catalyst, high temperature and pressure.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(=[:90]!\molO)(-[:210]!\molR)(-[:330]H)}
+					\arrow
+					\chemfig{C(-[:0]!\molOH)(-[:90]H)(-[:270]H)(-[:180]!\molR)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Oxidation to Carboxylic Acids}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{K2Cr2O7} with dilute \ch{H2SO4}, \textit{OR} \ch{KMnO4} with dilute \ch{H2SO4},
+										\tabto{35mm}heat under reflux.}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{BurntOrange}Orange} \ch{Cr2O7^2-}, turns \boit{\color{LimeGreen}green}
+													(\ch{Cr^3+} formed), \textit{OR}
+										\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed)}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:210]H)(-[:330]!\molR)(=[:90]!\molO)}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+				\schemestop
+			}
+		% end subsection
+
+
+
+		\subsection{Oxidation by Tollens' Reagent}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Tollens' Reagent, heat.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Gray}Silver} metal coats the reaction vessel.}
+
+			\diagram[0.80]{
+				\schemestart[0,1.5,thick]
+					\ch{2 [Ag(NH3)2]+}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{2 OH-}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{C(-[:210]!\molR)(-[:330]H)(=[:90]!\molO)}
+					\arrow(.mid east--.mid west){->[heat]}
+					\chemfig{C(-[:210]!\molR)(-[:330]!\molO\mch)(=[:90]!\molO)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{2 Ag}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{4 NH3}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{2 H2O}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Oxidation by Fehling's Solution}
+
+			Only aliphatic (non-benzene) aldehydes will be oxidised by Fehling's Solution.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Fehling's Solution, heat.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{OrangeRed}Brick-red}, or \boit{\color{Mahogany}reddish-brown} precipitate is formed.}
+
+			\diagram[0.80]{
+				\schemestart[0,1.5,thick]
+					\ch{2 Cu^2+}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{5 OH-}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{C(-[:210]!\molR)(-[:330]H)(=[:90]!\molO)}
+					\arrow(.mid east--.mid west){->[heat]}
+					\chemfig{C(-[:210]!\molR)(-[:330]!\molO\mch)(=[:90]!\molO)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{Cu2O}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{3 H2O}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Tri-iodomethane Formation}
+
+			Ethanal is the only aldehyde that can undergo this reaction.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{I2 \stAq}, \ch{NaOH \stAq}, warmed.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} precipitate of \ch{CHI3} is formed.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:210]H)(-[:330]!\molMe)(=[:90]!\molO)}
+					\arrow{->[\ch{I2 \stAq}, \ch{NaOH \stAq}][warm]}
+					\chemfig{C(-[:210]H)(-[:330]!\molO\mch)(=[:90]!\molO)}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+
+
+
+	\pagebreak
+	\section{Ketones}
+
+		\subsection{Nucleophilic Addition of \ch{CN}}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Cold \ch{HCN}, trace \ch{KCN \stAq}.}
+
+			\diagram[1.0]{
+				\schemestart[0,2.0,thick]
+					\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]!\molO)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molCN}
+					\arrow{->[trace \ch{KCN \stAq}][cold]}
+					\chemfig{C(-[:90]!\molR)(-[:180]!\molR)(-[:0]!\molOH)(-[:270]!\molCN)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Condensation with 2,4-DNPH}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}2,4-DNPH, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}{\boit{\color{BurntOrange}Orange}} precipitate forms with a carbonyl.}
+
+			\diagram[0.65]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:120]!\molR)(-[:240]!\molR)(=[:0]!\molO)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molN(-[:120]H)(-[:240]H)-[:0]!\molN(-[:270]H)(-[:0]**6(-(-[:240]!\molNitro)--(-[:0]!\molNitro)---))}
+					\arrow(.base east--.base west)
+					\chemfig{C(-[:120]!\molR)(-[:240]!\molR)=[:0]!\molN-[:0]!\molN(-[:270]H)(-[:0]**6(-(-[:240]!\molNitro)--(-[:0]!\molNitro)---))}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+				\schemestop
+			}
+		% end subsection
+
+
+
+		\subsection{Reduction}
+
+			Ketones are reduced to secondary alcohols.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+  										\tabto{35mm}\ch{NaBH4} in methanol, \textit{OR}
+  										\tabto{35mm}\ch{H2 \stG}, \ch{Ni} catalyst, high temperature and pressure.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(=[:90]!\molO)(-[:210]!\molRon)(-[:330]!\molRtw)}
+					\arrow
+					\chemfig{C(-[:0]!\molOH)(-[:90]!\molRon)(-[:270]!\molRtw)(-[:180]H)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Tri-iodomethane Formation}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{I2 \stAq}, \ch{NaOH \stAq}, warmed.}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} precipitate of \ch{CHI3} is formed.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:210]!\molR)(-[:330]!\molMe)(=[:90]!\molO)}
+					\arrow{->[\ch{I2 \stAq}, \ch{NaOH \stAq}][warm]}
+					\chemfig{C(-[:210]!\molR)(-[:330]!\molO\mch)(=[:90]!\molO)}
+				\schemestop
+			}
+		% end subsection
+
+	% end section
+
+
+
+
+
+
+
+
+
+
+	\pagebreak
+	\section{Carboxylic Acids}
+
+		\subsection{Nucleophilic Acyl Substitution (Acyl Chloride)}
+
+			\paragraph{Phosphorous Pentachloride (\ch{P\chlorine5})}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine5}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{P\chlorine\sbs{5}}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{PO\chlorine\sbs{3}}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+
+			\paragraph{Phosphorous Trichloride (\ch{P\chlorine3})}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Solid \ch{P\chlorine3}, room temperature.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{3}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{P\chlorine\sbs{3}}
+					\arrow
+					\chemfig{3}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{H\sbs{3}PO\sbs{3}}
+				\schemestop
+			}
+
+
+			\paragraph{Thionyl Chloride (\ch{SO\chlorine2})}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Warm, liquid \ch{SO\chlorine2}.}
+
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of colourless, pungent \ch{SO2} gas,
+										\tabto{35mm}white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{SO\chlorine\sbs{2}}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{SO\sbs{2}}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Nucleophilic Acyl Substitution (Esterification)}
+
+			Phenols cannot be used.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Carboxylic acid and alcohol,
+										\tabto{35mm}Several drops of concentrated \ch{H2SO4}, heated under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{oh}{\color{Red}O}|{\color{Red}H})}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+					\arrow{<=>[conc. \ch{H2SO4}][reflux]}
+					\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Reduction}
+
+			Carboxylic acids are oxidised to primary alcohols.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether).}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molOH)}
+					\arrow
+					\chemfig{C(-[:0]!\molOH)(-[:90]H)(-[:270]H)(-[:180]!\molR)}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Oxidation}
+
+			Two carboxylic acids can be further oxidised with \ch{KMnO4}.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{KMnO4} with dilute \ch{H2SO4},
+										\tabto{35mm}heat under reflux.}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Plum}Purple} \ch{MnO4-} decolourises (\ch{Mn^2+} formed).}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{C(-[:180]H)(=[:45]!\molO)(-[:315]!\molOH)}
+					\arrow
+					\ch{CO2}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+					\arrow(@c1.south east--.north east){0}[-90,.25]
+					\chemfig{C(-[:135]!\molHO)(=[:225]!\molO)-C(=[:45]!\molO)(-[:315]!\molOH)}
+					\arrow
+					\ch{2 CO2}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+
+		% end subsection
+
+	% end section
+
+
+
+
+
+
+
+
+
+	\pagebreak
+	\section{Acyl Chlorides}
+
+		\subsection{Hydrolysis}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}\ch{H2O}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{H2O}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Nucleophilic Acyl Substitution (Amide Formation)}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Acyl chloride, amine of choice in excess, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molN(-[:180]H)(-[:60]!\molRon)(-[:300]!\molRtw)}
+					\arrow(.mid east--.mid west)
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molN(-[:0]!\molRon)(-[:240]!\molRtw))}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Nucleophilic Acyl Substitution (Esterification)}
+
+			Phenols \textit{can} be used.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Acyl chloride, \ch{NaOH \stAq}, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molRon-!\molOH}
+					\arrow
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO-!\molRon)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+
+
+
+	\pagebreak
+	\section{Esters}
+
+		\subsection{Acid Hydrolysis}
+
+			This reaction is slow and reversible.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4}, heat under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRon)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+					\arrow{<=>[dil. \ch{H2SO4}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRon-[:0]!\molOH}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Alkaline Hydrolysis (Saponification)}
+
+			This reaction is fast and irreversible.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molR)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{H2O}}
+					\arrow{->[dil. \ch{NaOH}][reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRon-[:0]!\molOH}
+				\schemestop
+			}
+		% end subsection
+
+	% end section
+
+
+
+
+
+
+
+	\pagebreak
+	\section{Amides}
+
+		\subsection{Acid Hydrolysis}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4} or \ch{H\chlorine}, heat under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]N|R\sbs{2})}
+					\arrow{->[dil. \ch{H2SO4}][heat with reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{NH2R2+}
+				\schemestop
+			}
+		% end subsection
+
+
+
+		\subsection{Alkaline Hydrolysis}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]N|R\sbs{2})}
+					\arrow{->[dil. \ch{H2SO4}][heat with reflux]}
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{NHR2}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+
+	\pagebreak
+	\section{Amines}
+
+		\subsection{Nucleophilic Substitution of Alkyl Halides}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Ethanolic alkyl halide, heated in sealed tube.}
+
+			\diagram[0.9]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{!\molN(-[:180]!\molR)(-[:60]H)(-[:300]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molRon-!\molX}
+					\arrow
+					\chemfig{!\molN(-[:180]!\molR)(-[:60]!\molRon)(-[:300]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+					\arrow(@c1.south east--.north east){0}[-90,.5]
+					\chemfig{!\molN(-[:180]!\molRon)(-[:60]!\molRtw)(-[:300]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molRth-!\molX}
+					\arrow
+					\chemfig{!\molN(-[:180]!\molRon)(-[:60]!\molRtw)(-[:300]!\molRth)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+					\arrow(@c3.south east--.north east){0}[-90,.5]
+					\chemfig{!\molN(-[:180]!\molRon)(-[:60]!\molRtw)(-[:300]!\molRth)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molRfr-!\molX}
+					\arrow
+					\chemfig{!\molN(-[:180]!\molRon)(-[:90]!\molRtw)(-[:0]!\molRth)(-[:270]!\molRfr)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\subsection{Nucleophilic Acyl Substitution of Acyl Chlorides}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Acyl chloride, amine of choice in excess, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molN(-[:180]H)(-[:60]!\molRon)(-[:300]!\molRtw)}
+					\arrow(.mid east--.mid west)
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molN(-[:0]!\molRon)(-[:240]!\molRtw))}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Electrophilic Addition of Bromine to Phenylamines}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}\ch{Br2 \stAq}, room temperature.}\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} \ch{Br2 \stAq} decolourises,
+										\tabto{35mm}White precipitate of 2,4,6-tribromophenylamine formed.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molNitro)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{3 Br2 \stAq}
+					\arrow(.mid east--.mid west)
+					\chemfig[yshift=-1.5em]{**6(-(-[:270]!\molBr)--(-[:30]!\molBr)-(-[:90]!\molAmine)-(-[:150]!\molBr)-)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{3 HBr}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+% end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

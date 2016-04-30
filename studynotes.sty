@@ -6,7 +6,7 @@
 \ProvidesPackage{studynotes}[2013/01/13 Custom Package]
 
 
-\RequirePackage[a4paper, top=22.5mm, bottom=25.0mm, left=25.0mm, right=25.0mm]{geometry}
+\RequirePackage[a4paper, top=22.5mm, bottom=25.0mm, left=25.0mm, right=25.0mm, headheight=15pt]{geometry}
 \RequirePackage[ampersand]{easylist}
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{tabu}
@@ -29,6 +29,9 @@
 \RequirePackage{tocloft}
 \RequirePackage{minibox}
 \RequirePackage{regexpatch}
+\RequirePackage{afterpage}
+\RequirePackage{array}
+\RequirePackage[autostyle=false, style=british, strict=true]{csquotes}
 
 \RequirePackage[newparttoc]{titlesec}
 
@@ -56,6 +59,8 @@
 	radical-vshift	= -0.35ex
 }
 
+\setcrambond{5pt}{1pt}{2pt}
+
 \usetikzlibrary{arrows.meta,calc,positioning}
 
 
@@ -71,6 +76,11 @@
 	the#1\endcsname\quad}}
 \makeatother
 
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
 
 
 % curved chemfig arrow
@@ -85,12 +95,16 @@
 	}
 \makeatother
 
-\makeatletter
-\patchcmd{\@part}% <cmd>
-  {\markboth{}{}}% <search>
-  {\partmark{#1}}% <replace>
-  {}{}% <success><failure>
-\makeatother
+
+\newcommand\immediateaddcontentsline[3]{%
+  \begingroup
+  \let\origwrite\write
+  \def\write{\immediate\origwrite}%
+  \addcontentsline{#1}{#2}{#3}%
+  \endgroup
+}
+
+
 
 
 
@@ -114,54 +128,142 @@
 	BoldFont		= HelveticaNeue-Bold,
 	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue-Medium}
 
+
+
+
+\newfontfamily\SSRegular[
+	UprightFont		= SourceSansPro-Regular,
+	ItalicFont		= SourceSansPro-Italic,
+	BoldFont		= SourceSansPro-SemiBold,
+	BoldItalicFont	= SourceSansPro-SemiBoldItalic]{SourceSansPro-Regular}
+
+
+\newfontfamily\SSLight[
+	UprightFont		= SourceSansPro-Light,
+	ItalicFont		= SourceSansPro-LightItalic,
+	BoldFont		= SourceSansPro-Regular,
+	BoldItalicFont	= SourceSansPro-Italic]{SourceSansPro-Light}
+
+
+
+\newfontfamily\Alexandria[
+	UprightFont		= AlexandriaFLF,
+	ItalicFont		= AlexandriaFLF-Italic,
+	BoldFont		= AlexandriaFLF-Bold,
+	BoldItalicFont	= AlexandriaFLF-BoldItalic]{AlexandriaFLF}
+
+
+\newfontfamily\LatoRegular[
+	UprightFont		= Lato-Regular,
+	ItalicFont		= Lato-Italic,
+	BoldFont		= Lato-Semibold,
+	BoldItalicFont	= Lato-SemiboldItalic]{Lato-Regular}
+
+
+
+\newfontfamily\LatoLight[
+	UprightFont		= Lato-Light,
+	ItalicFont		= Lato-LightItalic,
+	BoldFont		= Lato-Medium,
+	BoldItalicFont	= Lato-MediumItalic]{Lato-Light}
+
+
+
+
+\newfontfamily\PTSerifRegular[
+	UprightFont		= PTSerif-Regular,
+	ItalicFont		= PTSerif-Italic,
+	BoldFont		= PTSerif-Bold,
+	BoldItalicFont	= PTSerif-BoldItalic]{PTSerif-Regular}
+
+
+
 \defaultfontfeatures{Ligatures=TeX}
+
+% \setmainfont[
+% 				Ligatures=TeX,
+% 				BoldFont={HelveticaNeue-Medium},
+% 				ItalicFont={HelveticaNeue-Italic},
+% 				BoldItalicFont={HelveticaNeue-MediumItalic}
+% 			]{HelveticaNeue}
+
+% \setmainfont[
+% 				Ligatures=TeX,
+% 				BoldFont={SourceSansPro-Semibold},
+% 				ItalicFont={SourceSansPro-Italic},
+% 				BoldItalicFont={SourceSansPro-SemiboldItalic}
+% 			]{SourceSansPro-Regular}
+
+
 \setmainfont[
 				Ligatures=TeX,
-				BoldFont={HelveticaNeue-Medium},
-				ItalicFont={HelveticaNeue-Italic},
-				BoldItalicFont={HelveticaNeue-MediumItalic}
-			]{HelveticaNeue}
+				BoldFont={Lato-Semibold},
+				ItalicFont={Lato-Italic},
+				BoldItalicFont={Lato-SemiboldItalic}
+			]{Lato-Regular}
+
 
 \setsansfont[
 				Scale=MatchLowercase,
 				Ligatures=TeX,
-				BoldFont={HelveticaNeue-Medium},
-				ItalicFont={HelveticaNeue-Italic},
-				BoldItalicFont={HelveticaNeue-MediumItalic}
-			]{HelveticaNeue}
+				BoldFont={SourceSansPro-Semibold},
+				ItalicFont={SourceSansPro-Italic},
+				BoldItalicFont={SourceSansPro-SemiboldItalic}
+			]{SourceSansPro-Regular}
+
+
+% \setsansfont[
+% 				Scale=MatchLowercase,
+% 				Ligatures=TeX,
+% 				BoldFont={HelveticaNeue-Medium},
+% 				ItalicFont={HelveticaNeue-Italic},
+% 				BoldItalicFont={HelveticaNeue-MediumItalic}
+% 			]{HelveticaNeue}
+
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
 
 \newlength\titleNumberInsetLength
 \setlength\titleNumberInsetLength{12.5mm}
 
+
+\newcolumntype{N}{@{}m{0pt}@{}}
+
+
 \setstretch{1.05}
 
 \titleformat{\part}[hang]
-	{\HNLight\fontsize{35pt}{42pt}\selectfont}
+	{\LatoLight\fontsize{35pt}{42pt}\selectfont}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{20pt}{24pt}\selectfont\thepart\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\section}
-	{\HNLight\fontsize{25pt}{30pt}\selectfont\bfseries}
+	{\LatoLight\fontsize{25pt}{30pt}\selectfont\bfseries}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
-	{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+	{\LatoLight\fontsize{21pt}{25pt}\selectfont\bfseries}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsubsection}
-	{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
+	{\LatoLight\fontsize{18pt}{22pt}\selectfont\bfseries}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
 
-
 \titleformat{\paragraph}
-	{\HNRegular\fontsize{14pt}{17pt}\selectfont}
+	{\LatoRegular\fontsize{14pt}{17pt}\selectfont}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}{0.0em}{}
 	[{\makebox[0mm][l]{}}]
+
+
+
+
+
+
+
+
 
 
 
@@ -175,18 +277,19 @@
 	\@addtoreset{section}{part}
 \makeatother
 
-\renewcommand{\cftpartfont}{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+\renewcommand{\cftpartfont}{\LatoLight\fontsize{21pt}{25pt}\selectfont\bfseries}
 \renewcommand{\cftpartaftersnum}{.}
 \renewcommand{\cftsecaftersnum}{.}
 
 \setlength{\cftpartnumwidth}{14mm}
+\setlength{\cftsecnumwidth}{2.0em}
 
 \renewcommand{\cftpartindent}{-1.0em}
 \renewcommand{\cftsecindent}{2.5em}
-\renewcommand{\cftsubsecindent}{4.0em}
-\renewcommand{\cftsubsubsecindent}{6.35em}
+\renewcommand{\cftsubsecindent}{4.5em}
+\renewcommand{\cftsubsubsecindent}{6.85em}
 
-\renewcommand{\cfttoctitlefont}{\hfill\HNLight\fontsize{35pt}{42pt}\selectfont}
+\renewcommand{\cfttoctitlefont}{\hfill\LatoLight\fontsize{35pt}{42pt}\selectfont}
 \renewcommand{\contentsname}{\hfill Contents\hfill}
 \renewcommand{\cftaftertoctitle}{\hfill}
 
@@ -200,7 +303,7 @@
 % \renewcommand{\cftsecpagefont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
 
 
-\renewcommand{\printatom}[1]{\HNRegular\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
+\renewcommand{\printatom}[1]{\LatoRegular\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
 
 \sisetup{
 	detect-all = true
@@ -235,8 +338,22 @@
 
 \pagestyle{fancy}
 \fancyhf{}
+\fancyhead{}
 \renewcommand{\headrulewidth}{0pt}
 \rfoot{\thepage}
+
+
+\newcommand*\parttitle{}
+\let\origpart\part
+\renewcommand*{\part}[2][]{%
+\ifx\\#1\\% optional argument not present?
+  \origpart{#2}%
+  \renewcommand*\parttitle{#2}%
+\else
+  \origpart[#1]{#2}%
+  \renewcommand*\parttitle{#1}%
+\fi
+}
 
 
 \DeclareSIUnit\atm{atm}
@@ -262,12 +379,12 @@
 % helper macros
 
 
-\newcommand	{\normtext}		{\HNRegular\fontsize{12pt}{14pt}\selectfont}
+\newcommand	{\normtext}		{\LatoRegular\fontsize{12pt}{14pt}\selectfont}
 
-\newcommand	{\hugetext}		[1]{\HNLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
-\newcommand	{\titletext}	[1]{\HNLight\fontsize{40pt}{48pt}\selectfont\textbf{#1}\normtext\ignorespaces}
-\newcommand	{\subtext}		[1]{\HNLight\fontsize{23pt}{28pt}\selectfont\textbf{#1}\normtext\ignorespaces}
-\newcommand	{\subsubtext}	[1]{\HNLight\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}
+\newcommand	{\hugetext}		[1]{\LatoLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
+\newcommand	{\titletext}	[1]{\LatoLight\fontsize{40pt}{48pt}\selectfont\textbf{#1}\normtext\ignorespaces}
+\newcommand	{\subtext}		[1]{\LatoLight\fontsize{23pt}{28pt}\selectfont\textbf{#1}\normtext\ignorespaces}
+\newcommand	{\subsubtext}	[1]{\LatoLight\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}
 
 \newcommand {\sbs}			[1]{\textsubscript{#1}}
 \newcommand {\sps}			[1]{\textsuperscript{#1}}
@@ -288,7 +405,7 @@
 								}
 								\end{center}
 								\begin{center}
-								\fontsize{11pt}{13pt}\selectfont{#3}
+								\fontsize{10pt}{12pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 							}
 
@@ -311,7 +428,7 @@
 								}
 								\end{center}
 								\begin{center}
-								\fontsize{11pt}{13pt}\selectfont{#3}
+								\fontsize{10pt}{12pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 								\vspace{-5mm}
 							}

@@ -1,0 +1,150 @@
+% Chapter 14 - Esters.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+
+\pagebreak
+\hypertarget{ChapterEsters}{}
+\part{Esters}
+
+	\section{Structure}
+
+		Esters are also an acyl derivative, where the \ch{OH} group of a carboxylic acid is instead replaced with an oxygen atom
+		bonded to an R group.
+
+		\diagram[1.0]{
+			\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO-[:0]!\molR)}
+		}{The structure of an ester.}
+
+	% end section
+
+
+
+	\section{Physical Properties}
+
+		\paragraph{Melting and Boiling Points}
+
+		Esters, like acyl chlorides, have far lower melting and boiling points than their equivalent carboxylic acid, due to the lack of
+		intermolecular hydrogen bonding. Thus, they rely only on permanent dipole interactions, leading to low melting and boiling points.
+
+
+		\paragraph{Solubility}
+
+		Esters are mostly insoluble in water once the carbon chain reaches any appreciable length, due again to the lack of hydrogen bonding.
+		Thus, only permanent dipole interactions can be formed between water and the ester.
+
+		Of course, the carbon chain makes esters highly soluble in non-polar solvents.
+
+	% end section
+
+
+
+	\section{Creation of Esters}
+
+		There are two main methods of creating esters, one of which is superior to the other. Both have been discussed in detail before.
+
+		\subsection{From Carboxylic Acids}
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Carboxylic acid and alcohol,
+										\tabto{35mm}Several drops of concentrated \ch{H2SO4}, heated under reflux.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{oh}{\color{Red}O}|{\color{Red}H})}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+					\arrow{<=>[conc. \ch{H2SO4}][reflux]}
+					\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+
+		\subsection{From Acyl Chlorides}
+
+			Again, note that only acyl chlorides can react with phenols (or more effectively with phenoxide) to form an ester.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Acyl chloride and alcohol,
+										\tabto{35mm}Room temperature.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{!\molRon-[:0]C(=[:45]!\molO)(-[:315]@{cl}\color{OliveGreen}\chlorine)}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{!\molRtw(-[:180]!\molO-[:180,0.75]@{hyd}H)}
+					\arrow
+					\chemfig{C(-[:180]!\molRon)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRtw)}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+	% end section
+
+
+
+	\pagebreak
+	\section{Ester Reactions}
+
+		\subsection{Hydrolysis}
+
+			Like most hydrolysis reactions, esters can be hydrolysed in either an acidic or alkaline medium. However, acid hydrolysis is
+			the same equilibrium reaction as esterification with a carboxylic acid, only this time an excess of water is used to move
+			the position of equilibrium --- thus the reaction is slow and the yield is low.
+
+			\subsubsection{Acid Hydrolysis}
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{H2SO4}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molRon)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+						\arrow{<=>[dil. \ch{H2SO4}][reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molOH)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molRon-[:0]!\molOH}
+					\schemestop
+				}
+
+			% end subsubsection
+
+
+			\subsubsection{Alkaline Hydrolysis (Saponification)}
+
+				Alternatively, using an alkaline medium results in a fast and irreversible reaction, creating a carboxylate salt. Dilute
+				acid can be used to protonate the salt afterwards.
+
+				This reaction is also known as saponification, and is preferred for its higher yield and faster reaction.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Dilute \ch{NaOH}, heat under reflux.}
+
+				\diagram[1.0]{
+					\schemestart[0, 2.0, thick]
+						\chemfig{C(-[:180]!\molR)(=[:45]!\molO)(-[:315]!\molO-[:0]!\molR)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{\ch{H2O}}
+						\arrow{->[dil. \ch{NaOH}][reflux]}
+						\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molO\mch Na\pch)}
+						\hspace{2mm} + \hspace{2mm}
+						\chemfig{!\molRon-[:0]!\molOH}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
+
+		% end subsection
+
+	% end section
+
+% end part

@@ -523,15 +523,23 @@
 			"file": "OrganicChem/OrganicChem.tex",
 			"settings":
 			{
-				"buffer_size": 1221,
+				"buffer_size": 2405,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "makefile",
+			"file": "OrganicChem/Chapter 07 - Arenes.aux",
 			"settings":
 			{
-				"buffer_size": 1459,
+				"buffer_size": 3004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "OrganicChem/Appendix B - List of Reactions.tex",
+			"settings":
+			{
+				"buffer_size": 1709,
 				"line_ending": "Unix"
 			}
 		}
@@ -560,7 +568,7 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "ch",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -890,23 +898,36 @@
 	"file_history":
 	[
 		"/Users/zhiayang/Documents/Chem Notes/chemnotes.sublime-project",
-		"/Users/zhiayang/Documents/Chem Notes/studynotes.sty",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.toc",
-		"/Users/zhiayang/Documents/Chem Notes/makefile",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 01 - Functional Groups.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 02 - Isomers.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 03 - Reaction Mechanisms.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 04 - Induction and Resonance.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 06 - Alkenes.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 07 - Arenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/TableOfContents.tex",
+		"/Users/zhiayang/Documents/Chem Notes/TableOfContents.aux",
+		"/Users/zhiayang/Documents/Chem Notes/studynotes.sty",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 13 - Acyl Chlorides.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 16 - Amines.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 08 - Halogen Derivatives.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 09 - Alcohols.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 10 - Phenols.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.aux",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 12 - Carboxylic Acids.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix A - List of Reaction Mechanisms.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 15 - Amides.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 02 - Isomers.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 09 - Alcohols.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 14 - Esters.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 01 - Functional Groups.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 10 - Phenols.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 06 - Alkenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 11 - Aldehydes and Ketones.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 07 - Arenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/makefile",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Addendum A - List of Reaction Mechanisms.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.log",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 04 - Induction and Resonance.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 03 - Reaction Mechanisms.tex",
+		"/Users/zhiayang/Documents/Chem Notes/compile-on-enter.sh",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
 		"/Users/zhiayang/Documents/Chem Notes/Commands.tex",
 		"/Users/zhiayang/Documents/Chem Notes/Chapter 08 - Halogen Derivatives.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem.tex",
@@ -1003,20 +1024,7 @@
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/Parser/Lexer.cpp",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ast-old.h",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/codegen.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/parser.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/semantic.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/tcn.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/typeinfo.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/SemanticAnalysis/ParserTypeAnalysis.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/SemanticAnalysis/RewriteDotOperators.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/SemanticAnalysis/VarChecker.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/LICENSE",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/Tuples.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/flax.sublime-project",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/operators.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/type.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/Type.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/FunctionType.cpp"
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/parser.h"
 	],
 	"find":
 	{
@@ -1073,134 +1081,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"titlesec",
-			"\\chapter",
-			"depth",
-			"chap",
-			"tocloft",
-			"amsthm",
+			"input",
+			"RequirePackage",
+			"\\section",
+			"formation of amides",
+			"formation of amines",
 			"yellow",
-			"iiodo",
-			"purple",
-			"orange",
-			"center",
-			"{",
-			"chemname",
-			"!\\molMeR",
+			"heat under",
+			"@c1",
+			"paragraph",
+			"mid",
+			"[H",
+			"NucleophilicSubstitution",
+			"sntwo",
+			"snone",
+			"270",
+			"180",
+			"90",
+			"\\hyperlink",
+			"hydrolysis of ",
+			"\\sptwo",
+			"isomersim",
+			"are the same",
+			"Amides",
+			"10mm",
+			"subsubte",
+			"subsub",
+			"partmark",
+			"pagestyle",
+			"{hydrolysis",
+			"\nChapter 14 - Esters.tex\nChapter 15 - Amides.tex\nChapter 16 - Amines.tex\nChapter 17 - Amino Acids.tex\nChapter 18 - Proteins.tex",
+			"oxidation",
+			"reduction of",
+			"mylen",
+			"0, 1.0",
+			"esterification",
+			"5mm",
 			"2mm",
-			"major",
-			"markovnikov",
-			"tertiary",
-			"@{",
-			"OH",
-			"@{oh}",
-			"@\\{",
-			"@{",
-			"\\[:(.+)\\]",
-			"\\[:(.+)\\,\\]",
-			"\\[:(.+),\\]",
-			"\\[:(.+)\\]",
-			"\\[:(.+),,\\]",
-			"\\[\\:(.+),,\\]",
-			"[:(.+),,,]",
-			"sealed",
-			"reflux",
-			"heat under reflux",
-			"{concentrated",
-			"conc.",
-			"\\\\hyperlink\\{(.+)\\}\\{(.+)\\}",
-			"\\\\hyperlink",
-			"\\\\labelcref\\{(.+)\\}",
-			"\\\\labelcref",
-			"\\\\hyperlink\\{(.+)\\}\\{(.+)\\}",
-			"\\\\hyperlink\\{(.+)\\}",
-			"\\\\hyperlink",
-			"hyperlink",
-			"\\\\hyperlink\\{(.+)\\}\\{\\}",
-			"\\\\hypertarget\\{(.+)\\}\\{\\}",
-			"\\hypertarget{(.+)}{}",
-			"\\hypertarget{Chapter",
-			"hybrid",
-			"sp",
-			"\\ch{H+}",
-			"\\ch{H\\pch}",
-			"a \\ch{H",
-			"reaction",
-			"dilute",
-			"hydrolysis",
-			"!\\molr",
-			"315",
-			":225",
-			"\\molO",
-			"dry ether",
-			"formation of",
-			"formation",
-			"\\molOH",
-			"\\mol",
-			"\\ch{-",
-			"conc",
-			"conc.",
-			" \\textit{OR}",
-			"hydration",
-			"molO",
-			"chemsigma",
-			"sigma",
-			"-4em",
-			"∆S",
-			"> 0",
-			"—–",
-			"numberedlist",
-			"list",
-			"image",
-			"\\frac",
-			"proportional",
-			"proportionate",
-			"enth{c",
-			"fracHalf",
-			"pagebreak",
-			"--",
-			" – ",
-			"\\enth{}",
+			"5mm",
+			"2mm",
+			"reduction",
+			"esteri",
+			"30",
+			"nsubalcohols",
+			"p\\chlorine",
+			"30",
+			"330",
+			"NitrileUses",
+			"green",
+			"side-chain",
+			"draw=none",
+			"sptwo",
+			"bondoffset",
+			"bond",
+			"solubility",
+			"setcounter",
+			"stereoisomerism",
+			"isomerism",
+			"stereoisomer",
+			"stereoisomerism",
+			"Addendum",
+			"appendix",
+			"addendum",
+			"NSubAlcohols",
+			"\\boit{add",
+			"part",
+			"nitration of benzene",
+			"step 1",
+			"part 1",
+			"deltam",
+			"deltap",
+			"\\chlorine",
+			"snone",
+			"part",
+			"hugetext",
+			"hugetxt",
+			"reddish",
+			"silver",
+			"base",
+			"-}\n",
+			"OxidationOfPrimaryAlcohols",
+			"5mm",
+			"base",
+			"\\arrow(",
+			"orange",
+			"formation of ",
+			"\\schemestart[0,1.0,thick]",
+			"% end paragraph",
+			"bottom",
 			"20mm",
-			"1 mole",
-			"only",
-			"\\SI{30",
-			"30}",
-			"both sides",
-			"nh",
-			"CN",
-			"boit",
-			"textit",
-			"HelveticaNeue",
-			"1/2",
-			"\\gas",
-			"\\sld",
-			"\\lqd",
-			"\\aq",
-			"[0,1.5",
-			"en",
-			"end",
-			"OrganicChem",
-			"preamble",
-			"usepackage",
-			"headrulewidth",
-			"fancy",
-			"romanlist",
-			"easylist",
-			"greenyellow",
-			"yellow",
-			"a \\ch{H",
-			"a H",
-			"an \\ch{H+",
-			"a \\ch{H+",
-			"OR",
-			"chemabove",
-			"chembelow",
-			"chemnameinit",
-			"\\end{center}\\vspace{-15mm}",
-			"\\end{center}\\vspace{-10mm}",
-			"\\end{center}\\vspace{-5mm}",
-			"\\end{tabu}"
+			"90",
+			"smdeltap",
+			"mol",
+			"bottom",
+			"top",
+			"step 1",
+			"cleavage",
+			"2  \\hspace",
+			"2\\hspace",
+			"2 \\hspace",
+			"2 \\arrow",
+			"2 ",
+			"\\degree",
+			"sp\\sps{3}",
+			"sp\\sps{2}",
+			"sp\\sps{1}",
+			"\n			\\diagram[1.0]{\n				\\chemfig{C(-[:210]!\\molR)(-[:330]!\\molR)=[:90]!\\molO}\n			}{The structure of a ketone.}",
+			"dehydr",
+			"elimination",
+			"5em",
+			"thick*",
+			"thick",
+			"creation",
+			"aldehyde",
+			"15em",
+			"2mm",
+			"2",
+			"vspace{1.0em}",
+			"\\vspace{1.0em}",
+			"% \\vspace{1.0em}",
+			"% % \\vspace{1.0em}",
+			"\\vspace{1.0em}",
+			"\\vspace{0.5em}",
+			"white fumes",
+			", and",
+			"\\chemleft",
+			"90",
+			">[",
+			">[]"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1208,6 +1216,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Appendix",
+			"appendix",
 			"\\part",
 			"\\\\hyperlink{$1}{\\\\boit{$2}}",
 			"\\\\hypertarget{$1}{}",
@@ -1333,9 +1343,7 @@
 			"ps.tokens.size()",
 			"ps.front()",
 			"ps.eat()",
-			"ParserState& ps",
-			"ps",
-			"peek(tokens)"
+			"ParserState& ps"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1355,15 +1363,75 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1221,
+						"buffer_size": 2405,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1194,
-								1194
+								1063,
+								1063
+							],
+							[
+								1098,
+								1098
+							],
+							[
+								1145,
+								1145
+							],
+							[
+								1196,
+								1196
+							],
+							[
+								1231,
+								1231
+							],
+							[
+								1266,
+								1266
+							],
+							[
+								1300,
+								1300
+							],
+							[
+								1347,
+								1347
+							],
+							[
+								1383,
+								1383
+							],
+							[
+								1418,
+								1418
+							],
+							[
+								1467,
+								1467
+							],
+							[
+								1511,
+								1511
+							],
+							[
+								1553,
+								1553
+							],
+							[
+								1587,
+								1587
+							],
+							[
+								1621,
+								1621
+							],
+							[
+								1655,
+								1655
 							]
 						],
 						"settings":
@@ -1372,7 +1440,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 547.0,
+						"translation.y": 905.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1380,30 +1448,60 @@
 				},
 				{
 					"buffer": 1,
-					"file": "makefile",
-					"semi_transient": false,
+					"file": "OrganicChem/Chapter 07 - Arenes.aux",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1459,
+						"buffer_size": 3004,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1059,
-								1059
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Makefile Improved/Makefile Improved.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "OrganicChem/Appendix B - List of Reactions.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"spell_check": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1660,7 +1758,7 @@
 		[
 			[
 				"",
-				"~/Desktop/Stuff/CydiaTweaks/whatsappnotificationname/whatsappnotificationname.sublime-project"
+				"~/Desktop/Stuff/OSDev/mx/mx.sublime-project"
 			],
 			[
 				"web",

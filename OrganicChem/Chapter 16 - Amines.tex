@@ -1,0 +1,335 @@
+% Chapter 16 - Amines.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+
+
+\pagebreak
+\hypertarget{ChapterAmines}{}
+\part{Amines}
+
+	\section{Structure}
+		\subsection{Aliphatic Amines}
+
+			Aliphatic amines share a similar structure with ammonia --- three substituents around a central nitrogen atom.
+
+			\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
+			\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] | X[c,m] |}
+
+				\hline
+				% row one: molecules
+				\vspace{2mm}\chemfig{\lewis{2:,\color{RoyalBlue}N}(-[:210]!\molR)(<[:300]H)(<:[:350]H)}				\vspace{2mm}	&
+				\vspace{2mm}\chemfig{\lewis{2:,\color{RoyalBlue}N}(-[:210]!\molR)(<[:300]!\molR)(<:[:350]H)}		\vspace{2mm}	&
+				\vspace{2mm}\chemfig{\lewis{2:,\color{RoyalBlue}N}(-[:210]!\molR)(<[:300]!\molR)(<:[:350]!\molR)}	\vspace{2mm}	&
+				\vspace{2mm}\schemestart\chemleft[\chemfig{{\color{RoyalBlue}N}(-[:210]!\molR)(<[:300]!\molR)(<:[:350]!\molR)(-[:90]!\molR)}\chemright]\arrow(qt--){->}[0,0,draw=none]\schemestop\chemmove{\node[xshift=2mm] at (qt.north east) {+};}\vspace{2mm}\\
+
+				\hline
+				\vspace{2mm}Primary (\SI{1}{\degree})		\vspace{2mm} &
+				\vspace{2mm}Secondary (\SI{2}{\degree})		\vspace{2mm} &
+				\vspace{2mm}Tertiary (\SI{3}{\degree})		\vspace{2mm} &
+				\vspace{2mm}Quaternary Ammonium Ion			\vspace{2mm} \\
+				\hline
+
+			\end{tabu}
+			\end{table}\end{center}\vspace{-10mm}
+
+		% end subsection
+
+
+		\subsection{Phenylamines}
+
+			Phenylamines also exist, where the nitrogen is directly bonded to a benzene ring. These too can be classified as primary, secondary,
+			tertiary or quaternary.
+
+
+			\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
+			\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] | X[c,m] |}
+
+				\hline
+				% row one: molecules
+				\vspace{2mm}\chemfig{**6(----(-[:90]!\molN(-[:30]H)(-[:150]H))--)}				\vspace{2mm}	&
+				\vspace{2mm}\chemfig{**6(----(-[:90]!\molN(-[:30]!\molR)(-[:150]H))--)}			\vspace{2mm}	&
+				\vspace{2mm}\chemfig{**6(----(-[:90]!\molN(-[:30]!\molR)(-[:150]!\molR))--)}	\vspace{2mm}	&
+				\vspace{2mm}\chemfig{**6(----(-[:90]\chemabove{\color{RoyalBlue}N}{\hspace{5mm}\smfplus}(-[:0]!\molR)(-[:90]!\molR)(-[:180]!\molR))--)}	\vspace{2mm}\\
+
+				\hline
+				\vspace{2mm}Primary (\SI{1}{\degree})		\vspace{2mm} &
+				\vspace{2mm}Secondary (\SI{2}{\degree})		\vspace{2mm} &
+				\vspace{2mm}Tertiary (\SI{3}{\degree})		\vspace{2mm} &
+				\vspace{2mm}Quaternary Ammonium Ion			\vspace{2mm} \\
+				\hline
+
+			\end{tabu}
+			\end{table}\end{center}\vspace{-10mm}
+
+
+		% end subsection
+
+	% end section
+
+
+
+	\section{Physical Properties}
+
+		\paragraph{Melting and Boiling Points}
+
+		Primary and secondary amines (and phenylamines) can form intermolecular hydrogen bonds, leading to increased melting and boiling points.
+		However, they still have lower melting and boiling points compared to alcohols, due to the less polar nature of the \ch{N-H} bond compared
+		to the \ch{O-H} bond.
+
+		Tertiary amines do not have a hydrogen atom bonded to the central nitrogen, and as such cannot form hydrogen bonds, relying only on pd-pd
+		and id-id interactions, thus having lower melting and boiling points compared to primary or secondary amines of a similar molar mass.
+
+
+		\paragraph{Solubility}
+
+		Aliphatic amines with relatively short carbon chains are able to form favourable solvent-solute interactions with water through hydrogen
+		bonding, and as such are quite soluble in water.
+
+		Naturally, the longer the carbon chain, the less soluble the amine becomes --- phenylamine is thus insoluble in water. Of course the
+		solubility of amines in non-polar solvents depends mostly on the size of the alkyl groups attached.
+
+	% end section
+
+
+
+	\pagebreak
+	\section{Creation of Amines}
+
+		\subsection{Nucleophilic Substitution of Alkyl Halides}
+
+			As covered \hyperlink{NucleophilicSubstitutionFormingAmines}{\boit{previously}}, the halogen atom can be substituted by \ch{NH3}
+			in a nucleophilic reaction, giving a primary amine. Primary and secondary amines can also be used to give substituted amines.
+
+			Excess \ch{NH3} is used to lower the possibility of multi-substitution.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Ethanolic concentrated \ch{NH3} in excess, heat in sealed tube.}
+
+			\diagram[1.0]{
+				\schemestart[0,1.5,thick]
+					\chemfig{!\molR-[:0]!\molX}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{NH3}}
+					\arrow
+					\chemfig{!\molR-[:0]\ch{NH2}}
+					\hspace{2mm} + \hspace{2mm}
+					\chemfig{\ch{HX}}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Reduction of Nitriles}
+
+			Nitriles can be reduced to give primary amines.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}\ch{Li\aluminium H4} in dry ether (diethyl ether), \textit{OR}
+										\tabto{35mm}\ch{H2 \stG}, \ch{Ni} catalyst, high temperature and pressure.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+					\chemfig{!\molR-[:0]C~[:0]!\molN}
+					\arrow{->[reduction][{[}H{]}]}
+					\chemfig{C(-[:180]!\molR)(-[:90]H)(-[:270]H)(-[:0]!\molN(-[:30]H)(-[:330]H))}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Reduction of Nitrobenzene}
+
+			This reaction forms a phenylamine, and can be had through the reduction of nitrobenzene. While the reaction produces an amine
+			salt, excess \ch{NaOH \stAq} can be used to deprotonate the salt.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Tin (\ch{Sn}) catalyst, excess concentrated \ch{H\chlorine},
+										\tabto{35mm}heat with reflux. Excess \ch{NaOH \stAq} later.}
+
+			\diagram[1.0]{
+				\schemestart[0, 3.0, thick]
+					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molNitro)--)}
+					\arrow(.base east--.base west){->[Sn, excess conc. \ch{H\chlorine}, reflux][\ch{NaOH \stAq}]}
+					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molAmine)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{H2O}
+				\schemestop
+			}
+
+
+		% end subsection
+
+	% end section
+
+
+
+	\pagebreak
+	\section{Amine Reactions}
+
+		\subsection{Basicity of Amines}
+
+			Due to the lone pair of electrons on the central \ch{N} atom in amines, they can act as a weak Brønsted base to accept a proton
+			via a dative bond.
+
+			Note that the electron-donating nature of the alkyl groups also increases its nucleophilic character.
+
+			\subsubsection{Aliphatic Amines}
+
+				Aliphatic amines can act as a base, and the electron-donating alkyl groups can intensify the electron density on the
+				central nitrogen, increasing the ability for it to attract a proton. Furthermore, once the conjugate acid is formed, the
+				positive charge is stabilised by the donation of electrons.
+
+			% end subsubsection
+
+
+			\subsubsection{Phenylamines}
+
+				Compared to aliphatic amines, phenylamines are far weaker bases. The lone pair on the nitrogen atom is delocalised into
+				the π-system of the benzene ring, reducing the amine's ability to attract a proton.
+
+			% end subsubsection
+
+
+
+			\subsubsection{Effect of Substituents}
+
+				In what is basically the opposite effect of acids, electron-donating groups for both aliphatic amines and phenylamines will
+				increase their basicity, both by increasing the electron density to attract \ch{H+} ions and by stabilising the conjugate acid.
+
+				Conversely, electron-withdrawing groups will reduce electron density and decrease the basicity of the amine.
+
+			% end subsubsection
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Reactions as a Base}
+
+			Amines can react with both organic acids (phenols and carboxylic acids) as well as mineral acids (eg. \ch{H2SO4}). Due to the
+			formation of ion-dipole interactions, the salts formed are generally soluble in water.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Organic or mineral acid, room temperature.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.0, thick]
+					\ch{R-NH2}
+					\hspace{2mm} + \hspace{2mm}
+					\ch{H\chlorine}
+					\arrow
+					\ch{R-NH3+ \chlorine-}
+				\schemestop
+			}
+
+		% end subsection
+
+
+		\subsection{Nucleophilic Substitution of Alkyl Halides}
+
+			Similar to how ammonia can be used in a nucleophilic substitution on alkyl halides to produce amines, amines themselves are actually
+			stronger nucleophiles and can, themselves, substitute the halogen atom to form secondary and tertiary amines.
+
+			Since more substituted amines are stronger nucleophiles than less substituted ones due to more electron-donating alkyl groups, an
+			excess of the original amine is used to prevent further substitution. This is the same reason why excess \ch{NH3} is used.
+
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Ethanolic alkyl halide, heated in sealed tube.}
+
+			\diagram[0.9]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{!\molN(-[:180]!\molR)(-[:60]H)(-[:300]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molRon-!\molX}
+					\arrow
+					\chemfig{!\molN(-[:180]!\molR)(-[:60]!\molRon)(-[:300]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+					\arrow(@c1.south east--.north east){0}[-90,.5]
+					\chemfig{!\molN(-[:180]!\molRon)(-[:60]!\molRtw)(-[:300]H)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molRth-!\molX}
+					\arrow
+					\chemfig{!\molN(-[:180]!\molRon)(-[:60]!\molRtw)(-[:300]!\molRth)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+					\arrow(@c3.south east--.north east){0}[-90,.5]
+					\chemfig{!\molN(-[:180]!\molRon)(-[:60]!\molRtw)(-[:300]!\molRth)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molRfr-!\molX}
+					\arrow
+					\chemfig{!\molN(-[:180]!\molRon)(-[:90]!\molRtw)(-[:0]!\molRth)(-[:270]!\molRfr)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H-!\molX}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+
+		\subsection{Nucleophilic Acyl Substitution of Acyl Chlorides}
+
+			As covered in \hyperlink{AcylChloridesReactionWithAmines}{\boit{acyl chlorides}}, amines can undergo nucleophilic substitution
+			with the chlorine atom in an acyl chloride to form amides.
+
+			Only primary and secondary amines can react in this manner due to them having unsubstituted hydrogen atoms.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}Acyl chloride, amine of choice in excess, room temperature.}
+			\vbox{\textbf{Observations:}\tabto{35mm}Formation of white fumes of \ch{H\chlorine} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molCl)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{!\molN(-[:180]H)(-[:60]!\molRon)(-[:300]!\molRtw)}
+					\arrow(.mid east--.mid west)
+					\chemfig{C(-[:180]!\molR)(=[:60]!\molO)(-[:300]!\molN(-[:0]!\molRon)(-[:240]!\molRtw))}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{H\chlorine}
+				\schemestop
+			}
+
+		% end subsection
+
+
+
+
+		\subsection{Electrophilic Addition of Aqueous \ch{Br2}}
+
+			In a similar manner to phenols, the lone pair on the nitrogen atom is delocalised into the benzene ring, and thus increases its
+			electron density. This makes it more susceptible to electrophile attacks, such as those by \ch{Br-}, and thus bromine can be
+			electrophilically added to phenylamines without a Lewis acid catalyst.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}\tabto{35mm}\ch{Br2 \stAq}, room temperature.}\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Dandelion}Yellow} \ch{Br2 \stAq} decolourises,
+										\tabto{35mm}White precipitate of 2,4,6-tribromophenylamine formed.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molNitro)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{3 Br2 \stAq}
+					\arrow(.mid east--.mid west)
+					\chemfig[yshift=-1.5em]{**6(-(-[:270]!\molBr)--(-[:30]!\molBr)-(-[:90]!\molAmine)-(-[:150]!\molBr)-)}
+					\hspace{5mm} + \hspace{5mm}
+					\ch{3 HBr}
+				\schemestop
+			}
+
+
+		% end subsection
+
+
+	% end section
+
+
+% end part
