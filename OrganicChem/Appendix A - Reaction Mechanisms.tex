@@ -53,9 +53,9 @@
 					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b2) .. controls +(90:8mm) and +(90:8mm) .. (hal);}
 				}{The hydrogen was added to the centre carbon, in violation of Markovnikov's rule.}
 
-				Notice that the positively-charged carbon on the intermediate only has 1 electron-donating alkyl group to
-				stabilise its charge. Conversely, if Markovnikov's rule is followed below, the outcome would be different.
 
+				The positively-charged carbon on the intermediate only has 1 electron-donating alkyl group to
+				stabilise its charge --- compare this to the example below where Markovnikov's Rule is followed:
 
 
 				\diagram[0.85]{
@@ -64,7 +64,7 @@
 					\hspace{5mm} + \hspace{5mm}
 					\chemfig{@{hyd}\chembelow{H}{\smdeltap}-[@{b2}:0]@{hal}\chembelow{{\color{Mahogany}Br}}{\smdeltam}}
 					\arrow{->[slow]}
-					\chemfig{!\molMeR-\chemabove{C}{\smfplus}(-[:270]H)-!\molMe}
+					\chemfig{!\molMeR-\chemabove{C}{\smfplus}(-[:270]H)-!\molMe-[:90,,,,draw=none]\phantom{H}}
 					\hspace{5mm} + \hspace{5mm}
 					\chemfig{!\molBr\mch}
 					\schemestop
@@ -606,121 +606,121 @@
 
 
 
-			\pagebreak
-			\subsection{Halogenation of Benzene}
+		\pagebreak
+		\subsection{Halogenation of Benzene}
 
-				Halogenation of benzene requires rather specific conditions, such as anhydrous \ch{FeBr3} or \ch{Fe\chlorine2} (for a reaction
-				with bromine and chlorine respectively), and a warm environment.
+			Halogenation of benzene requires rather specific conditions, such as anhydrous \ch{FeBr3} or \ch{Fe\chlorine2} (for a reaction
+			with bromine and chlorine respectively), and a warm environment.
 
-				Aluminium-based analogues of these catalysts (\ch{\aluminium Br3}, \ch{\aluminium\chlorine3}) can also be used, as can pure
-				filings of the metal, in which case the catalyst will be generated \textit{in-situ} (\ch{2 Fe \stS} + \ch{3 Br2 \stL} -> \ch{2 FeBr3}).
-
-
-				\vspace{1.5em}
-				\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
-											\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
-														\ch{Fe} / \ch{\aluminium} filings (for chlorine)}
-
-				\vspace{0.75em}
-				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
-											\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
+			Aluminium-based analogues of these catalysts (\ch{\aluminium Br3}, \ch{\aluminium\chlorine3}) can also be used, as can pure
+			filings of the metal, in which case the catalyst will be generated \textit{in-situ} (\ch{2 Fe \stS} + \ch{3 Br2 \stL} -> \ch{2 FeBr3}).
 
 
-				\hypertarget{BenzeneHalogenationCatalyst}{}
-				\subsubsection{Catalysts}
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
+										\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
+													\ch{Fe} / \ch{\aluminium} filings (for chlorine)}
 
-					Lewis acid catalysts must be used, since the \ch{Br-Br} and \ch{\chlorine-\chlorine} are only instantaneously polar (instantaneous
-					dipole moments). As such, they are nowhere near strong enough to attack the benzene system on their own.
-
-					Indeed, this can be used to distinguish between alkenes and benzenes, since the former does not require a catalyst for addition
-					of halogens.
-
-					Furthermore, the entire reaction must be conducted in the absence of water; the reaction mechanism for the lewis-acid catalyst
-					involves accepting a lone pair, the lone pair on water can, and will, in sufficient concentrations, destroy the catalyst.
-
-				% end subsubsection
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
+										\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
 
 
+			\hypertarget{BenzeneHalogenationCatalyst}{}
+			\subsubsection{Catalysts}
 
-				\subsubsection{Reaction Mechanism}
+				Lewis acid catalysts must be used, since the \ch{Br-Br} and \ch{\chlorine-\chlorine} are only instantaneously polar (instantaneous
+				dipole moments). As such, they are nowhere near strong enough to attack the benzene system on their own.
 
-					\paragraph{Generation of Electrophile}
+				Indeed, this can be used to distinguish between alkenes and benzenes, since the former does not require a catalyst for addition
+				of halogens.
 
-					The reaction below uses Iron (III) chlorine (\ch{Fe\chlorine3}) as an example, adding \ch{\chlorine} to benzene,
-					and this reaction mechanism applies to aluminium-based catalysts as well.
+				Furthermore, the entire reaction must be conducted in the absence of water; the reaction mechanism for the lewis-acid catalyst
+				involves accepting a lone pair, the lone pair on water can, and will, in sufficient concentrations, destroy the catalyst.
 
-					\diagram{
-						\schemestart[0, 1.0, thick]
-							\ch{FeBr3} \hspace{2mm} + \hspace{2mm} \ch{Br2}
-							\arrow
-							\ch{Br+} \hspace{2mm} + \hspace{2mm} \ch{FeBr4-}
-						\schemestop
-					}{The catalyst is \ch{FeBr4-}, and the \textit{electrophile} is \ch{Br+}}
-
-
-					\pagebreak
-
-					\paragraph{Formation of Benzene Intermediate}
-
-					Again, this mechanism is similar in nature to electrophilic substitution in general. Now, the electrophile (\ch{Br+}) attacks
-					the π-system, forming the arenium ion.
-
-					\diagram[1.0]{
-						\schemestart[0, 1.5, thick]
-						\chemfig{**6(---@{ring}---)}
-						\arrow{0}[,0]		% used for alignment
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{@{el}!\molBr}
-						\arrow(--.base west){->[slow]}
-						\chemfig[yshift=\the\dimexpr-1.5em\relax]{**[60,-240]6(----(-[:135]H)(-[:45]!\molBr)--)(-[:30,,,,draw=none]+)}
-						\schemestop
-
-						\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-4mm,shorten >=3mm](ring) .. controls +(40:8mm) and +(120:8mm) .. (el);}
-					}
-
-
-					\paragraph{Restoration of π-system and Aromaticity}
-
-					In the final step, the \ch{FeBr4-} acts as a nucleophile, attacking the \ch{H} atom attached to the benzene intermediate. This
-					regenerates the catalyst \ch{FeBr3}, and also forms \ch{HBr}.
-
-
-					\diagram[0.85]{
-						\schemestart[0, 1.5, thick]
-						\chemfig{Fe(-[:180]!\molBr)(-[:0]!\molBr)(-[:90]@{brom}\lewis{2:,\color{Mahogany}Br}|\mch)(-[:270]!\molBr)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig[yshift=-1.5em]{**[60,-240]6(----(-[@{bond}:135]@{hyd}H)(-[:45]!\molBr)--)(-[:30,,,,draw=none]@{plus}+)}
-						\arrow(.mid east--.mid west){->[fast]}
-						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{\ch{FeBr3}}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{\ch{HBr}}
-						\schemestop
-
-						\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](brom) .. controls +(90:15mm) and +(120:15mm) .. (hyd);}
-						\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=1mm,shorten >=1mm](bond) .. controls +(225:8mm) and +(90:8mm) .. (plus);}
-					}
+			% end subsubsection
 
 
 
-					\paragraph{Overall Reaction}
+			\subsubsection{Reaction Mechanism}
 
-					\diagram[1.0]{
-						\schemestart[0, 1.5, thick]
-						\chemfig{\ch{Br2}}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig[yshift=-1.5em]{**6(------)}
-						\arrow(.base east--.base west)
-						\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
-						\hspace{5mm} + \hspace{5mm}
-						\chemfig{\ch{HBr}}
-						\schemestop
-					}
+				\paragraph{Generation of Electrophile}
 
-				% end subsubsection
+				The reaction below uses Iron (III) chlorine (\ch{Fe\chlorine3}) as an example, adding \ch{\chlorine} to benzene,
+				and this reaction mechanism applies to aluminium-based catalysts as well.
 
-			% end subsection
+				\diagram{
+					\schemestart[0, 1.0, thick]
+						\ch{FeBr3} \hspace{2mm} + \hspace{2mm} \ch{Br2}
+						\arrow
+						\ch{Br+} \hspace{2mm} + \hspace{2mm} \ch{FeBr4-}
+					\schemestop
+				}{The catalyst is \ch{FeBr4-}, and the \textit{electrophile} is \ch{Br+}}
+
+
+				\pagebreak
+
+				\paragraph{Formation of Benzene Intermediate}
+
+				Again, this mechanism is similar in nature to electrophilic substitution in general. Now, the electrophile (\ch{Br+}) attacks
+				the π-system, forming the arenium ion.
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{**6(---@{ring}---)}
+					\arrow{0}[,0]		% used for alignment
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{@{el}!\molBr}
+					\arrow(--.base west){->[slow]}
+					\chemfig[yshift=\the\dimexpr-1.5em\relax]{**[60,-240]6(----(-[:135]H)(-[:45]!\molBr)--)(-[:30,,,,draw=none]+)}
+					\schemestop
+
+					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=-4mm,shorten >=3mm](ring) .. controls +(40:8mm) and +(120:8mm) .. (el);}
+				}
+
+
+				\paragraph{Restoration of π-system and Aromaticity}
+
+				In the final step, the \ch{FeBr4-} acts as a nucleophile, attacking the \ch{H} atom attached to the benzene intermediate. This
+				regenerates the catalyst \ch{FeBr3}, and also forms \ch{HBr}.
+
+
+				\diagram[0.85]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{Fe(-[:180]!\molBr)(-[:0]!\molBr)(-[:90]@{brom}\lewis{2:,\color{Mahogany}Br}|\mch)(-[:270]!\molBr)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.5em]{**[60,-240]6(----(-[@{bond}:135]@{hyd}H)(-[:45]!\molBr)--)(-[:30,,,,draw=none]@{plus}+)}
+					\arrow(.mid east--.mid west){->[fast]}
+					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{\ch{FeBr3}}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{\ch{HBr}}
+					\schemestop
+
+					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](brom) .. controls +(90:15mm) and +(120:15mm) .. (hyd);}
+					\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=1mm,shorten >=1mm](bond) .. controls +(225:8mm) and +(90:8mm) .. (plus);}
+				}
+
+
+
+				\paragraph{Overall Reaction}
+
+				\diagram[1.0]{
+					\schemestart[0, 1.5, thick]
+					\chemfig{\ch{Br2}}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig[yshift=-1.5em]{**6(------)}
+					\arrow(.base east--.base west)
+					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
+					\hspace{5mm} + \hspace{5mm}
+					\chemfig{\ch{HBr}}
+					\schemestop
+				}
+
+			% end subsubsection
+
+		% end subsection
 
 	% end section
 

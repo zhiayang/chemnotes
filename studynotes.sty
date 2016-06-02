@@ -10,15 +10,12 @@
 \RequirePackage[ampersand]{easylist}
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{tabu}
-\RequirePackage{calc}
 \RequirePackage{tikz}
 \RequirePackage{tabto}
 \RequirePackage{lipsum}
 \RequirePackage{amssymb}
 \RequirePackage{lmodern}
-\RequirePackage{sectsty}
 \RequirePackage{graphicx}
-\RequirePackage{ragged2e}
 \RequirePackage{fancyhdr}
 \RequirePackage{enumitem}
 \RequirePackage{dashrule}
@@ -27,11 +24,13 @@
 \RequirePackage{longtable}
 \RequirePackage{etoolbox}
 \RequirePackage{tocloft}
-\RequirePackage{minibox}
 \RequirePackage{regexpatch}
 \RequirePackage{afterpage}
 \RequirePackage{array}
+\RequirePackage{pgfplots}
 \RequirePackage[autostyle=false, style=british, strict=true]{csquotes}
+\RequirePackage{sansmath}
+\RequirePackage{xfrac}
 
 \RequirePackage[newparttoc]{titlesec}
 
@@ -62,8 +61,17 @@
 \setcrambond{5pt}{1pt}{2pt}
 
 \usetikzlibrary{arrows.meta,calc,positioning}
+\usepgfplotslibrary{fillbetween}
 
-
+\pgfplotsset{
+	compat				= 1.13,
+	samples				= 100,
+	scaled ticks		= false,
+	width				= 100mm,
+	height				= 60mm,
+	clip				= false,
+	tick label style	= {font = \sansmath\LatoRegular},
+}
 
 \date{}
 \author{}
@@ -114,29 +122,36 @@
 	BoldFont		= HelveticaNeue-Medium,
 	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue}
 
-
 \newfontfamily\HNLight[
 	UprightFont		= HelveticaNeue-Thin,
 	ItalicFont		= HelveticaNeue-LightItalic,
 	BoldFont		= HelveticaNeue-Light,
 	BoldItalicFont	= HelveticaNeue-LightItalic]{HelveticaNeue-Light}
 
+\newfontfamily\LatoRegular[
+	UprightFont		= Lato-Regular,
+	ItalicFont		= Lato-Italic,
+	BoldFont		= Lato-Semibold,
+	BoldItalicFont	= Lato-SemiboldItalic]{Lato-Regular}
 
-\newfontfamily\HNMedium[
-	UprightFont		= HelveticaNeue-Medium,
-	ItalicFont		= HelveticaNeue-MediumItalic,
-	BoldFont		= HelveticaNeue-Bold,
-	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue-Medium}
+\newfontfamily\LatoLight[
+	UprightFont		= Lato-Thin,
+	ItalicFont		= Lato-ThinItalic,
+	BoldFont		= Lato-Light,
+	BoldItalicFont	= Lato-LightItalic]{Lato-Thin}
+
+% \newfontfamily\Merriweather[
+% 	UprightFont		= Merriweather-Light,
+% 	ItalicFont		= Merriweather-LightItalic,
+% 	BoldFont		= Merriweather-Regular,
+% 	BoldItalicFont	= Merriweather-Italic]{Merriweather-Light}
 
 
-
-
-\newfontfamily\SSRegular[
-	UprightFont		= SourceSansPro-Regular,
-	ItalicFont		= SourceSansPro-Italic,
-	BoldFont		= SourceSansPro-SemiBold,
-	BoldItalicFont	= SourceSansPro-SemiBoldItalic]{SourceSansPro-Regular}
-
+\newfontfamily\Alexandria[
+	UprightFont		= AlexandriaFLF,
+	ItalicFont		= AlexandriaFLF-Italic,
+	BoldFont		= AlexandriaFLF-Bold,
+	BoldItalicFont	= AlexandriaFLF-BoldItalic]{AlexandriaFLF}
 
 \newfontfamily\SSLight[
 	UprightFont		= SourceSansPro-Light,
@@ -146,39 +161,32 @@
 
 
 
-\newfontfamily\Alexandria[
-	UprightFont		= AlexandriaFLF,
-	ItalicFont		= AlexandriaFLF-Italic,
-	BoldFont		= AlexandriaFLF-Bold,
-	BoldItalicFont	= AlexandriaFLF-BoldItalic]{AlexandriaFLF}
+% \newfontfamily\HNMedium[
+% 	UprightFont		= HelveticaNeue-Medium,
+% 	ItalicFont		= HelveticaNeue-MediumItalic,
+% 	BoldFont		= HelveticaNeue-Bold,
+% 	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue-Medium}
+
+% \newfontfamily\SSRegular[
+% 	UprightFont		= SourceSansPro-Regular,
+% 	ItalicFont		= SourceSansPro-Italic,
+% 	BoldFont		= SourceSansPro-SemiBold,
+% 	BoldItalicFont	= SourceSansPro-SemiBoldItalic]{SourceSansPro-Regular}
 
 
-\newfontfamily\LatoRegular[
-	UprightFont		= Lato-Regular,
-	ItalicFont		= Lato-Italic,
-	BoldFont		= Lato-Semibold,
-	BoldItalicFont	= Lato-SemiboldItalic]{Lato-Regular}
+% \newfontfamily\Alexandria[
+% 	UprightFont		= AlexandriaFLF,
+% 	ItalicFont		= AlexandriaFLF-Italic,
+% 	BoldFont		= AlexandriaFLF-Bold,
+% 	BoldItalicFont	= AlexandriaFLF-BoldItalic]{AlexandriaFLF}
+
+% \newfontfamily\PTSerifRegular[
+% 	UprightFont		= PTSerif-Regular,
+% 	ItalicFont		= PTSerif-Italic,
+% 	BoldFont		= PTSerif-Bold,
+% 	BoldItalicFont	= PTSerif-BoldItalic]{PTSerif-Regular}
 
 
-
-\newfontfamily\LatoLight[
-	UprightFont		= Lato-Light,
-	ItalicFont		= Lato-LightItalic,
-	BoldFont		= Lato-Medium,
-	BoldItalicFont	= Lato-MediumItalic]{Lato-Light}
-
-
-
-
-\newfontfamily\PTSerifRegular[
-	UprightFont		= PTSerif-Regular,
-	ItalicFont		= PTSerif-Italic,
-	BoldFont		= PTSerif-Bold,
-	BoldItalicFont	= PTSerif-BoldItalic]{PTSerif-Regular}
-
-
-
-\defaultfontfeatures{Ligatures=TeX}
 
 % \setmainfont[
 % 				Ligatures=TeX,
@@ -195,6 +203,8 @@
 % 			]{SourceSansPro-Regular}
 
 
+\defaultfontfeatures{Ligatures=TeX}
+
 \setmainfont[
 				Ligatures=TeX,
 				BoldFont={Lato-Semibold},
@@ -206,10 +216,10 @@
 \setsansfont[
 				Scale=MatchLowercase,
 				Ligatures=TeX,
-				BoldFont={SourceSansPro-Semibold},
-				ItalicFont={SourceSansPro-Italic},
-				BoldItalicFont={SourceSansPro-SemiboldItalic}
-			]{SourceSansPro-Regular}
+				BoldFont={Lato-Semibold},
+				ItalicFont={Lato-Italic},
+				BoldItalicFont={Lato-SemiboldItalic}
+			]{Lato-Regular}
 
 
 % \setsansfont[
@@ -232,29 +242,48 @@
 
 \setstretch{1.05}
 
-\titleformat{\part}[hang]
-	{\LatoLight\fontsize{35pt}{42pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{20pt}{24pt}\selectfont\thepart\hfill}}{0.0em}{}
-	[{\makebox[0mm][l]{}}]
+% \titleformat{\part}[display]
+% 	{\HNLight\fontsize{35pt}{42pt}\selectfont}
+% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{20pt}{24pt}\selectfont\thepart\hfill}}
+% 	{0.0em}
+% 	{}
+% 	[{\makebox[0mm][l]{}}]
+
+
+\titleformat{\part}[display]
+	{\LatoLight\fontsize{40pt}{48pt}\selectfont\bfseries}
+	{\LatoLight\fontsize{30pt}{36pt}\selectfont\bfseries\hfill P\fontsize{24pt}{36pt}\selectfont\bfseries ART\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
+	{-0.5em}
+	{\vspace{5mm}}
+	[\vspace{-5.0mm}{\makebox[0mm][l]{\rule[10mm]{\textwidth}{0.5mm}}}\vspace{15mm}]
+
 
 \titleformat{\section}
-	{\LatoLight\fontsize{25pt}{30pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}{0.0em}{}
+	{\HNLight\fontsize{25pt}{30pt}\selectfont\bfseries}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
+	{0.0em}
+	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
-	{\LatoLight\fontsize{21pt}{25pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}{0.0em}{}
+	{\HNLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
+	{0.0em}
+	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsubsection}
-	{\LatoLight\fontsize{18pt}{22pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}{0.0em}{}
+	{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
+	{0.0em}
+	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\paragraph}
-	{\LatoRegular\fontsize{14pt}{17pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}{0.0em}{}
+	{\HNRegular\fontsize{14pt}{17pt}\selectfont}
+	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}
+	{0.0em}
+	{}
 	[{\makebox[0mm][l]{}}]
 
 
@@ -277,11 +306,15 @@
 	\@addtoreset{section}{part}
 \makeatother
 
-\renewcommand{\cftpartfont}{\LatoLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+
+\renewcommand{\cftpartfont}{\LatoLight\fontsize{24pt}{28pt}\selectfont\bfseries}
 \renewcommand{\cftpartaftersnum}{.}
 \renewcommand{\cftsecaftersnum}{.}
 
-\setlength{\cftpartnumwidth}{14mm}
+\renewcommand{\cftpartpresnum}{\normalfont\Alexandria\fontsize{24pt}{28pt}\selectfont}
+
+
+\setlength{\cftpartnumwidth}{22mm}
 \setlength{\cftsecnumwidth}{2.0em}
 
 \renewcommand{\cftpartindent}{-1.0em}
@@ -289,7 +322,8 @@
 \renewcommand{\cftsubsecindent}{4.5em}
 \renewcommand{\cftsubsubsecindent}{6.85em}
 
-\renewcommand{\cfttoctitlefont}{\hfill\LatoLight\fontsize{35pt}{42pt}\selectfont}
+
+\renewcommand{\cfttoctitlefont}{\hfill\LatoLight\fontsize{35pt}{42pt}\selectfont\bfseries}
 \renewcommand{\contentsname}{\hfill Contents\hfill}
 \renewcommand{\cftaftertoctitle}{\hfill}
 
@@ -303,7 +337,7 @@
 % \renewcommand{\cftsecpagefont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
 
 
-\renewcommand{\printatom}[1]{\LatoRegular\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
+\renewcommand{\printatom}[1]{\LatoRegular\normalfont\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
 
 \sisetup{
 	detect-all = true
@@ -381,10 +415,10 @@
 
 \newcommand	{\normtext}		{\LatoRegular\fontsize{12pt}{14pt}\selectfont}
 
-\newcommand	{\hugetext}		[1]{\LatoLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
-\newcommand	{\titletext}	[1]{\LatoLight\fontsize{40pt}{48pt}\selectfont\textbf{#1}\normtext\ignorespaces}
-\newcommand	{\subtext}		[1]{\LatoLight\fontsize{23pt}{28pt}\selectfont\textbf{#1}\normtext\ignorespaces}
-\newcommand	{\subsubtext}	[1]{\LatoLight\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}
+\newcommand	{\hugetext}		[1]{\SSLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
+\newcommand	{\subtext}		[1]{\SSLight\fontsize{23pt}{28pt}\selectfont #1 \normtext\ignorespaces}
+\newcommand	{\tinytext}		[1]{\LatoRegular\fontsize{10pt}{12pt}\selectfont #1 \normtext\ignorespaces}
+\newcommand	{\subsubtext}	[1]{\SSLight\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}
 
 \newcommand {\sbs}			[1]{\textsubscript{#1}}
 \newcommand {\sps}			[1]{\textsuperscript{#1}}
@@ -405,7 +439,7 @@
 								}
 								\end{center}
 								\begin{center}
-								\fontsize{10pt}{12pt}\selectfont{#3}
+								\fontsize{11pt}{13pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 							}
 
@@ -428,7 +462,7 @@
 								}
 								\end{center}
 								\begin{center}
-								\fontsize{10pt}{12pt}\selectfont{#3}
+								\fontsize{11pt}{13pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 								\vspace{-5mm}
 							}
@@ -458,6 +492,19 @@
 								\normtext\end{center}\end{figure}
 								\vspace{-8mm}
 							}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -501,6 +548,9 @@
 
 \newcommand	{\entr}			{$\Delta S$}
 \newcommand {\gibb}			{$\Delta G$}
+
+\newcommand {\Kc}			{$K_{c}$}
+\newcommand {\Ksp}			{$K_{sp}$}
 
 \newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
 \newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\textit{l})\normtext}

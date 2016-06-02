@@ -48,113 +48,43 @@
 		% end subsection
 	% end section
 
-
 	\pagebreak
-	\hypertarget{AreneReactions}{}
-	\section{Arene Reactions}
+	\section{Substituted Benzenes}
 
-		Benzene undergoes substitution reactions rather than addition reactions, since adding atoms to the ring would destroy the
-		delocalised π-system of the ring, which is energetically unfavourable. Instead, the \ch{H} atoms on the ring are substituted.
-
-		The main mechanism for this is electrophilic substitution, the details of which can be found in
-		\hyperlink{AppendixElectrophilicSubstitution}{\boit{the appendix}}.
+		The primary reaction mechanism of benzenes is electrophilic substitution, which involves the electrophiles attacking the
+		electron-rich π-system of the benzene ring. As mentioned in Chapter 4 on Induction and Resonance, certain groups and atoms
+		have the ability to withdraw or donate electrons, which affects the characteristics of the benzene ring.
 
 
-		\subsection{Nitration of Benzene}
+		\subsection{Effect of Reactivity}
 
-			The nitration of benzene involves the substitution of one of the \ch{H} atoms on the benzene with a nitro (\ch{-NO2}) group.
-			It has a number of specific requirements:
-
-			\vspace{1.5em}
-			\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3}, concentrated \ch{H2SO4} catalyst.
-										\tabto{35mm}\textit{Constant} temperature of \SI{50}{\celsius}.}
-			\vspace{0.75em}
-			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
-
-			\diagram[1.0]{
-				\schemestart[0, 2.0, thick]
-				\chemfig{\ch{HNO3}}
-				\hspace{5mm} + \hspace{5mm}
-				\chemfig[yshift=-1.5em]{**6(------)}
-				\arrow(.base east--.base west){->[\ch{H2SO4}][\SI{50}{\celsius}]}
-				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molNitro)--)}
-				\hspace{5mm} + \hspace{5mm}
-				\chemfig{\ch{H2O}}
-				\schemestop
-			}
+			If a benzene has electron-donating substituents, (such as \ch{CH3}) it will be more reactive, since it would increase
+			the electron density of the π-system, making it a more appealing target for electrophiles. Thus, the ring is said to
+			be \textit{activated}. Conversely, electron-withdrawing substituents (such as \ch{-NO2} or \ch{-CO2H}) \textit{deactivate}
+			the benzene, which decreases the reactivity of the benzene ring by making it less susceptible to electrophilic attacks.
 
 
-			\pagebreak
-			\subsection{Halogenation of Benzene}
+			Importantly, it \textit{must be noted} that for the nitration of benzene, when the benzene ring is \textit{activated}, the
+			required temperature for reaction is only \boit{\SI{30}{\celsius}}, whereas for \textit{deactivated} rings, the required
+			temperature is \boit{above \SI{50}{\celsius}}.
 
-				Halogenation of benzene requires rather specific conditions, such as anhydrous \ch{FeBr3} or \ch{Fe\chlorine2} (for a reaction
-				with bromine and chlorine respectively), and a warm environment.
+		% end subsection
 
-				Aluminium-based analogues of these catalysts (\ch{\aluminium Br3}, \ch{\aluminium\chlorine3}) can also be used, as can pure
-				filings of the metal, in which case the catalyst will be generated \textit{in-situ} (\ch{2 Fe \stS} + \ch{3 Br2 \stL} -> \ch{2 FeBr3}).
+		\subsection{Effect on Positions of Further Substituents}
 
-				The in-depth explanation about the need for an anhydrous catalyst can be found \hyperlink{BenzeneHalogenationCatalyst}{\boit{here}}.
+			Since the main way substituents affect the benzene ring is through the distortion of its π-system electrons, naturally
+			this distortion can affect the positions of additional substituents on the ring.
 
-				\vspace{1.5em}
-				\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
-											\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
-														\ch{Fe} / \ch{\aluminium} filings (for chlorine)}
+			For instance, an electrophilic substitution, of an electrophile \ch{R} on methylbenzene can produce 3 possible products:
 
-				\vspace{0.75em}
-				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
-											\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
+			\diagram[0.9]{
+				\chemnameinit{\chemfig{**6(-(-[:270]!\molR)---(-[:90]!\molMe)--)}}
 
-				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
-					\chemfig{\ch{Br2}}
-					\hspace{5mm} + \hspace{5mm}
-					\chemfig[yshift=-1.5em]{**6(------)}
-					\arrow(.base east--.base west)
-					\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
-					\hspace{5mm} + \hspace{5mm}
-					\chemfig{\ch{HBr}}
-					\schemestop
-				}
+				\chemname{\chemfig{**6(---(-[:30]!\molR)-(-[:90]!\molMe)-(-[:150,,,,draw=none]\phantom{R})-)}}{2-directed}	\hspace{15mm}
+				\chemname{\chemfig{**6(-(-[:270]!\molR)---(-[:90]!\molMe)--)}}{4-directed}\hspace{15mm}
+				\chemname{\chemfig{**6((-[:210,,,,draw=none]\phantom{R})--(-[:-30]!\molR)--(-[:90]!\molMe)--)}}{3-directed}
 
-			% end subsection
-
-		\pagebreak
-		\section{Substituted Benzenes}
-
-			The primary reaction mechanism of benzenes is electrophilic substitution, which involves the electrophiles attacking the
-			electron-rich π-system of the benzene ring. As mentioned in Chapter 4 on Induction and Resonance, certain groups and atoms
-			have the ability to withdraw or donate electrons, which affects the characteristics of the benzene ring.
-
-
-			\subsection{Effect of Reactivity}
-
-				If a benzene has electron-donating substituents, (such as \ch{CH3}) it will be more reactive, since it would increase
-				the electron density of the π-system, making it a more appealing target for electrophiles. Thus, the ring is said to
-				be \textit{activated}. Conversely, electron-withdrawing substituents (such as \ch{-NO2} or \ch{-CO2H}) \textit{deactivate}
-				the benzene, which decreases the reactivity of the benzene ring by making it less susceptible to electrophilic attacks.
-
-
-				Importantly, it \textit{must be noted} that for the nitration of benzene, when the benzene ring is \textit{activated}, the
-				required temperature for reaction is only \boit{\SI{30}{\celsius}}, whereas for \textit{deactivated} rings, the required
-				temperature is \boit{above \SI{50}{\celsius}}.
-
-			% end subsection
-
-			\subsection{Effect on Positions of Further Substituents}
-
-				Since the main way substituents affect the benzene ring is through the distortion of its π-system electrons, naturally
-				this distortion can affect the positions of additional substituents on the ring.
-
-				For instance, an electrophilic substitution, of an electrophile \ch{R} on methylbenzene can produce 3 possible products:
-
-				\diagram[0.9]{
-					\chemnameinit{\chemfig{**6(-(-[:270]!\molR)---(-[:90]!\molMe)--)}}
-
-					\chemname{\chemfig{**6(---(-[:30]!\molR)-(-[:90]!\molMe)-(-[:150,,,,draw=none]\phantom{R})-)}}{2-directed}	\hspace{15mm}
-					\chemname{\chemfig{**6(-(-[:270]!\molR)---(-[:90]!\molMe)--)}}{4-directed}\hspace{15mm}
-					\chemname{\chemfig{**6((-[:210,,,,draw=none]\phantom{R})--(-[:-30]!\molR)--(-[:90]!\molMe)--)}}{3-directed}
-
-				}{In this case, the \ch{CH3} is considered to be attached to carbon 1.}
+			}{In this case, the \ch{CH3} is considered to be attached to carbon 1.}
 
 			The exact reasoning for this directing behaviour is complex, and has to deal with the resonance structures of the intermediate
 			benzene, and the distribution of electrons within the π-system. Furthermore, there are only two types of substituents:
@@ -295,6 +225,78 @@
 				The overall effect is that halogens are \textit{ortho/para} (2,4) directors, and are weakly electron-withdrawing.
 
 			% end subsubsection
+		% end subsection
+	% end section
+
+
+
+
+	\pagebreak
+	\hypertarget{AreneReactions}{}
+	\section{Arene Reactions}
+
+		Benzene undergoes substitution reactions rather than addition reactions, since adding atoms to the ring would destroy the
+		delocalised π-system of the ring, which is energetically unfavourable. Instead, the \ch{H} atoms on the ring are substituted.
+
+		The main mechanism for this is electrophilic substitution, the details of which can be found in
+		\hyperlink{AppendixElectrophilicSubstitution}{\boit{the appendix}}.
+
+
+		\subsection{Nitration of Benzene}
+
+			The nitration of benzene involves the substitution of one of the \ch{H} atoms on the benzene with a nitro (\ch{-NO2}) group.
+			It has a number of specific requirements:
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3}, concentrated \ch{H2SO4} catalyst.
+										\tabto{35mm}\textit{Constant} temperature of \SI{50}{\celsius}.}
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
+
+			\diagram[1.0]{
+				\schemestart[0, 2.0, thick]
+				\chemfig{\ch{HNO3}}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.5em]{**6(------)}
+				\arrow(.base east--.base west){->[\ch{H2SO4}][\SI{50}{\celsius}]}
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molNitro)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\ch{H2O}}
+				\schemestop
+			}
+
+
+		\pagebreak
+		\subsection{Halogenation of Benzene}
+
+			Halogenation of benzene requires rather specific conditions, such as anhydrous \ch{FeBr3} or \ch{Fe\chlorine2} (for a reaction
+			with bromine and chlorine respectively), and a warm environment.
+
+			Aluminium-based analogues of these catalysts (\ch{\aluminium Br3}, \ch{\aluminium\chlorine3}) can also be used, as can pure
+			filings of the metal, in which case the catalyst will be generated \textit{in-situ} (\ch{2 Fe \stS} + \ch{3 Br2 \stL} -> \ch{2 FeBr3}).
+
+			The in-depth explanation about the need for an anhydrous catalyst can be found \hyperlink{BenzeneHalogenationCatalyst}{\boit{here}}.
+
+			\vspace{1.5em}
+			\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
+										\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
+													\ch{Fe} / \ch{\aluminium} filings (for chlorine)}
+
+			\vspace{0.75em}
+			\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
+										\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+				\chemfig{\ch{Br2}}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig[yshift=-1.5em]{**6(------)}
+				\arrow(.base east--.base west)
+				\chemfig[yshift=-1.5em]{**6(----(-[:90]!\molBr)--)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\ch{HBr}}
+				\schemestop
+			}
 
 		% end subsection
 
@@ -304,6 +306,17 @@
 			\subsubsection{Halogenation}
 				The reagents and conditions for the halogenation of alkylbenzenes is similar to that of normal, unsubstituted benzenes. This
 				time, however, there are two major products, and one minor product, due to the 2,4-directing nature of alkyl groups.
+
+				The conditions here are basically the same as that for normal benzene.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Warm, anhydrous \ch{FeBr3}, \ch{\aluminium Br3}, or \ch{Fe} / \ch{\aluminium} filings (for bromine),
+											\tabto{35mm}Anhydrous \ch{Fe\chlorine3}, \ch{\aluminium \chlorine3}, or
+														\ch{Fe} / \ch{\aluminium} filings (for chlorine)}
+
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.
+											\tabto{35mm}Formation of white fumes of \ch{HX} gas.}
 
 				\diagram[0.9]{
 					\chemnameinit{\chemfig{**6(-(-[:270]!\molX)---(-[:90]!\molMe)--)}}
@@ -320,9 +333,18 @@
 
 			% end subsubsection
 
+			\pagebreak
 			\subsubsection{Nitration}
 
-				Similarly, the nitration of alkylbenzenes also gives two major products, and one minor product.
+				Similarly, the nitration of alkylbenzenes also gives two major products, and one minor product. Note that the required temperature
+				is lower, due to the activating effect of the \ch{CH3} substituent.
+
+				\vspace{1.5em}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}Concentrated \ch{HNO3}, concentrated \ch{H2SO4} catalyst.
+											\tabto{35mm}\textit{Constant} temperature of \SI{30}{\celsius}.}
+				\vspace{0.75em}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Goldenrod}Pale yellow} oily liquid, nitrobenzene.}
+
 
 				\diagram[0.9]{
 					\chemnameinit{\chemfig{**6(-(-[:270]!\molNitro)---(-[:90]!\molMe)--)}}
@@ -339,7 +361,7 @@
 
 			% end subsubsection
 
-			\pagebreak
+
 			\subsubsection{Free Radical Substitution}
 
 				In the absence of Lewis-acid catalysts, halogens will not react with the benzene ring. In this case, the halogens will
@@ -367,6 +389,8 @@
 
 			% end subsubsection
 
+
+			\pagebreak
 			\subsubsection{Side-chain Oxidation}
 
 				When reacted with the strong oxidising agent, \ch{KMnO4}, and heated, the alkyl chain attached to the benzene will be oxidised.
@@ -392,7 +416,6 @@
 					\schemestop
 				}{In this case, an acidic medium is used, hence \ch{H+}.}
 
-				\pagebreak
 				Alternatively, an alkali medium can be used, for instance with \ch{NaOH \stAq}. Instead of forming benzoic acid however, the
 				benzoate ion is formed, which would form an ionic bond with \ch{Na}.
 
@@ -407,6 +430,7 @@
 
 
 
+				\pagebreak
 				If the alkyl chain is 2-long, (ie. ethylbenzene), then \ch{CO2} will be formed from the oxidation of the second carbon,
 				in addition to benzoic acid.
 
@@ -431,7 +455,6 @@
 					\chemfig{!\molR-[:0]C(=[:60]!\molO)(-[:300]!\molOH)}
 					\schemestop
 				}
-
 
 			% end subsubsection
 		% end subsection

@@ -5,525 +5,524 @@
 \pagebreak
 \part{Enthalpies}
 
-\section{Enthalpy Change}
+	\section{Enthalpy Change}
 
-	Enthalpy refers to the total energy content of a given substance. When reacting two or more compounds together, the bonds within
-	must first be broken, before new bonds are formed. This process involves the transfer of energy, which is measured as the
-	\textit{enthalpy change}.
+		Enthalpy refers to the total energy content of a given substance. When reacting two or more compounds together, the bonds within
+		must first be broken, before new bonds are formed. This process involves the transfer of energy, which is measured as the
+		\textit{enthalpy change}.
 
-	Enthalpy change, or \enth{}, measures the difference in energy content between the reactants and the products of a reaction.
+		Enthalpy change, or \enth{}, measures the difference in energy content between the reactants and the products of a reaction.
 
-	For an exothermic reaction, the energy content of the products is less than that of the reactants. Since the most stable state
-	is that with the least amount of energy, exothermic reactions are said to be \textit{more energetically favoured} --- \enth{} < 0.
-	Heat is released into the surroundings, and generally, temperature increases.
-
-	\diagram[1.0]{
-		\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
-			\ENcurve[step=1.5]{2,4.5,0}
-
-			\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
-			\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
-
-			\ShowEa[label,label-side=left,label-pos=0.2]
-			\ShowGain[label,offset=-40mm]
-
-			\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
-			\draw[above] (N1-3) ++ (1,0) node {\small products};
-
-		\end{endiagram}
-	}
-
-	\pagebreak
-	Conversely, for an endothermic reaction, the reverse is true --- the energy content of the final products is greater than that
-	of the reactants. Thus, these reactions are somewhat \textit{less energetically favoured}, and less likely to happen.
-	\enth{} > 0, and heat is absorbed from the surroundings to feed the reaction.
-
-
-	\diagram[1.0]{
-		\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
-			\ENcurve[step=1.5]{0,4.5,2}
-
-			\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
-			\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
-
-			\ShowEa[label,label-side=left,label-pos=0.2]
-			\ShowGain[label,offset=0mm]
-
-			\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
-			\draw[above] (N1-3) ++ (1,0) node {\small products};
-
-		\end{endiagram}
-	}
-
-
-	\pagebreak
-	\subsection{Activation Energy}
-
-		Regardless of the enthalpy change of the reaction, some energy must always be input, and thus the activation energy, \ea, is
-		always positive. This is because bonds must always be broken, which requires energy input, before new bonds can be formed.
-
-		However, the \ea for endothermic reactions is generally much higher than that for exothermic reactions, since its reactants
-		are generally more stable.
-
-	% end subsection
-
-	\subsection{Thermochemical Equations}
-
-		A thermochemical equation is simply a normal, balanced chemical equation that has an enthalpy change of reaction associated with
-		it. State symbols must also be included, since a change in state necessitates a change in the enthalpy of the substance.
-
-		\txtdiagram{
-			\schemestart[0,1.0,thick]
-				\ch{H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 NaOH \stAq}
-				\arrow
-				\ch{Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
-			\schemestop
-		}{\enth{} = \SI{-114.2}{\kilo\joule\per\mole}}
-
-		Note that the enthalpy change is per mole \textit{of reaction}, not per mole of any one substance. Thus, if the above reaction
-		were to be rewritten using 1 mole of NaOH instead:
-
-		\txtdiagram{
-			\schemestart[0,1.0,thick]
-				\ch{\fracHalf H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
-				\arrow
-				\ch{\fracHalf Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
-			\schemestop
-		}{\enth{} = \SI{-57.1}{\kilo\joule\per\mole}}
-
-		The enthalpy change of the reaction is now half the previous value.
-	% end subsection
-
-
-	\pagebreak
-	\subsection{Bond Dissociation Energy}
-
-		Bond dissociation energy is the energy required to break \textit{1 mole} worth of \textit{covalent bonds} between two atoms in the
-		\textit{gaseous state}. Note that this value is always positive, since energy is required to break bonds. The larger the value,
-		the stronger the bond.
-
-		Bonds are complex beasts; breaking seemingly identical bonds successively will require differing amounts of energy. For instance, the
-		bond dissociation energy for the first \ch{C-H} bond in \ch{CH4} is \SI{425}{\kilo\joule\per\mole}, while that of the second \ch{C-H}
-		bond (in what is now \ch{CH3}) is \SI{470}{\kilo\joule\per\mole}.
-
-		Naturally, the bond dissociation energies can vary by significant amounts between different molecules --- the BDE for a \ch{C-H} bond
-		in \ch{CH4} is smaller than that of the \ch{C-H} bond in \ch{CH2=CH2}.
-
-	% end subsection
-
-	\subsection{Bond Energy}
-
-		Due to these problems, the \textit{bond energy} is more frequently used. It is simply the \textit{average} of the bond dissociation
-		energies of the particular bond, sampled from a large variety of molecules.
-
-		Thus, it is defined as the \textit{average energy} required to break \textit{1 mole} worth of \textit{covalent bonds} between two
-		atoms in the \textit{gaseous state}.
-
-		Furthermore, if the bond in question is between two atoms in a diatomic molecule in the gaseous state, then the bond energy and
-		the enthalpy change of atomisation (\enth{atom}, below) are related: The bond energy is twice the enthalpy change of atomisation.
-
-		\txtdiagram{
-			\schemestart[0,1.0,thick]
-				\ch{\fracHalf H-H \stG}
-				\arrow
-				\ch{H \stG}
-			\schemestop
-		}{\enth{atom} = \fracHalf BE(\ch{H-H})}
-
-		Indeed, since reactions at a fundamental level simply involve breaking and forming bonds, the enthalpy change of a given reaction
-		can be calculated (somewhat inaccurately, due to bond energy being an average) taking the difference between the energies of the
-		bonds formed, and that of the bonds broken.
-
-		\txtdiagram{
-			\schemestart[0,1.0,thick]
-				\enth{r} = \chemSigma{} BE(broken) - \chemSigma{} BE(formed)
-			\schemestop
-		}{}
-
-		Accounting for any required changes in state can be done by adding the enthalpy change of either fusion or vaporisation on either
-		side.
-
-	% end subsection
-
-
-
-
-
-
-	\pagebreak
-	\subsection{The Law of Hess}
-
-		Hess's Law of \textit{Constant Heat Summation} states that the enthalpy change of any given reaction is determined only by the
-		enthalpy change between the initial state and final state, regardless of the steps taken in between.
-
-		Therefore, whether the reactants reacted directly or through some convoluted pathway to get to the final state, the enthalpy
-		change will be the same. To make use of this, typically an energy cycle diagram is drawn, inserting whatever intermediate reaction
-		is required (with known enthalpies) to get to the final product.
+		For an exothermic reaction, the energy content of the products is less than that of the reactants. Since the most stable state
+		is that with the least amount of energy, exothermic reactions are said to be \textit{more energetically favoured} --- \enth{} < 0.
+		Heat is released into the surroundings, and generally, temperature increases.
 
 		\diagram[1.0]{
-			\schemestart[0,1.0,thick]
-				\ch{\fracHalf O2 \stG}\hspace{2mm} + \hspace{2mm}\ch{C \stS}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
-				\arrow(one--two){->[\enth{f} of \ch{CO}]}[0,2]
-				\ch{CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
-				\arrow(@one.south east--three.north west){->% note here: we need to manually set the parbox width, because latex is stupid.
-					[][*{0.east}\parbox{26mm}{\begin{center}\enth{c} of \ch{C}\\ \SI{-394}{\kilo\joule\per\mole}\end{center}}]}[-62.5,1.5]
-				\ch{CO2 \stG}
-				\arrow(@three.north east--@two.south west){->%
-					[][*{0.west}\parbox{26mm}{\begin{center}\enth{c} of \ch{CO}\\ \SI{-283}{\kilo\joule\per\mole}\end{center}}]}[,1.5]
-			\schemestop
-		}{Half a mole of \ch{O2} was added on both sides of the primary reaction to balance it.}
+			\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+				\ENcurve[step=1.5]{2,4.5,0}
 
-		Note that the direction of the arrow can be manipulated \textit{at will}, simply by reversing the sign of the associated enthalpy
-		change. Indeed, extra reactants can be introduced too, as long as they are accounted for in all reactions.
+				\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+				\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
 
-	% end subsection
+				\ShowEa[label,label-side=left,label-pos=0.2]
+				\ShowGain[label,offset=-40mm]
 
-	\subsection{Standard Enthalpy Change}
+				\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
+				\draw[above] (N1-3) ++ (1,0) node {\small products};
 
-		For enthalpy change to have any meaning, it must be defined in terms of a set of standard conditions. In this case, the standard
-		enthalpy change, \enthStd{}, is defined as the enthalpy change at \textit{\SI{298}{\kelvin}}, and a pressure of \textit{\SI{1}{\atm}}.
-
-		An element or substance in its standard state has the least amount of energy, and is physically stable. Elements in their standard
-		states (\ch{C \stS}, \ch{Br2 \stL}, \ch{N2 \stG}, etc.) are assigned an enthalpy value of \textit{0}.
-
-		The unit of enthalpy change is usually \si{\kilo\joule\per\mole} (kilojoules per mole). This means that it is always determined
-		per mole of some substance; the greater the number of moles of substance reacting, the greater the total enthalpy change will be,
-		in \si{\kilo\joule}.
-
-	% end subsection
-
-	\pagebreak
-	\subsection{Determination of Enthalpy Change}
-
-		Since heat is released or absorbed when a reaction takes place, the enthalpy change, which is the change in energy of the compounds
-		involved, can be determined through the measurement of temperature. Using the formula to determine heat change, \textit{q}, enthalpy change
-		is then heat change per mole.
-
-		\diagram[2.0]{
-			\parbox{50mm}{\begin{center}
-				\vspace{-5mm}
-				$q = mc\Delta T$
-				\\
-				$\Delta H = \pm\frac{q}{n}$
-			\end{center}}
+			\end{endiagram}
 		}
 
-		\vbox{
-			\tabto{0mm}\boit{q}\tabto{15mm}	Heat change of the reaction.
-			\tabto{0mm}\boit{m}\tabto{15mm}	Mass of the solution — in a polystyrene cup experiment, this excludes solids.
-			\tabto{0mm}\boit{c}\tabto{15mm}	Specific heat capacity of the solution (usually assumed to be \SI{4.18}{\joule\per\gram\per\kelvin})
-			\tabto{0mm}\boit{∆T}\tabto{15mm}Change in temperature of the solution (before and after reaction)
-			\tabto{0mm}\boit{∆H}\tabto{15mm}Enthalpy change of reaction.
+		\pagebreak
+		Conversely, for an endothermic reaction, the reverse is true --- the energy content of the final products is greater than that
+		of the reactants. Thus, these reactions are somewhat \textit{less energetically favoured}, and less likely to happen.
+		\enth{} > 0, and heat is absorbed from the surroundings to feed the reaction.
+
+
+		\diagram[1.0]{
+			\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+				\ENcurve[step=1.5]{0,4.5,2}
+
+				\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+				\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
+
+				\ShowEa[label,label-side=left,label-pos=0.2]
+				\ShowGain[label,offset=0mm]
+
+				\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
+				\draw[above] (N1-3) ++ (1,0) node {\small products};
+
+			\end{endiagram}
 		}
 
-		While heat change is a scalar value and is always positive, enthalpy change has a sign, which is decided by whether the reaction is
-		exothermic or endothermic. This can be inferred from the direction of the change in temperature.
 
-	% end subsection
+		\pagebreak
+		\subsection{Activation Energy}
 
-	\subsection{Types of Enthalpy Change}
+			Regardless of the enthalpy change of the reaction, some energy must always be input, and thus the activation energy, \ea, is
+			always positive. This is because bonds must always be broken, which requires energy input, before new bonds can be formed.
 
-		\subsubsection{Enthalpy Change of Fusion and Vaporisation}
+			However, the \ea for endothermic reactions is generally much higher than that for exothermic reactions, since its reactants
+			are generally more stable.
 
-			The enthalpy change of fusion is the change in enthalpy when \textit{1 mole} of a substance in the \textit{solid state} is heated,
-			at a constant temperature (the melting point), until it becomes a liquid. Similarly, the enthalpy change of vaporisation is the
-			change in enthalpy when \textit{1 mole} of a substance in the \textit{liquid state} is heated at a constant temperature
-			(the boiling point), until it becomes a gas.
+		% end subsection
 
-			These are known as \textit{latent} heats, because the temperature of the substance remains constant at either the melting or
-			boiling points — no heat is actually released. However, since enthalpy measures the actual, total energy content of the compound,
-			enthalpy still increases since the internal energy increases.
+		\subsection{Thermochemical Equations}
 
-			As one might expect, the enthalpy changes of fusion and vaporisation are almost always positive, since they involve moving a
-			compound to a higher energy, and thus less stable, state. There are, however, a certain number of exceptions to this.
-			The negative of these enthalpy changes would represent the amount of energy that needs to be removed, per mole, to change the
-			substance from liquid to solid, and gas to liquid respectively.
-
-
-		% end subsubsection
-
-		\subsubsection{Enthalpy Change of Formation}
-
-			The standard enthalpy change of formation a compound is the heat evolved when \textit{1 mole} of it is formed from its constituent
-			elements, all in their standard states, under standard conditions. This disregards the actual method of forming the compound, and
-			instead only accounts for simply mashing elements together. For example:
+			A thermochemical equation is simply a normal, balanced chemical equation that has an enthalpy change of reaction associated with
+			it. State symbols must also be included, since a change in state necessitates a change in the enthalpy of the substance.
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\ch{2 C \stS}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stAq}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
+					\ch{H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 NaOH \stAq}
 					\arrow
-					\ch{C2H5OH \stL}
+					\ch{Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
 				\schemestop
-			}{\enth{} = \SI{-298}{\kilo\joule\per\mole}}
+			}{\enth{} = \SI{-114.2}{\kilo\joule\per\mole}}
 
-			If the enthalpy change of formation of a substance, \enth{f} is > 0, then the compound is less stable than its constituent elements,
-			meaning it is more likely to decompose --- the reverse is true if \enth{f} < 0. Note that \enth{f} of elements in their standard
-			states is 0, by definition.
-
-		% end subsubsection
-
-		\subsubsection{Enthalpy Change of Combustion}
-			The enthalpy change of combustion of a compound is the heat evolved when \emph{1 mole} of it is completely burned in excess
-			oxygen, under standard conditions. This enthalpy change is always negative --- heat is always released when things are combusted.
+			Note that the enthalpy change is per mole \textit{of reaction}, not per mole of any one substance. Thus, if the above reaction
+			were to be rewritten using 1 mole of NaOH instead:
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\ch{CH4 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 O2 \stG}
+					\ch{\fracHalf H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
 					\arrow
-					\ch{CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
+					\ch{\fracHalf Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
 				\schemestop
-			}{\enth{c} = \SI{-866}{\kilo\joule\per\mole}}
+			}{\enth{} = \SI{-57.1}{\kilo\joule\per\mole}}
 
-		% end subsubsection
+			The enthalpy change of the reaction is now half the previous value.
+		% end subsection
 
-		\subsubsection{Enthalpy Change of Neutralisation}
 
-			The enthalpy change of neutralisation is the heat evolved when \emph{1 mole} of \ch{H2O} is formed when an acid and a base are
-			reacted. Normally, it is the reaction between \ch{H+} ions and \ch{OH-} ions in aqueous solution.
+		\pagebreak
+		\subsection{Bond Dissociation Energy}
+
+			Bond dissociation energy is the energy required to break \textit{1 mole} worth of \textit{covalent bonds} between two atoms in the
+			\textit{gaseous state}. Note that this value is always positive, since energy is required to break bonds. The larger the value,
+			the stronger the bond.
+
+			Bonds are complex beasts; breaking seemingly identical bonds successively will require differing amounts of energy. For instance, the
+			bond dissociation energy for the first \ch{C-H} bond in \ch{CH4} is \SI{425}{\kilo\joule\per\mole}, while that of the second \ch{C-H}
+			bond (in what is now \ch{CH3}) is \SI{470}{\kilo\joule\per\mole}.
+
+			Naturally, the bond dissociation energies can vary by significant amounts between different molecules --- the BDE for a \ch{C-H} bond
+			in \ch{CH4} is smaller than that of the \ch{C-H} bond in \ch{CH2=CH2}.
+
+		% end subsection
+
+		\subsection{Bond Energy}
+
+			Due to these problems, the \textit{bond energy} is more frequently used. It is simply the \textit{average} of the bond dissociation
+			energies of the particular bond, sampled from a large variety of molecules.
+
+			Thus, it is defined as the \textit{average energy} required to break \textit{1 mole} worth of \textit{covalent bonds} between two
+			atoms in the \textit{gaseous state}.
+
+			Furthermore, if the bond in question is between two atoms in a diatomic molecule in the gaseous state, then the bond energy and
+			the enthalpy change of atomisation (\enth{atom}, below) are related: The bond energy is twice the enthalpy change of atomisation.
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\ch{H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{OH- \stAq}
+					\ch{\fracHalf H-H \stG}
 					\arrow
-					\ch{H2O \stL}
+					\ch{H \stG}
 				\schemestop
-			}{\enth{neut} = \SI{-57.1}{\kilo\joule\per\mole}}
+			}{\enth{atom} = \fracHalf BE(\ch{H-H})}
 
-
-			\pagebreak
-			This reaction between \ch{H+} ions and \ch{OH-} ions underlies the majority of reactions between acids and bases.
-
+			Indeed, since reactions at a fundamental level simply involve breaking and forming bonds, the enthalpy change of a given reaction
+			can be calculated (somewhat inaccurately, due to bond energy being an average) taking the difference between the energies of the
+			bonds formed, and that of the bonds broken.
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\ch{H\chlorine \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
-					\arrow
-					\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{Na\chlorine \stAq}
+					\enth{r} = \chemSigma{} BE(broken) - \chemSigma{} BE(formed)
 				\schemestop
-			}{\enth{neut} = \SI{-57.1}{\kilo\joule\per\mole}}
+			}{\vspace{-2em}}
 
-			In general, the enthalpy change of neutralisation of all strong acid-base reactions will be the same,
-			at \SI{-57.1}{\kilo\joule\per\mole}. However, for weak acids, the \ch{H+} and \ch{OH-} ions only dissociate
-			partially --- energy is thus needed to break these partially dissociated bonds, which decreases the enthalpy change
-			of neutralisation of weak acids and bases.
+			Accounting for any required changes in state can be done by adding the enthalpy change of either fusion or vaporisation on either
+			side.
+
+		% end subsection
 
 
-			\txtdiagram{
+
+
+
+
+		\pagebreak
+		\subsection{The Law of Hess}
+
+			Hess's Law of \textit{Constant Heat Summation} states that the enthalpy change of any given reaction is determined only by the
+			enthalpy change between the initial state and final state, regardless of the steps taken in between.
+
+			Therefore, whether the reactants reacted directly or through some convoluted pathway to get to the final state, the enthalpy
+			change will be the same. To make use of this, typically an energy cycle diagram is drawn, inserting whatever intermediate reaction
+			is required (with known enthalpies) to get to the final product.
+
+			\diagram[1.0]{
 				\schemestart[0,1.0,thick]
-					\ch{CH3CO2H \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
-					\arrow
-					\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{CH3CO2Na \stAq}
+					\ch{\fracHalf O2 \stG}\hspace{2mm} + \hspace{2mm}\ch{C \stS}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
+					\arrow(one--two){->[\enth{f} of \ch{CO}]}[0,2]
+					\ch{CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
+					\arrow(@one.south east--three.north west){->% note here: we need to manually set the parbox width, because latex is stupid.
+						[][*{0.east}\parbox{26mm}{\begin{center}\enth{c} of \ch{C}\\ \SI{-394}{\kilo\joule\per\mole}\end{center}}]}[-62.5,1.5]
+					\ch{CO2 \stG}
+					\arrow(@three.north east--@two.south west){->%
+						[][*{0.west}\parbox{26mm}{\begin{center}\enth{c} of \ch{CO}\\ \SI{-283}{\kilo\joule\per\mole}\end{center}}]}[,1.5]
 				\schemestop
-			}{\enth{neut} = \SI{-55.9}{\kilo\joule\per\mole}}
+			}{Half a mole of \ch{O2} was added on both sides of the primary reaction to balance it.}
 
+			Note that the direction of the arrow can be manipulated \textit{at will}, simply by reversing the sign of the associated enthalpy
+			change. Indeed, extra reactants can be introduced too, as long as they are accounted for in all reactions.
 
-		% end subsubsection
+		% end subsection
 
-		\subsubsection{Enthalpy Change of Atomisation}
+		\subsection{Standard Enthalpy Change}
 
-			The enthalpy change of atomisation for an element is the energy required to create \emph{1 mole} of gaseous atoms from the
-			element in question in the standard state.
+			For enthalpy change to have any meaning, it must be defined in terms of a set of standard conditions. In this case, the standard
+			enthalpy change, \enthStd{}, is defined as the enthalpy change at \textit{\SI{298}{\kelvin}}, and a pressure of \textit{\SI{1}{\atm}}.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{\fracHalf \chlorine2 \stG}
-					\arrow
-					\ch{\chlorine \stG}
-				\schemestop
-			}{\enth{atom} = \SI{+122}{\kilo\joule\per\mole}}
+			An element or substance in its standard state has the least amount of energy, and is physically stable. Elements in their standard
+			states (\ch{C \stS}, \ch{Br2 \stL}, \ch{N2 \stG}, etc.) are assigned an enthalpy value of \textit{0}.
 
-			For elements that are already gaseous at their standard state, such as \ch{F2 \stG}, the enthalpy change of atomisation would
-			simply be the bond energy, in this case of the \ch{F-F} bond. For elements that are monatomic in the gaseous state,
-			such as noble gases, the \enth{atom} is 0.
+			The unit of enthalpy change is usually \si{\kilo\joule\per\mole} (kilojoules per mole). This means that it is always determined
+			per mole of some substance; the greater the number of moles of substance reacting, the greater the total enthalpy change will be,
+			in \si{\kilo\joule}.
 
+		% end subsection
 
-			The enthalpy change of atomisation of a non-elemental compound, on the other hand, is the energy required to create gaseous
-			atoms of its constituent elements, from the compound in its standard state. For example:
+		\pagebreak
+		\subsection{Determination of Enthalpy Change}
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{CH4 \stG}
-					\arrow
-					\ch{C \stG}\hspace{2mm} + \hspace{2mm}\ch{4 H \stG}
-				\schemestop
-			}{}
+			Since heat is released or absorbed when a reaction takes place, the enthalpy change, which is the change in energy of the compounds
+			involved, can be determined through the measurement of temperature. Using the formula to determine heat change, \textit{q}, enthalpy change
+			is then heat change per mole.
 
-			Of course, for compounds not initially in the gaseous state, they must first be converted, and the appropriate enthalpy
-			change (of fusion or vaporisation) taken into account.
-
-
-		% end subsubsection
-
-		\subsubsection{Enthalpy Change of Hydration}
-
-
-			The enthalpy change of hydration is the energy released when \emph{1 mole} of gaseous ions is dissolved in an
-			\emph{infinite volume} of water, under standard conditions. \enth{hyd} is always negative, as it involves the
-			formation of ion-dipole interactions between the ions in question and the water molecules.
-
-			\diagram[1.5]{
-				\schemestart[0,1.0,thick]
-					\enth{hyd} $\propto \frac{q}{r}$
-				\schemestop
+			\diagram[2.0]{
+				\parbox{50mm}{\begin{center}
+					\vspace{-5mm}
+					$q = mc\Delta T$
+					\\
+					$\Delta H = \pm\frac{q}{n}$
+				\end{center}}
 			}
 
-			The enthalpy change of hydration is proportional to the charge density of the ions; the higher the charge density,
-			the stronger the ion-dipole interactions and thus the larger the enthalpy change.
+			\vbox{
+				\tabto{0mm}\boit{q}\tabto{15mm}	Heat change of the reaction.
+				\tabto{0mm}\boit{m}\tabto{15mm}	Mass of the solution — in a polystyrene cup experiment, this excludes solids.
+				\tabto{0mm}\boit{c}\tabto{15mm}	Specific heat capacity of the solution (usually assumed to be \SI{4.18}{\joule\per\gram\per\kelvin})
+				\tabto{0mm}\boit{∆T}\tabto{15mm}Change in temperature of the solution (before and after reaction)
+				\tabto{0mm}\boit{∆H}\tabto{15mm}Enthalpy change of reaction.
+			}
 
-		% end subsubsection
+			While heat change is a scalar value and is always positive, enthalpy change has a sign, which is decided by whether the reaction is
+			exothermic or endothermic. This can be inferred from the direction of the change in temperature.
 
-		\subsubsection{Enthalpy Change of Solution}
+		% end subsection
 
-			The enthalpy change of solution is the enthalpy change when \emph{1 mole} of a substance is dissolved in an \emph{infinite volume}
-			of solvent, under standard conditions. The solute and solvent can be anything, even though the solute is usually an ionic compound,
-			and the solvent water.
+		\subsection{Types of Enthalpy Change}
 
-			If \enth{sol} is highly positive, then the solute is likely to be insoluble in the solvent, since the reaction would be
-			endothermic. On the other hand, if \enth{sol} is negative, then the solute is likely to be soluble in the solvent.
+			\subsubsection{Enthalpy Change of Fusion and Vaporisation}
 
-		% end subsubsection
+				The enthalpy change of fusion is the change in enthalpy when \textit{1 mole} of a substance in the \textit{solid state} is heated,
+				at a constant temperature (the melting point), until it becomes a liquid. Similarly, the enthalpy change of vaporisation is the
+				change in enthalpy when \textit{1 mole} of a substance in the \textit{liquid state} is heated at a constant temperature
+				(the boiling point), until it becomes a gas.
 
-		\subsubsection{Ionisation Energy}
+				These are known as \textit{latent} heats, because the temperature of the substance remains constant at either the melting or
+				boiling points — no heat is actually released. However, since enthalpy measures the actual, total energy content of the compound,
+				enthalpy still increases since the internal energy increases.
 
-			Ionisation energy is the energy required to remove \emph{1 mole} of electrons from \emph{1 mole} of gaseous atoms, forming
-			\emph{1 mole} of \emph{gaseous cations}. The first ionisation energy involves the removal of electrons from neutral atoms,
-			forming singly-charged gaseous cations; the second ionisation energy involves removing electrons from singly-charged gaseous
-			cations, forming doubly-charged gaseous cations, and so on.
-
-			As should be obvious, ionisation energy increases with the number of electrons already removed. It is always positive,
-			since energy is required to remove electrons from an atom.
-
-		% end subsubsection
-
-		\subsubsection{Electron Affinity}
-
-			Electron affinity is essentially the reverse of ionisation energy, measuring the enthalpy change when \emph{1 mole} of electrons
-			is added to \emph{1 mole} of gaseous atoms, forming \emph{1 mole} of \emph{gaseous anions}. As with ionisation energy, the energy
-			required to do this increases with the number of electrons previously added.
-
-			The first electron affinity is usually negative, due to the slight electrostatic attraction between the neutral atom (rather, its
-			nucleus) and the incoming electron. Subsequent electron affinities are usually positive, since energy is required to move a negative
-			electron towards a negatively charged atom.
-
-		% end subsubsection
-
-	% end subsection
-
-	\subsection{Lattice Energy}
-
-		Lattice energy is the heat released when \emph{1 mole} of an solid ionic compound is formed from its constituent ions in the
-		gaseous state. It is \emph{always negative}, since it involves the formation of ionic bonds between atoms.
-
-		The magnitude of lattice energy is a measure of the strength of the ionic bond — the more exothermic it is, the stronger the ionic bond.
-		Ionic bond strength depends on two factors; the magnitude of the charge on both ions, and the ionic radius of the atoms.
-
-		\diagram[1.5]{
-			\schemestart[0,1.0,thick]
-				$LE \propto \frac{q_{+}\times q_{-}}{r_{+} + r_{-}}$
-			\schemestop
-		}
-
-		\emph{q\sbs{+}} and \emph{q\sbs{-}} represent the charge of the respective ion, and \emph{r\sbs{+}} and \emph{r\sbs{-}} represent
-		the ionic radius. Thus, the maximum lattice energy is achieved with the highest charge magnitude and the smallest ionic radius.
+				As one might expect, the enthalpy changes of fusion and vaporisation are almost always positive, since they involve moving a
+				compound to a higher energy, and thus less stable, state. There are, however, a certain number of exceptions to this.
+				The negative of these enthalpy changes would represent the amount of energy that needs to be removed, per mole, to change the
+				substance from liquid to solid, and gas to liquid respectively.
 
 
-		\subsubsection{Theoretical vs. Experimental Lattice Energies}
+			% end subsubsection
 
-			There exists no truly ionic compound --- all ionic bonds will have some degree of covalent character, due to the behaviour of
-			electrons. Naturally, some ionic bonds exhibit greater covalent character than others. This is related to the charge density
-			of the cation and the ionic radius of the anion.
+			\subsubsection{Enthalpy Change of Formation}
 
-			If the cation has a high charge density and the ionic radius of the anion is relatively large, then the large electron cloud
-			will be attracted towards the cation (due to higher polarisability, shielding effect, etc.). This creates a situation where the
-			charge is more spread out over the participating ions, resulting in a smaller ionic character and thus greater covalent
-			character. Conversely, if the anion as a small electron cloud, it will be less polarisable, and tend to exhibit greater ionic
-			character.
+				The standard enthalpy change of formation a compound is the heat evolved when \textit{1 mole} of it is formed from its constituent
+				elements, all in their standard states, under standard conditions. This disregards the actual method of forming the compound, and
+				instead only accounts for simply mashing elements together. For example:
 
-			The calculation of lattice energy assumes a model where the bond is completely ionic, ie. zero covalent character. As this is
-			clearly \textit{not} the case, there are often discrepancies between theoretical and experimental values (from Born-Haber cycles)
-			of lattice energy. If the discrepancy is small, then the ionic bond in question has a large ionic character. Else, it has a
-			larger covalent character.
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{2 C \stS}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stAq}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
+						\arrow
+						\ch{C2H5OH \stL}
+					\schemestop
+				}{\enth{} = \SI{-298}{\kilo\joule\per\mole}}
 
-		% end subsubsection
+				If the enthalpy change of formation of a substance, \enth{f} is > 0, then the compound is less stable than its constituent elements,
+				meaning it is more likely to decompose --- the reverse is true if \enth{f} < 0. Note that \enth{f} of elements in their standard
+				states is 0, by definition.
 
-		\subsubsection{Born-Haber Cycles}
+			% end subsubsection
 
-			Since it is impractical to determine lattice energy directly by reacting gaseous ions together, the \emph{Law of Hess} can be
-			applied to calculate lattice energy indirectly, using a Born-Haber cycle, which really is just a glorified energy-level diagram.
+			\subsubsection{Enthalpy Change of Combustion}
+				The enthalpy change of combustion of a compound is the heat evolved when \emph{1 mole} of it is completely burned in excess
+				oxygen, under standard conditions. This enthalpy change is always negative --- heat is always released when things are combusted.
 
-			\imgdiagram{120mm}{../figures/physical/ch01/born_haber_cycle.png}{\vspace{-4em}}
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{CH4 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 O2 \stG}
+						\arrow
+						\ch{CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
+					\schemestop
+				}{\enth{c} = \SI{-866}{\kilo\joule\per\mole}}
 
-			In the example above, the lattice energy of \ch{LiF}, \enth{latt} is being calculated indirectly using various enthalpy changes.
-			The initial state is given an enthalpy of 0. To put into words:
+			% end subsubsection
 
+			\subsubsection{Enthalpy Change of Neutralisation}
 
-			\begin{numberedlist}
-				\ListProperties(Space*=-0.2em, Space=-0.2em, Numbers=a)
-				&	Atoms are at their initial, standard state; \ch{Li \stS} and \ch{\fracHalf F2 \stG}.		\\
-					\enth{} = 0.
+				The enthalpy change of neutralisation is the heat evolved when \emph{1 mole} of \ch{H2O} is formed when an acid and a base are
+				reacted. Normally, it is the reaction between \ch{H+} ions and \ch{OH-} ions in aqueous solution.
 
-				&	\ch{Li \stS} is heated into the gaseous state, forming \ch{Li \stG}.						\\
-					\enth{} = \enth{fus} + \enth{vap}.
-
-				&	One mole of electrons is removed from \ch{Li \stG}, forming \ch{Li+ \stG} and \ch{e-}.		\\
-					\enth{} = \enth{fus} + \enth{vap} + First IE (\ch{Li}).
-
-				&	The \ch{F-F} bond is broken, forming \ch{F \stG}.											\\
-					\enth{} = \enth{fuS} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}).
-
-				&	One mole of electrons is added to \ch{F \stG}, forming \ch{F- \stG}.						\\
-					\enth{} = \enth{fuS} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}) + First EA (\ch{F}).
-
-				&	\ch{LiF \stS} is formed from its constituent gaseous ions, \ch{Li+ \stG} and \ch{F- \stG}.	\\
-					\enth{} = \enth{fuS} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}) + First EA (\ch{F}) + \enth{latt}.
-
-				&	To determine \enth{latt}, \enth{f} is used --- the enthalpy change of formation of \ch{LiF \stS} from constituent
-					elements in their standard state.
-
-				&	Thus, applying the \emph{Law of Hess} --- \enth{f} = \enth{fus} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}) +
-					First EA (\ch{F}) + \enth{latt}. Rearrange to solve for \enth{latt}.
-
-			\end{numberedlist}
-
-		% end subsubsection
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{OH- \stAq}
+						\arrow
+						\ch{H2O \stL}
+					\schemestop
+				}{\enth{neut} = \SI{-57.1}{\kilo\joule\per\mole}}
 
 
-		\subsubsection{Lattice Energy, \enth{sol} and \enth{hyd}}
+				\pagebreak
+				This reaction between \ch{H+} ions and \ch{OH-} ions underlies the majority of reactions between acids and bases.
 
-			These three energies are related; dissolving a solid, ionic compound in water can be split into two sequential processes.
-			First, the formation of gaseous ions form the solid ionic compound:
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{H\chlorine \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
+						\arrow
+						\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{Na\chlorine \stAq}
+					\schemestop
+				}{\enth{neut} = \SI{-57.1}{\kilo\joule\per\mole}}
+
+				In general, the enthalpy change of neutralisation of all strong acid-base reactions will be the same,
+				at \SI{-57.1}{\kilo\joule\per\mole}. However, for weak acids, the \ch{H+} and \ch{OH-} ions only dissociate
+				partially --- energy is thus needed to break these partially dissociated bonds, which decreases the enthalpy change
+				of neutralisation of weak acids and bases.
+
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{CH3CO2H \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
+						\arrow
+						\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{CH3CO2Na \stAq}
+					\schemestop
+				}{\enth{neut} = \SI{-55.9}{\kilo\joule\per\mole}}
+
+
+			% end subsubsection
+
+			\subsubsection{Enthalpy Change of Atomisation}
+
+				The enthalpy change of atomisation for an element is the energy required to create \emph{1 mole} of gaseous atoms from the
+				element in question in the standard state.
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{\fracHalf \chlorine2 \stG}
+						\arrow
+						\ch{\chlorine \stG}
+					\schemestop
+				}{\enth{atom} = \SI{+122}{\kilo\joule\per\mole}}
+
+				For elements that are already gaseous at their standard state, such as \ch{F2 \stG}, the enthalpy change of atomisation would
+				simply be the bond energy, in this case of the \ch{F-F} bond. For elements that are monatomic in the gaseous state,
+				such as noble gases, the \enth{atom} is 0.
+
+
+				The enthalpy change of atomisation of a non-elemental compound, on the other hand, is the energy required to create gaseous
+				atoms of its constituent elements, from the compound in its standard state. For example:
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{CH4 \stG}
+						\arrow
+						\ch{C \stG}\hspace{2mm} + \hspace{2mm}\ch{4 H \stG}
+					\schemestop
+				}{\vspace{-2em}}
+
+				Of course, for compounds not initially in the gaseous state, they must first be converted, and the appropriate enthalpy
+				change (of fusion or vaporisation) taken into account.
+
+
+			% end subsubsection
+
+			\subsubsection{Enthalpy Change of Hydration}
+
+
+				The enthalpy change of hydration is the energy released when \emph{1 mole} of gaseous ions is dissolved in an
+				\emph{infinite volume} of water, under standard conditions. \enth{hyd} is always negative, as it involves the
+				formation of ion-dipole interactions between the ions in question and the water molecules.
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\enth{hyd} $\propto \frac{q}{r}$
+					\schemestop
+				}{\vspace{-2em}}
+
+				The enthalpy change of hydration is proportional to the charge density of the ions; the higher the charge density,
+				the stronger the ion-dipole interactions and thus the larger the enthalpy change.
+
+			% end subsubsection
+
+			\subsubsection{Enthalpy Change of Solution}
+
+				The enthalpy change of solution is the enthalpy change when \emph{1 mole} of a substance is dissolved in an \emph{infinite volume}
+				of solvent, under standard conditions. The solute and solvent can be anything, even though the solute is usually an ionic compound,
+				and the solvent water.
+
+				If \enth{sol} is highly positive, then the solute is likely to be insoluble in the solvent, since the reaction would be
+				endothermic. On the other hand, if \enth{sol} is negative, then the solute is likely to be soluble in the solvent.
+
+			% end subsubsection
+
+			\subsubsection{Ionisation Energy}
+
+				Ionisation energy is the energy required to remove \emph{1 mole} of electrons from \emph{1 mole} of gaseous atoms, forming
+				\emph{1 mole} of \emph{gaseous cations}. The first ionisation energy involves the removal of electrons from neutral atoms,
+				forming singly-charged gaseous cations; the second ionisation energy involves removing electrons from singly-charged gaseous
+				cations, forming doubly-charged gaseous cations, and so on.
+
+				As should be obvious, ionisation energy increases with the number of electrons already removed. It is always positive,
+				since energy is required to remove electrons from an atom.
+
+			% end subsubsection
+
+			\subsubsection{Electron Affinity}
+
+				Electron affinity is essentially the reverse of ionisation energy, measuring the enthalpy change when \emph{1 mole} of electrons
+				is added to \emph{1 mole} of gaseous atoms, forming \emph{1 mole} of \emph{gaseous anions}. As with ionisation energy, the energy
+				required to do this increases with the number of electrons previously added.
+
+				The first electron affinity is usually negative, due to the slight electrostatic attraction between the neutral atom (rather, its
+				nucleus) and the incoming electron. Subsequent electron affinities are usually positive, since energy is required to move a negative
+				electron towards a negatively charged atom.
+
+			% end subsubsection
+
+		% end subsection
+
+		\subsection{Lattice Energy}
+
+			Lattice energy is the heat released when \emph{1 mole} of an solid ionic compound is formed from its constituent ions in the
+			gaseous state. It is \emph{always negative}, since it involves the formation of ionic bonds between atoms.
+
+			The magnitude of lattice energy is a measure of the strength of the ionic bond — the more exothermic it is, the stronger the ionic bond.
+			Ionic bond strength depends on two factors; the magnitude of the charge on both ions, and the ionic radius of the atoms.
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\ch{NaF \stS}
-					\arrow
-					\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}
+					$LE \propto \frac{q_{+}\times q_{-}}{r_{+} + r_{-}}$
 				\schemestop
-			}{\enth{} = $-LE$}
+			}{\vspace{-2em}}
 
-			Second, the gaseous are hydrated.
-
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}\hspace{2mm} + \hspace{2mm}\ch{aq}
-					\arrow
-					\ch{Na+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{F- \stAq}
-				\schemestop
-			}{\enth{} = \enth{hyd}(\ch{Na+}) + \enth{hyd}(\ch{F-})}
-
-			Therefore, the total enthalpy change for this process is simply the sum of the enthalpy change of hydration of each ion, less
-			the lattice energy of the final ionic compound. This can be summed up with the following energy level diagram:
-
-			\imgdiagram{120mm}{../figures/physical/ch01/lattice_energy_relationship.png}{\vspace{-4em}}
-
-		% end subsubsection
-
-	% end subsection
-
-% end section
+			\emph{q\sbs{+}} and \emph{q\sbs{-}} represent the charge of the respective ion, and \emph{r\sbs{+}} and \emph{r\sbs{-}} represent
+			the ionic radius. Thus, the maximum lattice energy is achieved with the highest charge magnitude and the smallest ionic radius.
 
 
+			\subsubsection{Theoretical vs. Experimental Lattice Energies}
 
+				There exists no truly ionic compound --- all ionic bonds will have some degree of covalent character, due to the behaviour of
+				electrons. Naturally, some ionic bonds exhibit greater covalent character than others. This is related to the charge density
+				of the cation and the ionic radius of the anion.
+
+				If the cation has a high charge density and the ionic radius of the anion is relatively large, then the large electron cloud
+				will be attracted towards the cation (due to higher polarisability, shielding effect, etc.). This creates a situation where the
+				charge is more spread out over the participating ions, resulting in a smaller ionic character and thus greater covalent
+				character. Conversely, if the anion as a small electron cloud, it will be less polarisable, and tend to exhibit greater ionic
+				character.
+
+				The calculation of lattice energy assumes a model where the bond is completely ionic, ie. zero covalent character. As this is
+				clearly \textit{not} the case, there are often discrepancies between theoretical and experimental values (from Born-Haber cycles)
+				of lattice energy. If the discrepancy is small, then the ionic bond in question has a large ionic character. Else, it has a
+				larger covalent character.
+
+			% end subsubsection
+
+			\subsubsection{Born-Haber Cycles}
+
+				Since it is impractical to determine lattice energy directly by reacting gaseous ions together, the \emph{Law of Hess} can be
+				applied to calculate lattice energy indirectly, using a Born-Haber cycle, which really is just a glorified energy-level diagram.
+
+				\imgdiagram{120mm}{../figures/physical/ch01/born_haber_cycle.png}{\vspace{-4em}}
+
+				In the example above, the lattice energy of \ch{LiF}, \enth{latt} is being calculated indirectly using various enthalpy changes.
+				The initial state is given an enthalpy of 0. To put into words:
+
+
+				\begin{numberedlist}
+					\ListProperties(Space*=-0.2em, Space=-0.2em, Numbers=a)
+					&	Atoms are at their initial, standard state; \ch{Li \stS} and \ch{\fracHalf F2 \stG}.		\\
+						\enth{} = 0.
+
+					&	\ch{Li \stS} is heated into the gaseous state, forming \ch{Li \stG}.						\\
+						\enth{} = \enth{fus} + \enth{vap}.
+
+					&	One mole of electrons is removed from \ch{Li \stG}, forming \ch{Li+ \stG} and \ch{e-}.		\\
+						\enth{} = \enth{fus} + \enth{vap} + First IE (\ch{Li}).
+
+					&	The \ch{F-F} bond is broken, forming \ch{F \stG}.											\\
+						\enth{} = \enth{fuS} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}).
+
+					&	One mole of electrons is added to \ch{F \stG}, forming \ch{F- \stG}.						\\
+						\enth{} = \enth{fuS} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}) + First EA (\ch{F}).
+
+					&	\ch{LiF \stS} is formed from its constituent gaseous ions, \ch{Li+ \stG} and \ch{F- \stG}.	\\
+						\enth{} = \enth{fuS} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}) + First EA (\ch{F}) + \enth{latt}.
+
+					&	To determine \enth{latt}, \enth{f} is used --- the enthalpy change of formation of \ch{LiF \stS} from constituent
+						elements in their standard state.
+
+					&	Thus, applying the \emph{Law of Hess} --- \enth{f} = \enth{fus} + \enth{vap} + First IE (\ch{Li}) + BE(\ch{F-F}) +
+						First EA (\ch{F}) + \enth{latt}. Rearrange to solve for \enth{latt}.
+
+				\end{numberedlist}
+
+			% end subsubsection
+
+
+			\subsubsection{Lattice Energy, \enth{sol} and \enth{hyd}}
+
+				These three energies are related; dissolving a solid, ionic compound in water can be split into two sequential processes.
+				First, the formation of gaseous ions form the solid ionic compound:
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{NaF \stS}
+						\arrow
+						\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}
+					\schemestop
+				}{\enth{} = $-LE$}
+
+				Second, the gaseous are hydrated.
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}\hspace{2mm} + \hspace{2mm}\ch{aq}
+						\arrow
+						\ch{Na+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{F- \stAq}
+					\schemestop
+				}{\enth{} = \enth{hyd}(\ch{Na+}) + \enth{hyd}(\ch{F-})}
+
+				Therefore, the total enthalpy change for this process is simply the sum of the enthalpy change of hydration of each ion, less
+				the lattice energy of the final ionic compound. This can be summed up with the following energy level diagram:
+
+				\imgdiagram{120mm}{../figures/physical/ch01/lattice_energy_relationship.png}{\vspace{-4em}}
+
+			% end subsubsection
+
+		% end subsection
+
+	% end section
+
+% end part
 
 
 

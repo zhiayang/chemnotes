@@ -49,16 +49,33 @@
 
 % end title
 
+\fancyhead{}
+\afterpage{\blankpage}
+
 
 \pagebreak
+
+\pagenumbering{roman}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
 \tableofcontents
 \pagebreak
+
+\hypersetup{pageanchor=true}
 
 % reset
 
 \pagenumbering{arabic}
-\input{"Chapter 01 - Enthalpies"}
-\input{"Chapter 02 - Gibbs Energy and Entropy"}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+
+\fancyhead[R]{Chapter \arabic{part} - \parttitle}
+
+% \input{"Chapter 01 - Enthalpies"}
+% \input{"Chapter 02 - Gibbs Energy and Entropy"}
+% \input{"Chapter 03 - Reaction Kinetics"}
+\input{"Chapter 04 - Reaction Mechanisms"}
 
 
 
