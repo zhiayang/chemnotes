@@ -31,6 +31,7 @@
 \RequirePackage[autostyle=false, style=british, strict=true]{csquotes}
 \RequirePackage{sansmath}
 \RequirePackage{xfrac}
+\RequirePackage{unicode-math}
 
 \RequirePackage[newparttoc]{titlesec}
 
@@ -188,20 +189,6 @@
 
 
 
-% \setmainfont[
-% 				Ligatures=TeX,
-% 				BoldFont={HelveticaNeue-Medium},
-% 				ItalicFont={HelveticaNeue-Italic},
-% 				BoldItalicFont={HelveticaNeue-MediumItalic}
-% 			]{HelveticaNeue}
-
-% \setmainfont[
-% 				Ligatures=TeX,
-% 				BoldFont={SourceSansPro-Semibold},
-% 				ItalicFont={SourceSansPro-Italic},
-% 				BoldItalicFont={SourceSansPro-SemiboldItalic}
-% 			]{SourceSansPro-Regular}
-
 
 \defaultfontfeatures{Ligatures=TeX}
 
@@ -220,6 +207,11 @@
 				ItalicFont={Lato-Italic},
 				BoldItalicFont={Lato-SemiboldItalic}
 			]{Lato-Regular}
+
+\setmathfont[
+				Ligatures=TeX,
+				UprightFont=Asana-Math
+]{Asana-Math}
 
 
 % \setsansfont[
@@ -546,11 +538,19 @@
 \newcommand {\Mea}			{E\sbs{a} }
 \newcommand {\ea}			{$E_{a}$ }
 
-\newcommand	{\entr}			{$\Delta S$}
-\newcommand {\gibb}			{$\Delta G$}
+\newcommand	{\entr}			{$\Delta S$ }
+\newcommand {\gibb}			{$\Delta G$ }
 
-\newcommand {\Kc}			{$K_{c}$}
-\newcommand {\Ksp}			{$K_{sp}$}
+\newcommand {\Kc}			{$K_{c}$ }
+\newcommand {\Kp}			{$K_{p}$ }
+\newcommand {\Ksp}			{$K_{sp}$ }
+
+\newcommand {\Qc}			{$Q_{c}$ }
+\newcommand {\Qp}			{$Q_{p}$ }
+
+\newcommand {\MKc}			{\textit{K\sbs{c}} }
+\newcommand {\MKp}			{\textit{K\sbs{p}} }
+\newcommand {\MKsp}			{\textit{K\sbs{sp}} }
 
 \newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
 \newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\textit{l})\normtext}

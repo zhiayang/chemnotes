@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  16 JUN 2016 17:57
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  16 JUN 2016 19:40
  system commands enabled.
 **OrganicChem.tex
 (./OrganicChem.tex
@@ -1515,7 +1515,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.262 seconds)
+luaotfload | main : initialization completed in 0.169 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -3325,9 +3325,9 @@ Package translations Info: No language package found. I am going to use `english
 . `chemformula'.
 .................................................
 
-No file OrganicChem.aux.
-
+(./OrganicChem.aux)
 \openout1 = OrganicChem.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
@@ -3342,6 +3342,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -3591,19 +3592,20 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `Lato-Thin' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\tf@toc=\write5
-
-\openout5 = OrganicChem.toc
- [1]
-Package hyperref Info: Option `pageanchor' set `true' on input line 62.
- ("./Chapter 01 - Functional Groups.tex"
+ (./OrganicChem.toc
 Package microtype Info: Loading generic settings for font family
 (microtype)             `AlexandriaFLF' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1])
-("./Chapter 02 - Isomers.tex" [2] [3] [4] [5] [6])
-("./Chapter 03 - Reaction Mechanisms.tex" [7]
+ [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11])
+\tf@toc=\write5
+
+\openout5 = OrganicChem.toc
+ [12]
+Package hyperref Info: Option `pageanchor' set `true' on input line 62.
+
+("./Chapter 01 - Functional Groups.tex" [1]) ("./Chapter 02 - Isomers.tex"
+[2] [3] [4] [5] [6]) ("./Chapter 03 - Reaction Mechanisms.tex" [7]
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <11> on input line 30.
@@ -3646,7 +3648,7 @@ Missing character: There is no δ (U+03B4) in font Lato-Regular:mode=node;script
 =latn;language=DFLT;+tlig;+tlig;+tlig;!
 ] [27] [28] [29])
 ("./Chapter 07 - Arenes.tex" [30]
-<../figures/organic/ch07/benzene_delocalisation.png, id=252, 380.8629pt x 155.0
+<../figures/organic/ch07/benzene_delocalisation.png, id=937, 380.8629pt x 155.0
 1915pt>
 File: ../figures/organic/ch07/benzene_delocalisation.png Graphic file (type png)
 
@@ -3679,8 +3681,8 @@ Missing character: There is no δ (U+03B4) in font Lato-Regular:mode=node;script
 ] [36] [37]
 [38] [39] [40]) ("./Chapter 08 - Halogen Derivatives.tex" [41] [42] [43]
 [44] [45] [46] [47] [48] [49] [50] [51]
-<../figures/organic/ch08/halogen_benzene_delocalistion.png, id=403, 862.22125pt
- x 219.82124pt>
+<../figures/organic/ch08/halogen_benzene_delocalistion.png, id=1043, 862.22125p
+t x 219.82124pt>
 File: ../figures/organic/ch08/halogen_benzene_delocalistion.png Graphic file (ty
 pe png)
 
@@ -3822,27 +3824,27 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 )
 
 Here is how much of LuaTeX's memory you used:
- 66131 strings out of 495119
- 477086,2373549 words of node,token memory allocated
- 31434 words of node memory still in use:
-   7 hlist, 2 vlist, 3 rule, 3489 glue, 1 kern, 1597 attribute, 88 glue_spec, 15
-97 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:1228,2:67952,3:21630,4:1390,5:1801,6:2387,7:5382,8:920,9:4838,
-10:334,11:467,12:373
- 66505 multiletter control sequences out of 65536+600000
- 393 fonts using 38440991 bytes
- 74i,32n,117p,800b,2787s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 66061 strings out of 495119
+ 381657,2373549 words of node,token memory allocated
+ 31459 words of node memory still in use:
+   7 hlist, 2 vlist, 3 rule, 3492 glue, 1 kern, 1598 attribute, 88 glue_spec, 15
+98 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:1236,2:67957,3:21632,4:1392,5:1904,6:2383,7:5378,8:920,9:4836,
+10:333,11:527,12:377
+ 66422 multiletter control sequences out of 65536+600000
+ 396 fonts using 39896831 bytes
+ 74i,32n,117p,800b,2786s stack positions out of 5000i,500n,10000p,200000b,100000s
 
 warning  (pdf backend): unreferenced destination with name 'AlcoholDehydration'
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local
 /texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/f
 onts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/openty
-pe/adobe/sourcesanspro/SourceSansPro-RegularIt.otf></Users/zhiayang/Library/Font
-s/Lato-Semibold.ttf></Users/zhiayang/Library/Fonts/Lato-SemiboldItalic.ttf></usr
-/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-RegIta.ttf></usr/
-local/texlive/2016/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-R
-egular.otf></Users/zhiayang/Library/Fonts/AlexandriaFLF.ttf></usr/local/texlive/
+pe/adobe/sourcesanspro/SourceSansPro-RegularIt.otf></usr/local/texlive/2016/texm
+f-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Regular.otf></Users/zhia
+yang/Library/Fonts/Lato-SemiboldItalic.ttf></usr/local/texlive/2016/texmf-dist/f
+onts/truetype/public/lato/Lato-RegIta.ttf></Users/zhiayang/Library/Fonts/Lato-Se
+mibold.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF.ttf></usr/local/texlive/
 2016/texmf-dist/fonts/truetype/public/lato/Lato-Lig.ttf></usr/local/texlive/2016
 /texmf-dist/fonts/truetype/public/lato/Lato-Reg.ttf></usr/local/texlive/2016/tex
 mf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Light.otf></usr/local/t
@@ -3856,10 +3858,10 @@ exlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/lm/lmsy9.pfb>
-Output written on OrganicChem.pdf (171 pages, 1079335 bytes).
+Output written on OrganicChem.pdf (182 pages, 1109320 bytes).
 
-PDF statistics: 2511 PDF objects out of 2984 (max. 8388607)
- 2274 compressed objects within 23 object streams
+PDF statistics: 2644 PDF objects out of 2984 (max. 8388607)
+ 2395 compressed objects within 24 object streams
  650 named destinations out of 1000 (max. 131072)
- 2976 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
