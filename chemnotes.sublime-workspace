@@ -520,26 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "PhysicalChem/Chapter 04 - Reaction Mechanisms.tex",
-			"settings":
-			{
-				"buffer_size": 19279,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
 			"settings":
 			{
-				"buffer_size": 192,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "PhysicalChem/PhysicalChem.tex",
-			"settings":
-			{
-				"buffer_size": 1430,
+				"buffer_size": 16892,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +531,7 @@
 			"file": "studynotes.sty",
 			"settings":
 			{
-				"buffer_size": 15844,
+				"buffer_size": 15795,
 				"line_ending": "Unix"
 			}
 		}
@@ -905,11 +889,12 @@
 	],
 	"file_history":
 	[
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 03 - Reaction Kinetics.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
 		"/Users/zhiayang/Documents/Chem Notes/studynotes.sty",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 03 - Reaction Kinetics.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 04 - Reaction Mechanisms.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 18 - Proteins.tex",
@@ -1031,8 +1016,7 @@
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/recursiveFib.flx",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/scopes.flx",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Array.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Core.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Foundation.flx"
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Core.flx"
 	],
 	"find":
 	{
@@ -1089,6 +1073,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"scale",
+			"\\sfrac",
+			"6",
+			"enlarge",
+			"shift",
+			"SSLight",
+			"HNLight",
+			"hnregular",
+			"HelveticaNeue",
+			"HNLight",
+			"HNRegular",
 			"\\ka",
 			"ea",
 			"- ",
@@ -1205,18 +1200,7 @@
 			"snone",
 			"270",
 			"180",
-			"90",
-			"\\hyperlink",
-			"hydrolysis of ",
-			"\\sptwo",
-			"isomersim",
-			"are the same",
-			"Amides",
-			"10mm",
-			"subsubte",
-			"subsub",
-			"partmark",
-			"pagestyle"
+			"90"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1362,54 +1346,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "PhysicalChem/Chapter 04 - Reaction Mechanisms.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19279,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12978,
-								12978
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"spell_check": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4096.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 192,
+						"buffer_size": 16892,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								16864,
+								16864
 							]
 						],
 						"settings":
@@ -1418,56 +1372,27 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6985.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "PhysicalChem/PhysicalChem.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1081,
-								1081
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 689.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "studynotes.sty",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15844,
+						"buffer_size": 15795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13672,
-								13672
+								5551,
+								5556
 							]
 						],
 						"settings":
@@ -1476,10 +1401,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7983.0,
+						"translation.y": 5978.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
