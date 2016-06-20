@@ -41,18 +41,18 @@
 				\schemestart[0, 1.5, thick]
 				% note: chlorine has to be coloured manually here
 				% because somewhere in chemfig it fucks up, you can't name a submolecule.
-				\chemfig{@{carb}C(-[@{bond}:0]@{chl}\color{OliveGreen}\chlorine)(-[:90]H)(-[:180]H)(-[:270]H)}
+				\chemfig{@{carb}C(-[@{bond}:0]@{chl}\color{OliveGreen}\Cl)(-[:90]H)(-[:180]H)(-[:270]H)}
 				\arrow{->}
 				\chemfig{C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
 				\hspace{5mm} + \hspace{5mm}
-				\chemfig{\lewis{4:,\color{OliveGreen}\chlorine}}
+				\chemfig{\lewis{4:,\color{OliveGreen}\Cl}}
 				\schemestop
 
 				% draw arrows
 				\chemmove{\draw[-{Stealth},line width=0.4mm,shorten <=1mm,shorten >=1mm](bond).. controls +(90:5mm) and +(120:8mm).. (chl);}
 
 
-			}{The heterolytic fission of \ch{CH3\chlorine}, resulting in \ch{CH3+} and \ch{\chlorine-} ions}
+			}{The heterolytic fission of \ch{CH3\Cl}, resulting in \ch{CH3+} and \ch{\Cl-} ions}
 
 		% end subsection
 
@@ -95,7 +95,7 @@
 				\schemestart[0, 1.5, thick]
 				\chemfig{@{carb}C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
 				\hspace{5mm} + \hspace{5mm}
-				\chemfig{@{chl}\lewis{3:,\color{OliveGreen}\ch{\chlorine-}}}
+				\chemfig{@{chl}\lewis{3:,\color{OliveGreen}\ch{\Cl-}}}
 				\arrow{->}
 				\chemfig{C(-[:0]!\molCl)(-[:90]H)(-[:180]H)(-[:270]H)}
 				\schemestop
@@ -103,7 +103,7 @@
 				% draw arrows
 				\chemmove{\draw[-{Stealth},line width=0.4mm,shorten <=3mm,shorten >=1mm](chl).. controls +(150:12mm) and +(45:12mm).. (carb);}
 
-			}{The formation of a bond between \ch{^.CH3} and \ch{\chlorine-} radicals, to form \ch{CH3\chlorine}.}
+			}{The formation of a bond between \ch{^.CH3} and \ch{\Cl-} radicals, to form \ch{CH3\Cl}.}
 
 		% end subsection
 	% end section

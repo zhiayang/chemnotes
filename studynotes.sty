@@ -32,6 +32,7 @@
 \RequirePackage{sansmath}
 \RequirePackage{xfrac}
 \RequirePackage{unicode-math}
+\RequirePackage{newunicodechar}
 
 \RequirePackage[newparttoc]{titlesec}
 
@@ -225,6 +226,15 @@
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
 
+\newfontfamily{\fallbackfont}{Arial}[Scale=MatchLowercase]
+
+\DeclareTextFontCommand{\textfallback}{\fallbackfont}
+\newunicodechar{δ}{\textfallback{δ}}
+%\newunicodechar{ϱ}{\textfallback{}}
+
+
+
+
 \newlength\titleNumberInsetLength
 \setlength\titleNumberInsetLength{12.5mm}
 
@@ -383,6 +393,7 @@
 
 
 \DeclareSIUnit\atm{atm}
+\DeclareSIUnit\molarConc{\mole\per\cubic\deci\metre}
 
 
 
@@ -508,11 +519,11 @@
 
 
 % text stuff
-\newcommand {\chlorine}		{C\textit{l}}
-\newcommand {\aluminium}	{A\textit{l}}
+\newcommand {\Cl}			{C\textit{l}}
+\newcommand {\Al}			{A\textit{l}}
 
-\newcommand {\deltap}		{\chemdelta\sps{+}}
-\newcommand {\deltam}		{\chemdelta\sps{-}}
+\newcommand {\deltap}		{δ\sps{+}}
+\newcommand {\deltam}		{δ\sps{-}}
 
 \newcommand {\snone}		{S\sbs{N}1}
 \newcommand {\sntwo}		{S\sbs{N}2}
@@ -522,8 +533,8 @@
 \newcommand {\spthree}		{sp\sps{3} }
 
 % small(er)
-\newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{+}\normtext }
-\newcommand {\smdeltam}		{\fontsize{10pt}{12pt}\selectfont\chemdelta\sps{-}\normtext }
+\newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfontδ\sps{+}\normtext }
+\newcommand {\smdeltam}		{\fontsize{10pt}{12pt}\selectfontδ\sps{-}\normtext }
 \newcommand {\smfplus}		{\fontsize{9pt}{11pt}\selectfont$\fplus$\normtext}
 \newcommand {\smfminus}		{\fontsize{9pt}{11pt}\selectfont$\fminus$\normtext}
 
@@ -551,6 +562,29 @@
 \newcommand {\MKc}			{\textit{K\sbs{c}} }
 \newcommand {\MKp}			{\textit{K\sbs{p}} }
 \newcommand {\MKsp}			{\textit{K\sbs{sp}} }
+
+
+% renew because chemmacro defines this, but not properly (ugly)
+\renewcommand {\pH}			{$pH$}
+\renewcommand {\pOH}		{$pOH$}
+\renewcommand {\pKa}		{$pK_{a}$}
+\renewcommand {\pKb}		{$pK_{b}$}
+\renewcommand {\Kw}			{$K_{w}$}
+\renewcommand {\Ka}			{$K_{a}$}
+\renewcommand {\Kb}			{$K_{b}$}
+
+
+\newcommand {\pKw}			{$pK_{w}$ }
+\newcommand {\MpKw}			{\textit{p}K\sbs{w}}
+
+\newcommand {\MpH}			{\textit{p}H}
+\newcommand {\MpOH}			{\textit{p}OH}
+\newcommand {\MpKa}			{\textit{p}K\sbs{a}}
+\newcommand {\MpKb}			{\textit{p}K\sbs{b}}
+\newcommand {\MKw}			{K\sbs{w}}
+\newcommand {\MKa}			{K\sbs{a}}
+\newcommand {\MKb}			{K\sbs{b}}
+
 
 \newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
 \newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\textit{l})\normtext}
@@ -582,7 +616,7 @@
 % halogens
 \definesubmol	\molX		{{\color{OliveGreen}X}} % placeholder
 \definesubmol	\molF		{{\color{Tan!80!Black}F}}
-\definesubmol	\molCl		{{\color{OliveGreen}\chlorine}}
+\definesubmol	\molCl		{{\color{OliveGreen}\Cl}}
 \definesubmol	\molBr		{{\color{Mahogany}Br}}
 \definesubmol	\molI		{{\color{Sepia}I}}
 
@@ -605,8 +639,8 @@
 
 % utils
 \definesubmol	\invisbond	{-[,0.3,,,draw=none]}
-\definesubmol	\molDeltap	{\chemdelta\sps{+}}
-\definesubmol	\molDeltam	{\chemdelta\sps{-}}
+\definesubmol	\molDeltap	{δ\sps{+}}
+\definesubmol	\molDeltam	{δ\sps{-}}
 
 
 

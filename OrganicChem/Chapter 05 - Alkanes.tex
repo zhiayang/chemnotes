@@ -68,7 +68,7 @@
 		\subsection{Solubility}
 
 			As described before, alkanes rely only on induced-dipole interactions for intermolecular bonding; they are insoluble in
-			polar solvents such as water. However, they are highly soluble in non-polar solvents like \ch{C\chlorine4}. In fact,
+			polar solvents such as water. However, they are highly soluble in non-polar solvents like \ch{C\Cl4}. In fact,
 			since solubility is dependent on the strength of solvent-solute bonds, larger alkanes will be more soluble in non-polar solvents.
 
 		% end subsection
@@ -118,24 +118,24 @@
 
 			\subsubsection{Mechanism of Reaction}
 
-				In the steps below, the free radical substitution of methane (\ch{CH4}) by chlorine (\ch{\chlorine2}) will be used. This applies
+				In the steps below, the free radical substitution of methane (\ch{CH4}) by chlorine (\ch{\Cl2}) will be used. This applies
 				for any alkane, and a sufficiently reactive halogen.
 
 				\vspace{1.5em}
 
-				\vbox{\textbf{Conditions:}	\tabto{35mm}UV Light, \ch{Br2} / \ch{\chlorine2} gas}
-				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\chlorine2} decolourises.}
+				\vbox{\textbf{Conditions:}	\tabto{35mm}UV Light, \ch{Br2} / \ch{\Cl2} gas}
+				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\Cl2} decolourises.}
 
 				\paragraph{\textit{Stage I.\protect\hphantom{II}}\hspace{5mm} Initiation}
 
-					The \ch{\chlorine-\chlorine} bond is \textit{homolytically} broken to form 2 \ch{\chlorine} radicals.
+					The \ch{\Cl-\Cl} bond is \textit{homolytically} broken to form 2 \ch{\Cl} radicals.
 					The energy required to break this bond is provided by the UV light.
 
 					\diagram{
 						\schemestart[0, 1.5, thick]
-						\chemfig{@{cl1}{\color{OliveGreen}\chlorine}-[@{b}:0]@{cl2}{\color{OliveGreen}\chlorine}}
+						\chemfig{@{cl1}{\color{OliveGreen}\Cl}-[@{b}:0]@{cl2}{\color{OliveGreen}\Cl}}
 						\arrow
-						\chemfig{2 \lewis{0.,\color{OliveGreen}\chlorine}}
+						\chemfig{2 \lewis{0.,\color{OliveGreen}\Cl}}
 						\schemestop
 
 						\chemmove{\draw[-{Stealth[left]},line width=0.4mm,shorten <=1mm,shorten >=1mm](b).. controls +(90:7mm) and +(90:7mm).. (cl2);}
@@ -146,23 +146,23 @@
 
 				\paragraph{\textit{Stage II.\protect\hphantom{I}}\hspace{5mm} Propagation}
 
-					The highly reactive \ch{\chlorine} radicals then react with the \ch{CH4} molecules, bonding with one of the
-					hydrogen atoms to form \ch{H\chlorine} and a carbocation radical, \ch{CH3}.
+					The highly reactive \ch{\Cl} radicals then react with the \ch{CH4} molecules, bonding with one of the
+					hydrogen atoms to form \ch{H\Cl} and a carbocation radical, \ch{CH3}.
 
 					\diagram{
 						\schemestart[0, 1.0, thick]
-							\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{CH\sbs{4}}
+							\chemfig{\lewis{0.,\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{CH\sbs{4}}
 							\arrow
-							\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{H\chlorine}
+							\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{H\Cl}
 							\arrow(@c1.south east--.north east){0}[-90,.1]
-							\chemfig{\ch{\chlorine2}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+							\chemfig{\ch{\Cl2}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
 							\arrow
-							\chemfig{\ch{CH3\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
+							\chemfig{\ch{CH3\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
 						\schemestop
 					}
 
-					This newly-minted \ch{CH3} radical can react with a \ch{\chlorine2} molecule to form \ch{CH3\chlorine} and another
-					\ch{\chlorine} radical, thus recreating the consumed radical. As long as the supply of \ch{\chlorine2} gas has
+					This newly-minted \ch{CH3} radical can react with a \ch{\Cl2} molecule to form \ch{CH3\Cl} and another
+					\ch{\Cl} radical, thus recreating the consumed radical. As long as the supply of \ch{\Cl2} gas has
 					not been exhausted, this reaction can continue, and no additional UV light is required to sustain it.
 
 				%end
@@ -174,22 +174,22 @@
 
 					\diagram{
 						\schemestart[0, 1.0, thick]
-							\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
+							\chemfig{\lewis{0.,\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
 							\arrow
-							\chemfig{\ch{\chlorine2}}
+							\chemfig{\ch{\Cl2}}
 							\arrow(@c1.south east--.north east){0}[-90,.1]
 							\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
 							\arrow
 							\chemfig{\ch{CH3CH3}}
 							\arrow(@c3.south east--.north east){0}[-90,.1]
-							\chemfig{\lewis{0.,\chlorine}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
+							\chemfig{\lewis{0.,\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
 							\arrow
-							\chemfig{\ch{CH3\chlorine}}
+							\chemfig{\ch{CH3\Cl}}
 						\schemestop
 					}
 
 					Once all the radicals have been consumed in this manner, the reaction will stop, unless more UV light is provided (along
-					with more \ch{\chlorine2} gas).
+					with more \ch{\Cl2} gas).
 
 				%end
 
@@ -202,27 +202,27 @@
 				halogenated alkanes, due to the random nature of the process and the possibility of multi-substitution,
 				where more than one halogen atom has been substituted onto the alkane.
 
-				If there are still \ch{\chlorine} radicals remaining, in the reaction chamber, \ch{CH3\chlorine} formed during the
-				termination stage can still react with it, forming a \ch{CH2\chlorine} radical, which can continue to react.
+				If there are still \ch{\Cl} radicals remaining, in the reaction chamber, \ch{CH3\Cl} formed during the
+				termination stage can still react with it, forming a \ch{CH2\Cl} radical, which can continue to react.
 
 				\diagram{
 					\schemestart[0, 1.0, thick]
-						\chemfig{\ch{CH3Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
+						\chemfig{\ch{CH3Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
 						\arrow
-						\chemfig{\lewis{4.,\ch{CH2\chlorine}}}
+						\chemfig{\lewis{4.,\ch{CH2\Cl}}}
 						\arrow(@c1.south east--.north east){0}[-90,.1]
-						\chemfig{\lewis{0.,\ch{CH2\chlorine}}} \hspace{2mm} + \hspace{2mm} \chemfig{\ch{\chlorine2}}
+						\chemfig{\lewis{0.,\ch{CH2\Cl}}} \hspace{2mm} + \hspace{2mm} \chemfig{\ch{\Cl2}}
 						\arrow
-						\chemfig{\lewis{4.,\ch{CH2\chlorine2}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\chlorine}}
+						\chemfig{\lewis{4.,\ch{CH2\Cl2}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
 					\schemestop
 				}
 
 				Indeed, this can continue \textit{ad-infinitum}, so until all the hydrogen atoms on the alkane have been substituted.
-				In the case of methane, this results in the formation of \ch{CH3\chlorine}, \ch{CH2\chlorine2}, \ch{CH\chlorine3} and
-				\ch{C\chlorine4}.
+				In the case of methane, this results in the formation of \ch{CH3\Cl}, \ch{CH2\Cl2}, \ch{CH\Cl3} and
+				\ch{C\Cl4}.
 
 				In fact, the will also be a small amount of alkanes with more than 1 carbon in the chain; this is due to the
-				possibility of two molecules of •\ch{CH2\chlorine} reacting, which then has its hydrogens further substituted.
+				possibility of two molecules of •\ch{CH2\Cl} reacting, which then has its hydrogens further substituted.
 
 			% end subsubsection
 
@@ -290,7 +290,7 @@
 			\subsubsection{Halogen Reactivity}
 
 				The reactivity of the free radical substitution naturally depends on the species of halogen that is reacting.
-				As is typical of halogens, the reactivity increases in this order: \ch{I2} < \ch{Br2} < \ch{\chlorine2} < \ch{F2}.
+				As is typical of halogens, the reactivity increases in this order: \ch{I2} < \ch{Br2} < \ch{\Cl2} < \ch{F2}.
 				In fact, the substitution by fluorine is too reactive --- even in the dark and at room temperature. On the other hand,
 				the substitution of iodine is not feasible (∆G > 0).
 
@@ -313,9 +313,9 @@
 
 				\vspace{1.0em}
 				\vbox{
-					\ch{\chlorine2}	\tabto{25mm}	H–\ch{\chlorine}				\tabto{50mm} = \SI{431}{\kilo\joule\per\mole}
-									\tabto{25mm}	C–\ch{\chlorine}				\tabto{50mm} = \SI{340}{\kilo\joule\per\mole}
-									\tabto{25mm}	\ch{\chlorine}–\ch{\chlorine2}	\tabto{50mm} = \SI{244}{\kilo\joule\per\mole}
+					\ch{\Cl2}	\tabto{25mm}	H–\ch{\Cl}				\tabto{50mm} = \SI{431}{\kilo\joule\per\mole}
+									\tabto{25mm}	C–\ch{\Cl}				\tabto{50mm} = \SI{340}{\kilo\joule\per\mole}
+									\tabto{25mm}	\ch{\Cl}–\ch{\Cl2}	\tabto{50mm} = \SI{244}{\kilo\joule\per\mole}
 									\tabto{25mm}	∆H\sbs{r}						\tabto{50mm} = \SI{-117}{\kilo\joule\per\mole}
 				}
 
