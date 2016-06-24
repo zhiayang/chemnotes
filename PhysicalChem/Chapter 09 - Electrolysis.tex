@@ -1,0 +1,59 @@
+% Chapter 09 - Electrolysis.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+
+\pagebreak
+\part{Electrolysis}
+
+	\section{Electrolysis of Pure Molten Salts}
+
+		The electrolysis of pure molten salts is very straightforward --- there are only two substances in the solution to consider, so one will
+		always be oxidised, and the other reduced.
+
+		If it isn't already obvious, the anion is oxidised and the cation is reduced. For example, with the electrolysis of molten \ch{Na\Cl}:
+
+		\diagram[1.0]{
+			\schemestart[0, 1.5, thick]
+				\ch{2 Na+ \stL} + \ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{2 Na \stL}
+				\arrow(@c1.south east--.north east){0}[-90,.25]
+				\ch{2 \Cl- \stL}\arrow{->[\tinytext{oxidation}]}\ch{\Cl2 \stG} + \ch{2 e-}
+			\schemestop
+		}{\vspace{-1.0em}}
+
+		When the current in the circuit flows, the electrode connected to the negative terminal of the battery will be the cathode --- it supplies
+		electrons, and \textit{reduces} the \ch{Na+} ions.
+
+		Because it's negatively charged (due to the electrons), \ch{Na+} ions will be attracted
+		to it, and migrate to the cathode. The reverse is true for the anode, attracting \ch{\Cl-} to itself.
+
+		Note that each half-equation has its own \Eo{} value, and so the supply voltage (emf) of the battery must be greater than the total
+		\Ecell{} of the system for the reaction to occur.
+
+	% end section
+
+
+	\section{Electrolysis of Aqueous Ion Solutions}
+
+		This is more complicated, because apart from the ions from whatever salt is dissolved, water can also be oxidised and reduced --- the
+		reaction that occurs at each electrode depends on the \Eo{} of the relevant half-equations.
+
+		\diagram[1.0]{
+			\schemestart[0, 1.5, thick]
+				\ch{2 H2O \stL} + \ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{H2 \stG} + \ch{2 OH- \stAq}\hspace{5.25mm}$E^{\stdst} = +0.40V$
+				\arrow(@c1.south east--.north east){0}[-90,.25]
+				\ch{2 H2O \stL}\arrow{->[\tinytext{oxidation}]}\ch{O2 \stG} + \ch{4 e-}					\hspace{15mm}$E^{\stdst} = +1.23V$.
+			\schemestop
+		}{\vspace{-1.0em}}
+
+		The half-equations for the reduction and oxidation of water are shown above.
+
+	% end section
+
+% end part
+
+
+
+
+
+

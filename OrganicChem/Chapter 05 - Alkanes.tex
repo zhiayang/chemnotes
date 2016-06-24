@@ -297,43 +297,56 @@
 				In the propagation steps of the reaction, several bonds are formed and broken. Using X as a halogen atom:
 
 				\vspace{1em}
-				\vbox{∆H\sbs{1} = BE(\ch{C–H}) - BE(\ch{H–X})		\tabto{60mm}\ch{CH3}–H + X•		\tabto{85mm} ------–> •\ch{CH3} + H–X	}
-				\vbox{∆H\sbs{2} = BE(\ch{X–X}) - BE(\ch{C–X})		\tabto{60mm}•\ch{CH3} + X–X		\tabto{85mm} ------–> \ch{CH3}–X + X•	}
-				\vbox{∆H\sbs{r} = ∆H\sbs{1} + ∆H\sbs{2}	\tabto{60mm}\ch{CH4} + \ch{X2}	\tabto{85mm} ------–> \ch{CH3X} + HX	}
+				\vbox{∆H\sbs{1} = BE(\ch{C–H}) - BE(\ch{H–X})		\tabto{60mm}\ch{CH3}–H + X•		\tabto{85mm} \ch{->} •\ch{CH3} + H–X	}
+				\vbox{∆H\sbs{2} = BE(\ch{X–X}) - BE(\ch{C–X})		\tabto{60mm}•\ch{CH3} + X–X		\tabto{85mm} \ch{->} \ch{CH3}–X + X•	}
+				\vbox{∆H\sbs{r} = ∆H\sbs{1} + ∆H\sbs{2}	\tabto{60mm}\ch{CH4} + \ch{X2}	\tabto{85mm} \ch{->} \ch{CH3X} + HX	}
 
 				The values of the bond energies for H–X, X–X, and C–X are below:
 				\vspace{1.0em}
 
-				\vbox{
-					\ch{F2}		\tabto{25mm}	H–F			\tabto{50mm} = \SI{562}{\kilo\joule\per\mole}
-								\tabto{25mm}	C–F			\tabto{50mm} = \SI{484}{\kilo\joule\per\mole}
-								\tabto{25mm}	F–F			\tabto{50mm} = \SI{158}{\kilo\joule\per\mole}
-								\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI{-478}{\kilo\joule\per\mole}
-				}
+				\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
+				\begin{tabu} to \textwidth {X[c,m] | X[c,m] | X[c,m] | X[c,m] | X[c,m]}
 
-				\vspace{1.0em}
-				\vbox{
-					\ch{\Cl2}	\tabto{25mm}	H–\ch{\Cl}				\tabto{50mm} = \SI{431}{\kilo\joule\per\mole}
-									\tabto{25mm}	C–\ch{\Cl}				\tabto{50mm} = \SI{340}{\kilo\joule\per\mole}
-									\tabto{25mm}	\ch{\Cl}–\ch{\Cl2}	\tabto{50mm} = \SI{244}{\kilo\joule\per\mole}
-									\tabto{25mm}	∆H\sbs{r}						\tabto{50mm} = \SI{-117}{\kilo\joule\per\mole}
-				}
+					&\ch{H-X} / \si{\kJmol}	&\ch{H-X} / \si{\kJmol}	&\ch{H-X} / \si{\kJmol}	&$∆H_{r}$ / \si{\kJmol}\\ \hline
 
-				\vspace{1.0em}
-				\vbox{
-					\ch{Br2}	\tabto{25mm}	H–Br		\tabto{50mm} = \SI{366}{\kilo\joule\per\mole}
-								\tabto{25mm}	C–Br		\tabto{50mm} = \SI{280}{\kilo\joule\per\mole}
-								\tabto{25mm}	Br–Br		\tabto{50mm} = \SI{193}{\kilo\joule\per\mole}
-								\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI{-43}{\kilo\joule\per\mole}
-				}
+					\ch{F2}		&	\num{562}	&	\num{484}	&	\num{158}	&	\num{-478}							\\	\hline
+					\ch{\Cl2}	&	\num{431}	&	\num{340}	&	\num{244}	&	\num{-117}							\\	\hline
+					\ch{Br2}	&	\num{366}	&	\num{280}	&	\num{193}	&	\num{-43}							\\	\hline
+					\ch{I2}		&	\num{299}	&	\num{240}	&	\num{151}	&	\num[retain-explicit-plus]{+22}		\\	\hline
 
-				\vspace{1.0em}
-				\vbox{
-					\ch{I2}		\tabto{25mm}	H–I			\tabto{50mm} = \SI{299}{\kilo\joule\per\mole}
-								\tabto{25mm}	C–I			\tabto{50mm} = \SI{240}{\kilo\joule\per\mole}
-								\tabto{25mm}	I–I			\tabto{50mm} = \SI{151}{\kilo\joule\per\mole}
-								\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI[retain-explicit-plus]{+22}{\kilo\joule\per\mole}
-				}
+				\end{tabu}
+				\end{table}\end{center}
+
+				% \vbox{
+				% 	\ch{F2}		\tabto{25mm}	H–F			\tabto{50mm} = \SI{562}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	C–F			\tabto{50mm} = \SI{484}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	F–F			\tabto{50mm} = \SI{158}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI{-478}{\kilo\joule\per\mole}
+				% }
+
+				% \vspace{1.0em}
+				% \vbox{
+				% 	\ch{\Cl2}	\tabto{25mm}	H–\ch{\Cl}				\tabto{50mm} = \SI{431}{\kilo\joule\per\mole}
+				% 					\tabto{25mm}	C–\ch{\Cl}				\tabto{50mm} = \SI{340}{\kilo\joule\per\mole}
+				% 					\tabto{25mm}	\ch{\Cl}–\ch{\Cl2}	\tabto{50mm} = \SI{244}{\kilo\joule\per\mole}
+				% 					\tabto{25mm}	∆H\sbs{r}						\tabto{50mm} = \SI{-117}{\kilo\joule\per\mole}
+				% }
+
+				% \vspace{1.0em}
+				% \vbox{
+				% 	\ch{Br2}	\tabto{25mm}	H–Br		\tabto{50mm} = \SI{366}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	C–Br		\tabto{50mm} = \SI{280}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	Br–Br		\tabto{50mm} = \SI{193}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI{-43}{\kilo\joule\per\mole}
+				% }
+
+				% \vspace{1.0em}
+				% \vbox{
+				% 	\ch{I2}		\tabto{25mm}	H–I			\tabto{50mm} = \SI{299}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	C–I			\tabto{50mm} = \SI{240}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	I–I			\tabto{50mm} = \SI{151}{\kilo\joule\per\mole}
+				% 				\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI[retain-explicit-plus]{+22}{\kilo\joule\per\mole}
+				% }
 
 				As can be seen, the reaction with \ch{F2} is highly exothermic; even the F–F bond energy is relatively small, hence the
 				reaction is highly spontaneous --- even at room temperature and without UV light, since the initiation stage requires

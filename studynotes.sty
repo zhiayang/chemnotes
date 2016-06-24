@@ -142,11 +142,17 @@
 	BoldFont		= Lato-Light,
 	BoldItalicFont	= Lato-LightItalic]{Lato-Thin}
 
-% \newfontfamily\Merriweather[
-% 	UprightFont		= Merriweather-Light,
-% 	ItalicFont		= Merriweather-LightItalic,
-% 	BoldFont		= Merriweather-Regular,
-% 	BoldItalicFont	= Merriweather-Italic]{Merriweather-Light}
+\newfontfamily\Roboto[
+	UprightFont		= Roboto-Light,
+	ItalicFont		= Roboto-LightItalic,
+	BoldFont		= Roboto,
+	BoldItalicFont	= Roboto-Italic]{Roboto-Light}
+
+\newfontfamily\RobotoThin[
+	UprightFont		= Roboto-Thin,
+	ItalicFont		= Roboto-ThinItalic,
+	BoldFont		= Roboto-Light,
+	BoldItalicFont	= Roboto-LightItalic]{Roboto-Thin}
 
 
 \newfontfamily\Alexandria[
@@ -163,30 +169,6 @@
 
 
 
-% \newfontfamily\HNMedium[
-% 	UprightFont		= HelveticaNeue-Medium,
-% 	ItalicFont		= HelveticaNeue-MediumItalic,
-% 	BoldFont		= HelveticaNeue-Bold,
-% 	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue-Medium}
-
-\newfontfamily\SSRegular[
-	UprightFont		= SourceSansPro-Regular,
-	ItalicFont		= SourceSansPro-Italic,
-	BoldFont		= SourceSansPro-SemiBold,
-	BoldItalicFont	= SourceSansPro-SemiBoldItalic]{SourceSansPro-Regular}
-
-
-% \newfontfamily\Alexandria[
-% 	UprightFont		= AlexandriaFLF,
-% 	ItalicFont		= AlexandriaFLF-Italic,
-% 	BoldFont		= AlexandriaFLF-Bold,
-% 	BoldItalicFont	= AlexandriaFLF-BoldItalic]{AlexandriaFLF}
-
-% \newfontfamily\PTSerifRegular[
-% 	UprightFont		= PTSerif-Regular,
-% 	ItalicFont		= PTSerif-Italic,
-% 	BoldFont		= PTSerif-Bold,
-% 	BoldItalicFont	= PTSerif-BoldItalic]{PTSerif-Regular}
 
 
 
@@ -214,15 +196,6 @@
 				UprightFont=Asana-Math
 ]{Asana-Math}
 
-
-% \setsansfont[
-% 				Scale=MatchLowercase,
-% 				Ligatures=TeX,
-% 				BoldFont={HelveticaNeue-Medium},
-% 				ItalicFont={HelveticaNeue-Italic},
-% 				BoldItalicFont={HelveticaNeue-MediumItalic}
-% 			]{HelveticaNeue}
-
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
 
@@ -230,7 +203,6 @@
 
 \DeclareTextFontCommand{\textfallback}{\fallbackfont}
 \newunicodechar{δ}{\textfallback{δ}}
-%\newunicodechar{ϱ}{\textfallback{}}
 
 
 
@@ -244,45 +216,39 @@
 
 \setstretch{1.05}
 
-% \titleformat{\part}[display]
-% 	{\HNLight\fontsize{35pt}{42pt}\selectfont}
-% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{20pt}{24pt}\selectfont\thepart\hfill}}
-% 	{0.0em}
-% 	{}
-% 	[{\makebox[0mm][l]{}}]
 
 
 \titleformat{\part}[display]
-	{\LatoLight\fontsize{40pt}{48pt}\selectfont\bfseries}
-	{\LatoLight\fontsize{30pt}{36pt}\selectfont\bfseries\hfill P\fontsize{24pt}{36pt}\selectfont\bfseries ART\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
+	{\Roboto\fontsize{40pt}{48pt}\selectfont}
+	{\Roboto\fontsize{30pt}{36pt}\selectfont\hfill P\fontsize{22pt}{26pt}\selectfont ART\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
 	{-0.5em}
 	{\vspace{5mm}}
 	[\vspace{-5.0mm}{\makebox[0mm][l]{\rule[10mm]{\textwidth}{0.5mm}}}\vspace{15mm}]
 
 
 \titleformat{\section}
-	{\SSLight\fontsize{25pt}{30pt}\selectfont\bfseries}
+	{\Roboto\fontsize{25pt}{30pt}\selectfont}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
-	{\SSLight\fontsize{21pt}{25pt}\selectfont\bfseries}
+	{\Roboto\fontsize{21pt}{25pt}\selectfont}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsubsection}
-	{\SSLight\fontsize{18pt}{22pt}\selectfont\bfseries}
+	{\Roboto\fontsize{18pt}{22pt}\selectfont}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\paragraph}
-	{\SSRegular\fontsize{14pt}{17pt}\selectfont}
+	{\Roboto\fontsize{15pt}{18pt}\selectfont\bfseries}
 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}
 	{0.0em}
 	{}
@@ -309,7 +275,7 @@
 \makeatother
 
 
-\renewcommand{\cftpartfont}{\LatoLight\fontsize{24pt}{28pt}\selectfont\bfseries}
+\renewcommand{\cftpartfont}{\SSLight\fontsize{24pt}{28pt}\selectfont}
 \renewcommand{\cftpartaftersnum}{.}
 \renewcommand{\cftsecaftersnum}{.}
 
@@ -325,7 +291,7 @@
 \renewcommand{\cftsubsubsecindent}{6.85em}
 
 
-\renewcommand{\cfttoctitlefont}{\hfill\LatoLight\fontsize{35pt}{42pt}\selectfont\bfseries}
+\renewcommand{\cfttoctitlefont}{\hfill\SSLight\fontsize{35pt}{42pt}\selectfont}
 \renewcommand{\contentsname}{\hfill Contents\hfill}
 \renewcommand{\cftaftertoctitle}{\hfill}
 
@@ -339,7 +305,7 @@
 % \renewcommand{\cftsecpagefont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
 
 
-\renewcommand{\printatom}[1]{\LatoRegular\normalfont\fontsize{13pt}{15pt}\selectfont{#1}\normalfont}%
+\renewcommand{\printatom}[1]{\SSLight\normalfont\fontsize{12pt}{14pt}\selectfont{#1}\normalfont}%
 
 \sisetup{
 	detect-all = true
@@ -394,6 +360,7 @@
 
 \DeclareSIUnit\atm{atm}
 \DeclareSIUnit\molarConc{\mole\per\cubic\deci\metre}
+\DeclareSIUnit\kJmol{\kilo\joule\per\mole}
 
 
 
@@ -416,7 +383,7 @@
 % helper macros
 
 
-\newcommand	{\normtext}		{\LatoRegular\fontsize{12pt}{14pt}\selectfont}
+\newcommand	{\normtext}		{\LatoRegular\fontsize{11pt}{13pt}\selectfont}
 
 \newcommand	{\hugetext}		[1]{\SSLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
 \newcommand	{\subtext}		[1]{\SSLight\fontsize{23pt}{28pt}\selectfont #1 \normtext\ignorespaces}
@@ -425,9 +392,12 @@
 
 \newcommand {\sbs}			[1]{\textsubscript{#1}}
 \newcommand {\sps}			[1]{\textsuperscript{#1}}
+
+\newcommand {\spbs}			[2]{\rlap{\sps{#1}}\sbs{#2}}
+
 \newcommand {\img}			[2]{\includegraphics[width=#1]{#2}}
 \newcommand {\imgdiagram}	[3]{\begin{figure}[!ht]\begin{center}\includegraphics[width=#1]{#2}\linebreak
-									\fontsize{11pt}{13pt}\selectfont{#3}\normtext
+									\fontsize{10pt}{12pt}\selectfont{#3}\normtext
 									\end{center}\end{figure}}
 
 \newcommand	{\boit}			[1]{\textbf{\textit{#1}}}
@@ -442,7 +412,7 @@
 								}
 								\end{center}
 								\begin{center}
-								\fontsize{11pt}{13pt}\selectfont{#3}
+								\fontsize{10pt}{12pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 							}
 
@@ -465,7 +435,7 @@
 								}
 								\end{center}
 								\begin{center}
-								\fontsize{11pt}{13pt}\selectfont{#3}
+								\fontsize{10pt}{12pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 								\vspace{-5mm}
 							}
@@ -491,7 +461,7 @@
 								% }
 								\end{center}
 								\begin{center}
-								\fontsize{11pt}{13pt}\selectfont{#3}
+								\fontsize{10pt}{12pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 								\vspace{-8mm}
 							}
@@ -552,16 +522,16 @@
 \newcommand	{\entr}			{$\Delta S$ }
 \newcommand {\gibb}			{$\Delta G$ }
 
-\newcommand {\Kc}			{$K_{c}$ }
-\newcommand {\Kp}			{$K_{p}$ }
-\newcommand {\Ksp}			{$K_{sp}$ }
+\newcommand {\Kc}			{$K_{c}$}
+\newcommand {\Kp}			{$K_{p}$}
+\newcommand {\Ksp}			{$K_{sp}$}
 
-\newcommand {\Qc}			{$Q_{c}$ }
-\newcommand {\Qp}			{$Q_{p}$ }
+\newcommand {\Qc}			{$Q_{c}$}
+\newcommand {\Qp}			{$Q_{p}$}
 
-\newcommand {\MKc}			{\textit{K\sbs{c}} }
-\newcommand {\MKp}			{\textit{K\sbs{p}} }
-\newcommand {\MKsp}			{\textit{K\sbs{sp}} }
+\newcommand {\MKc}			{\textit{K\sbs{c}}}
+\newcommand {\MKp}			{\textit{K\sbs{p}}}
+\newcommand {\MKsp}			{\textit{K\sbs{sp}}}
 
 
 % renew because chemmacro defines this, but not properly (ugly)
@@ -585,6 +555,11 @@
 \newcommand {\MKa}			{K\sbs{a}}
 \newcommand {\MKb}			{K\sbs{b}}
 
+\newcommand {\Ecell}		{$E^{\standardstate}_{cell}$}
+\newcommand {\MEcell}		{E\spbs{\standardstate}{cell}}
+
+\newcommand {\Eo}			{$E^{\standardstate}$}
+\newcommand {\MEo}			{E\sps{\standardstate}}
 
 \newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
 \newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\textit{l})\normtext}
@@ -593,7 +568,7 @@
 
 \newcommand	{\fracHalf}	{ ½ }
 
-
+\newcommand {\stdst}		{\standardstate}
 
 
 % submolecules

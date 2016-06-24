@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  19 JUN 2016 21:07
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  25 JUN 2016 00:51
  system commands enabled.
 **PhysicalChem.tex
 (./PhysicalChem.tex
@@ -6,8 +6,8 @@ LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -1383,7 +1383,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.266 seconds)
+luaotfload | main : initialization completed in 0.174 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1411,10 +1411,7 @@ luaotfload | db : Font names database loaded from /Users/zhiayang/Library/texliv
 e/2016/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(compiling luc: 
 /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regul
 ar.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/ge
-neric/fonts/otl/lmroman10-regular.luc))(compiling luc: /usr/local/texlive/2016/t
-exmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)(load luc: /Users/
-zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman12
--regular.luc)
+neric/fonts/otl/lmroman10-regular.luc))
 (/usr/local/texlive/2016/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
 ther characters in Unicode lower plane
@@ -1422,13 +1419,13 @@ ther characters in Unicode lower plane
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
-/lmromanslant12-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texm
-f-var/luatex-cache/generic/fonts/otl/lmromanslant12-regular.luc)(compiling luc: 
-/usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-itali
+/lmromanslant10-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texm
+f-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.luc)(compiling luc: 
+/usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-itali
 c.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/gen
-eric/fonts/otl/lmroman12-italic.luc)(compiling luc: /usr/local/texlive/2016/texm
-f-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc)(load luc: /Users/zhiaya
-ng/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.
+eric/fonts/otl/lmroman10-italic.luc)(compiling luc: /usr/local/texlive/2016/texm
+f-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: /Users/zhiaya
+ng/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.
 luc)
 LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
 
@@ -1436,8 +1433,8 @@ LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu2lmss.fd
 File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
-l/lmsans12-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
-/luatex-cache/generic/fonts/otl/lmsans12-regular.luc))
+l/lmsans10-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
+/luatex-cache/generic/fonts/otl/lmsans10-regular.luc))
 \tipaTiiicode=\count298
 \tipasavetokens=\toks41
 \tipachecktokens=\toks42
@@ -3140,37 +3137,104 @@ luaotfload | aux : no font with id 30
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
+/roboto-light.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luat
+ex-cache/generic/fonts/otl/roboto-light.luc)
+\g__fontspec_family_Roboto-Light_int=\count379
+(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
+/roboto-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/lu
+atex-cache/generic/fonts/otl/roboto-regular.luc)(compiling luc: /usr/local/texli
+ve/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-lightitalic.luc)(load lu
+c: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
+/roboto-lightitalic.luc)(compiling luc: /usr/local/texlive/2016/texmf-var/luatex
+-cache/generic/fonts/otl/roboto-regularitalic.luc)(load luc: /Users/zhiayang/Lib
+rary/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/roboto-regularitalic.
+luc)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Roboto-Light(0)' created for font 'Roboto-Light' with options
+. [UprightFont = Roboto-Light,ItalicFont = Roboto-LightItalic,BoldFont =
+. Roboto,BoldItalicFont = Roboto-Italic].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Roboto-Light:mode=node;script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"Roboto-Light:mode=node;script=latn;language=DFLT;+smcp;"- 'bold' (bx/n)
+. with NFSS spec.: <->"Roboto:mode=node;script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->"Roboto:mode=node;script=latn;language=DFLT;+smcp;"- 'italic' (m/it) with
+. NFSS spec.: <->"Roboto-LightItalic:mode=node;script=latn;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"Roboto-LightItalic:mode=node;script=latn;language=DFLT;+smcp;"- 'bold
+. italic' (bx/it) with NFSS spec.:
+. <->"Roboto-Italic:mode=node;script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->"Roboto-Italic:mode=node;script=latn;language=DFLT;+smcp;"
+.................................................
+(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
+/roboto-thin.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luate
+x-cache/generic/fonts/otl/roboto-thin.luc)
+\g__fontspec_family_Roboto-Thin_int=\count380
+(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
+/roboto-thinitalic.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
+/luatex-cache/generic/fonts/otl/roboto-thinitalic.luc)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Roboto-Thin(0)' created for font 'Roboto-Thin' with options
+. [UprightFont = Roboto-Thin,ItalicFont = Roboto-ThinItalic,BoldFont =
+. Roboto-Light,BoldItalicFont = Roboto-LightItalic].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Roboto-Thin:mode=node;script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"Roboto-Thin:mode=node;script=latn;language=DFLT;+smcp;"- 'bold' (bx/n)
+. with NFSS spec.: <->"Roboto-Light:mode=node;script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->"Roboto-Light:mode=node;script=latn;language=DFLT;+smcp;"- 'italic'
+. (m/it) with NFSS spec.:
+. <->"Roboto-ThinItalic:mode=node;script=latn;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"Roboto-ThinItalic:mode=node;script=latn;language=DFLT;+smcp;"- 'bold
+. italic' (bx/it) with NFSS spec.:
+. <->"Roboto-LightItalic:mode=node;script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->"Roboto-LightItalic:mode=node;script=latn;language=DFLT;+smcp;"
+.................................................
+(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /alexandriaflf.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/lua
 tex-cache/generic/fonts/otl/alexandriaflf.luc)
-luaotfload | aux : font no 31 (<unknown>) defines no feature for script latn
-luaotfload | aux : no font with id 31
+luaotfload | aux : font no 37 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 37
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font AlexandriaFLF does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_AlexandriaFLF_int=\count379
-luaotfload | aux : font no 31 (<unknown>) does not define feature smcp for scrip
+\g__fontspec_family_AlexandriaFLF_int=\count381
+luaotfload | aux : font no 37 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 31(compiling luc: /usr/local/texlive/2016/tex
+luaotfload | aux : no font with id 37(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-bold.luc)(load luc: /Users/z
 hiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alexandria
 flf-bold.luc)
-luaotfload | aux : font no 32 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 38 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 32(compiling luc: /usr/local/texlive/2016/tex
+luaotfload | aux : no font with id 38(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-italic.luc)(load luc: /Users
 /zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alexandr
 iaflf-italic.luc)
-luaotfload | aux : font no 33 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 39 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 33(compiling luc: /usr/local/texlive/2016/tex
+luaotfload | aux : no font with id 39(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-bolditalic.luc)(load luc: /U
 sers/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alex
 andriaflf-bolditalic.luc)
-luaotfload | aux : font no 34 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 40 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 34
+luaotfload | aux : no font with id 40
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3191,22 +3255,22 @@ luaotfload | aux : no font with id 34
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-light.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-v
 ar/luatex-cache/generic/fonts/otl/sourcesanspro-light.luc)
-\g__fontspec_family_SourceSansPro-Light_int=\count380
+\g__fontspec_family_SourceSansPro-Light_int=\count382
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf
 -var/luatex-cache/generic/fonts/otl/sourcesanspro-regular.luc)(compiling luc: /u
 sr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-lig
 htit.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/
 generic/fonts/otl/sourcesanspro-lightit.luc)
-luaotfload | aux : font no 37 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 43 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 37(compiling luc: /usr/local/texlive/2016/tex
+luaotfload | aux : no font with id 43(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/sourcesanspro-regularit.luc)(load luc: /Us
 ers/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourc
 esanspro-regularit.luc)
-luaotfload | aux : font no 38 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 44 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 38
+luaotfload | aux : no font with id 44
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3229,43 +3293,6 @@ luaotfload | aux : no font with id 38
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
 . with NFSS spec.:
 . <->"SourceSansPro-Italic:mode=node;script=latn;language=DFLT;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-.................................................
-\g__fontspec_family_SourceSansPro-Regular_int=\count381
-(compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
-/sourcesanspro-semibold.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texm
-f-var/luatex-cache/generic/fonts/otl/sourcesanspro-semibold.luc)
-luaotfload | aux : font no 38 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 38(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/sourcesanspro-semiboldit.luc)(load luc: /U
-sers/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sour
-cesanspro-semiboldit.luc)
-luaotfload | aux : font no 40 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 40
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'SourceSansPro-Regular(0)' created for font
-. 'SourceSansPro-Regular' with options [UprightFont =
-. SourceSansPro-Regular,ItalicFont = SourceSansPro-Italic,BoldFont =
-. SourceSansPro-SemiBold,BoldItalicFont = SourceSansPro-SemiBoldItalic].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.:
-. <->"SourceSansPro-Regular:mode=node;script=latn;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->"SourceSansPro-Regular:mode=node;script=latn;language=DFLT;+smcp;"-
-. 'bold' (bx/n) with NFSS spec.:
-. <->"SourceSansPro-SemiBold:mode=node;script=latn;language=DFLT;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->"SourceSansPro-SemiBold:mode=node;script=latn;language=DFLT;+smcp;"-
-. 'italic' (m/it) with NFSS spec.:
-. <->"SourceSansPro-Italic:mode=node;script=latn;language=DFLT;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
-. with NFSS spec.:
-. <->"SourceSansPro-SemiBoldItalic:mode=node;script=latn;language=DFLT;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
@@ -3333,14 +3360,14 @@ t={Lato-Italic},BoldItalicFont={Lato-SemiboldItalic}].
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> EU2/Lato-Regular(2)/m/n on input line 20
-1.
+(Font)                  OT1/lmr/m/n --> EU2/Lato-Regular(2)/m/n on input line 18
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/lmr/m/it --> EU2/Lato-Regular(2)/m/it on input line 
-201.
+183.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/lmr/bx/n --> EU2/Lato-Regular(2)/bx/n on input line 
-201.
+183.
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -3357,7 +3384,7 @@ luaotfload | aux : no font with id 23
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-Semibold scale = 0.9931385259798544.
+. Lato-Semibold scale = 0.9931363494778489.
 .................................................
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3373,7 +3400,7 @@ luaotfload | aux : no font with id 25
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-SemiboldItalic scale = 0.9931385259798544.
+. Lato-SemiboldItalic scale = 0.9931363494778489.
 .................................................
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3389,14 +3416,14 @@ luaotfload | aux : no font with id 26
 . - 'normal' (m/n) with NFSS spec.:
 . <->s*[1]"Lato-Regular:mode=node;script=latn;language=DFLT;+tlig;+tlig;+tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.9931385259798544]"Lato-Semibold:mode=node;script=latn;language=DFLT;+t
+. <->s*[0.9931363494778489]"Lato-Semibold:mode=node;script=latn;language=DFLT;+t
 lig;+tlig;+tlig;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
 . spec.:
 . <->s*[1]"Lato-Italic:mode=node;script=latn;language=DFLT;+tlig;+tlig;+tlig;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
 . with NFSS spec.:
-. <->s*[0.9931385259798544]"Lato-SemiboldItalic:mode=node;script=latn;language=D
+. <->s*[0.9931363494778489]"Lato-SemiboldItalic:mode=node;script=latn;language=D
 FLT;+tlig;+tlig;+tlig;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
@@ -3416,7 +3443,7 @@ luaotfload | aux : no font with id 23
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-Semibold scale = 0.9931385259798544.
+. Lato-Semibold scale = 0.9931363494778489.
 .................................................
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3432,7 +3459,7 @@ luaotfload | aux : no font with id 25
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-SemiboldItalic scale = 0.9931385259798544.
+. Lato-SemiboldItalic scale = 0.9931363494778489.
 .................................................
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3448,161 +3475,162 @@ o-Semibold},ItalicFont={Lato-Italic},BoldItalicFont={Lato-SemiboldItalic}].
 . - 'normal' (m/n) with NFSS spec.:
 . <->s*[1]"Lato-Regular:mode=base;script=latn;language=DFLT;+tlig;+tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.9931385259798544]"Lato-Semibold:mode=base;script=latn;language=DFLT;+t
+. <->s*[0.9931363494778489]"Lato-Semibold:mode=base;script=latn;language=DFLT;+t
 lig;+tlig;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
 . spec.:
 . <->s*[1]"Lato-Italic:mode=base;script=latn;language=DFLT;+tlig;+tlig;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
 . with NFSS spec.:
-. <->s*[0.9931385259798544]"Lato-SemiboldItalic:mode=base;script=latn;language=D
+. <->s*[0.9931363494778489]"Lato-SemiboldItalic:mode=base;script=latn;language=D
 FLT;+tlig;+tlig;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> EU2/Lato-Regular(4)/m/n on input line 2
-10.
+(Font)                  OT1/lmss/m/n --> EU2/Lato-Regular(4)/m/n on input line 1
+92.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/lmss/bx/n --> EU2/Lato-Regular(4)/bx/n on input line
- 210.
+ 192.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /asana-math.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex
 -cache/generic/fonts/otl/asana-math.luc)
-\g__fontspec_family_Asana-Math_int=\count382
+\g__fontspec_family_Asana-Math_int=\count383
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Asana-Math/B (it probably doesn't exist).
 .................................................
-luaotfload | aux : font no 42 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
-luaotfload | aux : no font with id 42
+luaotfload | aux : no font with id 46
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'Asana-Math(0)' created for font 'Asana-Math' with options
 . [Ligatures=TeX,Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,Size
-Features={{Size=12-},{Size=8-12,Font=Asana-Math,Style=MathScript},{Size=-8,Font=
-Asana-Math,Style=MathScriptScript}},Ligatures={TeX},UprightFont={Asana-Math}].
+Features={{Size=10.95-},{Size=8-10.95,Font=Asana-Math,Style=MathScript},{Size=-8
+,Font=Asana-Math,Style=MathScriptScript}},Ligatures={TeX},UprightFont={Asana-Mat
+h}].
 . 
 . This font family consists of the following NFSS series/shapes:
 . - 'normal' (m/n) with NFSS spec.:
-. <12->"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;"<8-12>"Asana
--Math:mode=base;script=math;language=DFLT;+tlig;+tlig;+ssty=0;"<-8>"Asana-Math:m
-ode=base;script=math;language=DFLT;+tlig;+tlig;+ssty=1;"
+. <10.95->"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;"<8-10.95>
+"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;+ssty=0;"<-8>"Asana-
+Math:mode=base;script=math;language=DFLT;+tlig;+tlig;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 215.
+(Font)              `operators' in the math version `normal' on input line 197.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> EU2/Asana-Math(0)/m/n on input line 215.
+(Font)                  OT1/lmr/m/n --> EU2/Asana-Math(0)/m/n on input line 197.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 215.
+(Font)              `operators' in the math version `bold' on input line 197.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> EU2/Asana-Math(0)/bx/n on input line 21
-5.
+(Font)                  OT1/lmr/bx/n --> EU2/Asana-Math(0)/bx/n on input line 19
+7.
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Asana-Math/B (it probably doesn't exist).
 .................................................
-luaotfload | aux : font no 42 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
-luaotfload | aux : no font with id 42
+luaotfload | aux : no font with id 46
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'Asana-Math(1)' created for font 'Asana-Math' with options
 . [Ligatures=TeX,Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,Size
-Features={{Size=12-},{Size=8-12,Font=Asana-Math,Style=MathScript},{Size=-8,Font=
-Asana-Math,Style=MathScriptScript}},Ligatures={TeX},UprightFont={Asana-Math},Sca
-le=1.00001,FontAdjustment={\fontdimen
-. 8\font =570163.2sp\relax \fontdimen 9\font =471859.2sp\relax \fontdimen
-. 10\font =39321.6sp\relax \fontdimen 11\font =558366.72sp\relax \fontdimen
-. 12\font =393216sp\relax \fontdimen 13\font =283901.952sp\relax \fontdimen
-. 14\font =283901.952sp\relax \fontdimen 15\font =232783.872sp\relax
-. \fontdimen 16\font =165150.72sp\relax \fontdimen 17\font =0sp\relax
-. \fontdimen 18\font =180879.36sp\relax \fontdimen 19\font =174587.904sp\relax
+Features={{Size=10.95-},{Size=8-10.95,Font=Asana-Math,Style=MathScript},{Size=-8
+,Font=Asana-Math,Style=MathScriptScript}},Ligatures={TeX},UprightFont={Asana-Mat
+h},Scale=1.00001,FontAdjustment={\fontdimen
+. 8\font =520273.775sp\relax \fontdimen 9\font =430571.4sp\relax \fontdimen
+. 10\font =35880.95sp\relax \fontdimen 11\font =509509.49sp\relax \fontdimen
+. 12\font =358809.5sp\relax \fontdimen 13\font =259060.459sp\relax \fontdimen
+. 14\font =259060.459sp\relax \fontdimen 15\font =212415.224sp\relax
+. \fontdimen 16\font =150699.99sp\relax \fontdimen 17\font =0sp\relax
+. \fontdimen 18\font =165052.37sp\relax \fontdimen 19\font =159311.418sp\relax
 . \fontdimen 20\font =0pt\relax \fontdimen 21\font =0pt\relax \fontdimen
-. 22\font =213123.072sp\relax }].
+. 22\font =194474.749sp\relax }].
 . 
 . This font family consists of the following NFSS series/shapes:
 . - 'normal' (m/n) with NFSS spec.:
-. <12->s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;"<
-8-12>s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;+sst
-y=0;"<-8>s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;
-+ssty=1;"
+. <10.95->s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig
+;"<8-10.95>s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tli
+g;+ssty=0;"<-8>s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;
++tlig;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . and font adjustment code:
-. \fontdimen 8\font =570163.2sp\relax \fontdimen 9\font =471859.2sp\relax
-. \fontdimen 10\font =39321.6sp\relax \fontdimen 11\font =558366.72sp\relax
-. \fontdimen 12\font =393216sp\relax \fontdimen 13\font =283901.952sp\relax
-. \fontdimen 14\font =283901.952sp\relax \fontdimen 15\font
-. =232783.872sp\relax \fontdimen 16\font =165150.72sp\relax \fontdimen 17\font
-. =0sp\relax \fontdimen 18\font =180879.36sp\relax \fontdimen 19\font
-. =174587.904sp\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font
-. =0pt\relax \fontdimen 22\font =213123.072sp\relax 
+. \fontdimen 8\font =520273.775sp\relax \fontdimen 9\font =430571.4sp\relax
+. \fontdimen 10\font =35880.95sp\relax \fontdimen 11\font =509509.49sp\relax
+. \fontdimen 12\font =358809.5sp\relax \fontdimen 13\font =259060.459sp\relax
+. \fontdimen 14\font =259060.459sp\relax \fontdimen 15\font
+. =212415.224sp\relax \fontdimen 16\font =150699.99sp\relax \fontdimen 17\font
+. =0sp\relax \fontdimen 18\font =165052.37sp\relax \fontdimen 19\font
+. =159311.418sp\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font
+. =0pt\relax \fontdimen 22\font =194474.749sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 215.
+(Font)              `symbols' in the math version `normal' on input line 197.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> EU2/Asana-Math(1)/m/n on input line 215
+(Font)                  OMS/lmsy/m/n --> EU2/Asana-Math(1)/m/n on input line 197
 .
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 215.
+(Font)              `symbols' in the math version `bold' on input line 197.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> EU2/Asana-Math(1)/bx/n on input line 21
-5.
+(Font)                  OMS/lmsy/b/n --> EU2/Asana-Math(1)/bx/n on input line 19
+7.
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Asana-Math/B (it probably doesn't exist).
 .................................................
-luaotfload | aux : font no 42 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
-luaotfload | aux : no font with id 42
+luaotfload | aux : no font with id 46
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'Asana-Math(2)' created for font 'Asana-Math' with options
 . [Ligatures=TeX,Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,Size
-Features={{Size=12-},{Size=8-12,Font=Asana-Math,Style=MathScript},{Size=-8,Font=
-Asana-Math,Style=MathScriptScript}},Ligatures={TeX},UprightFont={Asana-Math},Sca
-le=0.99999,FontAdjustment={\fontdimen
-. 8\font =46399.488sp\relax \fontdimen 9\font =87293.952sp\relax \fontdimen
-. 10\font =131334.144sp\relax \fontdimen 11\font =157286.4sp\relax \fontdimen
-. 12\font =471859.2sp\relax \fontdimen 13\font =0pt\relax }].
+Features={{Size=10.95-},{Size=8-10.95,Font=Asana-Math,Style=MathScript},{Size=-8
+,Font=Asana-Math,Style=MathScriptScript}},Ligatures={TeX},UprightFont={Asana-Mat
+h},Scale=0.99999,FontAdjustment={\fontdimen
+. 8\font =42339.521sp\relax \fontdimen 9\font =79655.709sp\relax \fontdimen
+. 10\font =119842.373sp\relax \fontdimen 11\font =143523.8sp\relax \fontdimen
+. 12\font =430571.4sp\relax \fontdimen 13\font =0pt\relax }].
 . 
 . This font family consists of the following NFSS series/shapes:
 . - 'normal' (m/n) with NFSS spec.:
-. <12->s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;"<
-8-12>s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;+sst
-y=0;"<-8>s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig;
-+ssty=1;"
+. <10.95->s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tlig
+;"<8-10.95>s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;+tli
+g;+ssty=0;"<-8>s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;
++tlig;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . and font adjustment code:
-. \fontdimen 8\font =46399.488sp\relax \fontdimen 9\font =87293.952sp\relax
-. \fontdimen 10\font =131334.144sp\relax \fontdimen 11\font =157286.4sp\relax
-. \fontdimen 12\font =471859.2sp\relax \fontdimen 13\font =0pt\relax 
+. \fontdimen 8\font =42339.521sp\relax \fontdimen 9\font =79655.709sp\relax
+. \fontdimen 10\font =119842.373sp\relax \fontdimen 11\font =143523.8sp\relax
+. \fontdimen 12\font =430571.4sp\relax \fontdimen 13\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 21
-5.
+(Font)              `largesymbols' in the math version `normal' on input line 19
+7.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/m/n on input line 215
+(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/m/n on input line 197
 .
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 215.
+(Font)              `largesymbols' in the math version `bold' on input line 197.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/bx/n on input line 21
-5.
+(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/bx/n on input line 19
+7.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /menlo-1.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-ca
 che/generic/fonts/otl/menlo-1.luc)
-luaotfload | aux : font no 45 (<unknown>) defines no feature for script latn
-luaotfload | aux : no font with id 45
+luaotfload | aux : font no 49 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 49
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -3611,9 +3639,9 @@ luaotfload | aux : no font with id 45
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo scale = 0.926171875.
+. Menlo scale = 0.9261711105675147.
 .................................................
-\g__fontspec_family_Menlo_int=\count383
+\g__fontspec_family_Menlo_int=\count384
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /menlo-4.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-ca
 che/generic/fonts/otl/menlo-4.luc)(compiling luc: /usr/local/texlive/2016/texmf-
@@ -3625,35 +3653,35 @@ fonts/otl/menlo-3.luc)
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo scale = 0.926171875.
+. Menlo scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 45 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 49 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 45
+luaotfload | aux : no font with id 49
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo/B scale = 0.926171875.
+. Menlo/B scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 47 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 51 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 51
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo/I scale = 0.926171875.
+. Menlo/I scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 48 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 52 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 48
+luaotfload | aux : no font with id 52
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo/BI scale = 0.926171875.
+. Menlo/BI scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 50 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 46
+luaotfload | aux : no font with id 50
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3662,32 +3690,33 @@ luaotfload | aux : no font with id 46
 se].
 . 
 . This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <->s*[0.926171875]"Menlo:mode=node;+tlig;"
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[0.9261711105675147]"Menlo:mode=node;+tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.926171875]"Menlo/B:mode=node;+tlig;"
+. <->s*[0.9261711105675147]"Menlo/B:mode=node;+tlig;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . - 'italic' (m/it) with NFSS spec.:
-. <->s*[0.926171875]"Menlo/I:mode=node;+tlig;"
+. <->s*[0.9261711105675147]"Menlo/I:mode=node;+tlig;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . - 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[0.926171875]"Menlo/BI:mode=node;+tlig;"
+. <->s*[0.9261711105675147]"Menlo/BI:mode=node;+tlig;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 . and font adjustment code:
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
 .................................................
-luaotfload | aux : font no 45 (<unknown>) defines no feature for script latn
-luaotfload | aux : no font with id 45
+luaotfload | aux : font no 49 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 49
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -3696,40 +3725,40 @@ luaotfload | aux : no font with id 45
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo scale = 0.926171875.
+. Menlo scale = 0.9261711105675147.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo scale = 0.926171875.
+. Menlo scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 45 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 49 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 45
+luaotfload | aux : no font with id 49
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo/B scale = 0.926171875.
+. Menlo/B scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 47 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 51 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 51
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo/I scale = 0.926171875.
+. Menlo/I scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 48 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 52 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 48
+luaotfload | aux : no font with id 52
 .................................................
 . fontspec info: "set-scale"
 . 
-. Menlo/BI scale = 0.926171875.
+. Menlo/BI scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 50 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 46
+luaotfload | aux : no font with id 50
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3737,28 +3766,29 @@ luaotfload | aux : no font with id 46
 . [Ligatures=TeX,Renderer=Basic,Scale=MatchLowercase].
 . 
 . This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <->s*[0.926171875]"Menlo:mode=base;+tlig;"
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[0.9261711105675147]"Menlo:mode=base;+tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.926171875]"Menlo/B:mode=base;+tlig;"
+. <->s*[0.9261711105675147]"Menlo/B:mode=base;+tlig;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
-. spec.: <->s*[0.926171875]"Menlo/I:mode=base;+tlig;"
+. spec.: <->s*[0.9261711105675147]"Menlo/I:mode=base;+tlig;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
-. with NFSS spec.: <->s*[0.926171875]"Menlo/BI:mode=base;+tlig;"
+. with NFSS spec.: <->s*[0.9261711105675147]"Menlo/BI:mode=base;+tlig;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/m/n on input line 226.
+(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/m/n on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/bx/n on input line 226.
+(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/bx/n on input line 199.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /arial.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cach
 e/generic/fonts/otl/arial.luc)
 .................................................
 . fontspec info: "set-scale"
 . 
-. Arial scale = 0.9767537664783427.
+. Arial scale = 0.9767524353375883.
 .................................................
-\g__fontspec_family_Arial_int=\count384
+\g__fontspec_family_Arial_int=\count385
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /arial-bold-italic.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
 /luatex-cache/generic/fonts/otl/arial-bold-italic.luc)(compiling luc: /usr/local
@@ -3770,35 +3800,35 @@ texmf-var/luatex-cache/generic/fonts/otl/arial-italic.luc)
 .................................................
 . fontspec info: "set-scale"
 . 
-. Arial scale = 0.9767537664783427.
+. Arial scale = 0.9767524353375883.
 .................................................
-luaotfload | aux : font no 49 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 53 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 49
+luaotfload | aux : no font with id 53
 .................................................
 . fontspec info: "set-scale"
 . 
-. Arial/B scale = 0.9767537664783427.
+. Arial/B scale = 0.9767524353375883.
 .................................................
-luaotfload | aux : font no 51 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 55 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 51
+luaotfload | aux : no font with id 55
 .................................................
 . fontspec info: "set-scale"
 . 
-. Arial/I scale = 0.9767537664783427.
+. Arial/I scale = 0.9767524353375883.
 .................................................
-luaotfload | aux : font no 52 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 56 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 52
+luaotfload | aux : no font with id 56
 .................................................
 . fontspec info: "set-scale"
 . 
-. Arial/BI scale = 0.9767537664783427.
+. Arial/BI scale = 0.9767524353375883.
 .................................................
-luaotfload | aux : font no 50 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 54 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 50
+luaotfload | aux : no font with id 54
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3807,15 +3837,15 @@ luaotfload | aux : no font with id 50
 . 
 . This font family consists of the following NFSS series/shapes:
 . - 'normal' (m/n) with NFSS spec.:
-. <->s*[0.9767537664783427]"Arial:mode=node;script=latn;language=DFLT;+tlig;"
+. <->s*[0.9767524353375883]"Arial:mode=node;script=latn;language=DFLT;+tlig;"
 . - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.9767537664783427]"Arial/B:mode=node;script=latn;language=DFLT;+tlig;"
+. <->s*[0.9767524353375883]"Arial/B:mode=node;script=latn;language=DFLT;+tlig;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
 . spec.:
-. <->s*[0.9767537664783427]"Arial/I:mode=node;script=latn;language=DFLT;+tlig;"
+. <->s*[0.9767524353375883]"Arial/I:mode=node;script=latn;language=DFLT;+tlig;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: - 'bold italic' (bx/it)
 . with NFSS spec.:
-. <->s*[0.9767537664783427]"Arial/BI:mode=node;script=latn;language=DFLT;+tlig;"
+. <->s*[0.9767524353375883]"Arial/BI:mode=node;script=latn;language=DFLT;+tlig;"
 
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
@@ -3829,7 +3859,8 @@ Package translations Info: No language package found. I am going to use `english
 . You haven't chosen a formula method so I'm assuming the default method
 . `chemformula'.
 .................................................
- (./PhysicalChem.aux)
+
+(./PhysicalChem.aux)
 \openout1 = PhysicalChem.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -3879,12 +3910,12 @@ LaTeX Font Info:    ... okay on input line 9.
 * \topmargin=-48.2513pt
 * \headheight=15.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -3896,16 +3927,16 @@ LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count385
+\scratchcounter=\count386
 \scratchdimen=\dimen380
 \scratchbox=\box93
-\nofMPsegments=\count386
-\nofMParguments=\count387
+\nofMPsegments=\count387
+\nofMParguments=\count388
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count388
+\MPscratchCnt=\count389
 \MPscratchDim=\dimen381
-\MPnumerator=\count389
-\makeMPintoPDFobject=\count390
+\MPnumerator=\count390
+\makeMPintoPDFobject=\count391
 \everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -3936,7 +3967,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count391
+\c@section@level=\count392
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -3999,16 +4030,16 @@ r `english'. on input line 9.
 * 
 * Use \Uoverbracket and \Uunderbracket for original `unicode-math' definition.
 *************************************************
-\c__siunitx_mathsf_int=\count392
+\c__siunitx_mathsf_int=\count393
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Asana-Math' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/12'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/12'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/8'.
@@ -4027,12 +4058,12 @@ LaTeX Font Info:    Try loading font information for OML+lmm on input line 9.
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 9.
+(Font)              scaled to size 10.95015pt on input line 9.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/12'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/12'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
 (Font)              scaled to size 8.00012pt on input line 9.
@@ -4051,12 +4082,12 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 9.
+(Font)              scaled to size 10.94983pt on input line 9.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/12'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/12'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
 (Font)              scaled to size 7.99988pt on input line 9.
@@ -4108,14 +4139,14 @@ LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 9.
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 9.
+(Font)              scaled to size 10.95pt on input line 9.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 9.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 9.
-\c__siunitx_mathtt_int=\count393
+\c__siunitx_mathtt_int=\count394
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 11.11414pt on input line 9.
+(Font)              scaled to size 10.14163pt on input line 9.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Menlo' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
@@ -4136,320 +4167,193 @@ File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[1]
-Package microtype Info: Loading generic settings for font family
-(microtype)             `Lato-Thin' (encoding: EU2).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (./PhysicalChem.toc
+[1] (./PhysicalChem.toc
 Package microtype Info: Loading generic settings for font family
 (microtype)             `AlexandriaFLF' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1] [2] [3])
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 5.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 5.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 5.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 4.63089pt on input line 5.
+)
 \tf@toc=\write5
 
 \openout5 = PhysicalChem.toc
- [4
-Missing character: There is no α (U+03B1) in font Lato-Regular:mode=node;script
-=latn;language=DFLT;+tlig;+tlig;+tlig;!
-]
+ [1]
 Package hyperref Info: Option `pageanchor' set `true' on input line 65.
- ("./Chapter 01 - Enthalpies.tex"
-[1] [2]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 82.
+ ("./Chapter 08 - Electrochemical Cells.tex"
+Package microtype Info: Loading generic settings for font family
+(microtype)             `Roboto-Light' (encoding: EU2).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+[1]
+LaTeX Font Info:    Calculating math sizes for size <25> on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/14'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/25'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/14'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/25'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/9.79996'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/17.49992'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/9.79996'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/17.49992'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/7'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/12.5'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/7'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/12.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 14.00021pt on input line 82.
+(Font)              scaled to size 25.00038pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/14'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/25'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/14'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/25'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 9.8001pt on input line 82.
+(Font)              scaled to size 17.50018pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/9.79996'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/17.49992'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/9.79996'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/17.49992'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 82.
+(Font)              scaled to size 12.50018pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/7'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/12.5'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/7'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/12.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 13.99979pt on input line 82.
+(Font)              scaled to size 24.99962pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/14'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/25'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/14'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/25'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 9.7998pt on input line 82.
+(Font)              scaled to size 17.49965pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/9.79996'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/17.49992'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/9.79996'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/17.49992'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 82.
+(Font)              scaled to size 12.4998pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/7'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/12.5'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/7'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/12.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 82.
+(Font)              scaled to size 25.0pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 9.79996pt on input line 82.
+(Font)              scaled to size 17.49992pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 82.
+(Font)              scaled to size 12.5pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 12.96649pt on input line 82.
+(Font)              scaled to size 23.15445pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 9.07649pt on input line 82.
+(Font)              scaled to size 16.20804pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 6.48325pt on input line 82.
- [3] [4
-Missing character: There is no Σ (U+03A3) in font Lato-Regular:mode=node;script
-=latn;language=DFLT;+tlig;+tlig;+tlig;!
-Missing character: There is no Σ (U+03A3) in font Lato-Regular:mode=node;script
-=latn;language=DFLT;+tlig;+tlig;+tlig;!
-]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 174.
+(Font)              scaled to size 11.57722pt on input line 41.
+LaTeX Font Info:    Calculating math sizes for size <17.49992> on input line 41.
+
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/11'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/12.2499'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/11'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/12.2499'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/7.69997'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/8.74995'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/7.69997'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/5.5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/5.5'.
+(microtype)             in font `EU2/Asana-Math(0)/m/n/8.74995'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 11.00017pt on input line 174.
+(Font)              scaled to size 12.25008pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/11'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/12.2499'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/11'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/12.2499'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 7.70007pt on input line 174.
+(Font)              scaled to size 8.75008pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/7.69997'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/8.74995'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/7.69997'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 5.50008pt on input line 174.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/5.5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/5.5'.
+(microtype)             in font `EU2/Asana-Math(1)/m/n/8.74995'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 10.99983pt on input line 174.
+(Font)              scaled to size 12.2497pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/11'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/12.2499'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/11'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/12.2499'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 7.69984pt on input line 174.
+(Font)              scaled to size 8.74982pt on input line 41.
 Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/7.69997'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/8.74995'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/7.69997'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 5.49991pt on input line 174.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/5.5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/5.5'.
+(microtype)             in font `EU2/Asana-Math(2)/m/n/8.74995'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 174.
+(Font)              scaled to size 12.2499pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 7.69997pt on input line 174.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 5.5pt on input line 174.
+(Font)              scaled to size 8.74995pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 10.18796pt on input line 174.
+(Font)              scaled to size 11.34558pt on input line 41.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 7.13153pt on input line 174.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 5.09398pt on input line 174.
- [5] [6
-Missing character: There is no ∆ (U+2206) in font Lato-SemiboldItalic:mode=nod
-e;script=latn;language=DFLT;+tlig;+tlig;+tlig;!
-Missing character: There is no ∆ (U+2206) in font Lato-SemiboldItalic:mode=nod
-e;script=latn;language=DFLT;+tlig;+tlig;+tlig;!
-] [7] [8] [9] [10]
-<../figures/physical/ch01/born_haber_cycle.png, id=376, 1284.8pt x 818.05624pt>
-File: ../figures/physical/ch01/born_haber_cycle.png Graphic file (type png)
-<use ../figures/physical/ch01/born_haber_cycle.png>
-Package luatex.def Info: ../figures/physical/ch01/born_haber_cycle.png used on i
-nput line 454.
-(luatex.def)             Requested size: 341.43306pt x 217.39551pt.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 491.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/18'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/18'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/12.59995'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/12.59995'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 18.00027pt on input line 491.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/18'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/18'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 12.60013pt on input line 491.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/12.59995'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/12.59995'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 9.00014pt on input line 491.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 17.99973pt on input line 491.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/18'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/18'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 12.59975pt on input line 491.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/12.59995'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/12.59995'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 8.99986pt on input line 491.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 18.0pt on input line 491.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 12.59995pt on input line 491.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 491.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 16.6712pt on input line 491.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 11.66978pt on input line 491.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 8.3356pt on input line 491.
+(Font)              scaled to size 8.104pt on input line 41.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 491.
+(hyperref)                removing `\standardstate' on input line 41.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 491.
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\textsuperscript' on input line 41.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 491.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 491.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 491.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 491.
-
-[11<../figures/physical/ch01/born_haber_cycle.png>]
-<../figures/physical/ch01/lattice_energy_relationship.png, id=382, 395.4775pt x
- 242.9075pt>
-File: ../figures/physical/ch01/lattice_energy_relationship.png Graphic file (typ
-e png)
- <use ../figures/physical/ch01/lattice_energy_relationship.png>
-Package luatex.def Info: ../figures/physical/ch01/lattice_energy_relationship.pn
-g used on input line 517.
-(luatex.def)             Requested size: 341.43306pt x 209.71548pt.
-)
-("./Chapter 02 - Gibbs Energy and Entropy.tex" [12<../figures/physical/ch01/latt
-ice_energy_relationship.png>]
-LaTeX Font Info:    Calculating math sizes for size <21> on input line 20.
+LaTeX Font Info:    Calculating math sizes for size <21> on input line 74.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4469,7 +4373,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 21.00032pt on input line 20.
+(Font)              scaled to size 21.00032pt on input line 74.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4477,7 +4381,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 14.70015pt on input line 20.
+(Font)              scaled to size 14.70015pt on input line 74.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4485,7 +4389,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 10.50015pt on input line 20.
+(Font)              scaled to size 10.50015pt on input line 74.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4493,7 +4397,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 20.99968pt on input line 20.
+(Font)              scaled to size 20.99968pt on input line 74.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4501,7 +4405,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 14.6997pt on input line 20.
+(Font)              scaled to size 14.6997pt on input line 74.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4509,7 +4413,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 10.49983pt on input line 20.
+(Font)              scaled to size 10.49983pt on input line 74.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4517,591 +4421,148 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 21.0pt on input line 20.
+(Font)              scaled to size 21.0pt on input line 74.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 14.69994pt on input line 20.
+(Font)              scaled to size 14.69994pt on input line 74.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 10.5pt on input line 20.
+(Font)              scaled to size 10.5pt on input line 74.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 19.44974pt on input line 20.
+(Font)              scaled to size 19.44974pt on input line 74.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 13.61475pt on input line 20.
+(Font)              scaled to size 13.61475pt on input line 74.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 9.72487pt on input line 20.
+(Font)              scaled to size 9.72487pt on input line 74.
+LaTeX Font Info:    Calculating math sizes for size <14.69994> on input line 74.
+
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/10.2899'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/10.2899'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/7.34996'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/7.34996'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 10.29005pt on input line 74.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/10.2899'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/10.2899'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 7.35007pt on input line 74.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/7.34996'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/7.34996'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 10.28973pt on input line 74.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/10.2899'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/10.2899'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 7.34984pt on input line 74.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/7.34996'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/7.34996'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 10.2899pt on input line 74.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 7.34996pt on input line 74.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 9.53027pt on input line 74.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 6.80736pt on input line 74.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\standardstate' on input line 74.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\textsuperscript' on input line 74.
+
+[2]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
+(hyperref)                removing `\z@' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
-
-[13]
-Package pgfplots info on input line 66: Deactivating LUA version of plot express
-ion for plot 0 (type 'pgfplothandlerlineto'): y expression ' sqrt(2/pi)*(\mass *
-\Betaone )^(3/2)*x^2*exp(-.5*\mass *\Betaone *x^2) ' contains a TeX macro.
-Package pgfplots info on input line 70: Deactivating LUA version of plot express
-ion for plot 1 (type 'pgfplothandlerlineto'): y expression ' sqrt(2/pi)*(\mass *
-\Betatwo )^(3/2)*x^2*exp(-.5*\mass *\Betatwo *x^2) ' contains a TeX macro.
-Package pgfplots info on input line 74: Deactivating LUA version of plot express
-ion for plot 2 (type 'pgfplothandlerlineto'): y expression ' sqrt(2/pi)*(\mass *
-\Betathr )^(3/2)*x^2*exp(-.5*\mass *\Betathr *x^2) ' contains a TeX macro.
- [14]
-<../figures/physical/ch02/entropy_phase_change.png, id=395, 341.275pt x 238.892
-5pt>
-File: ../figures/physical/ch02/entropy_phase_change.png Graphic file (type png)
- <use ../figures/physical/ch02/entropy_phase_change.png>
-Package luatex.def Info: ../figures/physical/ch02/entropy_phase_change.png used 
-on input line 118.
-(luatex.def)             Requested size: 284.52756pt x 199.18108pt.
- [15<../figures/physical/ch02/entropy_phase_change.png>] [16])
-("./Chapter 03 - Reaction Kinetics.tex" [17]
-LaTeX Font Info:    Font shape `EU2/Arial(0)/m/n' will be
-(Font)              scaled to size 11.72113pt on input line 22.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `Arial' (encoding: EU2).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [18]
-Package pgfplots info on input line 95: Deactivating LUA version of plot express
-ion for plot 0 (type 'pgfplothandlerlineto'): y expression ' sqrt(2/pi)*(\mass *
-\Beta )^(3/2)*x^2*exp(-.5*\mass *\Beta *x^2) ' contains a TeX macro.
-Package pgfplots info on input line 113: fill between: activating layered graphi
-cs
-\pgf@layerbox@axis background=\box95
-\pgf@layerboxsaved@axis background=\box96
-\pgf@layerbox@axis grid=\box97
-\pgf@layerboxsaved@axis grid=\box98
-\pgf@layerbox@axis ticks=\box99
-\pgf@layerboxsaved@axis ticks=\box100
-\pgf@layerbox@axis lines=\box101
-\pgf@layerboxsaved@axis lines=\box102
-\pgf@layerbox@axis tick labels=\box103
-\pgf@layerboxsaved@axis tick labels=\box104
-\pgf@layerbox@pre main=\box105
-\pgf@layerboxsaved@pre main=\box106
-\pgf@layerbox@axis descriptions=\box107
-\pgf@layerboxsaved@axis descriptions=\box108
-\pgf@layerbox@axis foreground=\box109
-\pgf@layerboxsaved@axis foreground=\box110
-Package pgfplots info on input line 113: Setting layers 'axis background,axis gr
-id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis f
-oreground'...
- [19]
-Package pgfplots info on input line 163: Using 'lua backend=false' for plot 1 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 167: Using 'lua backend=false' for plot 2 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 172.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [20] [21] [22]
-[23] [24]
-Package pgfplots info on input line 382: Using 'lua backend=false' for plot 1 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 385: Using 'lua backend=false' for plot 3 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 388: Using 'lua backend=false' for plot 5 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-LaTeX Font Info:    Calculating math sizes for size <7.90436> on input line 399.
-
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/7.90436'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/7.90436'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/5.53302'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/5.53302'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/3.95218'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/3.95218'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 7.90446pt on input line 399.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/7.90436'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/7.90436'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 5.5331pt on input line 399.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/5.53302'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/5.53302'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 3.95222pt on input line 399.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/3.95218'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/3.95218'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 7.90424pt on input line 399.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/7.90436'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/7.90436'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 5.53293pt on input line 399.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/5.53302'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/5.53302'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 3.95212pt on input line 399.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/3.95218'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/3.95218'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 7.90436pt on input line 399.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 5.53302pt on input line 399.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 3.95218pt on input line 399.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 7.32083pt on input line 399.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 5.12456pt on input line 399.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 3.66042pt on input line 399.
-Package pgfplots info on input line 434: Using 'lua backend=false' for plot 1 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 437: Using 'lua backend=false' for plot 3 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 440: Using 'lua backend=false' for plot 5 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [25]
-Package pgfplots info on input line 500: Using 'lua backend=false' for plot 1 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 503: Using 'lua backend=false' for plot 3 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 506: Using 'lua backend=false' for plot 5 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 509: Using 'lua backend=false' for plot 7 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [26]
-
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlargin
-g it (it is [10.000000000:10.000000000]) on input line 577.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-LaTeX Font Warning: Font shape `EU2/Asana-Math(0)/bx/n' undefined
-(Font)              using `EU2/Asana-Math(0)/m/n' instead on input line 577.
-
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/bx/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/bx/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-
-LaTeX Font Warning: Font shape `EU2/Asana-Math(1)/bx/n' undefined
-(Font)              using `EU2/Asana-Math(1)/m/n' instead on input line 577.
-
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/bx/n' will be
-(Font)              scaled to size 8.00012pt on input line 577.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/bx/n' will be
-(Font)              scaled to size 6.00009pt on input line 577.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/bx/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/bx/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-
-LaTeX Font Warning: Font shape `EU2/Asana-Math(2)/bx/n' undefined
-(Font)              using `EU2/Asana-Math(2)/m/n' instead on input line 577.
-
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/bx/n' will be
-(Font)              scaled to size 7.99988pt on input line 577.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/bx/n/8'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/bx/n' will be
-(Font)              scaled to size 5.99991pt on input line 577.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/bx/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/bx/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/bx/n' will be
-(Font)              scaled to size 12.00018pt on input line 577.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/bx/n' will be
-(Font)              scaled to size 11.99982pt on input line 577.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/bx/n/12'.
-(microtype)             Ignoring protrusion settings for this character.
-[27]
-Package pgfplots info on input line 611: Using 'lua backend=false' for plot 0 (t
-ype 'pgfplothandlerlineto'): LUA does not support y filter (yet).
-Package pgfplots info on input line 644: Using 'lua backend=false' for plot 0 (t
-ype 'pgfplothandlerlineto'): LUA does not support y filter (yet).
- [28] [29]
-Package pgfplots info on input line 737: Deactivating LUA version of plot expres
-sion for plot 0 (type 'pgfplothandlerlineto'): y expression ' sqrt(2/pi)*(\mass 
-*\bo )^(3/2)*x^2*exp(-.5*\mass *\bo *x^2) ' contains a TeX macro.
-Package pgfplots info on input line 741: Deactivating LUA version of plot expres
-sion for plot 1 (type 'pgfplothandlerlineto'): y expression ' sqrt(2/pi)*(\mass 
-*\bt )^(3/2)*x^2*exp(-.5*\mass *\bt *x^2) ' contains a TeX macro.
-Package pgfplots info on input line 769: fill between: activating layered graphi
-cs
-Package pgfplots info on input line 769: Setting layers 'axis background,axis gr
-id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis f
-oreground'...
- [30]
-Package pgfplots info on input line 824: Deactivating LUA version of plot expres
-sion for plot 0 (type 'pgfplothandlerlineto'): y expression ' sqrt(2/pi)*(\mass 
-*\beta )^(3/2)*x^2*exp(-.5*\mass *\beta *x^2) ' contains a TeX macro.
-Package pgfplots info on input line 860: fill between: activating layered graphi
-cs
-Package pgfplots info on input line 860: Setting layers 'axis background,axis gr
-id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis f
-oreground'...
-) ("./Chapter 04 - Reaction Mechanisms.tex" [31] [32]
-[33] [34] [35] [36]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 249.
+(hyperref)                removing `\standardstate' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 249.
-
-[37] [38]
-<../figures/physical/ch04/hydrogen_catalysis.png, id=500, 2052.66875pt x 666.49
-pt>
-File: ../figures/physical/ch04/hydrogen_catalysis.png Graphic file (type png)
- <use ../figures/physical/ch04/hydrogen_catalysis.png>
-Package luatex.def Info: ../figures/physical/ch04/hydrogen_catalysis.png used on
- input line 321.
-(luatex.def)             Requested size: 398.33858pt x 129.3294pt.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `SourceSansPro-Regular' (encoding: EU2).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [39<../figures/physical/ch04/hydrogen_catalysis.png>] [40]
-<../figures/physical/ch04/enzyme_catalysis.png, id=511, 650.43pt x 253.94875pt>
-File: ../figures/physical/ch04/enzyme_catalysis.png Graphic file (type png)
-<use ../figures/physical/ch04/enzyme_catalysis.png>
-Package luatex.def Info: ../figures/physical/ch04/enzyme_catalysis.png used on i
-nput line 428.
-(luatex.def)             Requested size: 398.33858pt x 155.52849pt.
-)
-("./Chapter 05 - Chemical Equilibrium.tex" [41<../figures/physical/ch04/enzyme_c
-atalysis.png>] [42]
-Package pgfplots info on input line 51: Using 'lua backend=false' for plot 0 (ty
-pe 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 55: Using 'lua backend=false' for plot 1 (ty
-pe 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 94: Using 'lua backend=false' for plot 0 (ty
-pe 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 98: Using 'lua backend=false' for plot 1 (ty
-pe 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [43]
-Package pgfplots info on input line 144: Using 'lua backend=false' for plot 0 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 148: Using 'lua backend=false' for plot 1 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 178: Using 'lua backend=false' for plot 0 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
-Package pgfplots info on input line 182: Using 'lua backend=false' for plot 1 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [44]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 214.
+(hyperref)                removing `\hss' on input line 90.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 240.
-
-[45]
-
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlargin
-g it (it is [1.0000000000:1.0000000000]) on input line 290.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 300.
+(hyperref)                removing `\textsuperscript' on input line 90.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 300.
+(hyperref)                removing `\textsubscript' on input line 90.
 
-[46] [47] [48] [49]
-<../figures/physical/ch05/haber_process.png, id=552, 717.68124pt x 408.52625pt>
-File: ../figures/physical/ch05/haber_process.png Graphic file (type png)
-<use ../figures/physical/ch05/haber_process.png>
-Package luatex.def Info: ../figures/physical/ch05/haber_process.png used on inpu
-t line 475.
-(luatex.def)             Requested size: 398.33858pt x 226.75345pt.
-)
-("./Chapter 06 - Solubility Equilibrium.tex")
-("./Chapter 07 - Acid-Base Equilibrium.tex" [50<../figures/physical/ch05/haber_p
-rocess.png>] [51] [52] [53]
+[3] [4]
+<../figures/physical/ch08/galvanic_cell.png, id=102, 395.5578pt x 350.5095pt>
+File: ../figures/physical/ch08/galvanic_cell.png Graphic file (type png)
 
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 152.
+<use ../figures/physical/ch08/galvanic_cell.png>
+Package luatex.def Info: ../figures/physical/ch08/galvanic_cell.png used on inpu
+t line 218.
+(luatex.def)             Requested size: 284.52756pt x 252.13667pt.
+ [5<../figures/physical/ch08/galvanic_cell.png>] [6] [7] [8]) ("./Chapter 09 - 
+Electrolysis.tex" [9]) [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
 
-[54] [55]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 235.
-
-[56]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 274.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chemalpha' on input line 303.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 317.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\textsubscript' on input line 317.
-
-[57
-Missing character: There is no α (U+03B1) in font Lato-Regular:mode=node;script
-=latn;language=DFLT;+tlig;+tlig;+tlig;!
-] [58]
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/13'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/13'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/9.09996'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/9.09996'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/6.5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/6.5'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 13.0002pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/13'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/13'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 9.1001pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/9.09996'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/9.09996'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 6.50009pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/6.5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/6.5'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 12.9998pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/13'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/13'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 9.09981pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/9.09996'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/9.09996'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 6.4999pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/6.5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/6.5'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 13.0pt on input line 433.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 9.09996pt on input line 433.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 6.5pt on input line 433.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 12.04031pt on input line 433.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 8.42818pt on input line 433.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 6.02016pt on input line 433.
-LaTeX Font Info:    Font shape `EU2/Arial(0)/m/n' will be
-(Font)              scaled to size 9.76761pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(0)/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(1)/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 433.
-Package microtype Info: Character `guilsinglleft ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `guilsinglright ' is missing
-(microtype)             in font `EU2/Asana-Math(2)/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 433.
-LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 9.26178pt on input line 433.
- [59] [60] [61] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 610--612
-
- []
-
-[63] [64] [65]
-Package pgfplots info on input line 795: Using 'lua backend=false' for plot 0 (t
-ype 'pgfplothandlerlineto'): LUA does not support y filter (yet).
-Package pgfplots info on input line 802: Using 'lua backend=false' for plot 4 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [66]
-Package pgfplots info on input line 870: Using 'lua backend=false' for plot 0 (t
-ype 'pgfplothandlerlineto'): LUA does not support y filter (yet).
-Package pgfplots info on input line 877: Using 'lua backend=false' for plot 4 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [67]
-Package pgfplots info on input line 955: Using 'lua backend=false' for plot 3 (t
-ype 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [68]
-Package pgfplots info on input line 1050: Using 'lua backend=false' for plot 3 (
-type 'pgfplothandlerlineto'): LUA does not support x filter (yet).
- [69] [70] [71]) [72]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
- (./PhysicalChem.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 92.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+(./PhysicalChem.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 93.
 )
 
 Here is how much of LuaTeX's memory you used:
- 67165 strings out of 495119
- 156307,2373549 words of node,token memory allocated
- 14543 words of node memory still in use:
-   8 hlist, 2 vlist, 3 rule, 1612 glue, 1 kern, 657 attribute, 89 glue_spec, 657
- attribute_list, 1 write nodes
-   avail lists: 1:296,2:26477,3:7307,4:102,5:260,6:2430,7:2640,8:107,9:1660,10:2
-3,11:227,12:1
- 67591 multiletter control sequences out of 65536+600000
- 497 fonts using 106297127 bytes
- 81i,24n,110p,869b,2611s stack positions out of 5000i,500n,10000p,200000b,100000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.
-otf></Library/Fonts/Arial.ttf></usr/local/texlive/2016/texmf-dist/fonts/opentype
-/public/Asana-Math/Asana-Math.otf></Users/zhiayang/Library/Fonts/Lato-SemiboldIt
-alic.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Reg
-Ita.ttf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asa
-na-Math.otf></Users/zhiayang/Library/Fonts/Lato-Semibold.ttf></Users/zhiayang/Li
-brary/Fonts/AlexandriaFLF.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype
-/public/lato/Lato-Lig.ttf></usr/local/texlive/2016/texmf-dist/fonts/opentype/ado
-be/sourcesanspro/SourceSansPro-Regular.otf></usr/local/texlive/2016/texmf-dist/f
-onts/truetype/public/lato/Lato-Reg.ttf></usr/local/texlive/2016/texmf-dist/fonts
-/truetype/public/lato/Lato-Reg.ttf></usr/local/texlive/2016/texmf-dist/fonts/ope
-ntype/public/Asana-Math/Asana-Math.otf></usr/local/texlive/2016/texmf-dist/fonts
-/opentype/adobe/sourcesanspro/SourceSansPro-Light.otf></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
-sso12.pfb>
-Output written on PhysicalChem.pdf (78 pages, 864690 bytes).
+ 64262 strings out of 495119
+ 100000,1977958 words of node,token memory allocated
+ 3045 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 277 glue, 1 kern, 123 attribute, 89 glue_spec, 123 
+attribute_list, 1 write nodes
+   avail lists: 1:96,2:9105,3:2861,4:117,5:141,6:2216,7:1308,8:50,9:617,10:5,11:
+191
+ 65202 multiletter control sequences out of 65536+600000
+ 254 fonts using 53354935 bytes
+ 81i,16n,108p,881b,2579s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Roboto-Regular.
+ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-RegIta.t
+tf></usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Roboto-Light
+.ttf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-
+Math.otf></Users/zhiayang/Library/Fonts/Lato-Semibold.ttf></Users/zhiayang/Libra
+ry/Fonts/AlexandriaFLF.ttf></usr/local/texlive/2016/texmf-dist/fonts/opentype/ad
+obe/sourcesanspro/SourceSansPro-Regular.otf></usr/local/texlive/2016/texmf-dist/
+fonts/truetype/public/lato/Lato-Reg.ttf></usr/local/texlive/2016/texmf-dist/font
+s/truetype/public/lato/Lato-Reg.ttf></usr/local/texlive/2016/texmf-dist/fonts/op
+entype/public/Asana-Math/Asana-Math.otf></usr/local/texlive/2016/texmf-dist/font
+s/opentype/adobe/sourcesanspro/SourceSansPro-Light.otf>
+Output written on PhysicalChem.pdf (13 pages, 223434 bytes).
 
-PDF statistics: 1195 PDF objects out of 1200 (max. 8388607)
- 1048 compressed objects within 11 object streams
- 223 named destinations out of 1000 (max. 131072)
- 1160 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 283 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 131072)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
