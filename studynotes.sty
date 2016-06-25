@@ -33,6 +33,7 @@
 \RequirePackage{xfrac}
 \RequirePackage{unicode-math}
 \RequirePackage{newunicodechar}
+\RequirePackage{ulem}
 
 \RequirePackage[newparttoc]{titlesec}
 
@@ -282,7 +283,7 @@
 \renewcommand{\cftpartpresnum}{\normalfont\Alexandria\fontsize{24pt}{28pt}\selectfont}
 
 
-\setlength{\cftpartnumwidth}{22mm}
+\setlength{\cftpartnumwidth}{20.5mm}
 \setlength{\cftsecnumwidth}{2.0em}
 
 \renewcommand{\cftpartindent}{-1.0em}
@@ -384,6 +385,8 @@
 
 
 \newcommand	{\normtext}		{\LatoRegular\fontsize{11pt}{13pt}\selectfont}
+
+\newcommand {\romannum}		[1]{\Alexandria\selectfont{#1}\normtext}
 
 \newcommand	{\hugetext}		[1]{\SSLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}
 \newcommand	{\subtext}		[1]{\SSLight\fontsize{23pt}{28pt}\selectfont #1 \normtext\ignorespaces}
@@ -555,11 +558,14 @@
 \newcommand {\MKa}			{K\sbs{a}}
 \newcommand {\MKb}			{K\sbs{b}}
 
-\newcommand {\Ecell}		{$E^{\standardstate}_{cell}$}
-\newcommand {\MEcell}		{E\spbs{\standardstate}{cell}}
+\newcommand {\Ecell}		{$E^{\stdst}_{cell}$}
+\newcommand {\MEcell}		{E\spbs{\stdst}{cell}}
 
-\newcommand {\Eo}			{$E^{\standardstate}$}
-\newcommand {\MEo}			{E\sps{\standardstate}}
+\newcommand {\Eo}			{$E^{\stdst}$}
+\newcommand {\MEo}			{E\sps{\stdst}}
+
+\newcommand {\Eox}			{$E^{\stdst}_{ox}$}
+\newcommand {\MEox}			{E\spbs{\stdst}{ox}}
 
 \newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
 \newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\textit{l})\normtext}

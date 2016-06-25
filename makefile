@@ -22,12 +22,17 @@ PSRC				= $(shell find PhysicalChem -maxdepth 1 -iname "*.tex" -not -iname "Phys
 FINALPSRC			= PhysicalChem/PhysicalChem.tex
 POUTPUT				= PhysicalChem.pdf
 
-.PHONY: clean all organic physical
+ISRC				= $(shell find InorganicChem -maxdepth 1 -iname "*.tex" -not -iname "InorganicChem.tex" | sed 's/ /\\ /g')
+FINALISRC			= InorganicChem/InorganicChem.tex
+IOUTPUT				= InorganicChem.pdf
 
-all: $(OOUTPUT) $(POUTPUT)
+.PHONY: clean all organic physical inorganic
+
+all: $(OOUTPUT) $(POUTPUT) $(IOUTPUT)
 
 organic: $(OOUTPUT)
 physical: $(POUTPUT)
+inorganic: $(IOUTPUT)
 
 $(OOUTPUT): $(OSRC) $(FINALOSRC) studynotes.sty
 	@cd OrganicChem; $(LATEX) $(FLAGS) $(notdir $(FINALOSRC))
@@ -36,6 +41,10 @@ $(OOUTPUT): $(OSRC) $(FINALOSRC) studynotes.sty
 $(POUTPUT): $(PSRC) $(FINALPSRC) studynotes.sty
 	@cd PhysicalChem; $(LATEX) $(FLAGS) $(notdir $(FINALPSRC))
 	@mv PhysicalChem/PhysicalChem.pdf ./
+
+$(IOUTPUT): $(ISRC) $(FINALISRC) studynotes.sty
+	@cd InorganicChem; $(LATEX) $(FLAGS) $(notdir $(FINALISRC))
+	@mv InorganicChem/InorganicChem.pdf ./
 
 
 %.pdf: %.tex

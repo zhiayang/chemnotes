@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  24 JUN 2016 21:17
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  25 JUN 2016 17:11
  system commands enabled.
 **OrganicChem.tex
 (./OrganicChem.tex
@@ -1383,7 +1383,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.220 seconds)
+luaotfload | main : initialization completed in 0.151 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1624,17 +1624,29 @@ h LuaLaTeX)
 ex)))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
 Package: newunicodechar 2012/11/12 v1.1 Defining Unicode characters
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box70
+\UL@hyphenbox=\box71
+\UL@skip=\skip98
+\UL@hook=\toks43
+\UL@height=\dimen289
+\UL@pe=\count304
+\UL@pixel=\dimen290
+\ULC@box=\box72
+Package: ulem 2012/05/18
+\ULdepth=\dimen291
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box70
-\beforetitleunit=\skip98
-\aftertitleunit=\skip99
-\ttl@plus=\dimen289
-\ttl@minus=\dimen290
-\ttl@toksa=\toks43
-\titlewidth=\dimen291
-\titlewidthlast=\dimen292
-\titlewidthfirst=\dimen293
+\ttl@box=\box73
+\beforetitleunit=\skip99
+\aftertitleunit=\skip100
+\ttl@plus=\dimen292
+\ttl@minus=\dimen293
+\ttl@toksa=\toks44
+\titlewidth=\dimen294
+\titlewidthlast=\dimen295
+\titlewidthfirst=\dimen296
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
@@ -1662,7 +1674,7 @@ Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks44
+\pdftexcmds@toks=\toks45
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 
@@ -1684,14 +1696,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen294
-\Hy@linkcounter=\count304
-\Hy@pagecounter=\count305
+\@linkdim=\dimen297
+\Hy@linkcounter=\count305
+\Hy@pagecounter=\count306
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/21 v6.83p Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count306
+\Hy@SavedSpaceFactor=\count307
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1719,17 +1731,17 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count307
+\c@Hy@tempcnt=\count308
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip20
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen295
-\Fld@menulength=\count308
-\Field@Width=\dimen296
-\Fld@charsize=\dimen297
+\XeTeXLinkMargin=\dimen298
+\Fld@menulength=\count309
+\Field@Width=\dimen299
+\Fld@charsize=\dimen300
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -1739,47 +1751,47 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count309
-\c@Item=\count310
-\c@Hfootnote=\count311
+\Hy@abspage=\count310
+\c@Item=\count311
+\c@Hfootnote=\count312
 )
 
 Package hyperref Message: Driver (autodetected): hluatex.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2016/05/21 v6.83p Hyperref driver for luaTeX
-\Fld@listcount=\count312
-\c@bookmark@seq@number=\count313
+\Fld@listcount=\count313
+\c@bookmark@seq@number=\count314
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 2.
 )
-\Hy@SectionHShift=\skip100
+\Hy@SectionHShift=\skip101
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count314
+\BKM@id=\count315
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks45
-\MT@count=\count315
+\MT@toks=\toks46
+\MT@count=\count316
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen298
+\MT@outer@kern=\dimen301
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count316
+\MT@listname@count=\count317
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2016/05/14 v2.6a Definitions specific to luatex (RS)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
-\MT@outer@space=\skip101
+\MT@outer@space=\skip102
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1791,68 +1803,68 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen299
-\pgfarrowlength=\dimen300
-\pgfarrowwidth=\dimen301
-\pgfarrowlinewidth=\dimen302
+\pgfarrowinset=\dimen302
+\pgfarrowlength=\dimen303
+\pgfarrowwidth=\dimen304
+\pgfarrowlinewidth=\dimen305
 )
-\CF@cnt@atomingroup=\count317
-\CF@cnt@groupnumber=\count318
-\CF@cnt@atomnumber=\count319
-\CF@cnt@cycle=\count320
-\CF@dim=\dimen303
-\CF@lewis@box=\box71
-\CF@box@boxa=\box72
-\CF@box@boxb=\box73
-\CF@stuff@box=\box74
+\CF@cnt@atomingroup=\count318
+\CF@cnt@groupnumber=\count319
+\CF@cnt@atomnumber=\count320
+\CF@cnt@cycle=\count321
+\CF@dim=\dimen306
+\CF@lewis@box=\box74
+\CF@box@boxa=\box75
+\CF@box@boxb=\box76
+\CF@stuff@box=\box77
 \CF@unused=\write4
-\CF@compound@cnt=\count321
-\CF@arrow@size=\dimen304
+\CF@compound@cnt=\count322
+\CF@arrow@size=\dimen307
 )
 Package: chemfig 2015/12/01 v1.2d Draw molecule with an easy syntax
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
-\l__siunitx_tmp_box=\box75
-\l__siunitx_tmp_dim=\dimen305
-\l__siunitx_tmp_int=\count322
-\l__siunitx_number_mantissa_length_int=\count323
-\l__siunitx_number_uncert_length_int=\count324
-\l__siunitx_round_int=\count325
-\l__siunitx_process_decimal_int=\count326
-\l__siunitx_process_uncertainty_int=\count327
-\l__siunitx_process_fixed_int=\count328
-\l__siunitx_process_integer_min_int=\count329
-\l__siunitx_process_precision_int=\count330
-\l__siunitx_group_min_int=\count331
-\l__siunitx_angle_marker_box=\box76
-\l__siunitx_angle_unit_box=\box77
-\l__siunitx_angle_marker_dim=\dimen306
-\l__siunitx_angle_unit_dim=\dimen307
-\l__siunitx_unit_int=\count332
-\l__siunitx_unit_denominator_int=\count333
-\l__siunitx_unit_numerator_int=\count334
-\l__siunitx_unit_prefix_int=\count335
-\l__siunitx_unit_prefix_base_int=\count336
-\l__siunitx_unit_prefix_gram_int=\count337
-\l__siunitx_number_product_int=\count338
-\c__siunitx_one_fill_skip=\skip102
-\l__siunitx_table_unit_align_skip=\skip103
-\l__siunitx_table_exponent_dim=\dimen308
-\l__siunitx_table_integer_dim=\dimen309
-\l__siunitx_table_mantissa_dim=\dimen310
-\l__siunitx_table_marker_dim=\dimen311
-\l__siunitx_table_result_dim=\dimen312
-\l__siunitx_table_uncert_dim=\dimen313
-\l__siunitx_table_fill_pre_dim=\dimen314
-\l__siunitx_table_fill_post_dim=\dimen315
-\l__siunitx_table_fill_mid_dim=\dimen316
-\l__siunitx_table_pre_box=\box78
-\l__siunitx_table_post_box=\box79
-\l__siunitx_table_mantissa_box=\box80
-\l__siunitx_table_result_box=\box81
-\l__siunitx_table_number_align_skip=\skip104
-\l__siunitx_table_text_align_skip=\skip105
+\l__siunitx_tmp_box=\box78
+\l__siunitx_tmp_dim=\dimen308
+\l__siunitx_tmp_int=\count323
+\l__siunitx_number_mantissa_length_int=\count324
+\l__siunitx_number_uncert_length_int=\count325
+\l__siunitx_round_int=\count326
+\l__siunitx_process_decimal_int=\count327
+\l__siunitx_process_uncertainty_int=\count328
+\l__siunitx_process_fixed_int=\count329
+\l__siunitx_process_integer_min_int=\count330
+\l__siunitx_process_precision_int=\count331
+\l__siunitx_group_min_int=\count332
+\l__siunitx_angle_marker_box=\box79
+\l__siunitx_angle_unit_box=\box80
+\l__siunitx_angle_marker_dim=\dimen309
+\l__siunitx_angle_unit_dim=\dimen310
+\l__siunitx_unit_int=\count333
+\l__siunitx_unit_denominator_int=\count334
+\l__siunitx_unit_numerator_int=\count335
+\l__siunitx_unit_prefix_int=\count336
+\l__siunitx_unit_prefix_base_int=\count337
+\l__siunitx_unit_prefix_gram_int=\count338
+\l__siunitx_number_product_int=\count339
+\c__siunitx_one_fill_skip=\skip103
+\l__siunitx_table_unit_align_skip=\skip104
+\l__siunitx_table_exponent_dim=\dimen311
+\l__siunitx_table_integer_dim=\dimen312
+\l__siunitx_table_mantissa_dim=\dimen313
+\l__siunitx_table_marker_dim=\dimen314
+\l__siunitx_table_result_dim=\dimen315
+\l__siunitx_table_uncert_dim=\dimen316
+\l__siunitx_table_fill_pre_dim=\dimen317
+\l__siunitx_table_fill_post_dim=\dimen318
+\l__siunitx_table_fill_mid_dim=\dimen319
+\l__siunitx_table_pre_box=\box81
+\l__siunitx_table_post_box=\box82
+\l__siunitx_table_mantissa_box=\box83
+\l__siunitx_table_result_box=\box84
+\l__siunitx_table_number_align_skip=\skip105
+\l__siunitx_table_text_align_skip=\skip106
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1983,18 +1995,18 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 Package: endiagram 2014/06/28 v0.1d Easy creation of potential energy curve diag
 rams
-\l__endiagram_tmpa_dim=\dimen317
-\g__Endiagram_tmpa_dim=\dimen318
-\l__endiagram_points_int=\count339
-\g__endiagram_curve_int=\count340
-\g__endiagram_points_max_int=\count341
-\l__endiagram_points_counter_int=\count342
+\l__endiagram_tmpa_dim=\dimen320
+\g__Endiagram_tmpa_dim=\dimen321
+\l__endiagram_points_int=\count340
+\g__endiagram_curve_int=\count341
+\g__endiagram_points_max_int=\count342
+\l__endiagram_points_counter_int=\count343
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \ENcurve with sig. 'om' on line 318.
 .................................................
-\l__endiagram_niveau_counter_int=\count343
+\l__endiagram_niveau_counter_int=\count344
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2005,8 +2017,8 @@ rams
 . 
 . Defining command \ShowGain with sig. 'o' on line 569.
 .................................................
-\g__endiagram_ea_int=\count344
-\l__endiagram_ea_count_int=\count345
+\g__endiagram_ea_int=\count345
+\l__endiagram_ea_count_int=\count346
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2036,8 +2048,8 @@ rams
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count346
-\g__chemgreek_tmpa_int=\count347
+\l__chemgreek_tmpa_int=\count347
+\g__chemgreek_tmpa_int=\count348
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2111,15 +2123,15 @@ stry documents (CN)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemmacros/chemmacros5.sty
 Package: chemmacros5 2016/06/08 v5.7a comprehensive support for typesetting chem
 istry documents (CN)
-\l__chemmacros_tmpa_dim=\dimen319
-\l__chemmacros_tmpb_dim=\dimen320
-\l__chemmacros_tmpc_dim=\dimen321
-\l__chemmacros_tmpa_int=\count348
-\l__chemmacros_tmpb_int=\count349
-\l__chemmacros_tmpc_int=\count350
-\l__chemmacros_tmpa_box=\box82
-\l__chemmacros_tmpb_box=\box83
-\l__chemmacros_tmpc_box=\box84
+\l__chemmacros_tmpa_dim=\dimen322
+\l__chemmacros_tmpb_dim=\dimen323
+\l__chemmacros_tmpc_dim=\dimen324
+\l__chemmacros_tmpa_int=\count349
+\l__chemmacros_tmpb_int=\count350
+\l__chemmacros_tmpc_int=\count351
+\l__chemmacros_tmpa_box=\box85
+\l__chemmacros_tmpb_box=\box86
+\l__chemmacros_tmpc_box=\box87
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2205,15 +2217,15 @@ Package: cnltx-base 2015/08/17 v0.13 LaTeX tools and documenting facilities (CN)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks46
-\pgfopts@list@add@b@toks=\toks47
+\pgfopts@list@add@a@toks=\toks47
+\pgfopts@list@add@b@toks=\toks48
 )
-\c@cnltx@tmpa=\count351
-\c@cnltx@tmpb=\count352
-\c@cnltx@tmpc=\count353
-\cnltx@tmpa@length=\skip106
-\cnltx@tmpb@length=\skip107
-\cnltx@tmpc@length=\skip108
+\c@cnltx@tmpa=\count352
+\c@cnltx@tmpb=\count353
+\c@cnltx@tmpc=\count354
+\cnltx@tmpa@length=\skip107
+\cnltx@tmpb@length=\skip108
+\cnltx@tmpc@length=\skip109
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
@@ -2409,7 +2421,7 @@ articles' 2016/04/02 particles
 . 
 . Defining command \ProvideChemParticle with sig. 'mm' on line 45.
 .................................................
-\l__chemmacros_nucleophile_dim=\dimen322
+\l__chemmacros_nucleophile_dim=\dimen325
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2447,7 +2459,7 @@ articles' 2016/04/02 particles
 es.code.tex
 File: chemmacros.module.phases.code.tex 2016/06/08 v5.7a chemmacros module `phas
 es' 2016/05/31 phase descriptors
-\l__chemmacros_phases_space_dim=\dimen323
+\l__chemmacros_phases_space_dim=\dimen326
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2506,7 +2518,7 @@ File: chemmacros.module.nomenclature.code.tex 2016/06/08 v5.7a chemmacros module
 .code.tex
 File: chemmacros.module.tikz.code.tex 2016/06/08 v5.7a chemmacros module `tikz' 
 2015/10/26 upright greek symbols
-\l__chemmacros_el_length_dim=\dimen324
+\l__chemmacros_el_length_dim=\dimen327
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -2533,7 +2545,7 @@ File: chemmacros.module.tikz.code.tex 2016/06/08 v5.7a chemmacros module `tikz'
 . 
 . Defining command \LetChemIUPAC with sig. 'mm' on line 221.
 .................................................
-\l__chemmacros_cip_kern_dim=\dimen325
+\l__chemmacros_cip_kern_dim=\dimen328
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2544,9 +2556,9 @@ File: chemmacros.module.tikz.code.tex 2016/06/08 v5.7a chemmacros module `tikz'
 . 
 . Defining command \Rconf with sig. 'O{R}' on line 302.
 .................................................
-\l__chemmacros_iupac_hyphen_pre_dim=\dimen326
-\l__chemmacros_iupac_hyphen_post_dim=\dimen327
-\l__chemmacros_iupac_break_dim=\dimen328
+\l__chemmacros_iupac_hyphen_pre_dim=\dimen329
+\l__chemmacros_iupac_hyphen_post_dim=\dimen330
+\l__chemmacros_iupac_break_dim=\dimen331
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2606,56 +2618,56 @@ File: chemmacros.module.tikz.code.tex 2016/06/08 v5.7a chemmacros module `tikz'
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemformula/chemformula.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
-\@mathmargin=\skip109
+\@mathmargin=\skip110
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen329
+\pmbraise@=\dimen332
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count354
+\inf@bad=\count355
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count355
-\leftroot@=\count356
+\uproot@=\count356
+\leftroot@=\count357
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count357
-\DOTSCASE@=\count358
+\classnum@=\count358
+\DOTSCASE@=\count359
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box85
-\strutbox@=\box86
-\big@size=\dimen330
+\Mathstrutbox@=\box88
+\strutbox@=\box89
+\big@size=\dimen333
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 
 
 Package amsmath Warning: Unable to redefine math accent \mathring.
 
-\macc@depth=\count359
-\c@MaxMatrixCols=\count360
+\macc@depth=\count360
+\c@MaxMatrixCols=\count361
 \dotsspace@=\muskip21
-\c@parentequation=\count361
-\dspbrk@lvl=\count362
-\tag@help=\toks48
-\row@=\count363
-\column@=\count364
-\maxfields@=\count365
-\andhelp@=\toks49
-\eqnshift@=\dimen331
-\alignsep@=\dimen332
-\tagshift@=\dimen333
-\tagwidth@=\dimen334
-\totwidth@=\dimen335
-\lineht@=\dimen336
-\@envbody=\toks50
-\multlinegap=\skip110
-\multlinetaggap=\skip111
-\mathdisplay@stack=\toks51
+\c@parentequation=\count362
+\dspbrk@lvl=\count363
+\tag@help=\toks49
+\row@=\count364
+\column@=\count365
+\maxfields@=\count366
+\andhelp@=\toks50
+\eqnshift@=\dimen334
+\alignsep@=\dimen335
+\tagshift@=\dimen336
+\tagwidth@=\dimen337
+\totwidth@=\dimen338
+\lineht@=\dimen339
+\@envbody=\toks51
+\multlinegap=\skip111
+\multlinetaggap=\skip112
+\mathdisplay@stack=\toks52
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -2686,59 +2698,59 @@ LaTeX Info: Redefining \] on input line 2740.
 .................................................
  (/usr/local/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip112
-\L@UnitsRaiseTextstyle=\skip113
-\L@UnitsRaiseScriptstyle=\skip114
+\L@UnitsRaiseDisplaystyle=\skip113
+\L@UnitsRaiseTextstyle=\skip114
+\L@UnitsRaiseScriptstyle=\skip115
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
 Package: chemformula 2016/06/08 v4.15a typeset chemical compounds and reactions 
 (CN)
-\l__chemformula_tmpa_dim=\dimen337
-\l__chemformula_tmpb_dim=\dimen338
-\l__chemformula_tmpc_dim=\dimen339
-\l__chemformula_tmpa_int=\count366
-\l__chemformula_tmpb_int=\count367
-\l__chemformula_tmpc_int=\count368
-\l__chemformula_tmpa_box=\box87
-\l__chemformula_tmpb_box=\box88
-\l__chemformula_arrow_length_dim=\dimen340
-\l__chemformula_arrow_label_height_dim=\dimen341
-\l__chemformula_arrow_label_offset_dim=\dimen342
-\l__chemformula_arrow_minimum_length_dim=\dimen343
-\l__chemformula_arrow_shortage_dim=\dimen344
-\l__chemformula_arrow_offset_dim=\dimen345
-\l__chemformula_arrow_yshift_dim=\dimen346
-\l__chemformula_radical_radius_dim=\dimen347
-\l__chemformula_radical_hshift_dim=\dimen348
-\l__chemformula_radical_vshift_dim=\dimen349
-\l__chemformula_radical_space_dim=\dimen350
-\l__chemformula_arrow_head_dim=\dimen351
-\l__chemformula_name_dim=\dimen352
-\l__chemformula_adduct_space_dim=\dimen353
-\l__chemformula_charge_shift_dim=\dimen354
-\l__chemformula_subscript_shift_dim=\dimen355
-\l__chemformula_superscript_shift_dim=\dimen356
-\l__chemformula_subscript_dim=\dimen357
-\l__chemformula_superscript_dim=\dimen358
-\l__chemformula_bond_dim=\dimen359
-\l__chemformula_bond_space_dim=\dimen360
-\l__chemformula_elspec_pair_distance_dim=\dimen361
-\l__chemformula_elspec_pair_line_length_dim=\dimen362
-\l__chemformula_elspec_pair_width_dim=\dimen363
-\l__chemformula_kroegervink_positive_radius_dim=\dimen364
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen365
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen366
-\l__chemformula_kroegervink_positive_space_dim=\dimen367
-\l__chemformula_stoich_space_skip=\skip115
-\l__chemformula_math_space_skip=\skip116
-\l__chemformula_count_tokens_int=\count369
-\g__chemformula_lewis_int=\count370
-\l__chemformula_arrow_arg_i_box=\box89
-\l__chemformula_arrow_arg_ii_box=\box90
-\l__chemformula_superscript_box=\box91
-\l__chemformula_subscript_box=\box92
+\l__chemformula_tmpa_dim=\dimen340
+\l__chemformula_tmpb_dim=\dimen341
+\l__chemformula_tmpc_dim=\dimen342
+\l__chemformula_tmpa_int=\count367
+\l__chemformula_tmpb_int=\count368
+\l__chemformula_tmpc_int=\count369
+\l__chemformula_tmpa_box=\box90
+\l__chemformula_tmpb_box=\box91
+\l__chemformula_arrow_length_dim=\dimen343
+\l__chemformula_arrow_label_height_dim=\dimen344
+\l__chemformula_arrow_label_offset_dim=\dimen345
+\l__chemformula_arrow_minimum_length_dim=\dimen346
+\l__chemformula_arrow_shortage_dim=\dimen347
+\l__chemformula_arrow_offset_dim=\dimen348
+\l__chemformula_arrow_yshift_dim=\dimen349
+\l__chemformula_radical_radius_dim=\dimen350
+\l__chemformula_radical_hshift_dim=\dimen351
+\l__chemformula_radical_vshift_dim=\dimen352
+\l__chemformula_radical_space_dim=\dimen353
+\l__chemformula_arrow_head_dim=\dimen354
+\l__chemformula_name_dim=\dimen355
+\l__chemformula_adduct_space_dim=\dimen356
+\l__chemformula_charge_shift_dim=\dimen357
+\l__chemformula_subscript_shift_dim=\dimen358
+\l__chemformula_superscript_shift_dim=\dimen359
+\l__chemformula_subscript_dim=\dimen360
+\l__chemformula_superscript_dim=\dimen361
+\l__chemformula_bond_dim=\dimen362
+\l__chemformula_bond_space_dim=\dimen363
+\l__chemformula_elspec_pair_distance_dim=\dimen364
+\l__chemformula_elspec_pair_line_length_dim=\dimen365
+\l__chemformula_elspec_pair_width_dim=\dimen366
+\l__chemformula_kroegervink_positive_radius_dim=\dimen367
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen368
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen369
+\l__chemformula_kroegervink_positive_space_dim=\dimen370
+\l__chemformula_stoich_space_skip=\skip116
+\l__chemformula_math_space_skip=\skip117
+\l__chemformula_count_tokens_int=\count370
+\g__chemformula_lewis_int=\count371
+\l__chemformula_arrow_arg_i_box=\box92
+\l__chemformula_arrow_arg_ii_box=\box93
+\l__chemformula_superscript_box=\box94
+\l__chemformula_subscript_box=\box95
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2854,7 +2866,7 @@ Package: chemformula 2016/06/08 v4.15a typeset chemical compounds and reactions
 . 
 . Defining command \chstoich with sig. 'm' on line 2125.
 .................................................
-\l__chemformula_additions_symbol_space_skip=\skip117
+\l__chemformula_additions_symbol_space_skip=\skip118
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2875,8 +2887,8 @@ Package: chemformula 2016/06/08 v4.15a typeset chemical compounds and reactions
 . 
 . Defining command \DeclareChemAdditionSymbol with sig. 'mmm' on line 2652.
 .................................................
-\l__chemformula_plus_space_skip=\skip118
-\l__chemformula_minus_space_skip=\skip119
+\l__chemformula_plus_space_skip=\skip119
+\l__chemformula_minus_space_skip=\skip120
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2943,16 +2955,16 @@ Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count371
-\calc@Bcount=\count372
-\calc@Adimen=\dimen368
-\calc@Bdimen=\dimen369
-\calc@Askip=\skip120
-\calc@Bskip=\skip121
+\calc@Acount=\count372
+\calc@Bcount=\count373
+\calc@Adimen=\dimen371
+\calc@Bdimen=\dimen372
+\calc@Askip=\skip121
+\calc@Bskip=\skip122
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count373
-\calc@Cskip=\skip122
+\calc@Ccount=\count374
+\calc@Cskip=\skip123
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
@@ -2961,15 +2973,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count374
-\l_MT_multwidth_dim=\dimen370
-\origjot=\skip123
-\l_MT_shortvdotswithinadjustabove_dim=\dimen371
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen372
-\l_MT_above_intertext_sep=\dimen373
-\l_MT_below_intertext_sep=\dimen374
-\l_MT_above_shortintertext_sep=\dimen375
-\l_MT_below_shortintertext_sep=\dimen376
+\g_MT_multlinerow_int=\count375
+\l_MT_multwidth_dim=\dimen373
+\origjot=\skip124
+\l_MT_shortvdotswithinadjustabove_dim=\dimen374
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen375
+\l_MT_above_intertext_sep=\dimen376
+\l_MT_below_intertext_sep=\dimen377
+\l_MT_above_shortintertext_sep=\dimen378
+\l_MT_below_shortintertext_sep=\dimen379
 )
 *************************************************
 * unicode-math warning: "mathtools-colon"
@@ -3009,15 +3021,15 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count375
+\l__chemmacros_ox_number_int=\count376
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \ox with sig. 'sO{}>{\SplitArgument {1}{,}}m' on line 310.
 .................................................
-\l__chemmacros_redox_sep_dim=\dimen377
-\l__chemmacros_redox_sep_default_dim=\dimen378
-\l__chemmacros_redox_dist_dim=\dimen379
+\l__chemmacros_redox_sep_dim=\dimen380
+\l__chemmacros_redox_sep_default_dim=\dimen381
+\l__chemmacros_redox_dist_dim=\dimen382
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -3042,7 +3054,7 @@ fillbetween.code.tex
 s/tikzlibraryintersections.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
 ctions.code.tex
-\pgf@intersect@solutions=\count376
+\pgf@intersect@solutions=\count377
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
 decorations.softclip.code.tex
@@ -3055,27 +3067,27 @@ luaotfload | cache : Lookup cache loaded from /Users/zhiayang/Library/texlive/20
 uc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-reg.lu
 c)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic
 /fonts/otl/lato-reg.luc)
-\g__fontspec_family_Lato-Regular_int=\count377
-luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 23(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/lato-semibold.luc)(load luc: /Users/zhiaya
-ng/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-semibold.l
-uc)
+\g__fontspec_family_Lato-Regular_int=\count378
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 24(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/lato-regita.luc)(load luc: /Users/zhiayang
-/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-regita.luc)
+mf-var/luatex-cache/generic/fonts/otl/lato-semibold.luc)(load luc: /Users/zhiaya
+ng/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-semibold.l
+uc)
 luaotfload | aux : font no 25 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 25(compiling luc: /usr/local/texlive/2016/tex
+mf-var/luatex-cache/generic/fonts/otl/lato-regita.luc)(load luc: /Users/zhiayang
+/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-regita.luc)
+luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 26(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/lato-semibolditalic.luc)(load luc: /Users/
 zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-semi
 bolditalic.luc)
-luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 26
+luaotfload | aux : no font with id 27
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3098,26 +3110,26 @@ luaotfload | aux : no font with id 26
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /lato-thin.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-
 cache/generic/fonts/otl/lato-thin.luc)
-\g__fontspec_family_Lato-Thin_int=\count378
-luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 27(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/lato-lig.luc)(load luc: /Users/zhiayang/Li
-brary/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-lig.luc)
+\g__fontspec_family_Lato-Thin_int=\count379
 luaotfload | aux : font no 28 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 28(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/lato-thinitalic.luc)(load luc: /Users/zhia
-yang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-thinital
-ic.luc)
+mf-var/luatex-cache/generic/fonts/otl/lato-lig.luc)(load luc: /Users/zhiayang/Li
+brary/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-lig.luc)
 luaotfload | aux : font no 29 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 29(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/lato-ligita.luc)(load luc: /Users/zhiayang
-/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-ligita.luc)
+mf-var/luatex-cache/generic/fonts/otl/lato-thinitalic.luc)(load luc: /Users/zhia
+yang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-thinital
+ic.luc)
 luaotfload | aux : font no 30 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 30
+luaotfload | aux : no font with id 30(compiling luc: /usr/local/texlive/2016/tex
+mf-var/luatex-cache/generic/fonts/otl/lato-ligita.luc)(load luc: /Users/zhiayang
+/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-ligita.luc)
+luaotfload | aux : font no 31 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 31
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3139,7 +3151,7 @@ luaotfload | aux : no font with id 30
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-light.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luat
 ex-cache/generic/fonts/otl/roboto-light.luc)
-\g__fontspec_family_Roboto-Light_int=\count379
+\g__fontspec_family_Roboto-Light_int=\count380
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/lu
 atex-cache/generic/fonts/otl/roboto-regular.luc)(compiling luc: /usr/local/texli
@@ -3175,7 +3187,7 @@ luc)
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-thin.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luate
 x-cache/generic/fonts/otl/roboto-thin.luc)
-\g__fontspec_family_Roboto-Thin_int=\count380
+\g__fontspec_family_Roboto-Thin_int=\count381
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-thinitalic.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
 /luatex-cache/generic/fonts/otl/roboto-thinitalic.luc)
@@ -3206,35 +3218,35 @@ x-cache/generic/fonts/otl/roboto-thin.luc)
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /alexandriaflf.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/lua
 tex-cache/generic/fonts/otl/alexandriaflf.luc)
-luaotfload | aux : font no 37 (<unknown>) defines no feature for script latn
-luaotfload | aux : no font with id 37
+luaotfload | aux : font no 38 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 38
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font AlexandriaFLF does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_AlexandriaFLF_int=\count381
-luaotfload | aux : font no 37 (<unknown>) does not define feature smcp for scrip
-t  with language 
-luaotfload | aux : no font with id 37(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-bold.luc)(load luc: /Users/z
-hiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alexandria
-flf-bold.luc)
+\g__fontspec_family_AlexandriaFLF_int=\count382
 luaotfload | aux : font no 38 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 38(compiling luc: /usr/local/texlive/2016/tex
-mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-italic.luc)(load luc: /Users
-/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alexandr
-iaflf-italic.luc)
+mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-bold.luc)(load luc: /Users/z
+hiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alexandria
+flf-bold.luc)
 luaotfload | aux : font no 39 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 39(compiling luc: /usr/local/texlive/2016/tex
+mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-italic.luc)(load luc: /Users
+/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alexandr
+iaflf-italic.luc)
+luaotfload | aux : font no 40 (<unknown>) does not define feature smcp for scrip
+t  with language 
+luaotfload | aux : no font with id 40(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/alexandriaflf-bolditalic.luc)(load luc: /U
 sers/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/alex
 andriaflf-bolditalic.luc)
-luaotfload | aux : font no 40 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 41 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 40
+luaotfload | aux : no font with id 41
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3255,22 +3267,22 @@ luaotfload | aux : no font with id 40
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-light.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-v
 ar/luatex-cache/generic/fonts/otl/sourcesanspro-light.luc)
-\g__fontspec_family_SourceSansPro-Light_int=\count382
+\g__fontspec_family_SourceSansPro-Light_int=\count383
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf
 -var/luatex-cache/generic/fonts/otl/sourcesanspro-regular.luc)(compiling luc: /u
 sr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourcesanspro-lig
 htit.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/
 generic/fonts/otl/sourcesanspro-lightit.luc)
-luaotfload | aux : font no 43 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 44 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 43(compiling luc: /usr/local/texlive/2016/tex
+luaotfload | aux : no font with id 44(compiling luc: /usr/local/texlive/2016/tex
 mf-var/luatex-cache/generic/fonts/otl/sourcesanspro-regularit.luc)(load luc: /Us
 ers/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/sourc
 esanspro-regularit.luc)
-luaotfload | aux : font no 44 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 45 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 44
+luaotfload | aux : no font with id 45
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3295,9 +3307,6 @@ luaotfload | aux : no font with id 44
 . <->"SourceSansPro-Italic:mode=node;script=latn;language=DFLT;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 23
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 24
@@ -3307,6 +3316,9 @@ luaotfload | aux : no font with id 25
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 26
+luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 27
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3328,9 +3340,6 @@ luaotfload | aux : no font with id 26
 "
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 23
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 24
@@ -3340,6 +3349,9 @@ luaotfload | aux : no font with id 25
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 26
+luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 27
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3361,13 +3373,13 @@ t={Lato-Italic},BoldItalicFont={Lato-SemiboldItalic}].
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/lmr/m/n --> EU2/Lato-Regular(2)/m/n on input line 18
-3.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/lmr/m/it --> EU2/Lato-Regular(2)/m/it on input line 
-183.
+184.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/lmr/bx/n --> EU2/Lato-Regular(2)/bx/n on input line 
-183.
+184.
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -3377,14 +3389,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 . fontspec info: "set-scale"
 . 
 . Lato-Regular scale = 1.
-.................................................
-luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 23
-.................................................
-. fontspec info: "set-scale"
-. 
-. Lato-Semibold scale = 0.9931363494778489.
 .................................................
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3392,7 +3396,7 @@ luaotfload | aux : no font with id 24
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-Italic scale = 1.
+. Lato-Semibold scale = 0.9931363494778489.
 .................................................
 luaotfload | aux : font no 25 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3400,11 +3404,19 @@ luaotfload | aux : no font with id 25
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-SemiboldItalic scale = 0.9931363494778489.
+. Lato-Italic scale = 1.
 .................................................
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 26
+.................................................
+. fontspec info: "set-scale"
+. 
+. Lato-SemiboldItalic scale = 0.9931363494778489.
+.................................................
+luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 27
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3437,21 +3449,13 @@ FLT;+tlig;+tlig;+tlig;"
 . 
 . Lato-Regular scale = 1.
 .................................................
-luaotfload | aux : font no 23 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 23
-.................................................
-. fontspec info: "set-scale"
-. 
-. Lato-Semibold scale = 0.9931363494778489.
-.................................................
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 24
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-Italic scale = 1.
+. Lato-Semibold scale = 0.9931363494778489.
 .................................................
 luaotfload | aux : font no 25 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3459,11 +3463,19 @@ luaotfload | aux : no font with id 25
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato-SemiboldItalic scale = 0.9931363494778489.
+. Lato-Italic scale = 1.
 .................................................
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 26
+.................................................
+. fontspec info: "set-scale"
+. 
+. Lato-SemiboldItalic scale = 0.9931363494778489.
+.................................................
+luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 27
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3488,22 +3500,22 @@ FLT;+tlig;+tlig;"
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/lmss/m/n --> EU2/Lato-Regular(4)/m/n on input line 1
-92.
+93.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/lmss/bx/n --> EU2/Lato-Regular(4)/bx/n on input line
- 192.
+ 193.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /asana-math.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex
 -cache/generic/fonts/otl/asana-math.luc)
-\g__fontspec_family_Asana-Math_int=\count383
+\g__fontspec_family_Asana-Math_int=\count384
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Asana-Math/B (it probably doesn't exist).
 .................................................
-luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 47 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
-luaotfload | aux : no font with id 46
+luaotfload | aux : no font with id 47
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3521,23 +3533,23 @@ Math:mode=base;script=math;language=DFLT;+tlig;+tlig;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 197.
+(Font)              `operators' in the math version `normal' on input line 198.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> EU2/Asana-Math(0)/m/n on input line 197.
+(Font)                  OT1/lmr/m/n --> EU2/Asana-Math(0)/m/n on input line 198.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 197.
+(Font)              `operators' in the math version `bold' on input line 198.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> EU2/Asana-Math(0)/bx/n on input line 19
-7.
+8.
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Asana-Math/B (it probably doesn't exist).
 .................................................
-luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 47 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
-luaotfload | aux : no font with id 46
+luaotfload | aux : no font with id 47
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3573,23 +3585,23 @@ g;+ssty=0;"<-8>s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;
 . =0pt\relax \fontdimen 22\font =194474.749sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 197.
+(Font)              `symbols' in the math version `normal' on input line 198.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> EU2/Asana-Math(1)/m/n on input line 197
+(Font)                  OMS/lmsy/m/n --> EU2/Asana-Math(1)/m/n on input line 198
 .
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 197.
+(Font)              `symbols' in the math version `bold' on input line 198.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> EU2/Asana-Math(1)/bx/n on input line 19
-7.
+8.
 .................................................
 . fontspec info: "no-font-shape"
 . 
 . Could not resolve font Asana-Math/B (it probably doesn't exist).
 .................................................
-luaotfload | aux : font no 46 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 47 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
-luaotfload | aux : no font with id 46
+luaotfload | aux : no font with id 47
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3616,21 +3628,21 @@ g;+ssty=0;"<-8>s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 19
-7.
+8.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/m/n on input line 197
+(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/m/n on input line 198
 .
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 197.
+(Font)              `largesymbols' in the math version `bold' on input line 198.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/bx/n on input line 19
-7.
+8.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /menlo-1.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-ca
 che/generic/fonts/otl/menlo-1.luc)
-luaotfload | aux : font no 49 (<unknown>) defines no feature for script latn
-luaotfload | aux : no font with id 49
+luaotfload | aux : font no 50 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 50
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -3641,7 +3653,7 @@ luaotfload | aux : no font with id 49
 . 
 . Menlo scale = 0.9261711105675147.
 .................................................
-\g__fontspec_family_Menlo_int=\count384
+\g__fontspec_family_Menlo_int=\count385
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /menlo-4.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-ca
 che/generic/fonts/otl/menlo-4.luc)(compiling luc: /usr/local/texlive/2016/texmf-
@@ -3655,21 +3667,13 @@ fonts/otl/menlo-3.luc)
 . 
 . Menlo scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 49 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 50 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 49
+luaotfload | aux : no font with id 50
 .................................................
 . fontspec info: "set-scale"
 . 
 . Menlo/B scale = 0.9261711105675147.
-.................................................
-luaotfload | aux : font no 51 (<unknown>) does not define feature smcp for scrip
-t  with language 
-luaotfload | aux : no font with id 51
-.................................................
-. fontspec info: "set-scale"
-. 
-. Menlo/I scale = 0.9261711105675147.
 .................................................
 luaotfload | aux : font no 52 (<unknown>) does not define feature smcp for scrip
 t  with language 
@@ -3677,11 +3681,19 @@ luaotfload | aux : no font with id 52
 .................................................
 . fontspec info: "set-scale"
 . 
+. Menlo/I scale = 0.9261711105675147.
+.................................................
+luaotfload | aux : font no 53 (<unknown>) does not define feature smcp for scrip
+t  with language 
+luaotfload | aux : no font with id 53
+.................................................
+. fontspec info: "set-scale"
+. 
 . Menlo/BI scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 50 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 51 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 50
+luaotfload | aux : no font with id 51
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3715,8 +3727,8 @@ se].
 . \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
 .................................................
-luaotfload | aux : font no 49 (<unknown>) defines no feature for script latn
-luaotfload | aux : no font with id 49
+luaotfload | aux : font no 50 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 50
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -3732,21 +3744,13 @@ luaotfload | aux : no font with id 49
 . 
 . Menlo scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 49 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 50 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 49
+luaotfload | aux : no font with id 50
 .................................................
 . fontspec info: "set-scale"
 . 
 . Menlo/B scale = 0.9261711105675147.
-.................................................
-luaotfload | aux : font no 51 (<unknown>) does not define feature smcp for scrip
-t  with language 
-luaotfload | aux : no font with id 51
-.................................................
-. fontspec info: "set-scale"
-. 
-. Menlo/I scale = 0.9261711105675147.
 .................................................
 luaotfload | aux : font no 52 (<unknown>) does not define feature smcp for scrip
 t  with language 
@@ -3754,11 +3758,19 @@ luaotfload | aux : no font with id 52
 .................................................
 . fontspec info: "set-scale"
 . 
+. Menlo/I scale = 0.9261711105675147.
+.................................................
+luaotfload | aux : font no 53 (<unknown>) does not define feature smcp for scrip
+t  with language 
+luaotfload | aux : no font with id 53
+.................................................
+. fontspec info: "set-scale"
+. 
 . Menlo/BI scale = 0.9261711105675147.
 .................................................
-luaotfload | aux : font no 50 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 51 (<unknown>) does not define feature smcp for scrip
 t  with language 
-luaotfload | aux : no font with id 50
+luaotfload | aux : no font with id 51
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3777,9 +3789,9 @@ luaotfload | aux : no font with id 50
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/m/n on input line 199.
+(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/m/n on input line 200.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/bx/n on input line 199.
+(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/bx/n on input line 200.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /arial.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cach
 e/generic/fonts/otl/arial.luc)
@@ -3788,7 +3800,7 @@ e/generic/fonts/otl/arial.luc)
 . 
 . Arial scale = 0.9767524353375883.
 .................................................
-\g__fontspec_family_Arial_int=\count385
+\g__fontspec_family_Arial_int=\count386
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /arial-bold-italic.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
 /luatex-cache/generic/fonts/otl/arial-bold-italic.luc)(compiling luc: /usr/local
@@ -3802,21 +3814,13 @@ texmf-var/luatex-cache/generic/fonts/otl/arial-italic.luc)
 . 
 . Arial scale = 0.9767524353375883.
 .................................................
-luaotfload | aux : font no 53 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 54 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 53
+luaotfload | aux : no font with id 54
 .................................................
 . fontspec info: "set-scale"
 . 
 . Arial/B scale = 0.9767524353375883.
-.................................................
-luaotfload | aux : font no 55 (<unknown>) does not define feature smcp for scrip
-t latn with language dflt
-luaotfload | aux : no font with id 55
-.................................................
-. fontspec info: "set-scale"
-. 
-. Arial/I scale = 0.9767524353375883.
 .................................................
 luaotfload | aux : font no 56 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
@@ -3824,11 +3828,19 @@ luaotfload | aux : no font with id 56
 .................................................
 . fontspec info: "set-scale"
 . 
+. Arial/I scale = 0.9767524353375883.
+.................................................
+luaotfload | aux : font no 57 (<unknown>) does not define feature smcp for scrip
+t latn with language dflt
+luaotfload | aux : no font with id 57
+.................................................
+. fontspec info: "set-scale"
+. 
 . Arial/BI scale = 0.9767524353375883.
 .................................................
-luaotfload | aux : font no 54 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 55 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 54
+luaotfload | aux : no font with id 55
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3849,7 +3861,7 @@ luaotfload | aux : no font with id 54
 
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-\titleNumberInsetLength=\skip124
+\titleNumberInsetLength=\skip125
 )
 Package translations Info: No language package found. I am going to use `english
 ' as default language. on input line 13.
@@ -3926,17 +3938,17 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count386
-\scratchdimen=\dimen380
-\scratchbox=\box93
-\nofMPsegments=\count387
-\nofMParguments=\count388
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count389
-\MPscratchDim=\dimen381
-\MPnumerator=\count390
-\makeMPintoPDFobject=\count391
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count387
+\scratchdimen=\dimen383
+\scratchbox=\box96
+\nofMPsegments=\count388
+\nofMParguments=\count389
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count390
+\MPscratchDim=\dimen384
+\MPnumerator=\count391
+\makeMPintoPDFobject=\count392
+\everyMPtoPDFconversion=\toks54
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -3958,7 +3970,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document has
  been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\AtBeginShipoutBox=\box94
+\AtBeginShipoutBox=\box97
 Package hyperref Info: Link coloring OFF on input line 13.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -3966,7 +3978,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count392
+\c@section@level=\count393
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
@@ -4029,7 +4041,7 @@ r `english'. on input line 13.
 * 
 * Use \Uoverbracket and \Uunderbracket for original `unicode-math' definition.
 *************************************************
-\c__siunitx_mathsf_int=\count393
+\c__siunitx_mathsf_int=\count394
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Asana-Math' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
@@ -4143,7 +4155,7 @@ LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 13.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 13.
-\c__siunitx_mathtt_int=\count394
+\c__siunitx_mathtt_int=\count395
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
 (Font)              scaled to size 10.14163pt on input line 13.
 Package microtype Info: Loading generic settings for font family
@@ -4580,14 +4592,9 @@ ng used on input line 598.
 (luatex.def)             Requested size: 341.43306pt x 87.04477pt.
  [52<../figures/organic/ch08/halogen_benzene_delocalistion.png>] [53])
 ("./Chapter 09 - Alcohols.tex" [54] [55] [56] [57] [58] [59] [60] [61] [62]
-[63] [64] [65] [66]) ("./Chapter 10 - Phenols.tex" [67]
-Overfull \hbox (1.61864pt too wide) in paragraph at lines 30--32
-\EU2/Lato-Regular(1)/m/n/10.95 Phe-nols are mod-er-ately sol-u-ble in wa-ter co
-m-pared to ben-zenes, due to the abil-ity to form favourable|
- []
-
-[68] [69] [70] [71] [72] [73]
-LaTeX Font Info:    Calculating math sizes for size <21> on input line 227.
+[63] [64] [65] [66]) ("./Chapter 10 - Phenols.tex" [67] [68] [69] [70] [71]
+[72] [73]
+LaTeX Font Info:    Calculating math sizes for size <21> on input line 228.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4607,7 +4614,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 21.00032pt on input line 227.
+(Font)              scaled to size 21.00032pt on input line 228.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4615,7 +4622,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 14.70015pt on input line 227.
+(Font)              scaled to size 14.70015pt on input line 228.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4623,7 +4630,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 10.50015pt on input line 227.
+(Font)              scaled to size 10.50015pt on input line 228.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4631,7 +4638,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 20.99968pt on input line 227.
+(Font)              scaled to size 20.99968pt on input line 228.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4639,7 +4646,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/21'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 14.6997pt on input line 227.
+(Font)              scaled to size 14.6997pt on input line 228.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4647,7 +4654,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/14.69994'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 10.49983pt on input line 227.
+(Font)              scaled to size 10.49983pt on input line 228.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4655,21 +4662,20 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/10.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 21.0pt on input line 227.
+(Font)              scaled to size 21.0pt on input line 228.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 14.69994pt on input line 227.
+(Font)              scaled to size 14.69994pt on input line 228.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 10.5pt on input line 227.
+(Font)              scaled to size 10.5pt on input line 228.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 19.44974pt on input line 227.
+(Font)              scaled to size 19.44974pt on input line 228.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 13.61475pt on input line 227.
+(Font)              scaled to size 13.61475pt on input line 228.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 9.72487pt on input line 227.
-) ("./Chapter 11 - Aldehydes and Ketones.tex"
-[74] [75] [76] [77] [78] [79] [80] [81] [82])
-("./Chapter 12 - Carboxylic Acids.tex" [83] [84] [85] [86] [87] [88] [89]
-[90]
+(Font)              scaled to size 9.72487pt on input line 228.
+) ("./Chapter 11 - Aldehydes and Ketones.tex" [74] [75] [76] [77]
+[78] [79] [80] [81] [82]) ("./Chapter 12 - Carboxylic Acids.tex" [83] [84]
+[85] [86] [87] [88] [89] [90]
 LaTeX Font Info:    Calculating math sizes for size <15> on input line 372.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/15'.
@@ -4749,9 +4755,10 @@ LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
 (Font)              scaled to size 9.72482pt on input line 372.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
 (Font)              scaled to size 6.94633pt on input line 372.
- [91] [92] [93]) ("./Chapter 13 - Acyl Chlorides.tex" [94] [95] [96]
-[97]) ("./Chapter 14 - Esters.tex" [98] [99] [100]) ("./Chapter 15 - Amides.tex
-" [101] [102] [103] [104]) ("./Chapter 16 - Amines.tex" [105] [106] [107]
+ [91] [92] [93])
+("./Chapter 13 - Acyl Chlorides.tex" [94] [95] [96] [97])
+("./Chapter 14 - Esters.tex" [98] [99] [100]) ("./Chapter 15 - Amides.tex"
+[101] [102] [103] [104]) ("./Chapter 16 - Amines.tex" [105] [106] [107]
 [108] [109] [110] [111]) [112] [113] ("./Appendix A - Reaction Mechanisms.tex"
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Lato-Thin' (encoding: EU2).
@@ -4949,18 +4956,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 70224 strings out of 495119
+ 70309 strings out of 495119
  477042,2373549 words of node,token memory allocated
  32591 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 3609 glue, 1 kern, 1675 attribute, 89 glue_spec, 16
 75 attribute_list, 1 write, 1 pdf_action nodes
    avail lists: 1:1265,2:67763,3:22234,4:1014,5:1610,6:2410,7:5450,8:924,9:4925,
 10:342,11:546,12:369
- 70258 multiletter control sequences out of 65536+600000
- 414 fonts using 90275003 bytes
+ 70335 multiletter control sequences out of 65536+600000
+ 415 fonts using 90319891 bytes
  81i,32n,120p,880b,2880s stack positions out of 5000i,500n,10000p,200000b,100000s
-
-warning  (pdf backend): unreferenced destination with name 'AlcoholDehydration'
 </usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Reg.ttf></us
 r/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.otf>
 </usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Lig.ttf></us
@@ -4976,7 +4981,7 @@ public/lato/Lato-RegIta.ttf></Users/zhiayang/Library/Fonts/Lato-Semibold.ttf></U
 sers/zhiayang/Library/Fonts/AlexandriaFLF.ttf></usr/local/texlive/2016/texmf-dis
 t/fonts/truetype/public/lato/Lato-Reg.ttf></usr/local/texlive/2016/texmf-dist/fo
 nts/opentype/adobe/sourcesanspro/SourceSansPro-Light.otf>
-Output written on OrganicChem.pdf (180 pages, 1070680 bytes).
+Output written on OrganicChem.pdf (180 pages, 1070632 bytes).
 
 PDF statistics: 2636 PDF objects out of 2984 (max. 8388607)
  2379 compressed objects within 24 object streams
