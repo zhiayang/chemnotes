@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  25 JUN 2016 17:11
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  25 JUN 2016 18:02
  system commands enabled.
 **OrganicChem.tex
 (./OrganicChem.tex
@@ -1383,7 +1383,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.151 seconds)
+luaotfload | main : initialization completed in 0.148 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -4956,14 +4956,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 70309 strings out of 495119
+ 70312 strings out of 495119
  477042,2373549 words of node,token memory allocated
  32591 words of node memory still in use:
    7 hlist, 2 vlist, 3 rule, 3609 glue, 1 kern, 1675 attribute, 89 glue_spec, 16
 75 attribute_list, 1 write, 1 pdf_action nodes
    avail lists: 1:1265,2:67763,3:22234,4:1014,5:1610,6:2410,7:5450,8:924,9:4925,
 10:342,11:546,12:369
- 70335 multiletter control sequences out of 65536+600000
+ 70338 multiletter control sequences out of 65536+600000
  415 fonts using 90319891 bytes
  81i,32n,120p,880b,2880s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Reg.ttf></us

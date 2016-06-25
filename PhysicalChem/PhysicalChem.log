@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  25 JUN 2016 17:03
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  25 JUN 2016 18:01
  system commands enabled.
 **PhysicalChem.tex
 (./PhysicalChem.tex
@@ -1383,7 +1383,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.145 seconds)
+luaotfload | main : initialization completed in 0.169 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -5332,15 +5332,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 67672 strings out of 495119
+ 67675 strings out of 495119
  195527,2373549 words of node,token memory allocated
  18955 words of node memory still in use:
    8 hlist, 2 vlist, 3 rule, 2116 glue, 1 kern, 878 attribute, 89 glue_spec, 878
  attribute_list, 1 write nodes
    avail lists: 1:412,2:38742,3:10924,4:185,5:269,6:2430,7:2155,8:107,9:1636,10:
 24,11:227,12:1
- 67920 multiletter control sequences out of 65536+600000
- 553 fonts using 118494623 bytes
+ 67923 multiletter control sequences out of 65536+600000
+ 553 fonts using 118495979 bytes
  81i,24n,110p,881b,2618s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/truetype/google/roboto/Roboto-LightItalic.ttf></usr/l
@@ -5361,7 +5361,7 @@ xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/lm/lmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lms
 so10.pfb>
-Output written on PhysicalChem.pdf (95 pages, 1070087 bytes).
+Output written on PhysicalChem.pdf (95 pages, 1070543 bytes).
 
 PDF statistics: 1484 PDF objects out of 1728 (max. 8388607)
  1308 compressed objects within 14 object streams

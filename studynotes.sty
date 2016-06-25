@@ -403,7 +403,10 @@
 									\fontsize{10pt}{12pt}\selectfont{#3}\normtext
 									\end{center}\end{figure}}
 
-\newcommand	{\boit}			[1]{\textbf{\textit{#1}}}
+\newcommand	{\boit}			[1]{\textbf{\itl{#1}}}
+
+\newcommand {\itl}			[1]{\textit{#1}}
+\newcommand {\bld}			[1]{\textbf{#1}}
 
 \newcommand {\includefigure}[3]
 							{
@@ -492,8 +495,8 @@
 
 
 % text stuff
-\newcommand {\Cl}			{C\textit{l}}
-\newcommand {\Al}			{A\textit{l}}
+\newcommand {\Cl}			{C\itl{l}}
+\newcommand {\Al}			{A\itl{l}}
 
 \newcommand {\deltap}		{δ\sps{+}}
 \newcommand {\deltam}		{δ\sps{-}}
@@ -532,9 +535,9 @@
 \newcommand {\Qc}			{$Q_{c}$}
 \newcommand {\Qp}			{$Q_{p}$}
 
-\newcommand {\MKc}			{\textit{K\sbs{c}}}
-\newcommand {\MKp}			{\textit{K\sbs{p}}}
-\newcommand {\MKsp}			{\textit{K\sbs{sp}}}
+\newcommand {\MKc}			{\itl{K\sbs{c}}}
+\newcommand {\MKp}			{\itl{K\sbs{p}}}
+\newcommand {\MKsp}			{\itl{K\sbs{sp}}}
 
 
 % renew because chemmacro defines this, but not properly (ugly)
@@ -548,12 +551,12 @@
 
 
 \newcommand {\pKw}			{$pK_{w}$ }
-\newcommand {\MpKw}			{\textit{p}K\sbs{w}}
+\newcommand {\MpKw}			{\itl{p}K\sbs{w}}
 
-\newcommand {\MpH}			{\textit{p}H}
-\newcommand {\MpOH}			{\textit{p}OH}
-\newcommand {\MpKa}			{\textit{p}K\sbs{a}}
-\newcommand {\MpKb}			{\textit{p}K\sbs{b}}
+\newcommand {\MpH}			{\itl{p}H}
+\newcommand {\MpOH}			{\itl{p}OH}
+\newcommand {\MpKa}			{\itl{p}K\sbs{a}}
+\newcommand {\MpKb}			{\itl{p}K\sbs{b}}
 \newcommand {\MKw}			{K\sbs{w}}
 \newcommand {\MKa}			{K\sbs{a}}
 \newcommand {\MKb}			{K\sbs{b}}
@@ -568,7 +571,7 @@
 \newcommand {\MEox}			{E\spbs{\stdst}{ox}}
 
 \newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
-\newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\textit{l})\normtext}
+\newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\itl{l})\normtext}
 \newcommand	{\stS}			{ \fontsize{0.80em}{1.0em}\selectfont(s)\normtext}
 \newcommand	{\stAq}			{ \fontsize{0.80em}{1.0em}\selectfont(aq)\normtext}
 
@@ -592,7 +595,7 @@
 \definesubmol	\molO		{{\color{Red}O}}
 \definesubmol	\molS		{{\color{Bittersweet}S}}
 
-\definesubmol	\molAl		{A\textit{l}}
+\definesubmol	\molAl		{A\itl{l}}
 
 % halogens
 \definesubmol	\molX		{{\color{OliveGreen}X}} % placeholder
