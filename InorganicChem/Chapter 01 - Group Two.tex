@@ -3,16 +3,481 @@
 % Licensed under the Apache License Version 2.0.
 
 
-\newcommand{\rtwo}{\romannum{II}}
+\newcommand{\rtwo}{\bld{\romannum{II}}}
 
 \pagebreak
-\part{Group \rtwo{}}
+\part{Group \romannum{II}}
 
 	\section{Overview}
 
-		Group \rtwo{} metals are the \itl{alkaline earth metals}
+		Group \rtwo{} metals are the \itl{alkaline earth metals}, and have this name for two reasons; their oxides form alkaline solutions
+		when dissolved in water, and some another mostly irrelevant and historical reason. Mainly the alkaline solution thing.
+
+	% end section
+
+	\section{Physical Properties}
+
+		\subsection{Electronic Configuration}
+
+			All compounds containing group \rtwo{} metals have them at a fixed oxidation state of +2, and all group \rtwo{} metals have a
+			fully filled outermost \itl{s} subshell:
+
+			\tabto{0mm}\ch{Be}:\tabto{10mm}1s\sps{2}2s\sps{2}
+			\tabto{0mm}\ch{Mg}:\tabto{10mm}1s\sps{2}2s\sps{2}2p\sps{6}3s\sps{2}
+			\tabto{0mm}\ch{Ca}:\tabto{10mm}1s\sps{2}2s\sps{2}2p\sps{6}3s\sps{2}3p\sps{6}4s\sps{2}
+			\tabto{0mm}\ch{Sr}:\tabto{10mm}1s\sps{2}2s\sps{2}2p\sps{6}3s\sps{2}3p\sps{6}3d\sps{10}4s\sps{2}4p\sps{6}5s\sps{2}
+			\tabto{0mm}\ch{Ba}:\tabto{10mm}1s\sps{2}2s\sps{2}2p\sps{6}3s\sps{2}3p\sps{6}3d\sps{10}4s\sps{2}4p\sps{6}4d\sps{10}5s\sps{2}5p\sps{6}6s\sps{2}
+
+
+			Group \rtwo{} metals form +2 compounds two reasons; first, the 3rd ionisation energy (to get to a +3 state) is significantly greater
+			than either the 1st or 2nd --- this required energy cannot be sufficiently compensated for by an exothermic lattice energy.
+
+			Secondly, they do not exist in the +1 state because, in many cases, the lattice energy of compounds containing the metal in the +2
+			state is more exothermic, thus favouring the more stable \ch{MX2} compound as opposed to the \ch{MX} compound.
+
+		% end subsection
+
+
+
+
+
+		\subsection{Ionic and Atomic Radii}
+
+			Naturally, both the ionic and atomic radii of the group \rtwo{} metals \itl{increase} down the group, due simply to the increasing
+			number of quantum shells.
+
+		% end subsection
+
+
+
+		\pagebreak
+		\subsection{Ionisation Energy}
+
+			As should be expected, the first and second ionisation energies of the elements in the group \itl{decrease} progressively. This is
+			due to the increasing number of electron shells between the nucleus and the valence electron shell. Thus, the shielding effect
+			increases, the electrostatic force of attraction decreases, and less energy is required to remove the two valence electrons.
+
+		% end subsection
+
+		\subsection{Melting and Boiling Points}
+
+			\subsubsection{General Trend}
+
+				Generally speaking, the melting and boiling points decrease down the group, although there are rather large irregularities in
+				the trend. The broad reason for decreasing melting and boiling points is the increasing cationic size down the group, leading
+				to weaker electrostatic forces between the delocalised electron cloud and the ions --- hence weaker metallic bonding.
+
+				There is unfortunately no simple explanation for the irregularity in the trend.
+
+			% end subsubsection
+
+
+			\subsubsection{Comparison with Group \bld{\romannum{I}} Metals}
+
+				In the same period, group \rtwo{} metals have higher melting and boiling points than group \bld{\romannum{I}} metals, primarily
+				due to the increase in nuclear charge (+1 to +2), and more electrons in the delocalised cloud, leading to stronger metallic
+				bonding.
+
+			% end subsubsection
+
+		% end subsection
+
+
+
+		\subsection{Solubility of Hydroxides and Sulphates}
+
+			The solubility of group \rtwo{} hydroxides \itl{increases} down the group, while the solubility of the sulphates \itl{decrease}
+			down the group; \ch{Mg(OH)2} and \ch{BaSO4} are insoluble, while \ch{MgSO4} and \ch{Ba(OH)2} are soluble.
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\enth{sol} $= -LE + ∆H_{hyd}$
+				\schemestop
+			}{\vspace{-2em}}
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					$LE \propto \frac{q_{+}\times q_{-}}{r_{+} + r_{-}}$\hspace{20mm}\enth{hyd} $\propto \frac{q_{+}}{r_{+}} + \frac{q_{-}}{r_{-}}$
+				\schemestop
+			}{\vspace{-2em}}
+
+
+			For the sulphates, the anionic radius is far larger than the cationic radius, hence the lattice energy remains relatively constant
+			down the group. However, looking at the enthalpy change of hydration, the increasing cationic radius decreases the \enth{hyd}.
+			Hence, the overall effect is that \enth{sol} increases down the group, becoming \itl{less exothermic}, and hence solubility decreases.
+
+			For the hydroxides, the reverse is true; the anionic radius is small compared to the cation, so the lattice energy decreases
+			down the group as the cationic radius has a greater effect. Thus, combined with the decreasing \enth{hyd}, solubility for
+			the hydroxides increases down the group.
+
+		% end subsection
+	% end section
+
+
+	\pagebreak
+	\section{Chemical Properties of the Elements}
+
+		\subsection{Redox Reactivity}
+
+			Due to the decrease in first two ionisation energies down the group, the group \rtwo{} metals are more easily oxidised down the
+			group. Therefore, their strength as reducing agents also increases down the group.
+
+			Behold a table of \Eox{} values (lol you thought you had escaped them, didn't you):
+
+			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
+			\begin{tabu} to \textwidth {X[c,m] | X[c,m]}
+
+				% headings
+				Reaction							&	\Eox{}$ / V$	\\	\hline
+				\ch{Be \stS -> Be^2+ + 2 e-}		&	\num[retain-explicit-plus]{+1.99}		\\	\hline
+				\ch{Mg \stS -> Mg^2+ + 2 e-}		&	\num[retain-explicit-plus]{+2.37}		\\	\hline
+				\ch{Ca \stS -> Ca^2+ + 2 e-}		&	\num[retain-explicit-plus]{+2.87}		\\	\hline
+				\ch{Sr \stS -> Sr^2+ + 2 e-}		&	\num[retain-explicit-plus]{+2.89}		\\	\hline
+				\ch{Ba \stS -> Ba^2+ + 2 e-}		&	\num[retain-explicit-plus]{+2.91}		\\	\hline
+
+
+			\end{tabu}
+			\end{table}\end{center}\vspace{-10mm}
+
+		% end subsection
+
+
+		\subsection{Reaction with Oxygen}
+
+			The trend of the metals' reactions with oxygen is simply a product of their increasing reducing power down the group. They all
+			tarnish in air (before exploding) without external agents, and the reactivity increases down the group.
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{2 Mg \stS} + \ch{O2 \stG}\arrow\ch{2 MgO \stS}
+				\schemestop
+			}{\vspace{-1.5em}}
+
+			Barium reacts at room temperature quickly, so it is stored under oil to prevent rapid tarnishing. Beryllium on the other hand needs
+			to be burning before \itl{any} reaction takes place; its curiosities will be explored later.
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Reaction with Water}
+
+			Again, the reactivity of the metals with water increase down the group; they reduce water to
+			hydrogen gas. Note that beryllium does not react with water (or steam), even when heated.
+
+			All the metals form hydroxides with the exception of magnesium --- when reacting with steam,
+			it forms \ch{MgO} directly, and reacts slowly with cold water otherwise to form \ch{Mg(OH)2}.
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{2 Mg \stS} + \ch{H2O \stG}\arrow\ch{MgO \stS} + \ch{H2 \stG}
+				\schemestop
+			}{\vspace{-1.5em}}
+
+			For the rest of the metals, hydroxides are formed directly, with increasing vigour down the group.
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{Ba \stS} + \ch{2 H2O \stL}\arrow\ch{Ba(OH)2 \stAq} + \ch{H2 \stG}
+				\schemestop
+			}{\vspace{-1.5em}}
+
+			Note that the solubility of \ch{Ca(OH)2} is an equilibrium, and exists as either slaked lime in
+			the solid form, or limewater in the aqueous form. The latter is produced when reacted with excess
+			water.
+
+			Finally, all the group \rtwo{} hydroxides are basic (duh), except for beryllium hydroxide
+			(\ch{Be(OH)2}) which is amphoteric.
+
+		% end subsection
 
 	% end section
 
 
+	\section{Chemical Properties of the Oxides}
+
+		\subsection{Physical Properties}
+
+			Strictly does not belong in this section, but whatever. All group \rtwo{} oxides are solid at room
+			temperature, are white, are basic, and have very high melting and boiling points. Melting and
+			boiling points for the oxides decrease down the group, due to a decreasing lattice energy.
+
+		% end subsection
+
+
+		\subsection{Reaction with Water}
+
+			All group \rtwo{} oxides react with water to form their respective hydroxides (hence they are basic
+			oxides), except \ch{BeO} which is amphoteric, but does not react with water.
+
+			The vigour of the reaction increases down the group, since the magnitude of the lattice energy
+			of the ionic oxide decreases.
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{BaO \stS} + \ch{H2O \stL}\arrow\ch{Ba(OH)2 \stAq}
+				\schemestop
+			}{\vspace{-1.5em}}
+
+		% end subsection
+
+	% end section
+
+
+	\section{Thermal Stability of Group \romannum{II} Compounds}
+
+		\subsection{Overview}
+
+			All group \rtwo{} hydroxides, carbonates and nitrates thermally decompose at appropriate
+			temperatures. The trend for all 3 is that the temperature required \itl{increases} down
+			the group, aka. the stability of these ionic compounds increases down the group.
+
+			The data for beryllium is generally sparse, so... it's not there. Oops.
+
+			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
+			\begin{tabu} to \textwidth {X[c,m] | X[c,m] | X[c,m] | X[c,m]}
+
+				% headings
+				Element		&	\ch{MCO3}	&	\ch{M(NO3)2}	&	\ch{M(OH)2}	\\	\hline
+				\ch{Mg}		&	\SI{400}{\celsius}	&\SI{450}{\celsius}	&\SI{300}{\celsius}		\\	\hline
+				\ch{Ca}		&	\SI{900}{\celsius}	&\SI{575}{\celsius}	&\SI{390}{\celsius}		\\	\hline
+				\ch{Sr}		&	\SI{1280}{\celsius}	&\SI{635}{\celsius}	&\SI{466}{\celsius}		\\	\hline
+				\ch{Ba}		&	\SI{1360}{\celsius}	&\SI{675}{\celsius}	&\SI{700}{\celsius}		\\	\hline
+
+			\end{tabu}
+			\end{table}\end{center}\vspace{-10mm}
+
+			The main factor affecting the thermal stability is the polarising power of the ion, which depends
+			on charge density --- this decreases down the group, leading to more stable ionic compounds.
+
+		% end subsection
+
+
+		\subsection{Mechanism of Action}
+
+			The decomposition of all 3 categories of ionic compounds follow the same principle. Given the
+			relatively high charge density of the group \rtwo{} metals, they are able to \itl{polarise} the
+			covalent bonds \itl{within the anion}, weakening them.
+
+			This weakening of the covalent bonds in the anion allows said bond to break when heat is applied,
+			typically resulting in a metal oxide as the product.
+
+			\diagram[1.0]{
+				\schemestart[0, 1.5, thick]
+					\chemfig{Mg\sps{2+}-[:0,1.2,,,dashed]!\molO(-[@{bond}:0,1.3,,,lddbond]C(
+					-[:60,,,,lddbond]!\molO)(-[:300,,,,lddbond]!\molO)(-[:120,1.5,,,draw=none]@{txt}weak))}
+				\schemestop
+
+				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=2mm](txt) -- (bond);}
+			}{\vspace{0em}}
+
+
+			In this case, when heat is applied, the weak bond will be broken, leading to the formation of
+			\ch{MO} and \ch{CO2}. Generally speaking this is why metal oxides are usually formed.
+
+			As the polarising power of the metal ion decreases down the group (due to increasing radius but
+			constant charge), the bond is weakened to a lesser degree, leading to a higher stability.
+
+			Clearly, only polyatomic anions can be decomposed; monatomic anions cannot be broken down further
+			by heat.
+
+
+			\subsubsection{Carbonates}
+
+				The thermal decomposition of group \rtwo{} carbonates generally produces the metal oxide,
+				and carbon dioxide gas.
+
+				\txtdiagram{
+					\schemestart[0,1.5,thick]
+						\ch{BaCO3 \stS}\arrow{->[\tinytext{heat}]}\ch{BaO \stS} + \ch{CO2 \stG}
+					\schemestop
+				}{\vspace{-1.5em}}
+
+			% end subsubsection
+
+
+			% small note: moved up here to make the arrow misalignment less jarring
+			\subsubsection{Hydroxides}
+
+				Decomposing hydroxides produces the metal oxide and water.
+
+				\txtdiagram{
+					\schemestart[0,1.5,thick]
+						\ch{Ba(OH)2 \stS}\arrow{->[\tinytext{heat}]}\ch{BaO \stS} + \ch{H2O \stL}
+					\schemestop
+				}{\vspace{-1.5em}}
+
+
+			% end subsubsection
+
+
+			\subsubsection{Nitrates}
+
+				The thermal decomposition of nitrates generally yields the metal oxide, as well as nitrogen
+				and oxygen gas.
+
+				\txtdiagram{
+					\schemestart[0,1.5,thick]
+						\ch{2 Ba(NO3)2 \stS}\arrow{->[\tinytext{heat}]}\ch{2 BaO \stS} + \ch{4 NO2 \stG} + \ch{O2 \stG}
+					\schemestop
+				}{\vspace{-1.5em}}
+
+			% end subsubsection
+
+		% end subsection
+
+
+		\subsection{Comparison with Group \romannum{I} Metals}
+
+			Most group \bld{\romannum{I}} metals do not have sufficient charge density to polarise the
+			carbonate anion, however they do polarise the nitrate ion enough for some decomposition:
+
+			\txtdiagram{
+				\schemestart[0,1.5,thick]
+					\ch{2 NaNO3 \stS}\arrow{->[\tinytext{heat}]}\ch{2 NaNO2 \stS} + \ch{O2 \stG}
+				\schemestop
+			}{\vspace{-1.5em}}
+
+			Lithium is the exception to this rule --- it has a sufficiently high charge density (due to its
+			tiny ionic radius) to polarise nitrates fully to decompose in the same way as group 2 ions, and
+			can also polarise carbonates.
+
+			\txtdiagram{
+				\schemestart[0,1.5,thick]
+					\ch{Li2CO3 \stS}\arrow{->[\tinytext{heat}]}\ch{Li2O \stS} + \ch{CO2 \stG}
+				\schemestop
+			}{\vspace{-1.5em}}
+
+		% end subsection
+
+	% end section
+
+
+	\section{Beryllium Being Boneheaded}
+
+		Nice alliteration, eh?
+
+		The majority of the discrepancies with beryllium can be attributed to the highly covalent character
+		of bonds formed with \ch{Be}, partially due to its high charge density which can polarise the electron
+		cloud of anions.
+
+		Compounds with large anions, such as \ch{Be\Cl2}, are completely covalent.
+
+
+
+		\subsection{Non-reaction with Water and Oxygen}
+
+			Similar to magnesium but more extreme, beryllium forms an \itl{impervious} oxide layer when
+			exposed to oxygen --- this reacts with neither water nor oxygen, leading to its unreactivity.
+
+		% end subsection
+
+
+		\subsection{Amphoteric Nature}
+
+			Beryllium oxides and hydroxides are amphoteric unlike its other group \rtwo{} compatriots, and
+			this is due to the partially covalent nature of the bonds with \ch{Be}.
+
+			\begin{bulletlist}
+				& Acid:\tabto{15mm} \ch{BeO + 2 NaOH + H2O -> Na2[Be(OH)4]}
+				& Base:\tabto{15mm} \ch{BeO + H2SO4 -> BeSO4 + H2O}
+			\end{bulletlist}
+
+			Note the formation of the \ch{[Be(OH)4]^2-} complex, which will be discussed below.
+
+		% end subsection
+
+
+		\subsection{Formation of \ch{Be} complexes}
+
+			\subsubsection{Hydrated Ions}
+
+				As will be discussed later, \ch{Mg^2+} has sufficient charge density to form hydrated complex
+				ions in water (\ch{[Mg(H2O)6]^2+}). Thus, it is clear that \ch{Be} should form these complexes
+				as well, and it does --- \ch{[Be(H2O)4]^2+}.
+
+				However, \ch{Be^2+} is only 4-coordinate, due to the lack of vacant d-orbitals (there is no 2d
+				subshell). Hence, by using the 2s and 2p orbitals, it can form 4 bonds with ligands. By contrast
+				\ch{Mg^2+} has a 3d subshell, allowing for more ligands.
+
+			% end subsubsection
+
+
+			\pagebreak
+			\subsubsection{Other Complexes}
+
+				While \ch{Be^2+} can form complexes, \ch{Be} can also form complexes when bonded with other
+				atoms, since it still has 2 vacant p-orbitals to fill with ligand bonds.
+
+				An example seen above is the formation of \ch{[Be(OH)4]^2-} when \ch{Be(OH)2} is exposed to
+				more \ch{OH-}, and the formation of \ch{[BeF4]^2-}.
+
+				\txtdiagram{
+					\schemestart[0,1.5,thick]
+						\ch{Be(OH)2 \stAq} + \ch{2 OH- \stAq} \arrow \ch{[Be(OH)4]^2- \stAq}
+						\arrow(@c1.south east--.north east){0}[-90,.25]
+						\ch{BeF2 \stAq} + \ch{2 F- \stAq} \arrow \ch{[BeF4]^2- \stAq}
+					\schemestop
+				}{\vspace{-1.5em}}
+
+				A point to note is that \ch{[Be(OH)4]^2-} is created from \ch{Be(OH)2}, which is itself formed
+				from the hydrolysis of a beryllium salt in water (since \ch{BeO} does not react with water).
+
+				On adding a base (aka \ch{OH-}), the hydrated \ch{[Be(H2O)4]^2+} complex acts as an acid,
+				forming the \ch{[Be(OH)4]^2-} by losing 4 \ch{H+} ions. This behaviour is conveniently
+				discussed below.
+
+			% end subsubsection
+
+		% end subsection
+
+		\subsection{Acidity of Beryllium Salts}
+
+			Similar to other cations of high charge density like \ch{\Al^3+}, \ch{Fe^3+} and \ch{Cr^3+} (and to
+			a certain extent \ch{Mg^2+}), \ch{Be^2+} forms a hydrated complex in water, \ch{[Be(H2O)4]^2+},
+			which was seen above.
+
+			Just like the other complexes, it can hydrolyse to give \ch{H3O}+, making it acidic in water.
+
+			\txtdiagram{
+				\schemestart[0,1.5,thick]
+					\ch{[Be(H2O)4]^2+} + \ch{H2O}\arrow\ch{[Be(H2O)3(OH)]+} + \ch{H3O+}
+				\schemestop
+			}{\vspace{-1.5em}}
+
+			Naturally it can undergo further hydrolysis to finally form \ch{[Be(OH)4]^2-}. This behaviour
+			is what enables beryllium to react with bases, and be amphoteric.
+
+
+		% end subsection
+
+	% end section
+
 % end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

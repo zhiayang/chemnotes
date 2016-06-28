@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  25 JUN 2016 17:59
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  28 JUN 2016 19:28
  system commands enabled.
 **InorganicChem.tex
 (./InorganicChem.tex
@@ -1383,7 +1383,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.167 seconds)
+luaotfload | main : initialization completed in 0.321 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -4284,7 +4284,12 @@ File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[1] (./InorganicChem.toc)
+[1] (./InorganicChem.toc
+Package microtype Info: Loading generic settings for font family
+(microtype)             `AlexandriaFLF' (encoding: EU2).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 \tf@toc=\write5
 
 \openout5 = InorganicChem.toc
@@ -4295,39 +4300,120 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `Roboto-Light' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `AlexandriaFLF' (encoding: EU2).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [1]
+ [1]
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 97.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/14'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/14'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/9.79996'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/9.79996'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 14.00021pt on input line 97.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/14'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/14'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 9.8001pt on input line 97.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/9.79996'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/9.79996'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 7.0001pt on input line 97.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 13.99979pt on input line 97.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/14'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/14'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 9.7998pt on input line 97.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/9.79996'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/9.79996'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 6.9999pt on input line 97.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 14.0pt on input line 97.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 97.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 97.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 12.96649pt on input line 97.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 9.07649pt on input line 97.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 6.48325pt on input line 97.
+ [2] [3]
+[4] [5] [6] [7]) [8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
-
-(./InorganicChem.aux)
+ (./InorganicChem.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 74.
 )
 
 Here is how much of LuaTeX's memory you used:
- 64337 strings out of 495119
- 100000,1977958 words of node,token memory allocated
- 938 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 33 glue, 1 kern, 22 attribute, 90 glue_spec, 22 att
-ribute_list, 1 write nodes
-   avail lists: 1:26,2:4508,3:2276,4:73,5:46,6:94,7:2110,8:20,9:1173,10:4,11:5,1
-2:3
- 65425 multiletter control sequences out of 65536+600000
- 162 fonts using 32898447 bytes
- 81i,14n,108p,882b,2579s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-RegIta.ttf><
-/usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Roboto-Light.ttf
-></Users/zhiayang/Library/Fonts/AlexandriaFLF.ttf></usr/local/texlive/2016/texmf
--dist/fonts/truetype/public/lato/Lato-Reg.ttf></usr/local/texlive/2016/texmf-dis
-t/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Light.otf>
-Output written on InorganicChem.pdf (4 pages, 32671 bytes).
+ 64956 strings out of 495119
+ 125051,1977958 words of node,token memory allocated
+ 3195 words of node memory still in use:
+   8 hlist, 2 vlist, 3 rule, 292 glue, 1 kern, 130 attribute, 89 glue_spec, 130 
+attribute_list, 1 write nodes
+   avail lists: 1:95,2:12601,3:4386,4:116,5:171,6:2034,7:1853,8:82,9:1171,10:7,1
+1:171,12:4
+ 65911 multiletter control sequences out of 65536+600000
+ 258 fonts using 51848059 bytes
+ 81i,25n,108p,882b,2601s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.
+otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-M
+ath.otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asa
+na-Math.otf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-
+RegIta.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Robo
+to-Light.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF-Bold.ttf></Users/zhiay
+ang/Library/Fonts/Lato-Semibold.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF
+.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Reg.ttf
+></usr/local/texlive/2016/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSa
+nsPro-Light.otf>
+Output written on InorganicChem.pdf (11 pages, 95666 bytes).
 
-PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 131072)
- 32 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 286 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 131072)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
