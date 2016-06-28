@@ -1,31 +1,38 @@
-\contentsline {part}{\numberline {I}Group {\Alexandria \selectfont {II}\LatoRegular \fontsize {11pt}{13pt}\selectfont }}{1}{part.1}
+\contentsline {part}{\numberline {I}Group {\Alexandria \selectfont {VII}\LatoRegular \fontsize {11pt}{13pt}\selectfont }}{1}{part.1}
 \contentsline {section}{\numberline {1}Overview}{1}{section.1.1}
 \contentsline {section}{\numberline {2}Physical Properties}{1}{section.1.2}
 \contentsline {subsection}{\numberline {2.1}Electronic Configuration}{1}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {2.2}Ionic and Atomic Radii}{1}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {2.3}Ionisation Energy}{2}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {2.4}Melting and Boiling Points}{2}{subsection.1.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}General Trend}{2}{subsubsection.1.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Comparison with Group \textbf {{\Alexandria \selectfont {I}\LatoRegular \fontsize {11pt}{13pt}\selectfont }} Metals}{2}{subsubsection.1.2.4.2}
-\contentsline {subsection}{\numberline {2.5}Solubility of Hydroxides and Sulphates}{2}{subsection.1.2.5}
-\contentsline {section}{\numberline {3}Chemical Properties of the Elements}{3}{section.1.3}
-\contentsline {subsection}{\numberline {3.1}Redox Reactivity}{3}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {3.2}Reaction with Oxygen}{3}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {3.3}Reaction with Water}{4}{subsection.1.3.3}
-\contentsline {section}{\numberline {4}Chemical Properties of the Oxides}{4}{section.1.4}
-\contentsline {subsection}{\numberline {4.1}Physical Properties}{4}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {4.2}Reaction with Water}{4}{subsection.1.4.2}
-\contentsline {section}{\numberline {5}Thermal Stability of Group {\Alexandria \selectfont {II}\LatoRegular \fontsize {11pt}{13pt}\selectfont } Compounds}{5}{section.1.5}
-\contentsline {subsection}{\numberline {5.1}Overview}{5}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {5.2}Mechanism of Action}{5}{subsection.1.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Carbonates}{6}{subsubsection.1.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Hydroxides}{6}{subsubsection.1.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Nitrates}{6}{subsubsection.1.5.2.3}
-\contentsline {subsection}{\numberline {5.3}Comparison with Group {\Alexandria \selectfont {I}\LatoRegular \fontsize {11pt}{13pt}\selectfont } Metals}{6}{subsection.1.5.3}
-\contentsline {section}{\numberline {6}Beryllium Being Boneheaded}{7}{section.1.6}
-\contentsline {subsection}{\numberline {6.1}Non-reaction with Water and Oxygen}{7}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {6.2}Amphoteric Nature}{7}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {6.3}Formation of \ch {Be} complexes}{7}{subsection.1.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Hydrated Ions}{7}{subsubsection.1.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Other Complexes}{8}{subsubsection.1.6.3.2}
-\contentsline {subsection}{\numberline {6.4}Acidity of Beryllium Salts}{8}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {2.2}Various Radii}{1}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.3}Bond Energy}{2}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {2.4}Electron Things}{2}{subsection.1.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}First Ionisation Energy}{2}{subsubsection.1.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}First Electron Affinity}{2}{subsubsection.1.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Electronegativity}{3}{subsubsection.1.2.4.3}
+\contentsline {subsection}{\numberline {2.5}Melting and Boiling Points}{3}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {2.6}Solubility}{3}{subsection.1.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}In Polar Solvents (Water)}{3}{subsubsection.1.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}In Non-polar Solvents}{4}{subsubsection.1.2.6.2}
+\contentsline {subsection}{\numberline {2.7}Colours}{4}{subsection.1.2.7}
+\contentsline {section}{\numberline {3}Chemical Properties of the Elements}{5}{section.1.3}
+\contentsline {subsection}{\numberline {3.1}Oxidation State}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {3.2}Oxidising Power}{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {3.3}Halogen Displacement}{5}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {3.4}Reaction with Water}{6}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {3.5}Reaction with Aqueous \ch {Fe^2+} Ions}{6}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {3.6}Reaction with Thiosulphate (\ch {S2O3^2-}) Ions}{7}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {3.7}Disproportionation in Alkaline Solutions}{7}{subsection.1.3.7}
+\contentsline {subsection}{\numberline {3.8}Reaction with Metals}{8}{subsection.1.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}Reaction with Sodium}{8}{subsubsection.1.3.8.1}
+\contentsline {subsubsection}{\numberline {3.8.2}Reaction with Iron}{8}{subsubsection.1.3.8.2}
+\contentsline {subsection}{\numberline {3.9}Reaction with Phosphorus}{9}{subsection.1.3.9}
+\contentsline {subsection}{\numberline {3.10}Reaction with Hydrogen}{9}{subsection.1.3.10}
+\contentsline {section}{\numberline {4}Chemical Properties of Hydrogen Halides}{10}{section.1.4}
+\contentsline {subsection}{\numberline {4.1}Physical Properties}{10}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {4.2}Thermal Stability}{10}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {4.3}Acid Strength}{10}{subsection.1.4.3}
+\contentsline {section}{\numberline {5}Chemical Properties of Halide Ions}{11}{section.1.5}
+\contentsline {subsection}{\numberline {5.1}Precipitation Reactions}{11}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {5.2}Reaction with Lead (II) Ions}{12}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {5.3}Reaction with Concentrated \ch {H2SO4}}{12}{subsection.1.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Reaction in the Presence of \ch {MnO2}}{13}{subsubsection.1.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}\ch {H3PO4} as a Weaker Oxidising Agent}{13}{subsubsection.1.5.3.2}

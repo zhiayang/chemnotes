@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  28 JUN 2016 19:28
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  29 JUN 2016 03:15
  system commands enabled.
 **InorganicChem.tex
 (./InorganicChem.tex
@@ -1383,7 +1383,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.321 seconds)
+luaotfload | main : initialization completed in 0.193 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -4179,7 +4179,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 32.
+(Font)              scaled to size 12.00018pt on input line 29.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4187,7 +4187,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 32.
+(Font)              scaled to size 11.99982pt on input line 29.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4195,10 +4195,10 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 29.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 11.11414pt on input line 32.
-LaTeX Font Info:    Calculating math sizes for size <23> on input line 36.
+(Font)              scaled to size 11.11414pt on input line 29.
+LaTeX Font Info:    Calculating math sizes for size <23> on input line 33.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/23'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4218,7 +4218,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/11.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 23.00035pt on input line 36.
+(Font)              scaled to size 23.00035pt on input line 33.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/23'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4226,7 +4226,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/23'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 16.10017pt on input line 36.
+(Font)              scaled to size 16.10017pt on input line 33.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/16.09993'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4234,7 +4234,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/16.09993'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 11.50017pt on input line 36.
+(Font)              scaled to size 11.50017pt on input line 33.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/11.5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4242,7 +4242,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/11.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 22.99965pt on input line 36.
+(Font)              scaled to size 22.99965pt on input line 33.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/23'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4250,7 +4250,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/23'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 16.09967pt on input line 36.
+(Font)              scaled to size 16.09967pt on input line 33.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/16.09993'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4258,7 +4258,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/16.09993'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 11.49982pt on input line 36.
+(Font)              scaled to size 11.49982pt on input line 33.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/11.5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4266,17 +4266,17 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/11.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 23.0pt on input line 36.
+(Font)              scaled to size 23.0pt on input line 33.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 16.09993pt on input line 36.
+(Font)              scaled to size 16.09993pt on input line 33.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 11.5pt on input line 36.
+(Font)              scaled to size 11.5pt on input line 33.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 21.3021pt on input line 36.
+(Font)              scaled to size 21.3021pt on input line 33.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 14.91139pt on input line 36.
+(Font)              scaled to size 14.91139pt on input line 33.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 10.65105pt on input line 36.
+(Font)              scaled to size 10.65105pt on input line 33.
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
 File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
@@ -4294,14 +4294,14 @@ Package microtype Info: Loading generic settings for font family
 
 \openout5 = InorganicChem.toc
  [1]
-Package hyperref Info: Option `pageanchor' set `true' on input line 59.
- ("./Chapter 01 - Group Two.tex"
+Package hyperref Info: Option `pageanchor' set `true' on input line 56.
+ ("./Chapter 02 - Group Seven.tex"
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Roboto-Light' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 97.
+ [1] [2]
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 155.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/14'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4321,7 +4321,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 14.00021pt on input line 97.
+(Font)              scaled to size 14.00021pt on input line 155.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/14'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4329,7 +4329,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/14'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 9.8001pt on input line 97.
+(Font)              scaled to size 9.8001pt on input line 155.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/9.79996'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4337,7 +4337,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/9.79996'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 97.
+(Font)              scaled to size 7.0001pt on input line 155.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4345,7 +4345,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(1)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 13.99979pt on input line 97.
+(Font)              scaled to size 13.99979pt on input line 155.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/14'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4353,7 +4353,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/14'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 9.7998pt on input line 97.
+(Font)              scaled to size 9.7998pt on input line 155.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/9.79996'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4361,7 +4361,7 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/9.79996'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 97.
+(Font)              scaled to size 6.9999pt on input line 155.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4369,51 +4369,306 @@ Package microtype Info: Character `guilsinglright ' is missing
 (microtype)             in font `EU2/Asana-Math(2)/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 97.
+(Font)              scaled to size 14.0pt on input line 155.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 9.79996pt on input line 97.
+(Font)              scaled to size 9.79996pt on input line 155.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 97.
+(Font)              scaled to size 7.0pt on input line 155.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 12.96649pt on input line 97.
+(Font)              scaled to size 12.96649pt on input line 155.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 9.07649pt on input line 97.
+(Font)              scaled to size 9.07649pt on input line 155.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
-(Font)              scaled to size 6.48325pt on input line 97.
- [2] [3]
-[4] [5] [6] [7]) [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+(Font)              scaled to size 6.48325pt on input line 155.
+
+[3] [4] [5]
+LaTeX Font Info:    Calculating math sizes for size <21> on input line 288.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/21'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/21'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/14.69994'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/14.69994'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/10.5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/10.5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 21.00032pt on input line 288.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/21'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/21'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 14.70015pt on input line 288.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/14.69994'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/14.69994'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 10.50015pt on input line 288.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/10.5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/10.5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 20.99968pt on input line 288.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/21'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/21'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 14.6997pt on input line 288.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/14.69994'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/14.69994'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 10.49983pt on input line 288.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/10.5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/10.5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 21.0pt on input line 288.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 14.69994pt on input line 288.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 10.5pt on input line 288.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 19.44974pt on input line 288.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 13.61475pt on input line 288.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 9.72487pt on input line 288.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 288.
+
+[6]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 301.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 321.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/11'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/11'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/7.69997'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/7.69997'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/5.5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/5.5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 11.00017pt on input line 321.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/11'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/11'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 7.70007pt on input line 321.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/7.69997'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/7.69997'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 5.50008pt on input line 321.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/5.5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/5.5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 10.99983pt on input line 321.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/11'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/11'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 7.69984pt on input line 321.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/7.69997'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/7.69997'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 5.49991pt on input line 321.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/5.5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/5.5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 11.0pt on input line 321.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 7.69997pt on input line 321.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 5.5pt on input line 321.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 10.18796pt on input line 321.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 7.13153pt on input line 321.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 5.09398pt on input line 321.
+[7
+Missing character: There is no ̧ (U+0327) in font Lato-Regular:mode=node;script
+=latn;language=DFLT;!
+] [8] [9] [10] [11] [12]
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 646.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/18'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/18'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/12.59995'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/12.59995'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(0)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 18.00027pt on input line 646.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/18'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/18'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 12.60013pt on input line 646.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/12.59995'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/12.59995'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(1)/m/n' will be
+(Font)              scaled to size 9.00014pt on input line 646.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(1)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 17.99973pt on input line 646.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/18'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/18'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 12.59975pt on input line 646.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/12.59995'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/12.59995'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Asana-Math(2)/m/n' will be
+(Font)              scaled to size 8.99986pt on input line 646.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `EU2/Asana-Math(2)/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 18.0pt on input line 646.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 12.59995pt on input line 646.
+LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 646.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 16.6712pt on input line 646.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 11.66978pt on input line 646.
+LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
+(Font)              scaled to size 8.3356pt on input line 646.
+) [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
  (./InorganicChem.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 74.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 72.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 64956 strings out of 495119
- 125051,1977958 words of node,token memory allocated
- 3195 words of node memory still in use:
-   8 hlist, 2 vlist, 3 rule, 292 glue, 1 kern, 130 attribute, 89 glue_spec, 130 
+ 65266 strings out of 495119
+ 125024,1977958 words of node,token memory allocated
+ 4237 words of node memory still in use:
+   8 hlist, 2 vlist, 3 rule, 414 glue, 1 kern, 177 attribute, 89 glue_spec, 177 
 attribute_list, 1 write nodes
-   avail lists: 1:95,2:12601,3:4386,4:116,5:171,6:2034,7:1853,8:82,9:1171,10:7,1
-1:171,12:4
- 65911 multiletter control sequences out of 65536+600000
- 258 fonts using 51848059 bytes
+   avail lists: 1:215,2:22565,3:7059,4:208,5:146,6:1954,7:1731,8:95,9:1171,10:4,
+11:176,12:3
+ 66134 multiletter control sequences out of 65536+600000
+ 333 fonts using 69765751 bytes
  81i,25n,108p,882b,2601s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.
 otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-M
-ath.otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asa
-na-Math.otf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-
-RegIta.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Robo
-to-Light.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF-Bold.ttf></Users/zhiay
-ang/Library/Fonts/Lato-Semibold.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF
-.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Reg.ttf
-></usr/local/texlive/2016/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSa
-nsPro-Light.otf>
-Output written on InorganicChem.pdf (11 pages, 95666 bytes).
+ath.otf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-RegI
+ta.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF-Bold.ttf></usr/local/texlive
+/2016/texmf-dist/fonts/truetype/google/roboto/Roboto-Light.ttf></Users/zhiayang/
+Library/Fonts/Lato-Semibold.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF.ttf
+></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Reg.ttf></u
+sr/local/texlive/2016/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPr
+o-Light.otf>
+Output written on InorganicChem.pdf (16 pages, 111612 bytes).
 
-PDF statistics: 286 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 131072)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 334 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 131072)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
