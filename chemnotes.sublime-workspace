@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Iorn",
+				"inorganic"
+			],
+			[
 				"get",
 				"getArgumentN(size_t n)	fir::Type *"
 			],
@@ -510,28 +514,32 @@
 			[
 				"createlogial",
 				"CreateLogicalAND(fir::Value *a, fir::Value *b)	fir::Value *"
-			],
-			[
-				"Res",
-				"Result_t	struct"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
+			"file": "InorganicChem/Chapter 02 - Group Seven.tex",
 			"settings":
 			{
-				"buffer_size": 16892,
+				"buffer_size": 25400,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "studynotes.sty",
+			"file": "InorganicChem/Chapter 01 - Group Two.tex",
 			"settings":
 			{
-				"buffer_size": 15795,
+				"buffer_size": 16773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "InorganicChem/InorganicChem.tex",
+			"settings":
+			{
+				"buffer_size": 1408,
 				"line_ending": "Unix"
 			}
 		}
@@ -565,6 +573,10 @@
 		[
 			[
 				"ch",
+				"Snippet: Copyright Header"
+			],
+			[
+				"h",
 				"Snippet: Copyright Header"
 			],
 			[
@@ -685,10 +697,6 @@
 			],
 			[
 				"head",
-				"Snippet: Copyright Header"
-			],
-			[
-				"h",
 				"Snippet: Copyright Header"
 			],
 			[
@@ -884,46 +892,55 @@
 	"expanded_folders":
 	[
 		"/Users/zhiayang/Documents/Chem Notes",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem"
+		"/Users/zhiayang/Documents/Chem Notes/InorganicChem",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem"
 	],
 	"file_history":
 	[
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/InorganicChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/Chapter 01 - Group Two.tex",
 		"/Users/zhiayang/Documents/Chem Notes/studynotes.sty",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 03 - Reaction Kinetics.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix B - List of Reactions.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 04 - Reaction Mechanisms.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 18 - Proteins.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.log",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix A - Reaction Mechanisms.tex",
-		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/zhiayang/Library/Preferences/uk.org.hadwired.The-Powder-Toy.plist",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 04 - Induction and Resonance.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 07 - Arenes.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 17 - Amino Acids.tex",
-		"/Users/zhiayang/Documents/Chem Notes/makefile",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 01 - Functional Groups.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 10 - Phenols.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 09 - Alcohols.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 08 - Halogen Derivatives.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 06 - Alkenes.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 11 - Aldehydes and Ketones.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 02 - Isomers.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix C - Summary Tables.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 16 - Amines.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 14 - Esters.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 03 - Reaction Mechanisms.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 04 - Induction and Resonance.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 06 - Alkenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 07 - Arenes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 08 - Halogen Derivatives.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 09 - Alcohols.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 10 - Phenols.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 11 - Aldehydes and Ketones.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 12 - Carboxylic Acids.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 13 - Acyl Chlorides.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix B - List of Reactions.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 16 - Amines.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 03 - Reaction Kinetics.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 07 - Acid-Base Equilibrium.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 08 - Electrochemical Cells.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 09 - Electrolysis.tex",
+		"/Users/zhiayang/Documents/Chem Notes/makefile",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 09 - Electrolytic Cells.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 08 - Electrolysis.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix C - Summary Tables.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix D - Distinguishing Tests.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.toc",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 14 - Esters.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 15 - Amides.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 06 - Solubility Equilibrium.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 06 - Solubility and Ionic Equilibrium.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 18 - Proteins.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.log",
+		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zhiayang/Library/Preferences/uk.org.hadwired.The-Powder-Toy.plist",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 17 - Amino Acids.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.toc",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix A - List of Reaction Mechanisms.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 03 - Reaction Mechanisms.aux",
 		"/Users/zhiayang/Documents/Chem Notes/chemnotes.sublime-project",
@@ -1007,16 +1024,7 @@
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Math.flx",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/String.flx",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Unicode.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Math/Vector.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Math/Vector2.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Math/Vector3.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/arraytest.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/fizzbuzz.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/generics.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/recursiveFib.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/scopes.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Array.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Core.flx"
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Math/Vector.flx"
 	],
 	"find":
 	{
@@ -1027,6 +1035,8 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"",
+			"\\Cl",
 			"",
 			"*.cpp,*.h",
 			"",
@@ -1073,6 +1083,105 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Br",
+			"stAq",
+			"south east",
+			"bld",
+			"@c1",
+			"[heat]",
+			"txtdiagram",
+			"[heat]",
+			"[heta]",
+			"node",
+			"chemmove",
+			"ddbond",
+			"textit",
+			"Ca",
+			"explicit",
+			"table",
+			"tabl",
+			"table",
+			"tabu",
+			"tab",
+			"hydration",
+			"as",
+			"\\textit{",
+			"2,",
+			"2.5",
+			"hyper",
+			"alcoholdehydration",
+			"PhysicalChem",
+			"edge case",
+			"edge caes",
+			"Le Ch",
+			"diagram",
+			"standardstate",
+			"		\n",
+			"img",
+			"red.",
+			"reduction",
+			"halogenoalkanes",
+			"chematom",
+			"\\kilo\\joule\\per\\mole",
+			"tabu",
+			"Contents",
+			"LatoRegular",
+			"SSRegular",
+			"LatoLight",
+			"GillSans",
+			"SSLight",
+			"12pt",
+			"13pt",
+			"size",
+			"12pt",
+			"standardstate",
+			"\\Cl",
+			"\\cl",
+			"meo",
+			"\\Qp",
+			"\\Qc",
+			"\\kc",
+			"\\Kc",
+			"\\MKp",
+			"\\MKc",
+			"\\arrow(",
+			"tabu",
+			"henderson",
+			") (",
+			"30mm",
+			"si",
+			"40mm",
+			"node",
+			"xfrac",
+			"@{",
+			"90",
+			"@{",
+			"deltap",
+			"\\delta",
+			"\\chemdelta",
+			"chemabove",
+			"dashed",
+			"1.5",
+			"|!\\molO",
+			"[:",
+			")",
+			"+}()()()()()()}",
+			"table",
+			"^2+",
+			"\\aluminium",
+			"2mm",
+			"Strong",
+			"\\kc",
+			"\\mole\\per\\cubic\\deci\\metre",
+			"\\mole",
+			"\\mole\\per\\cubic\\deci\\metre",
+			"\\mol\\per\\cubic\\deci\\metre",
+			"\\mole\\per\\cubic\\deci\\metre",
+			"\\mol\\per\\cubic\\deci\\metre",
+			"\n		\\subsection{\\pH{} and \\pOH{}}\n\n			First, the general idea of \\textit{p} should be stated. In essence, it is this:\n\n			\\txtdiagram{\n				$pX = -lg(X)$, \\hspace{5mm} $X = 10^{-pX}$\n			}{\\vspace{-2em}}\n\n			So, it follows \\pH{} and \\pOH{} are, respectively,\n\n			\\txtdiagram{\n				$pH = -lg([H^{+}])$, \\hspace{5mm} $[H^{+}] = 10^{-pH}$\n				\\linebreak\n				\\linebreak\n				$pOH = -lg([OH^{-}])$, \\hspace{5mm} $[OH^{-}] = 10^{-pOH}$\n			}{\\vspace{-2em}}\n\n			In other words, it is a measure of the concentration of either \\ch{H+} or \\ch{OH-} in the solution. As you might be aware, the\n			lower the \\pH{}, the more \\ch{H+} there is. \\pOH{} is similar, although it obviously measures the concentration of \\ch{OH-}.\n\n			Note that neither \\pH{} nor \\pOH{} should be used to compare acid strengths --- as previously mentioned, strength is independent\n			of concentration. It can only be used as a comparison when both acids have the same initial concentration.\n\n		% end subsection\n\n\n		\\pagebreak\n		\\subsection{Ionic Product of Water, \\Kw{}}\n\n			Pure water actually \\textit{auto-ionises} to a very slight degree, giving \\ch{H+ \\stAq} and \\ch{OH- \\stAq}.\n\n			\\txtdiagram{\n				\\schemestart[0,1.0,thick]\n					\\ch{H2O \\stL}\\hspace{2mm} + \\hspace{2mm}\\ch{H2O \\stL}\n					\\arrow{<=>}\n					\\ch{H3O+ \\stAq}\\hspace{2mm} + \\hspace{2mm}\\ch{OH- \\stAq}\n				\\schemestop\n			}{\\vspace{-1.5em}}\n\n			Since this is an equilibrium, the \\Kc{} value is as such:\n\n			\\diagram[1.5]{\n				$K_{c} = \\frac{[H^{+}][OH^{-}]}{[H_{2}O]}$\n			}{\\vspace{-2em}}\n\n			Given that the extent of ionisation is minuscule, the ``concentration'' of \\ch{H2O} is almost constant, and so\n\n			\\txtdiagram{\n				$K_{c} \\times [H_{2}O] = [H^{+}][OH^{-}]$\n				\\linebreak\n				\\linebreak\n				$K_{w} = K_{c} \\times [H_{2}O] = [H^{+}][OH^{-}]$\n			}{\\vspace{-2em}}\n\n			Thus, \\pKw{} becomes relatively simple, taking $lg$ on both sides:\n\n			\\txtdiagram{\n				$pK_{w} = pH + pOH$\n			}{\\vspace{-2em}}\n\n			Experimentally, it is found that, at \\SI{25}{\\celsius}, $K_{w} = \\SI{1e-14}{\\mol\\per\\cubic\\deci\\metre}$, so:\n			\\begin{bulletlist}\n				& $pK_{w} = 14$\n				& $pH + pOH = 14$.\n			\\end{bulletlist}\n\n			The value of \\Kw{}, and by extension, \\pKw{}, is affected solely by temperature, just like \\Kc{}. Thus, only at \\SI{25}{\\celsius}\n			does $pH + pOH = 14$ hold; at higher temperatures, \\Kw{} \\textit{increases}, so the sum is \\textit{greater than} \\num{14}.\n\n			Of course, the relationships $pH + pOH = pK_{w}$ and $K_{w} = [H^{+}][OH^{-}]$ always hold.\n\n		% end subsection",
+			"\\chlorine",
+			"2mm",
+			"base",
 			"scale",
 			"\\sfrac",
 			"6",
@@ -1101,106 +1210,7 @@
 			"boltzmann",
 			"k[",
 			"125",
-			"1760",
-			"1120",
-			"500",
-			"490",
-			"330",
-			"\\diagram",
-			"t\\sbs{\\fracHalf}",
-			"0625",
-			"$reactant conc.$",
-			"[reactant]",
-			"ch4",
-			"txtdiagram",
-			"\\ea",
-			"dotted",
-			"dott",
-			"style",
-			"\\enth",
-			"Menth",
-			"list",
-			"fullscreen",
-			"ss",
-			"art",
-			"\\subsection{Foo}\n		\\subsection{Qux}",
-			"\n		\\subsection{Qux}\n	\\part{Bar}",
-			"\\pagebreak\n\\part",
-			"\\section{",
-			"section",
-			"\\subsubtext",
-			"\\subtext",
-			"titletext",
-			"hugetext",
-			"merriweather",
-			"afterpage",
-			"clearpage",
-			"setspace",
-			"minibox",
-			"\\section{A}",
-			"tittle",
-			"HNLight",
-			"HNMedium",
-			"\\SS",
-			"––",
-			"`",
-			"'",
-			"HN",
-			"normtext",
-			"HN",
-			"Merriweather",
-			"HelveticaNeue",
-			"test",
-			"yellow",
-			"oxidat",
-			"oxida",
-			"oxidation",
-			"further",
-			"Carbo",
-			"H2",
-			"array",
-			"purple",
-			"Yes",
-			"NaBH4",
-			"nitrile",
-			"reduce",
-			"reduction",
-			"table",
-			"Bar",
-			"include",
-			"part",
-			"chapter",
-			"addcontentsline",
-			"addtocontents",
-			"newpage",
-			"subsubsec",
-			"nitrileuses",
-			"\\vspace{0.75em}",
-			"\\vspace{0.5em}",
-			"% again, single line, no need for \\vspace{0.5em}",
-			"vspace{0.5em}",
-			"\\vspace{0.5em}",
-			"\\begin{minipage}",
-			"samepage",
-			"% end subsection",
-			"\\subsection",
-			"input",
-			"RequirePackage",
-			"\\section",
-			"formation of amides",
-			"formation of amines",
-			"yellow",
-			"heat under",
-			"@c1",
-			"paragraph",
-			"mid",
-			"[H",
-			"NucleophilicSubstitution",
-			"sntwo",
-			"snone",
-			"270",
-			"180",
-			"90"
+			"1760"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1208,6 +1218,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\itl{",
+			"\\Al",
+			"\\molarConc",
+			"\\mole\\per\\cubic\\deci\\metre",
+			"\\Cl",
 			"---",
 			"",
 			"minipage",
@@ -1330,12 +1345,7 @@
 			"stream.compare(0, 2",
 			"stream.find(0, 2, ",
 			"error(",
-			"mainModule",
-			"createDependencies(",
-			"Dep(cgi, ",
-			"Dep(cgi,",
-			"Dep(cgi",
-			"ps.tokens.size()"
+			"mainModule"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1346,65 +1356,95 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
+					"file": "InorganicChem/Chapter 02 - Group Seven.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16892,
+						"buffer_size": 25400,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16864,
-								16864
+								22750,
+								22750
 							]
 						],
 						"settings":
 						{
+							"open_with_edit": true,
 							"spell_check": true,
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6985.0,
+						"translation.y": 8822.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "studynotes.sty",
+					"file": "InorganicChem/Chapter 01 - Group Two.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15795,
+						"buffer_size": 16773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5551,
-								5556
+								16411,
+								16411
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5978.0,
+						"translation.y": 2773.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "InorganicChem/InorganicChem.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1237,
+								1237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 569.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1412,7 +1452,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -1473,7 +1513,7 @@
 	"project": "chemnotes.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

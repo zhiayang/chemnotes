@@ -399,8 +399,19 @@
 
 
 
-% helper macros
 
+\DeclareInstance{xfrac}{x}{text}
+{
+	scale-factor		= 1.1,
+	numerator-bot-sep	= 0.5em,
+	slash-left-kern		= -0.1em,
+}
+
+\newcommand {\fraction}		[2]{\sfrac[x]{#1}{#2}\hspace{1mm}}
+\newcommand	{\fracHalf}		{\fraction{1}{2}}
+
+
+% helper macros
 
 \newcommand	{\normtext}		{\LatoRegular\fontsize{11pt}{13pt}\selectfont}
 
@@ -512,6 +523,31 @@
 \newcommand {\molecule}		[1]{\begin{center}\chemfig{#1}\end{center}}
 
 
+\makeatletter
+\newcommand\dotlewis[3][\CF@lewis@dist]{% #1=distance, #2=atom #3=list of angles
+\tikzpicture[baseline,anchor=base]%
+\node[inner sep=0pt,outer sep=1pt,circle,overlay](atom@@)at(0,0){\phantom{#2}};%
+\node[inner sep=0pt,outer sep=0pt]at(0,0){#2};%
+\def\list@angle{#3,}%
+\loop
+    \expandafter\grab@angle\list@angle\@nil
+    \pgfextractx\CF@dim{\pgfpointanchor{atom@@}\current@angle}\edef\CF@dimax{\the\CF@dim}%
+    \pgfextracty\CF@dim{\pgfpointanchor{atom@@}\current@angle}\edef\CF@dimay{\the\CF@dim}%
+    \pgfmathparse{#1*sin(\current@angle)/2}\let\offset@xx\pgfmathresult
+    \pgfmathparse{#1*cos(\current@angle)/2}\let\offset@yy\pgfmathresult
+    \draw[fill,black]
+    (\CF@dimax-\offset@xx,\CF@dimay+\offset@yy)circle(0.15ex)%
+    (\CF@dimax+\offset@xx,\CF@dimay-\offset@yy)circle(0.15ex);%
+    \unless\ifx\@empty\list@angle
+\repeat
+\endtikzpicture
+}
+\def\grab@angle#1,#2\@nil{\def\current@angle{#1}\def\list@angle{#2}}
+\makeatother
+
+
+
+
 % text stuff
 \newcommand {\Cl}			{C\itl{l}}
 \newcommand {\Al}			{A\itl{l}}
@@ -593,7 +629,8 @@
 \newcommand	{\stS}			{ \fontsize{0.80em}{1.0em}\selectfont(s)\normtext}
 \newcommand	{\stAq}			{ \fontsize{0.80em}{1.0em}\selectfont(aq)\normtext}
 
-\newcommand	{\fracHalf}	{ ½ }
+
+
 
 \newcommand {\stdst}		{\standardstate}
 
