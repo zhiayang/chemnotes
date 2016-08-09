@@ -116,3 +116,44 @@
 \contentsline {subsubsection}{\numberline {4.4.4}Excess \ch {OH-}}{37}{subsubsection.3.4.4.4}
 \contentsline {subsection}{\numberline {4.5}Silicon Chloride}{37}{subsection.3.4.5}
 \contentsline {subsection}{\numberline {4.6}Phosphorus Chlorides}{37}{subsection.3.4.6}
+\contentsline {part}{\numberline {IV}Transition Metals}{38}{part.4}
+\contentsline {section}{\numberline {1}Overview}{38}{section.4.1}
+\contentsline {subsection}{\numberline {1.1}Electronic Configuration}{38}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Atomic Configuration}{38}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Ionic Configuration}{39}{subsubsection.4.1.1.2}
+\contentsline {section}{\numberline {2}Physical Properties}{40}{section.4.2}
+\contentsline {subsection}{\numberline {2.1}Atomic Radii}{40}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {2.2}Melting and Boiling Points}{40}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {2.3}First Ionisation Energy}{41}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {2.4}Other things}{41}{subsection.4.2.4}
+\contentsline {section}{\numberline {3}Chemical Properties}{42}{section.4.3}
+\contentsline {subsection}{\numberline {3.1}Variable Oxidation States}{42}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Trends in Oxidation States}{42}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Bonding in Various Oxidation States}{42}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Catalytic Properties}{43}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Heterogeneous Catalysis}{43}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Homogeneous Catalysis}{43}{subsubsection.4.3.2.2}
+\contentsline {section}{\numberline {4}Complexes}{44}{section.4.4}
+\contentsline {subsection}{\numberline {4.1}Overview}{44}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.2}Ligand Dentateness}{44}{subsection.4.4.2}
+\contentsline {paragraph}{Monodentate Ligands}{44}{paragraph*.1}
+\contentsline {paragraph}{Bidentate Ligands}{44}{paragraph*.2}
+\contentsline {paragraph}{Hexadentate Ligands}{45}{paragraph*.3}
+\contentsline {subsection}{\numberline {4.3}Complex Charges}{45}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4}Coordination Number}{46}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.5}Hydrated Complex Ions}{46}{subsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Hydrolysis of Hydrated Complexes}{47}{subsubsection.4.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Cations with High Oxidation States}{47}{subsubsection.4.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Ligand Exchange}{48}{subsection.4.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Stability Constant, \textit {K\textsubscript {stab}}{}}{48}{subsubsection.4.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Effect on Reduction Potential}{48}{subsubsection.4.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Ligand Exchange in Haemoglobin}{48}{subsubsection.4.4.6.3}
+\contentsline {section}{\numberline {5}Colour of Complexes}{49}{section.4.5}
+\contentsline {subsection}{\numberline {5.1}Overview}{49}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {5.2}Quantum Theory of Light}{49}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {5.3}Crystal Field Theory}{50}{subsection.4.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}d-d Electronic Transition}{51}{subsubsection.4.5.3.1}
+\contentsline {subsection}{\numberline {5.4}Charge-Transfer}{52}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {5.5}Factors Affecting Complex Colours}{52}{subsection.4.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Oxidation State of Cation}{52}{subsubsection.4.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Nature of Ligand}{52}{subsubsection.4.5.5.2}

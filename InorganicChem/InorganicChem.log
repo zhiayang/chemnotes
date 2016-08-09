@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  3 JUL 2016 18:00
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.6.16)  3 AUG 2016 23:37
  system commands enabled.
 **InorganicChem.tex
 (./InorganicChem.tex
@@ -1383,7 +1383,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.145 seconds)
+luaotfload | main : initialization completed in 0.196 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2101,6 +2101,115 @@ stry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/modiagram/modiagram.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen322
+))
+Package: modiagram 2015/09/23 v0.2g easy creation of molecular orbital diagrams
+\l__MOdiagram_tmpa_dim=\dimen323
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'MOdiagram' with sig. 'og' on line 115.
+.................................................
+\l__MOdiagram_AO_width_dim=\dimen324
+\l__MOdiagram_left_atom_position_dim=\dimen325
+\l__MOdiagram_inter_atom_distance_dim=\dimen326
+\l__MOdiagram_molecule_position_dim=\dimen327
+\g__MOdiagram_min_energy_dim=\dimen328
+\g__MOdiagram_max_energy_dim=\dimen329
+\l__MOdiagram_energy_gain_dim=\dimen330
+\l__MOdiagram_energy_loss_dim=\dimen331
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \MOsetup with sig. 'm' on line 290.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_atom: with sig. 'omm' on line 322.
+.................................................
+\l__MOdiagram_atom_xshift_dim=\dimen332
+\l__MOdiagram_atom_one_s_dim=\dimen333
+\l__MOdiagram_atom_left_one_s_dim=\dimen334
+\l__MOdiagram_atom_right_one_s_dim=\dimen335
+\l__MOdiagram_atom_two_s_dim=\dimen336
+\l__MOdiagram_atom_left_two_s_dim=\dimen337
+\l__MOdiagram_atom_right_two_s_dim=\dimen338
+\l__MOdiagram_atom_two_p_dim=\dimen339
+\l__MOdiagram_atom_left_two_p_dim=\dimen340
+\l__MOdiagram_atom_right_two_p_dim=\dimen341
+\l__MOdiagram_atom_px_shift_dim=\dimen342
+\l__MOdiagram_atom_py_shift_dim=\dimen343
+\l__MOdiagram_atom_pz_shift_dim=\dimen344
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_two_p_set_aux_ii:n with sig. '>{\SplitArgument
+. {2}{,}}m' on line 583.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_molecule: with sig. 'om' on line 760.
+.................................................
+\l__MOdiagram_molecule_one_sigma_dim=\dimen345
+\l__MOdiagram_molecule_one_sigmas_dim=\dimen346
+\l__MOdiagram_molecule_two_sigma_dim=\dimen347
+\l__MOdiagram_molecule_two_sigmas_dim=\dimen348
+\l__MOdiagram_molecule_two_psigma_dim=\dimen349
+\l__MOdiagram_molecule_two_psigmas_dim=\dimen350
+\l__MOdiagram_molecule_two_ppi_dim=\dimen351
+\l__MOdiagram_molecule_two_ppis_dim=\dimen352
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_two_mo_p_set_electrons:n with sig.
+. '>{\SplitArgument {5}{,}}m' on line 1115.
+.................................................
+\l__MOdiagram_AO_dim=\dimen353
+\l__MOdiagram_AO_position_dim=\dimen354
+\l__MOdiagram_AO_px_shift_dim=\dimen355
+\l__MOdiagram_AO_py_shift_dim=\dimen356
+\l__MOdiagram_AO_pz_shift_dim=\dimen357
+\g__MOdiagram_AO_name_int=\count349
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_AO_p_set_electrons:n with sig.
+. '>{\SplitArgument {2}{,}}m' on line 1431.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_arbitrary_AO: with sig. 'oD(){0cm}mom' on line
+. 1698.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \connect with sig. 'm' on line 1720.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_detect_nodes:n with sig. '>{\SplitArgument
+. {1}{&}}m' on line 1723.
+.................................................
+\l_energy_axis_dim=\dimen358
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__MOdiagram_EnergyAxis: with sig. 'o' on line 2031.
+.................................................
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemmacros/chemmacros.sty
 Package: chemmacros 2016/06/08 v5.7a comprehensive support for typesetting chemi
 stry documents (CN)
@@ -2123,12 +2232,12 @@ stry documents (CN)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemmacros/chemmacros5.sty
 Package: chemmacros5 2016/06/08 v5.7a comprehensive support for typesetting chem
 istry documents (CN)
-\l__chemmacros_tmpa_dim=\dimen322
-\l__chemmacros_tmpb_dim=\dimen323
-\l__chemmacros_tmpc_dim=\dimen324
-\l__chemmacros_tmpa_int=\count349
-\l__chemmacros_tmpb_int=\count350
-\l__chemmacros_tmpc_int=\count351
+\l__chemmacros_tmpa_dim=\dimen359
+\l__chemmacros_tmpb_dim=\dimen360
+\l__chemmacros_tmpc_dim=\dimen361
+\l__chemmacros_tmpa_int=\count350
+\l__chemmacros_tmpb_int=\count351
+\l__chemmacros_tmpc_int=\count352
 \l__chemmacros_tmpa_box=\box85
 \l__chemmacros_tmpb_box=\box86
 \l__chemmacros_tmpc_box=\box87
@@ -2220,9 +2329,9 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks47
 \pgfopts@list@add@b@toks=\toks48
 )
-\c@cnltx@tmpa=\count352
-\c@cnltx@tmpb=\count353
-\c@cnltx@tmpc=\count354
+\c@cnltx@tmpa=\count353
+\c@cnltx@tmpb=\count354
+\c@cnltx@tmpc=\count355
 \cnltx@tmpa@length=\skip107
 \cnltx@tmpb@length=\skip108
 \cnltx@tmpc@length=\skip109
@@ -2421,7 +2530,7 @@ articles' 2016/04/02 particles
 . 
 . Defining command \ProvideChemParticle with sig. 'mm' on line 45.
 .................................................
-\l__chemmacros_nucleophile_dim=\dimen325
+\l__chemmacros_nucleophile_dim=\dimen362
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2459,7 +2568,7 @@ articles' 2016/04/02 particles
 es.code.tex
 File: chemmacros.module.phases.code.tex 2016/06/08 v5.7a chemmacros module `phas
 es' 2016/05/31 phase descriptors
-\l__chemmacros_phases_space_dim=\dimen326
+\l__chemmacros_phases_space_dim=\dimen363
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2518,7 +2627,7 @@ File: chemmacros.module.nomenclature.code.tex 2016/06/08 v5.7a chemmacros module
 .code.tex
 File: chemmacros.module.tikz.code.tex 2016/06/08 v5.7a chemmacros module `tikz' 
 2015/10/26 upright greek symbols
-\l__chemmacros_el_length_dim=\dimen327
+\l__chemmacros_el_length_dim=\dimen364
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -2545,7 +2654,7 @@ File: chemmacros.module.tikz.code.tex 2016/06/08 v5.7a chemmacros module `tikz'
 . 
 . Defining command \LetChemIUPAC with sig. 'mm' on line 221.
 .................................................
-\l__chemmacros_cip_kern_dim=\dimen328
+\l__chemmacros_cip_kern_dim=\dimen365
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2556,9 +2665,9 @@ File: chemmacros.module.tikz.code.tex 2016/06/08 v5.7a chemmacros module `tikz'
 . 
 . Defining command \Rconf with sig. 'O{R}' on line 302.
 .................................................
-\l__chemmacros_iupac_hyphen_pre_dim=\dimen329
-\l__chemmacros_iupac_hyphen_post_dim=\dimen330
-\l__chemmacros_iupac_break_dim=\dimen331
+\l__chemmacros_iupac_hyphen_pre_dim=\dimen366
+\l__chemmacros_iupac_hyphen_post_dim=\dimen367
+\l__chemmacros_iupac_break_dim=\dimen368
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2624,46 +2733,46 @@ For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen332
+\pmbraise@=\dimen369
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count355
+\inf@bad=\count356
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count356
-\leftroot@=\count357
+\uproot@=\count357
+\leftroot@=\count358
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count358
-\DOTSCASE@=\count359
+\classnum@=\count359
+\DOTSCASE@=\count360
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box88
 \strutbox@=\box89
-\big@size=\dimen333
+\big@size=\dimen370
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 
 
 Package amsmath Warning: Unable to redefine math accent \mathring.
 
-\macc@depth=\count360
-\c@MaxMatrixCols=\count361
+\macc@depth=\count361
+\c@MaxMatrixCols=\count362
 \dotsspace@=\muskip21
-\c@parentequation=\count362
-\dspbrk@lvl=\count363
+\c@parentequation=\count363
+\dspbrk@lvl=\count364
 \tag@help=\toks49
-\row@=\count364
-\column@=\count365
-\maxfields@=\count366
+\row@=\count365
+\column@=\count366
+\maxfields@=\count367
 \andhelp@=\toks50
-\eqnshift@=\dimen334
-\alignsep@=\dimen335
-\tagshift@=\dimen336
-\tagwidth@=\dimen337
-\totwidth@=\dimen338
-\lineht@=\dimen339
+\eqnshift@=\dimen371
+\alignsep@=\dimen372
+\tagshift@=\dimen373
+\tagwidth@=\dimen374
+\totwidth@=\dimen375
+\lineht@=\dimen376
 \@envbody=\toks51
 \multlinegap=\skip111
 \multlinetaggap=\skip112
@@ -2707,46 +2816,46 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
 Package: chemformula 2016/06/08 v4.15a typeset chemical compounds and reactions 
 (CN)
-\l__chemformula_tmpa_dim=\dimen340
-\l__chemformula_tmpb_dim=\dimen341
-\l__chemformula_tmpc_dim=\dimen342
-\l__chemformula_tmpa_int=\count367
-\l__chemformula_tmpb_int=\count368
-\l__chemformula_tmpc_int=\count369
+\l__chemformula_tmpa_dim=\dimen377
+\l__chemformula_tmpb_dim=\dimen378
+\l__chemformula_tmpc_dim=\dimen379
+\l__chemformula_tmpa_int=\count368
+\l__chemformula_tmpb_int=\count369
+\l__chemformula_tmpc_int=\count370
 \l__chemformula_tmpa_box=\box90
 \l__chemformula_tmpb_box=\box91
-\l__chemformula_arrow_length_dim=\dimen343
-\l__chemformula_arrow_label_height_dim=\dimen344
-\l__chemformula_arrow_label_offset_dim=\dimen345
-\l__chemformula_arrow_minimum_length_dim=\dimen346
-\l__chemformula_arrow_shortage_dim=\dimen347
-\l__chemformula_arrow_offset_dim=\dimen348
-\l__chemformula_arrow_yshift_dim=\dimen349
-\l__chemformula_radical_radius_dim=\dimen350
-\l__chemformula_radical_hshift_dim=\dimen351
-\l__chemformula_radical_vshift_dim=\dimen352
-\l__chemformula_radical_space_dim=\dimen353
-\l__chemformula_arrow_head_dim=\dimen354
-\l__chemformula_name_dim=\dimen355
-\l__chemformula_adduct_space_dim=\dimen356
-\l__chemformula_charge_shift_dim=\dimen357
-\l__chemformula_subscript_shift_dim=\dimen358
-\l__chemformula_superscript_shift_dim=\dimen359
-\l__chemformula_subscript_dim=\dimen360
-\l__chemformula_superscript_dim=\dimen361
-\l__chemformula_bond_dim=\dimen362
-\l__chemformula_bond_space_dim=\dimen363
-\l__chemformula_elspec_pair_distance_dim=\dimen364
-\l__chemformula_elspec_pair_line_length_dim=\dimen365
-\l__chemformula_elspec_pair_width_dim=\dimen366
-\l__chemformula_kroegervink_positive_radius_dim=\dimen367
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen368
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen369
-\l__chemformula_kroegervink_positive_space_dim=\dimen370
+\l__chemformula_arrow_length_dim=\dimen380
+\l__chemformula_arrow_label_height_dim=\dimen381
+\l__chemformula_arrow_label_offset_dim=\dimen382
+\l__chemformula_arrow_minimum_length_dim=\dimen383
+\l__chemformula_arrow_shortage_dim=\dimen384
+\l__chemformula_arrow_offset_dim=\dimen385
+\l__chemformula_arrow_yshift_dim=\dimen386
+\l__chemformula_radical_radius_dim=\dimen387
+\l__chemformula_radical_hshift_dim=\dimen388
+\l__chemformula_radical_vshift_dim=\dimen389
+\l__chemformula_radical_space_dim=\dimen390
+\l__chemformula_arrow_head_dim=\dimen391
+\l__chemformula_name_dim=\dimen392
+\l__chemformula_adduct_space_dim=\dimen393
+\l__chemformula_charge_shift_dim=\dimen394
+\l__chemformula_subscript_shift_dim=\dimen395
+\l__chemformula_superscript_shift_dim=\dimen396
+\l__chemformula_subscript_dim=\dimen397
+\l__chemformula_superscript_dim=\dimen398
+\l__chemformula_bond_dim=\dimen399
+\l__chemformula_bond_space_dim=\dimen400
+\l__chemformula_elspec_pair_distance_dim=\dimen401
+\l__chemformula_elspec_pair_line_length_dim=\dimen402
+\l__chemformula_elspec_pair_width_dim=\dimen403
+\l__chemformula_kroegervink_positive_radius_dim=\dimen404
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen405
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen406
+\l__chemformula_kroegervink_positive_space_dim=\dimen407
 \l__chemformula_stoich_space_skip=\skip116
 \l__chemformula_math_space_skip=\skip117
-\l__chemformula_count_tokens_int=\count370
-\g__chemformula_lewis_int=\count371
+\l__chemformula_count_tokens_int=\count371
+\g__chemformula_lewis_int=\count372
 \l__chemformula_arrow_arg_i_box=\box92
 \l__chemformula_arrow_arg_ii_box=\box93
 \l__chemformula_superscript_box=\box94
@@ -2920,18 +3029,6 @@ Package: chemformula 2016/06/08 v4.15a typeset chemical compounds and reactions
 . Defining command \setchemformula with sig. 'm' on line 3273.
 .................................................
 )
-(chemmacros)    Loading module `orbital'...
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/chemmacros/chemmacros.module.orbi
-tal.code.tex
-File: chemmacros.module.orbital.code.tex 2016/06/08 v5.7a chemmacros module `orb
-ital' 2015/07/14 drawing orbital shapes
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \orbital with sig. 'om' on line 575.
-.................................................
-)
 (chemmacros)    Loading module `redox'...
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/chemmacros/chemmacros.module.redo
@@ -2955,15 +3052,15 @@ Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count372
-\calc@Bcount=\count373
-\calc@Adimen=\dimen371
-\calc@Bdimen=\dimen372
+\calc@Acount=\count373
+\calc@Bcount=\count374
+\calc@Adimen=\dimen408
+\calc@Bdimen=\dimen409
 \calc@Askip=\skip121
 \calc@Bskip=\skip122
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count374
+\calc@Ccount=\count375
 \calc@Cskip=\skip123
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -2973,15 +3070,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count375
-\l_MT_multwidth_dim=\dimen373
+\g_MT_multlinerow_int=\count376
+\l_MT_multwidth_dim=\dimen410
 \origjot=\skip124
-\l_MT_shortvdotswithinadjustabove_dim=\dimen374
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen375
-\l_MT_above_intertext_sep=\dimen376
-\l_MT_below_intertext_sep=\dimen377
-\l_MT_above_shortintertext_sep=\dimen378
-\l_MT_below_shortintertext_sep=\dimen379
+\l_MT_shortvdotswithinadjustabove_dim=\dimen411
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen412
+\l_MT_above_intertext_sep=\dimen413
+\l_MT_below_intertext_sep=\dimen414
+\l_MT_above_shortintertext_sep=\dimen415
+\l_MT_below_shortintertext_sep=\dimen416
 )
 *************************************************
 * unicode-math warning: "mathtools-colon"
@@ -3021,15 +3118,15 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count376
+\l__chemmacros_ox_number_int=\count377
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \ox with sig. 'sO{}>{\SplitArgument {1}{,}}m' on line 310.
 .................................................
-\l__chemmacros_redox_sep_dim=\dimen380
-\l__chemmacros_redox_sep_default_dim=\dimen381
-\l__chemmacros_redox_dist_dim=\dimen382
+\l__chemmacros_redox_sep_dim=\dimen417
+\l__chemmacros_redox_sep_default_dim=\dimen418
+\l__chemmacros_redox_dist_dim=\dimen419
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -3054,7 +3151,7 @@ fillbetween.code.tex
 s/tikzlibraryintersections.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
 ctions.code.tex
-\pgf@intersect@solutions=\count377
+\pgf@intersect@solutions=\count378
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
 decorations.softclip.code.tex
@@ -3067,7 +3164,7 @@ luaotfload | cache : Lookup cache loaded from /Users/zhiayang/Library/texlive/20
 uc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lato-reg.lu
 c)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cache/generic
 /fonts/otl/lato-reg.luc)
-\g__fontspec_family_Lato-Regular_int=\count378
+\g__fontspec_family_Lato-Regular_int=\count379
 luaotfload | aux : font no 24 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 24(compiling luc: /usr/local/texlive/2016/tex
@@ -3110,7 +3207,7 @@ luaotfload | aux : no font with id 27
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /lato-thin.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-
 cache/generic/fonts/otl/lato-thin.luc)
-\g__fontspec_family_Lato-Thin_int=\count379
+\g__fontspec_family_Lato-Thin_int=\count380
 luaotfload | aux : font no 28 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
 luaotfload | aux : no font with id 28(compiling luc: /usr/local/texlive/2016/tex
@@ -3151,7 +3248,7 @@ luaotfload | aux : no font with id 31
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-light.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luat
 ex-cache/generic/fonts/otl/roboto-light.luc)
-\g__fontspec_family_Roboto-Light_int=\count380
+\g__fontspec_family_Roboto-Light_int=\count381
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/lu
 atex-cache/generic/fonts/otl/roboto-regular.luc)(compiling luc: /usr/local/texli
@@ -3187,7 +3284,7 @@ luc)
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-thin.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luate
 x-cache/generic/fonts/otl/roboto-thin.luc)
-\g__fontspec_family_Roboto-Thin_int=\count381
+\g__fontspec_family_Roboto-Thin_int=\count382
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /roboto-thinitalic.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
 /luatex-cache/generic/fonts/otl/roboto-thinitalic.luc)
@@ -3225,7 +3322,7 @@ luaotfload | aux : no font with id 38
 . 
 . Font AlexandriaFLF does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_AlexandriaFLF_int=\count382
+\g__fontspec_family_AlexandriaFLF_int=\count383
 luaotfload | aux : font no 38 (<unknown>) does not define feature smcp for scrip
 t  with language 
 luaotfload | aux : no font with id 38(compiling luc: /usr/local/texlive/2016/tex
@@ -3267,7 +3364,7 @@ luaotfload | aux : no font with id 41
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-light.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-v
 ar/luatex-cache/generic/fonts/otl/sourcesanspro-light.luc)
-\g__fontspec_family_SourceSansPro-Light_int=\count383
+\g__fontspec_family_SourceSansPro-Light_int=\count384
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /sourcesanspro-regular.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf
 -var/luatex-cache/generic/fonts/otl/sourcesanspro-regular.luc)(compiling luc: /u
@@ -3373,13 +3470,13 @@ t={Lato-Italic},BoldItalicFont={Lato-SemiboldItalic}].
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/lmr/m/n --> EU2/Lato-Regular(2)/m/n on input line 18
-4.
+6.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/lmr/m/it --> EU2/Lato-Regular(2)/m/it on input line 
-184.
+186.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/lmr/bx/n --> EU2/Lato-Regular(2)/bx/n on input line 
-184.
+186.
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -3500,14 +3597,14 @@ FLT;+tlig;+tlig;"
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/lmss/m/n --> EU2/Lato-Regular(4)/m/n on input line 1
-93.
+95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/lmss/bx/n --> EU2/Lato-Regular(4)/bx/n on input line
- 193.
+ 195.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /asana-math.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex
 -cache/generic/fonts/otl/asana-math.luc)
-\g__fontspec_family_Asana-Math_int=\count384
+\g__fontspec_family_Asana-Math_int=\count385
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -3533,15 +3630,15 @@ Math:mode=base;script=math;language=DFLT;+tlig;+tlig;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 198.
+(Font)              `operators' in the math version `normal' on input line 200.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> EU2/Asana-Math(0)/m/n on input line 198.
+(Font)                  OT1/lmr/m/n --> EU2/Asana-Math(0)/m/n on input line 200.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 198.
+(Font)              `operators' in the math version `bold' on input line 200.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> EU2/Asana-Math(0)/bx/n on input line 19
-8.
+(Font)                  OT1/lmr/bx/n --> EU2/Asana-Math(0)/bx/n on input line 20
+0.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -3585,15 +3682,15 @@ g;+ssty=0;"<-8>s*[1.00001]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;
 . =0pt\relax \fontdimen 22\font =194474.749sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 198.
+(Font)              `symbols' in the math version `normal' on input line 200.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> EU2/Asana-Math(1)/m/n on input line 198
+(Font)                  OMS/lmsy/m/n --> EU2/Asana-Math(1)/m/n on input line 200
 .
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 198.
+(Font)              `symbols' in the math version `bold' on input line 200.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> EU2/Asana-Math(1)/bx/n on input line 19
-8.
+(Font)                  OMS/lmsy/b/n --> EU2/Asana-Math(1)/bx/n on input line 20
+0.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -3627,17 +3724,17 @@ g;+ssty=0;"<-8>s*[0.99999]"Asana-Math:mode=base;script=math;language=DFLT;+tlig;
 . \fontdimen 12\font =430571.4sp\relax \fontdimen 13\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 19
-8.
+(Font)              `largesymbols' in the math version `normal' on input line 20
+0.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/m/n on input line 198
+(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/m/n on input line 200
 .
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 198.
+(Font)              `largesymbols' in the math version `bold' on input line 200.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/bx/n on input line 19
-8.
+(Font)                  OMX/lmex/m/n --> EU2/Asana-Math(2)/bx/n on input line 20
+0.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /menlo-1.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-ca
 che/generic/fonts/otl/menlo-1.luc)
@@ -3653,7 +3750,7 @@ luaotfload | aux : no font with id 50
 . 
 . Menlo scale = 0.9261711105675147.
 .................................................
-\g__fontspec_family_Menlo_int=\count385
+\g__fontspec_family_Menlo_int=\count386
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /menlo-4.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-ca
 che/generic/fonts/otl/menlo-4.luc)(compiling luc: /usr/local/texlive/2016/texmf-
@@ -3789,9 +3886,9 @@ luaotfload | aux : no font with id 51
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/m/n on input line 200.
+(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/m/n on input line 202.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/bx/n on input line 200.
+(Font)                  OT1/lmtt/m/n --> EU2/Menlo(1)/bx/n on input line 202.
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /arial.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var/luatex-cach
 e/generic/fonts/otl/arial.luc)
@@ -3800,7 +3897,7 @@ e/generic/fonts/otl/arial.luc)
 . 
 . Arial scale = 0.9767524353375883.
 .................................................
-\g__fontspec_family_Arial_int=\count386
+\g__fontspec_family_Arial_int=\count387
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /arial-bold-italic.luc)(load luc: /Users/zhiayang/Library/texlive/2016/texmf-var
 /luatex-cache/generic/fonts/otl/arial-bold-italic.luc)(compiling luc: /usr/local
@@ -3939,16 +4036,16 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
-\scratchdimen=\dimen383
+\scratchcounter=\count388
+\scratchdimen=\dimen420
 \scratchbox=\box96
-\nofMPsegments=\count388
-\nofMParguments=\count389
+\nofMPsegments=\count389
+\nofMParguments=\count390
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count390
-\MPscratchDim=\dimen384
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
+\MPscratchCnt=\count391
+\MPscratchDim=\dimen421
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
 \everyMPtoPDFconversion=\toks54
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -3979,7 +4076,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count393
+\c@section@level=\count394
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
@@ -4042,7 +4139,7 @@ r `english'. on input line 13.
 * 
 * Use \Uoverbracket and \Uunderbracket for original `unicode-math' definition.
 *************************************************
-\c__siunitx_mathsf_int=\count394
+\c__siunitx_mathsf_int=\count395
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Asana-Math' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
@@ -4156,7 +4253,7 @@ LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 13.
 LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 13.
-\c__siunitx_mathtt_int=\count395
+\c__siunitx_mathtt_int=\count396
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
 (Font)              scaled to size 10.14163pt on input line 13.
 Package microtype Info: Loading generic settings for font family
@@ -4289,18 +4386,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `AlexandriaFLF' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1] [2])
+ [1] [2] [3])
 \tf@toc=\write5
 
 \openout5 = InorganicChem.toc
- [3]
+ [4]
 Package hyperref Info: Option `pageanchor' set `true' on input line 56.
  ("./Chapter 01 - Group Two.tex"
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Roboto-Light' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1]
+
+[1]
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 97.
 Package microtype Info: Character `guilsinglleft ' is missing
 (microtype)             in font `EU2/Asana-Math(0)/m/n/14'.
@@ -4380,8 +4478,7 @@ LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
 (Font)              scaled to size 9.07649pt on input line 97.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
 (Font)              scaled to size 6.48325pt on input line 97.
-
-[2] [3] [4] [5] [6] [7]) ("./Chapter 02 - Group Seven.tex" [8] [9] [10]
+ [2] [3] [4] [5] [6] [7]) ("./Chapter 02 - Group Seven.tex" [8] [9] [10]
 [11] [12] [13]
 LaTeX Font Info:    Calculating math sizes for size <21> on input line 288.
 Package microtype Info: Character `guilsinglleft ' is missing
@@ -4664,40 +4761,103 @@ LaTeX Font Info:    Font shape `EU2/Lato-Regular(4)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 477.
 LaTeX Font Info:    Font shape `EU2/Menlo(1)/m/n' will be
 (Font)              scaled to size 9.26178pt on input line 477.
- [32] [33] [34] [35] [36]) [37]
+ [32] [33] [34] [35] [36])
+("./Chapter 04 - Transition Metals.tex" [37]
+<../figures/inorganic/ch04/periodic_table_blocks.png, id=508, 1800.7275pt x 106
+9.9975pt>
+File: ../figures/inorganic/ch04/periodic_table_blocks.png Graphic file (type png
+)
+ <use ../figures/inorganic/ch04/periodic_table_blocks.png>
+Package luatex.def Info: ../figures/inorganic/ch04/periodic_table_blocks.png use
+d on input line 15.
+(luatex.def)             Requested size: 227.62204pt x 135.25142pt.
+ [38<../figures/inorganic/ch04/periodic_table_blocks.png>]
+<../figures/inorganic/ch04/electron_filling.png, id=513, 957.5775pt x 974.64125
+pt>
+File: ../figures/inorganic/ch04/electron_filling.png Graphic file (type png)
+ <use ../figures/inorganic/ch04/electron_filling.png>
+Package luatex.def Info: ../figures/inorganic/ch04/electron_filling.png used on 
+input line 66.
+(luatex.def)             Requested size: 199.16928pt x 202.71762pt.
+ [39<../figures/inorganic/ch04/electron_filling.png>]
+<../figures/inorganic/ch04/atomic_radii.png, id=518, 1304.875pt x 959.585pt>
+File: ../figures/inorganic/ch04/atomic_radii.png Graphic file (type png)
+
+<use ../figures/inorganic/ch04/atomic_radii.png>
+Package luatex.def Info: ../figures/inorganic/ch04/atomic_radii.png used on inpu
+t line 94.
+(luatex.def)             Requested size: 284.52756pt x 209.23517pt.
+ [40<../figures/inorganic/ch04/atomic_radii.png>]
+<../figures/inorganic/ch04/first_ie.png, id=523, 1304.875pt x 922.44624pt>
+File: ../figures/inorganic/ch04/first_ie.png Graphic file (type png)
+
+<use ../figures/inorganic/ch04/first_ie.png>
+Package luatex.def Info: ../figures/inorganic/ch04/first_ie.png used on input li
+ne 129.
+(luatex.def)             Requested size: 284.52756pt x 201.13715pt.
+ [41<../figures/inorganic/ch04/first_ie.png>] [42] [43] [44] [45] [46] [47]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\textsubscript' on input line 458.
+
+
+Overfull \hbox (7.16371pt too wide) in paragraph at lines 485--488
+\EU2/Lato-Regular(1)/m/n/10.95 Dif-fer-ent lig-ands can af-fect the re-duc-tion
+ po-ten-tial of the cen-tral metal ion. For in-stance, [Fe(H[]O)[]][]|
+ []
+
+[48] [49]
+<../figures/inorganic/ch04/d_orbitals.png, id=566, 1606.0pt x 1160.335pt>
+File: ../figures/inorganic/ch04/d_orbitals.png Graphic file (type png)
+
+<use ../figures/inorganic/ch04/d_orbitals.png>
+Package luatex.def Info: ../figures/inorganic/ch04/d_orbitals.png used on input 
+line 565.
+(luatex.def)             Requested size: 312.9803pt x 226.13162pt.
+
+<../figures/inorganic/ch04/electron_splitting.png, id=567, 409.53pt x 277.78781
+pt>
+File: ../figures/inorganic/ch04/electron_splitting.png Graphic file (type png)
+ <use ../figures/inorganic/ch04/electron_splitting.png>
+Package luatex.def Info: ../figures/inorganic/ch04/electron_splitting.png used o
+n input line 575.
+(luatex.def)             Requested size: 312.9803pt x 212.31198pt.
+ [50<../figures/inorganic/ch04/d_orbitals.png>] [51<../figures/inorganic/ch04/el
+ectron_splitting.png>]) [52]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
-
-(./InorganicChem.aux)
+ (./InorganicChem.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
 )
 
 Here is how much of LuaTeX's memory you used:
- 65996 strings out of 495119
+ 67333 strings out of 495119
  244321,2373549 words of node,token memory allocated
- 11151 words of node memory still in use:
-   8 hlist, 2 vlist, 3 rule, 1212 glue, 1 kern, 509 attribute, 89 glue_spec, 509
+ 12799 words of node memory still in use:
+   8 hlist, 2 vlist, 3 rule, 1404 glue, 1 kern, 585 attribute, 89 glue_spec, 585
  attribute_list, 1 write nodes
-   avail lists: 1:451,2:50186,3:15027,4:431,5:256,6:2081,7:1808,8:107,9:1190,10:
-9,11:177,12:4
- 66690 multiletter control sequences out of 65536+600000
- 391 fonts using 81238599 bytes
+   avail lists: 1:522,2:55927,3:16609,4:474,5:322,6:2462,7:2323,8:156,9:1349,10:
+12,11:225,12:10
+ 67911 multiletter control sequences out of 65536+600000
+ 397 fonts using 82130207 bytes
  81i,25n,108p,882b,2613s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-Math.
-otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asana-M
-ath.otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math/Asa
-na-Math.otf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-
-RegIta.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Robo
-to-Light.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF-Bold.ttf></Users/zhiay
-ang/Library/Fonts/Lato-Semibold.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF
-.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/Lato-Reg.ttf
-></usr/local/texlive/2016/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSa
-nsPro-Light.otf>
-Output written on InorganicChem.pdf (42 pages, 203395 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Roboto-LightIta
+lic.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/google/roboto/Roboto-
+Regular.ttf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-Math
+/Asana-Math.otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/Asana-
+Math/Asana-Math.otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/As
+ana-Math/Asana-Math.otf></usr/local/texlive/2016/texmf-dist/fonts/truetype/googl
+e/roboto/Roboto-Light.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/pub
+lic/lato/Lato-RegIta.ttf></Users/zhiayang/Library/Fonts/AlexandriaFLF-Bold.ttf><
+/Users/zhiayang/Library/Fonts/Lato-Semibold.ttf></Users/zhiayang/Library/Fonts/A
+lexandriaFLF.ttf></usr/local/texlive/2016/texmf-dist/fonts/truetype/public/lato/
+Lato-Reg.ttf></usr/local/texlive/2016/texmf-dist/fonts/opentype/adobe/sourcesans
+pro/SourceSansPro-Light.otf>
+Output written on InorganicChem.pdf (58 pages, 1567912 bytes).
 
-PDF statistics: 856 PDF objects out of 1000 (max. 8388607)
- 774 compressed objects within 8 object streams
- 156 named destinations out of 1000 (max. 131072)
- 960 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 1139 PDF objects out of 1200 (max. 8388607)
+ 1026 compressed objects within 11 object streams
+ 212 named destinations out of 1000 (max. 131072)
+ 1264 words of extra memory for PDF output out of 10000 (max. 10000000)
 

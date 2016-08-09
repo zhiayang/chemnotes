@@ -42,10 +42,12 @@
 \RequirePackage{fontspec, xunicode, microtype}
 
 
+
 \RequirePackage{chemfig}
 \RequirePackage{siunitx}
 \RequirePackage{endiagram}
 \RequirePackage{chemgreek}
+\RequirePackage{modiagram}
 \RequirePackage{chemmacros}
 \RequirePackage{chemformula}
 
@@ -54,7 +56,7 @@
 
 
 
-\usechemmodule{orbital,redox}
+\usechemmodule{redox}
 
 \setchemformula{
 	bond-style		= {line width=0.3mm},
@@ -204,6 +206,7 @@
 
 \DeclareTextFontCommand{\textfallback}{\fallbackfont}
 \newunicodechar{δ}{\textfallback{δ}}
+\newunicodechar{α}{\textfallback{α}}
 
 
 
@@ -312,14 +315,6 @@
 	detect-all = true
 }
 
-\chemsetup[orbital]{
-	overlay,
-	p/scale = 1.5,
-	sp/scale = 1.5,
-	sp2/scale = 1.5,
-	sp3/scale = 1.5,
-	s/scale = 1.5
-}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{\baselineskip}
@@ -568,6 +563,8 @@
 \newcommand {\smfplus}		{\fontsize{9pt}{11pt}\selectfont$\fplus$\normtext}
 \newcommand {\smfminus}		{\fontsize{9pt}{11pt}\selectfont$\fminus$\normtext}
 
+\newcommand {\mchg}			{\raisebox{0.5em}{\bld{–}}}
+\newcommand {\pchg}			{\raisebox{0.5em}{\bld{+}}}
 
 % physical chem stuff
 \newcommand	{\Menth}		[1]{∆H\sbs{#1}}
@@ -585,6 +582,7 @@
 \newcommand {\Kc}			{$K_{c}$}
 \newcommand {\Kp}			{$K_{p}$}
 \newcommand {\Ksp}			{$K_{sp}$}
+\newcommand {\Kstab}		{$K_{stab}$}
 
 \newcommand {\Qc}			{$Q_{c}$}
 \newcommand {\Qp}			{$Q_{p}$}
@@ -593,6 +591,7 @@
 \newcommand {\MKp}			{\itl{K\sbs{p}}}
 \newcommand {\MKsp}			{\itl{K\sbs{sp}}}
 
+\newcommand {\MKstab}		{\itl{K\sbs{stab}}}
 
 % renew because chemmacro defines this, but not properly (ugly)
 \renewcommand {\pH}			{$pH$}
@@ -603,8 +602,8 @@
 \renewcommand {\Ka}			{$K_{a}$}
 \renewcommand {\Kb}			{$K_{b}$}
 
-
-\newcommand {\pKw}			{$pK_{w}$ }
+\newcommand {\pI}			{$pI$}
+\newcommand {\pKw}			{$pK_{w}$}
 \newcommand {\MpKw}			{\itl{p}K\sbs{w}}
 
 \newcommand {\MpH}			{\itl{p}H}
@@ -668,6 +667,7 @@
 
 \definesubmol	\molCN		{C|{\color{RoyalBlue}N}}
 \definesubmol	\molAmine	{N|H\sbs{2}}
+\definesubmol	\molRAmine	{H\sbs{2}|N}
 
 \definesubmol	\molEthyl	{C|H\sbs{2}|C|H\sbs{3}}				% ch2ch3
 \definesubmol	\molPropyl	{C|H\sbs{2}|C|H\sbs{2}|C|H\sbs{3}}	% ch2ch2ch3
