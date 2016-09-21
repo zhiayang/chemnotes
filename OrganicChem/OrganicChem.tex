@@ -69,24 +69,88 @@
 
 \fancyhead[R]{Chapter \arabic{part} - \parttitle}
 
-% \input{"Chapter 01 - Functional Groups"}
-% \input{"Chapter 02 - Isomers"}
-% \input{"Chapter 03 - Reaction Mechanisms"}
-% \input{"Chapter 04 - Induction and Resonance"}
-% \input{"Chapter 05 - Alkanes"}
-% \input{"Chapter 06 - Alkenes"}
-% \input{"Chapter 07 - Arenes"}
-% \input{"Chapter 08 - Halogen Derivatives"}
-% \input{"Chapter 09 - Alcohols"}
-% \input{"Chapter 10 - Phenols"}
-% \input{"Chapter 11 - Aldehydes and Ketones"}
-% \input{"Chapter 12 - Carboxylic Acids"}
-% \input{"Chapter 13 - Acyl Chlorides"}
-% \input{"Chapter 14 - Esters"}
-% \input{"Chapter 15 - Amides"}
-% \input{"Chapter 16 - Amines"}
+\input{"Chapter 01 - Functional Groups"}
+\input{"Chapter 02 - Isomers"}
+\input{"Chapter 03 - Reaction Mechanisms"}
+\input{"Chapter 04 - Induction and Resonance"}
+\input{"Chapter 05 - Alkanes"}
+\input{"Chapter 06 - Alkenes"}
+\input{"Chapter 07 - Arenes"}
+\input{"Chapter 08 - Halogen Derivatives"}
+\input{"Chapter 09 - Alcohols"}
+\input{"Chapter 10 - Phenols"}
+\input{"Chapter 11 - Aldehydes and Ketones"}
+\input{"Chapter 12 - Carboxylic Acids"}
+\input{"Chapter 13 - Acyl Chlorides"}
+\input{"Chapter 14 - Esters"}
+\input{"Chapter 15 - Amides"}
+\input{"Chapter 16 - Amines"}
 \input{"Chapter 17 - Amino Acids"}
-% \input{"Chapter 18 - Proteins"}
+\input{"Chapter 18 - Proteins"}
+
+
+
+
+
+
+
+
+\pagebreak
+
+\vspace*{65mm}
+\begin{center}\hugetext{Appendices}\end{center}
+\normtext
+
+Herein lie things that \itl{must} be known, but for brevity are excluded from the main text.
+
+% disable page numbers for this "cover" page.
+\thispagestyle{empty}
+\pagebreak
+
+
+
+
+
+\setcounter{part}{0}
+\renewcommand\thepart{\Alph{part}}
+\renewcommand\theHpart{appendix.\thepart}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\addtocontents{toc}{\protect\newpage}
+
+
+% change the header style
+\fancyhead[R]{Appendix \Alph{part} - \parttitle}
+
+
+% change the part heading.
+\titleformat{\part}[display]
+	{\LatoLight\fontsize{40pt}{48pt}\selectfont\bfseries}
+	{\LatoLight\fontsize{30pt}{36pt}\selectfont\bfseries\hfill A\fontsize{24pt}{36pt}\selectfont\bfseries PPENDIX\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
+	{-0.5em}
+	{\vspace{5mm}}
+	[\vspace{-7.5mm}{\makebox[0mm][l]{\rule[10mm]{\textwidth}{0.5mm}}}\vspace{15mm}]
+
+
+
+
+
+\addtocontents{toc}{\protect\newpage}
+\input{"Appendix A - Reaction Mechanisms"}
+
+\addtocontents{toc}{\protect\newpage}
+\input{"Appendix B - List of Reactions"}
+
+\addtocontents{toc}{\protect\newpage}
+\input{"Appendix C - Summary Tables"}
+
+% \addtocontents{toc}{\protect\newpage}
+\input{"Appendix D - Distinguishing Tests"}
+
+\input{"Appendix E - List of Alpha Amino Acids"}
+
+
+
 
 
 
@@ -392,47 +456,6 @@
 
 
 
-
-
-\pagebreak
-
-\vspace*{65mm}
-\begin{center}\hugetext{Appendices}\end{center}
-\normtext
-
-Herein lie things that \itl{must} be known, but for brevity are excluded from the main text.
-
-% disable page numbers for this "cover" page.
-\thispagestyle{empty}
-\pagebreak
-
-
-
-
-
-\setcounter{part}{0}
-\renewcommand\thepart{\Alph{part}}
-\renewcommand\theHpart{appendix.\thepart}
-
-\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
-\addtocontents{toc}{\protect\newpage}
-
-
-% change the header style
-\fancyhead[R]{Appendix \Alph{part} - \parttitle}
-
-
-% change the part heading.
-\titleformat{\part}[display]
-	{\LatoLight\fontsize{40pt}{48pt}\selectfont\bfseries}
-	{\LatoLight\fontsize{30pt}{36pt}\selectfont\bfseries\hfill A\fontsize{24pt}{36pt}\selectfont\bfseries PPENDIX\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
-	{-0.5em}
-	{\vspace{5mm}}
-	[\vspace{-7.5mm}{\makebox[0mm][l]{\rule[10mm]{\textwidth}{0.5mm}}}\vspace{15mm}]
-
-
-
-
 % \pagebreak
 % \part{Reaction Mechanisms}
 % 	\section{Electrophilic Addition}
@@ -575,22 +598,6 @@ Herein lie things that \itl{must} be known, but for brevity are excluded from th
 
 
 
-
-
-
-\addtocontents{toc}{\protect\newpage}
-% \input{"Appendix A - Reaction Mechanisms"}
-
-\addtocontents{toc}{\protect\newpage}
-% \input{"Appendix B - List of Reactions"}
-
-\addtocontents{toc}{\protect\newpage}
-% \input{"Appendix C - Summary Tables"}
-
-% \addtocontents{toc}{\protect\newpage}
-% \input{"Appendix D - Distinguishing Tests"}
-
-% \input{"Appendix E - List of Alpha Amino Acids"}
 
 
 

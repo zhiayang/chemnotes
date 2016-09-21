@@ -378,15 +378,15 @@
 					\chemfig{Fe\sps{3}\pch
 					(-[:90,2.1,,,Stealth-]C?[top,,dashed]|{\color{RoyalBlue}N}\mch)
 					(-[:270,2.1,,,Stealth-]C?[bottom,,dashed]|{\color{RoyalBlue}N}\mch)
-					(-[:240,1.1,,,Stealth-]\mch{\color{RoyalBlue}N}|C?[top,,dashed]?[bottom,,dashed])
-					(-[:0,1.7,,,Stealth-]C?[top,,dashed]?[bottom,,dashed]|{\color{RoyalBlue}N}\mch)
-					(-[:180,1.7,,,Stealth-]\mch{\color{RoyalBlue}N}|C?[top,,dashed]?[bottom,,dashed])
-					(-[:60,,,,Stealth-]C?[top,,dashed]?[bottom,,dashed]|{\color{RoyalBlue}N}\mch)
+					(-[:240,1.1,,,Stealth-]\mch{\color{RoyalBlue}N}|C?[top,,dashed]?[bottom,,dashed]?[frontl,,dashed]?[frontr,,dashed])
+					(-[:0,1.7,,,Stealth-]C?[top,,dashed]?[bottom,,dashed]?[frontr,,dashed]?[backr,,dashed]|{\color{RoyalBlue}N}\mch)
+					(-[:180,1.7,,,Stealth-]\mch{\color{RoyalBlue}N}|C?[top,,dashed]?[bottom,,dashed]?[frontl,,dashed]?[backl,,dashed])
+					(-[:60,,,,Stealth-]C?[top,,dashed]?[bottom,,dashed]?[back,,dashed]?[backl,,dashed]?[backr,,dashed]|{\color{RoyalBlue}N}\mch)
 					}
 
 					\\ \\
 
-					\ch{[Cu\Cl4]^2-}, tetrahedral, CN: 4	&	\ch{[Ni(CN)4]^2-}, square planar, CN: 4
+					\ch{[Cu\Cl4]^2-}, tetrahedral, CN: 4	&	\ch{[Fe(CN)6]^3-}, square planar, CN: 4
 
 				\end{tabular}
 			}
@@ -482,12 +482,13 @@
 
 			\subsubsection{Effect on Reduction Potential}
 
-				Different ligands can affect the reduction potential of the central metal ion. For instance, \ch{[Fe(H2O)6]^3+} has a reduction
+				Ligands can affect the reduction potential of the central metal ion. For instance, \ch{[Fe(H2O)6]^3+} has a reduction
 				potential of \SI[retain-explicit-plus]{+0.77}{\volt}, while \ch{[Fe(CN)6]^3-} only has a reduction potential of
 				\SI[retain-explicit-plus]{+0.36}{\volt}.
 
-				The difference can be due to steric hindrance, or more likely in the case of \ch{[Fe(CN)6]^3-}, the negative charge of the
-				ligands increasing the energy needed for the electron to approach and successfully reduce the \ch{Fe^3+} centre.
+				The primary difference lies in the stability of the complex formed, which affects the concentration of free metal ions in
+				solution, which are the ones being reduced. Anionic ligands also have a stabilising effect on the metal cation, reducing their
+				reduction potential electrostatically.
 
 			% end subsubsection
 

@@ -2,3 +2,199 @@
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 % Licensed under the Apache License Version 2.0.
 
+\pagebreak
+\part{Solubility Equilibrium}
+
+	\section{Overview}
+
+		Ions are typically soluble in a polar solvent, but since systems always tend to approach the lowest energy level, if a solid ionic
+		compound can be created from some of those ions, then it will precipitate out of solution.
+
+		The solubility of any given ionic compound is largely determined by \enth{sol}, the enthalpy change of solution, which is the sum
+		of the enthalpy changes of hydration of the constituent ions, minus the lattice energy of the ionic compound.
+
+		Hence, for a compound with a highly negative lattice energy, the enthalpy change of solution will be quite endothermic, and it is
+		unlikely to be very soluble. Essentially, stronger ionic lattices are less soluble than weaker ones.
+
+		Furthermore, solubility typically increases with temperature, since the increased energy of the solvent can increase the feasibility of
+		solution.
+
+		\subsection{Saturation}
+
+			Even for highly soluble salts, eg. \ch{Na\Cl}, solubility is not infinite. Beyond a certain point, additional solid salt added
+			to the solvent will no longer dissolve. At this limit, a \itl{saturated solution} is formed.
+
+			When more solid salt is added to a saturated solution, an equilibrium is created, where ions are simultaneously being dissolved from,
+			and precipitated into, the solid state. As with any other dynamic equilibrium, the rates of reaction of these two processes are
+			\itl{non-zero} and identical.
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Solubility of Common Ionic Compounds}
+
+			The solubilities of ionic compounds are often grouped by the anion, and most of them have fairly straightforward trends.
+
+			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
+			\begin{tabu} to \textwidth {X[c,m] | X[c,m] | X[c,m]}
+
+				% headings
+				Anion							&	Solubility	&	Exceptions								\\ \hline
+				\ch{NO3-}						&	Soluble		&	---										\\ \hline
+				\ch{\Cl-}, \ch{Br-}, \ch{I-}	&	Soluble		&	\ch{Ag+} and \ch{Pb^2+}					\\ \hline
+				\ch{SO4^2-}						&	Soluble		&	\ch{Ag+}, \ch{Pb^2+}, \ch{Ca^2+}, \ch{Sr^2+}, \ch{Ba^2+}\\ \hline
+				\ch{CO3^2-}						&	Insoluble	&	Group \bld{\romannum{I}} cations and \ch{NH4+}	\\ \hline
+				\ch{OH-}						&	Insoluble	&	Group \bld{\romannum{I}} cations				\\ \hline
+				\ch{O^2-}						&	Insoluble	&	Group \bld{\romannum{I}} cations				\\ \hline
+
+			\end{tabu}
+			\end{table}\end{center}\vspace{-10mm}
+
+
+			Even though a certain ionic salt is said to be \itl{insoluble}, most of the time a small amount of free ions can still be found
+			in solution; the concentration of these ions is just \itl{very, very small}.
+
+			Certain salts, such as \ch{Mg(OH)2} and \ch{Ca(OH)2}, are actually \itl{sparingly soluble} --- not-insignificant amounts of ions
+			are dissolved into solution; limewater is a saturated solution of calcium hydroxide, and the \pH{} of a magnesium hydroxide solution
+			is actually greater than 7.
+
+		% end subsection
+
+	% end section
+
+
+	\pagebreak
+	\section{Solubility Constants}
+
+		\subsection{Solubility}
+
+			The solubility of a salt is the number of moles, or mass, of the salt that can be dissolved in a given volume of solvent to create
+			a saturated solution at a fixed temperature.
+
+			The units of solubility are typically either \si{\molarConc} or \si{\gram\per\cubic\deci\metre}, depending on the
+			the scale used.
+
+			If the solubility of a certain salt, for instance \ch{Mg(NO3)2} is \SI{8.43}{\molarConc}, then the concentration of \ch{Mg^2+}
+			ions in solution will be \SI{8.43}{\molarConc}, and the concentration of \ch{OH-} ions will be twice that, \SI{16.9}{\molarConc}.
+
+		% end subsection
+
+
+		\subsection{Solubility Product, \MKsp{}}
+
+			The \Ksp{} of a sparingly soluble salt is the molar concentrations of the constituent ions in a saturated solution raised to their stoichiometric coefficients, at a fixed temperature.
+
+			The solubility product of an ionic equilibrium is derived from the equilibrium constant, \Kc{}. Hence, like \Kc{}, the value of the solubility product for any salt is only valid at a certain temperature. For a given equilibrium of solution:
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{Mg(OH)2 \stS}
+					\arrow{<=>}
+					\ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
+				\schemestop
+			}{\vspace{-2em}}
+
+			The equilibrium constant is this:
+
+			\diagram[1.5]{
+				$K_{c} = \frac{[Mg^{+}][OH^{-}]^{2}}{[Mg(OH)_{2}]}$\hspace{15mm}$K_{sp} = [Mg^{+}][OH^{-}]^{2}$
+			}{\vspace{-1em}}
+
+			Since the `concentration' of a solid, in this case \ch{Mg(OH)2}, is constant, it can be factored out, giving the equation of \Ksp{}. The units of \Ksp{} are naturally dependent on the ions and their powers on the right side, so in this case they are
+			\si{\mole\tothe{3}\per\deci\metre\tothe{9}}.
+
+		% end subsection
+
+		\subsection{Ionic Product}
+
+			The ionic product of an ionic salt is defined in the same manner as the solubility product, except the solution need not be
+			saturated; it is most often a measure of the \itl{current} concentration of ions in solution.
+
+			The IP can be compared with \Ksp{} to determine if the solution will form a precipitate if more ions are added. If the ionic
+			product is greater than \Ksp{}, then ions will precipitate out until IP is equal to \Ksp{}. If it is less, then more solid
+			can be added until they are equal, giving a saturated solution.
+
+		% end subsection
+
+	% end section
+
+
+	\pagebreak
+	\section{Factors Affecting Solubility}
+
+		\subsection{Position of Equilibrium}
+
+			One of the main factors affecting the solubility of an ionic salt is the position of equilibrium of the solution system. For a
+			given equilibrium, for example that of \ch{Mg(OH)2}:
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{Mg(OH)2 \stS}
+					\arrow{<=>}
+					\ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
+				\schemestop
+			}{\vspace{-2em}}
+
+			The position of equilibrium depends solely on the concentrations of the ions, since adding or removing solids will not change the
+			position. Any action that modifies the concentration of either ion will result in a shift in equilibrium, and hence an increase or
+			decrease in the solubility of the salt.
+
+			For example, adding an acid like \ch{H2SO4} to the system will cause the concentration of \ch{OH-} to decrease, and hence by the
+			principle of Le Châtelier, the position of equilibrium will shift to the right, causing more of the solid to dissolve.
+
+			Conversely, if the concentration of \ch{Mg^2+} were increased, for instance by adding \ch{Mg(NO3)2}, then the position of equilibrium
+			will shift to the left, causing less solid to dissolve, and indeed causing existing ions to precipitate out of solution.
+
+			\subsubsection{Common Ion Effect}
+
+				The common ion effect is really just a fancy name for a special case of changing the position of equilibrium; if a solution
+				containing \itl{common ions} is added to an existing equilibrium, then the solubility of the sparingly soluble salt will decrease,
+				as a result of Le Châtelier's Principle.
+
+			% end subsubsection
+
+			\subsubsection{Complex Formation}
+
+				Again, this is just a special case of changing the position of equilibrium. For example, given the following systems of
+				\ch{\Al(OH)3} and \ch{[\Al(OH)4]-}:
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{\Al(OH)3 \stS}\arrow{<=>}\ch{\Al^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{3 OH- \stAq}
+						\arrow(@c1.south east--.north east){0}[-90,.20]
+						\ch{\Al^3+ \stAq} + \ch{4 OH- \stAq}\arrow{<=>}\ch{[\Al(OH)4]- \stAq}
+					\schemestop
+				}{\vspace{-1em}}
+
+				If \ch{OH-} ions are introduced to an aqueous solution of \ch{\Al^3+} ions, then the precipitate of \ch{\Al(OH)3} will form since
+				the ionic product is greater than the solubility product.
+
+				If excess \ch{OH-} ions are added, however, then the soluble complex ion \ch{[\Al(OH)4]-} forms, which is soluble in water. This
+				removes \ch{\Al^3+} ions from solution, and if enough complex ions form, then the position of equilibrium for the solution system
+				will shift forward enough to dissolve the precipitate.
+
+
+
+			% end subsubsection
+
+		% end subsection
+
+	% end section
+
+% end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

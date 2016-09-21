@@ -519,38 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "OrganicChem/Chapter 17 - Amino Acids.tex",
-			"settings":
-			{
-				"buffer_size": 12071,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "InorganicChem/Chapter 03 - Period 3.tex",
-			"settings":
-			{
-				"buffer_size": 29037,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
-			"settings":
-			{
-				"buffer_size": 8695,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "studynotes.sty",
-			"settings":
-			{
-				"buffer_size": 17626,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -901,29 +869,48 @@
 	"expanded_folders":
 	[
 		"/Users/zhiayang/Documents/Chem Notes",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem"
+		"/Users/zhiayang/Documents/Chem Notes/InorganicChem",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem"
 	],
 	"file_history":
 	[
-		"/Users/zhiayang/Downloads/mySIMBL-master/README.md",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix E - List of Alpha Amino Acids.tex",
-		"/Users/zhiayang/Documents/Chem Notes/studynotes.sty",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 07 - Acid-Base Equilibrium.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.log",
-		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/Chapter 04 - Transition Metals.tex",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E12.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E11.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E10.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E09.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E08.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E07.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E06.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E05.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E04.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E03.srt",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E02.srt",
 		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/InorganicChem.tex",
+		"/Users/zhiayang/Desktop/done/Arpeggio of Blue Steel - S01E01.srt",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/Chapter 04 - Transition Metals.tex",
+		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/InorganicChem.pdf",
 		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/Chapter 03 - Period 3.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 04 - Reaction Mechanisms.tex",
 		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/Chapter 02 - Group Seven.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 07 - Acid-Base Equilibrium.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 06 - Solubility Equilibrium.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 04 - Induction and Resonance.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
+		"/Users/zhiayang/Desktop/Stuff/Torrents/2002. The Best Of The Red Army Choir (2 CD)/The Red Army Choir - The Best Of The Red Army Choir (disk 1).cue",
 		"/Users/zhiayang/Documents/Chem Notes/InorganicChem/Chapter 01 - Group Two.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 18 - Proteins.tex",
+		"/Users/zhiayang/Documents/Chem Notes/studynotes.sty",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 17 - Amino Acids.tex",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
+		"/Users/zhiayang/Downloads/mySIMBL-master/README.md",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix E - List of Alpha Amino Acids.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.log",
+		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 04 - Reaction Mechanisms.tex",
+		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 05 - Alkanes.tex",
 		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/CheckBounce/CheckBounce.sublime-settings",
 		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/CheckBounce.sublime-settings",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 05 - Chemical Equilibrium.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 01 - Enthalpies.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 03 - Reaction Kinetics.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix B - List of Reactions.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix A - Reaction Mechanisms.tex",
@@ -937,7 +924,6 @@
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 01 - Functional Groups.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 02 - Isomers.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 03 - Reaction Mechanisms.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 04 - Induction and Resonance.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 06 - Alkenes.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 07 - Arenes.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 08 - Halogen Derivatives.tex",
@@ -949,13 +935,10 @@
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 08 - Electrolysis.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix C - Summary Tables.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix D - Distinguishing Tests.tex",
-		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 06 - Solubility Equilibrium.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/Chapter 06 - Solubility and Ionic Equilibrium.tex",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 18 - Proteins.tex",
 		"/Users/zhiayang/Documents/Chem Notes/PhysicalChem/PhysicalChem.log",
 		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/zhiayang/Library/Preferences/uk.org.hadwired.The-Powder-Toy.plist",
-		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 17 - Amino Acids.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/OrganicChem.toc",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Appendix A - List of Reaction Mechanisms.tex",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem/Chapter 03 - Reaction Mechanisms.aux",
@@ -1018,21 +1001,7 @@
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/SemanticAnalysis/Dependencies.cpp",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/Classes.cpp",
 		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Functions.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ast.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/CompilerDriver.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/errors.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/FileReader.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/Parser/Parser.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/defs.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/module.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Module.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/dependency.h",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Codegen.cpp",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/test-old.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/shakefile.hs",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/test.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/Utilities.flx",
-		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Array.flx"
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ast.h"
 	],
 	"find":
 	{
@@ -1091,6 +1060,78 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</font>",
+			"<font",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"font",
+			"<font face=\"Open Sans Semibold\" size=\"33\">",
+			"font",
+			"<font face=\"Open Sans Semibold\" size=\"48\">",
+			"<font face=\"Open Sans Semibold\" size=\"48\" color=\"#fffeff\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"48\">",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"<font face=\"Open Sans Semibold\" size=\"33\">",
+			"<font face=\"Open Sans Semibold\" size=\"35\">",
+			"font",
+			"<font face=\"Open Sans Semibold\" size=\"35\">",
+			"<font face=\"Open Sans Semibold\" size=\"33\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"<font face=\"Open Sans Semibold\" size=\"42\">",
+			"font",
+			"<font face=\"Open Sans Semibold\" size=\"48\">",
+			"<font face=\"Open Sans Semibold\" size=\"48\" color=\"#fffeff\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"<font face=\"Open Sans Semibold\" size=\"35\">",
+			"font",
+			"<font face=\"Open Sans Semibold\" size=\"24\" color=\"#121218\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"<font face=\"Open Sans Semibold\" size=\"48\">",
+			"<font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"font",
+			"</font>",
+			"<font face=\"Open Sans Semibold\" size=\"36\">",
+			"<font face=\"Open Sans Semibold\" size=\"48\" color=\"#fffeff\">",
+			"\\c{",
+			"thiosul",
+			"units",
+			"le ch",
+			"le c",
+			"affecting",
+			"ksp",
+			"\\rtwo",
+			"that",
+			"\\begin{tabu}",
+			"---",
+			"mph",
+			"carboxy",
+			"\\chemalpha",
+			"chemalpha",
+			"alpha",
+			"chemalpha",
+			"diagram",
+			"dotlewis",
+			"\\lewis",
+			"smdeltam",
+			"alpha",
 			"2+",
 			"chemmove",
 			"\\chemmove",
@@ -1146,79 +1187,7 @@
 			"img",
 			"H2O \\stS",
 			"H2O \\stAq",
-			"-1.5",
-			"1.5",
-			"\\Al",
-			"subsubsection",
-			"hydrolysis",
-			"-Stealth",
-			"\\si{",
-			"Melting Point \\si{\\celsius}",
-			"-1.5em",
-			"disproportion",
-			"\\arrow(",
-			"frachalf",
-			"txt",
-			"section",
-			"Overview",
-			"Introduction",
-			"@lewisdist",
-			"if the ",
-			"in the first step",
-			"\\emph{",
-			"\\emph",
-			"emph",
-			"this reaction",
-			"oxidation",
-			"mylewis",
-			"Br",
-			"stAq",
-			"south east",
-			"bld",
-			"@c1",
-			"[heat]",
-			"txtdiagram",
-			"[heat]",
-			"[heta]",
-			"node",
-			"chemmove",
-			"ddbond",
-			"textit",
-			"Ca",
-			"explicit",
-			"table",
-			"tabl",
-			"table",
-			"tabu",
-			"tab",
-			"hydration",
-			"as",
-			"\\textit{",
-			"2,",
-			"2.5",
-			"hyper",
-			"alcoholdehydration",
-			"PhysicalChem",
-			"edge case",
-			"edge caes",
-			"Le Ch",
-			"diagram",
-			"standardstate",
-			"		\n",
-			"img",
-			"red.",
-			"reduction",
-			"halogenoalkanes",
-			"chematom",
-			"\\kilo\\joule\\per\\mole",
-			"tabu",
-			"Contents",
-			"LatoRegular",
-			"SSRegular",
-			"LatoLight",
-			"GillSans",
-			"SSLight",
-			"12pt"
+			"-1.5"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1226,6 +1195,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"-2em",
 			"-1em",
 			"\\itl{",
@@ -1352,8 +1322,7 @@
 			"FTContext",
 			"2015",
 			"pin",
-			"stream.compare(0, 2",
-			"stream.find(0, 2, "
+			"stream.compare(0, 2"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1364,126 +1333,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "OrganicChem/Chapter 17 - Amino Acids.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12071,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10754,
-								10754
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3295.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "InorganicChem/Chapter 03 - Period 3.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29037,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13214,
-								13214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5644.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "PhysicalChem/Chapter 02 - Gibbs Energy and Entropy.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7581,
-								7581
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2143.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "studynotes.sty",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17626,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14904,
-								14904
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/TeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 8765.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1543,6 +1394,10 @@
 		"height": 98.0
 	},
 	"output.haskell_sublime_load":
+	{
+		"height": 98.0
+	},
+	"output.unsaved_changes":
 	{
 		"height": 98.0
 	},
@@ -1738,7 +1593,7 @@
 		[
 			[
 				"",
-				"~/Desktop/Stuff/CydiaTweaks/whatsappnotificationname/whatsappnotificationname.sublime-project"
+				"~/Desktop/Stuff/Orion Industries/flax/flax.sublime-project"
 			],
 			[
 				"web",
