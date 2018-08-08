@@ -9,179 +9,179 @@
 			],
 			[
 				"get",
-				"getArgumentN(size_t n)	fir::Type *"
+				"getArgumentN(size_t n)\tfir::Type *"
 			],
 			[
 				"pop",
-				"popIdentifierStack()	void"
+				"popIdentifierStack()\tvoid"
 			],
 			[
 				"type",
-				"genericTypeParameters	std::deque<std::string>"
+				"genericTypeParameters\tstd::deque<std::string>"
 			],
 			[
 				"Functi",
-				"FunctionType	struct"
+				"FunctionType\tstruct"
 			],
 			[
 				"prin",
-				"printf(const char *, ...)	int"
+				"printf(const char *, ...)\tint"
 			],
 			[
 				"Func",
-				"FunctionType	struct"
+				"FunctionType\tstruct"
 			],
 			[
 				"Fun",
-				"FunctionType	struct"
+				"FunctionType\tstruct"
 			],
 			[
 				"de",
-				"doTypecheck(TCInstance *ti)	fir::Type *"
+				"doTypecheck(TCInstance *ti)\tfir::Type *"
 			],
 			[
 				"Type",
-				"TypeAliasDef	struct"
+				"TypeAliasDef\tstruct"
 			],
 			[
 				"Root",
-				"RootAst	struct"
+				"RootAst\tstruct"
 			],
 			[
 				"add",
-				"addTypeDependency(std::string from, std::deque<std::string> possibleNames, Ast::Expr *user)	void"
+				"addTypeDependency(std::string from, std::deque<std::string> possibleNames, Ast::Expr *user)\tvoid"
 			],
 			[
 				"Dep",
-				"DependencyGraph	struct"
+				"DependencyGraph\tstruct"
 			],
 			[
 				"po",
-				"pop_back()	void"
+				"pop_back()\tvoid"
 			],
 			[
 				"cur",
-				"currentPos	Parser::Pin"
+				"currentPos\tParser::Pin"
 			],
 			[
 				"usng",
-				"using namespace identifier	"
+				"using namespace identifier\t"
 			],
 			[
 				"cus",
-				"customOperatorMapRev	std::map<std::string, ArithmeticOp>"
+				"customOperatorMapRev\tstd::map<std::string, ArithmeticOp>"
 			],
 			[
 				"Typ",
-				"TypeAliasDef	struct"
+				"TypeAliasDef\tstruct"
 			],
 			[
 				"Array",
-				"ArrayIndexOp	struct"
+				"ArrayIndexOp\tstruct"
 			],
 			[
 				"Struc",
-				"StructDef	struct"
+				"StructDef\tstruct"
 			],
 			[
 				"Com",
-				"CompoundType	struct"
+				"CompoundType\tstruct"
 			],
 			[
 				"Par",
-				"Parser::	namespace"
+				"Parser::\tnamespace"
 			],
 			[
 				"N",
-				"NumberLiteral	struct"
+				"NumberLiteral\tstruct"
 			],
 			[
 				"Pars",
-				"ParserState	struct"
+				"ParserState\tstruct"
 			],
 			[
 				"Var",
-				"VarRef	struct"
+				"VarRef\tstruct"
 			],
 			[
 				"getfunctiosand",
-				"getFunctionsWithFQNameAndType(std::deque<std::string> qualifiedName, fir::FunctionType *ft)	std::deque<Function *>"
+				"getFunctionsWithFQNameAndType(std::deque<std::string> qualifiedName, fir::FunctionType *ft)\tstd::deque<Function *>"
 			],
 			[
 				"getfunctios",
-				"getFunctionsWithFQName(std::deque<std::string> qualifiedName)	std::deque<Function *>"
+				"getFunctionsWithFQName(std::deque<std::string> qualifiedName)\tstd::deque<Function *>"
 			],
 			[
 				"getfunc",
-				"getFunctionsWithNameAndType(std::string name, fir::FunctionType *ft)	std::deque<Function *>"
+				"getFunctionsWithNameAndType(std::string name, fir::FunctionType *ft)\tstd::deque<Function *>"
 			],
 			[
 				"getar",
-				"getArgumentCount()	size_t"
+				"getArgumentCount()\tsize_t"
 			],
 			[
 				"op",
-				"opKind	fir::OpKind"
+				"opKind\tfir::OpKind"
 			],
 			[
 				"b",
-				"getBlockList()	std::deque<IRBlock *> &"
+				"getBlockList()\tstd::deque<IRBlock *> &"
 			],
 			[
 				"error",
-				"error(Ast::Expr *e, const char *msg, ...)	void"
+				"error(Ast::Expr *e, const char *msg, ...)\tvoid"
 			],
 			[
 				"crea",
-				"StructBase::createdType	fir::StructType *"
+				"StructBase::createdType\tfir::StructType *"
 			],
 			[
 				"tp",
-				"tp	TypePair_t *"
+				"tp\tTypePair_t *"
 			],
 			[
 				"generic",
-				"genericTypeMangle	std::string"
+				"genericTypeMangle\tstd::string"
 			],
 			[
 				"pushgeneri",
-				"pushGenericType(std::string id, fir::Type *type)	void"
+				"pushGenericType(std::string id, fir::Type *type)\tvoid"
 			],
 			[
 				"instanti",
-				"instantiatedGenericTypeStack	std::deque<std::map<std::string, fir::Type *> >"
+				"instantiatedGenericTypeStack\tstd::deque<std::map<std::string, fir::Type *> >"
 			],
 			[
 				"S",
-				"ShiftLeftEquals	Ast::ArithmeticOp"
+				"ShiftLeftEquals\tAst::ArithmeticOp"
 			],
 			[
 				"Shif",
-				"ShiftLeft	Ast::ArithmeticOp"
+				"ShiftLeft\tAst::ArithmeticOp"
 			],
 			[
 				"Shift",
-				"ShiftLeftEquals	Ast::ArithmeticOp"
+				"ShiftLeftEquals\tAst::ArithmeticOp"
 			],
 			[
 				"create",
-				"createType(Codegen::CodegenInstance *cgi)	fir::Type *"
+				"createType(Codegen::CodegenInstance *cgi)\tfir::Type *"
 			],
 			[
 				"i",
-				"getSignedValue()	ssize_t"
+				"getSignedValue()\tssize_t"
 			],
 			[
 				"Consta",
-				"ConstantInt	struct"
+				"ConstantInt\tstruct"
 			],
 			[
 				"Conta",
-				"ConstantValue	struct"
+				"ConstantValue\tstruct"
 			],
 			[
 				"getpo",
-				"getPointerElementType()	fir::Type *"
+				"getPointerElementType()\tfir::Type *"
 			],
 			[
 				"accep",
@@ -189,11 +189,11 @@
 			],
 			[
 				"poin",
-				"Type::getPointerTo()	fir::Type *"
+				"Type::getPointerTo()\tfir::Type *"
 			],
 			[
 				"getpoin",
-				"getPointerElementType()	fir::Type *"
+				"getPointerElementType()\tfir::Type *"
 			],
 			[
 				"marg",
@@ -221,39 +221,39 @@
 			],
 			[
 				"Manager",
-				"PassManager	class"
+				"PassManager\tclass"
 			],
 			[
 				"module",
-				"ModulePass	class"
+				"ModulePass\tclass"
 			],
 			[
 				"createdt",
-				"StructBase::createdType	fir::StructType *"
+				"StructBase::createdType\tfir::StructType *"
 			],
 			[
 				"gettype",
-				"getType(std::string name)	TypePair_t *"
+				"getType(std::string name)\tTypePair_t *"
 			],
 			[
 				"istyp",
-				"isTypeEqual(fir::Type *other)	bool"
+				"isTypeEqual(fir::Type *other)\tbool"
 			],
 			[
 				"cached",
-				"cachedGenericFuncTarget	fir::Function *"
+				"cachedGenericFuncTarget\tfir::Function *"
 			],
 			[
 				"res",
-				"resolveFunction(Ast::Expr *user, std::string basename, std::deque<Ast::Expr *> params)	Codegen::Resolved_t"
+				"resolveFunction(Ast::Expr *user, std::string basename, std::deque<Ast::Expr *> params)\tCodegen::Resolved_t"
 			],
 			[
 				"generictype",
-				"instantiatedGenericTypeStack	std::deque<std::map<std::string, fir::Type *> >"
+				"instantiatedGenericTypeStack\tstd::deque<std::map<std::string, fir::Type *> >"
 			],
 			[
 				"Attr_Vis",
-				"Attr_VisPrivate	uint64_t"
+				"Attr_VisPrivate\tuint64_t"
 			],
 			[
 				"mayb",
@@ -261,19 +261,19 @@
 			],
 			[
 				"runprorg",
-				"getRunProgramWithJit()	bool"
+				"getRunProgramWithJit()\tbool"
 			],
 			[
 				"Compil",
-				"CompiledData	typedef"
+				"CompiledData\ttypedef"
 			],
 			[
 				"getp",
-				"getPointerTo()	fir::Type *"
+				"getPointerTo()\tfir::Type *"
 			],
 			[
 				"alloc",
-				"allocType	fir::Type *"
+				"allocType\tfir::Type *"
 			],
 			[
 				"aft",
@@ -281,244 +281,261 @@
 			],
 			[
 				"Constant",
-				"ConstantValue	struct"
+				"ConstantValue\tstruct"
 			],
 			[
 				"createbranch",
-				"CreateCondBranch(fir::Value *condition, fir::IRBlock *trueBlock, fir::IRBlock *falseBlock)	void"
+				"CreateCondBranch(fir::Value *condition, fir::IRBlock *trueBlock, fir::IRBlock *falseBlock)\tvoid"
 			],
 			[
 				"getuint",
-				"getUint64()	fir::PrimitiveType *"
+				"getUint64()\tfir::PrimitiveType *"
 			],
 			[
 				"getbit",
-				"getIntegerBitWidth()	size_t"
+				"getIntegerBitWidth()\tsize_t"
 			],
 			[
 				"p",
-				"push_back(value_type &&__v)	void"
+				"push_back(value_type &&__v)\tvoid"
 			],
 			[
 				"parsearray",
-				"parseArraySizeSpecifiers(Parser::ParserState &ps)	std::string"
+				"parseArraySizeSpecifiers(Parser::ParserState &ps)\tstd::string"
 			],
 			[
 				"Plus",
-				"PlusEquals	Ast::ArithmeticOp"
+				"PlusEquals\tAst::ArithmeticOp"
 			],
 			[
 				"Print",
-				"printModule	bool"
+				"printModule\tbool"
 			],
 			[
 				"Left",
-				"LeftVariable	Ast::MAType"
+				"LeftVariable\tAst::MAType"
 			],
 			[
 				"Con",
-				"ConstantFP	struct"
+				"ConstantFP\tstruct"
 			],
 			[
 				"getSigned",
-				"getSigned(fir::Type *intType, ssize_t val)	fir::ConstantInt *"
+				"getSigned(fir::Type *intType, ssize_t val)\tfir::ConstantInt *"
 			],
 			[
 				"CreateGEP",
-				"CreateGetPointerToStructMember(fir::Value *ptr, fir::Value *ptrIndex, fir::Value *memberIndex)	fir::Value *"
+				"CreateGetPointerToStructMember(fir::Value *ptr, fir::Value *ptrIndex, fir::Value *memberIndex)\tfir::Value *"
 			],
 			[
 				"find_if",
-				"find_if(_InputIterator __first, _InputIterator __last, _Predicate __pred)	_InputIterator"
+				"find_if(_InputIterator __first, _InputIterator __last, _Predicate __pred)\t_InputIterator"
 			],
 			[
 				"geti",
-				"getUnsignedValue()	size_t"
+				"getUnsignedValue()\tsize_t"
 			],
 			[
 				"Const",
-				"ConstantInt	struct"
+				"ConstantInt\tstruct"
 			],
 			[
 				"getfunction",
-				"getFunctionList()	FunctionListType &"
+				"getFunctionList()\tFunctionListType &"
 			],
 			[
 				"func",
-				"getAllFunctions()	std::deque<Function *>"
+				"getAllFunctions()\tstd::deque<Function *>"
 			],
 			[
 				"o",
-				"ConstantValue	struct"
+				"ConstantValue\tstruct"
 			],
 			[
 				"ge",
-				"getPointerTo()	fir::Type *"
+				"getPointerTo()\tfir::Type *"
 			],
 			[
 				"gt",
-				"getPointerTo()	fir::Type *"
+				"getPointerTo()\tfir::Type *"
 			],
 			[
 				"addnew",
-				"addNewBlockInFunction(std::string name, fir::Function *func)	fir::IRBlock *"
+				"addNewBlockInFunction(std::string name, fir::Function *func)\tfir::IRBlock *"
 			],
 			[
 				"getSign",
-				"getUnsigned(fir::Type *intType, size_t val)	fir::ConstantInt *"
+				"getUnsigned(fir::Type *intType, size_t val)\tfir::ConstantInt *"
 			],
 			[
 				"dele",
-				"deleteNamedType(std::string name)	void"
+				"deleteNamedType(std::string name)\tvoid"
 			],
 			[
 				"print",
-				"printFIR	bool"
+				"printFIR\tbool"
 			],
 			[
 				"Unsi",
-				"Unsigned_Div	fir::OpKind"
+				"Unsigned_Div\tfir::OpKind"
 			],
 			[
 				"getfloa",
-				"getFloatingPointBitWidth()	size_t"
+				"getFloatingPointBitWidth()\tsize_t"
 			],
 			[
 				"main",
-				"mainModule	llvm::Module *"
+				"mainModule\tllvm::Module *"
 			],
 			[
 				"Constan",
-				"ConstantValue	struct"
+				"ConstantValue\tstruct"
 			],
 			[
 				"prn",
-				"printf	printf …"
+				"printf\tprintf …"
 			],
 			[
 				"args",
-				"getArguments()	std::deque<Argument *>"
+				"getArguments()\tstd::deque<Argument *>"
 			],
 			[
 				"blo",
-				"blocks	std::deque<IRBlock *>"
+				"blocks\tstd::deque<IRBlock *>"
 			],
 			[
 				"Vla",
-				"Value_StackAlloc	fir::OpKind"
+				"Value_StackAlloc\tfir::OpKind"
 			],
 			[
 				"Constnat",
-				"ConstantInt	struct"
+				"ConstantInt\tstruct"
 			],
 			[
 				"arg",
-				"arg_end()	arg_iterator"
+				"arg_end()\targ_iterator"
 			],
 			[
 				"getarg",
-				"getArguments()	std::deque<Argument *>"
+				"getArguments()\tstd::deque<Argument *>"
 			],
 			[
 				"dya",
-				"dynamic_cast<type>(expression)	"
+				"dynamic_cast<type>(expression)\t"
 			],
 			[
 				"Constn",
-				"ConstantInt	struct"
+				"ConstantInt\tstruct"
 			],
 			[
 				"createret",
-				"CreateRet(llvm::Value *V)	llvm::ReturnInst *"
+				"CreateRet(llvm::Value *V)\tllvm::ReturnInst *"
 			],
 			[
 				"g",
-				"getActualValue()	fir::Value *"
+				"getActualValue()\tfir::Value *"
 			],
 			[
 				"iss",
-				"isSignedIntType()	bool"
+				"isSignedIntType()\tbool"
 			],
 			[
 				"Weak",
-				"ExternalWeakLinkage	llvm::GlobalValue::LinkageTypes"
+				"ExternalWeakLinkage\tllvm::GlobalValue::LinkageTypes"
 			],
 			[
 				"toLlvm",
-				"typeToLlvm(fir::Type *type, llvm::Module *mod)	llvm::Type *"
+				"typeToLlvm(fir::Type *type, llvm::Module *mod)\tllvm::Type *"
 			],
 			[
 				"ps",
-				"push_back(const_reference __x)	void"
+				"push_back(const_reference __x)\tvoid"
 			],
 			[
 				"Global",
-				"GlobalVariable	struct"
+				"GlobalVariable\tstruct"
 			],
 			[
 				"global",
-				"globalStrings	std::map<std::string, GlobalVariable *>"
+				"globalStrings\tstd::map<std::string, GlobalVariable *>"
 			],
 			[
 				"name",
-				"getStructName()	std::string"
+				"getStructName()\tstd::string"
 			],
 			[
 				"getpoint",
-				"getPointerElementType()	fir::Type *"
+				"getPointerElementType()\tfir::Type *"
 			],
 			[
 				"getflot",
-				"getFloatingPointBitWidth()	size_t"
+				"getFloatingPointBitWidth()\tsize_t"
 			],
 			[
 				"geta",
-				"getArgumentCount()	size_t"
+				"getArgumentCount()\tsize_t"
 			],
 			[
 				"resolvefunctio",
-				"resolveFunctionFromList(Ast::Expr *user, std::deque<FuncPair_t> list, std::string basename, std::deque<Ast::Expr *> params)	Codegen::Resolved_t"
+				"resolveFunctionFromList(Ast::Expr *user, std::deque<FuncPair_t> list, std::string basename, std::deque<Ast::Expr *> params)\tCodegen::Resolved_t"
 			],
 			[
 				"par",
-				"parentClass	Ast::StructBase *"
+				"parentClass\tAst::StructBase *"
 			],
 			[
 				"ar",
-				"params	std::deque<Expr *>"
+				"params\tstd::deque<Expr *>"
 			],
 			[
 				"getint",
-				"getIntegerBitWidth()	size_t"
+				"getIntegerBitWidth()\tsize_t"
 			],
 			[
 				"autocast",
-				"autoCastType(fir::Type *target, fir::Value *&right)	int"
+				"autoCastType(fir::Type *target, fir::Value *&right)\tint"
 			],
 			[
 				"Multi",
-				"MultiplyEquals	Ast::ArithmeticOp"
+				"MultiplyEquals\tAst::ArithmeticOp"
 			],
 			[
 				"Minu",
-				"MinusEquals	Ast::ArithmeticOp"
+				"MinusEquals\tAst::ArithmeticOp"
 			],
 			[
 				"Pl",
-				"PlusEquals	Ast::ArithmeticOp"
+				"PlusEquals\tAst::ArithmeticOp"
 			],
 			[
 				"istr",
-				"isStructType()	bool"
+				"isStructType()\tbool"
 			],
 			[
 				"createlogial",
-				"CreateLogicalAND(fir::Value *a, fir::Value *b)	fir::Value *"
+				"CreateLogicalAND(fir::Value *a, fir::Value *b)\tfir::Value *"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "studynotes.sty",
+			"settings":
+			{
+				"buffer_size": 17701,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "OrganicChem/OrganicChem.tex",
+			"settings":
+			{
+				"buffer_size": 18289,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -543,10 +560,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "ch",
+		"height": 131.0,
+		"last_filter": "waka",
 		"selected_items":
 		[
+			[
+				"waka",
+				"WakaTime: Open Dashboard"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"ch",
 				"Snippet: Copyright Header"
@@ -582,10 +607,6 @@
 			[
 				"reomve",
 				"Package Control: Remove Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"enble",
@@ -840,7 +861,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 457.0
+		"width": 440.0
 	},
 	"console":
 	{
@@ -869,7 +890,6 @@
 	"expanded_folders":
 	[
 		"/Users/zhiayang/Documents/Chem Notes",
-		"/Users/zhiayang/Documents/Chem Notes/InorganicChem",
 		"/Users/zhiayang/Documents/Chem Notes/OrganicChem"
 	],
 	"file_history":
@@ -1005,7 +1025,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -1333,14 +1353,100 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "studynotes.sty",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Afterglow Custom/Afterglow - Tomorrow Night.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".sty",
+								"current_syntax": "LaTeX/TeX",
+								"enabled": false,
+								"last_updated": 1518697528.41
+							},
+							"syntax": "Packages/LaTeX/TeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "OrganicChem/OrganicChem.tex",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 18289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 15,
+							"color_helper.color_scheme": "Packages/User/Plastic/Plastic - Minimised Punctuation.tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".tex",
+								"current_syntax": "LaTeX/LaTeX",
+								"enabled": false,
+								"last_updated": 1530985627.17
+							},
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1405,7 +1511,7 @@
 	"project": "chemnotes.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
