@@ -8,6 +8,7 @@
 
 \RequirePackage[a4paper, top=22.5mm, bottom=25.0mm, left=25.0mm, right=25.0mm, headheight=15pt]{geometry}
 \RequirePackage[ampersand]{easylist}
+\RequirePackage{emptypage}
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{tabu}
 \RequirePackage{tikz}
@@ -32,8 +33,9 @@
 \RequirePackage{unicode-math}
 \RequirePackage{newunicodechar}
 \RequirePackage{ulem}
+\RequirePackage{ifoddpage}
 
-\RequirePackage[newparttoc]{titlesec}
+\RequirePackage[newparttoc, clearempty]{titlesec}
 
 \RequirePackage[pdfencoding=auto,plainpages=false,pdfpagelabels,psdextra,hidelinks,unicode]{hyperref}
 \RequirePackage{bookmark}
@@ -184,12 +186,6 @@
 				BoldItalicFont={Lato-SemiboldItalic}
 			]{Lato-Regular}
 
-% \setmainfont{palatino}
-
-% \setmathfont[
-% 				Ligatures=TeX,
-% 				UprightFont=Asana-Math
-% ]{Asana-Math}
 
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
@@ -203,20 +199,22 @@
 
 
 
-
 \newlength\titleNumberInsetLength
 \setlength\titleNumberInsetLength{12.5mm}
 
 
 \newcolumntype{N}{@{}m{0pt}@{}}
 
-
 \setstretch{1.05}
+\raggedbottom
 
-
+\newcommand*{\setheadfoot}{\fancyfoot[R]{\thepage}\fancyhead[R]{Chapter \arabic{part} - \parttitle}}
+\makeatletter
+\newcommand*{\ensureoddpage}{\checkoddpage\@ifoddpage{}{\newpage}}
+\makeatother
 
 \titleformat{\part}[display]
-	{\Roboto\fontsize{40pt}{48pt}\selectfont}
+	{\fancyhf{}\ensureoddpage\setheadfoot\Roboto\fontsize{40pt}{48pt}\selectfont}
 	{\Roboto\fontsize{30pt}{36pt}\selectfont\hfill P\fontsize{22pt}{26pt}\selectfont ART\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
 	{-0.5em}
 	{\vspace{5mm}}
@@ -303,7 +301,7 @@
 \makeatother
 
 
-\renewcommand{\cftpartfont}{\SSLight\fontsize{24pt}{28pt}\selectfont}
+\renewcommand{\cftpartfont}{\Roboto\fontsize{24pt}{28pt}\selectfont}
 \renewcommand{\cftpartaftersnum}{.}
 \renewcommand{\cftsecaftersnum}{.}
 
@@ -319,7 +317,7 @@
 \renewcommand{\cftsubsubsecindent}{6.85em}
 
 
-\renewcommand{\cfttoctitlefont}{\hfill\SSLight\fontsize{35pt}{42pt}\selectfont}
+\renewcommand{\cfttoctitlefont}{\hfill\Roboto\fontsize{35pt}{42pt}\selectfont}
 \renewcommand{\contentsname}{\hfill Contents\hfill}
 \renewcommand{\cftaftertoctitle}{\hfill}
 
@@ -333,7 +331,7 @@
 % \renewcommand{\cftsecpagefont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
 
 
-\renewcommand{\printatom}[1]{\SSLight\normalfont\fontsize{12pt}{14pt}\selectfont{#1}\normalfont}%
+\renewcommand{\printatom}[1]{\LatoRegular\normalfont\fontsize{12pt}{14pt}\selectfont{#1}\normalfont}%
 
 \sisetup{
 	detect-all = true
@@ -436,10 +434,10 @@
 
 \newcommand {\romannum}		[1]{{\Alexandria\selectfont{#1}\normtext}}
 
-\newcommand	{\hugetext}		[1]{{\SSLight\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}}
-\newcommand	{\subtext}		[1]{{\SSLight\fontsize{23pt}{28pt}\selectfont #1 \normtext\ignorespaces}}
+\newcommand	{\hugetext}		[1]{{\RobotoThin\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}}
+\newcommand	{\subtext}		[1]{{\LatoRegular\fontsize{23pt}{28pt}\selectfont #1 \normtext\ignorespaces}}
 \newcommand	{\tinytext}		[1]{{\LatoRegular\fontsize{10pt}{12pt}\selectfont #1 \normtext\ignorespaces}}
-\newcommand	{\subsubtext}	[1]{{\SSLight\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}}
+\newcommand	{\subsubtext}	[1]{{\LatoRegular\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}}
 
 \newcommand {\sbs}			[1]{\textsubscript{#1}}
 \newcommand {\sps}			[1]{\textsuperscript{#1}}

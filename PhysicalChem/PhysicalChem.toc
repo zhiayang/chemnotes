@@ -39,21 +39,163 @@
 \contentsline {section}{\numberline {3}Rates of Reaction}{19}{section.3.3}
 \contentsline {subsection}{\numberline {3.1}Order of Reaction}{20}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.2}Rate Constant}{21}{subsection.3.3.2}
-\contentsline {section}{\numberline {4}Determination of Reaction Order}{22}{section.3.4}
-\contentsline {subsection}{\numberline {4.1}Initial Rates Method}{22}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {4.2}Large Excess Method}{22}{subsection.3.4.2}
-\contentsline {section}{\numberline {5}Rate Graphs}{23}{section.3.5}
-\contentsline {subsection}{\numberline {5.1}Concentration-Time Graph}{23}{subsection.3.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Zeroth Order Reactions}{23}{subsubsection.3.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}First Order Reactions}{24}{subsubsection.3.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Second Order (and above) Reactions}{25}{subsubsection.3.5.1.3}
-\contentsline {subsection}{\numberline {5.2}Rate-Concentration Graph}{26}{subsection.3.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Zeroth Order Reactions}{26}{subsubsection.3.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}First Order Reactions}{27}{subsubsection.3.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Second Order (and above) Reactions}{27}{subsubsection.3.5.2.3}
-\contentsline {section}{\numberline {6}Factors Affecting Rate of Reaction}{28}{section.3.6}
-\contentsline {subsection}{\numberline {6.1}Concentration and Pressure}{28}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {6.2}Surface Area of Solids}{28}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {6.3}Temperature}{29}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {6.4}Effect of Light}{29}{subsection.3.6.4}
-\contentsline {subsection}{\numberline {6.5}Catalysts}{30}{subsection.3.6.5}
+\contentsline {section}{\numberline {4}Determination of Reaction Order}{21}{section.3.4}
+\contentsline {subsection}{\numberline {4.1}Initial Rates Method}{21}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {4.2}Large Excess Method}{21}{subsection.3.4.2}
+\contentsline {section}{\numberline {5}Rate Graphs}{22}{section.3.5}
+\contentsline {subsection}{\numberline {5.1}Concentration-Time Graph}{22}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Zeroth Order Reactions}{22}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}First Order Reactions}{23}{subsubsection.3.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Second Order (and above) Reactions}{24}{subsubsection.3.5.1.3}
+\contentsline {subsection}{\numberline {5.2}Rate-Concentration Graph}{25}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Zeroth Order Reactions}{25}{subsubsection.3.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}First Order Reactions}{26}{subsubsection.3.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Second Order (and above) Reactions}{26}{subsubsection.3.5.2.3}
+\contentsline {section}{\numberline {6}Factors Affecting Rate of Reaction}{27}{section.3.6}
+\contentsline {subsection}{\numberline {6.1}Concentration and Pressure}{27}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {6.2}Surface Area of Solids}{27}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {6.3}Temperature}{28}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {6.4}Effect of Light}{28}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {6.5}Catalysts}{29}{subsection.3.6.5}
+\contentsline {part}{\numberline {IV}Reaction Mechanisms}{30}{part.4}
+\contentsline {section}{\numberline {1}Single-step Reactions}{31}{section.4.1}
+\contentsline {section}{\numberline {2}Multi-step Reactions}{32}{section.4.2}
+\contentsline {subsection}{\numberline {2.1}Elementary Steps}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {2.2}Intermediates}{32}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {2.3}Mechanisms}{33}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Rate-Determining Step is First}{33}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Rate-Determining Step is not First}{33}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Reaction Pathway Diagram}{35}{subsubsection.4.2.3.3}
+\contentsline {section}{\numberline {3}Catalysis of Reactions}{36}{section.4.3}
+\contentsline {subsection}{\numberline {3.1}Homogeneous Catalysts}{36}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Catalysis of \ch {I-} + \ch {S2O8^2-} reaction with \ch {Fe^2+}}{37}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Catalysis of oxidation of \ch {SO2} with \ch {NO2}}{37}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Heterogeneous Catalysis}{38}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Mechanism of Action}{38}{subsubsection.4.3.2.1}
+\contentsline {paragraph}{Adsorption}{38}{paragraph*.45}
+\contentsline {paragraph}{Desorption}{38}{paragraph*.46}
+\contentsline {subsubsection}{\numberline {3.2.2}Limitations of Active Sites}{39}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Autocatalysis}{39}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {3.4}Biological Catalysis}{40}{subsection.4.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Limitations of Enzymes}{40}{subsubsection.4.3.4.1}
+\contentsline {part}{\numberline {V}Chemical Equilibrium}{41}{part.5}
+\contentsline {section}{\numberline {1}Overview}{41}{section.5.1}
+\contentsline {subsection}{\numberline {1.1}Dynamic Equilibrium}{41}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {1.2}Graphs}{42}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Concentration-Time}{42}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Rate-Time}{42}{subsubsection.5.1.2.2}
+\contentsline {subsection}{\numberline {1.3}Position of Equilibrium}{43}{subsection.5.1.3}
+\contentsline {section}{\numberline {2}Equilibrium Constants}{44}{section.5.2}
+\contentsline {subsection}{\numberline {2.1}Equilibrium Constant \textit {K\textsubscript {c}}{}}{44}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {2.2}Gaseous Equilibrium Constant \textit {K\textsubscript {p}}{}}{44}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {2.3}Determination of Position of Equilibrium}{45}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {2.4}Equilibrium Quotients \textit {Q\textsubscript {c}} and \textit {Q\textsubscript {p}}}{45}{subsection.5.2.4}
+\contentsline {section}{\numberline {3}Factors Affecting Equilibrium Position}{46}{section.5.3}
+\contentsline {subsection}{\numberline {3.1}Le Châtelier's Principle}{46}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {3.2}Changes in Concentration or Partial Pressure}{46}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {3.3}Changes in Total (System) Pressure}{46}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {3.4}Changes in Temperature}{47}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {3.5}Presence of Catalyst}{47}{subsection.5.3.5}
+\contentsline {section}{\numberline {4}The Process of Haber}{48}{section.5.4}
+\contentsline {subsection}{\numberline {4.1}Overview}{48}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {4.2}Process}{49}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Conditions}{49}{subsubsection.5.4.2.1}
+\contentsline {part}{\numberline {VI}Solubility Equilibrium}{50}{part.6}
+\contentsline {section}{\numberline {1}Overview}{51}{section.6.1}
+\contentsline {subsection}{\numberline {1.1}Saturation}{51}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {1.2}Solubility of Common Ionic Compounds}{52}{subsection.6.1.2}
+\contentsline {section}{\numberline {2}Solubility Constants}{53}{section.6.2}
+\contentsline {subsection}{\numberline {2.1}Solubility}{53}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {2.2}Solubility Product, \textit {K\textsubscript {sp}}{}}{53}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {2.3}Ionic Product}{53}{subsection.6.2.3}
+\contentsline {section}{\numberline {3}Factors Affecting Solubility}{54}{section.6.3}
+\contentsline {subsection}{\numberline {3.1}Position of Equilibrium}{54}{subsection.6.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Common Ion Effect}{54}{subsubsection.6.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Complex Formation}{54}{subsubsection.6.3.1.2}
+\contentsline {part}{\numberline {VII}Acid-Base Equilibrium}{55}{part.7}
+\contentsline {section}{\numberline {1}Theory of Acids and Bases}{55}{section.7.1}
+\contentsline {subsection}{\numberline {1.1}Brønsted-Lowry}{55}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {1.2}Lewis}{55}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {1.3}Conjugate Acid-Base Pairs}{56}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {1.4}Strength of Acids and Bases}{56}{subsection.7.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Strong Acids and Bases}{56}{subsubsection.7.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Weak Acids and Bases}{57}{subsubsection.7.1.4.2}
+\contentsline {section}{\numberline {2}\textit {p}H{}, \textit {p}OH{} and Other Such Constants}{57}{section.7.2}
+\contentsline {subsection}{\numberline {2.1}Ionic Product of Water, K\textsubscript {w}{}}{58}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {2.2}\textit {p}H{} and \textit {p}OH{} of Strong Acids and Bases}{59}{subsection.7.2.2}
+\contentsline {section}{\numberline {3}Dissociation of Acids and Bases}{60}{section.7.3}
+\contentsline {subsection}{\numberline {3.1}Acid Dissociation Constant, K\textsubscript {a}{}}{60}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {3.2}Base Dissociation Constant, K\textsubscript {b}{}}{61}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {3.3}Degree of Dissociation, \chemalpha }{61}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {3.4}Calculations involving K\textsubscript {a}{} and K\textsubscript {b}{}}{61}{subsection.7.3.4}
+\contentsline {section}{\numberline {4}Salt Hydrolysis}{62}{section.7.4}
+\contentsline {subsection}{\numberline {4.1}Weak Acid, Strong Base}{62}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {4.2}Strong Acid, Weak Base}{62}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {4.3}Weak Acid and Weak Base}{63}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {4.4}Metal Cation With High Charge Density}{63}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {4.5}\textit {p}H{} of Hydrolysed Salt Solutions}{64}{subsection.7.4.5}
+\contentsline {section}{\numberline {5}Buffer Solutions}{65}{section.7.5}
+\contentsline {subsection}{\numberline {5.1}Overview}{65}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {5.2}Method of Operation}{65}{subsection.7.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Creation of Buffer}{65}{subsubsection.7.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Reaction with \ch {H+}}{66}{subsubsection.7.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Reaction with \ch {OH-}}{66}{subsubsection.7.5.2.3}
+\contentsline {subsection}{\numberline {5.3}\textit {p}H{} of Buffer Solutions}{67}{subsection.7.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Equation of Henderson and Hasselbalch}{67}{subsubsection.7.5.3.1}
+\contentsline {subsection}{\numberline {5.4}Buffer Capacity}{68}{subsection.7.5.4}
+\contentsline {subsection}{\numberline {5.5}Effective Buffer Range}{68}{subsection.7.5.5}
+\contentsline {subsection}{\numberline {5.6}Biological Purpose of Buffer Systems}{69}{subsection.7.5.6}
+\contentsline {section}{\numberline {6}Titration of Weak Acids and Bases}{70}{section.7.6}
+\contentsline {subsection}{\numberline {6.1}Overview}{70}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {6.2}Strong Acid and Strong Base}{70}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {6.3}Strong Acid, Weak Base}{71}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {6.4}Weak Acid, Strong Base}{72}{subsection.7.6.4}
+\contentsline {subsection}{\numberline {6.5}Weak Acid, Weak Base}{73}{subsection.7.6.5}
+\contentsline {subsection}{\numberline {6.6}Titration of Polyprotic Acids or Bases}{74}{subsection.7.6.6}
+\contentsline {section}{\numberline {7}\textit {p}H{} Indicators}{75}{section.7.7}
+\contentsline {subsection}{\numberline {7.1}Working Range}{75}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.2}Appropriate Indicator Selection}{76}{subsection.7.7.2}
+\contentsline {part}{\numberline {VIII}Electrochemical Cells}{77}{part.8}
+\contentsline {section}{\numberline {1}Overview}{77}{section.8.1}
+\contentsline {subsection}{\numberline {1.1}Disclaimer}{77}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {1.2}Electrodes}{77}{subsection.8.1.2}
+\contentsline {section}{\numberline {2}Standard Reduction Potential, E\textsuperscript {\standardstate }{}}{78}{section.8.2}
+\contentsline {subsection}{\numberline {2.1}Comparing E\textsuperscript {\standardstate }{} Values}{78}{subsection.8.2.1}
+\contentsline {section}{\numberline {3}Standard Cell Potentials, E\hbox to\z@ {\textsuperscript {\standardstate }\hss }\textsubscript {cell}{}}{79}{section.8.3}
+\contentsline {subsection}{\numberline {3.1}Calculating Standard Cell Potentials}{79}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {3.2}Predicting Redox Feasibility with Cell Potentials}{80}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Limitations of Predicting Feasibility}{80}{subsubsection.8.3.2.1}
+\contentsline {paragraph}{Rate of Reaction}{80}{paragraph*.112}
+\contentsline {paragraph}{Conditions}{80}{paragraph*.113}
+\contentsline {paragraph}{Ion Concentration}{80}{paragraph*.115}
+\contentsline {subsection}{\numberline {3.3}Relation to Gibbs Free Energy}{80}{subsection.8.3.3}
+\contentsline {section}{\numberline {4}Electrochemical Cells}{81}{section.8.4}
+\contentsline {subsection}{\numberline {4.1}Overview}{81}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {4.2}Electrode and Electrolyte Choice}{81}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {4.3}Salt Bridge}{82}{subsection.8.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Ion Migration Rates}{82}{subsubsection.8.4.3.1}
+\contentsline {section}{\numberline {5}Applications of Electrochemical Cells}{83}{section.8.5}
+\contentsline {subsection}{\numberline {5.1}Batteries}{83}{subsection.8.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Alkaline}{83}{subsubsection.8.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Silver}{83}{subsubsection.8.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Lead-Acid}{84}{subsubsection.8.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Lithium-Ion}{84}{subsubsection.8.5.1.4}
+\contentsline {subsection}{\numberline {5.2}Fuel Cells}{85}{subsection.8.5.2}
+\contentsline {part}{\numberline {IX}Electrolysis}{86}{part.9}
+\contentsline {section}{\numberline {1}Overview}{87}{section.9.1}
+\contentsline {section}{\numberline {2}Electrolysis of Pure Molten Salts}{87}{section.9.2}
+\contentsline {section}{\numberline {3}Electrolysis of Aqueous Ion Solutions}{88}{section.9.3}
+\contentsline {subsection}{\numberline {3.1}Factors Affecting Selective Discharge}{88}{subsection.9.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}E\textsuperscript {\standardstate }{} of Half-Reactions}{88}{subsubsection.9.3.1.1}
+\contentsline {paragraph}{Cathode Reactions}{88}{paragraph*.132}
+\contentsline {paragraph}{Anode Reactions}{88}{paragraph*.134}
+\contentsline {subsubsection}{\numberline {3.1.2}Concentration of Ions}{89}{subsubsection.9.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Electrode Reactions}{89}{subsubsection.9.3.1.3}
+\contentsline {section}{\numberline {4}Electrolytic Calculations}{90}{section.9.4}
+\contentsline {subsection}{\numberline {4.1}Overview}{90}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {4.2}Formulae}{90}{subsection.9.4.2}
+\contentsline {section}{\numberline {5}Applications of Electrolysis}{91}{section.9.5}
+\contentsline {subsection}{\numberline {5.1}Electrolysis of Brine}{91}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {5.2}Anodising of Aluminium}{91}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {5.3}Electrolytic Purification of Copper}{92}{subsection.9.5.3}
+\contentsline {subsection}{\numberline {5.4}Electroplating of Chromium}{93}{subsection.9.5.4}

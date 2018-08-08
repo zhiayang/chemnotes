@@ -124,7 +124,7 @@
 
 	% end section
 
-	\section{\MpH{}, \MpOH{} and Other Such Constants}
+	\section{\texorpdfstring{\MpH{}}{pH}, \texorpdfstring{\MpOH{}}{pOH} and Other Such Constants}
 
 		First, the general idea of \itl{p} should be stated. In essence, it is this:
 
@@ -149,7 +149,7 @@
 
 
 		\pagebreak
-		\subsection{Ionic Product of Water, \MKw{}}
+		\subsection{Ionic Product of Water, \texorpdfstring{\MKw{}}{Kw}}
 
 			Pure water actually \itl{auto-ionises} to a very slight degree, giving \ch{H+ \stAq} and \ch{OH- \stAq}.
 
@@ -197,13 +197,13 @@
 
 
 		\pagebreak
-		\subsection{\MpH{} and \MpOH{} of Strong Acids and Bases}
+		\subsection{\texorpdfstring{\MpH{}}{pH} and \texorpdfstring{\MpOH{}}{pOH} of Strong Acids and Bases}
 
 			Given that strong acids and bases dissociated completely in water, [\ch{H+}] and [\ch{OH-}] simply become the initial concentration
 			of the corresponding acid or base. If the acid in question is di- or even tri-protic, then the concentration of \ch{H+} will need
 			to be multiplied by the appropriate ratio --- the same applies for bases, of course.
 
-			There is an edge case if the initial concentration of the strong acid or base is smaller than \SI{1.0e-7}{\molarConc}; in this case,
+			If the initial concentration of the strong acid or base is smaller than \SI{1.0e-7}{\molarConc},
 			the molecules of \ch{H+} or \ch{OH-} from the auto-ionisation of water must be taken into account --- it is as simple as adding
 			\num{1.0e-7} to the concentration of the acid or base.
 
@@ -232,7 +232,7 @@
 		Thus, the weaker the acid, the stronger its conjugate base, and vice-versa.
 
 
-		\subsection{Acid Dissociation Constant, \MKa{}}
+		\subsection{Acid Dissociation Constant, \texorpdfstring{\MKa{}}{Ka}}
 
 			For some general weak acid \ch{HA}, it dissociates partially in water:
 
@@ -271,7 +271,7 @@
 
 
 		\pagebreak
-		\subsection{Base Dissociation Constant, \MKb{}}
+		\subsection{Base Dissociation Constant, \texorpdfstring{\MKb{}}{Kb}}
 
 			The definitions of \Kb{} and \pKb{} are essentially the mirror images of \Ka{} and \pKa{}. For a given weak base \ch{B}:
 
@@ -300,7 +300,7 @@
 		% end subsection
 
 
-		\subsection{Degree of Dissociation, \chemalpha}
+		\subsection{Degree of Dissociation, \texorpdfstring{\chemalpha}{a}}
 
 			The degree of dissociation of a given acid or base is the \itl{ratio} of the number of moles of the substance that are ionised, to
 			the number of unionised moles of acid or base.
@@ -314,7 +314,7 @@
 		% end subsection
 
 
-		\subsection{Calculations involving \MKa{} and \MKb{}}
+		\subsection{Calculations involving \texorpdfstring{\MKa{}}{Ka} and \texorpdfstring{\MKb{}}{Kb}}
 
 			Calculations involving only \Ka{} or \Kb{} are fairly straightforward. Given the value of \Ka{} for instance, it is trivial
 			to find the concentration of \ch{H+} and hence \pH{}, \itl{assuming}:
@@ -452,7 +452,7 @@
 		% end subsection
 
 
-		\subsection{\MpH{} of Hydrolysed Salt Solutions}
+		\subsection{\texorpdfstring{\MpH{}}{pH} of Hydrolysed Salt Solutions}
 
 			Given the relevant \Ka{} or \Kb{} values, it is possible to find [\ch{H+}], and hence \pH{}, of the solution. However,
 			if the \Ka{} of the original weak acid is given, it is necessary to use the relationship $K_{w} = K_{a} \times K_{b}$ to find
@@ -537,7 +537,7 @@
 
 
 			\pagebreak
-			\subsubsection{Reaction with \ch{H+}}
+			\subsubsection{Reaction with \texorpdfstring{\ch{H+}}{H⁺}}
 
 				When a small amount of \ch{H+} ions are added to the buffer solution, they react with the \itl{large reservoir} of
 				\ch{CH3CO2-} molecules, the conjugate base.
@@ -567,7 +567,7 @@
 
 
 
-			\subsubsection{Reaction with \ch{OH-}}
+			\subsubsection{Reaction with \texorpdfstring{\ch{OH-}}{OH⁻}}
 
 				Similarly, a buffer solution reacts with added \ch{OH-} ions using the large supply of the unionised weak acid present:
 
@@ -591,7 +591,7 @@
 
 
 		\pagebreak
-		\subsection{\MpH{} of Buffer Solutions}
+		\subsection{\texorpdfstring{\MpH{}}{pH} of Buffer Solutions}
 
 			Since the dissociation of the weak acid or base is \itl{not} the only source of \ch{H+} or \ch{OH-} ions in the solution,
 			the calculation of the \pH{} of a buffer solution becomes more complex. Of course, beginning with the basic (\itl{pun intended})
@@ -609,7 +609,10 @@
 			\begin{bulletlist}
 				& $[CH_{3}CO_{2}H]_{initial} = [CH_{3}CO_{2}H]_{eqm}$, since very little \ch{CH3CO2H} dissociates
 				& $[CH_{3}CO_{2}^{-}]_{salt} = [CH_{3}CO_{2}^{-}]_{eqm}$, since almost all of the conjugate comes from the salt
-					\linebreak\linebreak\itl{or, for the base:}
+			\end{bulletlist}
+
+			Or, for the base:
+			\begin{bulletlist}
 				& $[NH_{3}]_{initial} = [NH_{3}]_{eqm}$, since very little \ch{NH3} dissociates
 				& $[NH_{4}^{+}]_{salt} = [NH_{4}^{+}]_{eqm}$, since almost all of the conjugate comes from the salt
 			\end{bulletlist}
@@ -1205,7 +1208,7 @@
 
 
 
-	\section{\MpH{} Indicators}
+	\section{\texorpdfstring{\MpH{}}{pH} Indicators}
 
 		\subsection{Working Range}
 

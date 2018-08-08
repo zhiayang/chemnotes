@@ -13,9 +13,9 @@ IF /I "%1"=="physical" (
 	SET name="PhysicalChem"
 )
 
-cd %name%
-
 :again
+
+cd %name%
 
 cls
 lualatex --interaction=nonstopmode --halt-on-error --shell-escape %name%.tex
@@ -23,5 +23,6 @@ mv %name%.pdf ../
 
 set /p dummy=
 
-goto again
 cd ..
+
+goto again
