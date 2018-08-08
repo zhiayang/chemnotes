@@ -211,15 +211,15 @@
 		There are two equilibrium constants, \Kc{} and \Kp{}, that serve roughly the same purpose in different contexts --- the former for normal,
 		aqueous reactions where normal concentrations apply, and the latter for gaseous systems where it is more logical to use partial pressures.
 
-		\subsection{Equilibrium Constant \MKc{}}
+		\subsection{Equilibrium Constant \texorpdfstring{\MKc{}}{Kc}}
 
 			\Kc{} is calculated using the concentrations of each product and each reactant, \itl{at equilibrium}. For the reaction below:
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\ch{a A}\hspace{2mm} + \hspace{2mm}\ch{b B}
+					\ch{a}\hspace{0.1em}\ch{A}\hspace{2mm} + \hspace{2mm}\ch{b}\hspace{0.1em}\ch{B}
 					\arrow
-					\ch{c C}\hspace{2mm} + \hspace{2mm}\ch{d D}
+					\ch{c}\hspace{0.1em}\ch{C}\hspace{2mm} + \hspace{2mm}\ch{d}\hspace{0.1em}\ch{D}
 				\schemestop
 			}{\vspace{-2em}}
 
@@ -229,7 +229,7 @@
 				\schemestart[0,1.0,thick]
 					$K_{c} = \frac{[C]^{c}[D]^{d}}{[A]^{a}[B]^{b}}$
 				\schemestop
-			}{\vspace{-2em}}
+			}{\vspace{-1.5em}}
 
 			Note that it is \itl{products over reactants}. The power that each concentration is raised to is simply the stoichiometric
 			coefficient of that reactant or product, nothing more --- far simpler than the rate equation nonsense.
@@ -237,7 +237,7 @@
 		% end subsection
 
 
-		\subsection{Gaseous Equilibrium Constant \MKp{}}
+		\subsection{Gaseous Equilibrium Constant \texorpdfstring{\MKp{}}{Kp}}
 
 			In situations where it is more convenient to use partial pressures, then it is as simple as substituting the concentrations
 			in the original \Kc{} equation with the corresponding partial pressures to get \Kp{}, like so:
@@ -297,7 +297,7 @@
 		% end subsection
 
 
-		\subsection{Equilibrium Quotients \itl{Q\sbs{c}} and \itl{Q\sbs{p}}}
+		\subsection{Equilibrium Quotients \texorpdfstring{\itl{Q\sbs{c}}}{Qc} and \texorpdfstring{\itl{Q\sbs{p}}}{Qp}}
 
 			\Qc{} and \Qp{} are essentially exactly the same as \Kc{} and \Kp{}, except the $Q$ values represent the position of equilibrium
 			\itl{at that instant}. Thus, it is often useful to compare the \Qc{} and \Kc{} values for a system, to determine

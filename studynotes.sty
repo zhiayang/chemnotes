@@ -13,13 +13,10 @@
 \RequirePackage{tikz}
 \RequirePackage{tabto}
 \RequirePackage{lipsum}
-\RequirePackage{amssymb}
-\RequirePackage{lmodern}
 \RequirePackage{graphicx}
 \RequirePackage{fancyhdr}
 \RequirePackage{enumitem}
 \RequirePackage{dashrule}
-\RequirePackage{graphicx}
 \RequirePackage{setspace}
 \RequirePackage{longtable}
 \RequirePackage{etoolbox}
@@ -38,11 +35,13 @@
 
 \RequirePackage[newparttoc]{titlesec}
 
-\RequirePackage[pdfencoding=auto,plainpages=false,pdfpagelabels,psdextra,hidelinks]{hyperref}
+\RequirePackage[pdfencoding=auto,plainpages=false,pdfpagelabels,psdextra,hidelinks,unicode]{hyperref}
 \RequirePackage{bookmark}
-\RequirePackage{fontspec, xunicode, microtype}
 
+\RequirePackage{fontspec}
+\RequirePackage{microtype}
 
+\RequirePackage{libertine}
 
 \RequirePackage{chemfig}
 \RequirePackage{siunitx}
@@ -76,7 +75,7 @@
 	width				= 100mm,
 	height				= 60mm,
 	clip				= false,
-	tick label style	= {font = \sansmath\LatoRegular},
+	filter discard warning = true
 }
 
 \date{}
@@ -122,17 +121,6 @@
 
 
 
-% \newfontfamily\HNRegular[
-% 	UprightFont		= HelveticaNeue,
-% 	ItalicFont		= HelveticaNeue-Italic,
-% 	BoldFont		= HelveticaNeue-Medium,
-% 	BoldItalicFont	= HelveticaNeue-MediumItalic]{HelveticaNeue}
-%
-% \newfontfamily\HNLight[
-% 	UprightFont		= HelveticaNeue-Thin,
-% 	ItalicFont		= HelveticaNeue-LightItalic,
-% 	BoldFont		= HelveticaNeue-Light,
-% 	BoldItalicFont	= HelveticaNeue-LightItalic]{HelveticaNeue-Light}
 
 \newfontfamily\LatoRegular[
 	UprightFont		= Lato-Regular,
@@ -179,12 +167,13 @@
 
 \defaultfontfeatures{Ligatures=TeX}
 
-\setmainfont[
-				Ligatures=TeX,
-				BoldFont={Lato-Semibold},
-				ItalicFont={Lato-Italic},
-				BoldItalicFont={Lato-SemiboldItalic}
-			]{Lato-Regular}
+
+% \setmainfont[
+% 				Ligatures=TeX,
+% 				BoldFont={Lato-Semibold},
+% 				ItalicFont={Lato-Italic},
+% 				BoldItalicFont={Lato-SemiboldItalic}
+% 			]{Lato-Regular}
 
 
 \setsansfont[
@@ -195,10 +184,12 @@
 				BoldItalicFont={Lato-SemiboldItalic}
 			]{Lato-Regular}
 
-\setmathfont[
-				Ligatures=TeX,
-				UprightFont=Asana-Math
-]{Asana-Math}
+% \setmainfont{palatino}
+
+% \setmathfont[
+% 				Ligatures=TeX,
+% 				UprightFont=Asana-Math
+% ]{Asana-Math}
 
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
@@ -232,33 +223,64 @@
 	[\vspace{-5.0mm}{\makebox[0mm][l]{\rule[10mm]{\textwidth}{0.5mm}}}\vspace{15mm}]
 
 
+
 \titleformat{\section}
 	{\Roboto\fontsize{25pt}{30pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
 	{\Roboto\fontsize{21pt}{25pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsubsection}
 	{\Roboto\fontsize{18pt}{22pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\paragraph}
 	{\Roboto\fontsize{15pt}{18pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
+
+
+
+% \titleformat{\section}
+% 	{\Roboto\fontsize{25pt}{30pt}\selectfont}
+% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
+% 	{0.0em}
+% 	{}
+% 	[{\makebox[0mm][l]{}}]
+
+% \titleformat{\subsection}
+% 	{\Roboto\fontsize{21pt}{25pt}\selectfont}
+% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
+% 	{0.0em}
+% 	{}
+% 	[{\makebox[0mm][l]{}}]
+
+% \titleformat{\subsubsection}
+% 	{\Roboto\fontsize{18pt}{22pt}\selectfont}
+% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
+% 	{0.0em}
+% 	{}
+% 	[{\makebox[0mm][l]{}}]
+
+% \titleformat{\paragraph}
+% 	{\Roboto\fontsize{15pt}{18pt}\selectfont\bfseries}
+% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}
+% 	{0.0em}
+% 	{}
+% 	[{\makebox[0mm][l]{}}]
 
 
 
@@ -401,11 +423,11 @@
 {
 	scale-factor		= 1.1,
 	numerator-bot-sep	= 0.5em,
-	slash-left-kern		= -0.1em,
+	slash-left-kern		= 0.1em
 }
 
 \newcommand {\fraction}		[2]{\sfrac[x]{#1}{#2}\hspace{1mm}}
-\newcommand	{\fracHalf}		{\fraction{1}{2}}
+\newcommand	{\fracHalf}		{\raisebox{-0.15em}{\fraction{1}{2}}}
 
 
 % helper macros
@@ -454,11 +476,15 @@
 
 \newcommand	{\diagram}		[3][1.0]
 							{
+								%* note that for diagrams (which we usually use to draw chemical structures),
+								%* we set the font to a sans-serif.
+
 								\begin{figure}[!ht]
 								\begin{center}
 								\bigskip
 								\scalebox{#1}{
 									\hbox{
+										\normtext
 										\vspace{5mm}
 										\hspace{-7.5mm}
 										{#2}
@@ -467,7 +493,8 @@
 								}
 								\end{center}
 								\begin{center}
-								\fontsize{10pt}{12pt}\selectfont{#3}
+
+								\normalfont\fontsize{10pt}{12pt}\selectfont{#3}
 								\normtext\end{center}\end{figure}
 								\vspace{-5mm}
 							}
@@ -576,10 +603,10 @@
 \newcommand	{\enthStd}		[1]{$\Delta H^{\standardstate}_{#1}$}
 
 \newcommand {\Mea}			{E\sbs{a} }
-\newcommand {\ea}			{$E_{a}$ }
+\newcommand {\ea}			{$E_{a}$}
 
-\newcommand	{\entr}			{$\Delta S$ }
-\newcommand {\gibb}			{$\Delta G$ }
+\newcommand	{\entr}			{$\Delta S$}
+\newcommand {\gibb}			{$\Delta G$}
 
 \newcommand {\Kc}			{$K_{c}$}
 \newcommand {\Kp}			{$K_{p}$}

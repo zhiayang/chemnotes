@@ -118,17 +118,18 @@
 			The shaded area represents the total number of molecules whose energy is greater than the activation energy, and can undergo a
 			successful reaction. Note that the reactant molecules must still be oriented correctly for a successful reaction.
 
+			\pagebreak
 			Activation energy is independent of the enthalpy change of the reaction, and instead depends on the reactants themselves; it is always
 			positive, because bonds are always broken first before new bonds are formed.
 
 			\begin{bulletlist}
 
-			& If reactants are similarly charged, \ea will be high --- the reverse is also true
-			& If the bonds that need to be broken are strong, \ea will be high
+			& If reactants are similarly charged, \ea{} will be high --- the reverse is also true
+			& If the bonds that need to be broken are strong, \ea{} will be high
 
 			\end{bulletlist}
 
-			Activation energy also affects the rate of a reaction; the lower the \ea, the larger the fraction of molecules that are at or above
+			Activation energy also affects the rate of a reaction; the lower the \ea{}, the larger the fraction of molecules that are at or above
 			this energy. Hence, the frequency of effective collisions increase, and hence rate of reaction increases as well.
 
 		% end subsection
@@ -285,8 +286,8 @@
 			method, large excess is defined as a concentration 10x or more than the usual. This means that the concentrations of the other
 			reactants appear to be constant, making them pseudo-zero-order.
 
-			The reaction must be carried out once per reactant; an aliquot of the reaction mixture is withdrawn, and the concentration of the
-			reactant in question is measured, and plotted in a concentration-time graph. A few things are in order:
+			The reaction must be carried out once per reactant; an aliquot of the reaction mixture is first withdrawn, then the concentration of the
+			reactant in question is measured, and then finally plotted in a concentration-time graph. A few things are in order:
 
 			\begin{bulletlist}
 				&	The withdrawn aliquot must be quenched, either by using ice (cooling), or removing the catalyst if the reaction cannot proceed
@@ -702,7 +703,7 @@
 				& Reducing the energy barrier
 			\end{bulletlist}
 
-			By increasing the temperature, the rate constant $k$ is also increased. From the Maxwell-Boltzmann curve below, it can be seen that
+			By increasing the temperature, the rate constant $k$ is also increased. From looking at the Maxwell-Boltzmann curve below, it can be seen that
 			when the temperature of the system increases, there is a \itl{greater proportion} of molecules that have a kinetic energy greater
 			than the activation energy; hence, more of the collisions that occur will result in a successful reaction.
 
@@ -754,8 +755,8 @@
 						soft clip		= { domain = 4000:6000 },
 					];
 
-					\node at (axis cs: 3000,0.00037) {300K};
-					\node at (axis cs: 4000,0.00027) {400K};
+					\node at (axis cs: 3000,0.00037) {\SI{300}{\kelvin}};
+					\node at (axis cs: 4000,0.00027) {\SI{400}{\kelvin}};
 
 
 					\path[name path global = dtd] (axis cs:4000,0) -- (axis cs:4000,0.00035);
@@ -771,7 +772,7 @@
 			\end{tikzpicture}
 			\end{center}
 
-			As the diagram illustrates, when the temperature is increased by 100K, the proportion of molecules that have a kinetic
+			As the diagram illustrates, when the temperature is increased by \SI{100}{\kelvin}, the proportion of molecules that have a kinetic
 			energy greater than the activation energy increases, from just the green area to the sum of the blue and green areas.
 
 		% end subsection
