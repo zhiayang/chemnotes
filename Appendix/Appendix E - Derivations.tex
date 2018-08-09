@@ -23,13 +23,13 @@
 		The equilibrium constant is defined as such:
 
 		\eqndiagram{
-			 \[ K_{c} = \frac{[C]^{c}[D]^{d}}{[A]^{a}[B]^{b}} \]
+			 \[ K_{c} = \frac{[\ch{C}]^{c}[\ch{D}]^{d}}{[\ch{A}]^{a}[\ch{B}]^{b}} \]
 		}
 
 		Recall that the system reaches a position of equilibrium when the forward and backward rates of reaction are equal. There are two
 		scenarios to consider in this case --- when the given equilibrium reaction is an elementary step, and when it is not.
 
-		\subsection{Equilibrium is Elementary}
+		\subsection{Elementary Equilibrium}
 
 			The equilibrium of \ch{N2O4} and \ch{NO2} will be studied as an example in this section.
 
@@ -45,7 +45,7 @@
 			there are two rate constants --- one for the forward reaction, $k_{fwd}$, and one for the reverse $k_{rev}$.
 
 			\eqndiagram{
-				\[ R_{fwd} = k_{fwd}[\mathrm{N_{2}O_{4}}]  \qquad\qquad  R_{rev} = k_{rev}[\mathrm{NO_{2}}]^{2} \]
+				\[ R_{fwd} = k_{fwd}[\ch{N2O4}]  \qquad\qquad  R_{rev} = k_{rev}[\ch{NO2}]^{2} \]
 			}[Since both reactions are elementary, the orders of reaction correspond to the stoichiometric coefficients.]
 
 			\pagebreak
@@ -62,14 +62,14 @@
 			The following equation can be found by slightly rearranging the two rate equations above and appropriately substituting:
 
 			\eqndiagram{
-				\[ K_{c} \quad = \quad \frac{k_{fwd}}{k_{rev}} \quad = \quad \frac{R_{fwd}}{[\mathrm{N_{2}O_{4}}]}
-				\; / \; \frac{R_{rev}}{[\mathrm{NO_{2}}]^{2}} \]
+				\[ K_{c} \quad = \quad \frac{k_{fwd}}{k_{rev}} \quad = \quad \frac{R_{fwd}}{[\ch{N2O4}]}
+				\; / \; \frac{R_{rev}}{[\ch{NO2}]^{2}} \]
 			}
 
 			Since the forward and reverse rates of reaction are the same, they can be cancelled, getting the definition of the equilibrium constant:
 
 			\eqndiagram{
-				\[ K_{c} = \frac{[\mathrm{NO_{2}}]^{2}}{[\mathrm{N_{2}O_{4}}]} \]
+				\[ K_{c} = \frac{[\ch{NO2}]^{2}}{[\ch{N2O4}]} \]
 			}
 
 			This also indirectly explains why the equilbrium constant takes the product concentrations over the reactant concentrations, instead of
@@ -77,20 +77,66 @@
 
 		% end subsection
 
-		\subsection{Equilibrium is not Elementary}
+		\pagebreak
+		\subsection{Non-Elementary Equilibrium}
 
 			Even if the equilibrium itself is not elementary, the original definition of \Kc{} still applies --- there are simply more substitution
 			steps to get to it.
 
-			Taking the following equilibrium:
+			Taking the following equilibrium, along with its 3 constituent steps:
 
 			\txtdiagram{
+				%? we want to align the arrows below, but we also want to draw a horizontal line to separate the reaction
+				%? from the steps. 1.125em is the correct distance (to roughly ~0.1mm) to offset the reaction by.
 				\schemestart[0,1.0,thick]
-					\ch{H2 \stG} \hspace{2mm}+\hspace{2mm} \ch{I2 \stG}
-					\arrow{<=>}
-					\ch{2 HI \stG}
+					\ch{H2 \stG} \hspace{2mm}+\hspace{2mm} \ch{I2 \stG} \arrow{<=>} \ch{2 HI \stG}\hspace{1.125em}
+				\schemestop
+
+				\rule{80mm}{0.3mm}\vspace{3mm}
+
+				\schemestart[0,1.0,thick]
+					\ch{I2} \arrow{<=>} \ch{2 I}
+					\arrow(@c1.south east--.north east){0}[-90,.2]
+					\ch{I} \hspace{2mm}+\hspace{2mm} \ch{H2} \arrow{<=>} \ch{H2I}
+					\arrow(@c3.south east--.north east){0}[-90,.2]
+					\ch{H2I} \hspace{2mm}+\hspace{2mm} \ch{I} \arrow{<=>} \ch{2 HI}
 				\schemestop
 			}{}
+
+			The steps have the following equilibrium constants, along with the overall equilibrium constant:
+			\eqndiagram{
+				\[
+					K_{1} = \frac{[\ch{I}]^{2}}{[\ch{I_{2}}]} \qquad
+					K_{2} = \frac{[\ch{H2I}]}{[\ch{I}][\ch{H2}]} \qquad
+					K_{3} = \frac{[\ch{HI}]^{2}}{[\ch{I}][\ch{H2I}]} \qquad
+					K_{c} = \frac{[\ch{HI}]^{2}}{[\ch{H_{2}}][\ch{I2}]}
+				\]
+			}
+
+			Working backwards from the final equation, a number of substitutions can be performed:
+
+			\eqndiagram{
+				\begin{alignat*}{3}
+					K_{c}           & = \frac{[\ch{HI}^2]}{[\ch{I2}][\ch{H2}]}                              \hspace{20mm}%
+										&&\Longleftarrow\quad [\ch{HI}]^{2} = K_{3}[\ch{I}][\ch{H2I}]       \\[0.6em]
+									& = \frac{K_{3}[\ch{I}][\ch{H2I}]}{[\ch{I_{2}}][\ch{H2}]}               \hspace{20mm}%
+										&&\Longleftarrow\quad [\ch{H2I}] = K_{2}[\ch{I}][\ch{H2}]           \\[0.6em]
+									& = \frac{K_{3}K_{2}[\ch{I}]^{2}}{[\ch{I2}]}                            \hspace{20mm}%
+										&&\Longleftarrow\quad [\ch{I}]^{2} = K_{1}[\ch{I2}]                 \\[0.6em]
+									& = \frac{K_{3}K_{2}K_{1}[\ch{I2}]}{[\ch{I2}]} = K_{1}K_{2}K_{3}        \\[0.6em]
+					K_{1}K_{2}K_{3} & = \frac{[\ch{I}]^{2}}{[\ch{I_{2}}]} \times \frac{\cancel{[\ch{H2I}]}}{[\ch{I}][\ch{H2}]} \times%
+										\frac{[\ch{HI}]^{2}}{[\ch{I}]\cancel{[\ch{H2I}]}}%
+										&& = \frac{\cancel{[\ch{I}]^{2}}}{[\ch{I_{2}}]} \times \frac{1}{\cancel{[\ch{I}]}[\ch{H2}]} \times%
+										\frac{[\ch{HI}]^{2}}{\cancel{[\ch{I}]}}                             \\[0.6em]
+									& = \frac{[\ch{HI}]^{2}}{[\ch{H_{2}}][\ch{I2}]} = K_{c}
+				\end{alignat*}
+			}
+
+			Et voila. While this \enquote{proof} might seem suspiciously circular, the starting point has to either assume that
+			$K_{c} = K_{1}K_{2}K_{3}$, or assume that the intial definition of $K_{c}$ is true. The former theorem can be shown using
+			the latter, ie. the overall equilibrium constant of a series of sequential equilibria is the product of the individual equilibrium
+			constants.
+
 
 		% end subsection
 

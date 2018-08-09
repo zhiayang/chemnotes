@@ -13,8 +13,8 @@
 		concentration of reactants and products do not change any further.
 
 		The \itl{position of equilibrium} can be controlled to a certain extent, according to the principles of a man named
-		\itl{Le Châtelier}. Lexically, an equilibrium reaction is represented with a double-hooked arrow, $⇋$, instead of a normal
-		arrow, $→$.
+		\itl{Le Châtelier}. Lexically, an equilibrium reaction is represented with a double-hooked arrow, $\leftrightharpoons$, instead of a normal
+		arrow, $\longrightarrow$.
 
 		\subsection{Dynamic Equilibrium}
 
@@ -217,14 +217,14 @@
 
 			The corresponding \Kc{} would be as such:
 
-			\txtdiagram{
-				\[K_{c} = \frac{[C]^{c}[D]^{d}}{[A]^{a}[B]^{b}}\]
-			}{}
+			\eqndiagram{
+				\[ K_{c} = \frac{[\ch{C}]^{c}[\ch{D}]^{d}}{[\ch{A}]^{a}[\ch{B}]^{b}} \]
+			}
 
 			Note that it is \itl{products over reactants}. The power that each concentration is raised to is simply the stoichiometric
 			coefficient of that reactant or product, nothing more --- far simpler than the rate equation nonsense.
 
-			The reason is that
+			The derivation for \Kc{} can be found in the appendix.
 
 		% end subsection
 
@@ -234,12 +234,12 @@
 			In situations where it is more convenient to use partial pressures, then it is as simple as substituting the concentrations
 			in the original \Kc{} equation with the corresponding partial pressures to get \Kp{}, like so:
 
-			\txtdiagram{
-				\[K_{p} = \frac{(P_{C})^{c}(P_{D})^{d}}{(P_{A})^{a}(P_{B})^{b}}\]
-			}{}
+			\eqndiagram{
+				\[ K_{p} = \frac{(P_{C})^{c}(P_{D})^{d}}{(P_{A})^{a}(P_{B})^{b}} \]
+			}
 
-			This works because the partial pressure is simply a equivalent to the mole ratio of the particular gas to the total number of
-			moles of gas in the system -- when put together, the total moles cancel, leaving what is effectively the stoichiometric
+			This works because partial pressure is simply equivalent to the mole ratio of a particular gas to the total number of
+			moles of gas in the system -- when put together, the moles cancel, leaving what is effectively the stoichiometric
 			coefficient.
 
 		% end subsubsection
@@ -296,12 +296,12 @@
 			There are 3 cases, as there always are when comparing two numbers:
 
 			\begin{bulletlist}
-				& $Q < K$; the current position is too far left, and the system proceeds in the \itl{forward} direction until equilibrium
+				& $Q < K$; the current position is too far backward, and the system proceeds in the \itl{forward} direction until equilibrium
 				is achieved
 
 				& $Q = K$; the system is currently at equilibrium, and will remain so unless disturbed
 
-				& $Q > K$; the current position is too far left, and the system proceeds in the \itl{reverse} direction until equilibrium
+				& $Q > K$; the current position is too far forward, and the system proceeds in the \itl{reverse} direction until equilibrium
 				is achieved.
 			\end{bulletlist}
 
@@ -413,7 +413,7 @@
 			This section is a red herring --- adding or removing a catalyst \itl{does not} change the position of equilibrium, since the
 			rate of reaction for \itl{both} the forward and backward reactions are increased or decreased by an equal amount.
 
-			Thus, catalysts only change the amount of time taken to \itl{reach} equilibrium, not its position.
+			Thus, catalysts only change the amount of \itl{time taken} to reach equilibrium, not its position.
 
 		% end subsection
 
@@ -421,7 +421,7 @@
 
 
 	\pagebreak
-	\section{The Process of Haber}
+	\section{The Process of Haber-Bosch}
 
 		\subsection{Overview}
 
@@ -451,7 +451,7 @@
 			\begin{bulletlist}
 				& The pressures of \ch{H2} and \ch{N2} are kept as high as practically possible
 				& \ch{NH3} formed is removed as soon as possible, to reduce its concentration
-				& The rate of reaction is increased using iron powder.
+				& The rate of reaction is increased using iron powder as a catalyst
 			\end{bulletlist}
 
 			A note on the last point --- while it does not move the position of equilibrium and speeds up both reactions, if the
@@ -466,7 +466,7 @@
 			\imgdiagram{140mm}{../figures/physical/ch05/haber_process.png}{\vspace{-2em}}
 
 			The image should be fairly self-explanatory. Pure nitrogen gas is obtained from liquefied air, while hydrogen gas is obtained
-			via methane (\ch{CH4}) and steam in the presence of a catalyst.
+			via methane (\ch{CH4}) and steam, in the presence of a catalyst.
 
 			\subsubsection{Conditions}
 

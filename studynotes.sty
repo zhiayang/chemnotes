@@ -29,6 +29,7 @@
 \RequirePackage{ulem}
 \RequirePackage{ifoddpage}
 \RequirePackage{xparse}
+\RequirePackage[makeroom]{cancel}
 
 \RequirePackage[newparttoc, clearempty]{titlesec}
 
@@ -65,6 +66,8 @@
 	cram width      = 5pt,
 	cram dash width = 1pt,
 	cram dash sep   = 2pt,
+	arrow offset    = 5mm,
+	% arrow coeff     = 0.7,
 	double bond sep = 1.25mm,       % spacing between lines in a double bond
 	atom sep        = 12mm,         % fixed length of a bond
 	bond offset     = 1mm,          % margin
@@ -604,8 +607,8 @@
 \newcommand {\MKstab}		{\itl{K\sbs{stab}}}
 
 % renew because chemmacro defines this, but not properly (ugly)
-\renewcommand {\pH}			{$pH$}
-\renewcommand {\pOH}		{$pOH$}
+\renewcommand {\pH}			{$p\ch{H}$}
+\renewcommand {\pOH}		{$p\ch{OH}$}
 \renewcommand {\pKa}		{$pK_{a}$}
 \renewcommand {\pKb}		{$pK_{b}$}
 \renewcommand {\Kw}			{$K_{w}$}
@@ -616,8 +619,8 @@
 \newcommand {\pKw}			{$pK_{w}$}
 \newcommand {\MpKw}			{\itl{p}K\sbs{w}}
 
-\newcommand {\MpH}			{\itl{p}H}
-\newcommand {\MpOH}			{\itl{p}OH}
+\newcommand {\MpH}			{\itl{p}\ch{H}}
+\newcommand {\MpOH}			{\itl{p}\ch{OH}}
 \newcommand {\MpKa}			{\itl{p}K\sbs{a}}
 \newcommand {\MpKb}			{\itl{p}K\sbs{b}}
 \newcommand {\MKw}			{K\sbs{w}}
@@ -637,8 +640,6 @@
 \newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\itl{l})\normtext}
 \newcommand	{\stS}			{ \fontsize{0.80em}{1.0em}\selectfont(s)\normtext}
 \newcommand	{\stAq}			{ \fontsize{0.80em}{1.0em}\selectfont(aq)\normtext}
-
-
 
 
 \newcommand {\stdst}		{\standardstate}

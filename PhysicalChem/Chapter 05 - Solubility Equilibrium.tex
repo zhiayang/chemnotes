@@ -10,7 +10,7 @@
 		Ions are typically soluble in a polar solvent, but since systems always tend to approach the lowest energy level, if a solid ionic
 		compound can be created from some of those ions, then it will precipitate out of solution.
 
-		The solubility of any given ionic compound is largely determined by \enth{sol}, the enthalpy change of solution, which is the sum
+		The solubility of any given ionic compound is largely determined by \enth{sol}, the enthalpy change of solution; it is the sum
 		of the enthalpy changes of hydration of the constituent ions, minus the lattice energy of the ionic compound.
 
 		Hence, for a compound with a highly negative lattice energy, the enthalpy change of solution will be quite endothermic, and it is
@@ -53,7 +53,7 @@
 
 
 			Even though a certain ionic salt is said to be \itl{insoluble}, most of the time a small amount of free ions can still be found
-			in solution; the concentration of these ions is just \itl{very, very small}.
+			in solution; the concentrations of these ions are just \itl{very, very small}.
 
 			Certain salts, such as \ch{Mg(OH)2} and \ch{Ca(OH)2}, are actually \itl{sparingly soluble} --- not-insignificant amounts of ions
 			are dissolved into solution; limewater is a saturated solution of calcium hydroxide, and the \pH{} of a magnesium hydroxide solution
@@ -75,7 +75,7 @@
 			The units of solubility are typically either \si{\molarConc} or \si{\gram\per\cubic\deci\metre}, depending on the
 			the scale used.
 
-			If the solubility of a certain salt, for instance \ch{Mg(NO3)2} is \SI{8.43}{\molarConc}, then the concentration of \ch{Mg^2+}
+			If the solubility of a certain salt, for instance \ch{Mg(NO3)2}, is \SI{8.43}{\molarConc}, then the concentration of \ch{Mg^2+}
 			ions in solution will be \SI{8.43}{\molarConc}, and the concentration of \ch{OH-} ions will be twice that, \SI{16.9}{\molarConc}.
 
 		% end subsection
@@ -93,15 +93,16 @@
 					\arrow{<=>}
 					\ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 			The equilibrium constant is this:
 
-			\diagram[1.5]{
-				$K_{c} = \frac{[Mg^{+}][OH^{-}]^{2}}{[Mg(OH)_{2}]}$\hspace{15mm}$K_{sp} = [Mg^{+}][OH^{-}]^{2}$
-			}{\vspace{-1em}}
+			\eqndiagram{
+				\[K_{c} = \frac{[\ch{Mg+}][\ch{OH-}]^{2}}{[\ch{Mg(OH)2}]} \hspace{15mm} K_{sp} = [\ch{Mg+}][\ch{OH-}]^{2}\]
+			}
 
-			Since the `concentration' of a solid, in this case \ch{Mg(OH)2}, is constant, it can be factored out, giving the equation of \Ksp{}. The units of \Ksp{} are naturally dependent on the ions and their powers on the right side, so in this case they are
+			Since the \enquote{concentration} of a solid, in this case \ch{Mg(OH)2}, is constant, it can be factored out, giving the equation of \Ksp{}.
+			The units of \Ksp{} are naturally dependent on the ions and their powers on the right side, so in this case they are
 			\si{\mole\tothe{3}\per\deci\metre\tothe{9}}.
 
 		% end subsection
@@ -114,6 +115,8 @@
 			The IP can be compared with \Ksp{} to determine if the solution will form a precipitate if more ions are added. If the ionic
 			product is greater than \Ksp{}, then ions will precipitate out until IP is equal to \Ksp{}. If it is less, then more solid
 			can be added until they are equal, giving a saturated solution.
+
+			The idea here is similar to the relationship between \Qc{} and \Kc{}.
 
 		% end subsection
 
@@ -134,9 +137,9 @@
 					\arrow{<=>}
 					\ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
-			The position of equilibrium depends solely on the concentrations of the ions, since adding or removing solids will not change the
+			The position of equilibrium depends solely on the concentrations of the ions, since adding or removing solids will not change its
 			position. Any action that modifies the concentration of either ion will result in a shift in equilibrium, and hence an increase or
 			decrease in the solubility of the salt.
 
@@ -148,16 +151,16 @@
 
 			\subsubsection{Common Ion Effect}
 
-				The common ion effect is really just a fancy name for a special case of changing the position of equilibrium; if a solution
-				containing \itl{common ions} is added to an existing equilibrium, then the solubility of the sparingly soluble salt will decrease,
-				as a result of Le Châtelier's Principle.
+				The common ion effect is really just a fancy name for a special case of shifting the equilibrium by increasing the concentration of an ion;
+				if a solution containing \enquote{common ions} is added to an existing equilibrium, then the solubility of the sparingly soluble salt
+				will decrease, as a result of Le Châtelier's Principle.
 
 			% end subsubsection
 
 			\subsubsection{Complex Formation}
 
-				Again, this is just a special case of changing the position of equilibrium. For example, given the following systems of
-				\ch{\Al(OH)3} and \ch{[\Al(OH)4]-}:
+				This is also just a special case of changing the position of equilibrium by changing concentrations.
+				For example, given the following systems of \ch{\Al(OH)3} and \ch{[\Al(OH)4]-}:
 
 				\txtdiagram{
 					\schemestart[0,1.0,thick]
@@ -165,23 +168,19 @@
 						\arrow(@c1.south east--.north east){0}[-90,.20]
 						\ch{\Al^3+ \stAq} + \ch{4 OH- \stAq}\arrow{<=>}\ch{[\Al(OH)4]- \stAq}
 					\schemestop
-				}{\vspace{-1em}}
+				}{}
 
 				If \ch{OH-} ions are introduced to an aqueous solution of \ch{\Al^3+} ions, then the precipitate of \ch{\Al(OH)3} will form since
 				the ionic product is greater than the solubility product.
 
-				If excess \ch{OH-} ions are added, however, then the soluble complex ion \ch{[\Al(OH)4]-} forms, which is soluble in water. This
+				If excess \ch{OH-} ions are added, however, then the complex ion \ch{[\Al(OH)4]-} forms, which is soluble in water. This
 				removes \ch{\Al^3+} ions from solution, and if enough complex ions form, then the position of equilibrium for the solution system
 				will shift forward enough to dissolve the precipitate.
 
 
-
 			% end subsubsection
-
 		% end subsection
-
 	% end section
-
 % end part
 
 

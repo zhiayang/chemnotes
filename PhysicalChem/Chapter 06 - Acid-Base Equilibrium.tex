@@ -23,7 +23,8 @@
 
 			As such, acid-base reactions in the context of this theory involves the transfer of a proton from a Brønsted acid to a Brønsted base.
 
-			Note that, in the context of aqueous reactions, \ch{H+} can also be represented by \ch{H3O+}, which is probably how it exists IRL.
+			Note that, in the context of aqueous reactions, \ch{H+} can also be represented by \ch{H3O+}, which is how it is currently theorised to
+			exist in aqueous solutions.
 
 		% end subsection
 
@@ -51,11 +52,11 @@
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\chemname{\ch{CH3CO2H}}{\tinytext{acid}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{NH3}}{\tinytext{base}}
+					\chemname{\ch{CH3CO2H}}{\tinytext{acid}}\hspace{4mm} + \hspace{4mm}\chemname{\ch{NH3}}{\tinytext{base}}
 					\arrow(.mid east--.mid west){<=>}
-					\chemname{\ch{CH3CO2-}}{\tinytext{conjugate base}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{NH4+}}{\tinytext{conjugate acid}}
+					\chemname{\ch{CH3CO2-}}{\tinytext{conjugate base}}\hspace{4mm} + \hspace{4mm}\chemname{\ch{NH4+}}{\tinytext{conjugate acid}}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 			It should be immediately clear that this is an \itl{equilibrium} reaction.
 
@@ -80,18 +81,18 @@
 
 				\txtdiagram{
 					\schemestart[0,1.0,thick]
-						\chemname{\ch{H\Cl}}{\tinytext{strong acid}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{H2O}}{}
+						\chemname{\ch{H\Cl}}{\tinytext{strong acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H2O}}{}
 						\arrow(.mid east--.mid west){->}
-						\chemname{\ch{\Cl-}}{\tinytext{weak conjugate base}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{H3O+}}{}
+						\chemname{\ch{\Cl-}}{\tinytext{weak conjugate base}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H3O+}}{}
 						\arrow(@c1.south east--.north east){0}[-90,.5]
 						\chemname{\ch{NaOH}}{\tinytext{strong base}}
 						\arrow(.mid east--.mid west){->}
-						\chemname{\ch{OH-}}{}\hspace{7mm} + \hspace{7mm}\chemname{\ch{Na+}}{}
+						\chemname{\ch{OH-}}{}\hspace{2mm} + \hspace{2mm}\chemname{\ch{Na+}}{\tinytext{weak conjugate acid}}
 					\schemestop
-				}{\vspace{-1.5em}}
+				}{}
 
 				Since they ionise \itl{completely}, the reverse reaction is negligible, so the reaction is written with a single-headed
-				arrow, \ch{->}. This is because the conjugate base \ch{\Cl-}, in the case of \ch{H\Cl}, has a low tendency to
+				arrow, $\longrightarrow$. This is because the conjugate base \ch{\Cl-}, in the case of \ch{H\Cl}, has a low tendency to
 				accept a proton.
 
 			% end subsubsection
@@ -101,19 +102,19 @@
 			\subsubsection{Weak Acids and Bases}
 
 				Weak acids and bases, on the other hand, only dissociate \itl{partially} in water to give \ch{H+} and \ch{OH-}. Thus, they
-				are in an equilibrium with their conjugate, so the reaction is written with a double-headed arrow, \ch{>=<}.
+				are in an equilibrium with their conjugate, so the reaction is written with a double-headed arrow, $\leftrightharpoons$.
 
 				\txtdiagram{
 					\schemestart[0,1.0,thick]
-						\chemname{\ch{CH3CO2H}}{\tinytext{weak acid}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{H2O}}{}
+						\chemname{\ch{CH3CO2H}}{\tinytext{weak acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H2O}}{}
 						\arrow(.mid east--.mid west){<=>}
-						\chemname{\ch{CH3CO2-}}{\tinytext{conjugate base}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{H3O+}}{}
+						\chemname{\ch{CH3CO2-}}{\tinytext{conjugate base}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H3O+}}{}
 						\arrow(@c1.south east--.north east){0}[-90,.5]
-						\chemname{\ch{NH3}}{\tinytext{weak base}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{H2O}}{}
+						\chemname{\ch{NH3}}{\tinytext{weak base}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H2O}}{}
 						\arrow(.mid east--.mid west){<=>}
-						\chemname{\ch{NH4+}}{\tinytext{conjugate acid}}\hspace{7mm} + \hspace{7mm}\chemname{\ch{OH-}}{}
+						\chemname{\ch{NH4+}}{\tinytext{conjugate acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{OH-}}{}
 					\schemestop
-				}{\vspace{-1.5em}}
+				}{}
 
 				Since this is an equilibrium reaction, a mixture of the undissociated acid or base, as well as its dissociated ions,
 				exist in solution.
@@ -124,22 +125,22 @@
 
 	% end section
 
-	\section{\texorpdfstring{\MpH{}}{pH}, \texorpdfstring{\MpOH{}}{pOH} and Other Such Constants}
+	\section{\texorpdfstring{\pH{}}{pH}, \texorpdfstring{\pOH{}}{pOH}, and Other Such Constants}
 
-		First, the general idea of \itl{p} should be stated. In essence, it is this:
+		First, the general idea of $p$ should be stated. In essence, it is this:
 
-		\txtdiagram{
-			$pX = -lg(X)$, \hspace{5mm} $X = 10^{-pX}$
-		}{\vspace{-2em}}
+		\eqndiagram{
+			\[ pX = -lg(X), \hspace{5mm} X = 10^{-pX} \]
+		}
 
 		So, it follows \pH{} and \pOH{} are, respectively,
 
-		\txtdiagram{
-			$pH = -lg([H^{+}])$, \hspace{5mm} $[H^{+}] = 10^{-pH}$
-			\linebreak
-			\linebreak
-			$pOH = -lg([OH^{-}])$, \hspace{5mm} $[OH^{-}] = 10^{-pOH}$
-		}{\vspace{-2em}}
+		\eqndiagram{
+			\begin{alignat*}{4}
+				\MpH  & = -lg([\ch{H+}]), \hspace{5mm}  && [\ch{H+}]  && = 10^{-\MpH}   \\[0.6em]
+				\MpOH & = -lg([\ch{OH-}]), \hspace{5mm} && [\ch{OH-}] && = 10^{-\MpOH}
+			\end{alignat*}
+		}
 
 		In other words, it is a measure of the concentration of either \ch{H+} or \ch{OH-} in the solution. As you might be aware, the
 		lower the \pH{}, the more \ch{H+} there is. \pOH{} is similar, although it obviously measures the concentration of \ch{OH-}.
@@ -149,7 +150,7 @@
 
 
 		\pagebreak
-		\subsection{Ionic Product of Water, \texorpdfstring{\MKw{}}{Kw}}
+		\subsection{Ionic Product of Water, \texorpdfstring{\Kw{}}{Kw}}
 
 			Pure water actually \itl{auto-ionises} to a very slight degree, giving \ch{H+ \stAq} and \ch{OH- \stAq}.
 
@@ -159,47 +160,42 @@
 					\arrow{<=>}
 					\ch{H3O+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{OH- \stAq}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 			Since this is an equilibrium, the \Kc{} value is as such:
 
-			\diagram[1.5]{
-				$K_{c} = \frac{[H^{+}][OH^{-}]}{[H_{2}O]}$
-			}{\vspace{-2em}}
+			\eqndiagram{
+				\[ K_{c} = \frac{[\ch{H+}][\ch{OH-}]}{[\ch{H2O}]} \]
+			}
 
-			Given that the extent of ionisation is minuscule, the ``concentration'' of \ch{H2O} is almost constant, and so
+			Given that the extent of ionisation is minuscule, the \enquote{concentration} of \ch{H2O} is almost constant, and so
 
-			\txtdiagram{
-				$K_{c} \times [H_{2}O] = [H^{+}][OH^{-}]$
-				\linebreak
-				\linebreak
-				$K_{w} = K_{c} \times [H_{2}O] = [H^{+}][OH^{-}]$
-			}{\vspace{-2em}}
+			\eqndiagram{
+				\[ K_{w} = K_{c} \times [\ch{H2O}] = [\ch{H+}][\ch{OH-}] \]
+			}
 
 			Thus, \pKw{} becomes relatively simple, taking $lg$ on both sides:
 
-			\txtdiagram{
-				$pK_{w} = pH + pOH$
-			}{\vspace{-2em}}
+			\eqndiagram{
+				$pK_{w} = \MpH + \MpOH$
+			}
 
 			Experimentally, it is found that, at \SI{25}{\celsius}, $K_{w} = \SI{1.0e-14}{\molarConc}$, so:
 			\begin{bulletlist}
 				& $pK_{w} = 14$
-				& $pH + pOH = 14$.
+				& $\MpH + \MpOH = 14$.
 			\end{bulletlist}
 
 			The value of \Kw{}, and by extension, \pKw{}, is affected solely by temperature, just like \Kc{}. Thus, only at \SI{25}{\celsius}
-			does $pH + pOH = 14$ hold; at higher temperatures, \Kw{} \itl{increases}, so the sum is \itl{greater than} \num{14}.
+			does $\MpH + \MpOH = 14$ hold; at higher temperatures, \Kw{} \itl{increases}, so the sum is \itl{greater than} \num{14}.
 
-			Of course, the relationships $pH + pOH = pK_{w}$ and $K_{w} = [H^{+}][OH^{-}]$ always hold.
+			Of course, the relationships $\MpH + \MpOH = pK_{w}$ and $K_{w} = [\ch{H+}][\ch{OH-}]$ always hold.
 
 		% end subsection
 
+		\subsection{\texorpdfstring{\pH{}}{pH} and \texorpdfstring{\pOH{}}{pOH} of Strong Acids and Bases}
 
-		\pagebreak
-		\subsection{\texorpdfstring{\MpH{}}{pH} and \texorpdfstring{\MpOH{}}{pOH} of Strong Acids and Bases}
-
-			Given that strong acids and bases dissociated completely in water, [\ch{H+}] and [\ch{OH-}] simply become the initial concentration
+			Given that strong acids and bases dissociate completely in water, [\ch{H+}] and [\ch{OH-}] simply become the initial concentration
 			of the corresponding acid or base. If the acid in question is di- or even tri-protic, then the concentration of \ch{H+} will need
 			to be multiplied by the appropriate ratio --- the same applies for bases, of course.
 
@@ -222,17 +218,17 @@
 		Additionally, given the definitions of both \Ka{} and \Kb{}, the following relationships hold, for a given
 		\itl{conjugate acid-base pair}. Naturally it doesn't make sense to compare or relate two unrelated species.
 
-		\txtdiagram{
-			$K_{a} \times K_{b} = K_{w}$
-			\linebreak
-			\linebreak
-			$pK_{a} + pK_{b} = pK_{w}$
-		}{\vspace{-2em}}
+		\eqndiagram{
+			\begin{alignat*}{1}
+				K_{a} \times K_{b}  & = K_{w}      \\[0.6em]
+				pK_{a} + pK_{b}     & = pK_{w}
+			\end{alignat*}
+		}{}
 
 		Thus, the weaker the acid, the stronger its conjugate base, and vice-versa.
 
 
-		\subsection{Acid Dissociation Constant, \texorpdfstring{\MKa{}}{Ka}}
+		\subsection{Acid Dissociation Constant, \texorpdfstring{\Ka{}}{Ka}}
 
 			For some general weak acid \ch{HA}, it dissociates partially in water:
 
@@ -242,22 +238,22 @@
 					\arrow{<=>}
 					\ch{H3O+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{A- \stAq}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 			In a dilute solution, [\ch{H2O}] is almost constant, so the equilibrium constant can be defined as such:
 
-			\diagram[1.5]{
-				$K_{a} = \frac{[H^{+}][A^{-}]}{[HA]}$
-			}{\vspace{-2em}}
+			\eqndiagram{
+				\[ K_{a} = \frac{[\ch{H+}][\ch{A-}]}{[\ch{HA}]} \]
+			}
 
 			Naturally this is only true when the system is at equilibrium. Thus, the acid dissociation constant \Ka{} is simply the
 			equilibrium constant for the dissociation equilibrium, and indicates the \itl{extent} to which the acid dissociates.
 
 			Additionally, \pKa{} is defined similarly to \pKw{}:
 
-			\txtdiagram{
-				$pK_{a} = -lg(K_{a})$
-			}{\vspace{-2em}}
+			\eqndiagram{
+				\[ pK_{a} = -lg(K_{a}) \]
+			}
 
 			The larger the value of \Ka{} (and conversely, the smaller the value of \pKa{}), the stronger the acid is. Thus, \Ka{}
 			values should be used as the basis for comparing the strength of weak acids. Naturally, the \Ka{} values should be
@@ -271,7 +267,7 @@
 
 
 		\pagebreak
-		\subsection{Base Dissociation Constant, \texorpdfstring{\MKb{}}{Kb}}
+		\subsection{Base Dissociation Constant, \texorpdfstring{\Kb{}}{Kb}}
 
 			The definitions of \Kb{} and \pKb{} are essentially the mirror images of \Ka{} and \pKa{}. For a given weak base \ch{B}:
 
@@ -281,47 +277,47 @@
 					\arrow{<=>}
 					\ch{BH+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{OH- \stAq}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 			Thus, the base dissociation constant \Kb{} can be defined:
 
-			\diagram[1.5]{
-				$K_{b} = \frac{[BH^{+}][OH^{-}]}{[B]}$
-			}{\vspace{-2em}}
+			\eqndiagram{
+				\[ K_{a} = \frac{[\ch{BH+}][\ch{OH-}]}{[\ch{B}]} \]
+			}
 
 			\pKb{} can also be defined similarly:
 
-			\txtdiagram{
-				$pK_{b} = -lg(K_{b})$
-			}{\vspace{-2em}}
+			\eqndiagram{
+				\[ pK_{b} = -lg(K_{b}) \]
+			}
 
 			As with acids, the larger the value of \Kb{}, the stronger the base.
 
 		% end subsection
 
 
-		\subsection{Degree of Dissociation, \texorpdfstring{\chemalpha}{a}}
+		\subsection{Degree of Dissociation, \texorpdfstring{$\alpha$}{a}}
 
 			The degree of dissociation of a given acid or base is the \itl{ratio} of the number of moles of the substance that are ionised, to
 			the number of unionised moles of acid or base.
 
-			\diagram[1.5]{
-				$\alpha = \frac{[acid]_{dissociated}}{[acid]_{initial}}$
-			}{\vspace{-1.5em}}
+			\eqndiagram{
+				\[ \alpha = \cfrac{[\mathrm{acid}]_{dissoc}}{[\mathrm{acid}]_{initial}} \]
+			}
 
-			Thus, for a strong acid or base, α is close to \num{1}, while it is often much smaller than \num{1} for weak acids or bases.
+			Thus, for a strong acid or base, $\alpha$ is close to 1, while it is often much smaller than 1 for weak acids or bases.
 
 		% end subsection
 
 
-		\subsection{Calculations involving \texorpdfstring{\MKa{}}{Ka} and \texorpdfstring{\MKb{}}{Kb}}
+		\subsection{Calculations involving \texorpdfstring{\Ka{}}{Ka} and \texorpdfstring{\Kb{}}{Kb}}
 
 			Calculations involving only \Ka{} or \Kb{} are fairly straightforward. Given the value of \Ka{} for instance, it is trivial
 			to find the concentration of \ch{H+} and hence \pH{}, \itl{assuming}:
 
 			\begin{bulletlist}
-				& $[H^{+}] = [A^{-}]$, ie. all the \ch{H+} and \ch{A-} comes from the acid
-				& $[HA]$ at equilibrium $ = [HA]$ initially
+				& $[\ch{H+}] = [\ch{A-}]$, ie. all the \ch{H+} and \ch{A-} comes from the acid
+				& $[\ch{HA}]$ at equilibrium $ = [\ch{HA}]$ initially
 			\end{bulletlist}
 
 			The first assumption will be \itl{invalid} when there are \itl{external sources} of \ch{H+} or \ch{A-}, as in a buffer
@@ -351,9 +347,9 @@
 					\arrow(.mid east--.mid west){<=>}
 					\chemname{\ch{CH3CO2H \stAq}}{\tinytext{weaker acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{OH- \stAq}}{}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
-			In this case, given that \ch{CH3CO2H} is a weaker acid than water, \ch{CH3CO2-} is a stronger base than water, thus it is
+			In this case, given that \ch{CH3CO2H} is a weaker acid than water, \ch{CH3CO2-} is a stronger base than water; thus it is
 			able to accept a proton --- leaving \ch{CH3CO2H} and \ch{OH-} as the products.
 
 			Since \ch{OH-} is present, the solution would be \itl{alkaline}. However, \ch{CH3CO2-} is still an objectively weak base
@@ -372,12 +368,10 @@
 					\arrow(.mid east--.mid west){<=>}
 					\chemname{\ch{NH3 \stAq}}{\tinytext{weaker base}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H3O+ \stAq}}{}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 			Again, \ch{NH4+} is a stronger acid than water, given that \ch{NH3} is weaker than water. Hence it donates a proton to \ch{H2O},
-			forming \ch{H3O+} and giving an \itl{acidic} solution.
-
-			Also, this system also exists in an equilibrium.
+			forming \ch{H3O+} and giving an \itl{acidic} solution that exists in an equilibrium.
 
 		% end subsection
 
@@ -390,9 +384,9 @@
 			and the anion is the conjugate base.
 
 			\begin{bulletlist}
-				& $K_{a} > K_{b}$;\hspace{4mm} $[H_{3}O^{+}] > [OH^{-}]$;\hspace{4mm} acidic solution
-				& $K_{a} = K_{b}$;\hspace{4mm} $[H_{3}O^{+}] = [OH^{-}]$;\hspace{4mm} neutral solution
-				& $K_{a} < K_{b}$;\hspace{4mm} $[H_{3}O^{+}] < [OH^{-}]$;\hspace{4mm} basic solution
+				& $K_{a} > K_{b}$;\hspace{4mm} $[\ch{H3O+}] > [\ch{OH-}]$ \hspace{3mm} --- \hspace{3mm} acidic solution
+				& $K_{a} = K_{b}$;\hspace{4mm} $[\ch{H3O+}] = [\ch{OH-}]$ \hspace{3mm} --- \hspace{3mm} neutral solution
+				& $K_{a} < K_{b}$;\hspace{4mm} $[\ch{H3O+}] < [\ch{OH-}]$ \hspace{3mm} --- \hspace{3mm} basic solution
 			\end{bulletlist}
 
 		% end subsection
@@ -415,19 +409,19 @@
 					\arrow(.mid east--.mid west){<=>}
 					\ch{[\Al(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 
 			\diagram[0.75]{
 				\schemestart[0,1.5,thick]
-					\setbondoffset{2.0mm}
-					\chemfig{\Al|\sps{3+}(-[:20,2.2,1,,Stealth-]@{o1}\chemabove{{\color{Red}O}}{\smdeltam}?[a,,dashed]?[d,,dashed](-[:60,1.25]\chemabove{H}{\smdeltap})(-[@{b1}:330,1.25]@{h1}\chemabove{H}{\smdeltap}(-[:270,1.5,,,draw=none]@{o2}\chembelow{\lewis{2:,{\color{Red}O}}}{\smdeltam}(-[:210]\chemabove{H}{\smdeltap})(-[:330]\chemabove{H}{\smdeltap}))))(-[:90,1.75,,,Stealth-]H\sbs{2}O)(-[:152.5,1.6,,,Stealth-]H\sbs{2}O?[a,,dashed]?[b,,dashed])(-[:200,2.2,,,Stealth-]H\sbs{2}O?[b,,dashed]?[c,,dashed])(-[:270,1.75,,,Stealth-]H\sbs{2}O)(-[:332.5,1.6,1,,Stealth-]O?[c,,dashed]?[d,,dashed]|H\sbs{2})}
-					\setbondoffset{1.0mm}
+					\setchemfig{bond offset=2mm}
+					\chemfig{\Al|\sps{3+}(-[:20,2.2,1]@{o1}\chemabove{{\color{Red}O}}{\smdeltam}?[a,,dashed]?[d,,dashed](-[:60,1.25]\chemabove{H}{\smdeltap})(-[@{b1}:330,1.25]@{h1}\chemabove{H}{\smdeltap}(-[:270,1.5,,,draw=none]@{o2}\chembelow{\lewis{2:,{\color{Red}O}}}{\smdeltam}(-[:210]\chemabove{H}{\smdeltap})(-[:330]\chemabove{H}{\smdeltap}))))(-[:90,1.75]H\sbs{2}O)(-[:152.5,1.6]H\sbs{2}O?[a,,dashed]?[b,,dashed])(-[:200,2.2]H\sbs{2}O?[b,,dashed]?[c,,dashed])(-[:270,1.75]H\sbs{2}O)(-[:332.5,1.6,1]O?[c,,dashed]?[d,,dashed]|H\sbs{2})}
 					\arrow
-					\chemfig{\Al|\sps{3+}(-[:20,2.2,1,,Stealth-]\lewis{2:,\color{Red}O}?[a,,dashed]?[d,,dashed]H\mch)(-[:90,1.75,,,Stealth-]H\sbs{2}O)(-[:152.5,1.6,,,Stealth-]H\sbs{2}O?[a,,dashed]?[b,,dashed])(-[:200,2.2,,,Stealth-]H\sbs{2}O?[b,,dashed]?[c,,dashed])(-[:270,1.75,,,Stealth-]H\sbs{2}O)(-[:332.5,1.6,1,,Stealth-]O?[c,,dashed]?[d,,dashed]|H\sbs{2})}
+					\setchemfig{bond offset=2mm}
+					\chemfig{\Al|\sps{3+}(-[:20,2.2,1]\lewis{2:,\color{Red}O}?[a,,dashed]?[d,,dashed]H\mch)(-[:90,1.75]H\sbs{2}O)(-[:152.5,1.6]H\sbs{2}O?[a,,dashed]?[b,,dashed])(-[:200,2.2]H\sbs{2}O?[b,,dashed]?[c,,dashed])(-[:270,1.75]H\sbs{2}O)(-[:332.5,1.6,1]O?[c,,dashed]?[d,,dashed]|H\sbs{2})}
+					\setchemfig{bond offset=1mm}
 					\chemfig{{\color{Red}O}\pch(-[:60]H)(-[:300]H)(-[:180]H)}
 				\schemestop
-
 				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](o2) .. controls +(90:10mm) and +(315:10mm) .. (h1);}
 				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b1) .. controls +(225:8mm) and +(270:8mm) .. (o1);}
 			}
@@ -451,22 +445,18 @@
 
 		% end subsection
 
-
-		\subsection{\texorpdfstring{\MpH{}}{pH} of Hydrolysed Salt Solutions}
+		\pagebreak
+		\subsection{\texorpdfstring{\pH{}}{pH} of Hydrolysed Salt Solutions}
 
 			Given the relevant \Ka{} or \Kb{} values, it is possible to find [\ch{H+}], and hence \pH{}, of the solution. However,
 			if the \Ka{} of the original weak acid is given, it is necessary to use the relationship $K_{w} = K_{a} \times K_{b}$ to find
 			the \Kb{} value for the conjugate base.
 
-			\diagram[1.5]{
-				$K_{b} = \frac{K_{w}}{K_{a}}$
-				\hspace{15mm}
-				$K_{b} = \frac{[CH_{3}CO_{2}H][OH^{-}]}{[CH_{3}CO_{2}^{-}]}$
-			}{\vspace{-1.5em}}
-
+			\eqndiagram{
+				\[ K_{b} = \frac{K_{w}}{K_{a}}  \hspace{15mm}  K_{b} = \frac{[\ch{CH3CO2H}][\ch{OH-}]}{[\ch{CH3CO2-}]} \]
+			}
 			Note that, in the absence of external agents, [\ch{CH3CO2H}] and [\ch{OH}] are equal, given that the stoichiometric ratios
 			are also equal, in the original hydrolysis equation:
-
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
@@ -474,16 +464,13 @@
 					\arrow{<=>}
 					\ch{CH3CO2H \stAq}\hspace{2mm} + \hspace{2mm}\ch{OH- \stAq}
 				\schemestop
-			}{\vspace{-1.5em}}
-
+			}{}
 
 		% end subsection
-
 	% end section
 
 
 
-	\pagebreak
 	\section{Buffer Solutions}
 
 		\subsection{Overview}
@@ -506,6 +493,7 @@
 			Where an acidic buffer will have a large reservoir of the undissociated weak acid and its conjugate base, an alkaline buffer will
 			have a large reservoir of the undissociated weak base and its conjugate acid.
 
+			\pagebreak
 			\subsubsection{Creation of Buffer}
 
 				Using the weak acid \ch{CH3CO2H}, it dissociates partially in water:
@@ -516,7 +504,7 @@
 						\arrow{<=>}
 						\ch{CH3CO2- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H+ \stAq}
 					\schemestop
-				}{\vspace{-1.5em}}
+				}{}
 
 				To create the buffer system, a large amount of \ch{CH3CO2-}, the conjugate base, is added --- often using a soluble salt of
 				that ion, for instance \ch{CH3CO2- Na+}. This dissolves fully in water:
@@ -527,7 +515,7 @@
 						\arrow{->}
 						\ch{CH3CO2- \stAq}\hspace{2mm} + \hspace{2mm}\ch{Na+ \stAq}
 					\schemestop
-				}{\vspace{-1.5em}}
+				}{}
 
 				Thus, according to Le Châtelier's Principle, the position of equilibrium in the first equation (of the dissociation of the acid)
 				shifts further to the left, suppressing the dissociation. Thus, the large supply of both \ch{CH3CO2H} and \ch{CH3CO2-} is
@@ -536,7 +524,6 @@
 			% end subsubsection
 
 
-			\pagebreak
 			\subsubsection{Reaction with \texorpdfstring{\ch{H+}}{H⁺}}
 
 				When a small amount of \ch{H+} ions are added to the buffer solution, they react with the \itl{large reservoir} of
@@ -548,14 +535,14 @@
 						\arrow{->}
 						\ch{CH3CO2H \stAq}
 					\schemestop
-				}{\vspace{-1.5em}}
+				}{}
 
 				The \ch{H+} ions are removed, and thus a change to the \pH{} of the solution is resisted. From the original dissociation
 				equation:
 
 				\diagram[1.5]{
 					$[H^{+}] = K_{a} \times \frac{[CH_{3}CO_{2}H]}{[CH_{3}CO_{2}^{-}]}$
-				}{\vspace{-1.5em}}
+				}{}
 
 				Thus, even though [\ch{CH3CO2H}] increases slightly and [\ch{CH3CO2-}] decreases slightly to neutralise the \ch{H+}, compared
 				to the large reservoir, the change is small, and so [\ch{H+}] remains \itl{relatively constant}, and hence so does \pH{}.
@@ -577,7 +564,7 @@
 						\arrow{->}
 						\ch{CH3CO2- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
 					\schemestop
-				}{\vspace{-1.5em}}
+				}{}
 
 				As evident, the added \ch{OH-} ions are removed, and the \pH{} of the solution remains constant --- the existing \ch{H+} ions
 				in the equilibrium are not neutralised.
@@ -601,7 +588,7 @@
 				$K_{a} = \frac{[CH_{3}CO_{2}^{-}]_{eqm}[H^{+}]_{eqm}}{[CH_{3}CO_{2}H]_{eqm}}$
 				\hspace{15mm}
 				$K_{b} = \frac{[NH_{4}^{+}]_{eqm}[OH^{-}]_{eqm}}{[NH_{3}]_{eqm}}$
-			}{\vspace{-1.5em}}
+			}{}
 
 			As stated above, adding the conjugate of the acid or base moves the position of equilibrium of the dissociation reaction to the left,
 			reducing the amount of \ch{CH3CO2-} or \ch{NH4+} that comes from the acid or base. Hence, the following approximations can be made:
@@ -623,13 +610,13 @@
 				$K_{a} = \frac{[H^{+}]_{eqm}[salt]}{[acid]}$
 				\hspace{15mm}
 				$K_{b} = \frac{[OH^{-}]_{eqm}[salt]}{[base]}$
-			}{\vspace{-1.5em}}
+			}{}
 
 			\diagram[1.5]{
 				$[H^{+}]_{eqm} = K_{a} \times \frac{[acid]}{[salt]}$
 				\hspace{15mm}
 				$[OH^{-}]_{eqm} = K_{b} \times \frac{[base]}{[salt]}$
-			}{\vspace{-1.5em}}
+			}{}
 
 
 			Thus the \pH{} and \pOH{} can be found, given the concentrations of the acid and salt used to create the buffer solution.
@@ -643,7 +630,7 @@
 					$pH = pK_{a} + lg(\frac{[salt]}{[acid]})$
 					\hspace{15mm}
 					$pOH = pK_{b} + lg(\frac{[salt]}{[base]})$
-				}{\vspace{-1.5em}}
+				}{}
 
 				Note that the fraction inside the logarithm is \itl{flipped}, because math works that way.
 
@@ -662,7 +649,7 @@
 				$\frac{[salt]}{[acid]} = 1$
 				\hspace{15mm}
 				$\frac{[salt]}{[base]} = 1$
-			}{\vspace{-1.5em}}
+			}{}
 
 			Thus, it can be shown that, at the maximum capacity:
 
@@ -670,7 +657,7 @@
 				$pH = pK_{a}$
 				\hspace{15mm}
 				$pOH = pK_{b}$
-			}{\vspace{-1.5em}}
+			}{}
 
 			When a buffer is at maximum capacity, it is able to resist the greatest changes in \pH{}, ie. the addition of \ch{H+} or \ch{OH-}
 			ions. The further away it is from this maximum, the less effective it becomes.
@@ -690,7 +677,7 @@
 
 			\diagram[1.5]{
 				$0.1 < \frac{[salt]}{[acid]} < 1$
-			}{\vspace{-1.5em}}
+			}{}
 
 			Or, in other words, the ratio between the acid or base and its conjugate must not deviate by more than a factor of \num{10}. Given
 			this, then, some math can be applied, and an alternate form of the effective range can be seen:
@@ -699,7 +686,7 @@
 				$pH\ range = pK_{a} ±1$
 				\hspace{15mm}
 				$pOH\ range = pK_{b} ±1$
-			}{\vspace{-1.5em}}
+			}{}
 
 		% end subsection
 
@@ -722,7 +709,7 @@
 					\arrow{<=>}
 					\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{CO2 \stG}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 			Since \ch{H2CO3} is part of the buffer system in the blood, the following buffer equilibrium exists as well:
 
@@ -732,7 +719,7 @@
 					\arrow{<=>}
 					\ch{H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{HCO3- \stAq}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 
 			Thus, if the \pH{} becomes too high, the excess \ch{OH-} will react with the \ch{H2CO3}; if \pH{} becomes too low, the
@@ -744,7 +731,7 @@
 					\arrow(@c1.south east--.north east){0}[-90,.3]
 					\ch{OH- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2CO3 \stAq}\arrow\ch{HCO3- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 
 			If the amount of \ch{H2CO3} in the blood becomes too high, the lungs do the job of exhaling the \ch{CO2}:
@@ -755,7 +742,7 @@
 					\arrow{->}
 					\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{CO2 \stG}
 				\schemestop
-			}{\vspace{-1.5em}}
+			}{}
 
 		% end subsection
 
@@ -1142,7 +1129,7 @@
 					\ch{HCO3- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H+ \stAq}
 					\arrow\ch{H2CO3 \stAq}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 
 			\begin{center}
@@ -1221,7 +1208,7 @@
 					\arrow{<=>}
 					\ch{HIn \stAq}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 			Following the general formula for \Ka{}, and manipulating slightly:
 
@@ -1229,14 +1216,14 @@
 				$K_{In} = \frac{[H^{+}][In^{-}]}{[HIn]}$
 				\hspace{15mm}
 				$pH = pK_{In} + lg(\frac{[In^{-}]}{[HIn]})$
-			}{\vspace{-1.5em}}
+			}{}
 
 			For the colour change to be visible, the concentration of the dominant ion must be greater than the less dominant one
 			by a factor of 10, so the working range of an indicator is as such:
 
 			\diagram[1.5]{
 				$pH = pK_{In} ± 1$
-			}{\vspace{-1.5em}}
+			}{}
 
 		% end subsection
 
