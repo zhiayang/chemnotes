@@ -13,8 +13,8 @@
 		concentration of reactants and products do not change any further.
 
 		The \itl{position of equilibrium} can be controlled to a certain extent, according to the principles of a man named
-		\itl{Le Châtelier}. Lexically, an equilibrium reaction is represented with a double-hooked arrow, \ch{>=<}, instead of a normal
-		arrow, \ch{->}.
+		\itl{Le Châtelier}. Lexically, an equilibrium reaction is represented with a double-hooked arrow, $⇋$, instead of a normal
+		arrow, $→$.
 
 		\subsection{Dynamic Equilibrium}
 
@@ -22,7 +22,7 @@
 			reactions are \itl{equal} and \itl{non-zero}. If both the rates of reaction are zero, then it is in a state of \itl{static}
 			equilibrium. Unless the reaction mixture is disturbed, the system will remain in this equilibrium.
 
-			The nature of equilibrium reactions means that they can be ``started'' from either direction, beginning with only reactants or
+			The nature of equilibrium reactions means that they can be \enquote{started} from either direction, beginning with only reactants or
 			only products. The system will eventually move back into the position of equilibrium.
 
 		% end subsection
@@ -32,99 +32,93 @@
 
 			\subsubsection{Concentration-Time}
 
-				\begin{center}
-				\begin{tikzpicture}
+				\graphdiagram[1.0]{
+					\begin{tikzpicture}
 
-					\begin{axis}[
-						axis lines		= left,
-						domain			= 0.5:3,
-						xlabel			= \textbf{$time/s$},
-						ylabel			= \textbf{$concentration$},
-						axis line style	= very thick,
-						height			= 80mm,
-						ytick			= \empty,
-						xtick			= \empty,
-					]
+						\begin{axis}[
+							axis lines		= left,
+							domain			= 0.5:3,
+							xlabel			= \textbf{$time/s$},
+							ylabel			= \textbf{$concentration$},
+							axis line style	= very thick,
+							height			= 80mm,
+							ytick			= \empty,
+							xtick			= \empty,
+						]
 
-						\addplot[color = blue, very thick, restrict x to domain = 0.5:3]{
-							0.65 * (1 / (1 + e^(-(4*x - 4))))
-						};
+							\addplot[color = blue, very thick, restrict x to domain = 0.5:3]{
+								0.65 * (1 / (1 + e^(-(4*x - 4))))
+							};
 
-						\addplot[color = red, very thick, restrict x to domain = 0.5:3]{
-							1 - 0.65 * (1 / (1 + e^(-(4*x - 4))))
-						};
+							\addplot[color = red, very thick, restrict x to domain = 0.5:3]{
+								1 - 0.65 * (1 / (1 + e^(-(4*x - 4))))
+							};
 
-						\addplot[color = green, opacity = 0.0, very thick]{
-							1.05
-						};
+							\addplot[color = green, opacity = 0.0, very thick]{
+								1.05
+							};
 
-						\node at (axis cs: 1.75, 0.25) {reactant};
-						\node at (axis cs: 1.75, 0.75) {product};
-						\node at (axis cs: 2.75, 0.5) {equilibrium};
+							\node at (axis cs: 1.75, 0.25) {reactant};
+							\node at (axis cs: 1.75, 0.75) {product};
+							\node at (axis cs: 2.75, 0.5) {equilibrium};
 
-					\end{axis}
+						\end{axis}
+					\end{tikzpicture}
 
-				\end{tikzpicture}
-				\end{center}
-
-				Note that the rate of reaction in either direction never reaches 0, and the gradient (remember, rate of change of concentration
-				is directly proportional to rate of reaction) of both become 0 at the equilibrium.
+				}[Both gradients reach 0 at the equilibrium]
 
 			% end subsubsection
 
 
 			\subsubsection{Rate-Time}
 
-				\begin{center}
-				\begin{tikzpicture}
+				\graphdiagram[1.0]{
+					\begin{tikzpicture}
 
-					\begin{axis}[
-						axis lines		= left,
-						domain			= 0.5:4,
-						xlabel			= \textbf{$time/s$},
-						ylabel			= \textbf{$rate of reaction$},
-						axis line style	= very thick,
-						height			= 80mm,
-						ytick			= \empty,
-						xtick			= \empty,
-					]
+						\begin{axis}[
+							axis lines		= left,
+							domain			= 0.5:4,
+							xlabel			= \textbf{$time/s$},
+							ylabel			= \textbf{$rate of reaction$},
+							axis line style	= very thick,
+							height			= 80mm,
+							ytick			= \empty,
+							xtick			= \empty,
+						]
 
-						\addplot[color = red, very thick, restrict x to domain = 0.5:4]{
-							0.5 * (1 / (1 + e^(-(4*x - 4))))
-						};
+							\addplot[color = red, very thick, restrict x to domain = 0.5:4]{
+								0.5 * (1 / (1 + e^(-(4*x - 4))))
+							};
 
-						\addplot[color = blue, very thick, restrict x to domain = 0.5:4]{
-							1 - 0.5 * (1 / (1 + e^(-(4*x - 4))))
-						};
+							\addplot[color = blue, very thick, restrict x to domain = 0.5:4]{
+								1 - 0.5 * (1 / (1 + e^(-(4*x - 4))))
+							};
 
-						\addplot[color = green, opacity = 0.0, very thick]{
-							1.05
-						};
+							\addplot[color = green, opacity = 0.0, very thick]{
+								1.05
+							};
 
-						\node at (axis cs: 1.75, 0.25) {reactant};
-						\node at (axis cs: 1.75, 0.75) {product};
-						\node at (axis cs: 3.5, 0.55) {equilibrium};
+							\node at (axis cs: 1.75, 0.25) {reactant};
+							\node at (axis cs: 1.75, 0.75) {product};
+							\node at (axis cs: 3.5, 0.55) {equilibrium};
 
-					\end{axis}
+						\end{axis}
+					\end{tikzpicture}
 
-				\end{tikzpicture}
-				\end{center}
-
-				Note that the rates of reaction meet in the centre and are equal at the position of equilibrium.
+				}[The rates of reaction meet in the centre and are equal at the position of equilibrium.]
 
 			% end subsubsection
 
 		% end subsection
 
-
+		\pagebreak
 		\subsection{Position of Equilibrium}
 
 			From the concentration-time graph, it is possible to determine if the position of equilibrium lies more to the \itl{left} or the
 			\itl{right}. The former means that the the forward reaction is favoured more (reading equations from left-to-right), while the
 			latter indicates a more favoured backwards reaction.
 
-
-				\begin{center}
+			\graphdiagram[1.0]{
 				\begin{tikzpicture}
 
 					\begin{axis}[
@@ -156,7 +150,6 @@
 						\node at (axis cs: 2.75, 0.5) {equilibrium};
 
 					\end{axis}
-
 				\end{tikzpicture}
 				\hspace{10mm}
 				\begin{tikzpicture}
@@ -192,12 +185,11 @@
 					\end{axis}
 
 				\end{tikzpicture}
-				\end{center}
+			}
 
-
-				In the system on the left, the final concentration of products is greater than the final concentration of reactants;
-				\itl{ie.} the position of equilibrium is further to the right. Conversely, the position of equilibrium is to the left
-				in the graph on the right.
+			In the system on the left, the final concentration of products is greater than the final concentration of reactants;
+			\itl{ie.} the position of equilibrium is further to the right. Conversely, the position of equilibrium is to the left
+			in the graph on the right.
 
 
 		% end subsection
@@ -217,22 +209,22 @@
 
 			\txtdiagram{
 				\schemestart[0,1.0,thick]
-					\ch{a}\hspace{0.1em}\ch{A}\hspace{2mm} + \hspace{2mm}\ch{b}\hspace{0.1em}\ch{B}
+					\ch{p}\hspace{0.1em}\ch{A}\hspace{2mm} + \hspace{2mm}\ch{q}\hspace{0.1em}\ch{B}
 					\arrow
-					\ch{c}\hspace{0.1em}\ch{C}\hspace{2mm} + \hspace{2mm}\ch{d}\hspace{0.1em}\ch{D}
+					\ch{r}\hspace{0.1em}\ch{C}\hspace{2mm} + \hspace{2mm}\ch{s}\hspace{0.1em}\ch{D}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 			The corresponding \Kc{} would be as such:
 
-			\diagram[1.5]{
-				\schemestart[0,1.0,thick]
-					$K_{c} = \frac{[C]^{c}[D]^{d}}{[A]^{a}[B]^{b}}$
-				\schemestop
-			}{\vspace{-1.5em}}
+			\txtdiagram{
+				\[K_{c} = \frac{[C]^{c}[D]^{d}}{[A]^{a}[B]^{b}}\]
+			}{}
 
 			Note that it is \itl{products over reactants}. The power that each concentration is raised to is simply the stoichiometric
 			coefficient of that reactant or product, nothing more --- far simpler than the rate equation nonsense.
+
+			The reason is that
 
 		% end subsection
 
@@ -242,11 +234,9 @@
 			In situations where it is more convenient to use partial pressures, then it is as simple as substituting the concentrations
 			in the original \Kc{} equation with the corresponding partial pressures to get \Kp{}, like so:
 
-			\diagram[1.5]{
-				\schemestart[0,1.0,thick]
-					$K_{p} = \frac{(P_{C})^{c}(P_{D})^{d}}{(P_{A})^{a}(P_{B})^{b}}$
-				\schemestop
-			}{\vspace{-2em}}
+			\txtdiagram{
+				\[K_{p} = \frac{(P_{C})^{c}(P_{D})^{d}}{(P_{A})^{a}(P_{B})^{b}}\]
+			}{}
 
 			This works because the partial pressure is simply a equivalent to the mole ratio of the particular gas to the total number of
 			moles of gas in the system -- when put together, the total moles cancel, leaving what is effectively the stoichiometric
@@ -265,7 +255,7 @@
 			Applying the knowledge of fractions, the larger the value of \Kc{}, then the further forward lies the position of equilibrium.
 			Conversely, the smaller the value, the further backward it lies.
 
-			\begin{center}
+			\graphdiagram[1.0]{
 				\begin{tikzpicture}
 					\begin{axis}[
 						y				= 1.5cm,	% y unit vector
@@ -279,9 +269,9 @@
 						xticklabels		= {0, 10\sps{-3}, 1, 10\sps{3}, ∞},
 					]
 
-					\addplot [no markers, very thick, green, opacity = 0.0] table {
-						0 1
-						10 1
+					\addplot [no markers, very thick, green, opacity = 0.0] table[col sep=comma, row sep=crcr] {
+						0, 1    \\
+						10, 1   \\
 					};
 
 					\node at (axis cs: 3, 1.2) {left};
@@ -289,7 +279,7 @@
 
 					\end{axis}
 				\end{tikzpicture}
-			\end{center}
+			}
 
 			\Kc{} values around \num{1e-3} to \num{1e3} are considered systems where the position of equilibrium is relatively centred,
 			while values outside of that range indicate a system strongly preferring either the forward or reverse reaction.
@@ -369,7 +359,7 @@
 					\arrow{<=>}
 					\ch{2 NH3 \stG}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 			The forward reaction changes the number of moles of gas from \num{4} (\num{1} + \num{3}) to \num{2}, resulting in a net
 			\itl{decrease}; the backwards reaction would thus increase the number of moles of gas from \num{2} to \num{4}, a net
@@ -387,7 +377,7 @@
 					\arrow{<=>}
 					\ch{2 HBr \stG}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 			Then a change in the pressure of the system will have \itl{no effect} on the position of equilibrium.
 
@@ -452,7 +442,7 @@
 					\arrow{<=>}
 					\ch{2 NH3 \stG}
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 
 			To increase the yield of ammonia, 3 techniques are used:
@@ -474,7 +464,6 @@
 		\subsection{Process}
 
 			\imgdiagram{140mm}{../figures/physical/ch05/haber_process.png}{\vspace{-2em}}
-
 
 			The image should be fairly self-explanatory. Pure nitrogen gas is obtained from liquefied air, while hydrogen gas is obtained
 			via methane (\ch{CH4}) and steam in the presence of a catalyst.

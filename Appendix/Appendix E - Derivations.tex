@@ -1,0 +1,133 @@
+% Appendix D - Distinguishing Tests.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+% Licensed under the Apache License Version 2.0.
+
+\pagebreak
+\hypertarget{AppendixDerivations}{}
+\part{Derivations}
+
+	This appendix section details the derivations of various formulas that have appeared in the main body.
+
+	\section{Equilibrium Constant}
+
+		For a given equation:
+
+		\txtdiagram{
+			\schemestart[0,1.0,thick]
+				\ch{p}\hspace{0.1em}\ch{A}\hspace{2mm} + \hspace{2mm}\ch{q}\hspace{0.1em}\ch{B}
+				\arrow
+				\ch{r}\hspace{0.1em}\ch{C}\hspace{2mm} + \hspace{2mm}\ch{s}\hspace{0.1em}\ch{D}
+			\schemestop
+		}{}
+
+		The equilibrium constant is defined as such:
+
+		\eqndiagram{
+			 \[ K_{c} = \frac{[C]^{c}[D]^{d}}{[A]^{a}[B]^{b}} \]
+		}
+
+		Recall that the system reaches a position of equilibrium when the forward and backward rates of reaction are equal. There are two
+		scenarios to consider in this case --- when the given equilibrium reaction is an elementary step, and when it is not.
+
+		\subsection{Equilibrium is Elementary}
+
+			The equilibrium of \ch{N2O4} and \ch{NO2} will be studied as an example in this section.
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{N2O4 \stG}
+					\arrow{<=>}
+					\ch{2 NO2 \stG}
+				\schemestop
+			}{}
+
+			If the main reaction is an elementary reaction, it implies that both the forward and the backward reactions are elementary. Hence,
+			there are two rate constants --- one for the forward reaction, $k_{fwd}$, and one for the reverse $k_{rev}$.
+
+			\eqndiagram{
+				\[ R_{fwd} = k_{fwd}[\mathrm{N_{2}O_{4}}]  \qquad\qquad  R_{rev} = k_{rev}[\mathrm{NO_{2}}]^{2} \]
+			}[Since both reactions are elementary, the orders of reaction correspond to the stoichiometric coefficients.]
+
+			\pagebreak
+
+			Further recall that the equilibium constant reflects the position of equilibrium of the system (in fixed conditions) --- if its magnitude
+			is large, the equilibrium favours the forward reaction, and vice versa.
+
+			Thus, the following relationship can be applied:
+
+			\eqndiagram{
+				\[ K_{c} = \frac{k_{fwd}}{k_{rev}} \]
+			}
+
+			The following equation can be found by slightly rearranging the two rate equations above and appropriately substituting:
+
+			\eqndiagram{
+				\[ K_{c} \quad = \quad \frac{k_{fwd}}{k_{rev}} \quad = \quad \frac{R_{fwd}}{[\mathrm{N_{2}O_{4}}]}
+				\; / \; \frac{R_{rev}}{[\mathrm{NO_{2}}]^{2}} \]
+			}
+
+			Since the forward and reverse rates of reaction are the same, they can be cancelled, getting the definition of the equilibrium constant:
+
+			\eqndiagram{
+				\[ K_{c} = \frac{[\mathrm{NO_{2}}]^{2}}{[\mathrm{N_{2}O_{4}}]} \]
+			}
+
+			This also indirectly explains why the equilbrium constant takes the product concentrations over the reactant concentrations, instead of
+			the other way around.
+
+		% end subsection
+
+		\subsection{Equilibrium is not Elementary}
+
+			Even if the equilibrium itself is not elementary, the original definition of \Kc{} still applies --- there are simply more substitution
+			steps to get to it.
+
+			Taking the following equilibrium:
+
+			\txtdiagram{
+				\schemestart[0,1.0,thick]
+					\ch{H2 \stG} \hspace{2mm}+\hspace{2mm} \ch{I2 \stG}
+					\arrow{<=>}
+					\ch{2 HI \stG}
+				\schemestop
+			}{}
+
+		% end subsection
+
+	% end section
+
+
+% end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

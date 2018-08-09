@@ -8,32 +8,27 @@
 
 \RequirePackage[a4paper, top=22.5mm, bottom=25.0mm, left=25.0mm, right=25.0mm, headheight=15pt]{geometry}
 \RequirePackage[ampersand]{easylist}
-\RequirePackage{emptypage}
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{tabu}
 \RequirePackage{tikz}
 \RequirePackage{tabto}
-\RequirePackage{lipsum}
 \RequirePackage{graphicx}
 \RequirePackage{fancyhdr}
 \RequirePackage{enumitem}
 \RequirePackage{dashrule}
-\RequirePackage{setspace}
 \RequirePackage{longtable}
 \RequirePackage{etoolbox}
 \RequirePackage{tocloft}
-\RequirePackage{regexpatch}
-\RequirePackage{subcaption}
+\RequirePackage{setspace}
 \RequirePackage{afterpage}
 \RequirePackage{array}
 \RequirePackage{pgfplots}
 \RequirePackage[autostyle=false, style=british, strict=true]{csquotes}
-\RequirePackage{sansmath}
 \RequirePackage{xfrac}
-\RequirePackage{unicode-math}
 \RequirePackage{newunicodechar}
 \RequirePackage{ulem}
 \RequirePackage{ifoddpage}
+\RequirePackage{xparse}
 
 \RequirePackage[newparttoc, clearempty]{titlesec}
 
@@ -41,9 +36,10 @@
 \RequirePackage{bookmark}
 
 \RequirePackage{fontspec}
+\RequirePackage{unicode-math}
+
 \RequirePackage{microtype}
 
-\RequirePackage{libertine}
 
 \RequirePackage{chemfig}
 \RequirePackage{siunitx}
@@ -65,7 +61,15 @@
 	radical-vshift	= -0.35ex
 }
 
-\setcrambond{5pt}{1pt}{2pt}
+\setchemfig{
+	cram width      = 5pt,
+	cram dash width = 1pt,
+	cram dash sep   = 2pt,
+	double bond sep = 1.25mm,       % spacing between lines in a double bond
+	atom sep        = 12mm,         % fixed length of a bond
+	bond offset     = 1mm,          % margin
+	bond style      = line width=0.45mm
+}
 
 \usetikzlibrary{arrows.meta,calc,positioning,decorations}
 \usepgfplotslibrary{fillbetween}
@@ -121,21 +125,6 @@
 
 
 
-
-
-
-\newfontfamily\LatoRegular[
-	UprightFont		= Lato-Regular,
-	ItalicFont		= Lato-Italic,
-	BoldFont		= Lato-Semibold,
-	BoldItalicFont	= Lato-SemiboldItalic]{Lato-Regular}
-
-\newfontfamily\LatoLight[
-	UprightFont		= Lato-Thin,
-	ItalicFont		= Lato-ThinItalic,
-	BoldFont		= Lato-Light,
-	BoldItalicFont	= Lato-LightItalic]{Lato-Thin}
-
 \newfontfamily\Roboto[
 	UprightFont		= Roboto-Light,
 	ItalicFont		= Roboto-LightItalic,
@@ -148,44 +137,30 @@
 	BoldFont		= Roboto-Light,
 	BoldItalicFont	= Roboto-LightItalic]{Roboto-Thin}
 
-
 \newfontfamily\Alexandria[
 	UprightFont		= AlexandriaFLF,
 	ItalicFont		= AlexandriaFLF-Italic,
 	BoldFont		= AlexandriaFLF-Bold,
 	BoldItalicFont	= AlexandriaFLF-BoldItalic]{AlexandriaFLF}
 
-\newfontfamily\SSLight[
-	UprightFont		= SourceSansPro-Light,
-	ItalicFont		= SourceSansPro-LightItalic,
-	BoldFont		= SourceSansPro-Regular,
-	BoldItalicFont	= SourceSansPro-Italic]{SourceSansPro-Light}
+\newfontfamily\MyriadPro[
+	UprightFont		= MyriadPro-Regular,
+	ItalicFont		= MyriadPro-It,
+	BoldFont		= MyriadPro-Bold,
+	BoldItalicFont	= MyriadPro-BoldIt]{MyriadPro-Regular}
 
-
-
-
+\newfontfamily\MinionPro[
+	UprightFont		= MinionPro-Regular,
+	ItalicFont		= MinionPro-It,
+	BoldFont		= MinionPro-Bold,
+	BoldItalicFont	= MinionPro-BoldIt]{MinionPro-Regular}
 
 
 
 \defaultfontfeatures{Ligatures=TeX}
 
-
-% \setmainfont[
-% 				Ligatures=TeX,
-% 				BoldFont={Lato-Semibold},
-% 				ItalicFont={Lato-Italic},
-% 				BoldItalicFont={Lato-SemiboldItalic}
-% 			]{Lato-Regular}
-
-
-\setsansfont[
-				Scale=MatchLowercase,
-				Ligatures=TeX,
-				BoldFont={Lato-Semibold},
-				ItalicFont={Lato-Italic},
-				BoldItalicFont={Lato-SemiboldItalic}
-			]{Lato-Regular}
-
+\setsansfont[Scale=MatchLowercase]{MyriadPro}
+\setmainfont[Scale=MatchLowercase]{MinionPro}
 
 \setmonofont[Scale=MatchLowercase]{Menlo}
 
@@ -203,20 +178,31 @@
 \setlength\titleNumberInsetLength{12.5mm}
 
 
+\makeatletter
+\g@addto@macro \normalsize {%
+	\setlength\abovedisplayskip{0em}%
+	\setlength\belowdisplayskip{0em}%
+}
+\makeatother
+
+
+
 \newcolumntype{N}{@{}m{0pt}@{}}
 
 \setstretch{1.05}
 \raggedbottom
 
-\newcommand*{\setheadfoot}{\fancyfoot[R]{\thepage}\fancyhead[R]{Chapter \arabic{part} - \parttitle}}
+\newcommand*{\sethead}{\fancyhead[R]{Chapter \arabic{part} - \parttitle}}
+\newcommand*{\setfoot}{\fancyfoot[R]{\thepage}}
+
 \makeatletter
 \newcommand*{\ensureoddpage}{\checkoddpage\@ifoddpage{}{\newpage}}
 \makeatother
 
 \titleformat{\part}[display]
-	{\fancyhf{}\ensureoddpage\setheadfoot\Roboto\fontsize{40pt}{48pt}\selectfont}
-	{\Roboto\fontsize{30pt}{36pt}\selectfont\hfill P\fontsize{22pt}{26pt}\selectfont ART\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
-	{-0.5em}
+	{\fancyhf{}\ensureoddpage\setfoot\Roboto\fontsize{40pt}{48pt}\selectfont\afterpage{\sethead}}
+	{\Roboto\fontsize{22pt}{26pt}\selectfont\hfill PART\hspace{5mm}\normalfont\Alexandria\fontsize{30pt}{36pt}\selectfont\raisebox{0mm}{\thepart}}
+	{-0.7em}
 	{\vspace{5mm}}
 	[\vspace{-5.0mm}{\makebox[0mm][l]{\rule[10mm]{\textwidth}{0.5mm}}}\vspace{15mm}]
 
@@ -224,61 +210,32 @@
 
 \titleformat{\section}
 	{\Roboto\fontsize{25pt}{30pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\MyriadPro\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsection}
 	{\Roboto\fontsize{21pt}{25pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\MyriadPro\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\subsubsection}
 	{\Roboto\fontsize{18pt}{22pt}\selectfont}
-	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\MyriadPro\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\paragraph}
 	{\Roboto\fontsize{15pt}{18pt}\selectfont\bfseries}
-	{\llap{\hspace*{-\titleNumberInsetLength}\LatoRegular\fontsize{12pt}{14pt}\selectfont\hfill}}
+	{\llap{\hspace*{-\titleNumberInsetLength}\MyriadPro\fontsize{12pt}{14pt}\selectfont\hfill}}
 	{0.0em}
 	{}
 	[{\makebox[0mm][l]{}}]
 
-
-
-% \titleformat{\section}
-% 	{\Roboto\fontsize{25pt}{30pt}\selectfont}
-% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesection\hfill}}
-% 	{0.0em}
-% 	{}
-% 	[{\makebox[0mm][l]{}}]
-
-% \titleformat{\subsection}
-% 	{\Roboto\fontsize{21pt}{25pt}\selectfont}
-% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsection\hfill}}
-% 	{0.0em}
-% 	{}
-% 	[{\makebox[0mm][l]{}}]
-
-% \titleformat{\subsubsection}
-% 	{\Roboto\fontsize{18pt}{22pt}\selectfont}
-% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\thesubsubsection\hfill}}
-% 	{0.0em}
-% 	{}
-% 	[{\makebox[0mm][l]{}}]
-
-% \titleformat{\paragraph}
-% 	{\Roboto\fontsize{15pt}{18pt}\selectfont\bfseries}
-% 	{\llap{\hspace*{-\titleNumberInsetLength}\normalfont\fontsize{12pt}{14pt}\selectfont\hfill}}
-% 	{0.0em}
-% 	{}
-% 	[{\makebox[0mm][l]{}}]
 
 
 
@@ -323,15 +280,9 @@
 
 \renewcommand{\cftdot}{·}
 
-
 \cftpagenumbersoff{part}
-% \renewcommand*{\HyperDestNameFilter}[1]{\thepage-#1}
 
-% \renewcommand{\cftsecfont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
-% \renewcommand{\cftsecpagefont}{\HNLight\fontsize{18pt}{22pt}\selectfont\bfseries}
-
-
-\renewcommand{\printatom}[1]{\LatoRegular\normalfont\fontsize{12pt}{14pt}\selectfont{#1}\normalfont}%
+\renewcommand{\printatom}[1]{\normalfont\fontsize{12pt}{14pt}\selectfont\textsf{#1}\normalfont}%
 
 \sisetup{
 	detect-all = true
@@ -345,10 +296,6 @@
 
 
 % chemfig stuff
-\setdoublesep{1.25mm}		% spacing between lines in a double bond
-\setatomsep{12mm}			% fixed length of a bond
-\setbondoffset{1.0mm}		% margin
-\setbondstyle{line width=0.45mm}
 
 \tikzset{every picture/.style={line width=0.4mm}}
 
@@ -430,14 +377,13 @@
 
 % helper macros
 
-\newcommand	{\normtext}		{\LatoRegular\fontsize{11pt}{13pt}\selectfont}
+\newcommand	{\normtext}		{\MinionPro\fontsize{11pt}{13pt}\selectfont}
 
 \newcommand {\romannum}		[1]{{\Alexandria\selectfont{#1}\normtext}}
 
 \newcommand	{\hugetext}		[1]{{\RobotoThin\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}}
-\newcommand	{\subtext}		[1]{{\LatoRegular\fontsize{23pt}{28pt}\selectfont #1 \normtext\ignorespaces}}
-\newcommand	{\tinytext}		[1]{{\LatoRegular\fontsize{10pt}{12pt}\selectfont #1 \normtext\ignorespaces}}
-\newcommand	{\subsubtext}	[1]{{\LatoRegular\fontsize{14pt}{17pt}\selectfont\vspace{0.5em}\textbf{#1}\normtext\ignorespaces\vspace{-0.5em}}}
+\newcommand	{\subtext}		[1]{{\fontsize{23pt}{28pt}\selectfont \textsf{#1} \normtext\ignorespaces}}
+\newcommand	{\tinytext}		[1]{{\fontsize{10pt}{12pt}\selectfont \textsf{#1} \normtext\ignorespaces}}
 
 \newcommand {\sbs}			[1]{\textsubscript{#1}}
 \newcommand {\sps}			[1]{\textsuperscript{#1}}
@@ -472,7 +418,10 @@
 \newcommand {\vdashrule}	[1]{\raisebox{{#1 / 2}}{\rotatebox{270}{\hdashrule[0mm]{#1}{0.75mm}{2mm}}}}
 
 
-\newcommand	{\diagram}		[3][1.0]
+
+
+%? uses xparse.
+\NewDocumentCommand         {\diagram} { O{1.0} +m O{} }
 							{
 								%* note that for diagrams (which we usually use to draw chemical structures),
 								%* we set the font to a sans-serif.
@@ -484,9 +433,27 @@
 									\hbox{
 										\normtext
 										\vspace{5mm}
-										\hspace{-7.5mm}
 										{#2}
-										\hspace{-7.5mm}
+									}
+								}
+								\end{center}
+								\begin{center}
+
+								\normalfont\fontsize{10pt}{12pt}\selectfont{#3}
+								\normtext\end{center}\end{figure}
+								\vspace{-5mm}
+							}
+
+\NewDocumentCommand         {\graphdiagram} { O{1.0} +m O{} }
+							{
+								\begin{figure}[!ht]
+								\begin{center}
+								\bigskip
+								\fontsize{12pt}{14pt}\selectfont
+								\scalebox{#1}{
+									\hbox{
+										\vspace{5mm}
+										{#2}
 									}
 								}
 								\end{center}
@@ -498,34 +465,50 @@
 							}
 
 
-
-\newcommand	{\txtdiagram}	[3]
+\NewDocumentCommand         {\txtdiagram} { +m +m O{} }
 							{
 								\begin{figure}[!ht]
 								\begin{center}
-								\bigskip
-								% \hbox{
-									\vspace{2mm}
-									\hspace{-7.5mm}
+
+									\vspace{0.85em}
 									\fontsize{14pt}{17pt}\selectfont
 									{#1}
-									\hspace{-7.5mm}
 									\\
 									\vspace{2mm}
-									\hspace{-7.5mm}
 									{#2}
-									\hspace{-7.5mm}
-								% }
+
 								\end{center}
-								\begin{center}
-								\fontsize{10pt}{12pt}\selectfont{#3}
-								\normtext\end{center}\end{figure}
-								\vspace{-8mm}
+
+								%* if the caption is empty, we insert some negative vertical space.
+								\ifblank{#3}{\vspace{-1em}}{
+									\begin{center}
+									\fontsize{10pt}{12pt}\selectfont{#3}
+									\normtext
+									\end{center}
+								}
+								\end{figure}
 							}
 
+\NewDocumentCommand         {\eqndiagram} { +m O{} }
+							{
+								\begin{figure}[!ht]
+								\begin{center}
 
+									\vspace{0.85em}
+									\fontsize{14pt}{17pt}\selectfont
+									{#1}
 
+								\end{center}
 
+								%* if the caption is empty, we insert some negative vertical space.
+								\ifblank{#2}{\vspace{-1em}}{
+									\begin{center}
+									\fontsize{10pt}{12pt}\selectfont{#2}
+									\normtext
+									\end{center}
+								}
+								\end{figure}
+							}
 
 
 

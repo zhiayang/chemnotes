@@ -13,8 +13,12 @@ IF /I "%1"=="physical" (
 	SET name="PhysicalChem"
 )
 
-:again
+IF /I "%1"=="appendix" (
+	SET name="Appendix"
+)
 
+:again
+(call )
 cd %name%
 
 cls

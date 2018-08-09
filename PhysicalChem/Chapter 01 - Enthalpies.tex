@@ -8,55 +8,52 @@
 	\section{Enthalpy Change}
 
 		Enthalpy refers to the total energy content of a given substance. When reacting two or more compounds together, the bonds within
-		must first be broken, before new bonds are formed. This process involves the transfer of energy, which is measured as the
-		\itl{enthalpy change}.
-
-		Enthalpy change, or \enth{}, measures the difference in energy content between the reactants and the products of a reaction.
+		must first be broken, before new bonds are formed. Enthalpy change, or \enth{}, measures the difference in energy content between
+		the reactants and the products of a reaction.
 
 		For an exothermic reaction, the energy content of the products is less than that of the reactants. Since the most stable state
-		is that with the least amount of energy, exothermic reactions are said to be \itl{more energetically favoured} --- \enth{} < 0.
+		is that with the least amount of energy, exothermic reactions are said to be \itl{more energetically favoured} --- $\Delta H < 0$.
 		Heat is released into the surroundings, and generally, temperature increases.
 
-		\diagram[1.0]{
-			\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
-				\ENcurve[step=1.5]{2,4.5,0}
+		\graphdiagram[1.0]{
+			\begin{minipage}{0.46\textwidth}
+				\begin{endiagram}[scale=1.3,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+					\ENcurve[step=1.5]{2,4.5,0}
 
-				\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
-				\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
+					\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+					\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
 
-				\ShowEa[label,label-side=left,label-pos=0.2]
-				\ShowGain[label,offset=-40mm]
+					\ShowEa[label,label-side=left,label-pos=0.2]
+					\ShowGain[label,offset=-40mm]
 
-				\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
-				\draw[above] (N1-3) ++ (1,0) node {\small products};
+					\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-25mm}reactants};
+					\draw[above] (N1-3) ++ (1,0) node {\small products};
 
-			\end{endiagram}
+				\end{endiagram}
+			\end{minipage}
+
+			\begin{minipage}{0.46\textwidth}
+				\begin{endiagram}[scale=1.3,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+					\ENcurve[step=1.5]{0,4.5,2}
+
+					\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
+					\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
+
+					\ShowEa[label,label-side=left,label-pos=0.2]
+					\ShowGain[label,offset=0mm]
+
+					\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-25mm}reactants};
+					\draw[above] (N1-3) ++ (1,0) node {\small products};
+
+				\end{endiagram}
+			\end{minipage}
 		}
 
-		\pagebreak
 		Conversely, for an endothermic reaction, the reverse is true --- the energy content of the final products is greater than that
-		of the reactants. Thus, these reactions are somewhat \itl{less energetically favoured}, and less likely to happen.
-		\enth{} > 0, and heat is absorbed from the surroundings to feed the reaction.
+		of the reactants. Thus, these reactions are somewhat \itl{less energetically favoured}; $\Delta H > 0$, and heat is absorbed
+		from the surroundings to feed the reaction.
 
 
-		\diagram[1.0]{
-			\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
-				\ENcurve[step=1.5]{0,4.5,2}
-
-				\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
-				\ShowNiveaus[shift=1.0,length=2.0,niveau=N1-3]
-
-				\ShowEa[label,label-side=left,label-pos=0.2]
-				\ShowGain[label,offset=0mm]
-
-				\draw[above] (N1-1) ++ (1,0) node {\small \hspace{-40mm}reactants};
-				\draw[above] (N1-3) ++ (1,0) node {\small products};
-
-			\end{endiagram}
-		}
-
-
-		\pagebreak
 		\subsection{Activation Energy}
 
 			Regardless of the enthalpy change of the reaction, some energy must always be inputted, and thus the activation energy, \ea{}, is
@@ -95,7 +92,6 @@
 		% end subsection
 
 
-		\pagebreak
 		\subsection{Bond Dissociation Energy}
 
 			Bond dissociation energy is the energy required to break \itl{1 mole} worth of \itl{covalent bonds} between two atoms in the
@@ -111,6 +107,7 @@
 
 		% end subsection
 
+		\pagebreak
 		\subsection{Bond Energy}
 
 			Due to these problems, the \itl{bond energy} is more frequently used. It is simply the \itl{average} of the bond dissociation
@@ -138,7 +135,7 @@
 				\schemestart[0,1.0,thick]
 					\enth{r} = \chemSigma{} BE(broken) - \chemSigma{} BE(formed)
 				\schemestop
-			}{\vspace{-2em}}
+			}{}
 
 			Accounting for any required changes in state can be done by adding the enthalpy change of either fusion or vaporisation on either
 			side.
@@ -147,10 +144,6 @@
 
 
 
-
-
-
-		\pagebreak
 		\subsection{The Law of Hess}
 
 			Hess's Law of \itl{Constant Heat Summation} states that the enthalpy change of any given reaction is determined only by the
@@ -160,7 +153,7 @@
 			change will be the same. To make use of this, an energy cycle diagram is typically drawn, inserting whatever intermediate reaction
 			is required (with known enthalpies) to get to the final product.
 
-			\diagram[1.0]{
+			\graphdiagram[1.0]{
 				\schemestart[0,1.0,thick]
 					\ch{\fracHalf O2 \stG}\hspace{2mm} + \hspace{2mm}\ch{C \stS}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
 					\arrow(one--two){->[\enth{f} of \ch{CO}]}[0,2]
@@ -171,10 +164,7 @@
 					\arrow(@three.north east--@two.south west){->%
 						[][*{0.west}\parbox{26mm}{\begin{center}\enth{c} of \ch{CO}\\ \SI{-283}{\kilo\joule\per\mole}\end{center}}]}[,1.5]
 				\schemestop
-			}{Half a mole of \ch{O2} was added on both sides of the primary reaction to balance it.}
-
-			Note that the direction of the arrow can be manipulated \itl{at will}, simply by reversing the sign of the associated enthalpy
-			change. Indeed, extra reactants can be introduced too, as long as they are accounted for in all reactions.
+			}[Half a mole of \ch{O2} was added on both sides of the primary reaction to balance it.]
 
 		% end subsection
 
@@ -192,22 +182,17 @@
 
 		% end subsection
 
-		\pagebreak
 		\subsection{Determination of Enthalpy Change}
 
 			Since heat is released or absorbed when a reaction takes place, the enthalpy change, which is the change in energy of the compounds
 			involved, can be determined through the measurement of temperature. Using the formula to determine heat change, \itl{q}, enthalpy change
 			is then heat change per mole.
 
-			\diagram[2.0]{
+			\graphdiagram[1.75]{
 				\parbox{50mm}{
-					\begin{center}
-
-						\vspace{-5mm}
-						\[q = mc\Delta T\]
-						\[\Delta H = \pm\frac{q}{n}\]
-
-					\end{center}
+					\vspace{-1em}
+					\[q = mc\Delta T\]
+					\[\Delta H = \pm\frac{q}{n}\]
 				}
 			}
 
@@ -224,6 +209,7 @@
 
 		% end subsection
 
+		\pagebreak
 		\subsection{Types of Enthalpy Change}
 
 			\subsubsection{Enthalpy Change of Fusion and Vaporisation}
@@ -244,7 +230,6 @@
 
 			% end subsubsection
 
-			\pagebreak
 			\subsubsection{Enthalpy Change of Formation}
 
 				The standard enthalpy change of formation a compound is the heat evolved when \itl{1 mole} of it is formed from its constituent
@@ -346,7 +331,7 @@
 						\arrow
 						\ch{C \stG}\hspace{2mm} + \hspace{2mm}\ch{4 H \stG}
 					\schemestop
-				}{\vspace{-2em}}
+				}{}
 
 				Of course, for compounds not initially in the gaseous state, they must first be converted, and the appropriate enthalpy
 				change (of fusion or vaporisation) taken into account.
@@ -355,7 +340,6 @@
 			% end subsubsection
 
 
-			\pagebreak
 			\subsubsection{Enthalpy Change of Hydration}
 
 				The enthalpy change of hydration is the energy released when \itl{1 mole} of gaseous ions is dissolved in an
@@ -363,10 +347,8 @@
 				formation of ion-dipole interactions between the ions in question and the water molecules.
 
 				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\enth{hyd} $\propto \frac{q}{r}$
-					\schemestop
-				}{\vspace{-2em}}
+					\[\Delta H_{hyd} \propto \frac{q}{r}\]
+				}{}
 
 				The enthalpy change of hydration is proportional to the charge density of the ions; the higher the charge density,
 				the stronger the ion-dipole interactions and thus the larger the enthalpy change.
@@ -419,10 +401,8 @@
 			Ionic bond strength depends on two factors; the magnitude of the charge on both ions, and the ionic radius of the atoms.
 
 			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					$LE \propto \frac{q_{+}\times \hspace{2mm} q_{-}}{r_{+} + \hspace{2mm} r_{-}}$
-				\schemestop
-			}{\vspace{-2em}}
+				\[LE \propto \frac{q_{+}\times q_{-}}{r_{+} + r_{-}}\]
+			}{}
 
 			\itl{q\sbs{+}} and \itl{q\sbs{-}} represent the charge of the respective ion, and \itl{r\sbs{+}} and \itl{r\sbs{-}} represent
 			the ionic radius. Thus, the maximum lattice energy is achieved with the highest charge magnitude and the smallest ionic radius.
@@ -502,7 +482,7 @@
 						\arrow
 						\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}
 					\schemestop
-				}{\enth{} = $-LE$}
+				}{\enth{} $= -LE$}
 
 				Second, the gaseous are hydrated.
 
@@ -518,12 +498,10 @@
 				the lattice energy of the final ionic compound.
 
 				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\enth{sol} $= \sum{}$\enth{hyd}$ - LE$
-					\schemestop
-				}{\vspace{-2em}}
+					\[\Delta H_{sol} = \sum{}\Delta H_{hyd} - LE\]
+				}{}
 
-				Therefore, if the magnitude of the lattice energy is greater than the magnitude of the enthalpy changes of hydration, then the
+				Hence, if the magnitude of the lattice energy is greater than the magnitude of the enthalpy changes of hydration, then the
 				overall enthalpy change will be endothermic, and vice versa.
 
 				\imgdiagram{120mm}{../figures/physical/ch01/lattice_energy_relationship.png}{\vspace{-4em}}
@@ -534,6 +512,231 @@
 
 	% end section
 
+	\pagebreak
+	\section{Entropy and Spontaneity}
+
+		The Second Law of Thermodynamics states that for a process to be spontaneous, the total entropy of the system must increase. Entropy,
+		represented by \itl{S}, is a measure of the number of ways energy can be distributed in a given system. This is often manifested through
+		the motion of particles.
+
+		In a solid, movement is restricted and the kinetic energy of particles can only have so many permutations; entropy is thus minimised in the
+		solid state.
+
+		In a gas, movement is almost unrestricted, and the possible range of kinetic energies for particles within the system is huge. Thus,
+		entropy is the greatest; the difference in entropy between a gas and a liquid is much greater than that between a solid and a liquid.
+
+
+		\subsection{Change in Entropy (\texorpdfstring{$\Delta \mathrm{S}$)}{\Delta S}}
+
+			The entropy change of a given reaction or action is determined mainly by the effect on the number of ways to distribute energy in the
+			system. The ways in which entropy is changed include changing the \itl{temperature}, \itl{number of moles of gas}, or the
+			\itl{state} of one or more compounds present in the system.
+
+			Throughout this chapter, it is important to note that $S$ ≠ \entr{}. The units of \entr{} are typically \si{\joule\per\mole} (joules per mole).
+
+			\subsubsection{Change in Temperature}
+
+				Increasing the temperature of a system of molecules increases their average kinetic energy, and hence the range of possible
+				energies within the system.
+
+				As such, the number of ways to distribute energy in the system increases, resulting in greater entropy. (\entr{} > 0)
+
+
+				\graphdiagram[1.0]{
+					\begin{tikzpicture}
+
+						\def\kB{1.3806488e-23}			% boltzmann constant
+						\def\tmpone{300}				% room temperature
+						\def\tmptwo{600}
+						\def\tmpthr{1000}
+						\def\Betaone{1/(\kB*\tmpone)}
+						\def\Betatwo{1/(\kB*\tmptwo)}
+						\def\Betathr{1/(\kB*\tmpthr)}
+						\def\amu{1.660538921e-27}		% atomic mass unit in kg
+						\def\mass{0.9*\amu}
+
+						\begin{axis}[
+							axis lines		= left,
+							domain			= 0:12000,
+							xlabel			= $E_{k}(x)$,
+							ylabel			= $N(x)$,
+							xtick			= \empty,
+							ytick			= \empty,
+							axis line style	= very thick,
+							ymin			= 0,
+							ymax			= 0.0004
+						]
+
+							\addplot[color = black, name path = fn, very thick]{
+								sqrt(2/pi)*(\mass*\Betaone)^(3/2)*x^2*exp(-.5*\mass*\Betaone*x^2)
+							};
+
+							\addplot[color = black, name path = fn, very thick]{
+								sqrt(2/pi)*(\mass*\Betatwo)^(3/2)*x^2*exp(-.5*\mass*\Betatwo*x^2)
+							};
+
+							\addplot[color = black, name path = fn, very thick]{
+								sqrt(2/pi)*(\mass*\Betathr)^(3/2)*x^2*exp(-.5*\mass*\Betathr*x^2)
+							};
+
+							\node at (axis cs: 4000,0.00032) {\SI{300}{\kelvin}};
+							\node at (axis cs: 5250,0.00023) {\SI{600}{\kelvin}};
+							\node at (axis cs: 8500,0.00012) {\SI{1000}{\kelvin}};
+
+						\end{axis}
+
+					\end{tikzpicture}
+				}[The Maxwell-Boltzmann curve illustrates the distribution of kinetic energies as across different temperatures.]
+
+			% end subsubsection
+
+			\subsubsection{Change in Number of Gas Particles}
+
+				From the diagram above, it should be obvious that since gaseous molecules have a much greater entropy, an increase in the number
+				of gas particles will also result in an increase in the entropy of the system (\entr{} > 0).
+
+				Simply put, if the reaction results in a greater number of gaseous products than reactants, then there will be a net
+				increase in entropy. For example:
+
+				\txtdiagram{
+					\schemestart[0,1.0,thick]
+						\ch{2 NaN3 \stS}
+						\arrow
+						\ch{2 Na \stS}\hspace{2mm} + \hspace{2mm}\ch{3 N2 \stG}
+					\schemestop
+				}{}
+
+				Here, the number of moles of gas \itl{increased} from 0 to 3, hence \entr{} > 0. The reverse is also true, naturally --- if the
+				number of moles of gas decreases, then the entropy change will be negative.
+
+			% end subsubsection
+
+			\subsubsection{Change in Phase}
+
+				When a particular substance melts, boils, condenses, or freezes, the entropy of the system will change accordingly.
+
+				% \imgdiagram{100mm}{../figures/physical/ch02/entropy_phase_change.png}{\vspace{-2em}}
+
+
+				\graphdiagram[1.0]{
+					\begin{tikzpicture}
+
+						\begin{axis}[
+							axis lines      = left,
+							domain          = 0:100,
+							xlabel          = temperature,
+							ylabel          = entropy,
+							xtick           = \empty,
+							ytick           = \empty,
+							axis line style = very thick,
+							ymin            = 0,
+							ymax            = 100,
+							height          = 65mm
+						]
+
+							\addplot[color = black, name path = fn, very thick, domain={0:30}]{
+								0.4*x
+							};
+
+							\addplot[color = black, name path = fn, very thick, domain={30:60}]{
+								0.4*x + 12
+							};
+
+							\addplot[color = black, name path = fn, very thick, domain={60:90}]{
+								0.4*x + 55
+							};
+
+							% draw the connecting vertical lines
+							\draw[very thick] (axis cs: 30,12) -- (axis cs: 30,24);
+							\draw[very thick] (axis cs: 60,36) -- (axis cs: 60,79);
+
+							% label the things
+							\node[rotate=12] at (axis cs: 15,13) {solid};
+							\node[rotate=12] at (axis cs: 45,37) {liquid};
+							\node[rotate=12] at (axis cs: 75,91) {gas};
+
+						\end{axis}
+
+					\end{tikzpicture}
+				}[The entropy of a system increases as it transitions to less constrained states of matter.]
+
+				As a substance melts, its molecules are no longer constrained by the structure of the solid state; average kinetic energy increases,
+				and \entr{} > 0. As the substance boils, the molecules are completely free to move; naturally, the change in entropy is much greater
+				than for melting.
+
+			% end subsubsection
+
+			\subsubsection{Change in Volume}
+
+				If the available volume of a gas increases (at a constant temperature, which implies a decrease in pressure), then the entropy
+				of the system will also increase. The possible distributions of each molecule of gas increases, and hence entropy increases
+				(\entr{} > 0). Naturally, the opposite is also true; if the pressure of a system increases at a constant temperature, then the entropy
+				will decrease (\entr{} < 0).
+
+				Note that when two containers containing two different gases are mixed, the entropy of the system also increases --- the total
+				volume that each gas occupies is increased as well.
+
+			% end subsubsection
+
+
+			\subsubsection{Dissolution of Ionic Solids}
+
+				When solid ionic compounds are dissolved in water (or another polar solvent), the total entropy of the system will also change.
+				However, it depends on the interposition of two separate factors; when the ionic compound is dissolved, the constituent ions are
+				able to move around, thus increasing the entropy.
+
+				However, the water molecules that are interacting with the dissolved ions are now restricted in movement, and hence entropy decreases
+				as well. Thus, the net change in entropy of the system depends on which of the above factors is more significant. For singly-charged
+				ions, the net change in entropy is usually an increase (\entr{} > 0).
+
+			% end subsubsection
+		% end subsection
+	% end section
+
+	\pagebreak
+	\section{Gibbs Free Energy}
+
+		Since the enthalpy change (\enth{}) and the change in entropy (\entr{}) are both crucial in determining whether a given reaction will
+		be spontaneous (occurring without external energy input), they are used together to calculate the change in Gibbs free energy, \gibb{}.
+		If you paid attention to the cover page, then this equation should be familiar to you:
+
+		\txtdiagram{
+			\[\Delta G = \Delta H - T\times \Delta S\]
+		}{}
+
+		In short, the change in Gibbs energy of a given reaction is determined by the temperature, the enthalpy change, and the entropy change.
+		The units of ∆G are typically \si{\kilo\joule\per\mole}, and that for temperature is \si{\kelvin}.
+
+		Exergonic reactions, where ∆G < 0, are said to be energetically feasible, and take place spontaneously. Conversely, endergonic
+		reactions where \gibb{} > 0 are energetically infeasible, and do not take place spontaneously. \gibb{} can be 0, for example during
+		melting or boiling.
+
+		If ∆G is 0, then the system is \itl{at equilibrium}, ie. $\Delta H = T\times \Delta S$
+
+		\subsection{Effect of Gibbs Free Energy}
+
+			Given the sign (and relative magnitude) of both \enth{} and \entr{}, it is possible to determine if \gibb{} will increase or
+			decrease with temperature. Thus, it is possible to predict if the reaction will be more or less spontaneous (and thus
+			energetically feasible) with a change in temperature.
+
+			A table below summarises the four possible scenarios:
+
+			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
+			\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] | X[c,m] |}
+
+				\hline		\enth{}		&	\entr{}		&	\gibb{}		&		Feasibility			\\
+
+				\hline		< 0			&	< 0			&	always < 0	&		all temperatures	\\
+				\hline		< 0			&	> 0			&	always > 0	&				never		\\
+				\hline		> 0			&	< 0			&	depends		&		low temperatures	\\
+				\hline		> 0			&	> 0			&	depends		&		high temperatures	\\
+				\hline
+
+			\end{tabu}
+			\end{table}\end{center}\vspace{-10mm}
+
+		% end subsection
+	% end section
 % end part
 
 

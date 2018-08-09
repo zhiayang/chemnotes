@@ -6,22 +6,26 @@
 \pagebreak
 \part{Reaction Mechanisms}
 
-	The reaction mechanism of any given reaction allows one to glean more information than usually possible from just the chemical equation.
-	The chemical equation simply represents the overall reactants and products of the reaction; the reaction mechanism on the other hand
-	represents the individual steps of the reaction, including which molecules collide with with other molecules, and the intermediate
-	compounds that are formed.
+	\section{Introduction}
 
-	The mechanism of any given reaction cannot be directly determined; they must first be hypothesised, and then confirmed with data from
-	experiments.
+		The reaction mechanism of any given reaction allows one to glean more information than usually possible from just the chemical equation.
+		The chemical equation simply represents the overall reactants and products of the reaction; the reaction mechanism on the other hand
+		represents the individual steps of the reaction, including which molecules collide with which other molecules, and the intermediate
+		compounds that are formed.
+
+		The mechanism of any given reaction cannot be directly determined; they must first be hypothesised then confirmed with data from
+		experiments.
+
+	% end section
 
 
 	\section{Single-step Reactions}
 
-		For single-step reactions, there is only one step, so naturally it has to be the \itl{rate-determining}, or \itl{slow}, step.
-		There are no intermediates either.
+		For single-step reactions, there is only one step, so naturally it has to be the \itl{rate-determining}, or \itl{slow}, step;
+		there are no intermediates either.
 
-		Since the one equation represents the entire reaction, then the stoichiometric coefficients of each reactant \itl{are} their
-		orders. For example,
+		Since this equation represents the entire reaction, then the stoichiometric coefficients of each reactant \itl{will be} their
+		respective orders of reaction. For example,
 
 		\txtdiagram{
 			\schemestart[0, 1.0, thick]
@@ -41,7 +45,7 @@
 	\pagebreak
 	\section{Multi-step Reactions}
 
-		Even though most reactions appear to be single-step, they often consist of multiple steps in reality. The rate of reaction of the entire
+		Even though most reactions appear to be single-step, in reality they often consist of multiple steps. The rate of reaction of the entire
 		system is governed, naturally, by the \itl{rate-determining step}; this step is often slow because of a high activation energy.
 
 		For multi-step reactions, the order of reaction of each reactant is determined by their stoichiometric ratio in the
@@ -58,8 +62,8 @@
 				& Termolecular steps involve the collision of three molecules, simultaneously.
 			\end{bulletlist}
 
-			Given that termolecular reactions are already quite rare, there are no known elementary steps involving the collision of four or
-			more molecules, simultaneously.
+			Given that termolecular reactions are already quite rare, there are no known elementary steps involving the simultaneous
+			collision of four or more molecules.
 
 		% end subsection
 
@@ -74,15 +78,15 @@
 		% end subsection
 
 
-		\pagebreak
 		\subsection{Mechanisms}
 
 			For multi-step reactions, it is important to note that reactants in the elementary (fast) steps \itl{before} the
 			rate-determining step are included in the rate equation, and reactants appearing in the fast steps \itl{after} the
 			rate-determining step are \itl{not} included.
 
-			Thus, there are two main cases --- the rate-determining step is the first step, and when it is not.
+			Thus, there are two main cases --- when the rate-determining step is the first step, and when it is not.
 
+			\pagebreak
 			\subsubsection{Rate-Determining Step is First}
 
 				For example, take the reaction between nitrogen dioxide (\ch{NO2}) and fluorine gas (\ch{F2}):
@@ -118,54 +122,50 @@
 						\arrow(@c3.south east--.north east){0}[-90,.35]
 						\ch{2 NO} + \ch{O2}\arrow{->[\tinytext{Overall}]}\ch{2 NO2}
 					\schemestop
-				}{\vspace{-1em}}
+				}{}
 
-				\pagebreak
 				In this situation, the intermediate species \ch{NO3} is formed in the first fast step, but is reacted away in the second,
 				slow step. To begin with, a preliminary rate equation comprising the reactants in the slow step can be formed:
 
 				\txtdiagram{
-					Rate = k\sbs{1}[\ch{NO3}][\ch{NO}]
-				}{\vspace{-2em}}
+					Rate $=$ k\sbs{1}[\ch{NO3}][\ch{NO}]
+				}{}
 
 				The concentration of NO3 must be substituted for the concentrations of the reactants that it was created from, in this case
 				\ch{NO} and \ch{O2}. Since the first step is an equilibrium reaction, the equilibrium constant \Kc can be used to calculate
 				[\ch{NO3}] in terms of [\ch{NO2}] and [\ch{O2}].
 
-				\diagram[1.5]{
-					$K_{c} = \frac{[NO_{3}]}{[NO][O_{2}]}$
-				}
+				\txtdiagram{
+					\[K_{c} = \frac{[\mathrm{NO}_{3}]}{[\mathrm{NO}][\mathrm{O}_{2}]}\]
+				}{}
 
-				Moving things around, we get this:
+				\pagebreak
+				Moving things around, the following is conceived:
 
-				\diagram[1.5]{
-					$[NO_{3}] = K_{c}[NO][O_{2}]$
-				}
+				\txtdiagram{
+					\[[\mathrm{NO}_{3}] = K_{c}[\mathrm{NO}][\mathrm{O}_{2}]\]
+				}{}
 
 				Thus, substituting this into the original, partial rate equation and refactoring $k = k_{1} \times K_{c}$:
 
-				\diagram[1.5]{
-					\schemestart[0, 1.5, thick]
-						$Rate$ \arrow{0}[,.05] $= k_{1}K_{c}[NO][O_{2}][NO]$
-						\arrow(@c1.south east--.north east){0}[-90,.2]
-						\arrow{0}[,.05] $= k[NO]^{2}[O_{2}]$
-					\schemestop
-				}
+				\txtdiagram{
+					\[\mathrm{Rate} = k_{1}K_{c}[\mathrm{NO}][\mathrm{O}_{2}][\mathrm{NO}] = k[NO]^{2}[O_{2}]\]
+				}{}
+
 
 				By looking at the reaction, it might be tempting to come to the conclusion that, because \SI{1}{\mole} of \ch{NO3} is formed by
-				\SI{1}{\mole} of \ch{NO} and \ch{O2}, it is possible to simply substitute $[NO_{3}] = [NO][O_{2}]$ directly. This is, however,
-				incorrect.
+				\SI{1}{\mole} of \ch{NO} and \ch{O2}, it is possible to simply substitute $[\mathrm{NO}_{3}] = [\mathrm{NO}][\mathrm{O}_{2}]$ directly.
+				This is, however, incorrect.
 
 				Don't do it.
 
 			% end subsubsection
 
 
-			\pagebreak
 			\subsubsection{Reaction Pathway Diagram}
 
-				\diagram[1.0]{
-					\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+				\graphdiagram[1.0]{
+					\begin{endiagram}[scale=1.5,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
 						\ENcurve[step=1.5]{2, 4.5, 3, 5.5, 0}
 
 						\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
@@ -199,7 +199,7 @@
 	\section{Catalysis of Reactions}
 
 		As explained previously, catalysts provide an alternative reaction pathway for the reaction, typically with a lower activation energy.
-		There are two mechanisms of action for catalysis: homogeneous catalysts and heterogeneous catalysts.
+		There are two mechanisms of action for catalysis: homogeneous and heterogeneous.
 
 		The mechanism of action of the catalyst is determined by the phase it is in. Note that \itl{phase} and \itl{state} are
 		different concepts. While each state represents a phase, an oil phase and an aqueous phase are different phases, but the same state.
@@ -213,8 +213,8 @@
 			Homogeneous catalysts exist in the same phase as the reactants of the reaction. They are uniformly mixed in the reaction mixture,
 			and they often form intermediates together with the reactants, before they are regenerated in the last step of the reaction.
 
-			\diagram[1.0]{
-				\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+			\graphdiagram[1.0]{
+				\begin{endiagram}[scale=1.5,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
 					\ENcurve[step=4]{2, 5.0, 0}
 					\ENcurve[tikz={red}]{2, 4.0[1], 2.5, 3[-1], 0}
 
@@ -240,6 +240,7 @@
 			chemical equation.
 
 
+			\pagebreak
 			\subsubsection{Catalysis of \texorpdfstring{\ch{I-}}{I⁻} + \texorpdfstring{\ch{S2O8^2-}}{S₂O₈²⁻} reaction with \texorpdfstring{\ch{Fe^2+}}{Fe²⁺}}
 
 				\ch{Fe^2+} acts as a catalyst in the reaction of iodide ions (\ch{I-}) with peroxodisulphate ions (\ch{S2O8^2-}), via homogeneous
@@ -258,7 +259,7 @@
 						\arrow(@c3.south east--.north east){0}[-90,.35]
 						\ch{S2O8^2-} + \ch{2 I-}\arrow{->[\tinytext{Overall}]}\ch{I2} + \ch{2 SO4^2-}
 					\schemestop
-				}{\vspace{-1em}}
+				}{}
 
 				In the first step, \ch{Fe^2+} is oxidised by \ch{S2O8^2-} to form \ch{Fe^3+}. In the second step, this \ch{Fe^3+} is reduced
 				again by \ch{I-} back to \ch{Fe^2+}, regenerating the catalyst. Since this involves the reaction of oppositely charged ions,
@@ -317,11 +318,11 @@
 
 				\paragraph{Adsorption}
 
-				First, the ethene molecule and the \ch{H2} molecule diffuse towards and are adsorbed onto the surface of the catalyst.
+				First, the ethene molecule and the \ch{H2} molecule diffuse toward, and are adsorbed onto, the surface of the catalyst.
 				Note that adsorb ≠ absorb --- adsorption is the \itl{adhesion of atoms, ions, or molecules from a gas, liquid, or dissolved
 				solid to a surface}, while absorption implies the molecule \itl{entering the substance}.
 
-				Adsorption occurs at the \itl{active sites} of the catalyst through relatively weak attractive forces, which brings
+				Adsorption occurs at the \itl{active sites} of the catalyst through relatively weak attractive forces, which bring
 				the reactant molecules \itl{closer together}. Thus, the concentrations of the reactants at the surface of the catalyst
 				are higher, resulting in a \itl{greater frequency of collision}.
 
@@ -347,9 +348,9 @@
 
 				If all the active sites are \itl{saturated}, increasing the concentration of the reactants will not increase the rate of
 				the reaction, as new reactants are not being catalysed. In this case, the only solution is to increase the number of active
-				sites, usually by adding more catalyst.
+				sites, usually by adding more of the catalyst.
 
-				Conversely, if the concentration of \itl{reactants} is low, (ie. the catalyst is not saturated), then adding more catalyst
+				Conversely, if the concentration of \itl{reactants} is low, (ie. the catalyst is not saturated), then adding more of the catalyst
 				will not significantly increase the rate of reaction.
 
 			% end subsubsection
@@ -361,44 +362,40 @@
 			Autocatalysis occurs when the product of a reaction is the catalyst for the reaction. Thus, the rate of reaction is affected
 			by the progress of the reaction. Typically, autocatalysts are homogeneous in nature, since they directly react with the reactants.
 
-			\begin{center}
-			\begin{tikzpicture}
+			\graphdiagram[1.0]{
+				\begin{tikzpicture}
+					\begin{axis}[
+						axis lines		= left,
+						domain			= 0:2.5
+						,
+						xlabel			= time/min,
+						ylabel			= reactant conc.,
+						axis line style	= very thick,
+						height			= 80mm,
+						ymax			= 1.1
+						% enlarge y limits = 0.15
+					]
 
-				\begin{axis}[
-					axis lines		= left,
-					domain			= 0:2.5
-					,
-					xlabel			= \textbf{$time/min$},
-					ylabel			= \textbf{$reactant$ $conc.$},
-					axis line style	= very thick,
-					height			= 80mm,
-					ymax			= 1.1
-					% enlarge y limits = 0.15
-				]
+						\addplot[color = black, very thick]{
+							1 - (1 / (1 + e^(-(4*x - 4))))
+						};
 
-					\addplot[color = black, very thick]{
-						1 - (1 / (1 + e^(-(4*x - 4))))
-					};
+						\node[align=left] (Sone) at (axis cs:1.5,1){Reaction proceeds slowly,\\as [catalyst] is low};
+						\node[align=left] (Stwo) at (axis cs:2.0,0.6){Reaction speeds up,\\as [catalyst] is increases};
+						\node[align=left] (Sthree) at (axis cs:2.5,0.2){Reaction slows down,\\as [reactant] decreases};
 
-					\node[align=left] (Sone) at (axis cs:1.5,1){Reaction proceeds slowly,\\as [catalyst] is low};
-					\node[align=left] (Stwo) at (axis cs:2.0,0.6){Reaction speeds up,\\as [catalyst] is increases};
-					\node[align=left] (Sthree) at (axis cs:2.5,0.2){Reaction slows down,\\as [reactant] decreases};
-
-					\node (Done) at (axis cs:0.5,0.9){};
-					\node (Dtwo) at (axis cs:1,0.5){};
-					\node (Dthree) at (axis cs:1.75,0.05){};
-
-
-					\draw[->, red](Sone) -- (Done);
-					\draw[->, red](Stwo) -- (Dtwo);
-					\draw[->, red](Sthree) -- (Dthree);
+						\node (Done) at (axis cs:0.5,0.9){};
+						\node (Dtwo) at (axis cs:1,0.5){};
+						\node (Dthree) at (axis cs:1.75,0.05){};
 
 
+						\draw[->, red](Sone) -- (Done);
+						\draw[->, red](Stwo) -- (Dtwo);
+						\draw[->, red](Sthree) -- (Dthree);
 
-				\end{axis}
-
-			\end{tikzpicture}
-			\end{center}
+					\end{axis}
+				\end{tikzpicture}
+			}
 
 			Initially, the rate of reaction is limited by the concentration of the catalyst. As the reaction progresses, more catalyst
 			is produced, increasing the rate. Finally, when the reactants are mostly consumed, they become the limiting reactant, and the
@@ -410,7 +407,7 @@
 		\pagebreak
 		\subsection{Biological Catalysis}
 			Enzymes are biological catalysts that play an important role in the perpetuation of life. Given that the temperature of the
-			reaction system is usually at or near room temperature (~\SI{35}{\celsius} for humans), and that the concentration of reactants
+			reaction system is usually at or near room temperature (around \SI{35}{\celsius} for humans), and that the concentration of reactants
 			is usually very low, efficient catalysts are required for reactions to take place at any appreciable rate.
 
 			There are a multitude of different enzymes that perform a very specific job, because the shape of the enzyme is perfectly suited
@@ -429,7 +426,7 @@
 
 			\subsubsection{Limitations of Enzymes}
 
-				Due to their highly specific and biological nature, enzymes are only efficient at a certain \pH and temperature. In fact,
+				Due to their highly specific and biological nature, enzymes are only efficient at a certain \pH{} and temperature. In fact,
 				going into the extremes of these ranges will irreversibly destroy the enzyme, in a process known as denaturation.
 
 				Furthermore, enzymes, and in fact any heterogeneous catalyst, are prone to poisons --- molecules that are preferentially
@@ -437,10 +434,7 @@
 				significantly if used in high concentrations, or destroy the catalyst all together.
 
 			% end subsubsection
-
 		% end subsection
-
-
 	% end section
 % end part
 
