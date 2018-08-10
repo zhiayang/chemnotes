@@ -81,23 +81,19 @@
 		% end subsection
 
 
-		\subsection{Solubility Product, \texorpdfstring{\MKsp{}}{Ksp}}
+		\subsection{Solubility Product, \texorpdfstring{\Ksp{}}{Ksp}}
 
 			The \Ksp{} of a sparingly soluble salt is the molar concentrations of the constituent ions in a saturated solution raised to their stoichiometric coefficients, at a fixed temperature.
 
 			The solubility product of an ionic equilibrium is derived from the equilibrium constant, \Kc{}. Hence, like \Kc{}, the value of the solubility product for any salt is only valid at a certain temperature. For a given equilibrium of solution:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{Mg(OH)2 \stS}
-					\arrow{<=>}
-					\ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
-				\schemestop
-			}{}
+			\txtreactioneqn{
+				\ch{Mg(OH)2 \stS} \arrow{<=>} \ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
+			}
 
 			The equilibrium constant is this:
 
-			\eqndiagram{
+			\mathdiagram{
 				\[K_{c} = \frac{[\ch{Mg+}][\ch{OH-}]^{2}}{[\ch{Mg(OH)2}]} \hspace{15mm} K_{sp} = [\ch{Mg+}][\ch{OH-}]^{2}\]
 			}
 
@@ -131,13 +127,9 @@
 			One of the main factors affecting the solubility of an ionic salt is the position of equilibrium of the solution system. For a
 			given equilibrium, for example that of \ch{Mg(OH)2}:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{Mg(OH)2 \stS}
-					\arrow{<=>}
-					\ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
-				\schemestop
-			}{}
+			\txtreactioneqn{
+				\ch{Mg(OH)2 \stS} \arrow{<=>} \ch{Mg^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
+			}
 
 			The position of equilibrium depends solely on the concentrations of the ions, since adding or removing solids will not change its
 			position. Any action that modifies the concentration of either ion will result in a shift in equilibrium, and hence an increase or
@@ -162,13 +154,11 @@
 				This is also just a special case of changing the position of equilibrium by changing concentrations.
 				For example, given the following systems of \ch{\Al(OH)3} and \ch{[\Al(OH)4]-}:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{\Al(OH)3 \stS}\arrow{<=>}\ch{\Al^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{3 OH- \stAq}
-						\arrow(@c1.south east--.north east){0}[-90,.20]
-						\ch{\Al^3+ \stAq} + \ch{4 OH- \stAq}\arrow{<=>}\ch{[\Al(OH)4]- \stAq}
-					\schemestop
-				}{}
+				\txtreactioneqn{
+					\ch{\Al(OH)3 \stS}\arrow{<=>}\ch{\Al^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{3 OH- \stAq}
+					\arrow(@c1.south east--.north east){0}[-90,.20]
+					\ch{\Al^3+ \stAq} + \ch{4 OH- \stAq}\arrow{<=>}\ch{[\Al(OH)4]- \stAq}
+				}
 
 				If \ch{OH-} ions are introduced to an aqueous solution of \ch{\Al^3+} ions, then the precipitate of \ch{\Al(OH)3} will form since
 				the ionic product is greater than the solubility product.

@@ -17,7 +17,7 @@
 
 		\graphdiagram[1.0]{
 			\begin{minipage}{0.46\textwidth}
-				\begin{endiagram}[scale=1.3,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+				\begin{endiagram}[scale=1.3,offset=1.5,x-label-text=reaction coordinate,y-label-text=energy]
 					\ENcurve[step=1.5]{2,4.5,0}
 
 					\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
@@ -33,7 +33,7 @@
 			\end{minipage}
 
 			\begin{minipage}{0.46\textwidth}
-				\begin{endiagram}[scale=1.3,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+				\begin{endiagram}[scale=1.3,offset=1.5,x-label-text=reaction coordinate,y-label-text=energy]
 					\ENcurve[step=1.5]{0,4.5,2}
 
 					\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
@@ -69,23 +69,19 @@
 			A thermochemical equation is simply a normal, balanced chemical equation that has an enthalpy change of reaction associated with
 			it. State symbols must also be included, since a change in state necessitates a change in the enthalpy of the substance.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 NaOH \stAq}
-					\arrow
-					\ch{Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
-				\schemestop
+			\txtreactioneqntwo{
+				\ch{H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 NaOH \stAq}
+				\arrow
+				\ch{Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
 			}{\enth{} = \SI{-114.2}{\kilo\joule\per\mole}}
 
 			Note that the enthalpy change is per mole \itl{of reaction}, not per mole of any one substance. Thus, if the above reaction
 			were to be rewritten using 1 mole of NaOH instead:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{\fracHalf H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
-					\arrow
-					\ch{\fracHalf Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
-				\schemestop
+			\txtreactioneqntwo{
+				\ch{\fracHalf H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
+				\arrow
+				\ch{\fracHalf Na2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
 			}{\enth{} = \SI{-57.1}{\kilo\joule\per\mole}}
 
 			The enthalpy change of the reaction is now half the previous value.
@@ -119,23 +115,17 @@
 			Furthermore, if the bond in question is between two atoms in a diatomic molecule in the gaseous state, then the bond energy and
 			the enthalpy change of atomisation (\enth{atom}, below) are related: The bond energy is twice the enthalpy change of atomisation.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{\fracHalf H-H \stG}
-					\arrow
-					\ch{H \stG}
-				\schemestop
+			\txtreactioneqntwo{
+				\ch{\fracHalf H-H \stG} \arrow \ch{H \stG}
 			}{\enth{atom} = \fracHalf BE(\ch{H-H})}
 
 			Indeed, since reactions at a fundamental level simply involve breaking and forming bonds, the enthalpy change of a given reaction
 			can be calculated (somewhat inaccurately, due to bond energy being an average) by taking the difference between the energies of the
 			formed bonds and the broken bonds.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\enth{r} = \chemSigma{} BE(broken) - \chemSigma{} BE(formed)
-				\schemestop
-			}{}
+			\txtreactioneqn{
+				\enth{r} = \chemSigma{} BE(broken) - \chemSigma{} BE(formed)
+			}
 
 			Accounting for any required changes in state can be done by adding the enthalpy change of either fusion or vaporisation on either
 			side.
@@ -188,20 +178,20 @@
 			involved, can be determined through the measurement of temperature. Using the formula to determine heat change, \itl{q}, enthalpy change
 			is then heat change per mole.
 
-			\graphdiagram[1.75]{
-				\parbox{50mm}{
-					\vspace{-1em}
-					\[q = mc\Delta T\]
-					\[\Delta H = \pm\frac{q}{n}\]
-				}
+			\mathdiagram{
+				\huge
+				\begin{alignat*}{1}
+					q           & = mc\Delta T      \\[0.6em]
+					\Delta H    & = \pm\frac{q}{n}
+				\end{alignat*}
 			}
 
-			\vbox{
-				\tabto{0mm}\boit{q}\tabto{15mm}	Heat change of the reaction.
-				\tabto{0mm}\boit{m}\tabto{15mm}	Mass of the solution — in a polystyrene cup experiment, this excludes solids.
-				\tabto{0mm}\boit{c}\tabto{15mm}	Specific heat capacity of the solution (usually assumed to be \SI{4.18}{\joule\per\gram\per\kelvin})
-				\tabto{0mm}\boit{∆T}\tabto{15mm}Change in temperature of the solution (before and after reaction)
-				\tabto{0mm}\boit{∆H}\tabto{15mm}Enthalpy change of reaction.
+			\parbox{\textwidth}{
+				\tabto{0mm}\boit{q}\tabto{15mm}     Heat change of the reaction.
+				\tabto{0mm}\boit{m}\tabto{15mm}     Mass of the solution — in a polystyrene cup experiment, this excludes solids.
+				\tabto{0mm}\boit{c}\tabto{15mm}     Specific heat capacity of the solution (usually assumed to be \SI{4.18}{\joule\per\gram\per\kelvin})
+				\tabto{0mm}\boit{∆T}\tabto{15mm}    Change in temperature of the solution (before and after reaction)
+				\tabto{0mm}\boit{∆H}\tabto{15mm}    Enthalpy change of reaction.
 			}
 
 			While heat change is a scalar value and is always positive, enthalpy change has a sign, which is decided by whether the reaction is
@@ -236,12 +226,10 @@
 				elements, all in their standard states, under standard conditions. This disregards the actual method of forming the compound, and
 				instead only accounts for simply mashing elements together. For example:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 C \stS}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stAq}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
-						\arrow
-						\ch{C2H5OH \stL}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{2 C \stS}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stAq}\hspace{2mm} + \hspace{2mm}\ch{\fracHalf O2 \stG}
+					\arrow
+					\ch{C2H5OH \stL}
 				}{\enth{} = \SI{-298}{\kilo\joule\per\mole}}
 
 				If the enthalpy change of formation of a substance, \enth{f} is > 0, then the compound is less stable than its constituent elements,
@@ -254,12 +242,10 @@
 				The enthalpy change of combustion of a compound is the heat evolved when \itl{1 mole} of it is completely burned in excess
 				oxygen, under standard conditions. This enthalpy change is always negative --- heat is always released when things are combusted.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{CH4 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 O2 \stG}
-						\arrow
-						\ch{CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{CH4 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 O2 \stG}
+					\arrow
+					\ch{CO2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
 				}{\enth{c} = \SI{-866}{\kilo\joule\per\mole}}
 
 			% end subsubsection
@@ -269,22 +255,18 @@
 				The enthalpy change of neutralisation is the heat evolved when \itl{1 mole} of \ch{H2O} is formed when an acid and a base are
 				reacted. Normally, it is the reaction between \ch{H+} ions and \ch{OH-} ions in aqueous solution.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{OH- \stAq}
-						\arrow
-						\ch{H2O \stL}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{OH- \stAq}
+					\arrow
+					\ch{H2O \stL}
 				}{\enth{neut} = \SI{-57.1}{\kilo\joule\per\mole}}
 
 				This reaction between \ch{H+} ions and \ch{OH-} ions underlies the majority of reactions between acids and bases.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{H\Cl \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
-						\arrow
-						\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{Na\Cl \stAq}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{H\Cl \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
+					\arrow
+					\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{Na\Cl \stAq}
 				}{\enth{neut} = \SI{-57.1}{\kilo\joule\per\mole}}
 
 				In general, the enthalpy change of neutralisation of all strong acid-base reactions will be the same,
@@ -293,12 +275,10 @@
 				of neutralisation of weak acids and bases.
 
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{CH3CO2H \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
-						\arrow
-						\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{CH3CO2Na \stAq}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{CH3CO2H \stAq}\hspace{2mm} + \hspace{2mm}\ch{NaOH \stAq}
+					\arrow
+					\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{CH3CO2Na \stAq}
 				}{\enth{neut} = \SI{-55.9}{\kilo\joule\per\mole}}
 
 
@@ -309,12 +289,8 @@
 				The enthalpy change of atomisation of an element is the energy required to create \itl{1 mole} of gaseous atoms from the
 				element in the standard state.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{\fracHalf \Cl2 \stG}
-						\arrow
-						\ch{\Cl \stG}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{\fracHalf \Cl2 \stG} \arrow \ch{\Cl \stG}
 				}{\enth{atom} = \SI{+122}{\kilo\joule\per\mole}}
 
 				For elements that are already gaseous at their standard state, such as \ch{F2 \stG}, the enthalpy change of atomisation would
@@ -325,13 +301,9 @@
 				The enthalpy change of atomisation of a non-elemental compound, on the other hand, is the energy required to create gaseous
 				atoms of its constituent elements, from the compound in its standard state. For example:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{CH4 \stG}
-						\arrow
-						\ch{C \stG}\hspace{2mm} + \hspace{2mm}\ch{4 H \stG}
-					\schemestop
-				}{}
+				\txtreactioneqn{
+					\ch{CH4 \stG} \arrow \ch{C \stG}\hspace{2mm} + \hspace{2mm}\ch{4 H \stG}
+				}
 
 				Of course, for compounds not initially in the gaseous state, they must first be converted, and the appropriate enthalpy
 				change (of fusion or vaporisation) taken into account.
@@ -346,7 +318,7 @@
 				\itl{infinite volume} of water, under standard conditions. \enth{hyd} is always negative, as it involves the
 				formation of ion-dipole interactions between the ions in question and the water molecules.
 
-				\eqndiagram{
+				\mathdiagram{
 					\[ \Delta H_{hyd} \propto \frac{q}{r} \]
 				}
 
@@ -400,7 +372,7 @@
 			The magnitude of lattice energy is a measure of the strength of the ionic bond — the more exothermic it is, the stronger the ionic bond.
 			Ionic bond strength depends on two factors; the magnitude of the charge on both ions, and the ionic radius of the atoms.
 
-			\eqndiagram{
+			\mathdiagram{
 				\[ LE \propto \frac{q_{+}\times q_{-}}{r_{+} + r_{-}} \]
 			}
 
@@ -476,28 +448,22 @@
 				These three energies are related; dissolving a solid, ionic compound in water can be split into two sequential processes.
 				First, the formation of gaseous ions form the solid ionic compound:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{NaF \stS}
-						\arrow
-						\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{NaF \stS} \arrow \ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}
 				}{\enth{} $= -LE$}
 
 				Second, the gaseous are hydrated.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}\hspace{2mm} + \hspace{2mm}\ch{aq}
-						\arrow
-						\ch{Na+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{F- \stAq}
-					\schemestop
+				\txtreactioneqntwo{
+					\ch{Na+ \stG}\hspace{2mm} + \hspace{2mm}\ch{F- \stG}\hspace{2mm} + \hspace{2mm}\ch{aq}
+					\arrow
+					\ch{Na+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{F- \stAq}
 				}{\enth{} = \enth{hyd}(\ch{Na+}) + \enth{hyd}(\ch{F-})}
 
 				Therefore, the total enthalpy change for this process is simply the sum of the enthalpy change of hydration of each ion, less
 				the lattice energy of the final ionic compound.
 
-				\eqndiagram{
+				\mathdiagram{
 					\[ \Delta H_{sol} = \sum{}\Delta H_{hyd} - LE \]
 				}
 
@@ -562,6 +528,8 @@
 							ylabel			= $N(x)$,
 							xtick			= \empty,
 							ytick			= \empty,
+							x label style	= {at={(0.4,-0.01)}},
+							y label style	= {at={(0,0.5)}},
 							axis line style	= very thick,
 							ymin			= 0,
 							ymax			= 0.0004
@@ -598,13 +566,9 @@
 				Simply put, if the reaction results in a greater number of gaseous products than reactants, then there will be a net
 				increase in entropy. For example:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 NaN3 \stS}
-						\arrow
-						\ch{2 Na \stS}\hspace{2mm} + \hspace{2mm}\ch{3 N2 \stG}
-					\schemestop
-				}{}
+				\txtreactioneqn{
+					\ch{2 NaN3 \stS} \arrow \ch{2 Na \stS}\hspace{2mm} + \hspace{2mm}\ch{3 N2 \stG}
+				}
 
 				Here, the number of moles of gas \itl{increased} from 0 to 3, hence \entr{} > 0. The reverse is also true, naturally --- if the
 				number of moles of gas decreases, then the entropy change will be negative.
@@ -700,7 +664,7 @@
 		be spontaneous (occurring without external energy input), they are used together to calculate the change in Gibbs free energy, \gibb{}.
 		If you paid attention to the cover page, then this equation should be familiar to you:
 
-		\eqndiagram{
+		\mathdiagram{
 			\[ \Delta G = \Delta H - T\times \Delta S \]
 		}
 

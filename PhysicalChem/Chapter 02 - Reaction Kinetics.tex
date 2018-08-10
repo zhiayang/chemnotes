@@ -36,16 +36,16 @@
 
 
 		\pagebreak
-		\subsection{Reaction Pathway Diagram}
+		\subsection{Energy Profile Diagram}
 
-			Activation energy is often represented in two ways; firstly, in the reaction pathway diagram as shown below. Note that even though
+			Activation energy is often represented in two ways; firstly, in the energy profile diagram as shown below. Note that even though
 			the reaction is exothermic (it releases energy), it still requires a minimum amount of activation energy (\ea) to take place. On a side
 			note, at the top of the energy \enquote{peak}, a theoretical activated complex or transition state is formed; this cannot be isolated, and
 			exists only for a tiny amount of time.
 
 
 			\graphdiagram[1.0]{
-				\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction pathway,y-label-text=energy]
+				\begin{endiagram}[scale=2.0,offset=1.5,x-label-text=reaction coordinate,y-label-text=energy]
 					\ENcurve[step=1.5]{2,4.5,0}
 
 					\ShowNiveaus[shift=-1.0,length=2.0,niveau=N1-1]
@@ -83,7 +83,7 @@
 						xtick			= \empty,
 						ytick			= \empty,
 						axis line style	= very thick,
-						x label style	= {at={(0.9,-0.01)}},
+						x label style	= {at={(0.4,-0.01)}},
 						y label style	= {at={(0,0.5)}},
 						ymin			= 0,
 						ymax			= 0.0004
@@ -184,7 +184,7 @@
 		All its components must be found experimentally, through a tedious process of actually conducting an experiment. It has this
 		general form:
 
-		\eqndiagram{
+		\mathdiagram{
 			\[ R = k[A]\sps{x}[B]\sps{y} \cdots [C]\sps{z} \]
 		}
 
@@ -208,12 +208,8 @@
 
 			For instance, given this reaction and its rate equation:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{2 NO \stG} + \ch{2 H2 \stG}
-					\arrow
-					\ch{N2 \stG} + \ch{2 H2O \stG}
-				\schemestop
+			\txtreactioneqntwo{
+				\ch{2 NO \stG} + \ch{2 H2 \stG} \arrow \ch{N2 \stG} + \ch{2 H2O \stG}
 			}{Rate = k[\ch{NO}]\sps{2}[\ch{H2}]}
 
 			When the concentration of \ch{H2} is doubled, the rate of the reaction will double. However, when $[NO]$ is doubled, the rate of the
@@ -264,7 +260,7 @@
 			Given the initial concentrations of all reactants and the initial rate (for two equations), a relationship between the rates can be
 			determined. For example:
 
-			\eqndiagram{
+			\mathdiagram{
 				\[ \frac{R_{1}}{R_{2}} = \frac{k(0.03)^{x}(1.0)^{y}(0.5)^{z}}{k(0.01)^{x}(1.0)^{y}(0.5)^{z}} \]
 			}[Given that the initial rates $R_{1}$ and $R_{2}$ are known, the unknowns ($x$, $y$, and $z$) can be found.]
 		% end subsubsection
@@ -439,7 +435,7 @@
 				\pagebreak
 				For an overall first-order reaction, the half-life can be represented with this equation:
 
-				\eqndiagram{
+				\mathdiagram{
 					\[ t_{\sfrac{1}{2}} = \frac{ln(2)}{k} \]
 				}
 
@@ -539,8 +535,8 @@
 						\begin{axis}[
 							axis lines		= left,
 							domain			= 0:10,
-							xlabel			= [A]/\si{\molarConc},
-							ylabel			= rate/\si{\molarConc\per\second},
+							xlabel			= {[A]/\si{\molarConc}},
+							ylabel			= {rate/\si{\molarConc\per\second}},
 							axis line style	= very thick,
 							height			= 80mm,
 							width			= 120mm,
@@ -572,8 +568,8 @@
 						\begin{axis}[
 							axis lines		= left,
 							domain			= 0:10,
-							xlabel			= [A]/\si{\molarConc},
-							ylabel			= rate/\si{\molarConc\per\second},
+							xlabel			= {[A]/\si{\molarConc}},
+							ylabel			= {rate/\si{\molarConc\per\second}},
 							axis line style	= very thick,
 							height			= 80mm,
 							width			= 120mm,
@@ -604,8 +600,8 @@
 						\begin{axis}[
 							axis lines		= left,
 							domain			= 0:10,
-							xlabel			= [A]/\si{\molarConc},
-							ylabel			= rate/\si{\molarConc\per\second},
+							xlabel			= {[A]/\si{\molarConc}},
+							ylabel			= {rate/\si{\molarConc\per\second}},
 							axis line style	= very thick,
 							height			= 80mm,
 							width			= 100mm,
@@ -690,7 +686,7 @@
 						xtick			= \empty,
 						ytick			= \empty,
 						axis line style	= very thick,
-						x label style	= {at={(0.9,-0.01)}},
+						x label style	= {at={(0.4,-0.01)}},
 						y label style	= {at={(0,0.5)}},
 						ymin			= 0,
 						ymax			= 0.0004
@@ -772,7 +768,7 @@
 						xtick			= \empty,
 						ytick			= \empty,
 						axis line style	= very thick,
-						x label style	= {at={(0.9,-0.01)}},
+						x label style	= {at={(0.4,-0.01)}},
 						y label style	= {at={(0,0.5)}},
 						ymin			= 0,
 						ymax			= 0.0004
@@ -822,10 +818,10 @@
 			}[The activation energy decreases from $E_{a_{1}}$ to $E_{a_{2}}$, increasing the fraction of molecules with $\mathrm{KE} > E_{a}$.]
 
 
-			This effect can also be similarly illustrated with a reaction pathway diagram:
+			This effect can also be similarly illustrated with a energy profile diagram:
 
 			\graphdiagram[1.0]{
-				\begin{endiagram}[scale=1.5,offset=1.5,x-label-text=,y-label-text=]
+				\begin{endiagram}[scale=1.5,offset=1.5,x-label-text=reaction coordinate,y-label-text=energy]
 					\ENcurve[step=1.5]{0,4.5,2}
 					\ENcurve[step=1.5,tikz={red,dotted}]{0,3,2}
 

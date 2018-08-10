@@ -38,8 +38,8 @@
 						\begin{axis}[
 							axis lines		= left,
 							domain			= 0.5:3,
-							xlabel			= \textbf{$time/s$},
-							ylabel			= \textbf{$concentration$},
+							xlabel			= time/s,
+							ylabel			= concentration,
 							axis line style	= very thick,
 							height			= 80mm,
 							ytick			= \empty,
@@ -78,8 +78,8 @@
 						\begin{axis}[
 							axis lines		= left,
 							domain			= 0.5:4,
-							xlabel			= \textbf{$time/s$},
-							ylabel			= \textbf{$rate of reaction$},
+							xlabel			= time/s,
+							ylabel			= rate of reaction,
 							axis line style	= very thick,
 							height			= 80mm,
 							ytick			= \empty,
@@ -124,8 +124,8 @@
 					\begin{axis}[
 						axis lines		= left,
 						domain			= 0.5:3,
-						xlabel			= \textbf{$time/s$},
-						ylabel			= \textbf{$concentration$},
+						xlabel			= time/s,
+						ylabel			= concentration,
 						axis line style	= very thick,
 						height			= 60mm,
 						width			= 75mm,
@@ -157,8 +157,8 @@
 					\begin{axis}[
 						axis lines		= left,
 						domain			= 0.5:3,
-						xlabel			= \textbf{$time/s$},
-						ylabel			= \textbf{$concentration$},
+						xlabel			= time/s,
+						ylabel			= concentration,
 						axis line style	= very thick,
 						height			= 60mm,
 						width			= 75mm,
@@ -203,21 +203,19 @@
 		There are two equilibrium constants, \Kc{} and \Kp{}, that serve roughly the same purpose in different contexts --- the former for normal,
 		aqueous reactions where normal concentrations apply, and the latter for gaseous systems where it is more logical to use partial pressures.
 
-		\subsection{Equilibrium Constant \texorpdfstring{\MKc{}}{Kc}}
+		\subsection{Equilibrium Constant \texorpdfstring{\Kc{}}{Kc}}
 
 			\Kc{} is calculated using the concentrations of each product and each reactant, \itl{at equilibrium}. For the reaction below:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{p}\hspace{0.1em}\ch{A}\hspace{2mm} + \hspace{2mm}\ch{q}\hspace{0.1em}\ch{B}
-					\arrow
-					\ch{r}\hspace{0.1em}\ch{C}\hspace{2mm} + \hspace{2mm}\ch{s}\hspace{0.1em}\ch{D}
-				\schemestop
-			}{}
+			\txtreactioneqn{
+				\ch{p}\hspace{0.1em}\ch{A}\hspace{2mm} + \hspace{2mm}\ch{q}\hspace{0.1em}\ch{B}
+				\arrow
+				\ch{r}\hspace{0.1em}\ch{C}\hspace{2mm} + \hspace{2mm}\ch{s}\hspace{0.1em}\ch{D}
+			}
 
 			The corresponding \Kc{} would be as such:
 
-			\eqndiagram{
+			\mathdiagram{
 				\[ K_{c} = \frac{[\ch{C}]^{c}[\ch{D}]^{d}}{[\ch{A}]^{a}[\ch{B}]^{b}} \]
 			}
 
@@ -229,12 +227,12 @@
 		% end subsection
 
 
-		\subsection{Gaseous Equilibrium Constant \texorpdfstring{\MKp{}}{Kp}}
+		\subsection{Gaseous Equilibrium Constant \texorpdfstring{\Kp{}}{Kp}}
 
 			In situations where it is more convenient to use partial pressures, then it is as simple as substituting the concentrations
 			in the original \Kc{} equation with the corresponding partial pressures to get \Kp{}, like so:
 
-			\eqndiagram{
+			\mathdiagram{
 				\[ K_{p} = \frac{(P_{C})^{c}(P_{D})^{d}}{(P_{A})^{a}(P_{B})^{b}} \]
 			}
 
@@ -353,13 +351,9 @@
 
 			Using the reaction for the formation of ammonia, \ch{NH3}, from \ch{H2} and \ch{N2}:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{N2 \stG}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stG}
-					\arrow{<=>}
-					\ch{2 NH3 \stG}
-				\schemestop
-			}{}
+			\txtreactioneqn{
+				\ch{N2 \stG}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stG} \arrow{<=>} \ch{2 NH3 \stG}
+			}
 
 			The forward reaction changes the number of moles of gas from \num{4} (\num{1} + \num{3}) to \num{2}, resulting in a net
 			\itl{decrease}; the backwards reaction would thus increase the number of moles of gas from \num{2} to \num{4}, a net
@@ -371,13 +365,9 @@
 			\pagebreak
 			If the total number of moles of gas on either side of the reaction are the same, for example:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{H2 \stG}\hspace{2mm} + \hspace{2mm}\ch{Br2 \stG}
-					\arrow{<=>}
-					\ch{2 HBr \stG}
-				\schemestop
-			}{}
+			\txtreactioneqn{
+				\ch{H2 \stG}\hspace{2mm} + \hspace{2mm}\ch{Br2 \stG} \arrow{<=>} \ch{2 HBr \stG}
+			}
 
 			Then a change in the pressure of the system will have \itl{no effect} on the position of equilibrium.
 
@@ -391,12 +381,8 @@
 
 			Again, using the formation of ammonia:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{N2 \stG}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stG}
-					\arrow{<=>}
-					\ch{2 NH3 \stG}
-				\schemestop
+			\txtreactioneqntwo{
+				\ch{N2 \stG}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stG} \arrow{<=>} \ch{2 NH3 \stG}
 			}{\enth{} = \SI{-92.4}{\kilo\joule\per\mole}}
 
 			The forward reaction is \itl{exothermic} as given by the negative \enth{}. Thus, a \itl{decrease} in temperature will
@@ -436,13 +422,9 @@
 			likes quite far to the left --- hence the need for expensive industrial equipment to produce this at scale.
 
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{N2 \stG}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stG}
-					\arrow{<=>}
-					\ch{2 NH3 \stG}
-				\schemestop
-			}{}
+			\txtreactioneqn{
+				\ch{N2 \stG}\hspace{2mm} + \hspace{2mm}\ch{3 H2 \stG} \arrow{<=>} \ch{2 NH3 \stG}
+			}
 
 
 			To increase the yield of ammonia, 3 techniques are used:
@@ -476,7 +458,9 @@
 				actually occur.
 
 				\vspace{1.5em}
-				\vbox{\textbf{Conditions:}\tabto{35mm}\SI{450}{\celsius}, \SI{250}{\atm}, Finely divided \ch{Fe} catalyst.}
+				\parbox{\textwidth}{
+					\textbf{Conditions:}\tabto{35mm}    \SI{450}{\celsius}, \SI{250}{\atm}, Finely divided \ch{Fe} catalyst.
+				}
 
 			% end subsubsection
 

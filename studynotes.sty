@@ -407,7 +407,7 @@
 							{
 								\begin{figure}[!ht]
 								\begin{center}
-								\hbox{
+								\mbox{
 									\vspace{5mm}
 									\includegraphics[width=#1]{#2}
 								}
@@ -433,7 +433,7 @@
 								\begin{center}
 								\bigskip
 								\scalebox{#1}{
-									\hbox{
+									\mbox{
 										\normtext
 										\vspace{5mm}
 										{#2}
@@ -454,7 +454,7 @@
 								\bigskip
 								\fontsize{12pt}{14pt}\selectfont
 								\scalebox{#1}{
-									\hbox{
+									\mbox{
 										\vspace{5mm}
 										{#2}
 									}
@@ -477,7 +477,7 @@
 									\fontsize{14pt}{17pt}\selectfont
 									{#1}
 									\\
-									\vspace{2mm}
+									\vspace{3mm}
 									{#2}
 
 								\end{center}
@@ -492,19 +492,81 @@
 								\end{figure}
 							}
 
-\NewDocumentCommand         {\eqndiagram} { +m O{} }
+
+
+
+\NewDocumentCommand         {\txtreactioneqn} { O{1.0} +m O{} }
 							{
 								\begin{figure}[!ht]
 								\begin{center}
 
 									\vspace{0.85em}
 									\fontsize{14pt}{17pt}\selectfont
+									{%
+										\schemestart[0,#1,thick]%
+										#2%
+										\schemestop%
+									}%
+								\end{center}
+
+								%* if the caption is empty, we insert some negative vertical space.
+								\ifblank{#3}{\vspace{-0.9em}}{
+									\begin{center}
+									\fontsize{10pt}{12pt}\selectfont{#3}
+									\normtext
+									\end{center}
+								}
+								\end{figure}
+							}
+
+
+
+
+
+\NewDocumentCommand         {\txtreactioneqntwo} { O{1.0} +m +m O{} }
+							{
+								\begin{figure}[!ht]
+								\begin{center}
+									\vspace{0.85em}
+									\fontsize{14pt}{17pt}\selectfont
+									{%
+										\schemestart[0,#1,thick]%
+										#2%
+										\schemestop%
+									}\\
+									\vspace{3mm}
+									{#3}
+								\end{center}
+
+								%* if the caption is empty, we insert some negative vertical space.
+								\ifblank{#4}{\vspace{-0.9em}}{
+									\begin{center}
+									\fontsize{10pt}{12pt}\selectfont{#4}
+									\normtext
+									\end{center}
+								}
+								\end{figure}
+							}
+
+
+
+
+
+
+
+\NewDocumentCommand         {\mathdiagram} { +m O{} }
+							{
+								\begin{figure}[!ht]
+								\begin{center}
+
+									\vspace{0.7em}
+									\fontsize{14pt}{17pt}\selectfont
 									{#1}
 
 								\end{center}
 
 								%* if the caption is empty, we insert some negative vertical space.
-								\ifblank{#2}{\vspace{-1em}}{
+								\ifblank{#2}{\vspace{-1.2em}}{
 									\begin{center}
 									\fontsize{10pt}{12pt}\selectfont{#2}
 									\normtext
@@ -586,7 +648,7 @@
 \newcommand	{\MenthStd}		[1]{∆H\sps{\standardstate}\sbs{#1}}
 \newcommand	{\enthStd}		[1]{$\Delta H^{\standardstate}_{#1}$}
 
-\newcommand {\Mea}			{E\sbs{a} }
+\newcommand {\Mea}			{E_{a} }
 \newcommand {\ea}			{$E_{a}$}
 
 \newcommand	{\entr}			{$\Delta S$}
@@ -600,32 +662,37 @@
 \newcommand {\Qc}			{$Q_{c}$}
 \newcommand {\Qp}			{$Q_{p}$}
 
-\newcommand {\MKc}			{\itl{K\sbs{c}}}
-\newcommand {\MKp}			{\itl{K\sbs{p}}}
-\newcommand {\MKsp}			{\itl{K\sbs{sp}}}
+\newcommand {\MKc}			{K_{c}}
+\newcommand {\MKp}			{K_{p}}
+\newcommand {\MKsp}			{K_{sp}}
 
-\newcommand {\MKstab}		{\itl{K\sbs{stab}}}
+\newcommand {\MKstab}		{K_{stab}}
 
 % renew because chemmacro defines this, but not properly (ugly)
-\renewcommand {\pH}			{$p\ch{H}$}
-\renewcommand {\pOH}		{$p\ch{OH}$}
-\renewcommand {\pKa}		{$pK_{a}$}
-\renewcommand {\pKb}		{$pK_{b}$}
+\renewcommand {\pH}         {pH}        %{$\mathrm{p}\ch{H}$}
+\renewcommand {\pOH}        {pOH}       %{$\mathrm{p}\ch{OH}$}
+\renewcommand {\pKa}        {p$K_{a}$}  %{$\mathrm{p}K_{a}$}
+\renewcommand {\pKb}        {p$K_{b}$}  %{$\mathrm{p}K_{b}$}
 \renewcommand {\Kw}			{$K_{w}$}
 \renewcommand {\Ka}			{$K_{a}$}
 \renewcommand {\Kb}			{$K_{b}$}
 
-\newcommand {\pI}			{$pI$}
-\newcommand {\pKw}			{$pK_{w}$}
-\newcommand {\MpKw}			{\itl{p}K\sbs{w}}
+\newcommand {\pI}           {pI}                %{$\mathrm{p}I$}
+\newcommand {\pKw}          {p$K_{w}$}          %{$\mathrm{p}K_{w}$}
+\newcommand {\MpKw}         {\mathrm{p}K_{w}}   %{pK\sbs{w}}
 
-\newcommand {\MpH}			{\itl{p}\ch{H}}
-\newcommand {\MpOH}			{\itl{p}\ch{OH}}
-\newcommand {\MpKa}			{\itl{p}K\sbs{a}}
-\newcommand {\MpKb}			{\itl{p}K\sbs{b}}
-\newcommand {\MKw}			{K\sbs{w}}
-\newcommand {\MKa}			{K\sbs{a}}
-\newcommand {\MKb}			{K\sbs{b}}
+\newcommand {\MpH}			{\mathrm{p}\ch{H}}
+\newcommand {\MpOH}			{\mathrm{p}\ch{OH}}
+\newcommand {\MpKa}			{\mathrm{p}K_{a}}
+\newcommand {\MpKb}			{\mathrm{p}K_{b}}
+\newcommand {\MKw}			{K_{w}}
+\newcommand {\MKa}			{K_{a}}
+\newcommand {\MKb}			{K_{b}}
+
+\newcommand {\Mp}[1]        {\mathrm{p}\mathrm{#1}}
+\newcommand {\MK}[1]        {K_{#1}}
+\newcommand {\MpK}[1]       {\mathrm{p}K_{#1}}
+
 
 \newcommand {\Ecell}		{$E^{\stdst}_{cell}$}
 \newcommand {\MEcell}		{E\spbs{\stdst}{cell}}
