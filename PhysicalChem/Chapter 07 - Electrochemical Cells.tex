@@ -8,16 +8,9 @@
 
 	\section{Overview}
 
-		Electrochemical cells are typically composed from two half-cells, each with their own redox reaction occurring, and each having an
-		electrode that is typically inert to prevent it from interfering.
-
-		\subsection{Disclaimer}
-
-			Unfortunately, \TeX{} has no good solution for drawing cell diagrams, so this chapter and the next chapter will be relatively...
-			diagram-free. Sorry. To be fair only one diagram is needed per chapter, so...
-
-		% end subsection
-
+		Electrochemical cells are typically composed from two half-cells, each with their own redox reaction occurring and each having an
+		electrode that is typically inert to prevent it from interfering. As the name might suggest, electrochemical cells generate some
+		amount of \emf{}, depending on the difference between the electrode potentials of the half-cells.
 
 		\subsection{Electrodes}
 
@@ -33,16 +26,13 @@
 			systems.
 
 		% end subsection
-
 	% end section
 
-
-	\pagebreak
-	\section{Standard Reduction Potential, \texorpdfstring{\MEo{}}{Eo}}
+	\section{Standard Reduction Potential, \texorpdfstring{\Eo{}}{E°}}
 
 		The standard reduction potential, \Eo{} is defined for a half redox reaction --- either reduction or oxidation. However, per
 		convention, the \itl{values} for \Eo{} are always quoted for the reduction reaction. Hence, if the \Eo{} for oxidising
-		\ch{Zn} to \ch{Zn^2+} is \SI{+0.76}{\volt}, the quoted \Eo{} value will be $-0.76V$.
+		\ch{Zn} to \ch{Zn^2+} is $\SI{+0.76}{\volt}$, the quoted \Eo{} value will be $\SI{-0.76}{\volt}$.
 
 		As its name would imply, the \itl{standard} reduction potential is measured using a \itl{standard hydrogen cell}, which is
 		an electrochemical cell (covered later), with these properties:
@@ -61,128 +51,77 @@
 
 		Conversely, if the value of \Eo{} for a certain equation is highly negative, like this:
 
-		\diagram[1.0]{
-			\schemestart[0, 1.0, thick]
-				\ch{Na+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{e-}\arrow{<=>}\ch{Na \stS}	\hspace{10mm}$E^{\stdst} = -2.71V$
-			\schemestop
-		}{\vspace{-1.0em}}
+		\txtreactioneqn{
+			\ch{Na+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{e-}\arrow{<=>}\ch{Na \stS} \hspace{10mm}\large $\MEo = \SI{-2.71}{\volt}$
+		}
 
 		This means that it is far more feasible for the equation to proceed in the \itl{reverse direction} (note that these are
 		written with reversible arrows when the direction of progress is still indeterminate), aka. the oxidation of \ch{Na} instead.
 
 
-		\subsection{Comparing \texorpdfstring{\MEo{}}{Eo} Values}
+		\subsection{Comparing \texorpdfstring{\Eo{}}{E°} Values}
 
 			Standard reduction potential values of different species can be used as a judge of their reduction or oxidation strength.
-			If the \Eo{} value of a species is very high, for instance with \ch{Li}, the \Eo{} value is $-3.04V$ --- meaning that it
-			is very very spontaneously \itl{oxidised}, making it a very powerful \itl{reducing agent}.
+			If the \Eo{} value of a species is very high --- the \Eo{} value of \ch{Li} is $\SI{-3.04}{\volt}$ for instance --- it
+			is very spontaneously \itl{oxidised}, making it a very powerful \itl{reducing agent}.
 
-			Conversely, with \ch{F2}, the \Eo{} value is $+2.87V$, implying that it is very likely to be \itl{reduced}, and hence
+			Conversely, with \ch{F2}, the \Eo{} value is $\SI{+2.87}{\volt}$, implying that it is very likely to be \itl{reduced}, and hence
 			making it a very powerful \itl{oxidising agent}.
 
 		% end subsection
-
 	% end section
 
 
 
-	\pagebreak
-	\section{Standard Cell Potentials, \texorpdfstring{\MEcell{}}{Ecell}}
+	\section{Standard Cell Potentials, \texorpdfstring{\Ecell{}}{Ecell}}
 
 		Given that electrochemical cells are often made of two half-cells, or at the very least always have two redox half-reactions,
 		the \Ecell{} represents the \itl{total} potential of the two half-cells, otherwise known as the \itl{standard cell potential}.
 
-		This standard cell potential is also the output \itl{emf} of the electrochemical cell, and can be measured with a voltmeter
+		This standard cell potential is also the output \emf{} of the electrochemical cell, and can be measured with a voltmeter
 		connected between the two electrodes. \Ecell{} is simply defined as the difference between the \Eo{} of the reduction half cell, and
 		the \Eo{} of the oxidation half cell, like so:
 
-		\diagram[1.0]{
-			$E^{\stdst}_{cell} = E^{\stdst}_{cathode} - E^{\stdst}_{anode}$
-		}{\vspace{-1.0em}}
+		\mathdiagram{
+			\[ \MEcell = E^{\stdst}_{cathode} - E^{\stdst}_{anode} \]
+		}
 
 		However, with some sign manipulation, it can be also expressed as the sum of the standard electrode potential of the reduction
-		half equation, and the \itl{oxidation potential} of the oxidation half-cell.
+		half-equation, and the \itl{oxidation potential} of the oxidation half-equation.
 
-
-		While \Ecell{} is a measure of the output \itl{emf} of the cell, if it is negative to begin with, the required redox
-		reactions are unfeasible, and there will be no \itl{emf} produced at all, and no reaction occurring.
-
-		This is often used to predict the feasibility of a spontaneous redox reaction between two species, even if the produced
-		\itl{emf} is not the primary goal.
+		While \Ecell{} is a measure of the output \emf{} of the cell, if it is negative to begin with, the required redox
+		reactions are unfeasible, and there will be no \emf{} produced at all, and no reaction occurring This is often used to predict
+		the feasibility of a spontaneous redox reaction between two species, even if the produced \emf{} is not the primary goal.
 
 
 		\subsection{Calculating Standard Cell Potentials}
 
 			While the definition of \Ecell{} might be simple, figuring out which values to use for each \Eo{} is not quite so simple. To put it
-			concisely, each species the reaction mixture will react in the most feasible way it can.
+			concisely, each species in the reaction mixture will react in the most feasible way it can.
 
 			For example, given the following half-equations:
 
-			\diagram[1.0]{
-				\schemestart[0, 1.0, thick]
-					\ch{Zn^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{<=>}\ch{Zn \stS}			\hspace{10mm}$E^{\stdst} = -0.76V$
-					\arrow(@c1.south east--.north east){0}[-90,.25]
-					\ch{Cu^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{<=>}\ch{Cu \stS}			\hspace{10mm}$E^{\stdst} = +0.34V$.
-				\schemestop
-			}{\vspace{-1.0em}}
+			% this is not quite necessary, but we want things to look nice. so... align the equals signs instead of the 'E's.
+			\txtreactioneqn{
+				\ch{Zn^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{<=>}\ch{Zn \stS}
+				\arrow(.east--eq1.west){0}[,.75] \large$\;= \SI{-0.76}{\volt}$\arrow(@eq1.west--.east){0}[-180,0] \large$\MEo$
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{Cu^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{<=>}\ch{Cu \stS}
+				\arrow(@eq1.east--eq2.east){0}[-90,.4] \large$\;= \SI{+0.34}{\volt}$\arrow(@eq2.west--.east){0}[-180,0] \large$\MEo$
+			}
+
 
 			The first objective should be to identify the half-equation at the cathode, or where reduction is taking place. Comparing the two \Eo{}
 			values for the reduction of \ch{Zn^2+} and \ch{Cu^2+}, the \Eo{} of the reduction of copper is \itl{more positive} than that for
 			the reduction of \ch{Zn^2+} --- hence copper will be reduced at the cathode.
 
-			Thus, the other half-reaction must occur at the anode, and in this case zinc is oxidised.
+			Thus the other half-reaction must occur at the anode, and in this case zinc is oxidised.
 
-			Combining the two, the overall reaction is determined, as well as the cell potential, $+0.34 - (-0.76)$.
+			Combining the two, the overall reaction is determined, as well as the cell potential, $+0.34 - (-0.76) = +1.10$.
 
-			\diagram[1.0]{
-				\schemestart[0, 1.0, thick]
-					\ch{Cu^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{Zn \stS}\arrow\ch{Cu \stS}\hspace{2mm} + \hspace{2mm}\ch{Zn^2+ \stAq}
-					\hspace{10mm}$E^{\stdst}_{cell} = +1.10V$
-				\schemestop
-			}{\vspace{-1.0em}}
-
-		% end subsection
-
-		\subsection{Predicting Redox Feasibility with Cell Potentials}
-
-			Since an \Ecell{} value $ < 0$ will not result in any reaction, it can be used to predict the feasibility of arbitrary redox
-			reactions, to determine whether they will occur spontaneously when the reactants are mixed.
-
-			\subsubsection{Limitations of Predicting Feasibility}
-
-				\paragraph{Rate of Reaction}
-
-				\Ecell{} only serves to show that the reaction is feasible, and says nothing about the \itl{rate of reaction};
-				the most common cause of this is a high activation energy for the reaction.
-
-
-				\paragraph{Conditions}
-
-				The entire system of values for \Eo{} and hence \Ecell{} are defined only for \itl{standard conditions} --- pressure,
-				temperature, etc. However, given that each half-reaction is actually an equilibrium, our old friend Le Châtelier's Principle
-				can predict the direction that the position of equilibrium will shift in.
-
-				For example, given the reduction of chlorine:
-
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{\Cl2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{<=>}\ch{2 \Cl- \stAq}\hspace{10mm}$E^{\stdst} = -+1.36V$
-					\schemestop
-				}{\vspace{-1.0em}}
-
-				If the pressure of the system were to increase, then by Le Châtelier's Principle, the position of equilibrium would shift to
-				the right, favouring the \itl{reduction of chlorine}. Hence, the value of $E$ (note, not $E^{\stdst}$ since it's
-				not standard any more) would \itl{increase}.
-
-
-
-				\paragraph{Ion Concentration}
-
-				Again, by Le Châtelier's Principle, changing the concentration of ions can also move the position of equilibrium, that changes
-				the value of $E$. This can be exploited by connecting two half-cells of the same ion, but at different concentrations. The
-				difference in $E$ values will form a net positive \Ecell{} that can be measured.
-
-			% end subsubsection
+			\txtreactioneqntwo{
+				\ch{Cu^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{Zn \stS}\arrow\ch{Cu \stS}\hspace{2mm} + \hspace{2mm}\ch{Zn^2+ \stAq}
+			}{$\MEcell = \SI{+1.10}{\volt}$}
 
 		% end subsection
 
@@ -192,13 +131,56 @@
 			Given that both the standard cell potential and Gibbs Free Energy predict the feasibility and spontaneity of a reaction, they can
 			be related by an equation:
 
-
-			\diagram[1.0]{
-				$∆G^{\stdst} = -nFE^{\stdst}_{cell}$
-			}{\vspace{-1.0em}}
+			\mathdiagram{
+				\[ \Delta G^{\stdst} = -nF\MEcell \]
+			}
 
 			$F$ is the Faraday constant, which is \SI{9.648e5}{\coulomb\per\mole}, and $n$ is the number of moles of electrons transferred in the
 			redox reaction.
+
+		% end subsection
+
+
+		\pagebreak
+		\subsection{Predicting Redox Feasibility with Cell Potentials}
+
+			Since an \Ecell{} value $ < 0$ will not result in any reaction, it can be used to predict the feasibility of arbitrary redox
+			reactions, to determine whether they will occur spontaneously when the reactants are mixed.
+
+			Unfortunately there are limitations that prevent cell potential from being a perfect gauge of a reaction's feasibility.
+
+			\subsubsection{Rate of Reaction}
+
+				\Ecell{} only serves to show that the reaction is feasible, and says nothing about the \itl{rate of reaction};
+				the most common cause of this is a high activation energy for the reaction.
+
+			% end subsubsection
+
+			\subsubsection{Conditions}
+
+				The entire system of values for \Eo{} and hence \Ecell{} are defined only for \itl{standard conditions} --- pressure,
+				temperature, etc. However, given that each half-reaction is actually an equilibrium, our old friend Le Châtelier's Principle
+				can predict the direction that the position of equilibrium will shift in.
+
+				For example, given the reduction of chlorine:
+
+				\txtreactioneqn{
+					\ch{\Cl2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{<=>}\ch{2 \Cl- \stAq} \hspace{10mm}\large $\MEo = \SI{+1.36}{\volt}$
+				}
+
+				If the pressure of the system were to increase, then by Le Châtelier's Principle, the position of equilibrium would shift to
+				the right, favouring the \itl{reduction of chlorine}. Hence, the value of $E$ (note, not \Eo{} since it's
+				not standard any more) would \itl{increase}.
+
+			% end subsubsection
+
+			\subsubsection{Ion Concentration}
+
+				Again, by Le Châtelier's Principle, changing the concentration of ions can also move the position of equilibrium changing
+				the value of $E$. This can be exploited by connecting two half-cells of the same ion, but at different concentrations. The
+				difference in $E$ values will create a net positive \Ecell{} that can be measured.
+
+			% end subsubsection
 
 		% end subsection
 
@@ -217,8 +199,6 @@
 
 			\imgdiagram{100mm}{../figures/physical/ch08/galvanic_cell.png}{Electrochemical cell with copper and zinc}
 
-			As the equations show, zinc is being oxidised and copper is being reduced.
-
 		% end subsection
 
 
@@ -233,12 +213,12 @@
 			inert electrode can be used as well.
 
 			For the anode half-reaction, \ch{Zn \stS} is oxidised to \ch{Zn^2+ \stAq}. Hence, there needs to be a source of \ch{Zn \stS} atoms,
-			in this case provided by the anode --- hence the anode will slowly reduce in mass as the reaction proceeds. While the electrolyte
+			in this case provided by the anode --- the anode will slowly reduce in mass as the reaction proceeds. While the electrolyte
 			used is \ch{ZnSO4}, again there is no need for it to actually contain \ch{Zn^2+ \stAq} ions.
 
-			Finally, even though the electrolyte and electrode need not contain the ions being reduced or oxidised, the standardised nature of
-			\Ecell{} requires fixed concentrations of these ions, and so they are still used. While the cell will function with different
-			reactants, the value of \Ecell{} will likely differ.
+			Finally, even though the electrolyte and electrodes need not contain the species being reduced or oxidised, the standardised nature of
+			\Ecell{} requires fixed concentrations of ions; while the cell will function with different reactants, the measured value
+			of $E$ will likely differ from \Ecell{} in such cases.
 
 		% end subsection
 
@@ -250,16 +230,16 @@
 
 			The other purpose is to balance the electrical charge in each half-cell. At the anode half-cell, electrons are lost and
 			\ch{Zn^2+} is added to the solution, creating a net positive charge; at the cathode, \ch{Cu^2+} ions are removed from solution
-			and electrons are added, creating a net negative charge..
+			and electrons are added, creating a net negative charge.
 
-			Without a salt bridge, this imbalance would not be corrected. Eventually, the \itl{potential difference} due to the difference in
+			Without a salt bridge, this imbalance would grow unchecked. Eventually, the \itl{potential difference} due to the difference in
 			charge of the two cells would overpower the \Ecell{} of the redox reactions, and no more electrons would flow.
 
-			The salt bridge typically contains ions that are unreactive with the reactants, in this case \ch{K+} and \ch{\Cl-}. If the
-			electrolytes contain for example \ch{Pb^2+}, then obviously \ch{\Cl-} cannot be used in the salt bridge.
+			The salt bridge typically contains ions that do not react with the electrodes or electrolytes, in this case \ch{K+} and \ch{\Cl-}. If the
+			electrolyte contains \ch{Pb^2+} for instance, then obviously \ch{\Cl-} cannot be used in the salt bridge.
 
-			As positive charge at the anode builds up, \ch{\Cl-} ions from the salt bridge move to balance this, and \ch{K+} ions move to the
-			cathode cell to balance the corresponding negative charge buildup.
+			As the positive charge in the anode half-cell increases, \ch{\Cl-} ions from the salt bridge flow in to counteract the positive charge,
+			and vice-versa for \ch{K+} ions and the cathode half-cell.
 
 
 			\subsubsection{Ion Migration Rates}
@@ -292,10 +272,10 @@
 
 		\subsection{Batteries}
 
-			Hmm... a reaction that produces an \itl{emf}, what could it be used for...
+			Hmm... a reaction that produces an \emf{}, what could it be used for...
 
-			Clearly, the most common use for an electrochemical cell is... in a battery. Or rather, a battery is an electrochemical cell.
-			There are many different kinds of batteries, rechargeable and non-rechargeable, using different electrolytes and electrodes.
+			Clearly, the most common use for an electrochemical cell is... in a battery. Or rather, a battery is an electrochemical cell. The
+			sections below detail some of the more commonly seen varieties of batteries.
 
 
 			\subsubsection{Alkaline}
@@ -304,22 +284,17 @@
 				typically employ a \itl{graphite cathode}, and a \itl{zinc anode}. The electrolyte is usually \ch{MnO2} in \ch{KOH}
 				paste --- the \ch{OH-} in the paste is used for the oxidation of zinc.
 
-				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
-						\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH-}\arrow{->[\tinytext{oxidation}]}\ch{ZnO \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{MnO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{Mn(OH)2 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH-}
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqn[1.2]{
+					\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}\arrow{->[\tinytext{oxidation}]}\ch{ZnO \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{MnO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{Mn(OH)2 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
+				}
 
 				The overall reaction is as such:
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{MnO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\arrow{->}\ch{ZnO \stS}\hspace{2mm} + \hspace{2mm}\ch{Mn(OH)2 \stS}
-						\hspace{10mm}$E^{\stdst}_{cell} = +1.5V$
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqntwo{
+					\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{MnO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\arrow{->}\ch{ZnO \stS}\hspace{2mm} + \hspace{2mm}\ch{Mn(OH)2 \stS}
+				}{$\MEcell = \SI{+1.50}{\volt}$}
 
 
 			% end subsubsection
@@ -331,24 +306,17 @@
 				Silver button cells are commonly used for small devices, and employ a zinc anode and a silver oxide (\ch{Ag2O}) cathode. The
 				electrolyte is, again, some alkaline paste, for example \ch{KOH} or \ch{NaOH}.
 
-
-
-				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
-						\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH-}\arrow{->[\tinytext{oxidation}]}\ch{ZnO \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{Ag2O \stS}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{2 Ag \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH-}
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqn[1.2]{
+					\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}\arrow{->[\tinytext{oxidation}]}\ch{ZnO \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{Ag2O \stS}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{2 Ag \stS}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}
+				}
 
 				The overall reaction is as such:
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{Ag2O \stS}\arrow{->}\ch{ZnO \stS}\hspace{2mm} + \hspace{2mm}\ch{2 Ag \stS}
-						\hspace{10mm}$E^{\stdst}_{cell} = +1.6V$
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqntwo{
+					\ch{Zn \stS}\hspace{2mm} + \hspace{2mm}\ch{Ag2O \stS}\arrow{->}\ch{ZnO \stS}\hspace{2mm} + \hspace{2mm}\ch{2 Ag \stS}
+				}{$\MEcell = \SI{+1.60}{\volt}$}
 
 			% end subsubsection
 
@@ -360,31 +328,24 @@
 				Lead-acid batteries are commonly found in cars, and have the nice property of being rechargeable.
 
 
-				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
-						\ch{Pb \stS}\hspace{2mm} + \hspace{2mm}\ch{H2SO4 \stAq}\arrow{->[\tinytext{oxidation}]}\ch{PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{PbO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 H+ \stAq}\arrow{->[\tinytext{reduction}]}\ch{2 PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqn[1.2]{
+					\ch{Pb \stS}\hspace{2mm} + \hspace{2mm}\ch{H2SO4 \stAq}\arrow{->[\tinytext{oxidation}]}\ch{PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{PbO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{H2SO4 \stAq}\hspace{2mm} + \hspace{2mm}\ch{2 H+ \stAq}\arrow{->[\tinytext{reduction}]}\ch{2 PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
+				}
 
 				The overall reaction is as such:
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{PbO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{Pb \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2SO4 \stAq}\arrow{->}\ch{2 PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
-						\hspace{10mm}$E^{\stdst}_{cell} = +2.1V$
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqntwo{
+					\ch{PbO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{Pb \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2SO4 \stAq}\arrow{->}\ch{2 PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}
+				}{$\MEcell = \SI{+2.10}{\volt}$}
 
 				When the battery is recharged, it functions like an electrolytic cell, and the half-reactions above are simply reversed. Then,
 				the overall equation is reversed as well:
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{2 PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}\arrow{->}\ch{PbO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{Pb \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2SO4 \stAq}
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqn{
+					\ch{2 PbSO4 \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}\arrow{->}\ch{PbO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{Pb \stS}\hspace{2mm} + \hspace{2mm}\ch{2 H2SO4 \stAq}
+				}
 
 			% end subsubsection
 
@@ -399,31 +360,24 @@
 				Note that aqueous solvents (containing water) cannot be used in the battery, because of the high reactivity of lithium metal;
 				organic solvents are usually used.
 
-				\diagram[1.0]{
-					\schemestart[0, 1.5, thick]
-						\ch{Li \stS}\arrow{->[\tinytext{oxidation}]}\ch{Li+}\hspace{2mm} + \hspace{2mm}\ch{e-}
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{Li+}\hspace{2mm} + \hspace{2mm}\ch{CoO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{e-}\arrow{->[\tinytext{reduction}]}
-						\ch{LiCoO2 \stS}
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqn[1.2]{
+					\ch{Li \stS}\arrow{->[\tinytext{oxidation}]}\ch{Li+}\hspace{2mm} + \hspace{2mm}\ch{e-}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{Li+}\hspace{2mm} + \hspace{2mm}\ch{CoO2 \stS}\hspace{2mm} + \hspace{2mm}\ch{e-}\arrow{->[\tinytext{reduction}]}
+					\ch{LiCoO2 \stS}
+				}
 
 				The overall reaction is as such:
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{Li \stS}\hspace{2mm} + \hspace{2mm}\ch{CoO2 \stS}\arrow{->}\ch{LiCoO2 \stS}
-						\hspace{10mm}$E^{\stdst}_{cell} = +3.4V$
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqntwo{
+					\ch{Li \stS}\hspace{2mm} + \hspace{2mm}\ch{CoO2 \stS}\arrow{->}\ch{LiCoO2 \stS}
+				}{$\MEcell = \SI{+3.40}{\volt}$}
 
 				Again, the process for recharging is simply electrolysis, and involves reversing the equations above.
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{LiCoO2 \stS}\arrow{->}\ch{Li \stS}\hspace{2mm} + \hspace{2mm}\ch{CoO2 \stS}
-					\schemestop
-				}{\vspace{-1.0em}}
+				\txtreactioneqn{
+					\ch{LiCoO2 \stS}\arrow{->}\ch{Li \stS}\hspace{2mm} + \hspace{2mm}\ch{CoO2 \stS}
+				}
 
 
 			% end subsubsection
@@ -441,25 +395,21 @@
 			The main attraction of a hydrogen fuel cell is to enable the direct conversion of the \ch{H2 \stG} fuel into electricity, instead
 			of using the typical burn-the-gas-and-heat-water-to-make-steam-that-turns-a-turbine-that-turns-a-generator-that-finally-makes-electricity design --- this enables much higher levels of efficiency, up to 70\%, over the 40-odd\% of typical generators.
 
-			\diagram[1.0]{
-				\schemestart[0, 1.5, thick]
-					\ch{H2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}\arrow{->[\tinytext{oxidation}]}\ch{2 H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
-					\arrow(@c1.south east--.north east){0}[-90,.25]
-					\ch{O2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{4 e-}\arrow{->[\tinytext{reduction}]}
-					\ch{4 OH- \stAq}
-				\schemestop
-			}{\vspace{-1.0em}}
+			\txtreactioneqn[1.2]{
+				\ch{H2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 OH- \stAq}\arrow{->[\tinytext{oxidation}]}\ch{2 H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{2 e-}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{O2 \stG}\hspace{2mm} + \hspace{2mm}\ch{2 H2O \stL}\hspace{2mm} + \hspace{2mm}\ch{4 e-}\arrow{->[\tinytext{reduction}]}
+				\ch{4 OH- \stAq}
+			}
 
 			At the anode, \ch{H2} gas diffuses through the porous graphite electrode and comes into contact with the \ch{KOH} electrolyte; at
 			the cathode, \ch{O2} gas does the same. \ch{H2} is oxidised, and \ch{O2} is reduced.
 
 			The overall equation forms water only, which is a selling point of this design since the product is clean.
 
-			\diagram[1.0]{
-				\schemestart[0, 1.0, thick]
-					\ch{2 H2 \stG}\hspace{2mm} + \hspace{2mm}\ch{O2 \stG}\arrow{->}\ch{2 H2O \stL}
-				\schemestop
-			}{\vspace{-1.0em}}
+			\txtreactioneqntwo{
+				\ch{2 H2 \stG}\hspace{2mm} + \hspace{2mm}\ch{O2 \stG}\arrow{->}\ch{2 H2O \stL}
+			}{$\MEcell = \SI{+1.23}{\volt}$}
 
 
 		% end subsection

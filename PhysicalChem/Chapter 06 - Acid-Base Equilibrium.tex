@@ -81,7 +81,7 @@
 					\chemname{\ch{H\Cl}}{\tinytext{strong acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H2O}}{}
 					\arrow(.mid east--.mid west){->}
 					\chemname{\ch{\Cl-}}{\tinytext{weak conjugate base}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H3O+}}{}
-					\arrow(@c1.south east--.north east){0}[-90,.5]
+					\arrow(@c1.east--.east){0}[-90,.7]
 					\chemname{\ch{NaOH}}{\tinytext{strong base}}
 					\arrow(.mid east--.mid west){->}
 					\chemname{\ch{OH-}}{}\hspace{2mm} + \hspace{2mm}\chemname{\ch{Na+}}{\tinytext{weak conjugate acid}}
@@ -104,7 +104,7 @@
 					\chemname{\ch{CH3CO2H}}{\tinytext{weak acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H2O}}{}
 					\arrow(.mid east--.mid west){<=>}
 					\chemname{\ch{CH3CO2-}}{\tinytext{conjugate base}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H3O+}}{}
-					\arrow(@c1.south east--.north east){0}[-90,.5]
+					\arrow(@c1.east--.east){0}[-90,.7]
 					\chemname{\ch{NH3}}{\tinytext{weak base}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H2O}}{}
 					\arrow(.mid east--.mid west){<=>}
 					\chemname{\ch{NH4+}}{\tinytext{conjugate acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{OH-}}{}
@@ -157,13 +157,13 @@
 			Since this is an equilibrium, the \Kc{} value is as such:
 
 			\mathdiagram{
-				\[ K_{c} = \frac{[\ch{H+}][\ch{OH-}]}{[\ch{H2O}]} \]
+				\[ \MKc = \frac{[\ch{H+}][\ch{OH-}]}{[\ch{H2O}]} \]
 			}
 
 			Given that the extent of ionisation is minuscule, the \enquote{concentration} of \ch{H2O} is almost constant, and so
 
 			\mathdiagram{
-				\[ \MKw = K_{c} \times [\ch{H2O}] = [\ch{H+}][\ch{OH-}] \]
+				\[ \MKw = \MKc \times [\ch{H2O}] = [\ch{H+}][\ch{OH-}] \]
 			}
 
 			Thus, \pKw{} becomes relatively simple, taking $lg$ on both sides:
@@ -676,7 +676,7 @@
 
 			\txtreactioneqn{
 				\ch{H+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{HCO3- \stAq}\arrow\ch{H2CO3 \stAq}
-				\arrow(@c1.south east--.north east){0}[-90,.2]
+				\arrow(@c1.east--.east){0}[-90,.4]
 				\ch{OH- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2CO3 \stAq}\arrow\ch{HCO3- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
 			}
 
@@ -1055,7 +1055,7 @@
 			\txtreactioneqn{
 				\ch{CO3^2- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H+ \stAq}
 				\arrow\ch{HCO3- \stAq}
-				\arrow(@c1.south east--.north east){0}[-90,.15]
+				\arrow(@c1.east--.east){0}[-90,.4]
 				\ch{HCO3- \stAq}\hspace{2mm} + \hspace{2mm}\ch{H+ \stAq}
 				\arrow\ch{H2CO3 \stAq}
 			}

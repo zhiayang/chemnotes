@@ -23,7 +23,7 @@ cd %name%
 
 cls
 lualatex --interaction=nonstopmode --halt-on-error --shell-escape %name%.tex
-mv %name%.pdf ../
+cp %name%.pdf ../
 
 set /p dummy=
 

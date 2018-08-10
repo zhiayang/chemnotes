@@ -14,32 +14,30 @@
 		One difference is that there will often be different ions in solution, and certain ions will be \itl{selectively discharged}, which
 		depends on a number of factors --- mostly their \Eo{} value.
 
-		Note that while oxidation still occurs at the anode and reduction still occurs at the cathode, the \itl{charge} of each
-		electrode has been reversed; the external battery removes electrons from the anode, causing it to be \itl{positive}, and
-		supplies electrons to the cathode causing it to be \itl{negative}.
+		Note that while oxidation still occurs at the anode and reduction still occurs at the cathode, the \itl{polarity} of each
+		electrode has been reversed; the external battery removes electrons from the anode causing it to be \itl{positive}, while
+		supplying electrons to the cathode causing it to be \itl{negative}.
 
 	% end section
 
 	\section{Electrolysis of Pure Molten Salts}
 
-		The electrolysis of pure molten salts is very straightforward --- there are only two substances in the solution to consider, so one will
+		The electrolysis of a pure molten salt is very straightforward --- there are only two substances in the electrolyte to consider, so one will
 		always be oxidised, and the other reduced.
 
 		If it isn't already obvious, the anion is oxidised and the cation is reduced. For example, with the electrolysis of molten \ch{Na\Cl}:
 
-		\diagram[1.0]{
-			\schemestart[0, 1.5, thick]
-				\ch{2 Na+ \stL} + \ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{2 Na \stL}
-				\arrow(@c1.south east--.north east){0}[-90,.25]
-				\ch{2 \Cl- \stL}\arrow{->[\tinytext{oxidation}]}\ch{\Cl2 \stG} + \ch{2 e-}
-			\schemestop
-		}{\vspace{-1.0em}}
+		\txtreactioneqn[1.2]{
+			\ch{2 Na+ \stL} + \ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{2 Na \stL}
+			\arrow(@c1.east--.east){0}[-90,.4]
+			\ch{2 \Cl- \stL}\arrow{->[\tinytext{oxidation}]}\ch{\Cl2 \stG} + \ch{2 e-}
+		}
 
 		When the current in the circuit flows, the electrode connected to the negative terminal of the battery will be the cathode --- it supplies
 		electrons, and \itl{reduces} the \ch{Na+} ions.
 
-		Because it's negatively charged (due to the electrons), \ch{Na+} ions will be attracted
-		to it, and migrate to the cathode. The reverse is true for the anode, attracting \ch{\Cl-} to itself.
+		Because the cathode is negatively charged (due to the electrons), \ch{Na+} ions will be attracted
+		to it, and migrate there. The reverse is true for the anode --- and \ch{\Cl-} ions migrate to it.
 
 		Note that each half-equation has its own \Eo{} value, and so the supply voltage (emf) of the battery must be greater than the total
 		\Ecell{} of the system for the reaction to occur.
@@ -54,20 +52,21 @@
 		This is more complicated, because apart from the ions from whatever salt is dissolved, water can also be oxidised and reduced --- the
 		reaction that occurs at each electrode depends on the \Eo{} of the relevant half-equations.
 
-		\diagram[1.0]{
-			\schemestart[0, 1.5, thick]
-				\ch{2 H2O \stL}\arrow{->[\tinytext{oxidation}]}\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}\hspace{5mm}$E^{\stdst}_{ox} = -1.23V$
-				\arrow(@c1.south east--.north east){0}[-90,.25]
-				\ch{2 H2O \stL} + \ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{H2 \stG} + \ch{2 OH- \stAq}\hspace{12.5mm}$E^{\stdst} = -0.83V$
-			\schemestop
-		}{\vspace{-1.0em}}
+		% align the equals signs instead of the 'E's.
+		\txtreactioneqn[1.2]{
+			\ch{2 H2O \stL}\arrow{->[\tinytext{oxidation}]}\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}
+			\arrow(.east--eq1.west){0}[,.7] \large$\;= \SI{-1.23}{\volt}$\arrow(@eq1.west--.east){0}[-180,0] \large$\MEox$
+			\arrow(@c1.east--.east){0}[-90,.4]
+			\ch{2 H2O \stL} + \ch{2 e-}\arrow{->[\tinytext{reduction}]}\ch{H2 \stG} + \ch{2 OH- \stAq}
+			\arrow(@eq1.east--eq2.east){0}[-90,.4] \large$\;= \SI{-0.83}{\volt}$\arrow(@eq2.west--.east){0}[-180,0] \large$\MEo$
+		}
 
 		The half-equations for the reduction and oxidation of water are shown above. These are always the half-equations for oxidation and
-		reduction for water, in any solution.
+		reduction of water, in any solution.
 
 		\subsection{Factors Affecting Selective Discharge}
 
-			\subsubsection{\texorpdfstring{\MEo{}}{Eo} of Half-Reactions}
+			\subsubsection{\texorpdfstring{\Eo{}}{Eo} of Half-Reactions}
 
 				The most direct and common way to identify the correct half-equation is by comparing \Eo{} values.
 				The electrolysis of \ch{CuBr2 \stAq} will be used as an example here, using inert platinum electrodes.
@@ -75,33 +74,30 @@
 
 				\paragraph{Cathode Reactions}
 
-				At the cathode, reduction is occurring; thus there are two equations to consider:
-
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{2 H2O \stL} + \ch{2 e-}\arrow\ch{H2 \stG} + \ch{2 OH- \stAq}\hspace{5mm}$E^{\stdst} = -0.83V$
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{Cu^2+ \stAq} + \ch{2 e-}\arrow\ch{Cu \stS}	\hspace{24mm}$E^{\stdst} = +0.34V$
-					\schemestop
-				}{Note that the equations are written with a single-arrow, since it is known that reduction is occurring.}
+				% align the equals signs instead of the 'E's.
+				\txtreactioneqn{
+					\ch{2 H2O \stL} + \ch{2 e-}\arrow\ch{H2 \stG} + \ch{2 OH- \stAq}
+					\arrow(.east--eq1.west){0}[,.7] \large$\;= \SI{-0.83}{\volt}$\arrow(@eq1.west--.east){0}[-180,0] \large$\MEo$
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{Cu^2+ \stAq} + \ch{2 e-}\arrow\ch{Cu \stS}
+					\arrow(@eq1.east--eq2.east){0}[-90,.4] \large$\;= \SI{+0.34}{\volt}$\arrow(@eq2.west--.east){0}[-180,0] \large$\MEo$
+				}[Note that the equations are written with a single-arrow, since it is known that reduction is occurring.]
 
 				Comparing the two half-equations, the \Eo{} value for the reduction of \ch{Cu^2+} is larger than that of the reduction of water.
 				Hence, \ch{Cu^2+} will be \itl{preferentially reduced}, depositing solid \ch{Cu} metal at the cathode.
 
 
 
-
 				\paragraph{Anode Reactions}
 
-				At the anode, oxidation is occurring; thus there are again two equations to consider:
-
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{2 H2O \stL}\arrow\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}\hspace{5mm}$E^{\stdst}_{ox} = -1.23V$
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{2 Br- \stAq}\arrow\ch{Br2 \stL} + \ch{2 e-}	\hspace{21mm}$E^{\stdst}_{ox} = -1.07V$
-					\schemestop
-				}{\vspace{-1.0em}}
+				% align the equals signs instead of the 'E's.
+				\txtreactioneqn{
+					\ch{2 H2O \stL}\arrow\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}
+					\arrow(.east--eq1.west){0}[,.7] \large$\;= \SI{-1.23}{\volt}$\arrow(@eq1.west--.east){0}[-180,0] \large$\MEox$
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{2 Br- \stAq}\arrow\ch{Br2 \stL} + \ch{2 e-}
+					\arrow(@eq1.east--eq2.east){0}[-90,.4] \large$\;= \SI{-1.07}{\volt}$\arrow(@eq2.west--.east){0}[-180,0] \large$\MEox$
+				}
 
 				Comparing the two half-equations, the \Eox{} value for the oxidation of \ch{Br-} is greater than that for
 				the oxidation of water, so \ch{Br-} is \itl{preferentially oxidised} at the anode, and \ch{Br2 \stAq} forms around the anode.
@@ -114,20 +110,23 @@
 
 			\subsubsection{Concentration of Ions}
 
-				The concentration of ions in solution can also affect the products of electrolysis. As covered in the previous chapter,
-				ion concentrations can, as explained by Le Châtelier's Principle, increase or decrease the value of \Eo{} by moving
+				The concentration of ions in solution can also affect the products of electrolysis. As covered in a previous chapter,
+				ion concentrations can, as determined by Le Châtelier's Principle, increase or decrease the value of \Eo{} by moving
 				the position of equilibrium.
 
 				The most common application of this is in the electrolysis of brine, or concentrated \ch{Na\Cl \stAq}. In a dilute solution,
 				the anode candidates are as follows:
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{2 H2O \stL}\arrow\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}\hspace{5mm}$E^{\stdst}_{ox} = -1.23V$
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{2 \Cl- \stAq}\arrow\ch{\Cl2 \stG} + \ch{2 e-}	\hspace{21mm}$E^{\stdst}_{ox} = -1.36V$
-					\schemestop
-				}{\vspace{-1.0em}}
+				% align the equals signs instead of the 'E's.
+				\txtreactioneqn{
+					\ch{2 H2O \stL}\arrow\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}
+					\arrow(.east--eq1.west){0}[,.7] \large$\;= \SI{-1.23}{\volt}$\arrow(@eq1.west--.east){0}[-180,0] \large$\MEox$
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{2 \Cl- \stAq}\arrow\ch{\Cl2 \stG} + \ch{2 e-}
+					\arrow(@eq1.east--eq2.east){0}[-90,.4] \large$\;= \SI{-1.36}{\volt}$\arrow(@eq2.west--.east){0}[-180,0] \large$\MEox$
+				}
+
+
 
 				The \Eox{} value for the oxidation of water is larger than for the oxidation of \ch{Cl-}, so water is preferentially oxidised.
 
@@ -138,7 +137,8 @@
 				\Eox{} value to \enquote{surpass} that of water, allowing chlorine gas to be preferentially discharged.
 
 				At the cathode, nothing new happens --- water is still reduced, because the difference between the \Eo{} values of \ch{Na+} and
-				\ch{H2O} are too great, at $-2.71V$ and $-0.83V$ respectively, something a change in concentration cannot overcome.
+				\ch{H2O} are too great, at $\SI{-2.71}{\volt}$ and $\SI{-0.83}{\volt}$ respectively --- something a change in concentration
+				cannot overcome.
 
 			% end subsubsection
 
@@ -152,21 +152,25 @@
 				For example, in the electrolysis of \ch{CuSO4 \stAq}, a copper anode is often used. Now, at the anode there are three
 				competing half-reactions:
 
+				% align the equals signs instead of the 'E's.
+				\txtreactioneqn{
+					\ch{2 H2O \stL}\arrow\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}
+					\arrow(.east--eq1.west){0}[,.7] \large$\;= \SI{-1.23}{\volt}$\arrow(@eq1.west--.east){0}[-180,0] \large$\MEox$
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{2 SO4^2- \stAq}\arrow\ch{S2O8^2- \stAq} + \ch{2 e-}
+					\arrow(@eq1.east--eq2.east){0}[-90,.4] \large$\;= \SI{-2.01}{\volt}$\arrow(@eq2.west--.east){0}[-180,0] \large$\MEox$
+					\arrow(@c5.east--.east){0}[-90,.4]
+					\ch{Cu \stS}\arrow\ch{Cu^2+ \stAq} + \ch{2 e-}
+					\arrow(@eq2.east--eq3.east){0}[-90,.4] \large$\;= \SI{-0.34}{\volt}$\arrow(@eq3.west--.east){0}[-180,0] \large$\MEox$
+				}
 
-				\diagram[1.0]{
-					\schemestart[0, 1.0, thick]
-						\ch{2 H2O \stL}\arrow\ch{O2 \stG} + \ch{4 H+ \stAq} + \ch{4 e-}\hspace{10mm}$E^{\stdst}_{ox} = -1.23V$
-						\arrow(@c1.south east--.north east){0}[-90,.25]
-						\ch{2 SO4^2- \stAq}\arrow\ch{S2O8^2- \stAq} + \ch{2 e-}	\hspace{18.5mm}$E^{\stdst}_{ox} = -2.01V$
-						\arrow(@c3.south east--.north east){0}[-90,.25]
-						\ch{Cu \stS}\arrow\ch{Cu^2+ \stAq} + \ch{2 e-}	\hspace{21.25mm}$E^{\stdst}_{ox} = -0.34V$
-					\schemestop
-				}{\vspace{-1.0em}}
+
+
 
 				The last equation is only relevant because of \ch{Cu} atoms being introduced by the copper anode. Since its \Eox{} value is the
 				greatest among the 3, copper is preferentially oxidised to \ch{Cu^2+} ions in solution.
 
-				One final note --- while graphite is often considered inert in many cases for ionic electrolysis, if \ch{O2 \stG} is formed and
+				One final note --- while graphite is typically considered inert in many cases for ionic electrolysis, if \ch{O2 \stG} is formed and
 				comes into contact with the graphite, \ch{CO2} and \ch{CO} is often formed.
 
 
@@ -188,10 +192,10 @@
 
 			--- \itl{Michael Faraday}
 
-			Faraday's Law of Electrolysis can be applied, along with some other physics formulae, to derive various relationship things. Note
+			Faraday's Law of Electrolysis can be applied, along with some other physics formulae, to derive various relationships. Note
 			that the number of moles of electrons passed depends on its mole ratio with the number of moles of product formed.
 
-			Faraday also has a constant --- the Faraday Constant (lol), that is the ratio of charge to number of moles of electrons; the
+			Faraday also has a constant --- the aptly named Faraday Constant, that is the ratio of charge to number of moles of electrons; the
 			quantity of charge carried per mole of electrons is 1 Faraday.
 
 		% end subsection
@@ -199,35 +203,35 @@
 
 		\subsection{Formulae}
 
-			\txtdiagram{
-				$Q = I \times t$
-			}{\vspace{-1.5em}}
+			\mathdiagram{
+				\[ Q = I \times t \]
+			}
 
-			\tabto{0mm}$Q$: \tabto{10mm}the quantity of charge passed, in coulombs (\si{\coulomb})
-			\tabto{0mm}$I$: \tabto{10mm}the current provided, in amperes (\si{\ampere})
-			\tabto{0mm}$t$:	\tabto{10mm}the time in seconds
-
-			\vspace{1em}
-
-
-			\txtdiagram{
-				$Q = n(e) \times F$
-			}{\vspace{-1.5em}}
-
-			\tabto{0mm}$Q$:		\tabto{10mm}the quantity of charge passed, in coulombs (\si{\coulomb})
-			\tabto{0mm}$n(e)$:	\tabto{10mm}the number of moles of electrons passed during electrolysis
-			\tabto{0mm}$F$:		\tabto{10mm}Faraday Constant (approx. \SI{96500}{\coulomb\per\mole})
+			\tabto{0mm}$Q$:     \tabto{10mm}the quantity of charge passed, in coulombs (\si{\coulomb})
+			\tabto{0mm}$I$:     \tabto{10mm}the current provided, in amperes (\si{\ampere})
+			\tabto{0mm}$t$:     \tabto{10mm}the time in seconds
 
 			\vspace{1em}
 
 
-			\txtdiagram{
-				$F = L \times e$
-			}{\vspace{-1.5em}}
+			\mathdiagram{
+				\[ Q = n(e) \times F \]
+			}
 
-			\tabto{0mm}$F$:		\tabto{10mm}Faraday Constant (approx. \SI{96500}{\coulomb\per\mole})
-			\tabto{0mm}$L$:		\tabto{10mm}Avogadro Constant (approx. \SI{6.02e-23})
-			\tabto{0mm}$e$:		\tabto{10mm}The charge of one electron (approx. \SI{1.60e-19}{\coulomb})
+			\tabto{0mm}$Q$:     \tabto{10mm}the quantity of charge passed, in coulombs (\si{\coulomb})
+			\tabto{0mm}$n(e)$:  \tabto{10mm}the number of moles of electrons passed during electrolysis
+			\tabto{0mm}$F$:     \tabto{10mm}Faraday Constant (approx. \SI{96500}{\coulomb\per\mole})
+
+			\vspace{1em}
+
+
+			\mathdiagram{
+				\[ F = L \times e \]
+			}
+
+			\tabto{0mm}$F$:     \tabto{10mm}Faraday Constant (approx. \SI{96500}{\coulomb\per\mole})
+			\tabto{0mm}$L$:     \tabto{10mm}Avogadro Constant (approx. \SI{6.02e-23})
+			\tabto{0mm}$e$:     \tabto{10mm}The charge of one electron (approx. \SI{1.60e-19}{\coulomb})
 
 
 			Note that this last formula is only used when the question requires calculating either $F$, $L$ or $e$ from experimental data.
@@ -246,15 +250,12 @@
 		\subsection{Electrolysis of Brine}
 
 			As discussed above, electrolysis of \itl{concentrated} \ch{Na\Cl \stAq} yields \ch{\Cl2 \stG}, which is an industrially
-			important compound. It also creates \ch{H2 \stG} and \ch{NaOH \stAq}, which are both important compounds.
+			important compound. It also creates \ch{H2 \stG} and \ch{NaOH \stAq}, which are also useful products.
 
 			\imgdiagram{100mm}{../figures/physical/ch09/brine_electrolysis.png}{Electrolysis of Brine}
 
-			Apologies for the crude diagram, it's my best effort at Google-fu. As can be seen, \ch{\Cl2 \stG}, \ch{H2 \stG} and
-			\ch{NaOH \stAq} can all be extracted separately.
-
 			Of note is the fact that the level of solution on the left is higher than on the right --- this is important to ensure that
-			the \ch{OH-} ions formed at the cathode do not flow back to the anode to be re-oxidised, contaminating the reactants.
+			the \ch{OH-} ions formed at the cathode do not flow back to the anode to be re-oxidised and contaminate the reactants.
 
 		% end subsection
 
@@ -280,35 +281,41 @@
 		\subsection{Electrolytic Purification of Copper}
 
 			Copper minerals often contain small amounts of other metals, like zinc and silver. After a process of oxidation followed by
-			reduction, the purely metallic form of these atoms are obtained. Of course, the silver and zinc impurities are still present
-			in the metal.
+			reduction, the purely metallic form of these atoms can be obtained --- including the silver and zinc impurities.
 
 			Electrolytic purification takes advantage of the different \Eo{} values between copper and the impurities, to preferentially
-			oxidise and discharge only the wanted ions.
+			oxidise and reduce only the wanted ions.
 
 			\imgdiagram{100mm}{../figures/physical/ch09/copper_purification.png}{Electrolytic Purification of Copper}
 
 			The relevant half-equations, and more importantly \Eo{} and \Eox{} values, for each metal are shown below:
 
-			\diagram[1.0]{
-				\schemestart[0, 1.0, thick]
-					\ch{Zn \stS}\arrow\ch{Zn^2+ \stAq} + \ch{2 e-}	\hspace{10mm}$E^{\stdst}_{ox} = +0.76V$\hspace{10mm}$E^{\stdst} = -0.76V$
-					\arrow(@c1.south east--.north east){0}[-90,.25]
-					\ch{Cu \stS}\arrow\ch{Cu^2+ \stAq} + \ch{2 e-}	\hspace{10mm}$E^{\stdst}_{ox} = -0.34V$\hspace{10mm}$E^{\stdst} = +0.34V$
-					\arrow(@c3.south east--.north east){0}[-90,.25]
-					\ch{Ag \stS}\arrow\ch{Ag+ \stAq} + \ch{ e-}		\hspace{14.5mm}$E^{\stdst}_{ox} = -0.80V$\hspace{10mm}$E^{\stdst} = +0.80V$
-				\schemestop
-			}{\vspace{-1.0em}}
+
+			% align the equals signs instead of the 'E's.
+			\txtreactioneqn{
+				\ch{Zn \stS}\arrow\ch{Zn^2+ \stAq} + \ch{2 e-}
+				\arrow(.east--eq1.west){0}[,.6] \large$\;= \SI{+0.76}{\volt}\qquad \MEo = \SI{-0.76}{\volt}$
+				\arrow(@eq1.west--.east){0}[-180,0] \large$\MEox$
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{Cu \stS}\arrow\ch{Cu^2+ \stAq} + \ch{2 e-}
+				\arrow(@eq1.east--eq2.east){0}[-90,.4] \large$\;= \SI{-0.34}{\volt}\qquad \MEo = \SI{+0.34}{\volt}$
+				\arrow(@eq2.west--.east){0}[-180,0] \large$\MEox$
+				\arrow(@c5.east--.east){0}[-90,.4]
+				\ch{Ag \stS}\arrow\ch{Ag+ \stAq} + \ch{ e-}
+				\arrow(@eq2.east--eq3.east){0}[-90,.4] \large$\;= \SI{-0.80}{\volt}\qquad \MEo = \SI{+0.80}{\volt}$
+				\arrow(@eq3.west--.east){0}[-180,0] \large$\MEox$
+			}
+
 
 			At the anode, the \Eox{} of zinc is greater than that for copper, so it will be preferentially oxidised into \ch{Zn^2+}. However,
-			it is an impurity, in small amounts. Thus, once all the \ch{Zn} has been oxidised, the next highest \Eox{} metal is oxidised, in
-			this case copper. As the copper atoms around it dissolve into solution, the unreacted \ch{Ag} atoms collect as anode sludge below
-			the anode.
+			it only exists in small amounts, and once all the \ch{Zn} has been oxidised, the next highest \Eox{} metal is oxidised --- in
+			this case copper. As the copper is oxidised into aqueous ions, the unreacted \ch{Ag} collects as \itl{anode sludge}
+			below the anode.
 
 			At the cathode, both \ch{Cu^2+} and \ch{Zn^2+} are present. Looking at the \Eo{} values however, copper is preferentially reduced
 			due to its higher \Eo{} value, and \ch{Zn^2+} ions remain in solution.
 
-			Of course water is present at both electrodes, but looking at the values for \Eo{}, it is irrelevant.
+			Water is also present at both electrodes, but looking at the values for \Eo{}, it is irrelevant.
 
 			A pure copper cathode is used, such that the newly-pure copper collects on already-pure copper --- the impure copper is used as
 			the anode. The electrolyte is typically \ch{CuSO4 \stAq}.

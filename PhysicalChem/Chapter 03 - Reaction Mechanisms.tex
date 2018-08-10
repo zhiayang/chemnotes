@@ -91,11 +91,11 @@
 				%* to accommodate the text above the arrow (step 1, slow/fast etc.)
 				\txtreactioneqntwo[1.7]{
 					\ch{NO2} + \ch{F2}\arrow{->[\tinytext{Step 1 (slow)}]}\ch{NO2F} + \ch{F}
-					\arrow(@c1.south east--.north east){0}[-90,.35]
+					\arrow(@c1.east--.east){0}[-90,.4]
 					\ch{NO2} + \ch{F}\arrow{->[\tinytext{Step 2 (fast)}]}\ch{NO2F}
-					\arrow(@c3.south east--.north east){0}[-90,.35]
+					\arrow(@c3.east--.east){0}[-90,.4]
 					\ch{2 NO2} + \ch{F2}\arrow{->[\tinytext{Overall}]}\ch{2 NO2F}
-				}{\vspace{0.5em}Rate = k[\ch{NO2}][\ch{F2}]}
+				}{\vspace{0.5em}$\mathrm{Rate}$ = $k[\ch{NO2}][\ch{F2}]$}
 
 				As can be seen, the orders of reaction of \ch{NO2} and \ch{F2} follow the coefficients in the rate-determining slow
 				step, not the overall equation. This is the case for a reaction where the slow step is the first step.
@@ -112,9 +112,9 @@
 
 				\txtreactioneqn[1.7]{
 					\ch{NO} + \ch{O2}\arrow{<=>[\tinytext{Step 1 (fast, reversible)}]}\ch{NO3}
-					\arrow(@c1.south east--.north east){0}[-90,.35]
+					\arrow(@c1.east--.east){0}[-90,.4]
 					\ch{NO3} + \ch{NO}\arrow{->[\tinytext{Step 2 (slow)}]}\ch{2 NO2}
-					\arrow(@c3.south east--.north east){0}[-90,.35]
+					\arrow(@c3.east--.east){0}[-90,.4]
 					\ch{2 NO} + \ch{O2}\arrow{->[\tinytext{Overall}]}\ch{2 NO2}
 				}
 
@@ -130,20 +130,20 @@
 				[\ch{NO3}] in terms of [\ch{NO2}] and [\ch{O2}].
 
 				\mathdiagram{
-					\[ K_{c} = \frac{[\ch{NO3}]}{[\ch{NO}][\ch{O2}]} \]
+					\[ \MKc = \frac{[\ch{NO3}]}{[\ch{NO}][\ch{O2}]} \]
 				}
 
 				\pagebreak
 				Moving things around, the following is conceived:
 
 				\mathdiagram{
-					\[ [\ch{NO3}] = K_{c}[\ch{NO}][\ch{O2}] \]
+					\[ [\ch{NO3}] = \MKc[\ch{NO}][\ch{O2}] \]
 				}
 
-				Thus, substituting this into the original, partial rate equation and refactoring $k = k_{1} \times K_{c}$:
+				Thus, substituting this into the original, partial rate equation and refactoring $k = k_{1} \times \MKc$:
 
 				\mathdiagram{
-					\[ R = k_{1}K_{c}[\ch{NO}][\ch{O2}][\ch{NO}] = k[\ch{NO}]^{2}[\ch{O2}]\]
+					\[ R = k_{1}\MKc[\ch{NO}][\ch{O2}][\ch{NO}] = k[\ch{NO}]^{2}[\ch{O2}]\]
 				}
 
 
@@ -245,11 +245,11 @@
 				these two species do not interact directly. Instead, the positively charged \ch{Fe^2+} and \ch{Fe^3+} ions easily attract the
 				negative ions, and it is oxidised and reduced by \ch{S2O8^2-} and \ch{I-} respectively.
 
-				\txtreactioneqn[1.5]{
+				\txtreactioneqn[1.2]{
 					\ch{2 Fe^2+} + \ch{S2O8^2-}\arrow{->[\tinytext{Step 1}]}\ch{2 Fe^3+} + \ch{2 SO4^2-}
-					\arrow(@c1.south east--.north east){0}[-90,.35]
+					\arrow(@c1.east--.east){0}[-90,.4]
 					\ch{2 Fe^3+} + \ch{2 I-}\arrow{->[\tinytext{Step 2}]}\ch{I2} + \ch{Fe^2+}
-					\arrow(@c3.south east--.north east){0}[-90,.35]
+					\arrow(@c3.east--.east){0}[-90,.4]
 					\ch{S2O8^2-} + \ch{2 I-}\arrow{->[\tinytext{Overall}]}\ch{I2} + \ch{2 SO4^2-}
 				}
 
@@ -265,11 +265,11 @@
 				In the atmosphere, nitrogen dioxide often catalyses the oxidation of \ch{SO2} to \ch{SO3}, thus
 				forming acid rain (mainly \ch{H2SO4}). It is catalysed in two steps:
 
-				\txtreactioneqn[1.5]{
+				\txtreactioneqn[1.2]{
 					\ch{SO2} + \ch{NO2}\arrow{->[\tinytext{Step 1}]}\ch{SO3} + \ch{NO}
-					\arrow(@c1.south east--.north east){0}[-90,.35]
+					\arrow(@c1.east--.east){0}[-90,.4]
 					\ch{NO} + \ch{\fracHalf O2}\arrow{->[\tinytext{Step 2}]}\ch{NO2}
-					\arrow(@c3.south east--.north east){0}[-90,.35]
+					\arrow(@c3.east--.east){0}[-90,.4]
 					\ch{SO2} + \ch{\fracHalf O2}\arrow{->[\tinytext{Overall}]}\ch{SO3}
 				}
 

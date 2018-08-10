@@ -71,7 +71,8 @@
 	double bond sep = 1.25mm,       % spacing between lines in a double bond
 	atom sep        = 12mm,         % fixed length of a bond
 	bond offset     = 1mm,          % margin
-	bond style      = line width=0.45mm
+	bond style      = line width=0.45mm,
+	% scheme debug    = true
 }
 
 \usetikzlibrary{arrows.meta,calc,positioning,decorations}
@@ -233,7 +234,7 @@
 	[{\makebox[0mm][l]{}}]
 
 \titleformat{\paragraph}
-	{\Roboto\fontsize{15pt}{18pt}\selectfont\bfseries}
+	{\Roboto\fontsize{15pt}{18pt}\selectfont}
 	{\llap{\hspace*{-\titleNumberInsetLength}\MyriadPro\fontsize{12pt}{14pt}\selectfont\hfill}}
 	{0.0em}
 	{}
@@ -330,7 +331,7 @@
 \DeclareSIUnit\molarConc{\mole\per\cubic\deci\metre}
 \DeclareSIUnit\kJmol{\kilo\joule\per\mole}
 
-
+\sisetup{retain-explicit-plus = true}
 
 \newcommand\setpolymerdelim[2]{\def\delimleft{#1}\def\delimright{#2}}
 \def\makebraces[#1,#2]#3#4#5{%
@@ -535,7 +536,7 @@
 										\schemestop%
 									}\\
 									\vspace{3mm}
-									{#3}
+									{\fontsize{13pt}{14pt}\selectfont#3}
 								\end{center}
 
 								%* if the caption is empty, we insert some negative vertical space.
@@ -547,6 +548,7 @@
 								}
 								\end{figure}
 							}
+
 
 
 
@@ -632,6 +634,8 @@
 \newcommand {\sptwo}		{sp\sps{2} }
 \newcommand {\spthree}		{sp\sps{3} }
 
+\newcommand {\emf}          {\itl{emf}}
+
 % small(er)
 \newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfontδ\sps{+}\normtext }
 \newcommand {\smdeltam}		{\fontsize{10pt}{12pt}\selectfontδ\sps{-}\normtext }
@@ -654,44 +658,61 @@
 \newcommand	{\entr}			{$\Delta S$}
 \newcommand {\gibb}			{$\Delta G$}
 
-\newcommand {\Kc}			{$K_{c}$}
-\newcommand {\Kp}			{$K_{p}$}
-\newcommand {\Ksp}			{$K_{sp}$}
-\newcommand {\Kstab}		{$K_{stab}$}
-
-\newcommand {\Qc}			{$Q_{c}$}
-\newcommand {\Qp}			{$Q_{p}$}
-
-\newcommand {\MKc}			{K_{c}}
-\newcommand {\MKp}			{K_{p}}
-\newcommand {\MKsp}			{K_{sp}}
-
-\newcommand {\MKstab}		{K_{stab}}
 
 % renew because chemmacro defines this, but not properly (ugly)
-\renewcommand {\pH}         {pH}        %{$\mathrm{p}\ch{H}$}
-\renewcommand {\pOH}        {pOH}       %{$\mathrm{p}\ch{OH}$}
-\renewcommand {\pKa}        {p$K_{a}$}  %{$\mathrm{p}K_{a}$}
-\renewcommand {\pKb}        {p$K_{b}$}  %{$\mathrm{p}K_{b}$}
-\renewcommand {\Kw}			{$K_{w}$}
-\renewcommand {\Ka}			{$K_{a}$}
-\renewcommand {\Kb}			{$K_{b}$}
+\newcommand     {\pI}       {pI}
 
-\newcommand {\pI}           {pI}                %{$\mathrm{p}I$}
-\newcommand {\pKw}          {p$K_{w}$}          %{$\mathrm{p}K_{w}$}
-\newcommand {\MpKw}         {\mathrm{p}K_{w}}   %{pK\sbs{w}}
+\renewcommand   {\pH}       {pH}                    %{$\mathrm{p}\ch{H}$}
+\newcommand     {\MpH}      {\mathrm{p}\ch{H}}
 
-\newcommand {\MpH}			{\mathrm{p}\ch{H}}
-\newcommand {\MpOH}			{\mathrm{p}\ch{OH}}
-\newcommand {\MpKa}			{\mathrm{p}K_{a}}
-\newcommand {\MpKb}			{\mathrm{p}K_{b}}
-\newcommand {\MKw}			{K_{w}}
-\newcommand {\MKa}			{K_{a}}
-\newcommand {\MKb}			{K_{b}}
+\renewcommand   {\pOH}      {pOH}                   %{$\mathrm{p}\ch{OH}$}
+\newcommand     {\MpOH}     {\mathrm{p}\ch{OH}}
 
-\newcommand {\Mp}[1]        {\mathrm{p}\mathrm{#1}}
-\newcommand {\MK}[1]        {K_{#1}}
-\newcommand {\MpK}[1]       {\mathrm{p}K_{#1}}
+
+\renewcommand   {\Ka}       {$K_{a}$}
+\renewcommand   {\pKa}      {$\mathrm{p}K_{a}$}
+\newcommand     {\MKa}      {K_{a}}
+\newcommand     {\MpKa}     {\mathrm{p}K_{a}}
+
+\renewcommand   {\Kb}       {$K_{b}$}
+\renewcommand   {\pKb}      {$\mathrm{p}K_{b}$}
+\newcommand     {\MKb}      {K_{b}}
+\newcommand     {\MpKb}     {\mathrm{p}K_{b}}
+
+\renewcommand   {\Kw}       {$K_{w}$}
+\newcommand     {\pKw}      {$\mathrm{p}K_{w}$}
+\newcommand     {\MKw}      {K_{w}}
+\newcommand     {\MpKw}     {\mathrm{p}K_{w}}
+
+\newcommand     {\Kc}       {$K_{c}$}
+\newcommand     {\pKc}      {$\mathrm{p}K_{c}$}
+\newcommand     {\MKc}      {K_{c}}
+\newcommand     {\MpKc}     {\mathrm{p}K_{c}}
+
+\newcommand     {\Kp}       {$K_{p}$}
+\newcommand     {\pKp}      {$\mathrm{p}K_{p}$}
+\newcommand     {\MKp}      {K_{p}}
+\newcommand     {\MpKp}     {\mathrm{p}K_{p}}
+
+\newcommand     {\Ksp}      {$K_{sp}$}
+\newcommand     {\pKsp}     {$\mathrm{p}K_{sp}$}
+\newcommand     {\MKsp}     {K_{sp}}
+\newcommand     {\MpKsp}    {\mathrm{p}K_{sp}}
+
+\newcommand     {\Qc}       {$Q_{c}$}
+\newcommand     {\MQc}      {Q_{c}}
+
+\newcommand     {\Qp}       {$Q_{p}$}
+\newcommand     {\MQp}      {Q_{p}}
+
+
+\newcommand     {\K}[1]     {$K_{#1}$}
+\newcommand     {\pK}[1]    {$\mathrm{p}K_{#1}$}
+\newcommand     {\MK}[1]    {K_{#1}}
+\newcommand     {\MpK}[1]   {\mathrm{p}K_{#1}}
+
+\newcommand     {\Mp}[1]    {\mathrm{p}\mathrm{#1}}
+
 
 
 \newcommand {\Ecell}		{$E^{\stdst}_{cell}$}
@@ -702,6 +723,8 @@
 
 \newcommand {\Eox}			{$E^{\stdst}_{ox}$}
 \newcommand {\MEox}			{E\spbs{\stdst}{ox}}
+
+
 
 \newcommand	{\stG}			{ \fontsize{0.80em}{1.0em}\selectfont(g)\normtext}
 \newcommand	{\stL}			{ \fontsize{0.80em}{1.0em}\selectfont(\itl{l})\normtext}
