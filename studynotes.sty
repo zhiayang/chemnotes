@@ -29,6 +29,7 @@
 \RequirePackage{ulem}
 \RequirePackage{ifoddpage}
 \RequirePackage{xparse}
+\RequirePackage{datetime2}
 \RequirePackage[makeroom]{cancel}
 
 \RequirePackage[newparttoc, clearempty]{titlesec}
@@ -596,7 +597,7 @@
 
 
 \makeatletter
-\newcommand\dotlewis[3][\CF@lewis@dist]{% #1=distance, #2=atom #3=list of angles
+\newcommand\dotlewis[3][0.3em]{% #1=distance, #2=atom #3=list of angles
 \tikzpicture[baseline,anchor=base]%
 \node[inner sep=0pt,outer sep=1pt,circle,overlay](atom@@)at(0,0){\phantom{#2}};%
 \node[inner sep=0pt,outer sep=0pt]at(0,0){#2};%
