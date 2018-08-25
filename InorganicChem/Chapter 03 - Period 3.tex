@@ -8,21 +8,15 @@
 
 	\section{Overview}
 
-		This chapter will study the 7 elements in the third period; sodium (\ch{Na}), magnesium (\ch{Mg}), aluminium (\ch{\Al}), silicon (\ch{Si}),
-		phosphorus (\ch{P}), sulphur (\ch{S}), and chlorine (\ch{\Cl}). Argon is... inert.
+		This chapter will examine the 7 elements in the third period; sodium (\ch{Na}), magnesium (\ch{Mg}), aluminium (\ch{\Al}), silicon (\ch{Si}),
+		phosphorus (\ch{P}), sulphur (\ch{S}), and chlorine (\ch{\Cl}). Argon is... inert. Mostly.
 
 	% end section
 
 	\section{Elemental Reactions}
 
-		Generally speaking, the reactivity of the elements with both oxygen and chlorine \itl{decrease} across the period. Both of them
-		are oxidising agents, and since reducing power decreases across the period, they are less likely to be oxidised.
-
-		White phosphorus (\ch{P4}) has a tetrahedral shape that incurs some strain in the bonds due to their angles, increasing its
-		reactivity.
-
-		% formatting note: when at the end of a section (ie. there is a header immediately following) a txtdiagram, the vspace should be
-		% -2em, and only -1em when there is normal text following.
+		Generally speaking, the reactivity of the elements with both oxygen and chlorine \itl{decrease} across the period. Since reducing power
+		decreases across the period, elements are less likely to be oxidised by oxygen and chlorine.
 
 		\subsection{Reaction with Oxygen}
 
@@ -30,11 +24,9 @@
 
 				Sodium metal tarnishes rapidly in air, and burns readily with a \itl{bright yellow} flame.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 Na \stS} + \ch{\fraction{1}{2} O2 \stG}\arrow\ch{Na2O \stS}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{2 Na \stS} + \ch{\fracHalf O2 \stG} \arrow \ch{Na2O \stS}
+				}
 
 			% end subsubsection
 
@@ -43,41 +35,35 @@
 				Magnesium metal tarnishes in air, albeit less readily than sodium. It burns very strongly with a \itl{bright white} flame, and
 				its combustion is highly exothermic.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Mg \stS} + \ch{\fraction{1}{2} O2 \stG}\arrow\ch{MgO \stS}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{Mg \stS} + \ch{\fracHalf O2 \stG} \arrow \ch{MgO \stS}
+				}
 
 			% end subsubsection
 
 			\pagebreak
 			\subsubsection{Aluminium}
 
-				Aluminium metal is readily oxidised by air, and forms a protective layer of aluminium oxide (\ch{\Al2O3}) that protects the
+				Aluminium metal is readily oxidised by air, and forms a protective layer of aluminium oxide (\ch{\Al2O3}) that shields the
 				metal inside from further oxidation.
 
 				High temperatures (above \SI{800}{\celsius}) are required to fully oxidise aluminium.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 \Al \stS} + \ch{\fraction{3}{2} O2 \stG}\arrow\ch{\Al2O3 \stS}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{2 \Al \stS} + \ch{\fracThreeTwo O2 \stG} \arrow \ch{\Al2O3 \stS}
+				}
 
 			% end subsubsection
 
 			\subsubsection{Silicon}
 
 				Silicon \itl{does not} react with oxygen at room temperature. When strongly heated, some silicon dioxide (\ch{SiO2}) can be
-				formed. Silicon is a giant covalent molecule, so large amounts of energy need to be supplied to allow any reactions to
+				formed. Silicon is a giant covalent molecule, so large amounts of energy need to be supplied to allow any reaction to
 				take place.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Si \stS} + \ch{O2 \stG}\arrow\ch{SiO2 \stS}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{Si \stS} + \ch{O2 \stG} \arrow \ch{SiO2 \stS}
+				}
 
 			% end subsubsection
 
@@ -88,15 +74,13 @@
 
 				The former \itl{spontaneously combusts} in air with a bright white flame, due to the strained tetrahedral bonds in the molecule.
 				On the other hand, red phosphorus is more stable, and will burn on heating with a soft orange flame; the products for both
-				forms of phosphorus are identical.
+				forms of phosphorus are identical:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{P4 \stS} + \ch{3 O2 \stG}\arrow\ch{P4O6 \stS}
-						\arrow(@c1.south east--.north east){0}[-90,.20]
-						\ch{P4 \stS} + \ch{5 O2 \stG}\arrow\ch{P4O10 \stS}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{P4 \stS} + \ch{3 O2 \stG} \arrow \ch{P4O6 \stS}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{P4 \stS} + \ch{5 O2 \stG} \arrow \ch{P4O10 \stS}
+				}
 
 				With limited oxygen, the predominant product will be \ch{P4O6}; in excess oxygen, the major product will be \ch{P4O10}.
 
@@ -105,125 +89,108 @@
 			\pagebreak
 			\subsubsection{Sulphur}
 
-				Sulphur is stable at room temperature, and requires some heating to burn --- it burns with a pale blue flame.
+				Sulphur is stable at room temperature, and requires some heating to burn --- with a pale blue flame:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{S \stS} + \ch{O2 \stG}\arrow\ch{SO2 \stG}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{S \stS} + \ch{O2 \stG} \arrow \ch{SO2 \stG}
+				}
 
 				With a catalyst (eg. vanadium oxide \ch{V2O5}), \ch{SO2} can be further oxidised:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{SO2 \stG} + \ch{\fraction{1}{2} O2 \stG}\arrow\ch{SO3 \stG}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{SO2 \stG} + \ch{\fracHalf O2 \stG} \arrow \ch{SO3 \stG}
+				}
 
 			% end subsubsection
 
 			\subsubsection{Chlorine}
 
-				Chlorine does not directly react with oxygen, because it is unlikely for it to be oxidised by oxygen.
+				Chlorine rarely reacts directly with oxygen, because it is a stronger oxidising agent than oxygen and hence unlikely to be
+				oxidised.
 
 			% end subsubsection
-
-
 		% end subsection
 
-		\pagebreak
+
 		\subsection{Reaction with Chlorine}
 
 			\subsubsection{Sodium}
 
-				Sodium metal is readily oxidised by chlorine and burns in the gas, in a highly exothermic reaction.
+				Sodium metal is readily oxidised by chlorine and burns in it, with highly exothermic reaction:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 Na \stS} + \ch{\Cl2 \stG}\arrow\ch{Na\Cl \stS}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{2 Na \stS} + \ch{\Cl2 \stG} \arrow \ch{Na\Cl \stS}
+				}
 
 			% end subsubsection
 
 			\subsubsection{Magnesium}
 
-				Magnesium's reaction with chlorine is similar to that of sodium.
+				Magnesium's reaction with chlorine is similar to that of sodium:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Mg \stS} + \ch{\Cl2 \stG}\arrow\ch{Na\Cl \stS}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{Mg \stS} + \ch{\Cl2 \stG} \arrow \ch{Na\Cl \stS}
+				}
 
 			% end subsubsection
 
 			\subsubsection{Aluminium}
 
-				Aluminium does not react \itl{that} readily with chlorine. The reaction can be sped up by passing \itl{dry} chlorine gas
-				over heated aluminium foil (larger surface area).
+				Aluminium does not \itl{quite} react readily with chlorine. The reaction can be sped up by passing \itl{dry} chlorine gas
+				over heated aluminium foil (larger surface area):
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{\Al \stS} + \ch{\fraction{3}{2} \Cl2 \stG}\arrow\ch{\Al\Cl3 \stS}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{\Al \stS} + \ch{\fracThreeTwo \Cl2 \stG} \arrow \ch{\Al\Cl3 \stS}
+				}
 
 				\ch{\Al\Cl3} typically sublimes into the gaseous state.
 
 			% end subsubsection
 
+
+			\pagebreak
 			\subsubsection{Silicon}
 
 				The reaction of silicon with chlorine is even slower than with aluminium, but if heated silicon powder is used, the
 				reaction can be sped up slightly.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Si \stS} + \ch{2 \Cl2 \stG}\arrow\ch{Si\Cl4 \stL}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{Si \stS} + \ch{2 \Cl2 \stG} \arrow \ch{Si\Cl4 \stL}
+				}
 
 				Silicon tetrachloride is a liquid at room temperature.
 
 			% end subsubsection
 
-			\pagebreak
 			\subsubsection{Phosphorus}
 
-				White phosphorus (\ch{P4}) burns vigorously in chlorine gas to form \ch{P\Cl3} and \ch{P\Cl5}. As covered previously, the
-				formation of \ch{P\Cl5} occurs in an equilibrium, so excess chlorine gas should be used to favour the production of the latter,
-				and limited chlorine to prefer the former.
+				White phosphorus (\ch{P4}) burns vigorously in chlorine gas to form \ch{P\Cl3} and \ch{P\Cl5}:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{P4 \stS} + \ch{6 \Cl2 \stG}\arrow\ch{4 P\Cl3 \stL}
-						\arrow(@c1.south east--.north east){0}[-90,.20]
-						\ch{P4 \stS} + \ch{10 \Cl2 \stG}\arrow\ch{4 P\Cl5 \stS}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{P4 \stS} + \ch{6 \Cl2 \stG} \arrow \ch{4 P\Cl3 \stL}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{P4 \stS} + \ch{10 \Cl2 \stG} \arrow \ch{4 P\Cl5 \stS}
+				}
+
+				The formation of \ch{P\Cl5} occurs in an equilibrium, so excess chlorine gas should be used to favour the production of the latter,
+				or limited chlorine to prefer the former:
+
+				\txtreactioneqn{
+					\ch{P\Cl3 \stL} + \ch{\Cl2 \stG} \arrow{<=>} \ch{P\Cl5 \stS}
+				}
 
 			% end subsubsection
 
 			\subsubsection{Sulphur}
 
-				Heated sulphur can react with chlorine gas.
+				Heated sulphur can react with chlorine gas:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 S \stS} + \ch{\Cl2 \stG}\arrow\ch{S2\Cl2 \stL}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{2 S \stS} + \ch{\Cl2 \stG} \arrow \ch{S2\Cl2 \stL}
+				}
 
 			% end subsubsection
 
-			\subsubsection{Chlorine}
-
-				What did you expect to find in this section, really? Oh, of course; chlorine gas reacts vigorously with chlorine gas in an
-				explosive reaction possessing the force of 100 megatons of TNT.
-
-			% end subsubsection
 		% end subsection
 
 
@@ -232,78 +199,66 @@
 
 			\subsubsection{Sodium}
 
-				Sodium, like group \bld{\romannum{I}} metals, reacts vigorously even with cold water.
+				Sodium, characteristic of group 1 metals, reacts vigorously even with cold water.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 Na \stS} + \ch{2 H2O \stL}\arrow\ch{2 NaOH \stAq} + \ch{H2 \stG}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{2 Na \stS} + \ch{2 H2O \stL} \arrow \ch{2 NaOH \stAq} + \ch{H2 \stG}
+				}
 
 			% end subsubsection
 
 			\subsubsection{Magnesium}
 
-				As covered in the chapter on the group \bld{\romannum{II}} metals, magnesium reacts slowly with cold water, due to the
-				low solubility of the hydroxide forming a layer around the metal.
+				Magnesium reacts slowly with cold water, due to the formation of a mostly-insoluble hydroxide layer around the metal.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Mg \stS} + \ch{2 H2O \stL}\arrow\ch{Mg(OH)2 \stS} + \ch{H2 \stG}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{Mg \stS} + \ch{2 H2O \stL} \arrow \ch{Mg(OH)2 \stS} + \ch{H2 \stG}
+				}
 
-				However with steam, magnesium reacts directly to form magnesium oxide.
+				With steam however, magnesium reacts directly to form magnesium oxide:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Mg \stS} + \ch{H2O \stG}\arrow\ch{MgO \stS} + \ch{H2 \stG}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{Mg \stS} + \ch{H2O \stG} \arrow \ch{MgO \stS} + \ch{H2 \stG}
+				}
 
 			% end subsubsection
 
 			\subsubsection{Aluminium}
 
-				Aluminium does not appear to react with with water, but this is mainly due to the strong and unreactive protective layer of
-				\ch{\Al2O3} that is formed.
+				Aluminium does not appear to react with with water, but this is due to the strong and unreactive layer of
+				\ch{\Al2O3} on the surface, which is formed by the fast oxidation of aluminium by oxygen in the air.
+
+				If the coating is not present, aluminium will form \ch{\Al(OH)3} and \ch{H2} as usual.
+
+
 
 			% end subsubsection
+
 
 			\subsubsection{Silicon}
 
-				Silicon is fairly unreactive towards water. Again, this is due to the strong bonds in its giant covalent structure.
-				However, when heated strongly with steam, silicon dioxide can be formed.
+				Silicon is fairly unreactive towards water, due to the strong bonds in its giant covalent structure.
+				However, when heated strongly with steam, silicon dioxide can be formed:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{Si \stS} + \ch{2 H2O \stG}\arrow\ch{SiO2 \stS} + \ch{H2 \stG}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{Si \stS} + \ch{2 H2O \stG} \arrow \ch{SiO2 \stS} + \ch{H2 \stG}
+				}
 
 			% end subsubsection
 
-			\subsubsection{Phosphorus}
+			\subsubsection{Phosphorus and Sulphur}
 
-				Phosphorus does not react with water.
-
-			% end subsubsection
-
-			\subsubsection{Sulphur}
-
-				Sulphur does not react with water.
+				Neither phosphorus nor sulphur react with water.
 
 			% end subsubsection
 
 			\subsubsection{Chlorine}
 
-				Chlorine disproportionates reversibly in water, as covered in the previous chapter on halogens.
+				Chlorine disproportionates reversibly in water, as covered in the previous chapter on halogens:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{\Cl2 \stG} + \ch{H2O \stL}\arrow{<=>}\ch{H\Cl \stAq} + \ch{HO\Cl \stAq}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{\Cl2 \stG} + \ch{H2O \stL} \arrow{<=>} \ch{H\Cl \stAq} + \ch{HO\Cl \stAq}
+				}
 
 			% end subsubsection
 		% end subsection
@@ -315,46 +270,43 @@
 	\pagebreak
 	\section{Properties of the Oxides}
 
-		In general, the acidity of the oxides increases across the period. Sodium and magnesium oxide are basic, aluminium oxide is
-		amphoteric, and the other oxides are acidic. This is due to the decreasing ionic character, or conversely the increasing
+		In general, the acidities of the oxides increase across the period. Sodium and magnesium oxide are basic, aluminium oxide is
+		amphoteric, and the other oxides are acidic. This is due to the decreasing ionic character, or conversely, the increasing
 		covalent character in the bonding of the oxides.
 
 		The sections below will also cover the reactions of the hydroxides when appropriate.
 
-		\subsection{Bonding, Structure and Melting Points}
+		\subsection{Bonding, Structure, and Melting Points}
 
 			Across the period, the bonding in the oxides moves from ionic to covalent. This is due to the decreasing difference
 			in electronegativity between the element and oxygen; thus it is less likely to \itl{completely lose} electrons, and hence
 			covalent bonds become prevalent.
 
 			The change in bonding naturally creates a change in structure, from ionic lattices to discrete covalent molecules. Hence, this
-			also causes, generally, a decrease in melting points across the period.
+			also causes a general decrease in melting points across the period.
 
-			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
-			\begin{tabu} to \textwidth {X[c,m] | X[c,m] | X[c,m]}
+			\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+			\begin{tabu} to 0.7\textwidth { X[c,m] | X[c,m] | X[c,m] }
 
 				% headings
-				Thing		&	Structure			&	Melting Point/\si{\celsius}	\\ \hline
-				\ch{Na2O}	&	ionic				&	\num{1130}					\\ \hline
-				\ch{MgO}	&	ionic				&	\num{2850}					\\ \hline
-				\ch{\Al2O3}	&	ionic				&	\num{2070}					\\ \hline
-				\ch{SiO2}	&	giant covalent		&	\num{1700}					\\ \hline
-				\ch{P4O6}	&	discrete covalent	&	\num{24}					\\ \hline
-				\ch{P4O10}	&	discrete covalent	&	\num{360} (sublimes)		\\ \hline
-				\ch{SO2}	&	discrete covalent	&	\num{-75}					\\ \hline
-				\ch{SO3}	&	discrete covalent	&	\num{17}					\\ \hline
+				Thing       &   Structure       &   Melting Point / \si{\celsius}   \\ \hline
+				\ch{Na2O}   &   ionic           &   \num{1130}                      \\
+				\ch{MgO}    &   ionic           &   \num{2850}                      \\
+				\ch{\Al2O3} &   ionic           &   \num{2070}                      \\
+				\ch{SiO2}   &   giant covalent  &   \num{1700}                      \\
+				\ch{P4O6}   &   covalent        &   \num{24}                        \\
+				\ch{P4O10}  &   covalent        &   \num{360} (sublimes)            \\
+				\ch{SO2}    &   covalent        &   \num{-75}                       \\
+				\ch{SO3}    &   covalent        &   \num{17}                        \\
 
-			\end{tabu}
-			\end{table}\end{center}\vspace{-10mm}
-
-			Apparently chlorine oxides are not covered in this chapter, so they will not be talked about mostly because I don't know
-			anything about them.
+			\end{tabu}\end{center}
+			\end{table}\vspace{-1em}
 
 			The melting point of \ch{MgO} is much larger than that of \ch{Na2O} due to the much higher charge density of \ch{Mg^2+}, which
 			greatly increases the lattice energy of \ch{MgO}.
 
 			However, the \itl{even higher} charge density of \ch{\Al^3+} instead serves to \itl{polarise} the \ch{O^2-} ion, resulting
-			in some \itl{covalent character}, hence reducing the lattice energy of \ch{\Al2O3}.
+			in some \itl{covalent character}, hence \itl{reducing} the lattice energy of \ch{\Al2O3}.
 
 			The reason for the high melting point of silicon dioxide is simply due to its giant covalent structure.
 
@@ -369,13 +321,11 @@
 
 			Sodium oxide also reacts directly with acids, to give an aqueous salt solution.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{Na2O \stS} + \ch{H2O \stL}\arrow\ch{2 Na+ \stAq} + \ch{2 OH- \stAq}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{Na2O \stS} + \ch{2 H+ \stAq}\arrow\ch{2 Na+ \stAq} + \ch{H2O \stL}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{Na2O \stS} + \ch{H2O \stL} \arrow \ch{2 Na+ \stAq} + \ch{2 OH- \stAq}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{Na2O \stS} + \ch{2 H+ \stAq} \arrow \ch{2 Na+ \stAq} + \ch{H2O \stL}
+			}
 
 		% end subsection
 
@@ -386,26 +336,22 @@
 			\ch{MgO}, which naturally needs a lot of energy to break to create ions.
 
 			Furthermore, whatever pithy amounts of \ch{Mg(OH)2} formed \itl{barely} dissociates to give \ch{OH-} ions, and so the reaction
-			mixture is a mostly solid lump with a slightly-higher-than-neutral \pH{} of around \num{9}. This is again due to the high lattice
+			mixture is a mostly solid lump with a slightly-higher-than-neutral \pH{} of around \num{9}. This is due to the similarly high lattice
 			energy of \ch{Mg(OH)2}.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{MgO \stS} + \ch{H2O \stL}\arrow\ch{Mg(OH)2 \stS}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{Mg(OH)2 \stS}\arrow{<=>}\ch{Mg^2+ \stAq} + \ch{2 OH- \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{MgO \stS} + \ch{H2O \stL} \arrow \ch{Mg(OH)2 \stS}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{Mg(OH)2 \stS} \arrow{<=>} \ch{Mg^2+ \stAq} + \ch{2 OH- \stAq}
+			}
 
-			On the other hand, both \ch{MgO} and \ch{Mg(OH)2} can react directly with acids to form aqueous salt solutions.
+			On the other hand, both \ch{MgO} and \ch{Mg(OH)2} can react directly with acids to form aqueous salt solutions:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{MgO \stS} + \ch{2 H+ \stAq}\arrow\ch{Mg^2+ \stAq} + \ch{H2O \stL}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{Mg(OH)2 \stS} + \ch{2 H+ \stAq}\arrow\ch{Mg^2+ \stAq} + \ch{2 H2O \stL}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{MgO \stS} + \ch{2 H+ \stAq} \arrow \ch{Mg^2+ \stAq} + \ch{H2O \stL}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{Mg(OH)2 \stS} + \ch{2 H+ \stAq} \arrow \ch{Mg^2+ \stAq} + \ch{2 H2O \stL}
+			}
 
 		% end subsection
 
@@ -414,29 +360,25 @@
 		\subsection{Aluminium Oxide}
 
 			Aluminium oxide, \ch{\Al2O3}, is partially covalent, due to the polarising power of the \ch{\Al^3+} ion. Thus, the combination of
-			ionic and covalent characters allow \ch{\Al2O3}, as well as \ch{\Al(OH)3}, to be amphoteric; ie. they react with both acids and
+			ionic and covalent characters allows \ch{\Al2O3}, as well as \ch{\Al(OH)3}, to be amphoteric; ie. they react with both acids and
 			bases.
 
-			Due to the high lattice energy of both \ch{\Al2O3} and \ch{\Al(OH)3}, both of them are insoluble in water. However, they both react
-			with acids to form an aqueous salt solution containing \ch{\Al^3+} ions.
+			Due to the high lattice energy of both \ch{\Al2O3} and \ch{\Al(OH)3}, they are insoluble in water. However, they both react
+			with acids to form an aqueous salt solution containing \ch{\Al^3+} ions:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{\Al2O3 \stS} + \ch{6 H+ \stAq}\arrow\ch{\Al^3+ \stAq} + \ch{3 H2O \stL}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{\Al(OH)3 \stS} + \ch{3 H+ \stAq}\arrow\ch{\Al^3+ \stAq} + \ch{3 H2O \stL}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{\Al2O3 \stS} + \ch{6 H+ \stAq} \arrow \ch{\Al^3+ \stAq} + \ch{3 H2O \stL}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{\Al(OH)3 \stS} + \ch{3 H+ \stAq} \arrow \ch{\Al^3+ \stAq} + \ch{3 H2O \stL}
+			}
 
-			They can react with strong bases as well, to form \itl{aluminate complex ions}, \ch{[\Al(OH)4]-}.
+			They can react with strong bases as well, to form \itl{aluminate complex ions}, \ch{[\Al(OH)4]-}:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{\Al2O3 \stS} + \ch{2 OH- \stAq}\arrow\ch{2 [\Al(OH)4]- \stAq}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{\Al(OH)3 \stS} + \ch{OH- \stAq} + \ch{3 H2O \stL}\arrow\ch{[\Al(OH)4]- \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{\Al2O3 \stS} + \ch{2 OH- \stAq} \arrow \ch{2 [\Al(OH)4]- \stAq}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{\Al(OH)3 \stS} + \ch{OH- \stAq} + \ch{3 H2O \stL} \arrow \ch{[\Al(OH)4]- \stAq}
+			}
 
 		% end subsection
 
@@ -444,15 +386,13 @@
 
 		\subsection{Silicon Dioxide}
 
-			Silicon dioxide neither reacts nor dissolves in water, due to the strong covalent bonds between the \ch{Si} and \ch{O} atoms.
-			In fact, it does not react even when heated with aqueous bases. For any reaction to take place, there must be strong heating
+			Silicon dioxide neither reacts with nor dissolves in water, due to the strong covalent bonds between the \ch{Si} and \ch{O} atoms.
+			In fact, it does not succumb even when heated with aqueous bases. For any reaction to take place, there must be strong heating
 			with concentrated bases, eg. \ch{NaOH}.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{SiO2 \stS} + \ch{2 OH- \stL}\arrow\ch{SiO3^2- \stAq} + \ch{H2O \stL}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{SiO2 \stS} + \ch{2 OH- \stL} \arrow \ch{SiO3^2- \stAq} + \ch{H2O \stL}
+			}
 
 			When it does react, a silicate ion is formed.
 
@@ -468,44 +408,40 @@
 
 			\diagram[1.0]{
 				\schemestart[0,1.5,thick]
-					\chemfig{P(=[:90]!\molO)(-[:210]H)(-[:330]!\molO-[:30]H)(-[:280]!\molO-[:330]H)}
+					\chemname[1em]{\chemfig{P(=[:90]!\molO)(-[:210]H)(-[:330]!\molO-[:30]H)(-[:280]!\molO-[:330]H)}}{\ch{H3PO3}}
 					\arrow{0}
-					\chemfig{P(=[:90]!\molO)(-[:210]!\molO-[:150]H)(-[:330]!\molO-[:30]H)(-[:280]!\molO-[:330]H)}
+					\chemname[1em]{\chemfig{P(=[:90]!\molO)(-[:210]!\molO-[:150]H)(-[:330]!\molO-[:30]H)(-[:280]!\molO-[:330]H)}}{\ch{H3PO4}}
 				\schemestop
-			}{\ch{H3PO3} on the left, \ch{H3PO4} on the right}
+			}
 
-			\ch{H3PO3} and \ch{H3PO4} are both weak acids, with the former having a \pKa{} value of \num{2.0}, and a value of \num{2.15} for the
-			former. \ch{H3PO4} is a diprotic acid, while \ch{H3PO4} is a triprotic acid. The third hydrogen in \ch{H3PO3} isn't attached to
-			anything electronegative, so it does not dissociate.
+			\ch{H3PO3} and \ch{H3PO4} are both weak acids. \ch{H3PO3} is a diprotic acid, and its \pKa{} values are \num{1.1} and \num{6.7};
+			\ch{H3PO4} is a triprotic acid, with \pKa{} values of \num{2.15}, \num{7.20}, and \num{12.32}. Note that the third hydrogen
+			in \ch{H3PO3} isn't attached to anything electronegative, so it does not dissociate.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{P4O6 \stS} + \ch{6 H2O \stL}\arrow\ch{4 H3PO3 \stAq}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{H3PO3 \stAq}\arrow{<=>}\ch{H2PO3- \stAq} + \ch{H+ \stAq}
-					\arrow(@c3.south east--.north east){0}[-90,.20]
-					\ch{H2PO3-}\arrow{<=>}\ch{HPO3^2- \stAq} + \ch{H+ \stAq}
-					\arrow(@c5.south east--.north east){0}[-90,.60]
-					\ch{P4O10 \stS} + \ch{6 H2O \stL}\arrow\ch{4 H3PO4 \stAq}
-					\arrow(@c7.south east--.north east){0}[-90,.20]
-					\ch{H3PO4 \stAq}\arrow{<=>}\ch{H2PO4- \stAq} + \ch{H+ \stAq}
-					\arrow(@c9.south east--.north east){0}[-90,.20]
-					\ch{H2PO4- \stAq}\arrow{<=>}\ch{HPO4^2-} + \ch{H+ \stAq}
-					\arrow(@c11.south east--.north east){0}[-90,.20]
-					\ch{HPO4^2- \stAq}\arrow{<=>}\ch{PO4^3- \stAq} + \ch{H+ \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{P4O6 \stS} + \ch{6 H2O \stL} \arrow \ch{4 H3PO3 \stAq}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{H3PO3 \stAq} \arrow{<=>} \ch{H2PO3- \stAq} + \ch{H+ \stAq}
+				\arrow(@c3.east--.east){0}[-90,.4]
+				\ch{H2PO3-} \arrow{<=>} \ch{HPO3^2- \stAq} + \ch{H+ \stAq}
+				\arrow(@c5.east--.east){0}[-90,.8]
+				\ch{P4O10 \stS} + \ch{6 H2O \stL} \arrow \ch{4 H3PO4 \stAq}
+				\arrow(@c7.east--.east){0}[-90,.4]
+				\ch{H3PO4 \stAq} \arrow{<=>} \ch{H2PO4- \stAq} + \ch{H+ \stAq}
+				\arrow(@c9.east--.east){0}[-90,.4]
+				\ch{H2PO4- \stAq} \arrow{<=>} \ch{HPO4^2-} + \ch{H+ \stAq}
+				\arrow(@c11.east--.east){0}[-90,.4]
+				\ch{HPO4^2- \stAq} \arrow{<=>} \ch{PO4^3- \stAq} + \ch{H+ \stAq}
+			}
 
 			Both \ch{P4O6} and \ch{P4O10} can react directly with bases to give a salt solution, containing anions of the fully deprotonated
-			acids (\ch{HPO3^2-} and \ch{PO4^3-} respectively).
+			acids (\ch{HPO3^2-} and \ch{PO4^3-} respectively):
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{P4O6 \stS} + \ch{8 OH- \stAq}\arrow\ch{4 HPO4^2- \stAq} + \ch{2 H2O \stL}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{P4O10 \stS} + \ch{12 OH- \stAq}\arrow\ch{4 PO4^3- \stAq} + \ch{6 H2O \stL}
-				\schemestop
-			}{\vspace{-2em}}
+			\txtreactioneqn{
+				\ch{P4O6 \stS} + \ch{8 OH- \stAq} \arrow \ch{4 HPO4^2- \stAq} + \ch{2 H2O \stL}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{P4O10 \stS} + \ch{12 OH- \stAq} \arrow \ch{4 PO4^3- \stAq} + \ch{6 H2O \stL}
+			}
 
 
 		% end subsection
@@ -514,7 +450,7 @@
 		\pagebreak
 		\subsection{Sulphur Oxides}
 
-			\subsubsection{Sulphur Dioxide (\ch{SO2})}
+			\subsubsection{Sulphur Dioxide (\texorpdfstring{\ch{SO2}}{SO₂})}
 
 				Sulphur dioxide is mostly soluble in water, giving a solution of the weak diprotic sulphurous acid, \ch{H2SO3}. It has a
 				\pKa{} value of around \num{1.8}, so it is slightly stronger than \ch{H3PO3} and \ch{H3PO4}.
@@ -523,32 +459,28 @@
 					\schemestart[0,1.5,thick]
 						\chemfig{S(=[:90]!\molO)(-[:330]!\molO-[:0]H)(-[:210]!\molO-[:180]H)}
 					\schemestop
-				}{Sulphurous acid, \ch{H2SO3}}
+				}[Sulphurous acid, \ch{H2SO3}]
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{SO2 \stG} + \ch{H2O \stL}\arrow\ch{H2SO3 \stAq}
-						\arrow(@c1.south east--.north east){0}[-90,.20]
-						\ch{H2SO3 \stAq}\arrow{<=>}\ch{HSO3- \stAq} + \ch{H+ \stAq}
-						\arrow(@c3.south east--.north east){0}[-90,.20]
-						\ch{HSO3-}\arrow{<=>}\ch{SO3^2- \stAq} + \ch{H+ \stAq}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{SO2 \stG} + \ch{H2O \stL} \arrow \ch{H2SO3 \stAq}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{H2SO3 \stAq} \arrow{<=>} \ch{HSO3- \stAq} + \ch{H+ \stAq}
+					\arrow(@c3.east--.east){0}[-90,.4]
+					\ch{HSO3-} \arrow{<=>} \ch{SO3^2- \stAq} + \ch{H+ \stAq}
+				}
 
-				Naturally \ch{SO2 \stG} can react directly with bases to form a salt solution containing the sulphite ion, \ch{SO3^2-}, which
-				happens to the fully deprotonated version of the acid.
+				\ch{SO2 \stG} can react directly with bases to form a salt solution containing the sulphite ion, \ch{SO3^2-}, which
+				is the fully deprotonated version of the acid.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{SO2 \stG} + \ch{2 OH- \stL}\arrow\ch{SO3^2- \stAq} + \ch{H2O \stL}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{SO2 \stG} + \ch{2 OH- \stL} \arrow \ch{SO3^2- \stAq} + \ch{H2O \stL}
+				}
 
 
 			% end subsubsection
 
 
-			\subsubsection{Sulphur Trioxide (\ch{SO3})}
+			\subsubsection{Sulphur Trioxide (\texorpdfstring{\ch{SO3}}{SO₃})}
 
 				Sulphur trioxide, on the other hand, reacts violently with water, producing a mist of \ch{H2SO4} droplets.
 
@@ -556,16 +488,18 @@
 					\schemestart[0,1.5,thick]
 						\chemfig{S(=[:280]!\molO)(=[:90]!\molO)(-[:330]!\molO-[:0]H)(-[:210]!\molO-[:180]H)}
 					\schemestop
-				}{Sulphuric acid, \ch{H2SO4}}
+				}[Sulphuric acid, \ch{H2SO4}]
 
-				Sulphuric acid is obviously a strong acid that ionises completely, and so there's no dissociation equation to show.
-				\ch{SO3 \stG} can also react directly with bases to form an aqueous salt solution with sulphate ions.
+				Sulphuric acid is the strong acid that we know and love; \ch{SO3 \stG} can also react directly with bases to
+				form an aqueous salt solution with sulphate ions.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{SO3 \stG} + \ch{2 OH- \stL}\arrow\ch{SO4^2- \stAq} + \ch{H2O \stL}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{SO3 \stG} + \ch{2 OH- \stL} \arrow \ch{SO4^2- \stAq} + \ch{H2O \stL}
+				}
+
+				It should be noted that while the first proton of \ch{H2SO4} is a undoubtedly a strong acid with a \pKa{} of \num{-3}, the second
+				proton (from \ch{HSO4-}) has a \pKa{} of only \num{1.99}, which is technically a weak acid. In most cases however, \ch{H2SO4} will
+				still fully deprotonate to give the sulphate ion.
 
 			% end subsubsection
 
@@ -577,27 +511,27 @@
 	\pagebreak
 	\section{Properties of the Chlorides}
 
-		\subsection{Bonding, Structure and Melting Points}
+		\subsection{Bonding, Structure, and Melting Points}
 
 			The trend for the chlorides is mostly identical to that for the oxides; bonding moves from ionic to covalent due to decreasing
 			electronegativity difference between the element and chlorine, causing a shift from ionic solids to discrete covalent molecules.
 
-			Again, it looks like sulphur chlorides are conveniently out-of-syllabus.
-
-			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
-			\begin{tabu} to \textwidth {X[c,m] | X[c,m] | X[c,m] | X[c,m]}
+			\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+			\begin{tabu} to 0.9\textwidth { X[c,m] | X[c,m] | X[c,m] | X[c,m] }
 
 				% headings
-				Thing		&	Structure			&	Melting Point/\si{\celsius}	&	Boiling Point/\si{\celsius}	\\ \hline
-				\ch{Na\Cl}	&	ionic				&	\num{801}					&	\num{1413}					\\ \hline
-				\ch{Mg\Cl2}	&	ionic				&	\num{714}					&	\num{1412}					\\ \hline
-				\ch{\Al\Cl3}&	discrete covalent	&	\num{180} (sublimes)		&	(sublimation)				\\ \hline
-				\ch{Si\Cl4}	&	discrete covalent	&	\num{-70}					&	\num{58}					\\ \hline
-				\ch{P\Cl3}	&	discrete covalent	&	\num{-112}					&	\num{76}					\\ \hline
-				\ch{P\Cl5}	&	discrete covalent	&	\num{160} (sublimes)		&	(sublimation)				\\ \hline
+				Thing       &   Structure           &   Melting Point / \si{\celsius}   &   Boiling Point / \si{\celsius}   \\ \hline
+				\ch{Na\Cl}  &   ionic               &   \num{801}                       &   \num{1413}                      \\
+				\ch{Mg\Cl2} &   ionic               &   \num{714}                       &   \num{1412}                      \\
+				\ch{\Al\Cl3}&   discrete covalent   &   ---                             &   \num{180} (sublimes)            \\
+				\ch{Si\Cl4} &   discrete covalent   &   \num{-70}                       &   \num{58}                        \\
+				\ch{P\Cl3}  &   discrete covalent   &   \num{-112}                      &   \num{76}                        \\
+				\ch{P\Cl5}  &   discrete covalent   &   ---                             &   \num{160} (sublimes)            \\
+				\ch{SO2}    &   discrete covalent   &   \num{-72}                       &   \num{-10}                       \\
+				\ch{SO3}    &   discrete covalent   &   \num{16.9}                      &   \num{45}                        \\
 
-			\end{tabu}
-			\end{table}\end{center}\vspace{-15mm}	% note: not the standard 10mm since we're bargaining for space here
+			\end{tabu}\end{center}
+			\end{table}\vspace{-1em}
 
 
 
@@ -616,42 +550,34 @@
 				% note: we're drawing this unconventionally because apparently we cannot use the -Stealth arrow in the ?[] hook syntax
 				% so we draw a bond from Al to Cl, but with Stealth-, which is in fact a reverse arrow.
 
-				% also note: scale 0.9 to eek more space out.
-				\diagram[0.9]{
+				\diagram[1.0]{
 					\schemestart[0,1.5,thick]
-						\chemfig{\Al?(-[:135]\Cl)(-[:225]\Al)(-[:315,,,,Stealth-]\Cl-[:45]\Al(-[:315]\Cl)(-[:45]\Cl)(-[:135,,,,Stealth-]\Cl?))}
+						\chemfig{\Al?(-[:135]\Cl)(-[:225]\Al)(-[:315]\Cl-[:45]\Al(-[:315]\Cl)(-[:45]\Cl)(-[:135]\Cl?))}
 					\schemestop
-				}{The dimer \ch{\Al2\Cl6}.}
+				}[The dimer \ch{\Al2\Cl6}.]
 
+				\pagebreak
 				\ch{\Al\Cl3} and \ch{\Al2\Cl6} actually exist in an equilibrium:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 \Al\Cl3 \stG}\arrow{<=>}\ch{\Al2\Cl6 \stG}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{2 \Al\Cl3 \stG} \arrow{<=>} \ch{\Al2\Cl6 \stG}
+				}
 
 				At higher temperatures, the equilibrium shifts to the left, and \ch{\Al\Cl3} exists predominantly as discrete molecules, with
 				no dimerisation.
 
-
-
 			% end subsubsection
-
 		% end subsection
 
 
-		\pagebreak
 		\subsection{Sodium Chloride}
 
-			Sodium chloride, \ch{Na\Cl}, should be familiar; it is unremarkable, and dissolves in water to give \ch{Na+ \stAq} and
-			\ch{\Cl- \stAq} ions.
+			Sodium chloride, \ch{Na\Cl}, should be familiar; it unremarkably dissolves in water to give \ch{Na+ \stAq} and
+			\ch{\Cl- \stAq} ions:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{Na\Cl \stS}\arrow{->[\tinytext{water}]}\ch{Na+ \stAq} + \ch{\Cl- \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn[1.5]{
+				\ch{Na\Cl \stS} \arrow{->[\tinytext{water}]} \ch{Na+ \stAq} + \ch{\Cl- \stAq}
+			}
 
 			The \pH{} of the solution is \num{7} --- neutral.
 
@@ -662,22 +588,18 @@
 		\subsection{Magnesium Chloride}
 
 			Magnesium chloride, \ch{Mg\Cl2}, dissolves in water as well to give \ch{Mg^2+ \stAq} and \ch{\Cl- \stAq} ions. Note that because
-			of magnesium's somewhat high charge density, it forms a hydrated aqua complex in water.
+			of magnesium's somewhat high charge density, it forms a hydrated aqua complex in water:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{Mg\Cl2 \stS} + \ch{6 H2O \stL}\arrow\ch{[Mg(H2O)6]^2+ \stAq} + \ch{2 \Cl- \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{Mg\Cl2 \stS} + \ch{6 H2O \stL} \arrow \ch{[Mg(H2O)6]^2+ \stAq} + \ch{2 \Cl- \stAq}
+			}
 
 			In a mechanism similar to that of the hydrolysis of aqua complex ions of metals with high charge density, magnesium is strong
-			enough to polarise the \ch{O-H} bond slightly, forming a slightly acidic solution.
+			enough to polarise the \ch{O-H} bond slightly, forming a slightly acidic solution:
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{[Mg(H2O)6]^2+ \stAq} + \ch{H2O}\arrow{<=>}\ch{[Mg(H2O)5OH]+ \stAq} + \ch{H3O+ \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{[Mg(H2O)6]^2+ \stAq} + \ch{H2O} \arrow{<=>} \ch{[Mg(H2O)5OH]+ \stAq} + \ch{H3O+ \stAq}
+			}
 
 			Note that the polarising power is much weaker than, for instance, \ch{\Al^3+} or \ch{Cr^3+}, so the \pH{} of such a
 			solution is only around \num{6.5}.
@@ -686,7 +608,6 @@
 
 
 
-		\pagebreak
 		\subsection{Aluminium Chloride}
 
 			The reactions of \ch{\Al\Cl3} with water differ mainly based on the amount of water or base used.
@@ -694,62 +615,55 @@
 			\subsubsection{Limited Water}
 
 				When \itl{a few drops} of water are added to \ch{\Al\Cl3}, white fumes of \ch{H\Cl} are formed, leaving behind a white
-				precipitate of \ch{\Al(OH)3}. The aluminium hydroxide formed in insoluble in water.
+				precipitate of \ch{\Al(OH)3}. The aluminium hydroxide formed is insoluble in water.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{\Al\Cl3 \stS} + \ch{3 H2O \stL}\arrow\ch{\Al(OH)3 \stS} + \ch{3 H\Cl \stG}
-					\schemestop
-				}{\vspace{-2em}}
+				\txtreactioneqn{
+					\ch{\Al\Cl3 \stS} + \ch{3 H2O \stL} \arrow \ch{\Al(OH)3 \stS} + \ch{3 H\Cl \stG}
+				}
 
 			% end subsubsection
 
+			\pagebreak
 			\subsubsection{Excess Water}
 
-				In excess water, \ch{\Al\Cl3} instead forms the hydrated aluminium complex ion, and chloride ions.
+				In excess water, \ch{\Al\Cl3} instead forms the hydrated aluminium complex ion, and chloride ions:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{\Al\Cl3 \stS} + \ch{6 H2O \stL}\arrow\ch{[\Al(H2O)6]^3+ \stAq} + \ch{3 \Cl- \stAq}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{\Al\Cl3 \stS} + \ch{6 H2O \stL} \arrow \ch{[\Al(H2O)6]^3+ \stAq} + \ch{3 \Cl- \stAq}
+				}
 
-				As covered previously, this hydrated aluminium ion can undergo hydrolysis to give an acidic solution.
+				As covered previously, this hydrated aluminium ion can undergo hydrolysis to give an acidic solution:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{[\Al(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
-						\arrow{<=>}
-						\ch{[\Al(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{[\Al(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
+					\arrow{<=>}
+					\ch{[\Al(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
+				}
 
-				The extent of hydrolysis is much greater than for \ch{[Mg(H2O)6]^2+}, so the \pH{} of this solution is typically around \num{3}.
+				The extent of hydrolysis is much greater than for \ch{[Mg(H2O)6]^2+}, so the \pH{} is typically around \num{3}.
 
 			% end subsubsection
 
 
 
-			\subsubsection{Limited \ch{OH-}}
+			\subsubsection{Limited \texorpdfstring{\ch{OH-}}{OH⁻}}
 
-				When a limited amount of base (\ch{OH-}) is added, \ch{[\Al(H2O)6]^3+ \stAq} typically behaves as a triprotic acid, being
+				When a limited amount of base (\ch{OH-}) is added, \ch{[\Al(H2O)6]^3+ \stAq} behaves as a triprotic acid, being
 				able to release 3 \ch{H+ \stAq} ions before being depleted and forming a precipitate of \ch{[\Al(H2O)3(OH)3] \stS}.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{[\Al(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
-						\arrow{<=>}
-						\ch{[\Al(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
-						\arrow(@c1.south east--.north east){0}[-90,.20]
-						\ch{[\Al(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
-						\arrow{<=>}
-						\ch{[\Al(H2O)4(OH)2]^+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
-						\arrow(@c3.south east--.north east){0}[-90,.20]
-						\ch{[\Al(H2O)4(OH)2]^+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
-						\arrow{<=>}
-						\ch{[\Al(H2O)3(OH)3] \stS}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{[\Al(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
+					\arrow{<=>}
+					\ch{[\Al(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
+					\arrow(@c1.east--.east){0}[-90,.4]
+					\ch{[\Al(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
+					\arrow{<=>}
+					\ch{[\Al(H2O)4(OH)2]^+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
+					\arrow(@c3.east--.east){0}[-90,.4]
+					\ch{[\Al(H2O)4(OH)2]^+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}
+					\arrow{<=>}
+					\ch{[\Al(H2O)3(OH)3] \stS}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
+				}
 
 				A solution of \ch{[\Al(H2O)6]^3+ \stAq} is usually acidic enough to react with carbonate ions to liberate carbon dioxide
 				gas (which, remember, neither alcohols nor phenols can do), forming the insoluble precipitate.
@@ -757,16 +671,14 @@
 			% end subsubsection
 
 
-			\subsubsection{Excess \ch{OH-}}
+			\subsubsection{Excess \texorpdfstring{\ch{OH-}}{OH⁻}}
 
 				When faced with excess amounts of base, the white precipitate of \ch{[\Al(H2O)3(OH)3] \stS} will appear to dissolve, instead
 				forming the aluminate complex ion \ch{[\Al(OH)4]- \stAq}.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{[\Al(H2O)3(OH)3] \stS} + \ch{OH- \stAq}\arrow{<=>}\ch{[\Al(OH)4]- \stAq} + \ch{3 H2O \stL}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{[\Al(H2O)3(OH)3] \stS} + \ch{OH- \stAq} \arrow{<=>} \ch{[\Al(OH)4]- \stAq} + \ch{3 H2O \stL}
+				}
 
 				Note that, since this is an equilibrium reaction, the concentration of \ch{OH-} must be high enough to move the position of
 				equilibrium to the right, to favour the formation of the soluble aluminate ion.
@@ -777,16 +689,15 @@
 
 
 
+		\pagebreak
 		\subsection{Silicon Chloride}
 
 			Silicon chloride \itl{readily} and \itl{violently} hydrolyses in water completely, forming \ch{H\Cl}, which can either effervesce
 			away as gaseous hydrogen chloride, or dissolve in the water to form a strongly acidic solution of \pH{} \num{1}.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{Si\Cl4 \stS} + \ch{2 H2O \stL}\arrow\ch{SiO2 * 2 H2O \stS} + \ch{4 H\Cl \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{Si\Cl4 \stL} + \ch{2 H2O \stL} \arrow \ch{SiO2 * 2 H2O \stS} + \ch{4 H\Cl \stAq}
+			}
 
 			\ch{SiO2 * 2 H2O \stS} is a hydrated form of silicon dioxide, but it is still in the solid state.
 
@@ -799,24 +710,20 @@
 			Both phosphorus chlorides, \ch{P\Cl3} and \ch{P\Cl5}, completely hydrolyse in water in a similar fashion to silicon chloride,
 			forming \ch{H\Cl} and hence a strongly acidic solution.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{P\Cl3 \stL} + \ch{3 H2O \stL}\arrow\ch{H3PO3 \stAq} + \ch{3 H\Cl \stAq}
-					\arrow(@c1.south east--.north east){0}[-90,.20]
-					\ch{P\Cl5 \stS} + \ch{4 H2O \stL}\arrow\ch{H3PO4 \stAq} + \ch{4 H\Cl \stAq}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{P\Cl3 \stL} + \ch{3 H2O \stL} \arrow \ch{H3PO3 \stAq} + \ch{3 H\Cl \stAq}
+				\arrow(@c1.east--.east){0}[-90,.4]
+				\ch{P\Cl5 \stS} + \ch{4 H2O \stL} \arrow \ch{H3PO4 \stAq} + \ch{4 H\Cl \stAq}
+			}
 
 			Note that, of course, the contributions of \ch{H3PO3} and \ch{H3PO4} to the \pH{} of the solution will not be
 			forgotten, but they are quite insignificant in the face of \ch{H\Cl}.
 
 			Furthermore, on dropwise addition of water with \ch{P\Cl5}, it tends to form \ch{PO\Cl3}, phosphorus oxychloride, instead.
 
-			\txtdiagram{
-				\schemestart[0,1.0,thick]
-					\ch{P\Cl5 \stS} + \ch{H2O \stL}\arrow\ch{PO\Cl3 \stL} + \ch{2 H\Cl \stG}
-				\schemestop
-			}{\vspace{-1em}}
+			\txtreactioneqn{
+				\ch{P\Cl5 \stS} + \ch{H2O \stL} \arrow \ch{PO\Cl3 \stL} + \ch{2 H\Cl \stG}
+			}
 
 		% end subsection
 

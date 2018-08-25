@@ -37,9 +37,9 @@
 \RequirePackage[pdfencoding=auto,plainpages=false,pdfpagelabels,psdextra,hidelinks,unicode]{hyperref}
 \RequirePackage{bookmark}
 
+\RequirePackage{inconsolata}
 \RequirePackage{fontspec}
 \RequirePackage{unicode-math}
-
 \RequirePackage{microtype}
 
 
@@ -88,10 +88,6 @@
 	clip				= false,
 	filter discard warning = true
 }
-
-\date{}
-\author{}
-
 
 % style settings
 
@@ -154,28 +150,27 @@
 	BoldFont		= MyriadPro-Bold,
 	BoldItalicFont	= MyriadPro-BoldIt]{MyriadPro-Regular}
 
-\newfontfamily\MinionPro[
-	UprightFont		= MinionPro-Regular,
-	ItalicFont		= MinionPro-It,
-	BoldFont		= MinionPro-Bold,
-	BoldItalicFont	= MinionPro-BoldIt]{MinionPro-Regular}
-
+% \newfontfamily\MinionPro[
+% 	UprightFont		= MinionPro-Regular,
+% 	ItalicFont		= MinionPro-It,
+% 	BoldFont		= MinionPro-Bold,
+% 	BoldItalicFont	= MinionPro-BoldIt]{MinionPro-Regular}
+% \setmainfont[Scale=MatchLowercase]{MinionPro}
 
 
 \defaultfontfeatures{Ligatures=TeX}
 
 \setsansfont[Scale=MatchLowercase]{MyriadPro}
-\setmainfont[Scale=MatchLowercase]{MinionPro}
 
-\setmonofont[Scale=MatchLowercase]{Menlo}
+\setmainfont[Scale=MatchLowercase]{XCharter}
+\setmathfont[Scale=MatchLowercase]{STIX Two Math}
+\setmonofont[Scale=MatchLowercase]{Inconsolatazi4}
 
 
-\newfontfamily{\fallbackfont}{Arial}[Scale=MatchLowercase]
-
-\DeclareTextFontCommand{\textfallback}{\fallbackfont}
-\newunicodechar{δ}{\textfallback{δ}}
-\newunicodechar{α}{\textfallback{α}}
-\newunicodechar{β}{\textfallback{β}}
+% \DeclareTextFontCommand{\textfallback}{\fallbackfont}
+% \newunicodechar{δ}{\textfallback{δ}}
+% \newunicodechar{α}{\textfallback{α}}
+% \newunicodechar{β}{\textfallback{β}}
 
 
 
@@ -371,20 +366,29 @@
 
 \DeclareInstance{xfrac}{x}{text}
 {
-	scale-factor		= 1.1,
-	numerator-bot-sep	= 0.5em,
-	slash-left-kern		= 0.1em
+	scale-factor        = 1.1,
+	numerator-bot-sep   = 0.5em,
+	denominator-bot-sep = 0.5em,
+	slash-left-kern     = 0.1em
 }
 
-\newcommand {\fraction}		[2]{\sfrac[x]{#1}{#2}\hspace{1mm}}
-\newcommand	{\fracHalf}		{\raisebox{-0.15em}{\fraction{1}{2}}}
+% \newcommand {\fraction}         [2]{$\sfrac{#1}{#2}$\hspace{1mm}}
+
+\newcommand {\fracHalf}         {$\sfrac{1}{2}$\hspace{1mm}}
+\newcommand {\fracThreeTwo}     {$\sfrac{3}{2}$\hspace{1mm}}
+
 
 
 % helper macros
 
-\newcommand	{\normtext}		{\MinionPro\fontsize{11pt}{13pt}\selectfont}
+\newcommand	{\normtext}		{\normalfont\fontsize{11pt}{13pt}\selectfont}
+\newcommand	{\normfont}		{\normalfont\selectfont}
 
-\newcommand {\romannum}		[1]{{\Alexandria\selectfont{#1}\normtext}}
+\makeatletter
+\newcommand*{\fsize}        {\dimexpr\f@size pt\relax}
+\makeatother
+
+\newcommand {\romannum}		[1]{{\Alexandria\selectfont\ifdimless{\the\fsize}{11pt}{\textbf{#1}}{#1}}}
 
 \newcommand	{\hugetext}		[1]{{\RobotoThin\fontsize{50pt}{60pt}\selectfont#1\normtext\ignorespaces}}
 \newcommand	{\subtext}		[1]{{\fontsize{23pt}{28pt}\selectfont \textsf{#1} \normtext\ignorespaces}}
@@ -400,10 +404,11 @@
 									\fontsize{10pt}{12pt}\selectfont{#3}\normtext
 									\end{center}\end{figure}}
 
-\newcommand	{\boit}			[1]{\textbf{\itl{#1}}}
-
 \newcommand {\itl}			[1]{\textit{#1}}
 \newcommand {\bld}			[1]{\textbf{#1}}
+
+\newcommand	{\boit}			[1]{\bld{\itl{#1}}}
+
 
 \newcommand {\includefigure}[3]
 							{
@@ -637,6 +642,8 @@
 
 \newcommand {\emf}          {\itl{emf}}
 
+\newcommand {\idid}         {instantaneous dipole -- induced dipole}
+
 % small(er)
 \newcommand {\smdeltap}		{\fontsize{10pt}{12pt}\selectfontδ\sps{+}\normtext }
 \newcommand {\smdeltam}		{\fontsize{10pt}{12pt}\selectfontδ\sps{-}\normtext }
@@ -647,10 +654,10 @@
 \newcommand {\pchg}			{\raisebox{0.5em}{\bld{+}}}
 
 % physical chem stuff
-\newcommand	{\Menth}		[1]{∆H\sbs{#1}}
+\newcommand	{\Menth}		[1]{\Delta H_{#1}}
 \newcommand	{\enth}			[1]{$\Delta H_{#1}$}
 
-\newcommand	{\MenthStd}		[1]{∆H\sps{\standardstate}\sbs{#1}}
+\newcommand	{\MenthStd}		[1]{\Delta H^{\standardstate}_{#1}}
 \newcommand	{\enthStd}		[1]{$\Delta H^{\standardstate}_{#1}$}
 
 \newcommand {\Mea}			{E_{a} }

@@ -13,6 +13,11 @@
 			"**/.DS_Store": true,
 			"**/*.aux": true,
 			"**/*.toc": true
-		}
+		},
+		"emmet.excludeLanguages": [
+			"markdown",
+			"latex"
+		],
+		"json.format.enable": false
 	}
 }

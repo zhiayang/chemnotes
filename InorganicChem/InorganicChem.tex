@@ -1,13 +1,12 @@
 % InorganicChem.tex
 % Copyright (c) 2014 - 2016, zhiayang@gmail.com
 
-\documentclass[11pt]{article}
-
+\documentclass[11pt, twoside]{article}
 \usepackage{../studynotes}
 
+\begin{document}
 \title{Inorganic Chemistry}
 
-\begin{document}
 \pagenumbering{gobble}
 
 
@@ -21,16 +20,21 @@
 	\vspace*{10mm}
 
 	\diagram[1.5]{
-		\chemfig{Fe?[a,,dashed]?[b,,dashed]?[c,,dashed]?[d,,dashed]?[e,,dashed]|\sps{2+}(-[:160,1.5,,,dashed]\dotlewis{\color{RoyalBlue}N}{340}(-[:35]-[:0]C(=[:60]!\molO)(-[:325]\dotlewis{\color{Red}O}{205}?[a,,dashed]))(-[:112]-[:30]C(=[:95]!\molO)(-[:340]\lewis{6:,\color{Red}O}?[b,,dashed]))(-[:190]-[:260,0.9]-[:350]\dotlewis{\color{RoyalBlue}N}{30}?[c,,dashed](-[:330]-[:0,1.2]C(=[:300]!\molO)(-[:30]\dotlewis{\color{Red}O}{150}?[d,,dashed]-[:0,,,,draw=none]))(-[:260]-[:322.5]C(-[:20]\lewis{2:,\color{Red}O}?[e,,dashed])(=[:260]!\molO))))}
+		\chemfig{Fe?[a]?[b]?[c]?[d]?[e](-[:160,1.5,]\dotlewis{\color{RoyalBlue}N}{340}(-[:35]-[:0]C(=[:60]!\molO)(-[:325]\dotlewis{\color{Red}O}{205}?[a]))(-[:112]-[:30]C(=[:95]!\molO)(-[:340]\dotlewis{\color{Red}O}{270}?[b]))(-[:190]-[:260,0.9]-[:350]\dotlewis{\color{RoyalBlue}N}{30}?[c](-[:330]-[:0,1.2]C(=[:300]!\molO)(-[:30]\dotlewis{\color{Red}O}{150}?[d]-[:0,,,,draw=none]))(-[:260]-[:322.5]C(-[:20]\dotlewis{\color{Red}O}{90}?[e])(=[:260]!\molO))))}
 	}
 
 	\vspace*{8mm}
 
 	\subtext{Fe-EDTA Complex}
 
-	\vspace{10mm}
-
-	Chapters 20 to 23
+	\vfill
+	{
+		\large
+		\itl{compiled}: \today  \\[0.6em]
+		\itl{git}: \texttt{58c5ac50084fca897204f028a98580d93a3bba96}
+		\normalsize
+	}
+	\vspace*{20mm}
 
 \end{center}
 
@@ -61,10 +65,14 @@
 
 
 
-% \input{"Chapter 01 - Group Two"}
-% \input{"Chapter 02 - Group Seven"}
-% \input{"Chapter 03 - Period 3"}
+% \input{"Chapter 01 - Group Two"}            %* done
+% \input{"Chapter 02 - Group Seven"}          %* done
+% \input{"Chapter 03 - Period 3"}             %* done
 % \input{"Chapter 04 - Transition Metals"}
+
+% molecular orbital theory
+% molecular symmetry?
+% crystal structures??
 
 \end{document}
 

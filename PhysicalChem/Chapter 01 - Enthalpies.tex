@@ -686,19 +686,18 @@
 
 			A table below summarises the four possible scenarios:
 
-			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
-			\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] | X[c,m] |}
+			\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+			\begin{tabu} to 0.9\textwidth { X[c,m] | X[c,m] | X[c,m] | X[c,m] }
 
-				\hline		\enth{}		&	\entr{}		&	\gibb{}		&		Feasibility			\\
+				\enth{}     &   \entr{} &   \gibb{}     &   Feasibility         \\ \hline
 
-				\hline		< 0			&	< 0			&	always < 0	&		all temperatures	\\
-				\hline		< 0			&	> 0			&	always > 0	&				never		\\
-				\hline		> 0			&	< 0			&	depends		&		low temperatures	\\
-				\hline		> 0			&	> 0			&	depends		&		high temperatures	\\
-				\hline
+				< 0         &   < 0     &   always < 0  &   all temperatures    \\
+				< 0         &   > 0     &   always > 0  &   never               \\
+				> 0         &   < 0     &   depends     &   low temperatures    \\
+				> 0         &   > 0     &   depends     &   high temperatures   \\
 
-			\end{tabu}
-			\end{table}\end{center}\vspace{-10mm}
+			\end{tabu}\end{center}
+			\end{table}\vspace{-1em}
 
 		% end subsection
 	% end section

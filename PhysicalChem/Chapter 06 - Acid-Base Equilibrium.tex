@@ -56,8 +56,6 @@
 				\chemname{\ch{CH3CO2-}}{\tinytext{conjugate base}}\hspace{4mm} + \hspace{4mm}\chemname{\ch{NH4+}}{\tinytext{conjugate acid}}
 			}
 
-			It should be immediately clear that this is an \itl{equilibrium} reaction.
-
 			In the forward reaction, \ch{CH3CO2H} acts as the acid, donating a proton to the base, \ch{NH3}. In the reverse direction,
 			\ch{NH4+} is the acid, donating a proton to the base \ch{CH3CO2-}.
 
@@ -69,8 +67,7 @@
 
 		\subsection{Strength of Acids and Bases}
 
-			It is important to note that the \itl{strength} of an acid or base is distinct from its \itl{concentration} in solution;
-			it is possible to have a strong, dilute acid, or a weak, concentrated base.
+			Note that the \itl{strength} of an acid or base is distinct from its \itl{concentration} in solution.
 
 			\subsubsection{Strong Acids and Bases}
 
@@ -87,18 +84,16 @@
 					\chemname{\ch{OH-}}{}\hspace{2mm} + \hspace{2mm}\chemname{\ch{Na+}}{\tinytext{weak conjugate acid}}
 				}
 
-				Since they ionise \itl{completely}, the reverse reaction is negligible, so the reaction is written with a single-headed
-				arrow, $\longrightarrow$. This is because the conjugate base \ch{\Cl-}, in the case of \ch{H\Cl}, has a low tendency to
-				accept a proton.
+				Since they ionise \itl{completely}, the reverse reaction is negligible. This is because the conjugate base \ch{\Cl-},
+				in the case of \ch{H\Cl}, has a low tendency to accept protons.
 
 			% end subsubsection
 
 
-			\pagebreak
 			\subsubsection{Weak Acids and Bases}
 
 				Weak acids and bases, on the other hand, only dissociate \itl{partially} in water to give \ch{H+} and \ch{OH-}. Thus, they
-				are in an equilibrium with their conjugate, so the reaction is written with a double-headed arrow, $\leftrightharpoons$.
+				are in an equilibrium with their conjugate:
 
 				\txtreactioneqn{
 					\chemname{\ch{CH3CO2H}}{\tinytext{weak acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{H2O}}{}
@@ -110,15 +105,46 @@
 					\chemname{\ch{NH4+}}{\tinytext{conjugate acid}}\hspace{2mm} + \hspace{2mm}\chemname{\ch{OH-}}{}
 				}
 
-				Since this is an equilibrium reaction, a mixture of the undissociated acid or base, as well as its dissociated ions,
-				exist in solution.
+				A mixture of the undissociated acid or base, as well as its dissociated ions, will exist in solution.
 
 			% end subsubsection
 
 		% end subsection
 
+
+		\subsection{Levelling Effect}
+
+			When an acid (for example \ch{H\Cl}) is dissolved in water, it forms the conjugate base (\ch{\Cl-}) and the hydronium ion, \ch{H3O+} (which
+			can be thought of as \ch{H+ \stAq}).
+
+			Since water already auto-ionises to form \ch{H3O+} and \ch{OH-}, any acid stronger than \ch{H3O+} will simply continue to protonate water
+			past its existing equilibrium, to create a large amount of \ch{H3O+}. The reverse is true of strong bases, forming \ch{OH-}.
+
+			Because water is the solvent, it is in essentially unlimited supply, and any strong acid (or base) will ionise fully to form its conjugate,
+			and a large supply of \ch{H3O+} or \ch{OH-} respectively. Thus, the overall effect is that the strength of the acid or base
+			is \enquote{levelled} by the solvent it is dissolved in; with water, any strong acid simply acts like a solution of \ch{H3O+ \stAq},
+			and any strong base as \ch{OH- \stAq}.
+
+			\subsubsection{Discrimination Window}
+
+				From the above, it should be implied that different solvents have different \enquote{limits}; for water they are \ch{H3O+} and \ch{OH-},
+				for ammonia they are \ch{NH4+} and \ch{NH2-}, and so on.
+
+				Thus, each solvent has a \itl{discrimination window} --- acids or bases with strengths inside this window will exhibit different
+				strengths, while those outside of it will be limited or \itl{levelled}, and behave like the threshold species.
+
+				\imgdiagram{90mm}{../figures/physical/ch06/discrimination_window.jpg}{The discrimination windows of common solvents.}
+
+				Since \ch{NH4+} is a weaker acid than \ch{H3O+}, almost all conventional strong acids will behave like a solution of \ch{NH4+} when
+				dissolved in \ch{NH3}. The primary purpose of using ammonia as a solvent is to experiment with strong bases --- since \ch{NH2-} is a
+				stronger base than \ch{OH-}, the levelling threshold is higher.
+
+			% end subsubsection
+		% end subsection
 	% end section
 
+
+	\pagebreak
 	\section{\texorpdfstring{\pH{}}{pH}, \texorpdfstring{\pOH{}}{pOH}, and Other Such Constants}
 
 		First, the general idea of $p$ should be stated. In essence, it is this:
@@ -141,6 +167,20 @@
 
 		Note that neither \pH{} nor \pOH{} should be used to compare acid strengths --- as previously mentioned, strength is independent
 		of concentration. It can only be used as a comparison when both acids have the same initial concentration.
+
+
+		\subsection{\texorpdfstring{\pH{}}{pH} and \texorpdfstring{\pOH{}}{pOH} of Strong Acids and Bases}
+
+			Given that strong acids and bases dissociate completely in water, [\ch{H+}] and [\ch{OH-}] simply become the initial concentration
+			of the corresponding acid or base. If the acid in question is di- or even tri-protic, then the concentration of \ch{H+} will need
+			to be multiplied by the appropriate ratio --- the same applies for bases, of course.
+
+			If the initial concentration of the strong acid or base is smaller than \SI{1.0e-7}{\molarConc},
+			the molecules of \ch{H+} or \ch{OH-} from the auto-ionisation of water must be taken into account --- it is as simple as adding
+			\num{1.0e-7} to the concentration of the acid or base.
+
+		% end subsection
+
 
 
 		\pagebreak
@@ -185,20 +225,7 @@
 
 		% end subsection
 
-		\subsection{\texorpdfstring{\pH{}}{pH} and \texorpdfstring{\pOH{}}{pOH} of Strong Acids and Bases}
-
-			Given that strong acids and bases dissociate completely in water, [\ch{H+}] and [\ch{OH-}] simply become the initial concentration
-			of the corresponding acid or base. If the acid in question is di- or even tri-protic, then the concentration of \ch{H+} will need
-			to be multiplied by the appropriate ratio --- the same applies for bases, of course.
-
-			If the initial concentration of the strong acid or base is smaller than \SI{1.0e-7}{\molarConc},
-			the molecules of \ch{H+} or \ch{OH-} from the auto-ionisation of water must be taken into account --- it is as simple as adding
-			\num{1.0e-7} to the concentration of the acid or base.
-
-		% end subsection
-
 	% end section
-
 
 
 	\pagebreak
@@ -396,12 +423,9 @@
 
 			\diagram[0.75]{
 				\schemestart[0,1.5,thick]
-					\setchemfig{bond offset=2mm}
 					\chemfig{\Al(-[:20,2.2,1]@{o1}\chemabove{{\color{Red}O}}{\smdeltam}?[a,,dashed]?[d,,dashed](-[:60,1.25]\chemabove{H}{\smdeltap})(-[@{b1}:330,1.25]@{h1}\chemabove{H}{\smdeltap}(-[:270,1.5,,,draw=none]@{o2}\chembelow{\lewis{2:,{\color{Red}O}}}{\smdeltam}(-[:210]\chemabove{H}{\smdeltap})(-[:330]\chemabove{H}{\smdeltap}))))(-[:90,1.75]H\sbs{2}O)(-[:152.5,1.6]H\sbs{2}O?[a,,dashed]?[b,,dashed])(-[:200,2.2]H\sbs{2}O?[b,,dashed]?[c,,dashed])(-[:270,1.75]H\sbs{2}O)(-[:332.5,1.6,1]O?[c,,dashed]?[d,,dashed]|H\sbs{2})}
 					\arrow
-					\setchemfig{bond offset=2mm}
 					\chemfig{\Al(-[:20,2.2,1]\lewis{2:,\color{Red}O}?[a,,dashed]?[d,,dashed]H\mch)(-[:90,1.75]H\sbs{2}O)(-[:152.5,1.6]H\sbs{2}O?[a,,dashed]?[b,,dashed])(-[:200,2.2]H\sbs{2}O?[b,,dashed]?[c,,dashed])(-[:270,1.75]H\sbs{2}O)(-[:332.5,1.6,1]O?[c,,dashed]?[d,,dashed]|H\sbs{2})}
-					\setchemfig{bond offset=1mm}
 					\chemfig{{\color{Red}O}\pch(-[:60]H)(-[:300]H)(-[:180]H)}
 				\schemestop
 				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](o2) .. controls +(90:10mm) and +(315:10mm) .. (h1);}
@@ -411,19 +435,16 @@
 
 			The table below shows the \Ka{} values for the 3 cations in question:
 
-			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
-			\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+			\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+			\begin{tabu} to 0.8\textwidth { X[c,m] | X[c,m] | X[c,m] }
 
-				\hline
-				% headings
-				Ion			&	Hydrated Ion				&	\Ka{} / \si{\molarConc} at \SI{25}{\celsius}	\\	\hline
-				\ch{Fe^3+}	&	\ch{[Fe(H2O)6]^3+ \stAq}	&	~ \num{6.3e-3}	\\	\hline
-				\ch{Cr^3+}	&	\ch{[Cr(H2O)6]^3+ \stAq}	&	~ \num{1.6e-4}	\\	\hline
-				\ch{\Al^3+}	&	\ch{[\Al(H2O)6]^3+ \stAq}	&	~ \num{1.4e-5}	\\	\hline
+				Ion         &   Hydrated Ion        &   \Ka{} / \si{\molarConc} at \SI{25}{\celsius}    \\ \hline
+				\ch{Fe^3+}  &   \ch{[Fe(H2O)6]^3+}  &   ~ \num{6.3e-3}                                  \\
+				\ch{Cr^3+}  &   \ch{[Cr(H2O)6]^3+}  &   ~ \num{1.6e-4}                                  \\
+				\ch{\Al^3+} &   \ch{[\Al(H2O)6]^3+} &   ~ \num{1.4e-5}                                  \\
 
-
-			\end{tabu}
-			\end{table}\end{center}\vspace{-10mm}
+			\end{tabu}\end{center}
+			\end{table}\vspace{-1em}
 
 		% end subsection
 
@@ -713,7 +734,7 @@
 				\begin{axis}[
 					axis lines		= left,
 					domain			= 0:50,
-					xlabel			= vol. \ch{NaOH} added/\si{\cubic\centi\metre},
+					xlabel			= vol. \ch{NaOH} added / \si{\cubic\centi\metre},
 					ylabel			= \pH{},
 					axis line style	= very thick,
 					height			= 80mm,
@@ -788,7 +809,7 @@
 				\begin{axis}[
 					axis lines		= left,
 					domain			= 0:50,
-					xlabel			= vol. \ch{NH3} added/\si{\cubic\centi\metre},
+					xlabel			= vol. \ch{NH3} added / \si{\cubic\centi\metre},
 					ylabel			= \pH{},
 					axis line style	= very thick,
 					height			= 80mm,
@@ -869,7 +890,7 @@
 				\begin{axis}[
 					axis lines		= left,
 					domain			= 0:50,
-					xlabel			= vol. \ch{NaOH} added/\si{\cubic\centi\metre},
+					xlabel			= vol. \ch{NaOH} added / \si{\cubic\centi\metre},
 					ylabel			= \pH{},
 					axis line style	= very thick,
 					height			= 80mm,
@@ -957,7 +978,7 @@
 				\begin{axis}[
 					axis lines		= left,
 					domain			= 0:50,
-					xlabel			= vol. \ch{NH3} added/\si{\cubic\centi\metre},
+					xlabel			= vol. \ch{NH3} added / \si{\cubic\centi\metre},
 					ylabel			= \pH{},
 					axis line style	= very thick,
 					height			= 80mm,
@@ -1067,8 +1088,8 @@
 				\begin{axis}[
 					axis lines		= left,
 					domain			= 0:40,
-					xlabel			= \textbf{$vol.\ HCl\ added/\si{\cubic\centi\metre}$},
-					ylabel			= \textbf{$pH$},
+					xlabel			= vol.\ HCl\ added / \si{\cubic\centi\metre},
+					ylabel			= \pH{},
 					axis line style	= very thick,
 					height			= 80mm,
 					width			= 130mm,
@@ -1163,40 +1184,35 @@
 			The working \pH{} ranges for a number of common indicators, and their uses, are summarised below:
 
 
-			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
-			\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] |}
+			\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+			\begin{tabu} to 0.8\textwidth { X[c,m] | X[c,m] | X[c,m] }
 
-				\hline
-				% headings
-				Indicator		& 	Working Range (\pH{})	& 	Colour (Low/High)	\\	\hline
+				Indicator       &   Working Range (\pH{})   &   Colour (Low/High)   \\ \hline
 
-				Methyl Orange	&	\numrange{3.1}{4.4}		&	Red / Yellow		\\	\hline
-				Phenolphthalein	&	\numrange{8.0}{9.6}		&	Colourless / Pink	\\	\hline
-				Thymol Blue		&	\numrange{8.0}{9.6}		&	Yellow / Blue		\\	\hline
+				methyl orange   &   \numrange{3.1}{4.4}     &   red / yellow        \\
+				phenolphthalein &   \numrange{8.0}{9.6}     &   colourless / pink   \\
+				thymol blue     &   \numrange{8.0}{9.6}     &   yellow / blue       \\
 
 
-			\end{tabu}
-			\end{table}\end{center}\vspace{-10mm}
+			\end{tabu}\end{center}
+			\end{table} % \vspace{-1em}
 
 			Next, according to their working \pH{} ranges, a summary of the suitable indicators for each kind of titration:
 
 
-			\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
-			\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
-			\begin{tabu} to \textwidth {| M{50mm} | M{35mm} | X[c,m] |}
-			%| X[c,m] | X[c,m] | X[c,m] |}
+			\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+			\begin{tabu} to 0.9\textwidth { X[2,c,m] | X[1.2,c,m] | X[2,c,m] }
 
-				\hline
-				% headings
-				Situation					& 	Sharp \pH{} Change		& 	Indicators						\\	\hline
-				Strong Acid, Strong Base	&	\numrange{3.0}{11.0}	&	Any								\\	\hline
-				Strong Acid, Weak Base		&	\numrange{3.0}{7.0}		&	Methyl Orange					\\	\hline
-				Weak Acid, Strong Base		&	\numrange{7.0}{11.0}	&	Phenolphthalein, Thymol Blue	\\	\hline
-				Weak Acid, Weak Base		&	\itl{none}			&	\itl{none}					\\	\hline
+				Situation                   &   Sharp \pH{} Change      &   Indicators                      \\	\hline
+
+				strong acid, strong base    &   \numrange{3.0}{11.0}    &   any                             \\
+				strong acid, weak base      &   \numrange{3.0}{7.0}     &   methyl orange                   \\
+				weak acid, strong base      &   \numrange{7.0}{11.0}    &   phenolphthalein / thymol blue   \\
+				weak acid, weak base        &   \itl{none}              &   \itl{none}                      \\
 
 
-			\end{tabu}
-			\end{table}\end{center}\vspace{-10mm}
+			\end{tabu}\end{center}
+			\end{table}\vspace{-1em}
 
 		% end subsection
 
