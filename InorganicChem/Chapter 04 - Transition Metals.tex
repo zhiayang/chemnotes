@@ -12,7 +12,7 @@
 		Transition metals are d-block elements with atoms that have a \itl{partially-filled} d-subshell, or form cations with incomplete
 		d-subshells.
 
-		\imgdiagram{80mm}{../figures/inorganic/ch04/periodic_table_blocks.png}{The d-block is in green.}
+		\imgdiagram{100mm}{../figures/inorganic/ch04/periodic_table_blocks.png}{The d-block is in green.}
 
 		Even though zinc and scandium are in the d-block, they are generally not considered transition metals, and do not exhibit many
 		of the typical properties of transition metals.
@@ -20,60 +20,86 @@
 
 		\subsection{Electronic Configuration}
 
+			The electronic configurations of the period 4 d-block elements are laid out below. For reference, the electronic configuration
+			of argon is 1s\sps{2}2s\sps{2}2p\sps{6}3s\sps{2}3p\sps{6}.
+
+			Moving down the periodic table, most of the "rules" and "trends" that govern electrons start to break down --- especially when involving
+			transition metals. It becomes more useful to observe experimental data and come up with explanations, rather than creating predictions
+			and making exceptions.
+
+			\pagebreak
 			\subsubsection{Atomic Configuration}
 
-				The electronic configurations of the period 4 d-block elements are laid out below. For reference, the electronic configuration
-				of argon is 1s\sps{2}2s\sps{2}2p\sps{6}3s\sps{2}3p\sps{6}.
+				These are the atomic configurations of the first period of transition metals.
 
-				\tabto{0mm}Scandium (\ch{Sc}):	\tabto{35mm}[\ch{Ar}] 3d\sps{1}4s\sps{2}
-				\tabto{0mm}Titanium (\ch{Ti}):	\tabto{35mm}[\ch{Ar}] 3d\sps{2}4s\sps{2}
-				\tabto{0mm}Vanadium (\ch{V}):	\tabto{35mm}[\ch{Ar}] 3d\sps{3}4s\sps{2}
-				\tabto{0mm}Chromium (\ch{Cr}):	\tabto{35mm}[\ch{Ar}] 3d\sps{5}4s\sps{1}
-				\tabto{0mm}Manganese (\ch{Mn}):	\tabto{35mm}[\ch{Ar}] 3d\sps{5}4s\sps{2}
-				\tabto{0mm}Iron (\ch{Fe}):		\tabto{35mm}[\ch{Ar}] 3d\sps{6}4s\sps{2}
-				\tabto{0mm}Cobalt (\ch{Co}):	\tabto{35mm}[\ch{Ar}] 3d\sps{7}4s\sps{2}
-				\tabto{0mm}Nickel (\ch{Ni}):	\tabto{35mm}[\ch{Ar}] 3d\sps{8}4s\sps{2}
-				\tabto{0mm}Copper (\ch{Cu}):	\tabto{35mm}[\ch{Ar}] 3d\sps{10}4s\sps{1}
-				\tabto{0mm}Zinc (\ch{Zn}):		\tabto{35mm}[\ch{Ar}] 3d\sps{10}4s\sps{2}
+				\begin{table}[htb]\renewcommand{\arraystretch}{1.3}\begin{center}
+				\begin{tabu} to 0.9\textwidth { X[c,m] | X[c,m] }
 
+					% headings
+					Element &   Atomic Configuration            \\ \hline
+					\ch{Sc} &   [\ch{Ar}] 3d\sps{1}4s\sps{2}    \\
+					\ch{Ti} &   [\ch{Ar}] 3d\sps{2}4s\sps{2}    \\
+					\ch{V}  &   [\ch{Ar}] 3d\sps{3}4s\sps{2}    \\
+					\ch{Cr} &   [\ch{Ar}] 3d\sps{5}4s\sps{1}    \\
+					\ch{Mn} &   [\ch{Ar}] 3d\sps{5}4s\sps{2}    \\
+					\ch{Fe} &   [\ch{Ar}] 3d\sps{6}4s\sps{2}    \\
+					\ch{Co} &   [\ch{Ar}] 3d\sps{7}4s\sps{2}    \\
+					\ch{Ni} &   [\ch{Ar}] 3d\sps{8}4s\sps{2}    \\
+					\ch{Cu} &   [\ch{Ar}] 3d\sps{10}4s\sps{1}   \\
+					\ch{Zn} &   [\ch{Ar}] 3d\sps{10}4s\sps{2}   \\
 
-				Note the strange configurations of \ch{Cu} and \ch{Cr}. Instead of having a 3d\sps{4}4s\sps{2} or 3d\sps{9}4s\sps{2} configuration,
-				they instead have 3d\sps{5} and 3d\sps{10} configurations. The reason for this is the favourability, or lower energy level, of
-				a configuration that minimises electron density.
+				\end{tabu}\end{center}
+				\end{table}\vspace{-1em}
 
-				Lower electron densities naturally mean less inter-electronic repulsion, which reduces the potential energy of the system and
-				making it more stable.
+				Notably, Chromium and Copper seem out of place with their 4s\sps{1} configurations. While the \itl{generally accepted} explanation
+				is that half-full and fully-filled subshells (3d\sps{5} and 3d\sps{10} respectively) are more stable, in reality there is no extra
+				stability conferred to this configuration.
+
+				A more complete explanation can be found in the appendix, but the TL;DR is that the \itl{alternative} configurations are less stable
+				(due to a number of factors --- electronic repulsion, exchange energy, atomic radius), so the electrons end up in that arrangement.
+
+				% parallel spin avoidance factor (http://www.quimica.ufpr.br/edulsa/cq115/artigos/Ionization_Energies_Parallel_spins_and_the_stability_of_half_filled_shells.pdf)
+				% exchange energy
+				% https://socratic.org/questions/why-is-the-electron-configuration-of-chromium-1s-2-2s-2-2p-6-3s-2-3p-6-3d-5-4s-1
+				% https://www.quora.com/Why-chromium-has-electron-configuration-4s1-3d5/answer/Michael-Flynn-2
 
 			% end subsubsection
 
 
 			\subsubsection{Ionic Configuration}
 
-				\tabto{0mm}\ch{Sc^3+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{0}
-				\tabto{0mm}\ch{Ti^2+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{2}
-				\tabto{0mm}\ch{V^3+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{2}
-				\tabto{0mm}\ch{Cr^3+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{3}
-				\tabto{0mm}\ch{Mn^2+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{5}
-				\tabto{0mm}\ch{Fe^2+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{6}
-				\tabto{0mm}\ch{Co^2+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{7}
-				\tabto{0mm}\ch{Ni^2+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{8}
-				\tabto{0mm}\ch{Cu^2+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{9}
-				\tabto{0mm}\ch{Zn^2+}:	\tabto{35mm}[\ch{Ar}] 3d\sps{10}
+				As previously mentioned, transition metals exist in multiple oxidation states, so it is futile to list them all. However, it is
+				important to note that the 4s electrons are removed first, before the 3d electrons.
 
-				Note how the 2 electrons in the 4s-subshell are lost first. The reason for this behaviour is due to the energy levels of the
-				electron shells. The filling order proceeds in this manner:
+				\begin{table}[htb]\renewcommand{\arraystretch}{1.3}\begin{center}
+				\begin{tabu} to 0.9\textwidth { X[c,m] | X[c,m] }
+
+					% headings
+					Ion         &   Ionic Configuration     \\ \hline
+					\ch{Sc^3+}  &   [\ch{Ar}] 3d\sps{0}     \\
+					\ch{Cr^3+}  &   [\ch{Ar}] 3d\sps{3}     \\
+					\ch{Co^2+}  &   [\ch{Ar}] 3d\sps{7}     \\
+					\ch{Cu^2+}  &   [\ch{Ar}] 3d\sps{9}     \\
+					\ch{Zn^2+}  &   [\ch{Ar}] 3d\sps{10}    \\
+
+				\end{tabu}\end{center}
+				\end{table}\vspace{-1em}
+
+				\pagebreak
+				The electron shells are filled in this order (commonly known as the Madelung rule):
 
 				\imgdiagram{70mm}{../figures/inorganic/ch04/electron_filling.png}{\vspace{-1em}}
 
-				The empty 4s subshell has a lower energy than the empty 3d subshell, so it is filled first. However, once the 4s subshell is
-				filled, electrons go to the 3d subshell --- the addition of electrons eventually lowers the energy level of the 3d subshell
-				below that of the 4s.
+				However, there is nothing that implies electrons must be removed in the corresponding order (like a stack). It must be noted
+				that the electron state of an \ch{Fe^2+} is not simply that of an \ch{Fe^3+} ion with one extra electron. In the ground state,
+				an empty 4s subshell does have a lower energy than an empty 3d subshell, so the former is filled first, across the period.
 
-				Hence, when removing electrons, the ones in the 4s subshell, which is now at a higher energy level than the 3d subshell, are the
-				first to go.
+				However, the subsequent addition of electrons to the 3d subshell lowers its energy below that of the 4s (but it's already full,
+				so it doesn't matter). Thus, when electrons are removed, they are pulled from the higher-energy orbitals --- so the 4s subshell is
+				the first to go.
 
-				Furthermore, from the configurations above it can be seen that \ch{Sc^3+} only has an empty 3d-subshell, while \ch{Zn^2+} has
-				a fully-filled 3d-subshell. Thus, they are not considered transition metals.
+				The key appreciation is that the 3d and 4s subshells are very close together in terms of energy levels, such that certain
+				stabilising or destabilising effects can have enough impact to move an electron across a subshell.
 
 			% end subsubsection
 
@@ -81,25 +107,23 @@
 
 	% end section
 
-
+	\pagebreak
 	\section{Physical Properties}
 
 		\subsection{Atomic Radii}
 
-			Generally speaking, the atomic radii across the transition metals remains relatively constant. Physically speaking, the 4s electrons
-			are the valence electrons; hence, since new electrons are added to the 3d subshell, the increase in the shielding effect
+			Generally speaking, the atomic radii across the transition metals remain relatively constant. Physically, the 4s electrons
+			are the valence electrons; hence, since subsequent electrons are added to the 3d subshell, the increase in the shielding effect
 			somewhat mitigates the increase in nuclear charge.
 
+			\imgdiagram{110mm}{../figures/inorganic/ch04/atomic_radii.png}{\vspace{-1em}}
 
-			\imgdiagram{100mm}{../figures/inorganic/ch04/atomic_radii.png}{\vspace{-1em}}
+			Hence, the atomic radius remains relatively constant across the d-block elements. In comparison with potassium and calcium,
+			the radii of the d-block elements are \itl{much smaller}; this is due to the fact that the shielding effect of the 3d-subshell
+			is quite poor, due to its \itl{diffuse nature}.
 
-
-			Hence, the atomic radii remains relatively constant across the d-block elements. Comparing with potassium and calcium,
-			the radii of d-block elements are \itl{much smaller} than the radii of s-block elements. This is due to the fact that the shielding
-			effect of the 3d-subshell is quite poor due to its \itl{diffuse nature}.
-
-			Thus, the increase in nuclear charge from \ch{Ca} to \ch{Sc} without a correspondingly significant change in the shielding effect
-			leads to a sharp decrease in atomic radius by virtue of being able to attract the valence electrons closer to the nucleus.
+			The increase in nuclear charge from \ch{Ca} to \ch{Sc} without a correspondingly significant change in the shielding effect
+			leads to a sharp decrease in atomic radius, by virtue of being able to attract the valence electrons closer to the nucleus.
 
 		% end subsection
 
@@ -111,7 +135,7 @@
 			metals can use both the 3d and 4s electrons, due to the small difference in their energy levels.
 
 			From vanadium to manganese however, there is a decrease in melting and boiling points, which is due to the stability of the
-			singly-filled 3d-subshell (5 electrons out of 10, all with the same spin), which reduces their availability for metallic bonding.
+			singly-filled 3d-subshell, which reduces their availability for metallic bonding.
 
 			Somewhat similarly, from iron to zinc, the melting and boiling points start to decrease, as paired electrons are again less
 			available for bonding.
@@ -121,17 +145,17 @@
 
 		\subsection{First Ionisation Energy}
 
-			The trend for the first IE. is somewhat similar to the trend for atomic radii. For s- and p-block elements, additional electrons
+			The trend for the first IE is somewhat similar to the trend for atomic radii. For s- and p-block elements, additional electrons
 			do not contribute significantly to the shielding effect as they are added to the valence shell. Hence, with an increasing nuclear
 			charge, it becomes more difficult to remove a valence electron.
 
-			\imgdiagram{100mm}{../figures/inorganic/ch04/first_ie.png}
+			\imgdiagram{120mm}{../figures/inorganic/ch04/first_ie.png}{\vspace{-1em}}
 
-			In contrast, electrons are added to the inner 3d-subshell across the transition elements, leading to an increase in the shielding
+			By contrast, electrons are added to the inner 3d-subshell across the transition elements, leading to an increase in the shielding
 			effect. Thus mostly negates the increasing nuclear charge, since the valence electron, which is the one being removed, is in the
 			4s-subshell.
 
-			Hence, first IE. increases only \itl{slightly} across the transition metals.
+			Hence, first IE increases only \itl{slightly} across the transition metals.
 
 		% end subsection
 
@@ -199,8 +223,7 @@
 			\subsubsection{Heterogeneous Catalysis}
 
 				The main reason transition metals are able to act as heterogeneous catalysts is due to the presence of a \itl{partially-filled}
-				d-subshell. This allows them to either \itl{accept} electron pairs, or \itl{donate} electron pairs, allowing for the adsorption
-				of reactant molecules onto their surface.
+				d-subshell. This lets them either \itl{accept} or \itl{donate} electron pairs, allowing for the adsorption of reactant molecules.
 
 				The detailed mechanism is covered elsewhere, but suffice to say this ability to accept or donate electrons can weaken the bonds
 				in the reactant, lowering the activation energy.
@@ -225,15 +248,13 @@
 
 				A common example is the oxidation of \ch{I-} to \ch{I2} by \ch{S2O8^2-}.
 
-				\txtdiagram{
-					\schemestart[0, 1.5, thick]
-						\ch{2 Fe^2+} + \ch{S2O8^2-}\arrow{->[\tinytext{Step 1}]}\ch{2 Fe^3+} + \ch{2 SO4^2-}
-						\arrow(@c1.south east--.north east){0}[-90,.35]
-						\ch{2 Fe^3+} + \ch{2 I-}\arrow{->[\tinytext{Step 2}]}\ch{I2} + \ch{Fe^2+}
-						\arrow(@c3.south east--.north east){0}[-90,.35]
-						\ch{S2O8^2-} + \ch{2 I-}\arrow{->[\tinytext{Overall}]}\ch{I2} + \ch{2 SO4^2-}
-					\schemestop
-				}{\vspace{-1em}}
+				\txtreactioneqn{
+					\ch{2 Fe^2+} + \ch{S2O8^2-}\arrow{->[\tinytext{step 1}]}\ch{2 Fe^3+} + \ch{2 SO4^2-}
+					\arrow(@c1.south east--.north east){0}[-90,.4]
+					\ch{2 Fe^3+} + \ch{2 I-}\arrow{->[\tinytext{step 2}]}\ch{I2} + \ch{Fe^2+}
+					\arrow(@c3.south east--.north east){0}[-90,.4]
+					\ch{S2O8^2-} + \ch{2 I-}\arrow{->[\tinytext{overall}]}\ch{I2} + \ch{2 SO4^2-}
+				}
 
 				Here, the \ch{Fe^2+} ion and the \ch{S2O8^2-} ion can easily react, because they are oppositely charged. \ch{Fe^2+} is
 				oxidised by the peroxodisulphate ion to \ch{Fe^3+}, forming one of the products, \ch{SO4^2-}.
@@ -337,7 +358,7 @@
 			the ionic charges of the ligands. It is possible to have neutral complexes, either by having balanced charges, or with a neutral
 			metal atom and neutral ligands.
 
-			A compound containing a complex ion typically has \itl{counter ions} that serve to balance the charge. In aqueous solution, the
+			A compound containing a complex ion typically has \itl{counter ions} that serve to balance the charge. In an aqueous solution, the
 			counter ions dissociate from the complex ion as expected. The complex ion is treated as a \itl{single, polyatomic ion}.
 
 		% end subsection
@@ -398,11 +419,11 @@
 		\subsection{Hydrated Complex Ions}
 
 			Otherwise known as aqua complexes, these ions are formed when a transition metal, or any metal with a sufficiently high charge
-			density, is dissolved in water. Essentially these are complexes where the water molecules act as ligands.
+			density, is dissolved in water. Essentially these are complexes where the water molecules act as ligands. This is because
+			transition metal cations have high charge density and thus polarising power, preferring the formation of covalent bonds as
+			opposed to ionic interactions.
 
-			In contrast, most s-block metals (eg. sodium) do not form hydrated complexes, only ion-dipole interactions. This is because
-			the highly-charged and small transition metal cations have high polarising power, thus preferring the formation of
-			covalent bonds versus ionic interactions.
+			By contrast, most s-block metals (eg. sodium) do not form hydrated complexes, only ion-dipole interactions.
 
 
 			\pagebreak
@@ -415,13 +436,11 @@
 				water ligand, eventually allowing another water molecule to attack the weakly-attached H atom, forming \ch{H3O+}.
 
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{[Fe(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\arrow{<=>}\ch{[Fe(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
-						\arrow(@c1.south east--.north east){0}[-90,.20]
-						\ch{[Cr(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\arrow{<=>}\ch{[Cr(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
-					\schemestop
-				}{\vspace{-1.5em}}
+				\txtreactioneqn{
+					\ch{[Fe(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\arrow{<=>}\ch{[Fe(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
+					\arrow(@c1.south east--.north east){0}[-90,.20]
+					\ch{[Cr(H2O)6]^3+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H2O \stL}\arrow{<=>}\ch{[Cr(H2O)5OH]^2+ \stAq}\hspace{2mm} + \hspace{2mm}\ch{H3O+ \stAq}
+				}
 
 			% end subsubsection
 
@@ -434,11 +453,9 @@
 				As an example, aqueous chromium ions in the +6 oxidation state \itl{do not} exist as \ch{[Cr(H2O)6]^6+}. Instead, it
 				forms \ch{CrO4^2-} and \ch{Cr2O7^2-}, chromate and dichromate, which exist in an equilibrium.
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{2 CrO4^2- \stAq} + \ch{2 H+ \stAq}\arrow{<=>}\ch{Cr2O7^2- \stAq} + \ch{H2O \stL}
-					\schemestop
-				}{\vspace{-1.5em}}
+				\txtreactioneqn{
+					\ch{2 CrO4^2- \stAq} + \ch{2 H+ \stAq}\arrow{<=>}\ch{Cr2O7^2- \stAq} + \ch{H2O \stL}
+				}
 
 				In acidic conditions, [\ch{H+}] is high, so by Le Châtelier's Principle, the position of equilibrium moves to the right,
 				favouring the production of orange dichromate. Conversely in an alkaline medium, the position of equilibrium moves to the left
@@ -455,26 +472,22 @@
 			Ligand exchange reactions are simply reactions where one or more of the ligands of a complex are replaced by other ligands. That
 			is all. The new complex can often have different properties, including reduction potential and colour.
 
-			\subsubsection{Stability Constant, \MKstab{}}
+			\subsubsection{Stability Constant, \K{stab}}
 
-				\Kstab{} is essentially another form of \Kc{} for complex ions. For example, if an exchange between the \ch{H2O} ligands of
-				\ch{[Cu(H2O)6]^2+} and \ch{\Cl-} ligands were to happen:
+				\K{stab} is essentially another form of \Kc{} for complex ions. For example, \ch{[Cu(H2O)6]^2+} were to replace its \ch{H2O} ligands
+				with \ch{\Cl-} ligands:
 
-				\txtdiagram{
-					\schemestart[0,1.0,thick]
-						\ch{[Cu(H2O)6]^2+ \stAq} + \ch{4 \Cl- \stAq}\arrow{<=>}\ch{[Cu\Cl4]^2- \stAq} + \ch{6 H2O \stL}
-					\schemestop
-				}{\vspace{-1.5em}}
+				\txtreactioneqn{
+					\ch{[Cu(H2O)6]^2+ \stAq} + \ch{4 \Cl- \stAq}\arrow{<=>}\ch{[Cu\Cl4]^2- \stAq} + \ch{6 H2O \stL}
+				}
 
-				The \Kstab{} equation would be as such:
+				The \K{stab} equation would be as such:
 
-				\diagram[1.5]{
-					\schemestart[0,1.0,thick]
-						$K_{stab} = \frac{[[CuCl_{4}]^{2-}]}{[[Cu(H_{2}O)_{6}]^{2+}][Cl-]^{4}}$
-					\schemestop
-				}{\vspace{-1em}}
+				\mathdiagram{
+					\[ K_{stab} = \frac{[[CuCl_{4}]^{2-}]}{[[Cu(H_{2}O)_{6}]^{2+}][Cl-]^{4}} \]
+				}
 
-				The higher the \Kstab{} value, then, the greater the probability that ligand exchange will take place.
+				The higher the \K{stab} value, then, the greater the probability that ligand exchange will take place.
 
 			% end subsubsection
 
@@ -487,7 +500,7 @@
 				\SI[retain-explicit-plus]{+0.36}{\volt}.
 
 				The primary difference lies in the stability of the complex formed, which affects the concentration of free metal ions in
-				solution, which are the ones being reduced. Anionic ligands also have a stabilising effect on the metal cation, reducing their
+				solution that can undergo reduction. Anionic ligands also have a stabilising effect on the metal cation, reducing their
 				reduction potential electrostatically.
 
 			% end subsubsection
@@ -495,16 +508,17 @@
 
 			\subsubsection{Ligand Exchange in Haemoglobin}
 
-				Ligand exchange underlies the function of haemoglobin molecules in the blood that transport oxygen to cells. Under normal
+				Ligand exchange underlies the function of haemoglobin molecules in transporting oxygen to cells. Under normal
 				circumstances, the haemoglobin molecule has a central \ch{Fe^2+} ion, and can \itl{reversibly} form dative bonds with \ch{O2}
 				molecules, creating \itl{oxyhaemoglobin}.
 
 				When exposed to molecules of \ch{CO} however, oxyhaemoglobin undergoes a ligand exchange reaction, replacing the \ch{O2} ligand
-				with a \ch{CO} ligand. Unfortunately, the \Kstab{} value of \itl{carboxyhaemoglobin} is around \itl{\num{210} times} greater
-				than oxyhaemoglobin.
+				with a \ch{CO} ligand. Unfortunately, the \K{stab} value of \itl{carboxyhaemoglobin} is around \itl{\num{210} times} greater
+				than that of oxyhaemoglobin.
 
-				Thus, the ligand exchange reaction is effectively \itl{irreversible}, permanently disabling that molecule of haemoglobin.
-				If enough molecules are disabled, death naturally occurs. I've heard it's painless, which is a slight consolation.
+				Thus, the exchange is effectively \itl{irreversible}, permanently disabling that particular molecule of haemoglobin.
+				If enough molecules are disabled, oxygen fails to reach the cells and death occurs. I've heard it's painless,
+				which is a slight consolation.
 
 			% end subsubsection
 
@@ -526,7 +540,7 @@
 
 		\subsection{Quantum Theory of Light}
 
-			What must first be explored is the quantum theory of light. It states that light consists of discrete particles --- \itl{photons}.
+			What must first be explained is the quantum theory of light. It states that light consists of discrete particles --- \itl{photons}.
 			When a photon interacts with an electron, it must be \itl{completely} absorbed, in a one-to-one interaction. All of the energy of
 			the photon must be absorbed at once, or not at all.
 
@@ -536,11 +550,9 @@
 
 			The energy of a photon is given as such:
 
-			\diagram[1.5]{
-				\schemestart[0,1.0,thick]
-					$E = \frac{hc}{\lambda}$
-				\schemestop
-			}{\vspace{-1em}}
+			\mathdiagram{
+				\[ E = \frac{hc}{\lambda} \]
+			}
 
 			$E$ is the energy of the photon, $h$ is the Planck Constant (\SI{6.63e-34}{\square\metre\kilo\gram\per\second}), $c$ is
 			the speed of light, and $\lambda$ is the wavelength of the photon.
@@ -549,7 +561,7 @@
 			on its colour.
 
 			The wavelengths of visible light lie between \SI{400}{\nano\metre} and \SI{700}{\nano\metre}. Red has the longest wavelength,
-			followed by orange, yellow, green, blue, then violet, at \SI{700}{\nano\metre}.
+			followed by orange, yellow, green, blue, then violet, at \SI{400}{\nano\metre}.
 
 		% subsection
 
@@ -563,7 +575,7 @@
 
 			The 5 d-orbitals have the following shapes in 3d space:
 
-			\imgdiagram{110mm}{../figures/inorganic/ch04/d_orbitals.png}{The 5 orbitals in the d subshell.}
+			\imgdiagram{100mm}{../figures/inorganic/ch04/d_orbitals.png}{The 5 orbitals in the d subshell.}
 
 			For an octahedral complex, the ligands will approach along the \itl{x}, \itl{y}, and \itl{z} axes. Thus, they directly approach
 			the lobes of the \itl{d\sbs{z\sps{2}}} and \itl{d\sbs{x\sps{2-}}\sbs{y\sps{2}}} orbitals, leaving the lobes of the \itl{d\sbs{yz}},
@@ -573,7 +585,7 @@
 			to their arrangement in space, the electrostatic repulsion between the ligands' lone pairs, and \itl{some} of the d-orbitals,
 			leads to a \itl{splitting} of the orbitals, and a loss of degeneracy.
 
-			\imgdiagram{110mm}{../figures/inorganic/ch04/electron_splitting.png}{The 5 degenerate orbitals are split, into 2 and 3.}
+			\imgdiagram{100mm}{../figures/inorganic/ch04/electron_splitting.png}{The 5 degenerate orbitals are split, into 2 and 3.}
 
 			Note that the 2 higher energy orbitals correspond to those where there is electrostatic repulsion with the ligand, and the lower
 			3 are the orbitals between the axes.
@@ -622,11 +634,9 @@
 			In other words, it is the first electron affinity of the acceptor less the first ionisation energy of the donor, plus corrections
 			for electrostatic interactions.
 
-			\diagram[1.5]{
-				\schemestart[0,1.0,thick]
-					$∆E = E_{A} - E_{I} + J$
-				\schemestop
-			}{\vspace{-1em}}
+			\mathdiagram{
+				\[ ∆E = E_{A} - E_{I} + J \]
+			}
 
 			Due to certain reasons which limit the kinds of electrons that can be promoted in a d-d electronic transition, the intensity of
 			absorption for complexes whose colour depends on d-d transitions is usually small --- hence most of the colours are somewhat

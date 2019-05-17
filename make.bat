@@ -18,6 +18,8 @@ IF /I "%1"=="appendix" (
 )
 
 :again
+set isquit=""
+
 (call )
 cd %name%
 
@@ -25,8 +27,18 @@ cls
 lualatex --interaction=nonstopmode --halt-on-error --shell-escape %name%.tex
 cp %name%.pdf ../
 
-set /p dummy=
+echo.
+set /p isquit= "q to quit / enter to recompile: "
+
+IF /I "%isquit%"=="q" (
+	echo "i am q"
+	goto doquit
+)
 
 cd ..
 
 goto again
+
+:doquit
+cd ..
+set isquit=""
