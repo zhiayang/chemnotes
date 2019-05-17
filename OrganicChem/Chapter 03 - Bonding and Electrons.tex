@@ -1,0 +1,275 @@
+% Chapter 03 - Bonding and Electrons.tex
+% Copyright (c) 2014 - 2016, zhiayang@gmail.com
+
+
+\pagebreak
+\hypertarget{ChapterBondingAndElectrons}{}
+\part{Bonding and Electrons}
+
+	\section{Bond Breaking}
+		\subsection{Homolytic Fission}
+
+			Homolytic fission involves the splitting of a single bond, with an equal (\itl{homo}) distribution of the two electrons
+			in the aforementioned bond. This results in the formation of radicals, since now both atoms from the bond will have
+			unpaired electrons.
+
+			The movement of these single electrons is represented with single-hooked arrows. The arrow starts from the bond line, and points
+			towards the target atom receiving the electron.
+
+			\diagram{
+				\schemestart[0, 1.5, thick]
+				\chemfig{@{carb}C(-[@{bond}:0]@{hyd}H)(-[:90]H)(-[:180]H)(-[:270]H)}
+				\arrow{->}
+				\chemfig{\lewis{0.,C}(-[:90]H)(-[:180]H)(-[:270]H)} \hspace{5mm} + \hspace{5mm} \chemfig{\lewis{4.,H}}
+				\schemestop
+
+				% draw arrows
+				\chemmove{\draw[-{Stealth[left]},line width=0.4mm,shorten <=1mm,shorten >=1mm](bond).. controls +(90:5mm) and +(120:8mm).. (hyd);}
+				\chemmove{\draw[-{Stealth[left]},line width=0.4mm,shorten <=1mm,shorten >=1mm](bond).. controls +(270:5mm) and +(285:8mm).. (carb);}
+
+			}[The homolytic fission of \ch{CH4}, forming \ch{^.CH3} and \ch{^.H} radicals.]
+
+		% end subsection
+
+		\subsection{Heterolytic Fission}
+
+			As the name implies, heterolytic fission is the opposite; it distributes both electrons of the bond to a single atom, which
+			usually results in the formation of ions. The transfer here is represented using a full (double-hooked) arrow.
+
+
+			\diagram{
+				\schemestart[0, 1.5, thick]
+				% note: chlorine has to be coloured manually here
+				% because somewhere in chemfig it fucks up, you can't name a submolecule.
+				\chemfig{@{carb}C(-[@{bond}:0]@{chl}\color{OliveGreen}\Cl)(-[:90]H)(-[:180]H)(-[:270]H)}
+				\arrow{->}
+				\chemfig{C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{\lewis{4:,\color{OliveGreen}\Cl}}
+				\schemestop
+
+				% draw arrows
+				\chemmove{\draw[-{Stealth},line width=0.4mm,shorten <=1mm,shorten >=1mm](bond).. controls +(90:5mm) and +(120:8mm).. (chl);}
+
+
+			}[The heterolytic fission of \ch{CH3\Cl}, resulting in \ch{CH3+} and \ch{\Cl-} ions]
+
+		% end subsection
+
+	\pagebreak
+	\section{Bond Forming}
+		\subsection{Single Electrons}
+
+			Bond forming is essentially the reverse of bond breaking, and hence the same notations apply --- single-hooked arrows for the
+			movement of single electrons, and double-hooked arrows for the movement of an electron pair.
+
+			In this case, two single electrons from each atom contribute to the new bond.
+
+
+			\diagram{
+				\schemestart[0, 1.5, thick]
+				\chemfig{@{carb}\lewis{1.,C}(-[:90]H)(-[:180]H)(-[:270]H)}
+				\hspace{5mm} \chemfig{@{plus}+} \hspace{5mm}
+				\chemfig{@{hyd}\lewis{5.,H}}
+				\arrow{->}
+				\chemfig{C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H)}
+				\schemestop
+
+				% draw arrows
+				\chemmove{\draw[-{Stealth[left]},line width=0.4mm,shorten <=2mm,shorten >=1mm](carb).. controls +(45:5mm) and +(120:8mm).. (plus);}
+				\chemmove{\draw[-{Stealth[left]},line width=0.4mm,shorten <=2mm,shorten >=1mm](hyd).. controls +(225:5mm) and +(285:8mm).. (plus);}
+
+			}[The formation of a bond between \ch{^.CH3} and \ch{^.H} radicals to form \ch{CH4}.]
+
+
+		% end subsection
+
+
+		\subsection{Electron Pairs}
+
+			Electron pairs usually come from negatively charged radicals or lone pars, although this is not a rule.
+			Both electrons come from a single source to form a bond, but this is \itl{not} a dative bond --- it is simply a normal
+			bond.
+
+			\diagram{
+				\schemestart[0, 1.5, thick]
+				\chemfig{@{carb}C|\sps{+}(-[:90]H)(-[:180]H)(-[:270]H)}
+				\hspace{5mm} + \hspace{5mm}
+				\chemfig{@{chl}\lewis{3:,\color{OliveGreen}\ch{\Cl-}}}
+				\arrow{->}
+				\chemfig{C(-[:0]!\molCl)(-[:90]H)(-[:180]H)(-[:270]H)}
+				\schemestop
+
+				% draw arrows
+				\chemmove{\draw[-{Stealth},line width=0.4mm,shorten <=3mm,shorten >=1mm](chl).. controls +(150:12mm) and +(45:12mm).. (carb);}
+
+			}[The formation of a bond between \ch{^.CH3} and \ch{\Cl-} radicals, to form \ch{CH3\Cl}.]
+
+		% end subsection
+	% end section
+
+
+	\pagebreak
+	\section{Electrophiles and Nucleophiles}
+		\subsection{Electrophiles}
+
+			Electrophiles are electron-deficient species that accept an electron pair from a nucleophile donor. Most electrophiles
+			either have a positive charge, or contain an atom that is polarised and thus has a partial positive charge.
+
+			Examples of electrophiles include \ch{CH3+}, \ch{Br+}, \ch{NO2+}, polarised \ch{Br2}, and \ch{HBr}.
+
+		% end subsection
+
+		\subsection{Nucleophiles}
+
+			Nucleophiles are electron-rich species that donate electron pairs to electrophiles. This process typically results
+			in the formation of a new covalent bond. Nucleophiles usually contain atoms that are either negatively charged, or,
+			more frequently, contain lone electron pairs that are not bonded.
+
+			Molecules with a $\pi$-bond, such as ethene or benzene, can also act as nucleophiles, due to the high electron
+			density of the $\pi$-system.
+
+			Examples of nucleophiles include \ch{H2O}, \ch{NH3}, and \ch{OH-}.
+
+		% end subsection
+	% end section
+
+
+	\section{Inductive Effect}
+
+		The inductive effect occurs through covalent bonds, where there is a significant difference in the electronegativity of
+		participating atoms. Electrons are either withdrawn or donated through a $\sigma$-bond, due to the polarity of the molecule.
+
+		\subsection{Withdrawal}
+
+			Below, \ch{\Cl} is more electronegative than the carbon it is bonded to. As such, it
+			\itl{inductively withdraws} electrons through the $\sigma$-bond.
+
+			\diagram{
+				\chemfig{C(-[:0,,,,-Stealth]!\molCl)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}
+
+			}[Note that the arrow represents a withdrawal of electrons, \itl{not} a dative bond.]
+
+		% end subsubsection
+
+		\pagebreak
+		\subsection{Donation}
+
+			Alkyl groups, or groups with the general formula \ch{C_nH_{2n+1}}, \itl{inductively donate} electrons. This behaviour
+			is due to hyperconjugation, which lowers the total energy of the system, through an interaction between electrons in a
+			$\sigma$-bond of the alkyl group, with a partially-filled or empty p-orbital in the adjacent atom.
+
+
+			\diagram[1.0]{
+				\chemfig{C(-[:0,,,,Stealth-]!\molMe)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}
+
+			}[Again, the arrow \itl{does not} represent a dative bond.]
+
+		% end subsection
+	% end section
+
+
+	\section{Resonance Effect}
+
+		The resonance effect is the withdrawal or donation of electrons through the side-on overlap of \itl{unhybridised} p-orbitals.
+		Thus, the resonance effect can only occur when the central atom is \spone or \sptwo hybridised, since only those
+		configurations have unhybridised p-orbitals.
+
+
+		\subsection{Withdrawal}
+
+			In the case below, electrons flow from the double-bonds to the substituent, via the resonance effect. In general, substituents
+			that exhibit an electron-withdrawing resonance effect usually take the form of \ch{–Y=Z}, where Z is more electronegative than Y.
+			Examples include carbonyls and nitriles.
+
+			\diagram{
+				\schemestart[0, 1.5, thick]
+				\chemfig{C(-[:180]H)(=[@{b1}:270]@{oxy}{{\color{Red}O}})(-[@{b2}:0]C(-[:90]H)(=[@{b3}:0]C(-[:45]H)(-[:315]H)))}
+				\arrow{->}
+				\chemfig{C(-[:180]H)(-[:270]!\molO|\sps{-})(-[:0]C(-[:90]H)(=[:0]C|\sps{+}(-[:45,,1]H)(-[:315,,1]H)))}
+				\schemestop
+
+				% draw arrows
+				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b3).. controls +(90:8mm) and +(90:8mm).. (b2);}
+				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b1).. controls +(180:8mm) and +(180:8mm).. (oxy);}
+
+			}[Electrons move from the electron-rich double-bonds, which have unhybridised p-orbitals, to an adjacent atom.]
+
+		% end subection
+
+
+		\pagebreak
+		\subsection{Donation}
+
+			On the other hand, groups can donate electrons through resonance, flowing from the substituent to a single-bond, forming
+			a double-bond. Substituents such as halogens (\ch{F}, \ch{\Cl}, etc.), hydroxyls (\ch{-OH}), and amines (\ch{-NH2})
+			are examples. They usually contain a lone pair of electrons that are free for donation.
+
+
+			\diagram{
+				\schemestart[0, 1.5, thick]
+				\chemfig{C(-[:225]H)(-[@{b1}:90]@{oh}\color{Red}\lewis{4:,O}|{\color{Red}H})(=[@{b2}:315]@{oxy}{\color{Red}O})}
+				\arrow{<->}
+				\chemfig{C(-[:225]H)(=[:90,,,2]!\molHO|\sps{+})(-[:315]!\molO\sps{-})}
+				\schemestop
+
+				% draw arrows
+				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](oh).. controls +(180:8mm) and +(180:8mm).. (b1);}
+				\chemmove{\draw[-Stealth,line width=0.4mm,shorten <=2mm,shorten >=1mm](b2).. controls +(45:8mm) and +(45:8mm).. (oxy);}
+
+			}[This example shows both resonant withdrawal and donation.]
+
+
+		% end subsection
+
+
+		\subsection{Overall Effect}
+
+			Since it is possible for a substituent group to simultaneously withdraw and donate electrons through different
+			mechanisms, it can be difficult to determine whether the overall effect serves to withdraw or donate electrons.
+
+			\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+			\begin{tabu} to 0.9\textwidth { X[4,c,m] | X[c,m] | X[c,m] }
+
+				Substituent Group                           &   Strength    &   Overall Effect  \\ \hline
+
+				Alkyl/aryl groups (eg. \ch{-CH3})           &   Weak        &   Donating        \\
+				\ch{-OH}, \ch{-NH2}, \ch{-OCH3}             &   Strong      &   Donating        \\
+				\ch{-\Cl}, \ch{-Br}                         &   Weak        &   Withdrawing     \\
+				\ch{-CHO}, \ch{-NO2}, \ch{-CN}, \ch{-CO2H}  &   Strong      &   Withdrawing     \\
+
+			\end{tabu}\end{center}
+			\end{table}\vspace{-1em}
+
+			\subsubsection{Caveats}
+			\hypertarget{CaveatResonanceTable}{}
+
+				Note that the table above only applies to benzene rings, which will be covered \hyperlink{ChapterArenes}{\boit{later}}. This is because
+				the resonance effect (overlapping of p-orbitals with $\pi$-electron clouds) is only commonly applicable to arenes, or where
+				the atom is \sptwo hybridised.
+
+				In all other cases, where the substituent is bonded to an \spthree hybridised atom, the electron-donating or withdrawing
+				behaviour is determined mostly by the electronegativity, since there is no unhybridised p-orbital to overlap with. Hence,
+				alkyl groups are basically the only electron-donating species in this case.
+
+			% end subsubsection
+		% end subsection
+	% end section
+% end part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

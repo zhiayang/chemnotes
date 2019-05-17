@@ -9,10 +9,7 @@
 	\section{Overview}
 
 		Functional groups are the main determinant of the chemical properties of a molecule. Molecules with the
-		same functional group are of the same \itl{family} and similar \itl{chemical properties}.
-
-		Functional groups can be any size --- the ketone functional group is just an oxygen double-bonded to a carbon atom
-		with two R groups on either side, while the carboxylic acid functional group has a more complex structure.
+		same functional group are of the same \itl{family} and have similar \itl{chemical properties}.
 
 	% end section
 
@@ -24,94 +21,56 @@
 		\itl{R}, as used below, represents a substituent alkyl or aryl group, the former being an arbitrary carbon chain, and the
 		latter being some aromatic ring derivative.
 
-		\begin{center}\renewcommand{\arraystretch}{1.4}
-		\begin{longtabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] | X[c,m] |}
+		\begin{center}
+		\begin{longtabu} to 0.9\textwidth { X[c,m] | X[c,m] | X[c,m] | X[c,m] }
 
-			\hline
+		Name            &   Prefix Form     &   Suffix Form     &   Structure           \\ \hline
+		Carboxylic Acid &   carboxy–*       &   *–oic acid      &
+			\vspace{4mm}\chemfig{!\molO=C(-[:315]!\molOH)(-[:45]!\molR)}\vspace{4mm}
+			\\ \hline
 
-		Name			&	Prefix Form		&	Suffix Form		&	Structure \\
-		\hline
-		Carboxylic Acid	&	carboxy–*		&	*–oic acid		&
-			\vspace{2mm}
-			\chemfig{!\molO=C(-[:315]!\molOH)(-[:45]!\molR)}
-			\vspace{2mm}	\\
+		Ester           &       –           &   *–oate          &
+			\vspace{4mm}\chemfig[][scale=0.9]{!\molO=C(-[:315]!\molO(-[:0]!\molR))(-[:45]!\molR)}\vspace{4mm}
+			\\ \hline
 
+		Acyl Halide     &   halocarbonyl–*  &   *–oyl halide    &
+			\vspace{4mm}\chemfig{!\molO=C(-[:315]!\molX)(-[:45]!\molR)}\vspace{4mm}
+			\\ \hline
 
-		\hline
-		Ester			&		–			&	*–oate			&
-			\vspace{2mm}
-			\chemfig[][scale=0.9]{!\molO=C(-[:315]!\molO(-[:0]!\molR))(-[:45]!\molR)}
-			\vspace{2mm}	\\
+		Amide           &   carbamoyl–*     &   *–amide         &
+			\vspace{4mm}\chemfig[][scale=0.9]{!\molO=C(-[:315]!\molR)(-[:45]!\molN(-[:0]!\molStar)(-[:135]!\molStar))}\vspace{4mm}
+			\\ \hline
 
+		Nitrile         &   cyano–*         &   *–nitrile       &
+			\vspace{12mm}\chemfig{!\molN~C-!\molR}\vspace{12mm} % extra padding
+			\\ \hline
 
-		\hline
-		Acyl Halide		&	halocarbonyl–*	&	*–oyl halide	&
-			\vspace{2mm}
-			\chemfig{!\molO=C(-[:315]!\molX)(-[:45]!\molR)}
-			\vspace{2mm}	\\
+		Aldehyde        &   formyl–*        &   *–al            &
+			\vspace{4mm}\chemfig{!\molO=C(-[:315]H)(-[:45]!\molR)}\vspace{4mm}
+			\\ \hline
 
+		Ketone          &   oxo–*           &   *–one           &
+			\vspace{4mm}\chemfig{!\molO=C(-[:315]!\molR)(-[:45]!\molR)}\vspace{4mm}
+			\\ \hline
 
-		\hline
-		Amide			&	carbamoyl–*		&	*–amide			&
-			\vspace{2mm}
-			\chemfig[][scale=0.9]{!\molO=C(-[:315]!\molR)(-[:45]!\molN(-[:0]!\molStar)(-[:135]!\molStar))}
-			\vspace{2mm}	\\
+		Alcohol         &   hydroxy–*       &   *–ol            &
+			\vspace{4mm}\chemfig{C(-[:0]!\molOH)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}\vspace{4mm}
+			\\ \hline
 
+		Amine           &   amino–*         &  *–amine          &
+			\vspace{4mm}\chemfig{!\molR-[:0]!\molN(-[:45]!\molStar)(-[:315]!\molStar)}\vspace{4mm}
+			\\ \hline
 
-		\hline
-		Nitrile			&	cyano–*			&	*–nitrile		&
-			\vspace{10mm}	% extra padding
-			\chemfig{!\molN~C-!\molR}
-			\vspace{10mm}	\\
+		Alkene          &   alkenyl–*       &   *–ene           &
+			\vspace{4mm}\chemfig{C(-[:135]!\molStar)(-[:225]!\molStar)=[:0]C(-[:45]!\molStar)(-[:315]!\molStar)}\vspace{4mm}
+			\\ \hline
 
-
-		\hline
-		Aldehyde		&	formyl–*		&	*–al			&
-			\vspace{2mm}
-			\chemfig{!\molO=C(-[:315]H)(-[:45]!\molR)}
-			\vspace{2mm}	\\
-
-
-		\hline
-		Ketone			&	oxo–*			&	*–one			&
-			\vspace{2mm}
-			\chemfig{!\molO=C(-[:315]!\molR)(-[:45]!\molR)}
-			\vspace{2mm}	\\
+		Alkyl Halide    &   halogen–*       &   –               &
+			\vspace{4mm}\chemfig{C(-[:0]!\molX)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}\vspace{4mm}
+			\\
 
 
-		\hline
-		Alcohol			&	hydroxy–*		&	*–ol			&
-			\vspace{2mm}
-			\chemfig{C(-[:0]!\molOH)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}
-			\vspace{2mm}	\\
-
-
-		\hline
-		Amine			&	amino–*			&	*–amine			&
-			\vspace{2mm}
-			\chemfig{!\molR-[:0]!\molN(-[:45]!\molStar)(-[:315]!\molStar)}
-			\vspace{2mm}	\\
-
-
-		\hline
-		Alkene			&	alkenyl–*		&	*–ene			&
-			\vspace{2mm}
-			\chemfig{C(-[:135]!\molStar)(-[:225]!\molStar)=[:0]C(-[:45]!\molStar)(-[:315]!\molStar)}
-			\vspace{2mm}	\\
-
-
-		\hline
-		Alkyl Halide	&	halogen–*		&		–			&
-			\vspace{2mm}
-			\chemfig{C(-[:0]!\molX)(-[:90]!\molStar)(-[:180]!\molStar)(-[:270]!\molStar)}
-			\vspace{2mm}	\\
-
-
-		\hline
-
-		\end{longtabu}
-		\end{center}
-
+		\end{longtabu}\end{center}
 	% end section
 % end part
 

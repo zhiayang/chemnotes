@@ -9,35 +9,35 @@
 	\section{Open Chain}
 
 		Open chain alkanes have the general formula of \ch{C_nH_{2n+2}}. They are called 'open-chain' because
-		the two endsof the chain are separate, in contrast with cycloalkanes. Open chain alkanes can either be straight-chained or branch-chained.
-		The terminology should be pretty much self explanatory.
+		the two ends of the chain are separate, in contrast with cycloalkanes. Open chain alkanes can either be straight or
+		branch; the terminology should be pretty much self explanatory.
 
 		\diagram{
 
 			\chemfig{!\molMeR-[:330]-[:30]-[:330]-[:30]-[:330]-[:30]-[:330]!\molMe}
 
-		}{Octane is an example of a straight-chain alkane.}
+		}Octane is an example of a straight-chain alkane.]
 
 
 		\diagram{
 
 			\chemfig{C(-[:0]!\molMe)(-[:90]!\molMe)(-[:180]!\molMeR)(-[:270]!\molMe)}
 
-		}{2,2-dimethylpropane is an example of a branched alkane.}
+		}[2,2-dimethylpropane is an example of a branched alkane.]
 
 	% end section
 
 	\section{Cycloalkanes}
 
 		Cycloalkanes are alkanes where the carbon atoms at either end of the chain are bonded together, forming a closed loop and
-		taking the shape of regular polygons.
+		taking the shape of regular polygons. They have the general formula \ch{C_nH_{2n}}
 
 		\diagram{
 
 			\chemfig{*5(-----)}		\hspace{15mm}
 			\chemfig{*6(------)}
 
-		}{Cyclopentane (left) and cyclohexane (right)}
+		}[Cyclopentane (left) and cyclohexane (right)]
 
 	% end section
 
@@ -48,7 +48,7 @@
 
 			The melting and boiling points of alkanes follow a simple pattern. Due to the fact that they rely solely on induced
 			dipole interactions for intermolecular bonding, both melting and boiling points increase with the length of the
-			carbon chain, and by extension M\sbs{r}. Note that small chains (eg. \ch{CH4}) have very low boiling points.
+			carbon chain, and by extension M\sbs{r}.
 
 			However, because branched alkanes have a smaller surface area for a given number of carbon atoms than straight-chained
 			alkanes, their melting and boiling points will be lower, due to a smaller area for polarisation.
@@ -76,7 +76,6 @@
 	% end section
 
 
-	\pagebreak
 	\section{Classification of Carbons}
 
 		This applies to many things --- carbons, halogenoalkanes, and alcohols. Essentially, the classification of an atom with
@@ -86,28 +85,26 @@
 		As example, there are 4 possible classifications of carbons in an alkane: \itl{primary}, \itl{secondary}, \itl{tertiary},
 		and \itl{quaternary}.
 
-		\begin{center}\begin{table}[ht]\renewcommand{\arraystretch}{1.4}
-		\begin{tabu} to \textwidth {| X[c,m] | X[c,m] | X[c,m] | X[c,m] |}
+		\begin{table}[ht]\renewcommand{\arraystretch}{1.4}\begin{center}
+		\begin{tabu} to 0.9\textwidth { X[c,m] | X[c,m] | X[c,m] | X[c,m] }
+
+			Primary (\SI{1}{\degree})		&
+			Secondary (\SI{2}{\degree})		&
+			Tertiary (\SI{3}{\degree})		&
+			Quaternary (\SI{4}{\degree})	\\
 
 			\hline
-			% row one: molecules
+
 			\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]H)(-[:180]H)(-[:270]H)}							\vspace{2mm}	&
 			\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]!\molRtw)(-[:180]H)(-[:270]H)}					\vspace{2mm}	&
 			\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]!\molRtw)(-[:180]!\molRth)(-[:270]H)}			\vspace{2mm}	&
 			\vspace{2mm}	\chemfig{C(-[:0]!\molRon)(-[:90]!\molRtw)(-[:180]!\molRth)(-[:270]!\molRfr)}	\vspace{2mm}	\\
 
-			\hline
-			Primary (\SI{1}{\degree})		&
-			Secondary (\SI{2}{\degree})		&
-			Tertiary (\SI{3}{\degree})		&
-			Quaternary (\SI{4}{\degree})	\\
-			\hline
+		\end{tabu}\end{center}
+		\end{table}\vspace{-1em}
 
-		\end{tabu}
-		\end{table}\end{center}\vspace{-10mm}
-
-		The table (ew) above gives a visual representation. \itl{R} represents an alkyl group substituent. This principle
-		also applies when classifying alkyl radicals.
+		% The table above gives a visual representation. \itl{R} represents an alkyl group substituent. This principle
+		% also applies when classifying alkyl radicals.
 
 	% end section
 
@@ -126,7 +123,7 @@
 				\vbox{\textbf{Conditions:}	\tabto{35mm}UV Light, \ch{Br2} / \ch{\Cl2} gas}
 				\vbox{\textbf{Observations:}\tabto{35mm}\boit{\color{Mahogany}Reddish-brown} \ch{Br2} / \boit{\color{YellowGreen}yellowish-green} \ch{\Cl2} decolourises.}
 
-				\paragraph{\itl{Stage I.\protect\hphantom{II}}\hspace{5mm} Initiation}
+				\paragraph{Stage I.\protect\hphantom{II}\hspace{5mm} \itl{Initiation}}
 
 					The \ch{\Cl-\Cl} bond is \itl{homolytically} broken to form 2 \ch{\Cl} radicals.
 					The energy required to break this bond is provided by the UV light.
@@ -144,21 +141,19 @@
 
 				% end
 
-				\paragraph{\itl{Stage II.\protect\hphantom{I}}\hspace{5mm} Propagation}
+				\paragraph{Stage II.\protect\hphantom{I}\hspace{5mm} \itl{Propagation}}
 
 					The highly reactive \ch{\Cl} radicals then react with the \ch{CH4} molecules, bonding with one of the
 					hydrogen atoms to form \ch{H\Cl} and a carbocation radical, \ch{CH3}.
 
-					\diagram{
-						\schemestart[0, 1.0, thick]
-							\chemfig{\lewis{0.,\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{CH\sbs{4}}
-							\arrow
-							\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{H\Cl}
-							\arrow(@c1.south east--.north east){0}[-90,.1]
-							\chemfig{\ch{\Cl2}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
-							\arrow
-							\chemfig{\ch{CH3\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
-						\schemestop
+					\txtreactioneqn{
+						\chlewis{0.}{\Cl} \hspace{2mm} + \hspace{3.625mm} \ch{CH4}
+						\arrow
+						\chlewis{180.}{CH3} \hspace{4.375mm} + \hspace{2mm} \ch{H\Cl}
+						\arrow(@c1.south east--.north east){0}[-90,.2]
+						\ch{\Cl2} \hspace{2mm} + \hspace{2mm} \chlewis{180.}{CH3}
+						\arrow
+						\ch{CH3\Cl} \hspace{2mm} + \hspace{2mm} \chlewis{0.}{\Cl}
 					}
 
 					This newly-minted \ch{CH3} radical can react with a \ch{\Cl2} molecule to form \ch{CH3\Cl} and another
@@ -168,24 +163,22 @@
 				%end
 
 				\pagebreak
-				\paragraph{\itl{Stage III.}\hspace{5mm} Termination}
+				\paragraph{Stage III.\hspace{5mm} \itl{Termination}}
 
 					In the termination stage, two radicals combine to form stable products, effectively terminating the chain reaction.
 
-					\diagram{
-						\schemestart[0, 1.0, thick]
-							\chemfig{\lewis{0.,\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
-							\arrow
-							\chemfig{\ch{\Cl2}}
-							\arrow(@c1.south east--.north east){0}[-90,.1]
-							\chemfig{\lewis{4.,CH\sbs{3}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
-							\arrow
-							\chemfig{\ch{CH3CH3}}
-							\arrow(@c3.south east--.north east){0}[-90,.1]
-							\chemfig{\lewis{0.,\Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{4.,CH\sbs{3}}}
-							\arrow
-							\chemfig{\ch{CH3\Cl}}
-						\schemestop
+					\txtreactioneqn{
+						\chlewis{0.}{\Cl} \hspace{2mm} + \hspace{5.75mm} \chlewis{0.}{\Cl}
+						\arrow
+						\ch{\Cl2}
+						\arrow(@c1.south east--.north east){0}[-90,.2]
+						\chlewis{180.}{CH3} \hspace{2mm} + \hspace{2mm} \chlewis{180.}{CH3}
+						\arrow
+						\ch{CH3CH3}
+						\arrow(@c3.south east--.north east){0}[-90,.2]
+						\chlewis{0.}{\Cl} \hspace{2mm} + \hspace{2mm} \chlewis{180.}{CH3}
+						\arrow
+						\ch{CH3\Cl}
 					}
 
 					Once all the radicals have been consumed in this manner, the reaction will stop, unless more UV light is provided (along
@@ -202,26 +195,24 @@
 				halogenated alkanes, due to the random nature of the process and the possibility of multi-substitution,
 				where more than one halogen atom has been substituted onto the alkane.
 
-				If there are still \ch{\Cl} radicals remaining, in the reaction chamber, \ch{CH3\Cl} formed during the
-				termination stage can still react with it, forming a \ch{CH2\Cl} radical, which can continue to react.
+				If there are still \ch{\Cl} radicals remaining in the reaction chamber, \ch{CH3\Cl} formed during the
+				termination stage can still react, forming a \ch{CH2\Cl} radical, which can continue to react.
 
-				\diagram{
-					\schemestart[0, 1.0, thick]
-						\chemfig{\ch{CH3Cl}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
-						\arrow
-						\chemfig{\lewis{4.,\ch{CH2\Cl}}}
-						\arrow(@c1.south east--.north east){0}[-90,.1]
-						\chemfig{\lewis{0.,\ch{CH2\Cl}}} \hspace{2mm} + \hspace{2mm} \chemfig{\ch{\Cl2}}
-						\arrow
-						\chemfig{\lewis{4.,\ch{CH2\Cl2}}} \hspace{2mm} + \hspace{2mm} \chemfig{\lewis{0.,\Cl}}
-					\schemestop
+				\txtreactioneqn{
+					\ch{CH3Cl} \hspace{2mm} + \hspace{2.125mm} \chlewis{0.}{\Cl}
+					\arrow
+					\chlewis{180.}{CH2\Cl}
+					\arrow(@c1.south east--.north east){0}[-90,.2]
+					\chlewis{0.}{CH2\Cl} \hspace{2mm} + \hspace{2mm} \ch{\Cl2}
+					\arrow
+					\chlewis{4.}{CH2\Cl2} \hspace{2mm} + \hspace{2mm} \chlewis{0.}{\Cl}
 				}
 
-				Indeed, this can continue \itl{ad-infinitum}, so until all the hydrogen atoms on the alkane have been substituted.
+				Indeed, this can continue \itl{ad-infinitum}, until all the hydrogen atoms on the alkane have been substituted.
 				In the case of methane, this results in the formation of \ch{CH3\Cl}, \ch{CH2\Cl2}, \ch{CH\Cl3} and
 				\ch{C\Cl4}.
 
-				In fact, the will also be a small amount of alkanes with more than 1 carbon in the chain; this is due to the
+				In fact, there will also be a small amount of alkanes with more than 1 carbon in the chain; this is due to the
 				possibility of two molecules of •\ch{CH2\Cl} reacting, which then has its hydrogens further substituted.
 
 			% end subsubsection
@@ -232,10 +223,9 @@
 			\pagebreak
 			\subsubsection{Isomerism of Products}
 
-				Because every hydrogen atom can be substituted by the halogen atom, alkanes with 3 or more carbon atoms in the chain
+				Because every hydrogen atom can be substituted by a halogen atom, alkanes with 3 or more carbon atoms in the chain
 				can form isomers. The probability of the formation of each isomer depends on both the number of possible hydrogen atoms
 				that can be substituted to result in it, as well as the stability of the carbon radical intermediate.
-
 
 				\diagram[1.0]{
 					\schemestart[0, 1.0, thick]
@@ -280,101 +270,68 @@
 
 				However, the stability of the carbon radical intermediate also plays a part in the ratio of products. For 1-chloropropane,
 				it involves forming a carbon radical on carbon 1, which only has 1 electron-donating alkyl group (through the induction effect)
-				to stabilise the positive charge. On the other hand, for 2-chloropropane, the positive charge is on carbon 2, which
-				has 2 electron-donating alkyl groups to stabilise it. Thus, it is more likely to form, and hence 2-chloropropane is more
-				likely to form.	Therefore, the actual ratio of products is around 4 : 6, not 2 : 6.
+				to stabilise the positive charge.
+
+				On the other hand, for 2-chloropropane, the positive charge is on carbon 2, which has 2 electron-donating alkyl groups to stabilise
+				it. Thus, the intermediate is more stable, and hence 2-chloropropane is more likely to form.
+				Therefore, the actual ratio of products is around 4 : 6, not 2 : 6.
 
 			% end subsubsection
 
-
+			\pagebreak
 			\subsubsection{Halogen Reactivity}
 
 				The reactivity of the free radical substitution naturally depends on the species of halogen that is reacting.
 				As is typical of halogens, the reactivity increases in this order: \ch{I2} < \ch{Br2} < \ch{\Cl2} < \ch{F2}.
 				In fact, the substitution by fluorine is too reactive --- even in the dark and at room temperature. On the other hand,
-				the substitution of iodine is not feasible (∆G > 0).
+				the substitution of iodine is not feasible (\gibb{} > 0).
 
 				In the propagation steps of the reaction, several bonds are formed and broken. Using X as a halogen atom:
 
 				\vspace{1em}
-				\vbox{∆H\sbs{1} = BE(\ch{C–H}) - BE(\ch{H–X})		\tabto{60mm}\ch{CH3}–H + X•		\tabto{85mm} \ch{->} •\ch{CH3} + H–X	}
-				\vbox{∆H\sbs{2} = BE(\ch{X–X}) - BE(\ch{C–X})		\tabto{60mm}•\ch{CH3} + X–X		\tabto{85mm} \ch{->} \ch{CH3}–X + X•	}
-				\vbox{∆H\sbs{r} = ∆H\sbs{1} + ∆H\sbs{2}	\tabto{60mm}\ch{CH4} + \ch{X2}	\tabto{85mm} \ch{->} \ch{CH3X} + HX	}
+				\vbox{\enth{1} = BE(\ch{C-H}) - BE(\ch{H-X}) \tabto{60mm}\ch{CH3-H} + X•                \tabto{85mm} \ch{->} \chlewis{180.}{CH3} + \ch{H-X} }
+				\vbox{\enth{2} = BE(\ch{X-X}) - BE(\ch{C-X}) \tabto{60mm}\chlewis{180.}{CH3} + \ch{X-X} \tabto{85mm} \ch{->} \ch{CH3-X} + \chlewis{0.}{X}   }
+				\vbox{\enth{r} = \enth{1} + \enth{2}         \tabto{60mm}\ch{CH4} + \ch{X2}             \tabto{85mm} \ch{->} \ch{CH3X} + \ch{HX}  }
 
 				The values of the bond energies for H–X, X–X, and C–X are below:
-				\vspace{1.0em}
 
-				\begin{center}\begin{table}[htb]\renewcommand{\arraystretch}{1.5}
-				\begin{tabu} to \textwidth {X[c,m] | X[c,m] | X[c,m] | X[c,m] | X[c,m]}
+				\begin{table}[htb]\renewcommand{\arraystretch}{1.5}\begin{center}
+				\begin{tabu} to 0.9\textwidth {X[c,m] | X[c,m] | X[c,m] | X[c,m] | X[c,m]}
 
-					&\ch{H-X} / \si{\kJmol}	&\ch{H-X} / \si{\kJmol}	&\ch{H-X} / \si{\kJmol}	&$∆H_{r}$ / \si{\kJmol}\\ \hline
+					&\ch{H-X} / \si{\kJmol}	&\ch{H-X} / \si{\kJmol}	&\ch{H-X} / \si{\kJmol}	&\enth{r} / \si{\kJmol}\\ \hline
 
-					\ch{F2}		&	\num{562}	&	\num{484}	&	\num{158}	&	\num{-478}							\\	\hline
-					\ch{\Cl2}	&	\num{431}	&	\num{340}	&	\num{244}	&	\num{-117}							\\	\hline
-					\ch{Br2}	&	\num{366}	&	\num{280}	&	\num{193}	&	\num{-43}							\\	\hline
-					\ch{I2}		&	\num{299}	&	\num{240}	&	\num{151}	&	\num[retain-explicit-plus]{+22}		\\	\hline
+					\ch{F2}     &   \num{562}   &   \num{484}   &   \num{158}   &   \num{-478}                      \\
+					\ch{\Cl2}   &   \num{431}   &   \num{340}   &   \num{244}   &   \num{-117}                      \\
+					\ch{Br2}    &   \num{366}   &   \num{280}   &   \num{193}   &   \num{-43}                       \\
+					\ch{I2}     &   \num{299}   &   \num{240}   &   \num{151}   &   \num[retain-explicit-plus]{+22} \\
 
-				\end{tabu}
-				\end{table}\end{center}
+				\end{tabu}\end{center}
+				\end{table}\vspace{-1em}
 
-				% \vbox{
-				% 	\ch{F2}		\tabto{25mm}	H–F			\tabto{50mm} = \SI{562}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	C–F			\tabto{50mm} = \SI{484}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	F–F			\tabto{50mm} = \SI{158}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI{-478}{\kilo\joule\per\mole}
-				% }
-
-				% \vspace{1.0em}
-				% \vbox{
-				% 	\ch{\Cl2}	\tabto{25mm}	H–\ch{\Cl}				\tabto{50mm} = \SI{431}{\kilo\joule\per\mole}
-				% 					\tabto{25mm}	C–\ch{\Cl}				\tabto{50mm} = \SI{340}{\kilo\joule\per\mole}
-				% 					\tabto{25mm}	\ch{\Cl}–\ch{\Cl2}	\tabto{50mm} = \SI{244}{\kilo\joule\per\mole}
-				% 					\tabto{25mm}	∆H\sbs{r}						\tabto{50mm} = \SI{-117}{\kilo\joule\per\mole}
-				% }
-
-				% \vspace{1.0em}
-				% \vbox{
-				% 	\ch{Br2}	\tabto{25mm}	H–Br		\tabto{50mm} = \SI{366}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	C–Br		\tabto{50mm} = \SI{280}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	Br–Br		\tabto{50mm} = \SI{193}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI{-43}{\kilo\joule\per\mole}
-				% }
-
-				% \vspace{1.0em}
-				% \vbox{
-				% 	\ch{I2}		\tabto{25mm}	H–I			\tabto{50mm} = \SI{299}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	C–I			\tabto{50mm} = \SI{240}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	I–I			\tabto{50mm} = \SI{151}{\kilo\joule\per\mole}
-				% 				\tabto{25mm}	∆H\sbs{r}	\tabto{50mm} = \SI[retain-explicit-plus]{+22}{\kilo\joule\per\mole}
-				% }
-
-				As can be seen, the reaction with \ch{F2} is highly exothermic; even the F–F bond energy is relatively small, hence the
+				As can be seen, the reaction with \ch{F2} is highly exothermic; the F–F bond energy is relatively small, hence the
 				reaction is highly spontaneous --- even at room temperature and without UV light, since the initiation stage requires
 				little energy to progress.
 
-				On the other hand, the ∆H of the reaction with \ch{I2} is positive, hence the reaction is not as spontaneous, and it is not
-				as likely to take place.
-
+				On the other hand the \enth{} of the reaction with \ch{I2} is positive, hence the reaction is not as spontaneous, and the rate of
+				reaction is very slow.
 
 			% end subsubsection
 		% end subsection
 
-		\pagebreak
+
 		\subsection{Combustion}
 
 			Alkanes are a type of combustible fuel, and there exists a general formula describing the required amounts of \ch{O2}
 			to combust a given hydrocarbon.
 
-			\diagram{
-				\schemestart[0, 1.0, thick]
-					\chemfig{C$_{x}$H$_{y}$}
-					\hspace{2mm} + \hspace{2mm}
-					\chemfig{$x + \frac{y}{4}$\ch{O2}}
-					\arrow
-					\chemfig{$x$\ch{CO2}}
-					\hspace{2mm} + \hspace{2mm}
-					\chemfig{$\frac{y}{2}$\ch{H2O}}
-				\schemestop
+			\txtreactioneqn{
+				\ch{C$_{x}$H$_{y}$}
+				\hspace{2mm} + \hspace{2mm}
+				$(x + \frac{y}{4})$ \ch{O2}
+				\arrow
+				$x$ \ch{CO2}
+				\hspace{2mm} + \hspace{2mm}
+				$\frac{y}{2}$ \ch{H2O}
 			}
 
 			Note that while this combustion process is highly exothermic, it still has a high activation energy, and requires an energy
